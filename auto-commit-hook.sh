@@ -27,6 +27,15 @@ if ! command -v git &> /dev/null; then
     exit 0  # Exit with 0 to not block Claude from stopping
 fi
 
+# Check if gh CLI is available
+HAS_GH=false
+if command -v gh &> /dev/null; then
+    HAS_GH=true
+    log_message "INFO: Using GitHub CLI for authentication"
+else
+    log_message "INFO: GitHub CLI not found, using git directly"
+fi
+
 # Fetch latest changes from remote
 git fetch origin main &>/dev/null
 
@@ -84,10 +93,20 @@ if [ ${PIPESTATUS[0]} -ne 0 ]; then
 fi
 
 # Push to remote
-git push origin main 2>&1 | tee -a "$LOG_FILE" &>/dev/null
-if [ ${PIPESTATUS[0]} -ne 0 ]; then
-    log_message "ERROR: Failed to push to remote, changes saved locally"
-    exit 0  # Exit with 0 to not block Claude from stopping
+if [ "$HAS_GH" = true ]; then
+    # Use GitHub CLI for pushing (handles auth better)
+    gh repo sync --branch main 2>&1 | tee -a "$LOG_FILE" &>/dev/null
+    if [ ${PIPESTATUS[0]} -ne 0 ]; then
+        log_message "ERROR: Failed to sync with remote using gh, changes saved locally"
+        exit 0  # Exit with 0 to not block Claude from stopping
+    fi
+else
+    # Fallback to git push
+    git push origin main 2>&1 | tee -a "$LOG_FILE" &>/dev/null
+    if [ ${PIPESTATUS[0]} -ne 0 ]; then
+        log_message "ERROR: Failed to push to remote, changes saved locally"
+        exit 0  # Exit with 0 to not block Claude from stopping
+    fi
 fi
 
 log_message "SUCCESS: Changes pushed to remote successfully"
