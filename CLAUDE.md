@@ -53,6 +53,152 @@ mcp__basic-memory__search_notes "category:[task-category] energy:[current-energy
 
 ---
 
+## 📚 BASIC MEMORY COMPREHENSIVE GUIDE
+
+> Complete AI Assistant Guide: `/Users/caio.niehues/.claude/docs/basic memory guide.md`
+
+### Core Tools Reference
+
+#### Writing & Reading Knowledge
+```bash
+# Write/update notes (primary tool)
+mcp__basic-memory__write_note \
+  --title "Note Title" \
+  --content "# Content\n..." \
+  --folder "folder/path" \
+  --tags ["tag1", "tag2"] \
+  --project "project-name"
+
+# Read existing content
+mcp__basic-memory__read_note "Note Title"           # By title
+mcp__basic-memory__read_note "folder/note-name"     # By path
+mcp__basic-memory__read_note "memory://folder/note" # By memory URL
+
+# View as formatted artifact (Claude Desktop)
+mcp__basic-memory__view_note "Note Title"
+```
+
+#### Incremental Editing (v0.13.0)
+```bash
+# Edit notes incrementally (requires EXACT identifier)
+mcp__basic-memory__edit_note \
+  --identifier "Exact Note Title" \
+  --operation "append" \              # append, prepend, find_replace, replace_section
+  --content "\n## New Section\n..."
+
+# Move/organize files
+mcp__basic-memory__move_note \
+  --identifier "Old Note" \
+  --destination "archive/old-note.md"
+```
+
+#### Search & Discovery
+```bash
+# Search across knowledge base
+mcp__basic-memory__search_notes "query" --types ["type1"] --after-date "7d ago"
+
+# Build context from memory URLs
+mcp__basic-memory__build_context "memory://folder/*" --timeframe "7d"
+
+# Check recent activity
+mcp__basic-memory__recent_activity --timeframe "24h"
+```
+
+#### Project Management
+```bash
+# List and switch projects
+mcp__basic-memory__list_memory_projects
+mcp__basic-memory__switch_project "work-notes"
+mcp__basic-memory__get_current_project
+```
+
+### Semantic Markdown Format
+
+#### Observations & Relations
+```markdown
+# Entity Title
+
+## Observations
+- [category] This is an observation #tag1 #tag2
+- [decision] We chose X over Y #architecture
+- [technique] Use pattern Z for performance #optimization
+
+## Relations
+- relates_to [[Other Entity]]
+- implements [[Design Pattern]]
+- requires [[Dependency]]
+- part_of [[Parent System]]
+```
+
+#### Common Categories & Relations
+**Categories**: `[idea]`, `[decision]`, `[question]`, `[fact]`, `[requirement]`, `[technique]`, `[preference]`
+**Relations**: `relates_to`, `implements`, `requires`, `extends`, `part_of`, `pairs_with`, `inspired_by`
+
+### Memory URL Patterns
+- `memory://title` - Reference by title
+- `memory://folder/title` - Reference by folder and title
+- `memory://path/relation_type/*` - Follow all relations of type
+- `memory://path/*/target` - Find all entities with relations to target
+
+### Knowledge Graph Best Practices
+
+1. **Build Rich Connections**
+   - Add 3-5 categorized observations per note
+   - Connect each note to 2-3 related entities
+   - Use specific relation types (not generic `relates_to`)
+   - Create bidirectional relations when appropriate
+
+2. **Reference Accurately**
+   - Use exact titles for `[[WikiLinks]]`
+   - Search first to find existing entities
+   - Create forward references (they link automatically later)
+   - Verify identifiers with `search_notes()` before editing
+
+3. **Capture Proactively**
+   - Ask: "Would you like me to record this?"
+   - Confirm: "I've saved this to Basic Memory"
+   - Record decisions, patterns, solutions
+   - Document relationships and context
+
+### Common Workflows
+
+#### Task Pattern Capture
+```bash
+mcp__basic-memory__write_note \
+  --title "Task Pattern - [Task Name]" \
+  --folder "life-os/task-patterns" \
+  --content "Time: planned vs actual\nEnergy: required\nBlockers: encountered\nSuccess factors: identified"
+```
+
+#### Multi-Project Work
+```bash
+# Work content
+mcp__basic-memory__write_note --title "Sprint Notes" --project "work-notes"
+
+# Personal content  
+mcp__basic-memory__write_note --title "Personal Task" --project "personal"
+```
+
+#### Incremental Note Building
+```bash
+# Search for exact title first
+results = mcp__basic-memory__search_notes "setup guide"
+
+# Then edit with exact title
+mcp__basic-memory__edit_note \
+  --identifier "Setup Guide v2" \
+  --operation "append" \
+  --content "\n## Troubleshooting\n..."
+```
+
+### Important v0.13.0 Notes
+- **Strict Matching**: `edit_note` and `move_note` require EXACT identifiers
+- **Search First**: Use `search_notes()` to find exact titles before editing
+- **Tags Searchable**: Frontmatter tags are now indexed and searchable
+- **Project Context**: All tools support `--project` parameter
+
+---
+
 ## 🎯 PART 2: JAVA CLEAN CODE STANDARDS
 
 ### SIMPLICITY FIRST - THE PRIME DIRECTIVE
