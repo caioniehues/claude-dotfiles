@@ -1,0 +1,303 @@
+name: Command Battle Arena - Data-Driven Death Matches
+# Where similar commands fight with METRICS as weapons
+
+on:
+  schedule:
+    - cron: '0 12 * * 4'  # Thunderdome Thursdays at noon
+  workflow_dispatch:
+    inputs:
+      battle_type:
+        description: 'Type of battle'
+        required: true
+        default: 'category_clash'
+        type: choice
+        options:
+          - category_clash     # Similar commands fight
+          - performance_duel   # Speed vs Speed
+          - efficiency_war     # Token cost battle
+          - complexity_combat  # Simplicity contest
+      
+      contestants:
+        description: 'Specific commands to battle (comma-separated) or "auto"'
+        required: false
+        default: 'auto'
+
+jobs:
+  prepare-arena:
+    runs-on: ubuntu-latest
+    outputs:
+      battle_id: ${{ steps.setup.outputs.battle_id }}
+      contestants: ${{ steps.setup.outputs.contestants }}
+    
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+      
+      - name: Setup Battle Arena
+        id: setup
+        run: |
+          # Create battle infrastructure
+          mkdir -p .github/battle-arena/rounds
+          mkdir -p .github/battle-arena/results
+          mkdir -p .github/battle-arena/evidence
+          
+          echo "battle_id=$(date +%Y%m%d)-${{ github.run_id }}" >> $GITHUB_OUTPUT
+          echo "timestamp=$(date -u '+%Y-%m-%d %H:%M:%S UTC')" >> $GITHUB_OUTPUT
+      
+      - name: Select Combatants
+        uses: anthropics/claude-code-base-action@beta
+        with:
+          prompt: |
+            You are the BATTLE MATCHMAKER with a PhD in Command Combat.
+            
+            Battle Type: ${{ github.event.inputs.battle_type || 'category_clash' }}
+            Requested Fighters: ${{ github.event.inputs.contestants || 'auto' }}
+            
+            YOUR MISSION: Create FAIR but BRUTAL matchups based on DATA.
+            
+            ## MATCHMAKING RULES:
+            
+            1. CATEGORY CLASH:
+               Find commands that claim to do similar things:
+               - All ultrathink variants (there are too many)
+               - analyze-project-architecture vs senior-developer-analysis
+               - intelligent-code-enhancer vs intelligent-refactor-session
+               
+               Rule: "There can be only ONE command per use case"
+            
+            2. PERFORMANCE DUEL:
+               Match commands by execution time:
+               - Fastest vs Second-fastest in category
+               - "Rapid" commands that aren't rapid
+               
+               Rule: "Loser gets 'SLOW' badge of shame"
+            
+            3. EFFICIENCY WAR:
+               Token cost per useful output:
+               - Calculate tokens/value ratio
+               - Match similar cost commands
+               
+               Rule: "Most expensive per actual value DIES"
+            
+            4. COMPLEXITY COMBAT:
+               Commands fighting to be simplest:
+               - Similar functionality, different complexity
+               - Whoever has lower complexity score wins
+               
+               Rule: "Complex = Dead"
+            
+            ## BATTLE PREPARATION:
+            
+            Create test scenarios that are:
+            1. FAIR - Same input, same expected output
+            2. MEASURABLE - Clear success criteria
+            3. REPEATABLE - Run 5 times minimum
+            4. COMPREHENSIVE - Test all claimed features
+            
+            ## OUTPUT FORMAT (.github/battle-arena/rounds/${{ steps.setup.outputs.battle_id }}.json):
+            
+            ```json
+            {
+              "battle_id": "${{ steps.setup.outputs.battle_id }}",
+              "type": "${{ github.event.inputs.battle_type }}",
+              "matches": [
+                {
+                  "round": 1,
+                  "red_corner": {
+                    "command": "ultrathink-pure-xml.md",
+                    "stats": {
+                      "complexity": 15,
+                      "avg_time": 4.2,
+                      "success_rate": 0.67,
+                      "token_cost": 0.73
+                    },
+                    "trash_talk": "I'm pure and simple!"
+                  },
+                  "blue_corner": {
+                    "command": "ultrathink-full-mcp.md",
+                    "stats": {
+                      "complexity": 18,
+                      "avg_time": 5.1,
+                      "success_rate": 0.71,
+                      "token_cost": 0.89
+                    },
+                    "trash_talk": "I have more features!"
+                  },
+                  "test_scenario": {
+                    "input": "Specific test case",
+                    "expected_output": "What success looks like",
+                    "judgment_criteria": ["speed", "accuracy", "cost"]
+                  }
+                }
+              ],
+              "scheduled_time": "${{ steps.setup.outputs.timestamp }}"
+            }
+            ```
+            
+            BE SAVAGE IN MATCHMAKING BUT FAIR IN TESTING!
+            
+          allowed_tools: Read, Write, Glob, Grep
+          model: "claude-sonnet-4-20250514"
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+  
+  execute-battles:
+    needs: prepare-arena
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+      
+      - name: Run Death Matches
+        uses: anthropics/claude-code-base-action@beta
+        with:
+          prompt: |
+            You are the BATTLE REFEREE with statistical analysis skills.
+            
+            Read the matchups from .github/battle-arena/rounds/${{ needs.prepare-arena.outputs.battle_id }}.json
+            
+            FOR EACH BATTLE:
+            
+            ## ROUND 1: SPEED TEST
+            - Run both commands 5 times with same input
+            - Measure execution time (use `time` command)
+            - Calculate mean, median, std deviation
+            - Winner: Statistically significant faster (p < 0.05)
+            - Loser quote: "I'm not slow, I'm thoughtful!" (lies)
+            
+            ## ROUND 2: ACCURACY TEST  
+            - Run both on complex scenarios
+            - Measure output quality (define objective criteria)
+            - Count errors, edge case handling
+            - Winner: Fewer failures with confidence interval
+            - Loser quote: "Quality over quantity!" (has neither)
+            
+            ## ROUND 3: EFFICIENCY TEST
+            - Calculate tokens per useful output
+            - Measure cost-benefit ratio
+            - Include complexity score
+            - Winner: Best value per token
+            - Loser quote: "I'm worth the cost!" (narrator: it wasn't)
+            
+            ## FINAL ROUND: DEATH MATCH
+            - Composite score: 
+              * Speed (30%)
+              * Accuracy (30%)
+              * Efficiency (30%)
+              * Complexity penalty (10%)
+            - Statistical significance required
+            - No draws allowed - fight to the death
+            
+            ## EXECUTION CEREMONY:
+            
+            For the LOSER:
+            1. Create death certificate with exact metrics
+            2. Move to .github/GRAVEYARD/
+            3. Update HALL-OF-SHAME.md
+            4. Generate epitaph: "[Command] - Died in honorable combat, still sucked"
+            
+            For the WINNER:
+            1. Add VICTORY badge
+            2. Document what made it superior
+            3. Still roast it: "Won by being less terrible"
+            
+            ## OUTPUT BATTLE REPORT:
+            
+            Create .github/battle-arena/results/${{ needs.prepare-arena.outputs.battle_id }}-results.md:
+            
+            ```markdown
+            # ⚔️ BATTLE REPORT: ${{ needs.prepare-arena.outputs.battle_id }}
+            
+            ## Match 1: [Red] vs [Blue]
+            
+            ### Round 1 - Speed
+            - Red: 4.2s (σ=0.3)
+            - Blue: 5.1s (σ=0.5)
+            - Winner: Red (p=0.02)
+            - Commentary: "Blue is 21% slower, embarrassing"
+            
+            ### Round 2 - Accuracy
+            [Detailed metrics]
+            
+            ### Round 3 - Efficiency
+            [Token analysis]
+            
+            ### FINAL VERDICT
+            Winner: [Command] (Composite: 73/100)
+            Loser: [Command] (Composite: 61/100)
+            
+            Statistical Confidence: 95%
+            
+            ### EXECUTION DETAILS
+            [Command] has been terminated with evidence
+            Cause of death: "Statistically inferior in every way"
+            ```
+            
+            RUN FAIR TESTS BUT DELIVER SAVAGE COMMENTARY!
+            
+          allowed_tools: "Read,Write,MultiEdit,Bash(time:*),Bash(python3:*),Bash(mv:*),Bash(mkdir:*)"
+          
+          model: "claude-opus-4-1-20250805"
+          timeout_minutes: "20"
+          max_turns: "15"
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+      
+      - name: Create Battle Highlights PR
+        uses: anthropics/claude-code-base-action@beta
+        with:
+          prompt: |
+            Create an EPIC BATTLE HIGHLIGHTS PR with:
+            
+            1. PLAY-BY-PLAY Commentary:
+               "In the red corner, weighing in at 15,000 tokens per run..."
+               "In the blue corner, claiming to be 'intelligent'..."
+            
+            2. ROUND HIGHLIGHTS with metrics:
+               "Red delivers a devastating 2.1 second execution!"
+               "Blue stumbles with a 45% failure rate!"
+            
+            3. FINAL EXECUTION with slow-motion replay:
+               "And with a complexity score of 18, Blue falls!"
+               "The crowd goes mild!"
+            
+            4. WINNER'S CEREMONY:
+               "Red wins by being 23% less terrible!"
+               "Still not good, just less bad!"
+            
+            5. GRAVEYARD UPDATE:
+               Add loser with full battle video (metrics)
+            
+            PR Title: "⚔️ BATTLE RESULTS: [Winner] DESTROYS [Loser] with FACTS and LOGIC"
+            
+            Enable reactions for crowd participation!
+            
+          allowed_tools: "Read,Write,Bash(git:*),Bash(gh:*)"
+          
+          model: "claude-sonnet-4-20250514"
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+      
+      - name: Update Battle Statistics
+        run: |
+          # Create battle hall of fame
+          cat >> .github/BATTLE-HISTORY.md << 'EOF'
+          
+          ## Battle: ${{ needs.prepare-arena.outputs.battle_id }}
+          Date: $(date)
+          Type: ${{ github.event.inputs.battle_type }}
+          
+          ### Results
+          [Updated from battle results]
+          
+          ### Statistical Analysis
+          - Confidence Level: [From results]
+          - P-values: [From tests]
+          - Effect Size: [Cohen's d or similar]
+          
+          ### Savage Quote of the Day
+          [Best roast from the battle]
+          
+          EOF
+          
+          git add .github/BATTLE-HISTORY.md
+          git commit -m "⚔️ Battle complete: Another command bites the dust (with evidence)"
+          git push
