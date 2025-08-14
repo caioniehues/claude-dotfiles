@@ -140,7 +140,10 @@ jobs:
           prompt: |
             Create a PUBLIC EXECUTION PR for today's victims.
             
-            Read .github/thunderdome/today-victims.json
+            First check if .github/thunderdome/today-victims.json exists.
+            If it doesn't exist, select 4 victims based on the benchmark evidence from .github/benchmarks/evidence/latest-roast.md.
+            
+            Use the KILL LIST from the benchmark data to identify victims.
             
             For each victim, create:
             
