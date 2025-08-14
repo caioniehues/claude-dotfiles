@@ -356,3 +356,18 @@ fatal: could not read Username for 'https://github.com': Device not configured
 can't sync because there are diverging changes; use `--force` to overwrite the destination branch
 [2025-08-14 15:12:16] ERROR: Failed to sync with remote using gh
 [2025-08-14 15:15:00] INFO: Using GitHub CLI for authentication
+[main 850f07a] Sync claude configurations - 2025-08-14 15:15
+ 4 files changed, 25 insertions(+), 4 deletions(-)
+[main 850f07a] Sync claude configurations - 2025-08-14 15:15
+ 4 files changed, 25 insertions(+), 4 deletions(-)
+fatal: could not read Username for 'https://github.com': Device not configured
+fatal: could not read Username for 'https://github.com': Device not configured
+failed to run git: exit status 128
+failed to run git: exit status 128
+[2025-08-14 15:15:01] INFO: Regular sync failed, trying with --force
+fatal: could not read Username for 'https://github.com': Device not configured
+fatal: could not read Username for 'https://github.com': Device not configured
+failed to run git: exit status 128
+failed to run git: exit status 128
+[2025-08-14 15:15:02] ERROR: Failed to sync with remote using gh
+[2025-08-14 15:16:33] INFO: Using GitHub CLI for authentication
