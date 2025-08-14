@@ -1,9 +1,11 @@
+# Java Test-Driven Development - Strict TDD Methodology
+
 <task>
-Implement Java code using strict TDD methodology: RED → GREEN → REFACTOR, with all Clean Code and Effective Java principles, enhanced with thinking-first architecture.
+Implements Java using strict TDD methodology: RED→GREEN→REFACTOR cycles: $ARGUMENTS
 </task>
 
 <context>
-This command focuses on Test-Driven Development for Java, ensuring tests are written BEFORE implementation.
+This command enforces Test-Driven Development for Java, ensuring tests are written BEFORE implementation.
 Follows the complete TDD cycle while maintaining simplicity and clean code standards.
 
 Key thinking layers:

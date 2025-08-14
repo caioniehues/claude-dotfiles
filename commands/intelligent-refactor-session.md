@@ -1,11 +1,11 @@
-# Intelligent Refactoring Engine - Thinking-Enhanced
+# Intelligent Refactor Session - Persistent Code Refactoring
 
 <task>
-Refactor code systematically with thinking-first architecture, preserving functionality while improving structure based on: $ARGUMENTS
+Session-based code refactoring with persistence, validation, and automatic rollback capabilities for: $ARGUMENTS
 </task>
 
 <context>
-This command restructures code through intelligent analysis, pattern recognition, and continuous validation with mandatory thinking at every decision point.
+This command provides session-based refactoring with state persistence, incremental execution, continuous validation, and automatic rollback capabilities, ensuring safe and complete code transformations.
 
 Arguments: `$ARGUMENTS` - files, directories, or refactoring scope
 </context>

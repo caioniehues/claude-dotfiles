@@ -1,12 +1,11 @@
-# Understand Project (Thinking-Enhanced)
+# Analyze Project Architecture - Comprehensive Codebase Analysis
 
 <task>
-Analyze entire application architecture, patterns, and component interactions with structured reasoning and adaptive thinking-first methodology.
+Comprehensive codebase analysis for architecture patterns and system understanding: $ARGUMENTS
 </task>
 
 <context>
-This command performs comprehensive project analysis through structured thinking layers before execution.
-Combines systematic discovery with intelligent reasoning to build deep understanding.
+This command performs deep analysis of project architecture, identifying patterns, dependencies, and system design through systematic discovery and intelligent reasoning to build complete mental models.
 
 Key thinking layers:
 - Pre-analysis scope understanding

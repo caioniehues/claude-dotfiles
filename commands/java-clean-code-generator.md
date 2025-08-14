@@ -1,9 +1,11 @@
+# Java Clean Code Generator - Production-Quality Java Implementation
+
 <task>
-Implement the Java code task requested by the user, strictly following the Clean Code, Effective Java, and Simplicity principles defined in the documentation, while maintaining ultra-high code quality standards through thinking-first architecture.
+Generates production Java code following Clean Code principles with enforced simplicity: $ARGUMENTS
 </task>
 
 <context>
-This command is a comprehensive Java implementation assistant that rigorously applies:
+This command generates production-quality Java code that rigorously applies:
 - Clean Code principles (meaningful names, small functions, single responsibility)
 - Effective Java patterns (static factories, builders, composition, immutability)
 - Simplicity-first approach (3-question rule, complexity score < 5)

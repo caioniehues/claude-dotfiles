@@ -1,11 +1,11 @@
-# Thinking-Enhanced Code Beautification
+# Safe Code Beautifier - Zero Behavior Change Beautification
 
 <task>
-Improve code readability and maintainability while preserving exact functionality through intelligent refactoring.
+Beautifies code with guaranteed zero behavior changes and risk assessment: $ARGUMENTS
 </task>
 
 <context>
-This command transforms working code into maintainable code through strategic beautification that focuses on readability without introducing any behavioral changes.
+This command transforms working code into beautiful, maintainable code through safe refactoring that guarantees zero behavior changes while improving readability.
 
 Thinking-driven beautification approach:
 - Safety-first refactoring analysis

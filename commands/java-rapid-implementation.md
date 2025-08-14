@@ -1,9 +1,11 @@
+# Java Rapid Implementation - Quick Java with Simplicity Focus
+
 <task>
-Implement Java code following SIMPLICITY FIRST principle with Clean Code standards through thinking-first validation. Check complexity score and reasoning before writing any code.
+Quick Java implementation with simplicity focus, auto-delegates complex tasks: $ARGUMENTS
 </task>
 
 <context>
-Quick Java implementation command with thinking-first architecture that enforces the 3-Question Rule and complexity scoring before any implementation. This is a simplicity-focused shorthand for java-clean-implementer with mandatory reasoning validation and MCP integration for complex scenarios.
+This command provides rapid Java implementation focusing on simplicity, automatically delegating to full implementation when complexity exceeds threshold. Enforces the 3-Question Rule and maintains clean code standards.
 </context>
 
 <thinking_orchestration>

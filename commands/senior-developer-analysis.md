@@ -1,11 +1,11 @@
-# Thinking-Enhanced Senior Developer Explanation
+# Senior Developer Analysis - Expert Code Explanation
 
 <task>
-Provide senior-level code explanation with deep technical and business context, focusing on the WHY behind decisions.
+Expert-level code analysis with business context, trade-offs, and architectural insights: $ARGUMENTS
 </task>
 
 <context>
-This command delivers experience-driven code analysis that bridges the gap between junior understanding (what the code does) and senior perspective (why it exists, what it enables, and how it fits into the larger system).
+This command provides expert-level code analysis that explains not just what code does, but WHY it exists, architectural decisions, business trade-offs, and how it fits into the larger system.
 
 Thinking-driven explanation approach:
 - Deep architectural analysis

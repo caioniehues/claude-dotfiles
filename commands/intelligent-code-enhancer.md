@@ -1,11 +1,11 @@
-# Enhancement Prompt - Thinking-First Architecture
+# Intelligent Code Enhancer - Adaptive Enhancement Engine
 
 <task>
-Enhance code, documentation, or system designs with intelligent thinking-first architecture based on: $ARGUMENTS
+Adaptive code enhancement with pattern learning, risk assessment, and validation: $ARGUMENTS
 </task>
 
 <context>
-This command implements comprehensive enhancement through thoughtful analysis, pattern recognition, and adaptive improvement strategies.
+This command provides intelligent code enhancement through adaptive analysis, pattern recognition, risk assessment, and continuous learning for optimal improvements.
 
 Core capabilities:
 - Multi-layer thinking orchestration
