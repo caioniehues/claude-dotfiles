@@ -1,0 +1,42 @@
+{
+  "measurement_framework": {
+    "version": "1.0.0",
+    "timestamp": "2025-08-14T21:34:21Z",
+    "metrics": {
+      "complexity_score": {
+        "description": "CLAUDE.md complexity score (target: <5)",
+        "calculation": "lines + abstractions*2 + patterns*3 + configs*2",
+        "max_acceptable": 5
+      },
+      "token_consumption": {
+        "description": "Estimated tokens consumed by command",
+        "method": "character_count / 4 (rough approximation)",
+        "efficiency_threshold": 1000
+      },
+      "execution_probability": {
+        "description": "Likelihood command will actually execute successfully",
+        "factors": ["pseudo_code_ratio", "dependency_count", "error_handling"]
+      },
+      "maintainability": {
+        "description": "How maintainable is this command",
+        "factors": ["line_count", "xml_nesting", "thinking_overhead"]
+      },
+      "practical_utility": {
+        "description": "Actual usefulness vs claimed functionality",
+        "measurement": "claimed_features / realistic_implementation_effort"
+      }
+    },
+    "test_scenarios": [
+      "Simple task execution",
+      "Error handling",
+      "Integration with other commands",
+      "Performance under load",
+      "Maintainability assessment"
+    ],
+    "benchmarking_standards": {
+      "baseline": "Manual execution of equivalent task",
+      "comparison": "Standard unix tools or basic scripts",
+      "success_criteria": "Completes task faster and more reliably than manual"
+    }
+  }
+}
