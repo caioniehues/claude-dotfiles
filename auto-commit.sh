@@ -21,12 +21,6 @@ cd "$REPO_DIR" || {
     exit 1
 }
 
-# Check if git is available
-if ! command -v git &> /dev/null; then
-    log_message "ERROR: git command not found"
-    exit 1
-fi
-
 # Check if gh CLI is available and setup git auth
 HAS_GH=false
 if command -v gh &> /dev/null; then
