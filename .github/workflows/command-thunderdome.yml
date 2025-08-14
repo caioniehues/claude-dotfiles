@@ -31,6 +31,9 @@ on:
 jobs:
   select-victims:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      id-token: write
     outputs:
       victims: ${{ steps.selection.outputs.victims }}
       execution_id: ${{ steps.selection.outputs.execution_id }}
@@ -121,6 +124,11 @@ jobs:
   public-execution:
     needs: select-victims
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      issues: write
+      pull-requests: write
+      id-token: write
     
     steps:
       - name: Checkout Repository

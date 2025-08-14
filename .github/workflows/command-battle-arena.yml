@@ -25,6 +25,9 @@ on:
 jobs:
   prepare-arena:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      id-token: write
     outputs:
       battle_id: ${{ steps.setup.outputs.battle_id }}
       contestants: ${{ steps.setup.outputs.contestants }}
@@ -143,6 +146,11 @@ jobs:
   execute-battles:
     needs: prepare-arena
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      issues: write
+      pull-requests: write
+      id-token: write
     
     steps:
       - name: Checkout Repository
