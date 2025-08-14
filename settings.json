@@ -4,13 +4,5 @@
     "type": "command",
     "command": "npx -y @owloops/claude-powerline@latest --style=powerline",
     "padding": 0
-  },
-  "hooks": {
-    "Stop": [
-      {
-        "type": "command",
-        "command": "/Users/caio.niehues/.claude/auto-commit-hook.sh"
-      }
-    ]
   }
 }
