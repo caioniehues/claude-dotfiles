@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CLAUDE.md",
+                "file": "commands/components/interactive-bridge.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CLAUDE"
+              "title": "interactive-bridge"
             }
           }
         ]
@@ -150,6 +150,20 @@
               "icon": "lucide-list",
               "title": "Outline of CLAUDE"
             }
+          },
+          {
+            "id": "ea7cd0903dfd3c19",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
           }
         ]
       }
@@ -165,23 +179,31 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "zk-prefixer:Create new unique note": false,
+      "workspaces:Manage workspace layouts": false,
+      "markdown-importer:Open format converter": false
     }
   },
-  "active": "0b6df19fbb9d9f23",
+  "active": "9d947d87623e8c0e",
   "lastOpenFiles": [
-    "todos/7664175e-649f-45b0-8b3e-3938ff778ec1-agent-7664175e-649f-45b0-8b3e-3938ff778ec1.json",
-    "todos/5416a72e-8951-46b5-9fe2-ebccc27eaf3f-agent-5416a72e-8951-46b5-9fe2-ebccc27eaf3f.json.tmp.54093.1755185383518",
-    "projects/-Users-caio-niehues-obsidian-second-brain/7664175e-649f-45b0-8b3e-3938ff778ec1.jsonl",
-    "projects/-Users-caio-niehues-obsidian-second-brain/cbdd2a46-b0f4-41a4-b726-8833510c5387.jsonl",
-    "shell-snapshots/snapshot-zsh-1755185109370-ic11hq.sh",
-    "todos/cbdd2a46-b0f4-41a4-b726-8833510c5387-agent-cbdd2a46-b0f4-41a4-b726-8833510c5387.json",
-    "projects/-Users-caio-niehues--claude/5416a72e-8951-46b5-9fe2-ebccc27eaf3f.jsonl",
-    "shell-snapshots/snapshot-zsh-1755184947342-ucgiu8.sh",
-    "todos/5416a72e-8951-46b5-9fe2-ebccc27eaf3f-agent-5416a72e-8951-46b5-9fe2-ebccc27eaf3f.json",
+    "todos/da7280f5-ebcd-4a6e-becd-25a64c51a6ed-agent-da7280f5-ebcd-4a6e-becd-25a64c51a6ed.json.tmp.74255.1755193126195",
+    "todos/da7280f5-ebcd-4a6e-becd-25a64c51a6ed-agent-da7280f5-ebcd-4a6e-becd-25a64c51a6ed.json.tmp.74255.1755192915909",
+    "todos/da7280f5-ebcd-4a6e-becd-25a64c51a6ed-agent-da7280f5-ebcd-4a6e-becd-25a64c51a6ed.json.tmp.74255.1755192436186",
+    "todos/da7280f5-ebcd-4a6e-becd-25a64c51a6ed-agent-da7280f5-ebcd-4a6e-becd-25a64c51a6ed.json.tmp.74255.1755192199514",
+    "todos/da7280f5-ebcd-4a6e-becd-25a64c51a6ed-agent-da7280f5-ebcd-4a6e-becd-25a64c51a6ed.json.tmp.74255.1755190934842",
+    "todos/da7280f5-ebcd-4a6e-becd-25a64c51a6ed-agent-da7280f5-ebcd-4a6e-becd-25a64c51a6ed.json.tmp.74255.1755190843062",
+    "projects/-Users-caio-niehues--claude/da7280f5-ebcd-4a6e-becd-25a64c51a6ed.jsonl",
+    "shell-snapshots/snapshot-zsh-1755190523725-hd1l57.sh",
+    "todos/da7280f5-ebcd-4a6e-becd-25a64c51a6ed-agent-da7280f5-ebcd-4a6e-becd-25a64c51a6ed.json",
+    "todos/da7280f5-ebcd-4a6e-becd-25a64c51a6ed-agent-da7280f5-ebcd-4a6e-becd-25a64c51a6ed.json.tmp.74255.1755190523726",
+    "CLAUDE.md",
+    "commands/components",
+    "commands/ultrathink-interactive.md",
+    "commands/ultrathink-full-mcp.md",
+    "commands/ultrathink-hybrid-mcp.md",
+    "commands/ultrathink-pure-xml.md",
     "docs/ultrathink-refactoring/refinement-orchestrator-agent-spec.md",
-    "docs/ultrathink-refactoring/PROJECT-OVERVIEW.md",
-    "scripts",
-    "projects/-Users-caio-niehues-obsidian-second-brain/177d1752-1f2a-426b-9bfb-ca17b3cb0048.jsonl"
+    "docs/ultrathink-refactoring/PROJECT-OVERVIEW.md"
   ]
 }
