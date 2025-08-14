@@ -27,11 +27,13 @@ if ! command -v git &> /dev/null; then
     exit 1
 fi
 
-# Check if gh CLI is available
+# Check if gh CLI is available and setup git auth
 HAS_GH=false
 if command -v gh &> /dev/null; then
     HAS_GH=true
     log_message "INFO: Using GitHub CLI for authentication"
+    # Setup git to use gh for authentication
+    gh auth setup-git &>/dev/null
 else
     log_message "INFO: GitHub CLI not found, using git directly"
 fi
@@ -60,26 +62,11 @@ if [ ${PIPESTATUS[0]} -ne 0 ]; then
     exit 1
 fi
 
-# Push to remote
-if [ "$HAS_GH" = true ]; then
-    # Use GitHub CLI for pushing (handles auth better)
-    # First try without force
-    gh repo sync --branch main 2>&1 | tee -a "$LOG_FILE"
-    if [ ${PIPESTATUS[0]} -ne 0 ]; then
-        log_message "INFO: Regular sync failed, trying with --force"
-        gh repo sync --branch main --force 2>&1 | tee -a "$LOG_FILE"
-        if [ ${PIPESTATUS[0]} -ne 0 ]; then
-            log_message "ERROR: Failed to sync with remote using gh"
-            exit 1
-        fi
-    fi
-else
-    # Fallback to git push
-    git push origin main 2>&1 | tee -a "$LOG_FILE"
-    if [ ${PIPESTATUS[0]} -ne 0 ]; then
-        log_message "ERROR: Failed to push to remote"
-        exit 1
-    fi
+# Push to remote (git will use gh auth if available)
+git push origin main 2>&1 | tee -a "$LOG_FILE"
+if [ ${PIPESTATUS[0]} -ne 0 ]; then
+    log_message "ERROR: Failed to push to remote"
+    exit 1
 fi
 
 log_message "SUCCESS: Changes committed and pushed successfully"

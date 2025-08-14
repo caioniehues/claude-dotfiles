@@ -371,3 +371,11 @@ failed to run git: exit status 128
 failed to run git: exit status 128
 [2025-08-14 15:15:02] ERROR: Failed to sync with remote using gh
 [2025-08-14 15:16:33] INFO: Using GitHub CLI for authentication
+[main 9e82436] Sync claude configurations - 2025-08-14 15:16
+ 2 files changed, 17 insertions(+)
+can't sync because there are diverging changes; use `--force` to overwrite the destination branch
+[2025-08-14 15:16:34] INFO: Regular sync failed, trying with --force
+refusing to sync due to uncommitted/untracked local changes
+tip: use `git stash --all` before retrying the sync and run `git stash pop` afterwards
+[2025-08-14 15:16:35] ERROR: Failed to sync with remote using gh
+[2025-08-14 15:20:01] INFO: Using GitHub CLI for authentication

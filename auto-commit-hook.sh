@@ -27,11 +27,13 @@ if ! command -v git &> /dev/null; then
     exit 0  # Exit with 0 to not block Claude from stopping
 fi
 
-# Check if gh CLI is available
+# Check if gh CLI is available and setup git auth
 HAS_GH=false
 if command -v gh &> /dev/null; then
     HAS_GH=true
     log_message "INFO: Using GitHub CLI for authentication"
+    # Setup git to use gh for authentication
+    gh auth setup-git &>/dev/null
 else
     log_message "INFO: GitHub CLI not found, using git directly"
 fi
@@ -92,26 +94,11 @@ if [ ${PIPESTATUS[0]} -ne 0 ]; then
     fi
 fi
 
-# Push to remote
-if [ "$HAS_GH" = true ]; then
-    # Use GitHub CLI for pushing (handles auth better)
-    # First try without force
-    gh repo sync --branch main 2>&1 | tee -a "$LOG_FILE" &>/dev/null
-    if [ ${PIPESTATUS[0]} -ne 0 ]; then
-        log_message "INFO: Regular sync failed, trying with --force"
-        gh repo sync --branch main --force 2>&1 | tee -a "$LOG_FILE" &>/dev/null
-        if [ ${PIPESTATUS[0]} -ne 0 ]; then
-            log_message "ERROR: Failed to sync with remote using gh, changes saved locally"
-            exit 0  # Exit with 0 to not block Claude from stopping
-        fi
-    fi
-else
-    # Fallback to git push
-    git push origin main 2>&1 | tee -a "$LOG_FILE" &>/dev/null
-    if [ ${PIPESTATUS[0]} -ne 0 ]; then
-        log_message "ERROR: Failed to push to remote, changes saved locally"
-        exit 0  # Exit with 0 to not block Claude from stopping
-    fi
+# Push to remote (git will use gh auth if available)
+git push origin main 2>&1 | tee -a "$LOG_FILE" &>/dev/null
+if [ ${PIPESTATUS[0]} -ne 0 ]; then
+    log_message "ERROR: Failed to push to remote, changes saved locally"
+    exit 0  # Exit with 0 to not block Claude from stopping
 fi
 
 log_message "SUCCESS: Changes pushed to remote successfully"
