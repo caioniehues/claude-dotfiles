@@ -139,7 +139,7 @@ jobs:
             
             BE SAVAGE IN MATCHMAKING BUT FAIR IN TESTING!
             
-          allowed_tools: Read, Write, Glob, Grep
+          allowed_tools: "Read,Write,Glob,Grep,LS,Bash(mkdir:*)"
           model: "claude-sonnet-4-20250514"
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
   
@@ -279,10 +279,16 @@ jobs:
             
             Enable reactions for crowd participation!
             
-          allowed_tools: "Read,Write,Bash(git:*),Bash(gh:*)"
+          allowed_tools: "Read,Write,MultiEdit,Bash(git:*),Bash(gh:*),Bash(mkdir:*)"
           
           model: "claude-sonnet-4-20250514"
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+      
+      - name: Configure Git
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config --global push.default current
       
       - name: Update Battle Statistics
         run: |
@@ -307,5 +313,5 @@ jobs:
           EOF
           
           git add .github/BATTLE-HISTORY.md
-          git commit -m "⚔️ Battle complete: Another command bites the dust (with evidence)"
-          git push
+          git commit -m "⚔️ Battle complete: Another command bites the dust (with evidence)" || echo "No changes to commit"
+          git push origin HEAD:main

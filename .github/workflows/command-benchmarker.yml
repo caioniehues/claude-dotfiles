@@ -91,7 +91,7 @@ jobs:
             
             BE BRUTALLY HONEST BUT BACK IT UP WITH DATA!
             
-          allowed_tools: "Bash(time:*),Bash(python3:*),Read,Write,MultiEdit,Grep,Glob"
+          allowed_tools: "Read,Write,MultiEdit,Glob,Grep,Bash(time:*),Bash(python3:*),Bash(mkdir:*)"
           
           claude_env: |
             BENCHMARK_MODE: savage_but_scientific
@@ -147,7 +147,7 @@ jobs:
             
             Save to .github/benchmarks/evidence/latest-roast.md
             
-          allowed_tools: Read, Write, MultiEdit
+          allowed_tools: "Read,Write,MultiEdit"
           model: "claude-opus-4-1-20250805"
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
       
@@ -188,11 +188,14 @@ jobs:
           
           EOF
       
-      - name: Commit Evidence to Repository
+      - name: Configure Git
         run: |
           git config --global user.name "github-actions[bot]"
-          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config --global push.default current
+      
+      - name: Commit Evidence to Repository
+        run: |
           git add .github/benchmarks/ || true
           git add .github/METRICS-OF-SHAME.md || true
           
@@ -208,7 +211,7 @@ jobs:
             
             The data doesn't lie, but your commands do."
             
-            git push || echo "Push failed, will retry in next run"
+            git push origin HEAD:main
           else
             echo "No changes to commit"
           fi
