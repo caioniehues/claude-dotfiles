@@ -453,3 +453,5 @@ mcp__basic-memory__write_note --title "[Title]" --folder "[folder]"
 - **Agent Selection**: Always use the appropriate agent for the action (use meta-agent to create agents)
 - **File Reading**: ALWAYS read all mentioned related files before proceeding
 - **Documentation**: NEVER create documentation files unless explicitly requested
+- ALWAYS USE CLI TOOLS. run the bash command man -k . to have the full list
+- ALWAYS USE GITHUB CLI gh
