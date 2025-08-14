@@ -1,0 +1,26 @@
+{
+  "battleId": "20250814-16975366980",
+  "timestamp": "2025-08-14T12:00:00Z",
+  "matchups": [
+    {
+      "matchId": 1,
+      "red": {
+        "command": "ultrathink",
+        "file": "commands/ultrathink.md",
+        "description": "Deep Thinking Logic with Interactive Clarification and MCP integration"
+      },
+      "blue": {
+        "command": "ultrathink-pure-xml",
+        "file": "commands/ultrathink-pure-xml.md", 
+        "description": "Pure XML implementation with zero external dependencies"
+      },
+      "testCase": "analyze and optimize a complex database query for high-concurrency writes with multiple JOIN operations"
+    }
+  ],
+  "battleRules": {
+    "rounds": 3,
+    "metrics": ["speed", "accuracy", "efficiency"],
+    "deathPenalty": true,
+    "savageCommentary": true
+  }
+}
