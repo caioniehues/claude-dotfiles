@@ -379,3 +379,13 @@ refusing to sync due to uncommitted/untracked local changes
 tip: use `git stash --all` before retrying the sync and run `git stash pop` afterwards
 [2025-08-14 15:16:35] ERROR: Failed to sync with remote using gh
 [2025-08-14 15:20:01] INFO: Using GitHub CLI for authentication
+[main a0e5255] Sync claude configurations - 2025-08-14 15:20
+ 6 files changed, 46 insertions(+), 42 deletions(-)
+ create mode 100644 projects/-Users-caio-niehues-obsidian-second-brain/6acc7ffd-2aa1-4533-b696-cc194a79c885.jsonl
+[main a0e5255] Sync claude configurations - 2025-08-14 15:20
+ 6 files changed, 46 insertions(+), 42 deletions(-)
+ create mode 100644 projects/-Users-caio-niehues-obsidian-second-brain/6acc7ffd-2aa1-4533-b696-cc194a79c885.jsonl
+fatal: could not read Username for 'https://github.com': Device not configured
+fatal: could not read Username for 'https://github.com': Device not configured
+[2025-08-14 15:20:02] ERROR: Failed to push to remote
+[2025-08-14 15:20:24] INFO: Using GitHub CLI for authentication
