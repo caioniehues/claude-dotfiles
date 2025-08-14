@@ -5,16 +5,8 @@
     "command": "npx -y @owloops/claude-powerline@latest --style=powerline",
     "padding": 0
   },
-  "hooks": {
-    "PreToolUse": {
-      "Bash": "echo 'Running command: THIS COULD BE A COMMAND OR SCRIPT NIGGA'"
-    },
-    "PostToolUse": {
-      "Edit": "echo 'Running command: THIS COULD BE A COMMAND OR SCRIPT NIGGA'"
-    }
-  },
   "permissions": {
-    "defaultMode": "planMode",
+    "defaultMode": "plan",
     "additionalDirectories": [
       "/Users/caio.niehues/.claude",
       "/Users/caio.niehues/obsidian-second-brain"
@@ -60,7 +52,7 @@
     "CLAUDE_BASH_MAINTAIN_PROJECT_WORKING_DIR": "1",
     "MCP_TIMEOUT": "30000",
     "MCP_TOOL_TIMEOUT": "60000",
-    "MAX_MCP_OUTPUT_TOKENS": "100000",
+    "MAX_MCP_OUTPUT_TOKENS": "50000",
     "USE_BUILTIN_RIPGREP": "0",
     "CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC": "1",
     "DISABLE_BUG_COMMAND": "1",
