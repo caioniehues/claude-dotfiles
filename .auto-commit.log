@@ -210,3 +210,70 @@ fatal: could not read Username for 'https://github.com': Device not configured
 fatal: could not read Username for 'https://github.com': Device not configured
 fatal: could not read Username for 'https://github.com': Device not configured
 [2025-08-14 14:20:00] ERROR: Failed to push to remote
+[main 2ab052a] Sync claude configurations - 2025-08-14 14:25
+ 31 files changed, 259 insertions(+), 6692 deletions(-)
+ create mode 100644 claude_vault/.obsidian/app.json
+ create mode 100644 claude_vault/.obsidian/appearance.json
+ create mode 100644 claude_vault/.obsidian/core-plugins.json
+ create mode 100644 claude_vault/.obsidian/graph.json
+ create mode 100644 claude_vault/.obsidian/workspace.json
+ create mode 100644 claude_vault/Welcome.md
+ create mode 100644 claude_vault/create a link.md
+ delete mode 100644 docs/anthropic-docs/build-with-claude/claude-4-best-practices.md
+ delete mode 100644 docs/anthropic-docs/build-with-claude/extended-thinking.md
+ delete mode 100644 docs/anthropic-docs/build-with-claude/overview.md
+ delete mode 100644 docs/anthropic-docs/build-with-claude/prompt-caching.md
+ delete mode 100644 docs/anthropic-docs/build-with-claude/prompt-engineering-overview.md
+ delete mode 100644 docs/anthropic-docs/build-with-claude/system-prompts.md
+ delete mode 100644 docs/anthropic-docs/build-with-claude/text-generation.md
+ delete mode 100644 docs/anthropic-docs/build-with-claude/vision.md
+ delete mode 100644 docs/anthropic-docs/claude-code/cli-reference.md
+ delete mode 100644 docs/anthropic-docs/claude-code/common-workflows.md
+ delete mode 100644 docs/anthropic-docs/claude-code/github-actions.md
+ delete mode 100644 docs/anthropic-docs/claude-code/ide-integrations.md
+ delete mode 100644 docs/anthropic-docs/claude-code/mcp.md
+ delete mode 100644 docs/anthropic-docs/claude-code/memory.md
+ delete mode 100644 docs/anthropic-docs/claude-code/overview.md
+ delete mode 100644 docs/anthropic-docs/claude-code/quickstart.md
+ delete mode 100644 docs/anthropic-docs/claude-code/security.md
+ delete mode 100644 docs/anthropic-docs/claude-code/settings.md
+ delete mode 100644 docs/anthropic-docs/claude-code/slash-commands.md
+ delete mode 100644 docs/anthropic-docs/claude-code/troubleshooting.md
+ delete mode 100644 docs/anthropic-docs/main/intro.md
+ delete mode 100644 docs/anthropic-docs/main/overview.md
+ delete mode 100644 docs/anthropic-docs/mcp/overview.md
+[main 2ab052a] Sync claude configurations - 2025-08-14 14:25
+ 31 files changed, 259 insertions(+), 6692 deletions(-)
+ create mode 100644 claude_vault/.obsidian/app.json
+ create mode 100644 claude_vault/.obsidian/appearance.json
+ create mode 100644 claude_vault/.obsidian/core-plugins.json
+ create mode 100644 claude_vault/.obsidian/graph.json
+ create mode 100644 claude_vault/.obsidian/workspace.json
+ create mode 100644 claude_vault/Welcome.md
+ create mode 100644 claude_vault/create a link.md
+ delete mode 100644 docs/anthropic-docs/build-with-claude/claude-4-best-practices.md
+ delete mode 100644 docs/anthropic-docs/build-with-claude/extended-thinking.md
+ delete mode 100644 docs/anthropic-docs/build-with-claude/overview.md
+ delete mode 100644 docs/anthropic-docs/build-with-claude/prompt-caching.md
+ delete mode 100644 docs/anthropic-docs/build-with-claude/prompt-engineering-overview.md
+ delete mode 100644 docs/anthropic-docs/build-with-claude/system-prompts.md
+ delete mode 100644 docs/anthropic-docs/build-with-claude/text-generation.md
+ delete mode 100644 docs/anthropic-docs/build-with-claude/vision.md
+ delete mode 100644 docs/anthropic-docs/claude-code/cli-reference.md
+ delete mode 100644 docs/anthropic-docs/claude-code/common-workflows.md
+ delete mode 100644 docs/anthropic-docs/claude-code/github-actions.md
+ delete mode 100644 docs/anthropic-docs/claude-code/ide-integrations.md
+ delete mode 100644 docs/anthropic-docs/claude-code/mcp.md
+ delete mode 100644 docs/anthropic-docs/claude-code/memory.md
+ delete mode 100644 docs/anthropic-docs/claude-code/overview.md
+ delete mode 100644 docs/anthropic-docs/claude-code/quickstart.md
+ delete mode 100644 docs/anthropic-docs/claude-code/security.md
+ delete mode 100644 docs/anthropic-docs/claude-code/settings.md
+ delete mode 100644 docs/anthropic-docs/claude-code/slash-commands.md
+ delete mode 100644 docs/anthropic-docs/claude-code/troubleshooting.md
+ delete mode 100644 docs/anthropic-docs/main/intro.md
+ delete mode 100644 docs/anthropic-docs/main/overview.md
+ delete mode 100644 docs/anthropic-docs/mcp/overview.md
+fatal: could not read Username for 'https://github.com': Device not configured
+fatal: could not read Username for 'https://github.com': Device not configured
+[2025-08-14 14:25:00] ERROR: Failed to push to remote
