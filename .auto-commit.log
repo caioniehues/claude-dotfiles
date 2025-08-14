@@ -389,3 +389,14 @@ fatal: could not read Username for 'https://github.com': Device not configured
 fatal: could not read Username for 'https://github.com': Device not configured
 [2025-08-14 15:20:02] ERROR: Failed to push to remote
 [2025-08-14 15:20:24] INFO: Using GitHub CLI for authentication
+[main 756e26f] Sync claude configurations - 2025-08-14 15:20
+ 2 files changed, 17 insertions(+)
+To https://github.com/caioniehues/claude-dotfiles.git
+ ! [rejected]        main -> main (non-fast-forward)
+error: failed to push some refs to 'https://github.com/caioniehues/claude-dotfiles.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. If you want to integrate the remote changes,
+hint: use 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+[2025-08-14 15:20:25] ERROR: Failed to push to remote
+[2025-08-14 15:25:00] INFO: Using GitHub CLI for authentication
