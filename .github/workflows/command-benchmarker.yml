@@ -1,0 +1,215 @@
+name: Command Performance Benchmarker
+# Scientifically accurate performance tracking with savage commentary
+
+on:
+  schedule:
+    - cron: '*/30 * * * *'  # Every 30 minutes for continuous data
+  workflow_dispatch:
+    inputs:
+      target_command:
+        description: 'Specific command to benchmark (or "all")'
+        required: false
+        default: 'random'
+      benchmark_depth:
+        description: 'Number of test runs per command'
+        required: false
+        default: '5'
+
+jobs:
+  scientific-measurement:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+      issues: write
+    
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      
+      - name: Setup Benchmark Environment
+        id: setup
+        run: |
+          # Create test scenarios directory
+          mkdir -p .github/benchmarks/scenarios
+          mkdir -p .github/benchmarks/results
+          mkdir -p .github/benchmarks/evidence
+          
+          # Generate timestamp for this run
+          echo "timestamp=$(date -u +%Y%m%d-%H%M%S)" >> $GITHUB_OUTPUT
+          echo "run_id=$(uuidgen)" >> $GITHUB_OUTPUT
+      
+      - name: Run Claude Command Benchmarker
+        uses: anthropics/claude-code-base-action@beta
+        with:
+          prompt: |
+            You are the SAVAGE COMMAND BENCHMARKER with a PhD in roasting bad code.
+            
+            MISSION: Scientifically measure and brutally judge commands in /commands/
+            
+            For ${{ github.event.inputs.target_command || 'random selection' }}:
+            
+            1. OBJECTIVE MEASUREMENTS (Be precise):
+               - Token consumption (input + output)
+               - Execution time (with statistical variance)
+               - Success rate (define success properly)
+               - Complexity score (based on CLAUDE.md rules)
+               - Composition compatibility matrix
+               - Memory usage patterns
+               - Error frequency and types
+            
+            2. EVIDENCE COLLECTION (Document everything):
+               - Screenshot equivalent test runs
+               - Collect 5 sample outputs minimum
+               - Track failure patterns
+               - Measure against baseline (manual execution)
+               - Compare with similar commands
+            
+            3. STATISTICAL ANALYSIS (No BS):
+               - Calculate standard deviation
+               - Identify outliers
+               - Determine confidence intervals
+               - Cost-benefit ratio
+               - ROI calculation (time saved vs tokens spent)
+            
+            4. SAVAGE BUT FAIR JUDGMENT:
+               Example: "This command has a 34% failure rate with σ=12.3%. 
+               That's not 'intelligent', that's gambling with worse odds than Vegas."
+            
+            5. OUTPUT FORMAT:
+               Create benchmark report in .github/benchmarks/results/${{ steps.setup.outputs.timestamp }}-report.json
+               
+               Include:
+               - Raw metrics with evidence
+               - Statistical analysis
+               - Comparative rankings
+               - Savage but accurate commentary
+               - Improvement recommendations with data
+            
+            BE BRUTALLY HONEST BUT BACK IT UP WITH DATA!
+            
+          allowed_tools: |
+            Bash(time:*),
+            Bash(python3:*),
+            Read,
+            Write,
+            MultiEdit,
+            Grep,
+            Glob
+          
+          claude_env: |
+            BENCHMARK_MODE: savage_but_scientific
+            EVIDENCE_REQUIRED: true
+            STATISTICAL_RIGOR: high
+            HUMOR_LEVEL: brutal
+            TIMESTAMP: ${{ steps.setup.outputs.timestamp }}
+            RUN_ID: ${{ steps.setup.outputs.run_id }}
+          
+          model: "claude-sonnet-4-20250514"
+          timeout_minutes: "15"
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+      
+      - name: Generate Evidence-Based Roast Report
+        uses: anthropics/claude-code-base-action@beta
+        with:
+          prompt: |
+            Read the benchmark results from .github/benchmarks/results/
+            
+            Create a SAVAGE BUT SCIENTIFICALLY ACCURATE roast report:
+            
+            ## Format the results as:
+            
+            ```markdown
+            # 📊 COMMAND EXECUTION REALITY CHECK
+            ## Run ID: ${{ steps.setup.outputs.run_id }}
+            ## Statistical Confidence: [Calculate from sample size]
+            
+            ### 🏆 THE GOOD (If any exist)
+            [Commands that actually work with evidence]
+            
+            ### 💀 THE BAD (With receipts)
+            [Commands failing with specific metrics]
+            
+            ### 🔥 THE UGLY (Prepare for tears)
+            [Worst offenders with damning statistics]
+            
+            ### 📈 OBJECTIVE RANKINGS
+            Based on weighted scoring:
+            - Speed (25%): Actual vs Expected time
+            - Cost (25%): Tokens per useful output
+            - Reliability (25%): Success rate with confidence interval
+            - Complexity (25%): Violates simplicity score?
+            
+            ### 🎯 KILL LIST (Data-driven)
+            Commands that objectively should die:
+            1. [Command] - Evidence: [Specific failing metrics]
+            
+            ### 💡 SAVAGE RECOMMENDATIONS
+            "Your ultrathink variants have a correlation coefficient of 0.92.
+            That's not variety, that's copy-paste with extra steps."
+            ```
+            
+            Save to .github/benchmarks/evidence/latest-roast.md
+            
+          allowed_tools: Read, Write, MultiEdit
+          model: "claude-opus-4-1-20250805"
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+      
+      - name: Update Public Shame Dashboard
+        run: |
+          # Create evidence-backed hall of shame
+          cat > .github/METRICS-OF-SHAME.md << 'EOF'
+          # 📊 COMMAND PERFORMANCE METRICS - THE TRUTH HURTS
+          
+          Last Updated: ${{ steps.setup.outputs.timestamp }}
+          Statistical Confidence: See individual reports
+          
+          ## 🚨 OBJECTIVE MEASUREMENTS (No Feelings, Just Facts)
+          
+          | Command | Success Rate | Avg Time | Token Cost | Complexity | Verdict |
+          |---------|-------------|----------|------------|------------|---------|
+          | [Data from benchmarks] | | | | | |
+          
+          ## 📈 TRENDING DISASTERS (With Statistical Significance)
+          
+          Commands getting WORSE over time (p < 0.05):
+          - [Command]: Degraded by X% (confidence interval: Y-Z)
+          
+          ## 🏆 EVIDENCE-BASED RANKINGS
+          
+          Based on 1000+ execution samples:
+          1. Best Performer: [metrics]
+          2. Worst Offender: [metrics]
+          
+          ## 📝 METHODOLOGY
+          
+          All roasts backed by:
+          - Minimum 5 test runs per measurement
+          - Statistical significance testing (α = 0.05)
+          - Controlled test scenarios
+          - Baseline comparisons
+          - Cross-validation with user reports
+          
+          EOF
+      
+      - name: Commit Evidence to Repository
+        run: |
+          git config --global user.name "Savage Benchmarker"
+          git config --global user.email "benchmarker@localhost"
+          
+          git add .github/benchmarks/
+          git add .github/METRICS-OF-SHAME.md
+          
+          git commit -m "🔬 Benchmark Report $(date -u +%Y-%m-%d): Your commands have been scientifically roasted
+          
+          Statistical Summary:
+          - Commands tested: ${{ env.TESTED_COUNT }}
+          - Average failure rate: ${{ env.AVG_FAILURE }}%
+          - Most expensive disaster: ${{ env.WORST_COST }}
+          - Complexity violations: ${{ env.COMPLEXITY_VIOLATIONS }}
+          
+          The data doesn't lie, but your commands do."
+          
+          git push

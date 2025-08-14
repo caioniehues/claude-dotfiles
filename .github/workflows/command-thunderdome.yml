@@ -1,0 +1,270 @@
+name: Command Thunderdome - Evidence-Based Executions
+# Where commands fight for their lives with FACTS and LOGIC
+
+on:
+  schedule:
+    # Random chaos schedule - 4 times daily at unexpected times
+    - cron: '17 3,9,15,21 * * *'  # Off-hour times for maximum surprise
+  workflow_dispatch:
+    inputs:
+      execution_mode:
+        description: 'Execution style'
+        required: true
+        default: 'random_chaos'
+        type: choice
+        options:
+          - random_chaos      # Surprise executions
+          - targeted_strike   # Specific command murder
+          - mass_extinction   # Kill all underperformers
+          - battle_royale    # Tournament mode
+      
+      savagery_level:
+        description: 'How brutal should we be?'
+        required: true
+        default: 'data_driven_destruction'
+        type: choice
+        options:
+          - professional_harsh
+          - data_driven_destruction  
+          - total_annihilation
+
+jobs:
+  select-victims:
+    runs-on: ubuntu-latest
+    outputs:
+      victims: ${{ steps.selection.outputs.victims }}
+      execution_id: ${{ steps.selection.outputs.execution_id }}
+    
+    steps:
+      - name: Checkout Command Repository
+        uses: actions/checkout@v4
+      
+      - name: Fetch Latest Benchmark Data
+        id: fetch_metrics
+        run: |
+          # Load scientific measurements
+          if [ -f ".github/benchmarks/evidence/latest-roast.md" ]; then
+            echo "evidence_exists=true" >> $GITHUB_OUTPUT
+          else
+            echo "evidence_exists=false" >> $GITHUB_OUTPUT
+            echo "::warning::No benchmark data found. Running fresh analysis..."
+          fi
+      
+      - name: Select Today's Victims
+        id: selection
+        uses: anthropics/claude-code-base-action@beta
+        with:
+          prompt: |
+            You are the COMMAND EXECUTIONER with a statistics degree.
+            
+            TASK: Select commands for today's Thunderdome based on EVIDENCE.
+            
+            Execution Mode: ${{ github.event.inputs.execution_mode || 'random_chaos' }}
+            
+            SELECTION CRITERIA (Must be data-driven):
+            
+            1. For RANDOM CHAOS:
+               - Select 6 random commands
+               - Weight selection by performance metrics if available
+               - Include at least 1 "surprise" high-performer for drama
+            
+            2. For TARGETED STRIKE:
+               - Identify the WORST performer by metrics
+               - Must have evidence of:
+                 * Complexity score > 5
+                 * OR failure rate > 40%
+                 * OR token cost > $0.50 per run
+                 * OR execution time > 3x baseline
+            
+            3. For MASS EXTINCTION:
+               - Select ALL commands meeting kill criteria
+               - Rank by severity of suckage
+               - Prepare mass grave
+            
+            4. For BATTLE ROYALE:
+               - Pair similar commands for death matches
+               - Example: All ultrathink variants fight to the death
+               - Only the statistically superior survives
+            
+            OUTPUT (JSON to .github/thunderdome/today-victims.json):
+            {
+              "execution_id": "generated_uuid",
+              "mode": "${{ github.event.inputs.execution_mode }}",
+              "victims": [
+                {
+                  "command": "command-name.md",
+                  "crime": "Specific metric-based reason for execution",
+                  "evidence": {
+                    "complexity_score": 15,
+                    "failure_rate": 0.45,
+                    "avg_execution_time": 4.2,
+                    "token_cost": 0.73
+                  },
+                  "last_words": "Generate a sassy epitaph"
+                }
+              ],
+              "execution_date": "ISO timestamp",
+              "statistical_confidence": "percentage"
+            }
+            
+            BE SAVAGE BUT CITE YOUR SOURCES!
+            
+          allowed_tools: Read, Write, Glob, Grep
+          model: "claude-sonnet-4-20250514"
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+  
+  public-execution:
+    needs: select-victims
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+      
+      - name: Create Execution PR
+        uses: anthropics/claude-code-base-action@beta
+        with:
+          prompt: |
+            Create a PUBLIC EXECUTION PR for today's victims.
+            
+            Read .github/thunderdome/today-victims.json
+            
+            For each victim, create:
+            
+            1. THE ROAST (Data-backed):
+               ```markdown
+               ## ⚔️ EXECUTING: [command-name]
+               
+               ### THE CRIMES (With Evidence):
+               - Complexity Score: X (Limit: 5) - "X% over budget"
+               - Success Rate: Y% (σ=Z) - "Fails more than it works"
+               - Token Cost: $A per run - "B× more expensive than alternatives"
+               - Time Vampire: C minutes - "D× slower than baseline"
+               
+               ### THE VERDICT:
+               "This command is statistically proven to be garbage.
+               With 95% confidence, we can say it sucks."
+               
+               ### FINAL WORDS:
+               "[Command's generated epitaph]"
+               
+               ### REPLACEMENT:
+               [Specific alternative or simplified version]
+               ```
+            
+            2. THE EXECUTION:
+               - Move command to .github/GRAVEYARD/[command-name]/
+               - Create autopsy.md with full metrics
+               - Generate final-stats.json with all evidence
+               - Add to HALL-OF-SHAME.md with timestamp
+            
+            3. THE MONUMENT:
+               Update README.md with:
+               ```markdown
+               ## 💀 Commands We Killed (And Why)
+               
+               | Command | Execution Date | Crime | Evidence |
+               |---------|---------------|-------|----------|
+               | [name] | [date] | [metric-based reason] | [link to autopsy] |
+               ```
+            
+            4. ENABLE CROWD PARTICIPATION:
+               Add comment: "React with 👍 for mercy (won't work) or 💀 to confirm execution"
+            
+            PR Title: "🔥 THUNDERDOME: [Date] - [X] Commands Face Justice"
+            PR Body: Full execution report with metrics and sass
+            
+          allowed_tools: |
+            Read,
+            Write,
+            MultiEdit,
+            Bash(git:*),
+            Bash(mv:*),
+            Bash(mkdir:*)
+          
+          model: "claude-opus-4-1-20250805"
+          max_turns: "10"
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+      
+      - name: Update Statistics Dashboard
+        run: |
+          # Update the kill counter
+          if [ -f ".github/THUNDERDOME-STATS.md" ]; then
+            CURRENT_KILLS=$(grep -oP 'Total Executions: \K\d+' .github/THUNDERDOME-STATS.md || echo "0")
+            NEW_KILLS=$((CURRENT_KILLS + $(jq '.victims | length' .github/thunderdome/today-victims.json)))
+          else
+            NEW_KILLS=$(jq '.victims | length' .github/thunderdome/today-victims.json)
+          fi
+          
+          cat > .github/THUNDERDOME-STATS.md << EOF
+          # ⚔️ THUNDERDOME STATISTICS
+          
+          ## Execution Metrics
+          - Total Executions: ${NEW_KILLS}
+          - Days Since Last Murder: 0
+          - Resurrection Attempts: 0
+          - Successful Resurrections: 0 (LOL)
+          
+          ## Current Reign of Terror
+          - Started: $(date -u +%Y-%m-%d)
+          - Commands Remaining: $(ls commands/*.md | wc -l)
+          - Average Complexity: [Calculated from survivors]
+          - Token Savings: [Calculated from killed commands]
+          
+          ## Hall of Shame Top 5
+          [Updated from execution data]
+          
+          ## Statistical Confidence
+          All executions backed by p < 0.05 significance
+          EOF
+      
+      - name: Notify the Masses
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const executionData = require('.github/thunderdome/today-victims.json');
+            const victims = executionData.victims.map(v => v.command).join(', ');
+            
+            // Create issue for public viewing
+            await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: `⚔️ THUNDERDOME RESULTS: ${new Date().toISOString().split('T')[0]}`,
+              body: `## Today's Executions\n\n${victims}\n\n[View the carnage](#)`,
+              labels: ['thunderdome', 'execution', 'savage']
+            });
+  
+  resurrection-check:
+    runs-on: ubuntu-latest
+    if: github.event_name == 'pull_request' && contains(github.event.pull_request.title, 'RESURRECTION')
+    
+    steps:
+      - name: Judge Resurrection Attempt
+        uses: anthropics/claude-code-base-action@beta
+        with:
+          prompt: |
+            A dead command seeks resurrection. BE HARSH BUT FAIR.
+            
+            REQUIREMENTS FOR RESURRECTION:
+            1. Complexity score reduced by 50% minimum
+            2. Clear metrics showing improvement
+            3. Passes all benchmark tests
+            4. Community support (10+ 👍)
+            5. Proves it learned from death
+            
+            JUDGE WITH DATA, NOT MERCY.
+            
+            If requirements met:
+            - Move from GRAVEYARD back to commands/
+            - Add "REFORMED" badge
+            - Monitor closely for 30 days
+            
+            If requirements NOT met:
+            - Roast the attempt
+            - "You died for a reason, stay dead"
+            - Suggest more improvements
+            
+          allowed_tools: Read, Write, MultiEdit
+          model: "claude-opus-4-1-20250805"
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
