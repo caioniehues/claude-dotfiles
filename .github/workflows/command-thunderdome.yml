@@ -174,13 +174,7 @@ jobs:
             PR Title: "🔥 THUNDERDOME: [Date] - [X] Commands Face Justice"
             PR Body: Full execution report with metrics and sass
             
-          allowed_tools: |
-            Read,
-            Write,
-            MultiEdit,
-            Bash(git:*),
-            Bash(mv:*),
-            Bash(mkdir:*)
+          allowed_tools: "Read,Write,MultiEdit,Bash(git:*),Bash(mv:*),Bash(mkdir:*)"
           
           model: "claude-opus-4-1-20250805"
           max_turns: "10"
@@ -190,10 +184,19 @@ jobs:
         run: |
           # Update the kill counter
           if [ -f ".github/THUNDERDOME-STATS.md" ]; then
-            CURRENT_KILLS=$(grep -oP 'Total Executions: \K\d+' .github/THUNDERDOME-STATS.md || echo "0")
-            NEW_KILLS=$((CURRENT_KILLS + $(jq '.victims | length' .github/thunderdome/today-victims.json)))
+            # Use sed instead of grep -P (not available on all systems)
+            CURRENT_KILLS=$(sed -n 's/.*Total Executions: \([0-9]*\).*/\1/p' .github/THUNDERDOME-STATS.md || echo "0")
+            if [ -f ".github/thunderdome/today-victims.json" ]; then
+              NEW_KILLS=$((CURRENT_KILLS + $(jq '.victims | length' .github/thunderdome/today-victims.json)))
+            else
+              NEW_KILLS=$CURRENT_KILLS
+            fi
           else
-            NEW_KILLS=$(jq '.victims | length' .github/thunderdome/today-victims.json)
+            if [ -f ".github/thunderdome/today-victims.json" ]; then
+              NEW_KILLS=$(jq '.victims | length' .github/thunderdome/today-victims.json)
+            else
+              NEW_KILLS=0
+            fi
           fi
           
           cat > .github/THUNDERDOME-STATS.md << EOF

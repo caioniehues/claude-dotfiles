@@ -41,8 +41,8 @@ jobs:
           mkdir -p .github/battle-arena/results
           mkdir -p .github/battle-arena/evidence
           
-          echo "battle_id=$(date +%Y%m%d)-$(uuidgen | cut -c1-8)" >> $GITHUB_OUTPUT
-          echo "timestamp=$(date -u +%Y-%m-%d\ %H:%M:%S\ UTC)" >> $GITHUB_OUTPUT
+          echo "battle_id=$(date +%Y%m%d)-${{ github.run_id }}" >> $GITHUB_OUTPUT
+          echo "timestamp=$(date -u '+%Y-%m-%d %H:%M:%S UTC')" >> $GITHUB_OUTPUT
       
       - name: Select Combatants
         uses: anthropics/claude-code-base-action@beta
@@ -235,14 +235,7 @@ jobs:
             
             RUN FAIR TESTS BUT DELIVER SAVAGE COMMENTARY!
             
-          allowed_tools: |
-            Read,
-            Write,
-            MultiEdit,
-            Bash(time:*),
-            Bash(python3:*),
-            Bash(mv:*),
-            Bash(mkdir:*)
+          allowed_tools: "Read,Write,MultiEdit,Bash(time:*),Bash(python3:*),Bash(mv:*),Bash(mkdir:*)"
           
           model: "claude-opus-4-1-20250805"
           timeout_minutes: "20"
@@ -278,11 +271,7 @@ jobs:
             
             Enable reactions for crowd participation!
             
-          allowed_tools: |
-            Read,
-            Write,
-            Bash(git:*),
-            Bash(gh:*)
+          allowed_tools: "Read,Write,Bash(git:*),Bash(gh:*)"
           
           model: "claude-sonnet-4-20250514"
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}

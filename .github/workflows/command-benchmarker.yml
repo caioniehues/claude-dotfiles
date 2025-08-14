@@ -39,7 +39,8 @@ jobs:
           
           # Generate timestamp for this run
           echo "timestamp=$(date -u +%Y%m%d-%H%M%S)" >> $GITHUB_OUTPUT
-          echo "run_id=$(uuidgen)" >> $GITHUB_OUTPUT
+          # Use GitHub run ID as unique identifier (uuidgen might not be available)
+          echo "run_id=${{ github.run_id }}-${{ github.run_attempt }}" >> $GITHUB_OUTPUT
       
       - name: Run Claude Command Benchmarker
         uses: anthropics/claude-code-base-action@beta
@@ -90,14 +91,7 @@ jobs:
             
             BE BRUTALLY HONEST BUT BACK IT UP WITH DATA!
             
-          allowed_tools: |
-            Bash(time:*),
-            Bash(python3:*),
-            Read,
-            Write,
-            MultiEdit,
-            Grep,
-            Glob
+          allowed_tools: "Bash(time:*),Bash(python3:*),Read,Write,MultiEdit,Grep,Glob"
           
           claude_env: |
             BENCHMARK_MODE: savage_but_scientific
@@ -196,20 +190,25 @@ jobs:
       
       - name: Commit Evidence to Repository
         run: |
-          git config --global user.name "Savage Benchmarker"
-          git config --global user.email "benchmarker@localhost"
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
           
-          git add .github/benchmarks/
-          git add .github/METRICS-OF-SHAME.md
+          git add .github/benchmarks/ || true
+          git add .github/METRICS-OF-SHAME.md || true
           
-          git commit -m "🔬 Benchmark Report $(date -u +%Y-%m-%d): Your commands have been scientifically roasted
-          
-          Statistical Summary:
-          - Commands tested: ${{ env.TESTED_COUNT }}
-          - Average failure rate: ${{ env.AVG_FAILURE }}%
-          - Most expensive disaster: ${{ env.WORST_COST }}
-          - Complexity violations: ${{ env.COMPLEXITY_VIOLATIONS }}
-          
-          The data doesn't lie, but your commands do."
-          
-          git push
+          # Only commit if there are changes
+          if ! git diff --staged --quiet; then
+            git commit -m "🔬 Benchmark Report $(date -u +%Y-%m-%d): Your commands have been scientifically roasted
+            
+            Statistical Summary:
+            - Commands tested: ${TESTED_COUNT:-0}
+            - Average failure rate: ${AVG_FAILURE:-0}%
+            - Most expensive disaster: ${WORST_COST:-N/A}
+            - Complexity violations: ${COMPLEXITY_VIOLATIONS:-0}
+            
+            The data doesn't lie, but your commands do."
+            
+            git push || echo "Push failed, will retry in next run"
+          else
+            echo "No changes to commit"
+          fi
