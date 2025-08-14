@@ -4,5 +4,69 @@
     "type": "command",
     "command": "npx -y @owloops/claude-powerline@latest --style=powerline",
     "padding": 0
+  },
+  "hooks": {
+    "PreToolUse": {
+      "Bash": "echo 'Running command: THIS COULD BE A COMMAND OR SCRIPT NIGGA'"
+    },
+    "PostToolUse": {
+      "Edit": "echo 'Running command: THIS COULD BE A COMMAND OR SCRIPT NIGGA'"
+    }
+  },
+  "permissions": {
+    "defaultMode": "planMode",
+    "additionalDirectories": [
+      "/Users/caio.niehues/.claude",
+      "/Users/caio.niehues/obsidian-second-brain"
+    ],
+    "allow": [
+      "Bash(uv:*)",
+      "Bash(curl:*)",
+      "Bash(pip install:*)",
+      "Bash(python3 -m pip install:*)",
+      "Bash(brew install:*)",
+      "Bash(pipx install:*)",
+      "Bash(pipx ensurepath:*)",
+      "Bash(source:*)",
+      "mcp__firecrawl__firecrawl_scrape",
+      "mcp__basic-memory__search_notes",
+      "mcp__basic-memory__write_note",
+      "mcp__mcp-atlassian__jira_search",
+      "mcp__mcp-atlassian__jira_get_issue",
+      "mcp__basic-memory__recent_activity",
+      "mcp__basic-memory__read_note",
+      "mcp__mcp-sequentialthinking-tools__sequentialthinking_tools",
+      "WebFetch(domain:docs.anthropic.com)",
+      "WebSearch",
+      "mcp__basic-memory__build_context",
+      "Bash(basic-memory:*)",
+      "mcp__basic-memory__list_memory_projects",
+      "mcp__basic-memory__get_current_project",
+      "Bash(mkdir:*)",
+      "mcp__firecrawl__firecrawl_search"
+    ],
+    "ask": [
+      "Bash(rm -rf:*)",
+      "Write(/etc/*)"
+    ],
+    "deny": []
+  },
+  "env": {
+    "CLAUDE_CODE_MAX_OUTPUT_TOKENS": "8192",
+    "MAX_THINKING_TOKENS": "50000",
+    "BASH_DEFAULT_TIMEOUT_MS": "120000",
+    "BASH_MAX_TIMEOUT_MS": "600000",
+    "BASH_MAX_OUTPUT_LENGTH": "10000",
+    "CLAUDE_BASH_MAINTAIN_PROJECT_WORKING_DIR": "1",
+    "MCP_TIMEOUT": "30000",
+    "MCP_TOOL_TIMEOUT": "60000",
+    "MAX_MCP_OUTPUT_TOKENS": "100000",
+    "USE_BUILTIN_RIPGREP": "0",
+    "CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC": "1",
+    "DISABLE_BUG_COMMAND": "1",
+    "DISABLE_COST_WARNINGS": "1",
+    "DISABLE_ERROR_REPORTING": "1",
+    "DISABLE_NON_ESSENTIAL_MODEL_CALLS": "1",
+    "DISABLE_TELEMETRY": "1"
   }
 }
