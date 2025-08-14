@@ -1,0 +1,796 @@
+{
+  "timestamp": "2025-08-14T18:28:28.317395+00:00",
+  "methodology": {
+    "sample_size_per_command": 5,
+    "statistical_confidence": "95%",
+    "outlier_detection": "IQR method",
+    "complexity_scoring": "CLAUDE.md standards"
+  },
+  "commands": {
+    "adhd-evening-reflect": {
+      "file_metrics": {
+        "line_count": 438,
+        "word_count": 1363,
+        "character_count": 12536,
+        "avg_line_length": 28.62
+      },
+      "complexity_analysis": {
+        "complexity_score": 143,
+        "cognitive_load": 7,
+        "has_thinking_blocks": false,
+        "has_mcp_integration": true,
+        "has_error_handling": false,
+        "has_validation": false
+      },
+      "token_analysis": {
+        "input_tokens": 3134,
+        "output_tokens": 1500,
+        "total_tokens": 4634
+      },
+      "quality_indicators": {
+        "follows_claude_standards": false,
+        "reasonable_length": true,
+        "has_documentation": true,
+        "structured_format": false
+      },
+      "savage_verdict": "Complexity score of 143? That's not engineering, that's creating job security through confusion. Estimated 4634 tokens? Your command costs more to run than my coffee habit. Violates CLAUDE.md standards. The documentation exists for a reason. No structured format detected. Organization is not optional."
+    },
+    "git-backup-sync": {
+      "file_metrics": {
+        "line_count": 531,
+        "word_count": 1461,
+        "character_count": 12474,
+        "avg_line_length": 23.49
+      },
+      "complexity_analysis": {
+        "complexity_score": 115,
+        "cognitive_load": 5,
+        "has_thinking_blocks": true,
+        "has_mcp_integration": true,
+        "has_error_handling": true,
+        "has_validation": true
+      },
+      "token_analysis": {
+        "input_tokens": 3118,
+        "output_tokens": 800,
+        "total_tokens": 3918
+      },
+      "quality_indicators": {
+        "follows_claude_standards": false,
+        "reasonable_length": false,
+        "has_documentation": true,
+        "structured_format": true
+      },
+      "savage_verdict": "Complexity score of 115? That's not engineering, that's creating job security through confusion. Estimated 3918 tokens? Your command costs more to run than my coffee habit. 531 lines suggests scope creep. One command shouldn't solve world hunger. Violates CLAUDE.md standards. The documentation exists for a reason."
+    },
+    "context-enhanced-executor": {
+      "file_metrics": {
+        "line_count": 132,
+        "word_count": 424,
+        "character_count": 3886,
+        "avg_line_length": 29.44
+      },
+      "complexity_analysis": {
+        "complexity_score": 21,
+        "cognitive_load": 2,
+        "has_thinking_blocks": true,
+        "has_mcp_integration": true,
+        "has_error_handling": false,
+        "has_validation": false
+      },
+      "token_analysis": {
+        "input_tokens": 971,
+        "output_tokens": 1500,
+        "total_tokens": 2471
+      },
+      "quality_indicators": {
+        "follows_claude_standards": false,
+        "reasonable_length": true,
+        "has_documentation": true,
+        "structured_format": true
+      },
+      "savage_verdict": "Complexity score of 21? That's not engineering, that's creating job security through confusion. 2471 tokens is expensive. Hope it delivers value proportional to the compute cost. Violates CLAUDE.md standards. The documentation exists for a reason."
+    },
+    "generate-thinking-command": {
+      "file_metrics": {
+        "line_count": 137,
+        "word_count": 415,
+        "character_count": 3803,
+        "avg_line_length": 27.76
+      },
+      "complexity_analysis": {
+        "complexity_score": 27,
+        "cognitive_load": 2,
+        "has_thinking_blocks": true,
+        "has_mcp_integration": true,
+        "has_error_handling": true,
+        "has_validation": true
+      },
+      "token_analysis": {
+        "input_tokens": 950,
+        "output_tokens": 800,
+        "total_tokens": 1750
+      },
+      "quality_indicators": {
+        "follows_claude_standards": false,
+        "reasonable_length": true,
+        "has_documentation": true,
+        "structured_format": true
+      },
+      "savage_verdict": "Complexity score of 27? That's not engineering, that's creating job security through confusion. Violates CLAUDE.md standards. The documentation exists for a reason."
+    },
+    "safe-code-beautifier": {
+      "file_metrics": {
+        "line_count": 427,
+        "word_count": 1670,
+        "character_count": 14547,
+        "avg_line_length": 34.07
+      },
+      "complexity_analysis": {
+        "complexity_score": 83,
+        "cognitive_load": 2,
+        "has_thinking_blocks": true,
+        "has_mcp_integration": true,
+        "has_error_handling": true,
+        "has_validation": true
+      },
+      "token_analysis": {
+        "input_tokens": 3636,
+        "output_tokens": 800,
+        "total_tokens": 4436
+      },
+      "quality_indicators": {
+        "follows_claude_standards": false,
+        "reasonable_length": true,
+        "has_documentation": true,
+        "structured_format": true
+      },
+      "savage_verdict": "Complexity score of 83? That's not engineering, that's creating job security through confusion. Estimated 4436 tokens? Your command costs more to run than my coffee habit. Violates CLAUDE.md standards. The documentation exists for a reason."
+    },
+    "ultrathink-hybrid-mcp": {
+      "file_metrics": {
+        "line_count": 536,
+        "word_count": 1640,
+        "character_count": 13338,
+        "avg_line_length": 24.88
+      },
+      "complexity_analysis": {
+        "complexity_score": 378,
+        "cognitive_load": 33,
+        "has_thinking_blocks": true,
+        "has_mcp_integration": true,
+        "has_error_handling": false,
+        "has_validation": true
+      },
+      "token_analysis": {
+        "input_tokens": 3334,
+        "output_tokens": 2000,
+        "total_tokens": 5334
+      },
+      "quality_indicators": {
+        "follows_claude_standards": false,
+        "reasonable_length": false,
+        "has_documentation": true,
+        "structured_format": true
+      },
+      "savage_verdict": "Complexity score of 378? That's not engineering, that's creating job security through confusion. Estimated 5334 tokens? Your command costs more to run than my coffee habit. 536 lines suggests scope creep. One command shouldn't solve world hunger. Cognitive load 33 requires a PhD to understand. Simplify or perish. Violates CLAUDE.md standards. The documentation exists for a reason."
+    },
+    "ultrathink": {
+      "file_metrics": {
+        "line_count": 357,
+        "word_count": 1215,
+        "character_count": 9758,
+        "avg_line_length": 27.33
+      },
+      "complexity_analysis": {
+        "complexity_score": 67,
+        "cognitive_load": 12,
+        "has_thinking_blocks": true,
+        "has_mcp_integration": true,
+        "has_error_handling": false,
+        "has_validation": true
+      },
+      "token_analysis": {
+        "input_tokens": 2439,
+        "output_tokens": 2000,
+        "total_tokens": 4439
+      },
+      "quality_indicators": {
+        "follows_claude_standards": false,
+        "reasonable_length": true,
+        "has_documentation": true,
+        "structured_format": true
+      },
+      "savage_verdict": "Complexity score of 67? That's not engineering, that's creating job security through confusion. Estimated 4439 tokens? Your command costs more to run than my coffee habit. Cognitive load 12 is manageable but still high. Room for improvement. Violates CLAUDE.md standards. The documentation exists for a reason."
+    },
+    "adhd-task-breakdown": {
+      "file_metrics": {
+        "line_count": 365,
+        "word_count": 1264,
+        "character_count": 10447,
+        "avg_line_length": 28.62
+      },
+      "complexity_analysis": {
+        "complexity_score": 86,
+        "cognitive_load": 6,
+        "has_thinking_blocks": false,
+        "has_mcp_integration": true,
+        "has_error_handling": false,
+        "has_validation": false
+      },
+      "token_analysis": {
+        "input_tokens": 2611,
+        "output_tokens": 1500,
+        "total_tokens": 4111
+      },
+      "quality_indicators": {
+        "follows_claude_standards": false,
+        "reasonable_length": true,
+        "has_documentation": true,
+        "structured_format": false
+      },
+      "savage_verdict": "Complexity score of 86? That's not engineering, that's creating job security through confusion. Estimated 4111 tokens? Your command costs more to run than my coffee habit. Violates CLAUDE.md standards. The documentation exists for a reason. No structured format detected. Organization is not optional."
+    },
+    "reasoning-wrapper": {
+      "file_metrics": {
+        "line_count": 415,
+        "word_count": 1200,
+        "character_count": 10162,
+        "avg_line_length": 24.49
+      },
+      "complexity_analysis": {
+        "complexity_score": 40,
+        "cognitive_load": 4,
+        "has_thinking_blocks": true,
+        "has_mcp_integration": true,
+        "has_error_handling": true,
+        "has_validation": true
+      },
+      "token_analysis": {
+        "input_tokens": 2540,
+        "output_tokens": 800,
+        "total_tokens": 3340
+      },
+      "quality_indicators": {
+        "follows_claude_standards": false,
+        "reasonable_length": true,
+        "has_documentation": true,
+        "structured_format": true
+      },
+      "savage_verdict": "Complexity score of 40? That's not engineering, that's creating job security through confusion. Estimated 3340 tokens? Your command costs more to run than my coffee habit. Violates CLAUDE.md standards. The documentation exists for a reason."
+    },
+    "analyze-project-architecture": {
+      "file_metrics": {
+        "line_count": 274,
+        "word_count": 1198,
+        "character_count": 9214,
+        "avg_line_length": 33.63
+      },
+      "complexity_analysis": {
+        "complexity_score": 112,
+        "cognitive_load": 3,
+        "has_thinking_blocks": true,
+        "has_mcp_integration": true,
+        "has_error_handling": true,
+        "has_validation": false
+      },
+      "token_analysis": {
+        "input_tokens": 2303,
+        "output_tokens": 800,
+        "total_tokens": 3103
+      },
+      "quality_indicators": {
+        "follows_claude_standards": false,
+        "reasonable_length": true,
+        "has_documentation": true,
+        "structured_format": true
+      },
+      "savage_verdict": "Complexity score of 112? That's not engineering, that's creating job security through confusion. Estimated 3103 tokens? Your command costs more to run than my coffee habit. Violates CLAUDE.md standards. The documentation exists for a reason."
+    },
+    "ultrathink-full-mcp": {
+      "file_metrics": {
+        "line_count": 665,
+        "word_count": 2027,
+        "character_count": 18058,
+        "avg_line_length": 27.15
+      },
+      "complexity_analysis": {
+        "complexity_score": 197,
+        "cognitive_load": 60,
+        "has_thinking_blocks": true,
+        "has_mcp_integration": true,
+        "has_error_handling": false,
+        "has_validation": true
+      },
+      "token_analysis": {
+        "input_tokens": 4514,
+        "output_tokens": 2000,
+        "total_tokens": 6514
+      },
+      "quality_indicators": {
+        "follows_claude_standards": false,
+        "reasonable_length": false,
+        "has_documentation": true,
+        "structured_format": true
+      },
+      "savage_verdict": "Complexity score of 197? That's not engineering, that's creating job security through confusion. Estimated 6514 tokens? Your command costs more to run than my coffee habit. 665 lines suggests scope creep. One command shouldn't solve world hunger. Cognitive load 60 requires a PhD to understand. Simplify or perish. Violates CLAUDE.md standards. The documentation exists for a reason."
+    },
+    "java-test-driven-development": {
+      "file_metrics": {
+        "line_count": 460,
+        "word_count": 1587,
+        "character_count": 13396,
+        "avg_line_length": 29.12
+      },
+      "complexity_analysis": {
+        "complexity_score": 45,
+        "cognitive_load": 7,
+        "has_thinking_blocks": true,
+        "has_mcp_integration": true,
+        "has_error_handling": true,
+        "has_validation": true
+      },
+      "token_analysis": {
+        "input_tokens": 3349,
+        "output_tokens": 1500,
+        "total_tokens": 4849
+      },
+      "quality_indicators": {
+        "follows_claude_standards": false,
+        "reasonable_length": true,
+        "has_documentation": true,
+        "structured_format": true
+      },
+      "savage_verdict": "Complexity score of 45? That's not engineering, that's creating job security through confusion. Estimated 4849 tokens? Your command costs more to run than my coffee habit. Violates CLAUDE.md standards. The documentation exists for a reason."
+    },
+    "senior-developer-analysis": {
+      "file_metrics": {
+        "line_count": 390,
+        "word_count": 1571,
+        "character_count": 13387,
+        "avg_line_length": 34.33
+      },
+      "complexity_analysis": {
+        "complexity_score": 121,
+        "cognitive_load": 2,
+        "has_thinking_blocks": true,
+        "has_mcp_integration": true,
+        "has_error_handling": true,
+        "has_validation": true
+      },
+      "token_analysis": {
+        "input_tokens": 3346,
+        "output_tokens": 800,
+        "total_tokens": 4146
+      },
+      "quality_indicators": {
+        "follows_claude_standards": false,
+        "reasonable_length": true,
+        "has_documentation": true,
+        "structured_format": true
+      },
+      "savage_verdict": "Complexity score of 121? That's not engineering, that's creating job security through confusion. Estimated 4146 tokens? Your command costs more to run than my coffee habit. Violates CLAUDE.md standards. The documentation exists for a reason."
+    },
+    "adaptive-complexity-router": {
+      "file_metrics": {
+        "line_count": 499,
+        "word_count": 1347,
+        "character_count": 11186,
+        "avg_line_length": 22.42
+      },
+      "complexity_analysis": {
+        "complexity_score": 98,
+        "cognitive_load": 5,
+        "has_thinking_blocks": true,
+        "has_mcp_integration": true,
+        "has_error_handling": true,
+        "has_validation": true
+      },
+      "token_analysis": {
+        "input_tokens": 2796,
+        "output_tokens": 1500,
+        "total_tokens": 4296
+      },
+      "quality_indicators": {
+        "follows_claude_standards": false,
+        "reasonable_length": true,
+        "has_documentation": true,
+        "structured_format": true
+      },
+      "savage_verdict": "Complexity score of 98? That's not engineering, that's creating job security through confusion. Estimated 4296 tokens? Your command costs more to run than my coffee habit. Violates CLAUDE.md standards. The documentation exists for a reason."
+    },
+    "java-rapid-implementation": {
+      "file_metrics": {
+        "line_count": 250,
+        "word_count": 1032,
+        "character_count": 8732,
+        "avg_line_length": 34.93
+      },
+      "complexity_analysis": {
+        "complexity_score": 51,
+        "cognitive_load": 4,
+        "has_thinking_blocks": true,
+        "has_mcp_integration": true,
+        "has_error_handling": true,
+        "has_validation": true
+      },
+      "token_analysis": {
+        "input_tokens": 2183,
+        "output_tokens": 1500,
+        "total_tokens": 3683
+      },
+      "quality_indicators": {
+        "follows_claude_standards": false,
+        "reasonable_length": true,
+        "has_documentation": true,
+        "structured_format": true
+      },
+      "savage_verdict": "Complexity score of 51? That's not engineering, that's creating job security through confusion. Estimated 3683 tokens? Your command costs more to run than my coffee habit. Violates CLAUDE.md standards. The documentation exists for a reason."
+    },
+    "java-clean-code-generator": {
+      "file_metrics": {
+        "line_count": 819,
+        "word_count": 3102,
+        "character_count": 25123,
+        "avg_line_length": 30.68
+      },
+      "complexity_analysis": {
+        "complexity_score": 190,
+        "cognitive_load": 9,
+        "has_thinking_blocks": true,
+        "has_mcp_integration": true,
+        "has_error_handling": true,
+        "has_validation": true
+      },
+      "token_analysis": {
+        "input_tokens": 6280,
+        "output_tokens": 1500,
+        "total_tokens": 7780
+      },
+      "quality_indicators": {
+        "follows_claude_standards": false,
+        "reasonable_length": false,
+        "has_documentation": true,
+        "structured_format": true
+      },
+      "savage_verdict": "Complexity score of 190? That's not engineering, that's creating job security through confusion. Estimated 7780 tokens? Your command costs more to run than my coffee habit. 819 lines? War and Peace was shorter and more focused. Violates CLAUDE.md standards. The documentation exists for a reason."
+    },
+    "adhd-morning-assistant": {
+      "file_metrics": {
+        "line_count": 309,
+        "word_count": 1157,
+        "character_count": 8893,
+        "avg_line_length": 28.78
+      },
+      "complexity_analysis": {
+        "complexity_score": 110,
+        "cognitive_load": 14,
+        "has_thinking_blocks": false,
+        "has_mcp_integration": true,
+        "has_error_handling": false,
+        "has_validation": true
+      },
+      "token_analysis": {
+        "input_tokens": 2223,
+        "output_tokens": 1500,
+        "total_tokens": 3723
+      },
+      "quality_indicators": {
+        "follows_claude_standards": false,
+        "reasonable_length": true,
+        "has_documentation": true,
+        "structured_format": false
+      },
+      "savage_verdict": "Complexity score of 110? That's not engineering, that's creating job security through confusion. Estimated 3723 tokens? Your command costs more to run than my coffee habit. Cognitive load 14 is manageable but still high. Room for improvement. Violates CLAUDE.md standards. The documentation exists for a reason. No structured format detected. Organization is not optional."
+    },
+    "adhd-hyperfocus-guardian": {
+      "file_metrics": {
+        "line_count": 457,
+        "word_count": 1525,
+        "character_count": 12021,
+        "avg_line_length": 26.3
+      },
+      "complexity_analysis": {
+        "complexity_score": 90,
+        "cognitive_load": 10,
+        "has_thinking_blocks": false,
+        "has_mcp_integration": true,
+        "has_error_handling": false,
+        "has_validation": true
+      },
+      "token_analysis": {
+        "input_tokens": 3005,
+        "output_tokens": 1500,
+        "total_tokens": 4505
+      },
+      "quality_indicators": {
+        "follows_claude_standards": false,
+        "reasonable_length": true,
+        "has_documentation": true,
+        "structured_format": false
+      },
+      "savage_verdict": "Complexity score of 90? That's not engineering, that's creating job security through confusion. Estimated 4505 tokens? Your command costs more to run than my coffee habit. Violates CLAUDE.md standards. The documentation exists for a reason. No structured format detected. Organization is not optional."
+    },
+    "intelligent-code-enhancer": {
+      "file_metrics": {
+        "line_count": 442,
+        "word_count": 1255,
+        "character_count": 11377,
+        "avg_line_length": 25.74
+      },
+      "complexity_analysis": {
+        "complexity_score": 95,
+        "cognitive_load": 2,
+        "has_thinking_blocks": true,
+        "has_mcp_integration": true,
+        "has_error_handling": true,
+        "has_validation": true
+      },
+      "token_analysis": {
+        "input_tokens": 2844,
+        "output_tokens": 1500,
+        "total_tokens": 4344
+      },
+      "quality_indicators": {
+        "follows_claude_standards": false,
+        "reasonable_length": true,
+        "has_documentation": true,
+        "structured_format": true
+      },
+      "savage_verdict": "Complexity score of 95? That's not engineering, that's creating job security through confusion. Estimated 4344 tokens? Your command costs more to run than my coffee habit. Violates CLAUDE.md standards. The documentation exists for a reason."
+    },
+    "adhd-context-switch": {
+      "file_metrics": {
+        "line_count": 399,
+        "word_count": 1170,
+        "character_count": 9885,
+        "avg_line_length": 24.77
+      },
+      "complexity_analysis": {
+        "complexity_score": 40,
+        "cognitive_load": 9,
+        "has_thinking_blocks": false,
+        "has_mcp_integration": true,
+        "has_error_handling": false,
+        "has_validation": false
+      },
+      "token_analysis": {
+        "input_tokens": 2471,
+        "output_tokens": 1500,
+        "total_tokens": 3971
+      },
+      "quality_indicators": {
+        "follows_claude_standards": false,
+        "reasonable_length": true,
+        "has_documentation": true,
+        "structured_format": false
+      },
+      "savage_verdict": "Complexity score of 40? That's not engineering, that's creating job security through confusion. Estimated 3971 tokens? Your command costs more to run than my coffee habit. Violates CLAUDE.md standards. The documentation exists for a reason. No structured format detected. Organization is not optional."
+    },
+    "ultrathink-pure-xml": {
+      "file_metrics": {
+        "line_count": 472,
+        "word_count": 1514,
+        "character_count": 11326,
+        "avg_line_length": 24.0
+      },
+      "complexity_analysis": {
+        "complexity_score": 56,
+        "cognitive_load": 1,
+        "has_thinking_blocks": true,
+        "has_mcp_integration": false,
+        "has_error_handling": true,
+        "has_validation": true
+      },
+      "token_analysis": {
+        "input_tokens": 2831,
+        "output_tokens": 2000,
+        "total_tokens": 4831
+      },
+      "quality_indicators": {
+        "follows_claude_standards": false,
+        "reasonable_length": true,
+        "has_documentation": true,
+        "structured_format": true
+      },
+      "savage_verdict": "Complexity score of 56? That's not engineering, that's creating job security through confusion. Estimated 4831 tokens? Your command costs more to run than my coffee habit. Violates CLAUDE.md standards. The documentation exists for a reason."
+    },
+    "ultrathink-interactive": {
+      "file_metrics": {
+        "line_count": 673,
+        "word_count": 1952,
+        "character_count": 20374,
+        "avg_line_length": 30.27
+      },
+      "complexity_analysis": {
+        "complexity_score": 85,
+        "cognitive_load": 9,
+        "has_thinking_blocks": false,
+        "has_mcp_integration": true,
+        "has_error_handling": false,
+        "has_validation": true
+      },
+      "token_analysis": {
+        "input_tokens": 5093,
+        "output_tokens": 2000,
+        "total_tokens": 7093
+      },
+      "quality_indicators": {
+        "follows_claude_standards": false,
+        "reasonable_length": false,
+        "has_documentation": true,
+        "structured_format": true
+      },
+      "savage_verdict": "Complexity score of 85? That's not engineering, that's creating job security through confusion. Estimated 7093 tokens? Your command costs more to run than my coffee habit. 673 lines suggests scope creep. One command shouldn't solve world hunger. Violates CLAUDE.md standards. The documentation exists for a reason."
+    },
+    "intelligent-refactor-session": {
+      "file_metrics": {
+        "line_count": 534,
+        "word_count": 2048,
+        "character_count": 16531,
+        "avg_line_length": 30.96
+      },
+      "complexity_analysis": {
+        "complexity_score": 91,
+        "cognitive_load": 2,
+        "has_thinking_blocks": true,
+        "has_mcp_integration": true,
+        "has_error_handling": true,
+        "has_validation": true
+      },
+      "token_analysis": {
+        "input_tokens": 4132,
+        "output_tokens": 800,
+        "total_tokens": 4932
+      },
+      "quality_indicators": {
+        "follows_claude_standards": false,
+        "reasonable_length": false,
+        "has_documentation": true,
+        "structured_format": true
+      },
+      "savage_verdict": "Complexity score of 91? That's not engineering, that's creating job security through confusion. Estimated 4932 tokens? Your command costs more to run than my coffee habit. 534 lines suggests scope creep. One command shouldn't solve world hunger. Violates CLAUDE.md standards. The documentation exists for a reason."
+    }
+  },
+  "rankings": {
+    "most_complex": [
+      [
+        "ultrathink-hybrid-mcp",
+        378
+      ],
+      [
+        "ultrathink-full-mcp",
+        197
+      ],
+      [
+        "java-clean-code-generator",
+        190
+      ],
+      [
+        "adhd-evening-reflect",
+        143
+      ],
+      [
+        "senior-developer-analysis",
+        121
+      ]
+    ],
+    "highest_token_usage": [
+      [
+        "java-clean-code-generator",
+        7780
+      ],
+      [
+        "ultrathink-interactive",
+        7093
+      ],
+      [
+        "ultrathink-full-mcp",
+        6514
+      ],
+      [
+        "ultrathink-hybrid-mcp",
+        5334
+      ],
+      [
+        "intelligent-refactor-session",
+        4932
+      ]
+    ],
+    "longest_commands": [
+      [
+        "java-clean-code-generator",
+        819
+      ],
+      [
+        "ultrathink-interactive",
+        673
+      ],
+      [
+        "ultrathink-full-mcp",
+        665
+      ],
+      [
+        "ultrathink-hybrid-mcp",
+        536
+      ],
+      [
+        "intelligent-refactor-session",
+        534
+      ]
+    ],
+    "highest_cognitive_load": [
+      [
+        "ultrathink-full-mcp",
+        60
+      ],
+      [
+        "ultrathink-hybrid-mcp",
+        33
+      ],
+      [
+        "adhd-morning-assistant",
+        14
+      ],
+      [
+        "ultrathink",
+        12
+      ],
+      [
+        "adhd-hyperfocus-guardian",
+        10
+      ]
+    ],
+    "hall_of_shame": [
+      "ultrathink-hybrid-mcp",
+      "ultrathink-full-mcp",
+      "java-clean-code-generator",
+      "adhd-evening-reflect",
+      "senior-developer-analysis",
+      "git-backup-sync",
+      "analyze-project-architecture",
+      "adhd-morning-assistant",
+      "adaptive-complexity-router",
+      "intelligent-code-enhancer",
+      "intelligent-refactor-session",
+      "adhd-hyperfocus-guardian",
+      "adhd-task-breakdown",
+      "ultrathink-interactive",
+      "safe-code-beautifier",
+      "ultrathink",
+      "ultrathink-pure-xml",
+      "java-rapid-implementation",
+      "java-test-driven-development",
+      "reasoning-wrapper",
+      "adhd-context-switch",
+      "generate-thinking-command",
+      "context-enhanced-executor"
+    ],
+    "hall_of_fame": []
+  },
+  "savage_analysis": {},
+  "statistical_summary": {
+    "complexity_stats": {
+      "mean": 101.78,
+      "median": 90,
+      "std_dev": 75.56,
+      "max": 378,
+      "min": 21
+    },
+    "token_stats": {
+      "mean": 4443.61,
+      "median": 4344,
+      "std_dev": 1345.25,
+      "max": 7780,
+      "min": 1750
+    },
+    "length_stats": {
+      "mean": 433.96,
+      "median": 438,
+      "std_dev": 160.15,
+      "max": 819,
+      "min": 132
+    }
+  },
+  "final_verdict": "Analyzed 23 commands. 23 belong in the Hall of Shame (complexity ≥ 10). 0 earned Hall of Fame status (complexity < 3). The rest are mediocre but functional. Average complexity: 101.78. Your command suite shows room for improvement."
+}
