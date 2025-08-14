@@ -351,3 +351,8 @@ fatal: could not read Username for 'https://github.com': Device not configured
 fatal: could not read Username for 'https://github.com': Device not configured
 [2025-08-14 15:10:00] ERROR: Failed to push to remote
 [2025-08-14 15:12:15] INFO: Using GitHub CLI for authentication
+[main e47bc86] Sync claude configurations - 2025-08-14 15:12
+ 4 files changed, 76 insertions(+), 8 deletions(-)
+can't sync because there are diverging changes; use `--force` to overwrite the destination branch
+[2025-08-14 15:12:16] ERROR: Failed to sync with remote using gh
+[2025-08-14 15:15:00] INFO: Using GitHub CLI for authentication

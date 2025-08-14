@@ -63,10 +63,15 @@ fi
 # Push to remote
 if [ "$HAS_GH" = true ]; then
     # Use GitHub CLI for pushing (handles auth better)
+    # First try without force
     gh repo sync --branch main 2>&1 | tee -a "$LOG_FILE"
     if [ ${PIPESTATUS[0]} -ne 0 ]; then
-        log_message "ERROR: Failed to sync with remote using gh"
-        exit 1
+        log_message "INFO: Regular sync failed, trying with --force"
+        gh repo sync --branch main --force 2>&1 | tee -a "$LOG_FILE"
+        if [ ${PIPESTATUS[0]} -ne 0 ]; then
+            log_message "ERROR: Failed to sync with remote using gh"
+            exit 1
+        fi
     fi
 else
     # Fallback to git push
