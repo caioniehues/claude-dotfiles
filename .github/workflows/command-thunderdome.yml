@@ -50,6 +50,9 @@ jobs:
             echo "::warning::No benchmark data found. Running fresh analysis..."
           fi
       
+      - name: Create Thunderdome Directory
+        run: mkdir -p .github/thunderdome
+        
       - name: Select Today's Victims
         id: selection
         uses: anthropics/claude-code-base-action@beta
@@ -59,12 +62,14 @@ jobs:
             
             TASK: Select commands for today's Thunderdome based on EVIDENCE.
             
+            First, ensure .github/thunderdome/ directory exists.
+            
             Execution Mode: ${{ github.event.inputs.execution_mode || 'random_chaos' }}
             
             SELECTION CRITERIA (Must be data-driven):
             
             1. For RANDOM CHAOS:
-               - Select 6 random commands
+               - Select 6 random commands from the commands/ directory
                - Weight selection by performance metrics if available
                - Include at least 1 "surprise" high-performer for drama
             
@@ -88,8 +93,8 @@ jobs:
             
             OUTPUT (JSON to .github/thunderdome/today-victims.json):
             {
-              "execution_id": "generated_uuid",
-              "mode": "${{ github.event.inputs.execution_mode }}",
+              "execution_id": "${{ github.run_id }}",
+              "mode": "${{ github.event.inputs.execution_mode || 'random_chaos' }}",
               "victims": [
                 {
                   "command": "command-name.md",
@@ -109,7 +114,7 @@ jobs:
             
             BE SAVAGE BUT CITE YOUR SOURCES!
             
-          allowed_tools: Read, Write, Glob, Grep
+          allowed_tools: "Read,Write,Glob,Grep,LS,Bash(mkdir:*)"
           model: "claude-sonnet-4-20250514"
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
   
@@ -226,17 +231,24 @@ jobs:
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
-            const executionData = require('.github/thunderdome/today-victims.json');
-            const victims = executionData.victims.map(v => v.command).join(', ');
+            const fs = require('fs');
+            const path = '.github/thunderdome/today-victims.json';
             
-            // Create issue for public viewing
-            await github.rest.issues.create({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              title: `⚔️ THUNDERDOME RESULTS: ${new Date().toISOString().split('T')[0]}`,
-              body: `## Today's Executions\n\n${victims}\n\n[View the carnage](#)`,
-              labels: ['thunderdome', 'execution', 'savage']
-            });
+            if (fs.existsSync(path)) {
+              const executionData = JSON.parse(fs.readFileSync(path, 'utf8'));
+              const victims = executionData.victims.map(v => v.command).join(', ');
+              
+              // Create issue for public viewing
+              await github.rest.issues.create({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                title: `⚔️ THUNDERDOME RESULTS: ${new Date().toISOString().split('T')[0]}`,
+                body: `## Today's Executions\n\n${victims}\n\n[View the carnage](#)`,
+                labels: ['thunderdome', 'execution', 'savage']
+              });
+            } else {
+              console.log('No victims file found - the commands live to fight another day!');
+            }
   
   resurrection-check:
     runs-on: ubuntu-latest
