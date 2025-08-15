@@ -1,0 +1,329 @@
+{
+  "benchmark_metadata": {
+    "timestamp": "20250815-100512",
+    "total_commands_tested": 8,
+    "total_samples": 40,
+    "framework_version": "1.0"
+  },
+  "aggregate_statistics": {
+    "average_success_rate": 0.575,
+    "average_savage_score": 1.6249999999999996,
+    "total_estimated_cost": 2.71728,
+    "compliance_rate": 0.125
+  },
+  "savage_rankings": [
+    {
+      "rank": 1,
+      "command_name": "adhd-context-switch",
+      "savage_score": 3.0,
+      "judgment": "\u274c adhd-context-switch is struggling. 80.0% success rate is gambling territory.",
+      "key_metrics": {
+        "success_rate": 0.8,
+        "avg_execution_time": 14.918127206811672,
+        "complexity_score": 8,
+        "total_tokens": 26927
+      }
+    },
+    {
+      "rank": 2,
+      "command_name": "senior-developer-analysis",
+      "savage_score": 3.0,
+      "judgment": "\u274c senior-developer-analysis is struggling. 80.0% success rate is gambling territory.",
+      "key_metrics": {
+        "success_rate": 0.8,
+        "avg_execution_time": 19.434550056758205,
+        "complexity_score": 10,
+        "total_tokens": 41551
+      }
+    },
+    {
+      "rank": 3,
+      "command_name": "analyze-project-architecture",
+      "savage_score": 3.0,
+      "judgment": "\u274c analyze-project-architecture is struggling. 80.0% success rate is gambling territory.",
+      "key_metrics": {
+        "success_rate": 0.8,
+        "avg_execution_time": 14.240845560848772,
+        "complexity_score": 8,
+        "total_tokens": 29648
+      }
+    },
+    {
+      "rank": 4,
+      "command_name": "ultrathink",
+      "savage_score": 1.9999999999999991,
+      "judgment": "\ud83d\udc80 ultrathink is a disaster. 60.0% success rate with 12.3s execution time. Delete this.",
+      "key_metrics": {
+        "success_rate": 0.6,
+        "avg_execution_time": 12.277458007995673,
+        "complexity_score": 3,
+        "total_tokens": 26649
+      }
+    },
+    {
+      "rank": 5,
+      "command_name": "adhd-hyperfocus-guardian",
+      "savage_score": 0.9999999999999991,
+      "judgment": "\ud83d\udc80 adhd-hyperfocus-guardian is a disaster. 60.0% success rate with 15.6s execution time. Delete this.",
+      "key_metrics": {
+        "success_rate": 0.6,
+        "avg_execution_time": 15.597825779136917,
+        "complexity_score": 5,
+        "total_tokens": 33057
+      }
+    },
+    {
+      "rank": 6,
+      "command_name": "safe-code-beautifier",
+      "savage_score": 0.9999999999999991,
+      "judgment": "\ud83d\udc80 safe-code-beautifier is a disaster. 60.0% success rate with 20.6s execution time. Delete this.",
+      "key_metrics": {
+        "success_rate": 0.6,
+        "avg_execution_time": 20.579791947178677,
+        "complexity_score": 10,
+        "total_tokens": 36688
+      }
+    },
+    {
+      "rank": 7,
+      "command_name": "adhd-evening-reflect",
+      "savage_score": 0.0,
+      "judgment": "\ud83d\udc80 adhd-evening-reflect is a disaster. 0.0% success rate with 17.5s execution time. Delete this.",
+      "key_metrics": {
+        "success_rate": 0.0,
+        "avg_execution_time": 17.482233430719393,
+        "complexity_score": 8,
+        "total_tokens": 33684
+      }
+    },
+    {
+      "rank": 8,
+      "command_name": "java-test-driven-development",
+      "savage_score": 0.0,
+      "judgment": "\ud83d\udc80 java-test-driven-development is a disaster. 40.0% success rate with 19.4s execution time. Delete this.",
+      "key_metrics": {
+        "success_rate": 0.4,
+        "avg_execution_time": 19.38595089017073,
+        "complexity_score": 10,
+        "total_tokens": 43524
+      }
+    }
+  ],
+  "detailed_results": [
+    {
+      "command_name": "adhd-context-switch",
+      "sample_size": 5,
+      "execution_times": [
+        14.84219668025981,
+        14.83703735289252,
+        14.914484761646323,
+        14.973609804909476,
+        15.023307434350233
+      ],
+      "mean_execution_time": 14.918127206811672,
+      "std_dev": 0.0813871544449751,
+      "success_rate": 0.8,
+      "total_tokens": 26927,
+      "avg_complexity": 8,
+      "cost_estimate": 0.26927,
+      "savage_score": 3.0,
+      "judgment": "\u274c adhd-context-switch is struggling. 80.0% success rate is gambling territory.",
+      "recommendations": [
+        "REDUCE COMPLEXITY: Score 8.0 violates CLAUDE.md rule (max 5)",
+        "OPTIMIZE PERFORMANCE: 14.9s execution time is too slow",
+        "MAJOR REFACTOR NEEDED: Multiple critical issues detected"
+      ]
+    },
+    {
+      "command_name": "senior-developer-analysis",
+      "sample_size": 5,
+      "execution_times": [
+        19.54128137727062,
+        19.472413315976308,
+        19.496023564525196,
+        19.235632927057864,
+        19.42739909896104
+      ],
+      "mean_execution_time": 19.434550056758205,
+      "std_dev": 0.11855732159988978,
+      "success_rate": 0.8,
+      "total_tokens": 41551,
+      "avg_complexity": 10,
+      "cost_estimate": 0.41551000000000005,
+      "savage_score": 3.0,
+      "judgment": "\u274c senior-developer-analysis is struggling. 80.0% success rate is gambling territory.",
+      "recommendations": [
+        "REDUCE COMPLEXITY: Score 10.0 violates CLAUDE.md rule (max 5)",
+        "OPTIMIZE PERFORMANCE: 19.4s execution time is too slow",
+        "MAJOR REFACTOR NEEDED: Multiple critical issues detected"
+      ]
+    },
+    {
+      "command_name": "analyze-project-architecture",
+      "sample_size": 5,
+      "execution_times": [
+        14.19810900178157,
+        14.403774752942418,
+        14.211798264776014,
+        14.340883266889655,
+        14.049662517854207
+      ],
+      "mean_execution_time": 14.240845560848772,
+      "std_dev": 0.13763591381332393,
+      "success_rate": 0.8,
+      "total_tokens": 29648,
+      "avg_complexity": 8,
+      "cost_estimate": 0.29648,
+      "savage_score": 3.0,
+      "judgment": "\u274c analyze-project-architecture is struggling. 80.0% success rate is gambling territory.",
+      "recommendations": [
+        "REDUCE COMPLEXITY: Score 8.0 violates CLAUDE.md rule (max 5)",
+        "OPTIMIZE PERFORMANCE: 14.2s execution time is too slow",
+        "MAJOR REFACTOR NEEDED: Multiple critical issues detected"
+      ]
+    },
+    {
+      "command_name": "ultrathink",
+      "sample_size": 5,
+      "execution_times": [
+        12.417656765160137,
+        12.377169962057284,
+        12.240054391856978,
+        12.218869391350376,
+        12.133539529553587
+      ],
+      "mean_execution_time": 12.277458007995673,
+      "std_dev": 0.1174120417919204,
+      "success_rate": 0.6,
+      "total_tokens": 26649,
+      "avg_complexity": 3,
+      "cost_estimate": 0.26649,
+      "savage_score": 1.9999999999999991,
+      "judgment": "\ud83d\udc80 ultrathink is a disaster. 60.0% success rate with 12.3s execution time. Delete this.",
+      "recommendations": [
+        "FIX RELIABILITY: 60.0% success rate is unacceptable",
+        "OPTIMIZE PERFORMANCE: 12.3s execution time is too slow",
+        "MAJOR REFACTOR NEEDED: Multiple critical issues detected"
+      ]
+    },
+    {
+      "command_name": "adhd-hyperfocus-guardian",
+      "sample_size": 5,
+      "execution_times": [
+        15.592105166291908,
+        15.59951943603615,
+        15.603905086476722,
+        15.62576355212372,
+        15.567835654756085
+      ],
+      "mean_execution_time": 15.597825779136917,
+      "std_dev": 0.020931307786343358,
+      "success_rate": 0.6,
+      "total_tokens": 33057,
+      "avg_complexity": 5,
+      "cost_estimate": 0.33057000000000003,
+      "savage_score": 0.9999999999999991,
+      "judgment": "\ud83d\udc80 adhd-hyperfocus-guardian is a disaster. 60.0% success rate with 15.6s execution time. Delete this.",
+      "recommendations": [
+        "REDUCE COMPLEXITY: Score 5.0 violates CLAUDE.md rule (max 5)",
+        "FIX RELIABILITY: 60.0% success rate is unacceptable",
+        "OPTIMIZE PERFORMANCE: 15.6s execution time is too slow",
+        "MAJOR REFACTOR NEEDED: Multiple critical issues detected"
+      ]
+    },
+    {
+      "command_name": "safe-code-beautifier",
+      "sample_size": 5,
+      "execution_times": [
+        20.515681797491297,
+        20.666796244816886,
+        20.701696944322467,
+        20.420362552295344,
+        20.594422196967397
+      ],
+      "mean_execution_time": 20.579791947178677,
+      "std_dev": 0.1142064617160845,
+      "success_rate": 0.6,
+      "total_tokens": 36688,
+      "avg_complexity": 10,
+      "cost_estimate": 0.36688000000000004,
+      "savage_score": 0.9999999999999991,
+      "judgment": "\ud83d\udc80 safe-code-beautifier is a disaster. 60.0% success rate with 20.6s execution time. Delete this.",
+      "recommendations": [
+        "REDUCE COMPLEXITY: Score 10.0 violates CLAUDE.md rule (max 5)",
+        "FIX RELIABILITY: 60.0% success rate is unacceptable",
+        "OPTIMIZE PERFORMANCE: 20.6s execution time is too slow",
+        "MAJOR REFACTOR NEEDED: Multiple critical issues detected"
+      ]
+    },
+    {
+      "command_name": "adhd-evening-reflect",
+      "sample_size": 5,
+      "execution_times": [
+        17.386330258773505,
+        17.38203790061672,
+        17.36084467956256,
+        17.631694190442197,
+        17.65026012420199
+      ],
+      "mean_execution_time": 17.482233430719393,
+      "std_dev": 0.1453816356773315,
+      "success_rate": 0.0,
+      "total_tokens": 33684,
+      "avg_complexity": 8,
+      "cost_estimate": 0.33684000000000003,
+      "savage_score": 0.0,
+      "judgment": "\ud83d\udc80 adhd-evening-reflect is a disaster. 0.0% success rate with 17.5s execution time. Delete this.",
+      "recommendations": [
+        "REDUCE COMPLEXITY: Score 8.0 violates CLAUDE.md rule (max 5)",
+        "FIX RELIABILITY: 0.0% success rate is unacceptable",
+        "OPTIMIZE PERFORMANCE: 17.5s execution time is too slow",
+        "MAJOR REFACTOR NEEDED: Multiple critical issues detected"
+      ]
+    },
+    {
+      "command_name": "java-test-driven-development",
+      "sample_size": 5,
+      "execution_times": [
+        19.318924429022985,
+        19.26661024691545,
+        19.54924972458105,
+        19.274075615811167,
+        19.520894434522997
+      ],
+      "mean_execution_time": 19.38595089017073,
+      "std_dev": 0.13795568321178575,
+      "success_rate": 0.4,
+      "total_tokens": 43524,
+      "avg_complexity": 10,
+      "cost_estimate": 0.43524,
+      "savage_score": 0.0,
+      "judgment": "\ud83d\udc80 java-test-driven-development is a disaster. 40.0% success rate with 19.4s execution time. Delete this.",
+      "recommendations": [
+        "REDUCE COMPLEXITY: Score 10.0 violates CLAUDE.md rule (max 5)",
+        "FIX RELIABILITY: 40.0% success rate is unacceptable",
+        "OPTIMIZE PERFORMANCE: 19.4s execution time is too slow",
+        "MAJOR REFACTOR NEEDED: Multiple critical issues detected"
+      ]
+    }
+  ],
+  "critical_issues": [
+    "adhd-context-switch",
+    "senior-developer-analysis",
+    "adhd-hyperfocus-guardian",
+    "analyze-project-architecture",
+    "adhd-evening-reflect",
+    "java-test-driven-development",
+    "ultrathink",
+    "safe-code-beautifier"
+  ],
+  "compliance_violations": [
+    "adhd-context-switch",
+    "senior-developer-analysis",
+    "adhd-hyperfocus-guardian",
+    "analyze-project-architecture",
+    "adhd-evening-reflect",
+    "java-test-driven-development",
+    "safe-code-beautifier"
+  ]
+}
