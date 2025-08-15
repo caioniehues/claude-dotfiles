@@ -1,0 +1,15 @@
+{
+  "command_path": "commands/reasoning-wrapper.md",
+  "metrics": {
+    "command_name": "reasoning-wrapper",
+    "complexity_score": 4,
+    "line_count": 415,
+    "documentation_quality": 9.0,
+    "reusability_factor": 9.0,
+    "adhd_friendliness": 0.0,
+    "mcp_integration_count": 2,
+    "thinking_block_count": 0,
+    "error_handling_quality": 9.0
+  },
+  "content_sample": "# Reasoning Wrapper - Add Explicit Reasoning to Any Command or Code\n\n<task>\nWraps any command or code with explicit reasoning traces and decision tracking for: $ARGUMENTS\n</task>\n\n<context>\nThis meta-command wraps any command, tool, or action with transparent reasoning layers, making all decision-making processes explicit and traceable.\n\nCore capabilities:\n- Wrap existing commands with reasoning blocks\n- Add automatic complexity detection\n- Inject MCP integration points\n- Provide explicit reason..."
+}

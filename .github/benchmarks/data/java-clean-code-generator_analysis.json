@@ -1,0 +1,15 @@
+{
+  "command_path": "commands/java-clean-code-generator.md",
+  "metrics": {
+    "command_name": "java-clean-code-generator",
+    "complexity_score": 13,
+    "line_count": 819,
+    "documentation_quality": 10.0,
+    "reusability_factor": 9.0,
+    "adhd_friendliness": 2.0,
+    "mcp_integration_count": 2,
+    "thinking_block_count": 37,
+    "error_handling_quality": 9.0
+  },
+  "content_sample": "# Java Clean Code Generator - Production-Quality Java Implementation\n\n<task>\nGenerates production Java code following Clean Code principles with enforced simplicity: $ARGUMENTS\n</task>\n\n<context>\nThis command generates production-quality Java code that rigorously applies:\n- Clean Code principles (meaningful names, small functions, single responsibility)\n- Effective Java patterns (static factories, builders, composition, immutability)\n- Simplicity-first approach (3-question rule, complexity score..."
+}

@@ -1,0 +1,239 @@
+{
+  "metadata": {
+    "timestamp": "20250815-033030",
+    "benchmarker_version": "1.0.0-savage",
+    "total_commands_available": 23,
+    "analyzed_commands": 3
+  },
+  "aggregate_statistics": {
+    "overall_scores": {
+      "mean": 59.77777777777778,
+      "std_dev": 6.775329703607976,
+      "confidence_interval_95": [
+        52.11077045845378,
+        67.44478509710179
+      ],
+      "outliers": [],
+      "variance": 45.905092592592545,
+      "coefficient_variation": 11.334194671463155
+    },
+    "complexity_scores": {
+      "mean": 4.666666666666667,
+      "std_dev": 4.041451884327381,
+      "confidence_interval_95": [
+        0.09333333333333371,
+        9.24
+      ],
+      "outliers": [],
+      "variance": 16.333333333333332,
+      "coefficient_variation": 86.60254037844386
+    },
+    "total_commands_analyzed": 3,
+    "commands_exceeding_complexity": 1,
+    "average_line_count": 413.3333333333333,
+    "mcp_integration_rate": 1.0
+  },
+  "summary_commentary": "\u26a0\ufe0f MEDIOCRITY EPIDEMIC \u26a0\ufe0f\n\nScore of 59.8/100 is the programming equivalent of vanilla ice cream\u2014technically food, but why would you choose it? 1/3 complexity violations suggest room for improvement.",
+  "individual_results": {
+    "adhd-task-breakdown": {
+      "timestamp": "2025-08-15T03:30:30.834011+00:00",
+      "command_metrics": {
+        "command_name": "adhd-task-breakdown",
+        "complexity_score": 1,
+        "line_count": 365,
+        "documentation_quality": 6.0,
+        "reusability_factor": 7.0,
+        "adhd_friendliness": 10.0,
+        "mcp_integration_count": 3,
+        "thinking_block_count": 0,
+        "error_handling_quality": 0.0
+      },
+      "performance_metrics": {
+        "execution_time_ms": [
+          32.86261158496187,
+          34.43820900684495,
+          37.502983079899835,
+          37.009724044388136,
+          33.683017058362815
+        ],
+        "memory_usage_mb": 3.65,
+        "token_consumption_estimate": 3650,
+        "success_rate": 1.0,
+        "failure_patterns": []
+      },
+      "statistical_analysis": {
+        "execution_time": {
+          "mean": 35.09930895489152,
+          "std_dev": 2.0538431120427094,
+          "confidence_interval_95": [
+            33.29903609194181,
+            36.89958181784123
+          ],
+          "outliers": [],
+          "variance": 4.218271528885282,
+          "coefficient_variation": 5.8515200817265125
+        },
+        "complexity_trend": {
+          "mean": 1,
+          "std_dev": 0,
+          "confidence_interval_95": [
+            1,
+            1
+          ],
+          "outliers": [],
+          "variance": 0,
+          "coefficient_variation": 0.0
+        }
+      },
+      "savage_judgment": {
+        "overall_score": 65.58333333333333,
+        "roast_level": "medium",
+        "commentary": "\u26a0\ufe0f MEDIOCRE ALERT: 65.6/100 \u26a0\ufe0f\n\nThis command is the programming equivalent of lukewarm coffee\u2014not terrible enough to throw away, but not good enough to enjoy. Complexity score of 1 is acceptable, but the 365 lines suggest some optimization opportunities. Documentation quality at 6.0/10 is 'meh' tier.",
+        "improvement_recommendations": [
+          "\ud83d\udee1\ufe0f ERROR HANDLING: Score 0.0/10. Add validation, fallback mechanisms, and graceful degradation."
+        ],
+        "comparable_commands": [],
+        "complexity_verdict": "\ud83c\udfc6 OPTIMAL: Direct solution, zero unnecessary complexity"
+      },
+      "evidence_files": [
+        ".github/benchmarks/data/adhd-task-breakdown_analysis.json"
+      ]
+    },
+    "reasoning-wrapper": {
+      "timestamp": "2025-08-15T03:30:30.836571+00:00",
+      "command_metrics": {
+        "command_name": "reasoning-wrapper",
+        "complexity_score": 4,
+        "line_count": 415,
+        "documentation_quality": 9.0,
+        "reusability_factor": 9.0,
+        "adhd_friendliness": 0.0,
+        "mcp_integration_count": 2,
+        "thinking_block_count": 0,
+        "error_handling_quality": 9.0
+      },
+      "performance_metrics": {
+        "execution_time_ms": [
+          45.64881787826193,
+          32.62471872887735,
+          42.71850776609463,
+          33.48589189761912,
+          39.716627087154286
+        ],
+        "memory_usage_mb": 4.15,
+        "token_consumption_estimate": 4150,
+        "success_rate": 0.7,
+        "failure_patterns": []
+      },
+      "statistical_analysis": {
+        "execution_time": {
+          "mean": 38.83891267160146,
+          "std_dev": 5.689189032293215,
+          "confidence_interval_95": [
+            33.85211861368435,
+            43.82570672951858
+          ],
+          "outliers": [],
+          "variance": 32.36687184516541,
+          "coefficient_variation": 14.648167626106279
+        },
+        "complexity_trend": {
+          "mean": 4,
+          "std_dev": 0,
+          "confidence_interval_95": [
+            4,
+            4
+          ],
+          "outliers": [],
+          "variance": 0,
+          "coefficient_variation": 0.0
+        }
+      },
+      "savage_judgment": {
+        "overall_score": 61.416666666666664,
+        "roast_level": "medium",
+        "commentary": "\u26a0\ufe0f MEDIOCRE ALERT: 61.4/100 \u26a0\ufe0f\n\nThis command is the programming equivalent of lukewarm coffee\u2014not terrible enough to throw away, but not good enough to enjoy. Complexity score of 4 is acceptable, but the 415 lines suggest some optimization opportunities. Documentation quality at 9.0/10 is 'meh' tier.",
+        "improvement_recommendations": [
+          "\ud83e\udde0 ADHD OPTIMIZATION: Score 0.0/10. Add task chunking, energy level awareness, and pattern learning integration."
+        ],
+        "comparable_commands": [],
+        "complexity_verdict": "\u26a0\ufe0f WARNING: At complexity threshold, monitor carefully"
+      },
+      "evidence_files": [
+        ".github/benchmarks/data/reasoning-wrapper_analysis.json"
+      ]
+    },
+    "java-test-driven-development": {
+      "timestamp": "2025-08-15T03:30:30.838564+00:00",
+      "command_metrics": {
+        "command_name": "java-test-driven-development",
+        "complexity_score": 9,
+        "line_count": 460,
+        "documentation_quality": 10.0,
+        "reusability_factor": 9.0,
+        "adhd_friendliness": 0.0,
+        "mcp_integration_count": 1,
+        "thinking_block_count": 0,
+        "error_handling_quality": 7.0
+      },
+      "performance_metrics": {
+        "execution_time_ms": [
+          53.31619729174806,
+          50.688365663003964,
+          50.94593526120925,
+          38.24577182359229,
+          39.98243404876058
+        ],
+        "memory_usage_mb": 4.6000000000000005,
+        "token_consumption_estimate": 4600,
+        "success_rate": 0.5,
+        "failure_patterns": [
+          "complexity_timeout",
+          "memory_overflow"
+        ]
+      },
+      "statistical_analysis": {
+        "execution_time": {
+          "mean": 46.63574081766283,
+          "std_dev": 6.969363558872995,
+          "confidence_interval_95": [
+            40.526824312063276,
+            52.74465732326238
+          ],
+          "outliers": [],
+          "variance": 48.57202841574686,
+          "coefficient_variation": 14.944253992065711
+        },
+        "complexity_trend": {
+          "mean": 9,
+          "std_dev": 0,
+          "confidence_interval_95": [
+            9,
+            9
+          ],
+          "outliers": [],
+          "variance": 0,
+          "coefficient_variation": 0.0
+        }
+      },
+      "savage_judgment": {
+        "overall_score": 52.333333333333336,
+        "roast_level": "medium",
+        "commentary": "\u26a0\ufe0f MEDIOCRE ALERT: 52.3/100 \u26a0\ufe0f\n\nThis command is the programming equivalent of lukewarm coffee\u2014not terrible enough to throw away, but not good enough to enjoy. Complexity score of 9 is acceptable, but the 460 lines suggest some optimization opportunities. Documentation quality at 10.0/10 is 'meh' tier.",
+        "improvement_recommendations": [
+          "\ud83c\udfaf COMPLEXITY REDUCTION: Score is 9 (target: <5). Apply the 3-question rule: Can you use existing solutions? Can you solve with a simple method? Do you really need abstraction NOW?",
+          "\ud83e\udde0 ADHD OPTIMIZATION: Score 0.0/10. Add task chunking, energy level awareness, and pattern learning integration."
+        ],
+        "comparable_commands": [],
+        "complexity_verdict": "\ud83d\udea8 VIOLATION: Score 9 exceeds limit of 5. SIMPLIFY IMMEDIATELY!"
+      },
+      "evidence_files": [
+        ".github/benchmarks/data/java-test-driven-development_analysis.json"
+      ]
+    }
+  },
+  "recommendations": [
+    "\ud83c\udfaf GLOBAL COMPLEXITY AUDIT: 1 commands exceed complexity limits. Implement mandatory complexity reviews.",
+    "\ud83d\udccf SIZE STANDARDIZATION: Average 413 lines per command suggests overly complex implementations. Set size limits."
+  ]
+}

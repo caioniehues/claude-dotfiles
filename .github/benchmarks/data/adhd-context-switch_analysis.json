@@ -1,0 +1,15 @@
+{
+  "command_path": "commands/adhd-context-switch.md",
+  "metrics": {
+    "command_name": "adhd-context-switch",
+    "complexity_score": 4,
+    "line_count": 399,
+    "documentation_quality": 6.0,
+    "reusability_factor": 6.0,
+    "adhd_friendliness": 8.0,
+    "mcp_integration_count": 4,
+    "thinking_block_count": 0,
+    "error_handling_quality": 2.0
+  },
+  "content_sample": "# ADHD Context Switch\n\nSeamless context switching that preserves mental state, reduces switching costs, and enables smooth task transitions without losing progress.\n\n## Core Features\n- Complete state preservation to Basic Memory\n- Exact stopping point documentation  \n- Clear return instructions\n- Mental context capture\n- 50% reduction in switching overhead\n\n## Usage\n```\n/adhd-context-switch [from-task] [to-task]\n```\n\n## Implementation\n\n```xml\n<command>\n<name>adhd-context-switch</name>\n<descripti..."
+}

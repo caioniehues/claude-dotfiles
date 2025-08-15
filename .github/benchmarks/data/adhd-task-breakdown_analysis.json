@@ -1,0 +1,15 @@
+{
+  "command_path": "commands/adhd-task-breakdown.md",
+  "metrics": {
+    "command_name": "adhd-task-breakdown",
+    "complexity_score": 1,
+    "line_count": 365,
+    "documentation_quality": 6.0,
+    "reusability_factor": 7.0,
+    "adhd_friendliness": 10.0,
+    "mcp_integration_count": 3,
+    "thinking_block_count": 0,
+    "error_handling_quality": 0.0
+  },
+  "content_sample": "# ADHD Task Breakdown\n\nIntelligent task decomposition using the TASTE method with personalized ADHD accommodations and pattern-based time estimates.\n\n## Core Features\n- Automatic TASTE method application (20-minute chunks)\n- Spiciness rating for engagement level\n- Personalized time multipliers from your patterns\n- 5-minute starter tasks for paralysis prevention\n- Links to similar completed tasks\n\n## Usage\n```\n/adhd-task-breakdown [task description]\n```\n\n## Implementation\n\n```xml\n<command>\n<name>..."
+}

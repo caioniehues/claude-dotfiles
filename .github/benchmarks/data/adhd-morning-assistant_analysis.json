@@ -1,0 +1,15 @@
+{
+  "command_path": "commands/adhd-morning-assistant.md",
+  "metrics": {
+    "command_name": "adhd-morning-assistant",
+    "complexity_score": 1,
+    "line_count": 309,
+    "documentation_quality": 6.0,
+    "reusability_factor": 8.0,
+    "adhd_friendliness": 10.0,
+    "mcp_integration_count": 7,
+    "thinking_block_count": 0,
+    "error_handling_quality": 4.0
+  },
+  "content_sample": "# ADHD Morning Assistant\n\nAI-powered morning planning assistant that learns from your patterns to create realistic, ADHD-optimized daily plans.\n\n## Core Features\n- Loads 7-day pattern history from Basic Memory\n- Applies personalized ADHD time multipliers\n- Matches tasks to predicted energy levels\n- Identifies potential blockers proactively\n- Creates realistic capacity estimates\n\n## Usage\n```\n/adhd-morning-assistant\n```\n\n## Implementation\n\n```xml\n<command>\n<name>adhd-morning-assistant</name>\n<des..."
+}
