@@ -1,0 +1,39 @@
+{
+  "benchmark_id": "20250815-083940",
+  "timestamp": "20250815-083940",
+  "total_commands_available": 23,
+  "selected_for_benchmarking": [
+    "intelligent-code-enhancer.md",
+    "context-enhanced-executor.md",
+    "ultrathink-hybrid-mcp.md",
+    "adhd-morning-assistant.md",
+    "intelligent-refactor-session.md"
+  ],
+  "measurement_plan": {
+    "metrics": [
+      "token_consumption_input",
+      "token_consumption_output",
+      "execution_time_seconds",
+      "success_rate_percentage",
+      "complexity_score",
+      "memory_usage_mb",
+      "error_frequency",
+      "composition_compatibility"
+    ],
+    "test_scenarios": [
+      "simple_java_class_creation",
+      "complex_refactoring_task",
+      "documentation_generation",
+      "error_handling_improvement",
+      "architecture_analysis"
+    ],
+    "statistical_analysis": [
+      "mean",
+      "median",
+      "standard_deviation",
+      "confidence_interval_95",
+      "outlier_detection",
+      "regression_analysis"
+    ]
+  }
+}
