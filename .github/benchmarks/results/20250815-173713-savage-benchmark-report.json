@@ -1,0 +1,919 @@
+{
+  "metadata": {
+    "timestamp": "20250815-173713",
+    "total_commands": 23,
+    "analysis_date": "2025-08-15T17:37:13.153902",
+    "benchmarker_version": "2.0"
+  },
+  "statistical_summary": {
+    "complexity": {
+      "mean": 128.2608695652174,
+      "median": 103,
+      "std_dev": 85.0097413622828,
+      "min": 33,
+      "max": 391,
+      "violations": 23
+    },
+    "execution_time": {
+      "mean_ms": 48980.38229995435,
+      "median_ms": 34384.09784271793,
+      "std_dev_ms": 37449.52903864506,
+      "variance_coefficient": 0.764582211900783
+    },
+    "success_rates": {
+      "mean": 0.1,
+      "median": 0.1,
+      "std_dev": 0.0,
+      "failures": 23
+    },
+    "token_efficiency": {
+      "mean_tokens": 1872.6521739130435,
+      "median_tokens": 1771,
+      "std_dev_tokens": 708.3530583938834,
+      "efficiency_score": 5.269913128594151
+    }
+  },
+  "command_metrics": [
+    {
+      "command_name": "adhd-evening-reflect",
+      "execution_time_ms": 43576.521701956204,
+      "token_consumption_estimate": 1771,
+      "lines_of_code": 353,
+      "complexity_score": 149,
+      "success_rate": 0.1,
+      "error_types": [
+        "timeout",
+        "complexity_overflow",
+        "token_limit",
+        "context_loss",
+        "mcp_timeout",
+        "tool_unavailable"
+      ],
+      "memory_patterns": [
+        "strategy",
+        "observer",
+        "template",
+        "orchestrator"
+      ],
+      "composition_compatibility": {
+        "with_thinking_commands": true,
+        "with_mcp_tools": true,
+        "with_memory_tools": true,
+        "with_interactive_tools": true,
+        "chainable": false,
+        "parallelizable": true
+      }
+    },
+    {
+      "command_name": "git-backup-sync",
+      "execution_time_ms": 56402.35012656358,
+      "token_consumption_estimate": 1899,
+      "lines_of_code": 438,
+      "complexity_score": 150,
+      "success_rate": 0.1,
+      "error_types": [
+        "timeout",
+        "complexity_overflow",
+        "token_limit",
+        "context_loss",
+        "validation_error",
+        "mcp_timeout",
+        "tool_unavailable"
+      ],
+      "memory_patterns": [
+        "factory",
+        "strategy",
+        "observer",
+        "template",
+        "orchestrator",
+        "wrapper",
+        "composite"
+      ],
+      "composition_compatibility": {
+        "with_thinking_commands": false,
+        "with_mcp_tools": true,
+        "with_memory_tools": true,
+        "with_interactive_tools": true,
+        "chainable": false,
+        "parallelizable": true
+      }
+    },
+    {
+      "command_name": "context-enhanced-executor",
+      "execution_time_ms": 12885.474604419347,
+      "token_consumption_estimate": 551,
+      "lines_of_code": 109,
+      "complexity_score": 33,
+      "success_rate": 0.1,
+      "error_types": [
+        "timeout",
+        "complexity_overflow",
+        "token_limit",
+        "context_loss",
+        "validation_error",
+        "mcp_timeout",
+        "tool_unavailable"
+      ],
+      "memory_patterns": [
+        "strategy",
+        "template",
+        "orchestrator",
+        "wrapper"
+      ],
+      "composition_compatibility": {
+        "with_thinking_commands": false,
+        "with_mcp_tools": true,
+        "with_memory_tools": false,
+        "with_interactive_tools": true,
+        "chainable": false,
+        "parallelizable": true
+      }
+    },
+    {
+      "command_name": "generate-thinking-command",
+      "execution_time_ms": 14286.161272872194,
+      "token_consumption_estimate": 539,
+      "lines_of_code": 110,
+      "complexity_score": 35,
+      "success_rate": 0.1,
+      "error_types": [
+        "timeout",
+        "complexity_overflow",
+        "token_limit",
+        "context_loss",
+        "mcp_timeout",
+        "tool_unavailable"
+      ],
+      "memory_patterns": [
+        "factory",
+        "strategy",
+        "template",
+        "orchestrator",
+        "wrapper"
+      ],
+      "composition_compatibility": {
+        "with_thinking_commands": false,
+        "with_mcp_tools": true,
+        "with_memory_tools": false,
+        "with_interactive_tools": true,
+        "chainable": false,
+        "parallelizable": true
+      }
+    },
+    {
+      "command_name": "safe-code-beautifier",
+      "execution_time_ms": 70004.54662005565,
+      "token_consumption_estimate": 2171,
+      "lines_of_code": 368,
+      "complexity_score": 181,
+      "success_rate": 0.1,
+      "error_types": [
+        "timeout",
+        "complexity_overflow",
+        "token_limit",
+        "context_loss",
+        "mcp_timeout",
+        "tool_unavailable"
+      ],
+      "memory_patterns": [
+        "factory",
+        "strategy",
+        "observer",
+        "template",
+        "orchestrator"
+      ],
+      "composition_compatibility": {
+        "with_thinking_commands": false,
+        "with_mcp_tools": true,
+        "with_memory_tools": false,
+        "with_interactive_tools": true,
+        "chainable": false,
+        "parallelizable": true
+      }
+    },
+    {
+      "command_name": "ultrathink-hybrid-mcp",
+      "execution_time_ms": 172132.90770467476,
+      "token_consumption_estimate": 2132,
+      "lines_of_code": 429,
+      "complexity_score": 391,
+      "success_rate": 0.1,
+      "error_types": [
+        "timeout",
+        "complexity_overflow",
+        "token_limit",
+        "context_loss",
+        "mcp_timeout",
+        "tool_unavailable"
+      ],
+      "memory_patterns": [
+        "factory",
+        "strategy",
+        "template"
+      ],
+      "composition_compatibility": {
+        "with_thinking_commands": false,
+        "with_mcp_tools": true,
+        "with_memory_tools": true,
+        "with_interactive_tools": false,
+        "chainable": false,
+        "parallelizable": false
+      }
+    },
+    {
+      "command_name": "ultrathink",
+      "execution_time_ms": 29238.548377733816,
+      "token_consumption_estimate": 1579,
+      "lines_of_code": 289,
+      "complexity_score": 72,
+      "success_rate": 0.1,
+      "error_types": [
+        "timeout",
+        "complexity_overflow",
+        "token_limit",
+        "context_loss",
+        "mcp_timeout",
+        "tool_unavailable"
+      ],
+      "memory_patterns": [
+        "factory",
+        "strategy",
+        "template",
+        "orchestrator",
+        "wrapper"
+      ],
+      "composition_compatibility": {
+        "with_thinking_commands": false,
+        "with_mcp_tools": true,
+        "with_memory_tools": true,
+        "with_interactive_tools": false,
+        "chainable": false,
+        "parallelizable": false
+      }
+    },
+    {
+      "command_name": "adhd-task-breakdown",
+      "execution_time_ms": 31581.013897310593,
+      "token_consumption_estimate": 1643,
+      "lines_of_code": 283,
+      "complexity_score": 89,
+      "success_rate": 0.1,
+      "error_types": [
+        "timeout",
+        "complexity_overflow",
+        "token_limit",
+        "context_loss",
+        "validation_error",
+        "mcp_timeout",
+        "tool_unavailable"
+      ],
+      "memory_patterns": [
+        "factory",
+        "strategy",
+        "observer",
+        "template"
+      ],
+      "composition_compatibility": {
+        "with_thinking_commands": true,
+        "with_mcp_tools": true,
+        "with_memory_tools": true,
+        "with_interactive_tools": true,
+        "chainable": false,
+        "parallelizable": true
+      }
+    },
+    {
+      "command_name": "reasoning-wrapper",
+      "execution_time_ms": 30693.876306278933,
+      "token_consumption_estimate": 1560,
+      "lines_of_code": 344,
+      "complexity_score": 69,
+      "success_rate": 0.1,
+      "error_types": [
+        "timeout",
+        "complexity_overflow",
+        "token_limit",
+        "context_loss",
+        "mcp_timeout",
+        "tool_unavailable"
+      ],
+      "memory_patterns": [
+        "factory",
+        "strategy",
+        "template",
+        "orchestrator",
+        "wrapper"
+      ],
+      "composition_compatibility": {
+        "with_thinking_commands": false,
+        "with_mcp_tools": true,
+        "with_memory_tools": false,
+        "with_interactive_tools": true,
+        "chainable": false,
+        "parallelizable": true
+      }
+    },
+    {
+      "command_name": "analyze-project-architecture",
+      "execution_time_ms": 53096.18551346522,
+      "token_consumption_estimate": 1557,
+      "lines_of_code": 233,
+      "complexity_score": 133,
+      "success_rate": 0.1,
+      "error_types": [
+        "timeout",
+        "complexity_overflow",
+        "token_limit",
+        "context_loss",
+        "validation_error",
+        "mcp_timeout",
+        "tool_unavailable"
+      ],
+      "memory_patterns": [
+        "factory",
+        "strategy",
+        "observer",
+        "template",
+        "orchestrator"
+      ],
+      "composition_compatibility": {
+        "with_thinking_commands": false,
+        "with_mcp_tools": true,
+        "with_memory_tools": false,
+        "with_interactive_tools": true,
+        "chainable": false,
+        "parallelizable": true
+      }
+    },
+    {
+      "command_name": "ultrathink-full-mcp",
+      "execution_time_ms": 79024.51093045856,
+      "token_consumption_estimate": 2635,
+      "lines_of_code": 544,
+      "complexity_score": 219,
+      "success_rate": 0.1,
+      "error_types": [
+        "timeout",
+        "complexity_overflow",
+        "token_limit",
+        "context_loss",
+        "mcp_timeout",
+        "tool_unavailable"
+      ],
+      "memory_patterns": [
+        "factory",
+        "strategy",
+        "template",
+        "orchestrator"
+      ],
+      "composition_compatibility": {
+        "with_thinking_commands": false,
+        "with_mcp_tools": true,
+        "with_memory_tools": true,
+        "with_interactive_tools": true,
+        "chainable": false,
+        "parallelizable": true
+      }
+    },
+    {
+      "command_name": "java-test-driven-development",
+      "execution_time_ms": 29734.32664031964,
+      "token_consumption_estimate": 2063,
+      "lines_of_code": 392,
+      "complexity_score": 79,
+      "success_rate": 0.1,
+      "error_types": [
+        "timeout",
+        "complexity_overflow",
+        "token_limit",
+        "context_loss",
+        "mcp_timeout",
+        "tool_unavailable"
+      ],
+      "memory_patterns": [
+        "factory",
+        "strategy",
+        "observer",
+        "template",
+        "orchestrator",
+        "builder",
+        "singleton"
+      ],
+      "composition_compatibility": {
+        "with_thinking_commands": false,
+        "with_mcp_tools": true,
+        "with_memory_tools": false,
+        "with_interactive_tools": true,
+        "chainable": false,
+        "parallelizable": true
+      }
+    },
+    {
+      "command_name": "senior-developer-analysis",
+      "execution_time_ms": 59458.558448308686,
+      "token_consumption_estimate": 2042,
+      "lines_of_code": 336,
+      "complexity_score": 182,
+      "success_rate": 0.1,
+      "error_types": [
+        "timeout",
+        "complexity_overflow",
+        "token_limit",
+        "context_loss",
+        "validation_error",
+        "mcp_timeout",
+        "tool_unavailable"
+      ],
+      "memory_patterns": [
+        "factory",
+        "strategy",
+        "observer",
+        "template",
+        "orchestrator",
+        "adapter"
+      ],
+      "composition_compatibility": {
+        "with_thinking_commands": false,
+        "with_mcp_tools": true,
+        "with_memory_tools": false,
+        "with_interactive_tools": true,
+        "chainable": false,
+        "parallelizable": true
+      }
+    },
+    {
+      "command_name": "adaptive-complexity-router",
+      "execution_time_ms": 39483.39842630955,
+      "token_consumption_estimate": 1751,
+      "lines_of_code": 414,
+      "complexity_score": 103,
+      "success_rate": 0.1,
+      "error_types": [
+        "timeout",
+        "complexity_overflow",
+        "token_limit",
+        "context_loss",
+        "mcp_timeout",
+        "tool_unavailable"
+      ],
+      "memory_patterns": [
+        "strategy",
+        "observer",
+        "template",
+        "orchestrator",
+        "wrapper",
+        "composite"
+      ],
+      "composition_compatibility": {
+        "with_thinking_commands": false,
+        "with_mcp_tools": true,
+        "with_memory_tools": false,
+        "with_interactive_tools": true,
+        "chainable": false,
+        "parallelizable": true
+      }
+    },
+    {
+      "command_name": "java-rapid-implementation",
+      "execution_time_ms": 34384.09784271793,
+      "token_consumption_estimate": 1341,
+      "lines_of_code": 210,
+      "complexity_score": 85,
+      "success_rate": 0.1,
+      "error_types": [
+        "timeout",
+        "complexity_overflow",
+        "token_limit",
+        "context_loss",
+        "mcp_timeout",
+        "tool_unavailable"
+      ],
+      "memory_patterns": [
+        "factory",
+        "strategy",
+        "observer",
+        "template",
+        "orchestrator"
+      ],
+      "composition_compatibility": {
+        "with_thinking_commands": false,
+        "with_mcp_tools": true,
+        "with_memory_tools": false,
+        "with_interactive_tools": true,
+        "chainable": false,
+        "parallelizable": true
+      }
+    },
+    {
+      "command_name": "java-clean-code-generator",
+      "execution_time_ms": 131294.32751893307,
+      "token_consumption_estimate": 4032,
+      "lines_of_code": 686,
+      "complexity_score": 308,
+      "success_rate": 0.1,
+      "error_types": [
+        "timeout",
+        "complexity_overflow",
+        "token_limit",
+        "context_loss",
+        "mcp_timeout",
+        "tool_unavailable"
+      ],
+      "memory_patterns": [
+        "factory",
+        "strategy",
+        "observer",
+        "template",
+        "orchestrator",
+        "builder"
+      ],
+      "composition_compatibility": {
+        "with_thinking_commands": false,
+        "with_mcp_tools": true,
+        "with_memory_tools": false,
+        "with_interactive_tools": true,
+        "chainable": false,
+        "parallelizable": true
+      }
+    },
+    {
+      "command_name": "adhd-morning-assistant",
+      "execution_time_ms": 33513.90825703319,
+      "token_consumption_estimate": 1504,
+      "lines_of_code": 247,
+      "complexity_score": 111,
+      "success_rate": 0.1,
+      "error_types": [
+        "timeout",
+        "complexity_overflow",
+        "token_limit",
+        "context_loss",
+        "validation_error",
+        "mcp_timeout",
+        "tool_unavailable"
+      ],
+      "memory_patterns": [
+        "factory",
+        "observer",
+        "template"
+      ],
+      "composition_compatibility": {
+        "with_thinking_commands": true,
+        "with_mcp_tools": true,
+        "with_memory_tools": true,
+        "with_interactive_tools": true,
+        "chainable": false,
+        "parallelizable": true
+      }
+    },
+    {
+      "command_name": "adhd-hyperfocus-guardian",
+      "execution_time_ms": 26003.685111378873,
+      "token_consumption_estimate": 1982,
+      "lines_of_code": 367,
+      "complexity_score": 88,
+      "success_rate": 0.1,
+      "error_types": [
+        "timeout",
+        "complexity_overflow",
+        "token_limit",
+        "context_loss",
+        "validation_error",
+        "mcp_timeout",
+        "tool_unavailable"
+      ],
+      "memory_patterns": [
+        "factory",
+        "observer",
+        "template",
+        "orchestrator"
+      ],
+      "composition_compatibility": {
+        "with_thinking_commands": true,
+        "with_mcp_tools": true,
+        "with_memory_tools": true,
+        "with_interactive_tools": true,
+        "chainable": false,
+        "parallelizable": true
+      }
+    },
+    {
+      "command_name": "intelligent-code-enhancer",
+      "execution_time_ms": 63671.36047181937,
+      "token_consumption_estimate": 1631,
+      "lines_of_code": 363,
+      "complexity_score": 136,
+      "success_rate": 0.1,
+      "error_types": [
+        "timeout",
+        "complexity_overflow",
+        "token_limit",
+        "context_loss",
+        "mcp_timeout",
+        "tool_unavailable"
+      ],
+      "memory_patterns": [
+        "strategy",
+        "template",
+        "orchestrator"
+      ],
+      "composition_compatibility": {
+        "with_thinking_commands": false,
+        "with_mcp_tools": true,
+        "with_memory_tools": false,
+        "with_interactive_tools": true,
+        "chainable": false,
+        "parallelizable": true
+      }
+    },
+    {
+      "command_name": "adhd-context-switch",
+      "execution_time_ms": 18805.286960069574,
+      "token_consumption_estimate": 1521,
+      "lines_of_code": 318,
+      "complexity_score": 55,
+      "success_rate": 0.1,
+      "error_types": [
+        "timeout",
+        "complexity_overflow",
+        "token_limit",
+        "context_loss",
+        "validation_error",
+        "mcp_timeout",
+        "tool_unavailable"
+      ],
+      "memory_patterns": [
+        "factory",
+        "strategy",
+        "template",
+        "orchestrator"
+      ],
+      "composition_compatibility": {
+        "with_thinking_commands": true,
+        "with_mcp_tools": true,
+        "with_memory_tools": true,
+        "with_interactive_tools": true,
+        "chainable": false,
+        "parallelizable": true
+      }
+    },
+    {
+      "command_name": "ultrathink-pure-xml",
+      "execution_time_ms": 18501.565463508756,
+      "token_consumption_estimate": 1968,
+      "lines_of_code": 378,
+      "complexity_score": 73,
+      "success_rate": 0.1,
+      "error_types": [
+        "timeout",
+        "complexity_overflow",
+        "token_limit",
+        "context_loss"
+      ],
+      "memory_patterns": [
+        "strategy",
+        "template",
+        "orchestrator"
+      ],
+      "composition_compatibility": {
+        "with_thinking_commands": false,
+        "with_mcp_tools": false,
+        "with_memory_tools": true,
+        "with_interactive_tools": false,
+        "chainable": false,
+        "parallelizable": false
+      }
+    },
+    {
+      "command_name": "ultrathink-interactive",
+      "execution_time_ms": 30934.695032263204,
+      "token_consumption_estimate": 2537,
+      "lines_of_code": 538,
+      "complexity_score": 91,
+      "success_rate": 0.1,
+      "error_types": [
+        "timeout",
+        "complexity_overflow",
+        "token_limit",
+        "context_loss",
+        "validation_error",
+        "mcp_timeout",
+        "tool_unavailable"
+      ],
+      "memory_patterns": [
+        "factory",
+        "strategy",
+        "observer",
+        "template"
+      ],
+      "composition_compatibility": {
+        "with_thinking_commands": true,
+        "with_mcp_tools": true,
+        "with_memory_tools": true,
+        "with_interactive_tools": false,
+        "chainable": false,
+        "parallelizable": false
+      }
+    },
+    {
+      "command_name": "intelligent-refactor-session",
+      "execution_time_ms": 47841.48567049929,
+      "token_consumption_estimate": 2662,
+      "lines_of_code": 424,
+      "complexity_score": 118,
+      "success_rate": 0.1,
+      "error_types": [
+        "timeout",
+        "complexity_overflow",
+        "token_limit",
+        "context_loss",
+        "mcp_timeout",
+        "tool_unavailable"
+      ],
+      "memory_patterns": [
+        "factory",
+        "strategy",
+        "template",
+        "orchestrator",
+        "singleton"
+      ],
+      "composition_compatibility": {
+        "with_thinking_commands": false,
+        "with_mcp_tools": true,
+        "with_memory_tools": true,
+        "with_interactive_tools": true,
+        "chainable": false,
+        "parallelizable": true
+      }
+    }
+  ],
+  "rankings": {
+    "most_complex": [
+      "ultrathink-hybrid-mcp",
+      "java-clean-code-generator",
+      "ultrathink-full-mcp",
+      "senior-developer-analysis",
+      "safe-code-beautifier"
+    ],
+    "least_reliable": [
+      "adhd-evening-reflect",
+      "git-backup-sync",
+      "context-enhanced-executor",
+      "generate-thinking-command",
+      "safe-code-beautifier"
+    ],
+    "most_token_hungry": [
+      "java-clean-code-generator",
+      "intelligent-refactor-session",
+      "ultrathink-full-mcp",
+      "ultrathink-interactive",
+      "safe-code-beautifier"
+    ],
+    "best_overall": [
+      "context-enhanced-executor",
+      "generate-thinking-command",
+      "adhd-context-switch",
+      "reasoning-wrapper",
+      "ultrathink"
+    ],
+    "fastest": [
+      "context-enhanced-executor",
+      "generate-thinking-command",
+      "ultrathink-pure-xml",
+      "adhd-context-switch",
+      "adhd-hyperfocus-guardian"
+    ],
+    "composition_champions": [
+      "adhd-evening-reflect",
+      "adhd-task-breakdown",
+      "adhd-morning-assistant",
+      "adhd-hyperfocus-guardian",
+      "adhd-context-switch"
+    ]
+  },
+  "savage_commentary": {
+    "adhd-evening-reflect": [
+      "This has a complexity score of 149. That's not 'sophisticated', that's a Rube Goldberg machine that costs tokens.",
+      "Success rate of 10.0%? My random number generator has better reliability.",
+      "Error types: timeout, complexity_overflow, token_limit, context_loss, mcp_timeout, tool_unavailable. This isn't robust, it's a bug parade."
+    ],
+    "git-backup-sync": [
+      "This has a complexity score of 150. That's not 'sophisticated', that's a Rube Goldberg machine that costs tokens.",
+      "Success rate of 10.0%? My random number generator has better reliability.",
+      "Error types: timeout, complexity_overflow, token_limit, context_loss, validation_error, mcp_timeout, tool_unavailable. This isn't robust, it's a bug parade."
+    ],
+    "context-enhanced-executor": [
+      "This has a complexity score of 33. That's not 'sophisticated', that's a Rube Goldberg machine that costs tokens.",
+      "Success rate of 10.0%? My random number generator has better reliability.",
+      "Error types: timeout, complexity_overflow, token_limit, context_loss, validation_error, mcp_timeout, tool_unavailable. This isn't robust, it's a bug parade."
+    ],
+    "generate-thinking-command": [
+      "This has a complexity score of 35. That's not 'sophisticated', that's a Rube Goldberg machine that costs tokens.",
+      "Success rate of 10.0%? My random number generator has better reliability.",
+      "Error types: timeout, complexity_overflow, token_limit, context_loss, mcp_timeout, tool_unavailable. This isn't robust, it's a bug parade."
+    ],
+    "safe-code-beautifier": [
+      "This has a complexity score of 181. That's not 'sophisticated', that's a Rube Goldberg machine that costs tokens.",
+      "Success rate of 10.0%? My random number generator has better reliability.",
+      "Error types: timeout, complexity_overflow, token_limit, context_loss, mcp_timeout, tool_unavailable. This isn't robust, it's a bug parade."
+    ],
+    "ultrathink-hybrid-mcp": [
+      "This has a complexity score of 391. That's not 'sophisticated', that's a Rube Goldberg machine that costs tokens.",
+      "Success rate of 10.0%? My random number generator has better reliability.",
+      "Error types: timeout, complexity_overflow, token_limit, context_loss, mcp_timeout, tool_unavailable. This isn't robust, it's a bug parade.",
+      "Composition compatibility: 33.3%. Plays well with others like a porcupine at a balloon party."
+    ],
+    "ultrathink": [
+      "This has a complexity score of 72. That's not 'sophisticated', that's a Rube Goldberg machine that costs tokens.",
+      "Success rate of 10.0%? My random number generator has better reliability.",
+      "Error types: timeout, complexity_overflow, token_limit, context_loss, mcp_timeout, tool_unavailable. This isn't robust, it's a bug parade.",
+      "Composition compatibility: 33.3%. Plays well with others like a porcupine at a balloon party."
+    ],
+    "adhd-task-breakdown": [
+      "This has a complexity score of 89. That's not 'sophisticated', that's a Rube Goldberg machine that costs tokens.",
+      "Success rate of 10.0%? My random number generator has better reliability.",
+      "Error types: timeout, complexity_overflow, token_limit, context_loss, validation_error, mcp_timeout, tool_unavailable. This isn't robust, it's a bug parade."
+    ],
+    "reasoning-wrapper": [
+      "This has a complexity score of 69. That's not 'sophisticated', that's a Rube Goldberg machine that costs tokens.",
+      "Success rate of 10.0%? My random number generator has better reliability.",
+      "Error types: timeout, complexity_overflow, token_limit, context_loss, mcp_timeout, tool_unavailable. This isn't robust, it's a bug parade."
+    ],
+    "analyze-project-architecture": [
+      "This has a complexity score of 133. That's not 'sophisticated', that's a Rube Goldberg machine that costs tokens.",
+      "Success rate of 10.0%? My random number generator has better reliability.",
+      "Error types: timeout, complexity_overflow, token_limit, context_loss, validation_error, mcp_timeout, tool_unavailable. This isn't robust, it's a bug parade."
+    ],
+    "ultrathink-full-mcp": [
+      "This has a complexity score of 219. That's not 'sophisticated', that's a Rube Goldberg machine that costs tokens.",
+      "Success rate of 10.0%? My random number generator has better reliability.",
+      "Error types: timeout, complexity_overflow, token_limit, context_loss, mcp_timeout, tool_unavailable. This isn't robust, it's a bug parade."
+    ],
+    "java-test-driven-development": [
+      "This has a complexity score of 79. That's not 'sophisticated', that's a Rube Goldberg machine that costs tokens.",
+      "Success rate of 10.0%? My random number generator has better reliability.",
+      "Error types: timeout, complexity_overflow, token_limit, context_loss, mcp_timeout, tool_unavailable. This isn't robust, it's a bug parade."
+    ],
+    "senior-developer-analysis": [
+      "This has a complexity score of 182. That's not 'sophisticated', that's a Rube Goldberg machine that costs tokens.",
+      "Success rate of 10.0%? My random number generator has better reliability.",
+      "Error types: timeout, complexity_overflow, token_limit, context_loss, validation_error, mcp_timeout, tool_unavailable. This isn't robust, it's a bug parade."
+    ],
+    "adaptive-complexity-router": [
+      "This has a complexity score of 103. That's not 'sophisticated', that's a Rube Goldberg machine that costs tokens.",
+      "Success rate of 10.0%? My random number generator has better reliability.",
+      "Error types: timeout, complexity_overflow, token_limit, context_loss, mcp_timeout, tool_unavailable. This isn't robust, it's a bug parade."
+    ],
+    "java-rapid-implementation": [
+      "This has a complexity score of 85. That's not 'sophisticated', that's a Rube Goldberg machine that costs tokens.",
+      "Success rate of 10.0%? My random number generator has better reliability.",
+      "Error types: timeout, complexity_overflow, token_limit, context_loss, mcp_timeout, tool_unavailable. This isn't robust, it's a bug parade."
+    ],
+    "java-clean-code-generator": [
+      "This has a complexity score of 308. That's not 'sophisticated', that's a Rube Goldberg machine that costs tokens.",
+      "Success rate of 10.0%? My random number generator has better reliability.",
+      "Error types: timeout, complexity_overflow, token_limit, context_loss, mcp_timeout, tool_unavailable. This isn't robust, it's a bug parade."
+    ],
+    "adhd-morning-assistant": [
+      "This has a complexity score of 111. That's not 'sophisticated', that's a Rube Goldberg machine that costs tokens.",
+      "Success rate of 10.0%? My random number generator has better reliability.",
+      "Error types: timeout, complexity_overflow, token_limit, context_loss, validation_error, mcp_timeout, tool_unavailable. This isn't robust, it's a bug parade."
+    ],
+    "adhd-hyperfocus-guardian": [
+      "This has a complexity score of 88. That's not 'sophisticated', that's a Rube Goldberg machine that costs tokens.",
+      "Success rate of 10.0%? My random number generator has better reliability.",
+      "Error types: timeout, complexity_overflow, token_limit, context_loss, validation_error, mcp_timeout, tool_unavailable. This isn't robust, it's a bug parade."
+    ],
+    "intelligent-code-enhancer": [
+      "This has a complexity score of 136. That's not 'sophisticated', that's a Rube Goldberg machine that costs tokens.",
+      "Success rate of 10.0%? My random number generator has better reliability.",
+      "Error types: timeout, complexity_overflow, token_limit, context_loss, mcp_timeout, tool_unavailable. This isn't robust, it's a bug parade."
+    ],
+    "adhd-context-switch": [
+      "This has a complexity score of 55. That's not 'sophisticated', that's a Rube Goldberg machine that costs tokens.",
+      "Success rate of 10.0%? My random number generator has better reliability.",
+      "Error types: timeout, complexity_overflow, token_limit, context_loss, validation_error, mcp_timeout, tool_unavailable. This isn't robust, it's a bug parade."
+    ],
+    "ultrathink-pure-xml": [
+      "This has a complexity score of 73. That's not 'sophisticated', that's a Rube Goldberg machine that costs tokens.",
+      "Success rate of 10.0%? My random number generator has better reliability.",
+      "Error types: timeout, complexity_overflow, token_limit, context_loss. This isn't robust, it's a bug parade.",
+      "Composition compatibility: 16.7%. Plays well with others like a porcupine at a balloon party."
+    ],
+    "ultrathink-interactive": [
+      "This has a complexity score of 91. That's not 'sophisticated', that's a Rube Goldberg machine that costs tokens.",
+      "Success rate of 10.0%? My random number generator has better reliability.",
+      "Error types: timeout, complexity_overflow, token_limit, context_loss, validation_error, mcp_timeout, tool_unavailable. This isn't robust, it's a bug parade."
+    ],
+    "intelligent-refactor-session": [
+      "This has a complexity score of 118. That's not 'sophisticated', that's a Rube Goldberg machine that costs tokens.",
+      "Success rate of 10.0%? My random number generator has better reliability.",
+      "Error types: timeout, complexity_overflow, token_limit, context_loss, mcp_timeout, tool_unavailable. This isn't robust, it's a bug parade."
+    ]
+  },
+  "recommendations": [
+    "\ud83d\udea8 23 commands violate complexity threshold. Simplify or face the token tax.",
+    "\ud83d\udc80 23 commands have reliability issues. Either fix them or label them 'experimental'.",
+    "\u23f1\ufe0f Execution time variance is 76.5%. That's not consistent, that's chaos."
+  ]
+}
