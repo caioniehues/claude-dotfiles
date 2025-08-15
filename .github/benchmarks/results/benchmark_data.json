@@ -1,0 +1,101 @@
+{
+  "timestamp": "2025-08-15T19:05:08.775812",
+  "methodology": "Statistical simulation with 5 samples per command",
+  "commands_tested": [
+    "git-backup-sync.md",
+    "safe-code-beautifier.md",
+    "adhd-task-breakdown.md",
+    "java-rapid-implementation.md",
+    "ultrathink-hybrid-mcp.md"
+  ],
+  "execution_results": {
+    "git-backup-sync.md": {
+      "mean_time_seconds": 16.85,
+      "std_dev_seconds": 2.28,
+      "min_time": 13.71,
+      "max_time": 19.79,
+      "variance_percent": 13.5
+    },
+    "safe-code-beautifier.md": {
+      "mean_time_seconds": 8.68,
+      "std_dev_seconds": 0.79,
+      "min_time": 7.38,
+      "max_time": 9.7,
+      "variance_percent": 9.1
+    },
+    "adhd-task-breakdown.md": {
+      "mean_time_seconds": 11.7,
+      "std_dev_seconds": 1.21,
+      "min_time": 9.79,
+      "max_time": 12.86,
+      "variance_percent": 10.3
+    },
+    "java-rapid-implementation.md": {
+      "mean_time_seconds": 8.99,
+      "std_dev_seconds": 0.77,
+      "min_time": 7.98,
+      "max_time": 10.27,
+      "variance_percent": 8.6
+    },
+    "ultrathink-hybrid-mcp.md": {
+      "mean_time_seconds": 25.68,
+      "std_dev_seconds": 2.56,
+      "min_time": 21.12,
+      "max_time": 28.61,
+      "variance_percent": 10.0
+    }
+  },
+  "token_results": {
+    "git-backup-sync.md": {
+      "prompt_tokens": 637,
+      "thinking_tokens": 6361,
+      "output_tokens": 8482,
+      "total_tokens": 15480
+    },
+    "safe-code-beautifier.md": {
+      "prompt_tokens": 512,
+      "thinking_tokens": 3205,
+      "output_tokens": 4274,
+      "total_tokens": 7991
+    },
+    "adhd-task-breakdown.md": {
+      "prompt_tokens": 438,
+      "thinking_tokens": 3892,
+      "output_tokens": 5190,
+      "total_tokens": 9520
+    },
+    "java-rapid-implementation.md": {
+      "prompt_tokens": 300,
+      "thinking_tokens": 3225,
+      "output_tokens": 4300,
+      "total_tokens": 7825
+    },
+    "ultrathink-hybrid-mcp.md": {
+      "prompt_tokens": 900,
+      "thinking_tokens": 7823,
+      "output_tokens": 16691,
+      "total_tokens": 25415
+    }
+  },
+  "failure_analysis": {
+    "git-backup-sync.md": 40.678,
+    "safe-code-beautifier.md": 21.646,
+    "adhd-task-breakdown.md": 25.910000000000004,
+    "java-rapid-implementation.md": 21.5,
+    "ultrathink-hybrid-mcp.md": 46.728
+  },
+  "performance_scores": {
+    "git-backup-sync.md": 265.336,
+    "safe-code-beautifier.md": 138.083,
+    "adhd-task-breakdown.md": 178.34,
+    "java-rapid-implementation.md": 140.72500000000002,
+    "ultrathink-hybrid-mcp.md": 375.67100000000005
+  },
+  "statistical_summary": {
+    "mean_execution_time": 14.38,
+    "mean_token_consumption": 13246.2,
+    "mean_failure_rate": 31.292399999999997,
+    "total_estimated_cost": 1.98693,
+    "commands_over_10s": 3
+  }
+}
