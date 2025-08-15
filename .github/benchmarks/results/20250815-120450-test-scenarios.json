@@ -1,0 +1,132 @@
+{
+  "timestamp": "20250815-120450",
+  "test_scenarios": {
+    "ultrathink.md": [
+      {
+        "scenario": "Simple Technical Problem",
+        "input": "optimize database performance for high-concurrency writes",
+        "expected_complexity": 3,
+        "success_criteria": ["identifies bottlenecks", "provides solutions", "considers trade-offs"]
+      },
+      {
+        "scenario": "Complex Strategy Decision", 
+        "input": "should we migrate to microservices architecture",
+        "expected_complexity": 4,
+        "success_criteria": ["evaluates pros/cons", "considers implementation", "assesses risks"]
+      },
+      {
+        "scenario": "Creative Challenge",
+        "input": "design a novel user onboarding experience",
+        "expected_complexity": 3,
+        "success_criteria": ["applies creative thinking", "considers UX principles", "provides concrete ideas"]
+      }
+    ],
+    "intelligent-code-enhancer.md": [
+      {
+        "scenario": "Code Quality Enhancement",
+        "input": "improve code quality in UserService.java",
+        "expected_complexity": 2,
+        "success_criteria": ["identifies improvements", "applies patterns", "maintains functionality"]
+      },
+      {
+        "scenario": "Performance Optimization",
+        "input": "optimize database query performance",
+        "expected_complexity": 3,
+        "success_criteria": ["analyzes bottlenecks", "provides solutions", "validates improvements"]
+      },
+      {
+        "scenario": "Architecture Refactoring",
+        "input": "refactor entire authentication system with OAuth2",
+        "expected_complexity": 5,
+        "success_criteria": ["uses MCP integration", "comprehensive planning", "risk assessment"]
+      }
+    ],
+    "adhd-task-breakdown.md": [
+      {
+        "scenario": "Simple Task",
+        "input": "implement user login feature",
+        "expected_complexity": 1,
+        "success_criteria": ["TASTE method applied", "20-minute chunks", "realistic time estimates"]
+      },
+      {
+        "scenario": "Complex Feature",
+        "input": "build real-time analytics dashboard",
+        "expected_complexity": 3,
+        "success_criteria": ["spiciness rating", "energy assessment", "pattern analysis"]
+      },
+      {
+        "scenario": "Overwhelming Project",
+        "input": "migrate entire codebase to TypeScript",
+        "expected_complexity": 4,
+        "success_criteria": ["paralysis prevention", "5-minute starter", "environment optimization"]
+      }
+    ],
+    "senior-developer-analysis.md": [
+      {
+        "scenario": "Simple Code Review",
+        "input": "explain UserService.java implementation",
+        "expected_complexity": 2,
+        "success_criteria": ["business context", "architectural insights", "best practices"]
+      },
+      {
+        "scenario": "Complex System Analysis",
+        "input": "analyze microservices communication patterns",
+        "expected_complexity": 4,
+        "success_criteria": ["multi-layer analysis", "scalability assessment", "trade-offs discussion"]
+      },
+      {
+        "scenario": "Legacy Code Understanding",
+        "input": "explain complex legacy authentication module",
+        "expected_complexity": 3,
+        "success_criteria": ["historical context", "migration strategies", "risk assessment"]
+      }
+    ],
+    "generate-thinking-command.md": [
+      {
+        "scenario": "Simple Utility Command",
+        "input": "validate JSON schemas",
+        "expected_complexity": 1,
+        "success_criteria": ["proper structure", "thinking blocks", "pattern compliance"]
+      },
+      {
+        "scenario": "Complex Analysis Command",
+        "input": "analyze database performance with machine learning",
+        "expected_complexity": 4,
+        "success_criteria": ["MCP integration", "complexity detection", "comprehensive structure"]
+      },
+      {
+        "scenario": "Integration Command",
+        "input": "sync with Salesforce API and handle errors",
+        "expected_complexity": 3,
+        "success_criteria": ["error recovery", "pattern learning", "validation logic"]
+      }
+    ]
+  },
+  "measurement_criteria": {
+    "token_consumption": {
+      "measurement": "Input tokens + Output tokens",
+      "baseline": "Manual execution without command structure",
+      "target": "< 150% of baseline"
+    },
+    "execution_time": {
+      "measurement": "Wall clock time from start to completion",
+      "baseline": "Average human task completion time",
+      "target": "< 120% of baseline"
+    },
+    "success_rate": {
+      "measurement": "Percentage of runs meeting all success criteria",
+      "baseline": "100% expected for well-defined tasks",
+      "target": "> 85%"
+    },
+    "complexity_score": {
+      "measurement": "Based on CLAUDE.md rules (must be < 5)",
+      "baseline": "Simple direct implementation = 1",
+      "target": "< 5 (per CLAUDE.md prime directive)"
+    },
+    "error_patterns": {
+      "measurement": "Types and frequency of failures",
+      "baseline": "Zero critical failures",
+      "target": "Graceful degradation only"
+    }
+  }
+}
