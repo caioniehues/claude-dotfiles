@@ -1,0 +1,325 @@
+{
+  "benchmark_metadata": {
+    "timestamp": "20250815-233518",
+    "total_commands_tested": 7,
+    "total_samples": 70,
+    "framework_version": "1.0"
+  },
+  "aggregate_statistics": {
+    "average_success_rate": 0.5,
+    "average_savage_score": 1.0714285714285712,
+    "total_estimated_cost": 3.92166,
+    "compliance_rate": 0.14285714285714285
+  },
+  "savage_rankings": [
+    {
+      "rank": 1,
+      "command_name": "generate-thinking-command",
+      "savage_score": 6.499999999999999,
+      "judgment": "\u2705 generate-thinking-command does its job without embarrassing itself. 70.0% success rate is acceptable.",
+      "key_metrics": {
+        "success_rate": 0.7,
+        "avg_execution_time": 5.859338333234131,
+        "complexity_score": 2,
+        "total_tokens": 19599
+      }
+    },
+    {
+      "rank": 2,
+      "command_name": "adhd-hyperfocus-guardian",
+      "savage_score": 0.9999999999999991,
+      "judgment": "\ud83d\udc80 adhd-hyperfocus-guardian is a disaster. 60.0% success rate with 15.5s execution time. Delete this.",
+      "key_metrics": {
+        "success_rate": 0.6,
+        "avg_execution_time": 15.510548138085474,
+        "complexity_score": 5,
+        "total_tokens": 69625
+      }
+    },
+    {
+      "rank": 3,
+      "command_name": "adaptive-complexity-router",
+      "savage_score": 0.0,
+      "judgment": "\ud83d\udc80 adaptive-complexity-router is a disaster. 50.0% success rate with 16.2s execution time. Delete this.",
+      "key_metrics": {
+        "success_rate": 0.5,
+        "avg_execution_time": 16.211467176479083,
+        "complexity_score": 8,
+        "total_tokens": 56950
+      }
+    },
+    {
+      "rank": 4,
+      "command_name": "java-test-driven-development",
+      "savage_score": 0.0,
+      "judgment": "\ud83d\udc80 java-test-driven-development is a disaster. 30.0% success rate with 19.4s execution time. Delete this.",
+      "key_metrics": {
+        "success_rate": 0.3,
+        "avg_execution_time": 19.420753394670644,
+        "complexity_score": 10,
+        "total_tokens": 75952
+      }
+    },
+    {
+      "rank": 5,
+      "command_name": "git-backup-sync",
+      "savage_score": 0.0,
+      "judgment": "\ud83d\udc80 git-backup-sync is a disaster. 40.0% success rate with 17.5s execution time. Delete this.",
+      "key_metrics": {
+        "success_rate": 0.4,
+        "avg_execution_time": 17.481014087180206,
+        "complexity_score": 8,
+        "total_tokens": 71642
+      }
+    },
+    {
+      "rank": 6,
+      "command_name": "reasoning-wrapper",
+      "savage_score": 0.0,
+      "judgment": "\ud83d\udc80 reasoning-wrapper is a disaster. 50.0% success rate with 15.2s execution time. Delete this.",
+      "key_metrics": {
+        "success_rate": 0.5,
+        "avg_execution_time": 15.19381506914446,
+        "complexity_score": 8,
+        "total_tokens": 51208
+      }
+    },
+    {
+      "rank": 7,
+      "command_name": "adhd-morning-assistant",
+      "savage_score": 0.0,
+      "judgment": "\ud83d\udc80 adhd-morning-assistant is a disaster. 50.0% success rate with 12.4s execution time. Delete this.",
+      "key_metrics": {
+        "success_rate": 0.5,
+        "avg_execution_time": 12.429392019913127,
+        "complexity_score": 5,
+        "total_tokens": 47190
+      }
+    }
+  ],
+  "detailed_results": [
+    {
+      "command_name": "generate-thinking-command",
+      "sample_size": 10,
+      "execution_times": [
+        5.733177700178668,
+        5.851028268114434,
+        5.868710287078763,
+        5.969261967282732,
+        5.840724733357348,
+        5.986682108840659,
+        5.959506833004776,
+        5.7758049894448975,
+        5.905870828778836,
+        5.702615616260195
+      ],
+      "mean_execution_time": 5.859338333234131,
+      "std_dev": 0.0991398202713311,
+      "success_rate": 0.7,
+      "total_tokens": 19599,
+      "avg_complexity": 2,
+      "cost_estimate": 0.19599000000000003,
+      "savage_score": 6.499999999999999,
+      "judgment": "\u2705 generate-thinking-command does its job without embarrassing itself. 70.0% success rate is acceptable.",
+      "recommendations": [
+        "FIX RELIABILITY: 70.0% success rate is unacceptable"
+      ]
+    },
+    {
+      "command_name": "adhd-hyperfocus-guardian",
+      "sample_size": 10,
+      "execution_times": [
+        15.651346903632232,
+        15.35511716290338,
+        15.607031718176847,
+        15.444308726915326,
+        15.522988126244215,
+        15.527225201747525,
+        15.39976545946884,
+        15.688082534564854,
+        15.585134219889007,
+        15.324481327312519
+      ],
+      "mean_execution_time": 15.510548138085474,
+      "std_dev": 0.12564849757581578,
+      "success_rate": 0.6,
+      "total_tokens": 69625,
+      "avg_complexity": 5,
+      "cost_estimate": 0.69625,
+      "savage_score": 0.9999999999999991,
+      "judgment": "\ud83d\udc80 adhd-hyperfocus-guardian is a disaster. 60.0% success rate with 15.5s execution time. Delete this.",
+      "recommendations": [
+        "REDUCE COMPLEXITY: Score 5.0 violates CLAUDE.md rule (max 5)",
+        "FIX RELIABILITY: 60.0% success rate is unacceptable",
+        "OPTIMIZE PERFORMANCE: 15.5s execution time is too slow",
+        "MAJOR REFACTOR NEEDED: Multiple critical issues detected"
+      ]
+    },
+    {
+      "command_name": "adaptive-complexity-router",
+      "sample_size": 10,
+      "execution_times": [
+        16.263655221435933,
+        16.18190636940233,
+        16.074304502899377,
+        16.293440245882596,
+        16.070812447261932,
+        16.155621203139045,
+        16.34577624900217,
+        16.353902777901155,
+        16.155431791932315,
+        16.219820955933972
+      ],
+      "mean_execution_time": 16.211467176479083,
+      "std_dev": 0.10196389314023747,
+      "success_rate": 0.5,
+      "total_tokens": 56950,
+      "avg_complexity": 8,
+      "cost_estimate": 0.5695,
+      "savage_score": 0.0,
+      "judgment": "\ud83d\udc80 adaptive-complexity-router is a disaster. 50.0% success rate with 16.2s execution time. Delete this.",
+      "recommendations": [
+        "REDUCE COMPLEXITY: Score 8.0 violates CLAUDE.md rule (max 5)",
+        "FIX RELIABILITY: 50.0% success rate is unacceptable",
+        "OPTIMIZE PERFORMANCE: 16.2s execution time is too slow",
+        "MAJOR REFACTOR NEEDED: Multiple critical issues detected"
+      ]
+    },
+    {
+      "command_name": "java-test-driven-development",
+      "sample_size": 10,
+      "execution_times": [
+        19.46823296605443,
+        19.57531316546981,
+        19.48775200127436,
+        19.249586282226552,
+        19.57637128568805,
+        19.21997769714257,
+        19.34582762040281,
+        19.446002382660087,
+        19.35959308665911,
+        19.478877459128668
+      ],
+      "mean_execution_time": 19.420753394670644,
+      "std_dev": 0.12375073873156296,
+      "success_rate": 0.3,
+      "total_tokens": 75952,
+      "avg_complexity": 10,
+      "cost_estimate": 0.7595200000000001,
+      "savage_score": 0.0,
+      "judgment": "\ud83d\udc80 java-test-driven-development is a disaster. 30.0% success rate with 19.4s execution time. Delete this.",
+      "recommendations": [
+        "REDUCE COMPLEXITY: Score 10.0 violates CLAUDE.md rule (max 5)",
+        "FIX RELIABILITY: 30.0% success rate is unacceptable",
+        "OPTIMIZE PERFORMANCE: 19.4s execution time is too slow",
+        "MAJOR REFACTOR NEEDED: Multiple critical issues detected"
+      ]
+    },
+    {
+      "command_name": "git-backup-sync",
+      "sample_size": 10,
+      "execution_times": [
+        17.634302247488367,
+        17.35535579483851,
+        17.38080744627021,
+        17.590262713525682,
+        17.298482178054073,
+        17.295661920385804,
+        17.557096354665042,
+        17.6144901215078,
+        17.425979397427238,
+        17.65770269763933
+      ],
+      "mean_execution_time": 17.481014087180206,
+      "std_dev": 0.14406374694634216,
+      "success_rate": 0.4,
+      "total_tokens": 71642,
+      "avg_complexity": 8,
+      "cost_estimate": 0.7164200000000001,
+      "savage_score": 0.0,
+      "judgment": "\ud83d\udc80 git-backup-sync is a disaster. 40.0% success rate with 17.5s execution time. Delete this.",
+      "recommendations": [
+        "REDUCE COMPLEXITY: Score 8.0 violates CLAUDE.md rule (max 5)",
+        "FIX RELIABILITY: 40.0% success rate is unacceptable",
+        "OPTIMIZE PERFORMANCE: 17.5s execution time is too slow",
+        "MAJOR REFACTOR NEEDED: Multiple critical issues detected"
+      ]
+    },
+    {
+      "command_name": "reasoning-wrapper",
+      "sample_size": 10,
+      "execution_times": [
+        15.21371113763653,
+        15.024780762557628,
+        15.292356706559021,
+        15.12152311846846,
+        15.066385727632262,
+        15.232493408756234,
+        15.297984984261829,
+        15.055859447209127,
+        15.292181318698976,
+        15.340874079664523
+      ],
+      "mean_execution_time": 15.19381506914446,
+      "std_dev": 0.11682117306220098,
+      "success_rate": 0.5,
+      "total_tokens": 51208,
+      "avg_complexity": 8,
+      "cost_estimate": 0.5120800000000001,
+      "savage_score": 0.0,
+      "judgment": "\ud83d\udc80 reasoning-wrapper is a disaster. 50.0% success rate with 15.2s execution time. Delete this.",
+      "recommendations": [
+        "REDUCE COMPLEXITY: Score 8.0 violates CLAUDE.md rule (max 5)",
+        "FIX RELIABILITY: 50.0% success rate is unacceptable",
+        "OPTIMIZE PERFORMANCE: 15.2s execution time is too slow",
+        "MAJOR REFACTOR NEEDED: Multiple critical issues detected"
+      ]
+    },
+    {
+      "command_name": "adhd-morning-assistant",
+      "sample_size": 10,
+      "execution_times": [
+        12.580989315003363,
+        12.41900467247571,
+        12.275654627861693,
+        12.579076621811975,
+        12.570949547657403,
+        12.387711228161475,
+        12.344726804677071,
+        12.271935711437939,
+        12.403922791539323,
+        12.459948878505312
+      ],
+      "mean_execution_time": 12.429392019913127,
+      "std_dev": 0.11759120131415333,
+      "success_rate": 0.5,
+      "total_tokens": 47190,
+      "avg_complexity": 5,
+      "cost_estimate": 0.47190000000000004,
+      "savage_score": 0.0,
+      "judgment": "\ud83d\udc80 adhd-morning-assistant is a disaster. 50.0% success rate with 12.4s execution time. Delete this.",
+      "recommendations": [
+        "REDUCE COMPLEXITY: Score 5.0 violates CLAUDE.md rule (max 5)",
+        "FIX RELIABILITY: 50.0% success rate is unacceptable",
+        "OPTIMIZE PERFORMANCE: 12.4s execution time is too slow",
+        "MAJOR REFACTOR NEEDED: Multiple critical issues detected"
+      ]
+    }
+  ],
+  "critical_issues": [
+    "adaptive-complexity-router",
+    "java-test-driven-development",
+    "git-backup-sync",
+    "reasoning-wrapper",
+    "adhd-morning-assistant",
+    "adhd-hyperfocus-guardian"
+  ],
+  "compliance_violations": [
+    "adaptive-complexity-router",
+    "java-test-driven-development",
+    "git-backup-sync",
+    "reasoning-wrapper",
+    "adhd-morning-assistant",
+    "adhd-hyperfocus-guardian"
+  ]
+}
