@@ -1,0 +1,190 @@
+{
+  "benchmark_metadata": {
+    "timestamp": "20250815-035145",
+    "commands_tested": 5,
+    "iterations_per_command": 5,
+    "total_test_runs": 25
+  },
+  "statistical_summary": {
+    "overall_success_rate": 0.76,
+    "success_rate_variance": 0.048,
+    "average_complexity_score": 7.2,
+    "average_execution_time": 0.8806,
+    "total_estimated_tokens": 18243,
+    "average_cost_benefit_ratio": 35899.4
+  },
+  "grade_distribution": {
+    "C": 1,
+    "D": 1,
+    "F": 3
+  },
+  "command_rankings": [
+    {
+      "rank": 1,
+      "command": "ultrathink-interactive.md",
+      "grade": "C",
+      "success_rate": 1.0,
+      "complexity_score": 5,
+      "avg_execution_time": 0.6297,
+      "savage_verdict": "\ud83d\udcc8 ultrathink-interactive.md: 100.0% success rate, complexity 5. Mediocre but functional. The 'participation trophy' of commands."
+    },
+    {
+      "rank": 2,
+      "command": "safe-code-beautifier.md",
+      "grade": "D",
+      "success_rate": 1.0,
+      "complexity_score": 7,
+      "avg_execution_time": 0.8965,
+      "savage_verdict": "\u26a0\ufe0f safe-code-beautifier.md has complexity score 7/10. Following Martin Fowler's advice: 'Any fool can write complex code.' This command is that fool."
+    },
+    {
+      "rank": 3,
+      "command": "ultrathink-pure-xml.md",
+      "grade": "F",
+      "success_rate": 0.6,
+      "complexity_score": 6,
+      "avg_execution_time": 0.746,
+      "savage_verdict": "\ud83d\udcc8 ultrathink-pure-xml.md: 60.0% success rate, complexity 6. Mediocre but functional. The 'participation trophy' of commands."
+    },
+    {
+      "rank": 4,
+      "command": "ultrathink-hybrid-mcp.md",
+      "grade": "F",
+      "success_rate": 0.6,
+      "complexity_score": 8,
+      "avg_execution_time": 0.9467,
+      "savage_verdict": "\u26a0\ufe0f ultrathink-hybrid-mcp.md has complexity score 8/10. Following Martin Fowler's advice: 'Any fool can write complex code.' This command is that fool."
+    },
+    {
+      "rank": 5,
+      "command": "java-test-driven-development.md",
+      "grade": "F",
+      "success_rate": 0.6,
+      "complexity_score": 10,
+      "avg_execution_time": 1.184,
+      "savage_verdict": "\u26a0\ufe0f java-test-driven-development.md has complexity score 10/10. Following Martin Fowler's advice: 'Any fool can write complex code.' This command is that fool."
+    }
+  ],
+  "detailed_results": [
+    {
+      "command_name": "ultrathink-interactive.md",
+      "success_rate": 1.0,
+      "avg_execution_time": 0.6297003269195557,
+      "execution_time_stddev": 0.03673295339852549,
+      "token_consumption_estimate": 5093,
+      "complexity_score": 5,
+      "error_frequency": 0.0,
+      "error_types": [],
+      "sample_outputs": [
+        "Run 1: SUCCESS (0.624s)",
+        "Run 2: SUCCESS (0.656s)",
+        "Run 3: SUCCESS (0.620s)",
+        "Run 4: SUCCESS (0.672s)",
+        "Run 5: SUCCESS (0.577s)"
+      ],
+      "performance_grade": "C",
+      "savage_commentary": "\ud83d\udcc8 ultrathink-interactive.md: 100.0% success rate, complexity 5. Mediocre but functional. The 'participation trophy' of commands.",
+      "statistical_confidence": 0.95,
+      "cost_benefit_ratio": 25465.0
+    },
+    {
+      "command_name": "safe-code-beautifier.md",
+      "success_rate": 1.0,
+      "avg_execution_time": 0.8965432167053222,
+      "execution_time_stddev": 0.05250650843426574,
+      "token_consumption_estimate": 3636,
+      "complexity_score": 7,
+      "error_frequency": 0.0,
+      "error_types": [],
+      "sample_outputs": [
+        "Run 1: SUCCESS (0.846s)",
+        "Run 2: SUCCESS (0.841s)",
+        "Run 3: SUCCESS (0.938s)",
+        "Run 4: SUCCESS (0.957s)",
+        "Run 5: SUCCESS (0.901s)"
+      ],
+      "performance_grade": "D",
+      "savage_commentary": "\u26a0\ufe0f safe-code-beautifier.md has complexity score 7/10. Following Martin Fowler's advice: 'Any fool can write complex code.' This command is that fool.",
+      "statistical_confidence": 0.95,
+      "cost_benefit_ratio": 25452.0
+    },
+    {
+      "command_name": "ultrathink-pure-xml.md",
+      "success_rate": 0.6,
+      "avg_execution_time": 0.7459814548492432,
+      "execution_time_stddev": 0.08329228959844018,
+      "token_consumption_estimate": 2831,
+      "complexity_score": 6,
+      "error_frequency": 0.4,
+      "error_types": [
+        "TokenLimitExceeded",
+        "ContextOverflow"
+      ],
+      "sample_outputs": [
+        "Run 1: SUCCESS (0.839s)",
+        "Run 2: FAILED - TokenLimitExceeded",
+        "Run 3: FAILED - ContextOverflow",
+        "Run 4: SUCCESS (0.657s)",
+        "Run 5: SUCCESS (0.718s)"
+      ],
+      "performance_grade": "F",
+      "savage_commentary": "\ud83d\udcc8 ultrathink-pure-xml.md: 60.0% success rate, complexity 6. Mediocre but functional. The 'participation trophy' of commands.",
+      "statistical_confidence": 0.6576690723188895,
+      "cost_benefit_ratio": 28310.0
+    },
+    {
+      "command_name": "ultrathink-hybrid-mcp.md",
+      "success_rate": 0.6,
+      "avg_execution_time": 0.9466735363006592,
+      "execution_time_stddev": 0.06602062524528321,
+      "token_consumption_estimate": 3334,
+      "complexity_score": 8,
+      "error_frequency": 0.4,
+      "error_types": [
+        "InvalidSyntax",
+        "TimeoutError"
+      ],
+      "sample_outputs": [
+        "Run 1: SUCCESS (1.043s)",
+        "Run 2: SUCCESS (0.929s)",
+        "Run 3: FAILED - TimeoutError",
+        "Run 4: FAILED - InvalidSyntax",
+        "Run 5: SUCCESS (0.966s)"
+      ],
+      "performance_grade": "F",
+      "savage_commentary": "\u26a0\ufe0f ultrathink-hybrid-mcp.md has complexity score 8/10. Following Martin Fowler's advice: 'Any fool can write complex code.' This command is that fool.",
+      "statistical_confidence": 0.6660520817972215,
+      "cost_benefit_ratio": 44453.333333333336
+    },
+    {
+      "command_name": "java-test-driven-development.md",
+      "success_rate": 0.6,
+      "avg_execution_time": 1.183952236175537,
+      "execution_time_stddev": 0.0755917775361513,
+      "token_consumption_estimate": 3349,
+      "complexity_score": 10,
+      "error_frequency": 0.4,
+      "error_types": [
+        "ContextOverflow",
+        "ConfigurationError"
+      ],
+      "sample_outputs": [
+        "Run 1: SUCCESS (1.184s)",
+        "Run 2: FAILED - ConfigurationError",
+        "Run 3: SUCCESS (1.151s)",
+        "Run 4: SUCCESS (1.076s)",
+        "Run 5: FAILED - ContextOverflow"
+      ],
+      "performance_grade": "F",
+      "savage_commentary": "\u26a0\ufe0f java-test-driven-development.md has complexity score 10/10. Following Martin Fowler's advice: 'Any fool can write complex code.' This command is that fool.",
+      "statistical_confidence": 0.6672306035283431,
+      "cost_benefit_ratio": 55816.66666666667
+    }
+  ],
+  "scientific_analysis": {
+    "statistical_confidence": 0.778,
+    "performance_consistency": "HIGH",
+    "complexity_assessment": "EXCESSIVE",
+    "overall_verdict": "\ud83d\ude10 MEDIOCRE: Commands work sometimes. That's... something, I guess."
+  }
+}
