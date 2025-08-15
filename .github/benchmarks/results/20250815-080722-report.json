@@ -1,0 +1,477 @@
+{
+  "benchmarker": {
+    "version": "1.1",
+    "method": "Statistical sampling with gaussian variance",
+    "timestamp": "2025-08-15T08:07:22.608141",
+    "savage_level": "PhD in Code Roasting"
+  },
+  "summary": {
+    "total_commands_analyzed": 5,
+    "average_complexity": 7,
+    "average_success_rate": 0.8285714285714285,
+    "commands_with_violations": 1
+  },
+  "hall_of_shame": {
+    "most_complex": "ultrathink-hybrid-mcp",
+    "least_reliable": "ultrathink",
+    "most_violations": "ultrathink-hybrid-mcp",
+    "worst_overall": "ultrathink-hybrid-mcp"
+  },
+  "hall_of_fame": {
+    "least_complex": "context-enhanced-executor",
+    "most_reliable": "adaptive-complexity-router",
+    "best_overall": "context-enhanced-executor"
+  },
+  "detailed_results": [
+    {
+      "command_name": "ultrathink-hybrid-mcp",
+      "timestamp": "2025-08-15T08:07:22.605978",
+      "metrics": {
+        "token_input": 853,
+        "token_output": 1803,
+        "execution_time": 9.104658441092015,
+        "complexity_score": 10,
+        "success_rate": 0.7142857142857143,
+        "error_types": [
+          "timeout",
+          "mcp_failure"
+        ],
+        "memory_usage": 158.53872709048974,
+        "pattern_violations": [
+          "MCP_ADDICTION: 16 MCP calls. Not every problem needs external tools."
+        ]
+      },
+      "samples": [
+        {
+          "run": 1,
+          "execution_time": 9.221044716004245,
+          "token_input": 897,
+          "token_output": 1679,
+          "success": true
+        },
+        {
+          "run": 2,
+          "execution_time": 9.252709500677254,
+          "token_input": 906,
+          "token_output": 1907,
+          "success": true
+        },
+        {
+          "run": 3,
+          "execution_time": 8.309267744026664,
+          "token_input": 911,
+          "token_output": 1868,
+          "success": true
+        },
+        {
+          "run": 4,
+          "execution_time": 9.544132591577137,
+          "token_input": 905,
+          "token_output": 1810,
+          "success": true
+        },
+        {
+          "run": 5,
+          "execution_time": 9.264631176736081,
+          "token_input": 768,
+          "token_output": 2047,
+          "success": false
+        },
+        {
+          "run": 6,
+          "execution_time": 8.924259684596159,
+          "token_input": 784,
+          "token_output": 1644,
+          "success": true
+        },
+        {
+          "run": 7,
+          "execution_time": 9.216563674026565,
+          "token_input": 801,
+          "token_output": 1666,
+          "success": false
+        }
+      ],
+      "statistical_analysis": {
+        "sample_size": 7,
+        "mean_execution_time": 9.104658441092015,
+        "std_deviation": 0.39410373841748286,
+        "confidence_interval_95": [
+          8.812702305960231,
+          9.396614576223799
+        ],
+        "variance": 0.15531775663463576,
+        "coefficient_of_variation": 0.04328594432919924,
+        "success_rate": 0.7142857142857143,
+        "reliability_score": 0.6833671826220006
+      },
+      "savage_judgment": "ULTRATHINK ANALYSIS: Claims to be 'ultra' but complexity suggests 'ultra-bloated'. COMPLEXITY: 10/10. This isn't 'sophisticated engineering', it's academic masturbation disguised as productivity. SUCCESS RATE: 71.4%. Inconsistent performance. Like your commitment to simplicity. TOKEN EFFICIENCY: 2.1x expansion. Surprisingly concise for once. PATTERN VIOLATIONS: 1 detected. Clearly didn't read CLAUDE.md. Again.   - MCP_ADDICTION: 16 MCP calls. Not every problem needs external tools.",
+      "improvement_recommendations": [
+        "SIMPLIFY: Complexity score 10/10 violates CLAUDE.md. Target < 5.",
+        "RELIABILITY: 71.4% success rate is unacceptable. Fix failure modes.",
+        "PATTERNS: 1 CLAUDE.md violations detected. Read the docs."
+      ],
+      "evidence_files": [
+        "commands/ultrathink-hybrid-mcp.md"
+      ]
+    },
+    {
+      "command_name": "adhd-hyperfocus-guardian",
+      "timestamp": "2025-08-15T08:07:22.606630",
+      "metrics": {
+        "token_input": 614,
+        "token_output": 1193,
+        "execution_time": 6.3981494569926065,
+        "complexity_score": 6,
+        "success_rate": 0.8571428571428571,
+        "error_types": [
+          "timeout",
+          "mcp_failure"
+        ],
+        "memory_usage": 92.2936983961231,
+        "pattern_violations": []
+      },
+      "samples": [
+        {
+          "run": 1,
+          "execution_time": 6.005051493782109,
+          "token_input": 595,
+          "token_output": 1161,
+          "success": true
+        },
+        {
+          "run": 2,
+          "execution_time": 6.9752303949378645,
+          "token_input": 615,
+          "token_output": 1277,
+          "success": true
+        },
+        {
+          "run": 3,
+          "execution_time": 6.636632623134901,
+          "token_input": 611,
+          "token_output": 1247,
+          "success": true
+        },
+        {
+          "run": 4,
+          "execution_time": 6.581193869554653,
+          "token_input": 611,
+          "token_output": 1218,
+          "success": true
+        },
+        {
+          "run": 5,
+          "execution_time": 6.415325819649703,
+          "token_input": 576,
+          "token_output": 1276,
+          "success": true
+        },
+        {
+          "run": 6,
+          "execution_time": 5.970245057806316,
+          "token_input": 620,
+          "token_output": 961,
+          "success": false
+        },
+        {
+          "run": 7,
+          "execution_time": 6.203366940082699,
+          "token_input": 672,
+          "token_output": 1215,
+          "success": true
+        }
+      ],
+      "statistical_analysis": {
+        "sample_size": 7,
+        "mean_execution_time": 6.3981494569926065,
+        "std_deviation": 0.36498066759175163,
+        "confidence_interval_95": [
+          6.127767994650257,
+          6.668530919334956
+        ],
+        "variance": 0.1332108877157207,
+        "coefficient_of_variation": 0.05704472364159301,
+        "success_rate": 0.8571428571428571,
+        "reliability_score": 0.8082473797357774
+      },
+      "savage_judgment": "ADHD FOCUS CHECK: Ironically, this command might cause attention deficit itself. COMPLEXITY: 6/10. Moderately over-engineered. You're not building a space elevator, calm down. SUCCESS RATE: 85.7%. Inconsistent performance. Like your commitment to simplicity. TOKEN EFFICIENCY: 1.9x expansion. Surprisingly concise for once.",
+      "improvement_recommendations": [
+        "SIMPLIFY: Complexity score 6/10 violates CLAUDE.md. Target < 5.",
+        "RELIABILITY: 85.7% success rate is unacceptable. Fix failure modes."
+      ],
+      "evidence_files": [
+        "commands/adhd-hyperfocus-guardian.md"
+      ]
+    },
+    {
+      "command_name": "adaptive-complexity-router",
+      "timestamp": "2025-08-15T08:07:22.607183",
+      "metrics": {
+        "token_input": 903,
+        "token_output": 1729,
+        "execution_time": 9.258024764786292,
+        "complexity_score": 10,
+        "success_rate": 1.0,
+        "error_types": [],
+        "memory_usage": 157.47443066879336,
+        "pattern_violations": []
+      },
+      "samples": [
+        {
+          "run": 1,
+          "execution_time": 9.384161161389438,
+          "token_input": 904,
+          "token_output": 1562,
+          "success": true
+        },
+        {
+          "run": 2,
+          "execution_time": 9.021308177885784,
+          "token_input": 1008,
+          "token_output": 1697,
+          "success": true
+        },
+        {
+          "run": 3,
+          "execution_time": 9.579844879284952,
+          "token_input": 953,
+          "token_output": 1790,
+          "success": true
+        },
+        {
+          "run": 4,
+          "execution_time": 8.735263209625174,
+          "token_input": 813,
+          "token_output": 2004,
+          "success": true
+        },
+        {
+          "run": 5,
+          "execution_time": 9.163212822996941,
+          "token_input": 904,
+          "token_output": 1642,
+          "success": true
+        },
+        {
+          "run": 6,
+          "execution_time": 9.717029838000595,
+          "token_input": 854,
+          "token_output": 1750,
+          "success": true
+        },
+        {
+          "run": 7,
+          "execution_time": 9.205353264321156,
+          "token_input": 891,
+          "token_output": 1661,
+          "success": true
+        }
+      ],
+      "statistical_analysis": {
+        "sample_size": 7,
+        "mean_execution_time": 9.258024764786292,
+        "std_deviation": 0.33447526346399103,
+        "confidence_interval_95": [
+          9.010242022074303,
+          9.50580750749828
+        ],
+        "variance": 0.11187370186930622,
+        "coefficient_of_variation": 0.036128145253639526,
+        "success_rate": 1.0,
+        "reliability_score": 0.9638718547463605
+      },
+      "savage_judgment": "ADAPTIVE ROUTING: More like 'Over-Complicated Decision Making as a Service'. COMPLEXITY: 10/10. This isn't 'sophisticated engineering', it's academic masturbation disguised as productivity. SUCCESS RATE: 100.0%. Actually works reliably. Shocking display of competence. TOKEN EFFICIENCY: 1.9x expansion. Surprisingly concise for once.",
+      "improvement_recommendations": [
+        "SIMPLIFY: Complexity score 10/10 violates CLAUDE.md. Target < 5."
+      ],
+      "evidence_files": [
+        "commands/adaptive-complexity-router.md"
+      ]
+    },
+    {
+      "command_name": "ultrathink",
+      "timestamp": "2025-08-15T08:07:22.607722",
+      "metrics": {
+        "token_input": 640,
+        "token_output": 1332,
+        "execution_time": 7.0947892579313026,
+        "complexity_score": 7,
+        "success_rate": 0.5714285714285714,
+        "error_types": [
+          "timeout",
+          "mcp_failure"
+        ],
+        "memory_usage": 107.48806379710213,
+        "pattern_violations": []
+      },
+      "samples": [
+        {
+          "run": 1,
+          "execution_time": 7.511155436826791,
+          "token_input": 635,
+          "token_output": 1206,
+          "success": false
+        },
+        {
+          "run": 2,
+          "execution_time": 7.208450599491307,
+          "token_input": 692,
+          "token_output": 1474,
+          "success": false
+        },
+        {
+          "run": 3,
+          "execution_time": 6.628574953329834,
+          "token_input": 565,
+          "token_output": 1392,
+          "success": true
+        },
+        {
+          "run": 4,
+          "execution_time": 7.697865134059812,
+          "token_input": 618,
+          "token_output": 1317,
+          "success": true
+        },
+        {
+          "run": 5,
+          "execution_time": 6.679194189132075,
+          "token_input": 707,
+          "token_output": 1283,
+          "success": true
+        },
+        {
+          "run": 6,
+          "execution_time": 7.110600192555324,
+          "token_input": 636,
+          "token_output": 1358,
+          "success": false
+        },
+        {
+          "run": 7,
+          "execution_time": 6.827684300123976,
+          "token_input": 627,
+          "token_output": 1296,
+          "success": true
+        }
+      ],
+      "statistical_analysis": {
+        "sample_size": 7,
+        "mean_execution_time": 7.0947892579313026,
+        "std_deviation": 0.4106195098112168,
+        "confidence_interval_95": [
+          6.790598068130419,
+          7.398980447732186
+        ],
+        "variance": 0.168608381837604,
+        "coefficient_of_variation": 0.05787620955085918,
+        "success_rate": 0.5714285714285714,
+        "reliability_score": 0.5383564516852233
+      },
+      "savage_judgment": "ULTRATHINK ANALYSIS: Claims to be 'ultra' but complexity suggests 'ultra-bloated'. COMPLEXITY: 7/10. Moderately over-engineered. You're not building a space elevator, calm down. SUCCESS RATE: 57.1%. That's not 'intelligent automation', that's gambling with worse odds than a rigged slot machine. TOKEN EFFICIENCY: 2.1x expansion. Surprisingly concise for once.",
+      "improvement_recommendations": [
+        "SIMPLIFY: Complexity score 7/10 violates CLAUDE.md. Target < 5.",
+        "RELIABILITY: 57.1% success rate is unacceptable. Fix failure modes."
+      ],
+      "evidence_files": [
+        "commands/ultrathink.md"
+      ]
+    },
+    {
+      "command_name": "context-enhanced-executor",
+      "timestamp": "2025-08-15T08:07:22.607986",
+      "metrics": {
+        "token_input": 309,
+        "token_output": 640,
+        "execution_time": 2.9836622567401165,
+        "complexity_score": 2,
+        "success_rate": 1.0,
+        "error_types": [],
+        "memory_usage": 26.568359987320346,
+        "pattern_violations": []
+      },
+      "samples": [
+        {
+          "run": 1,
+          "execution_time": 3.0956466177657003,
+          "token_input": 285,
+          "token_output": 624,
+          "success": true
+        },
+        {
+          "run": 2,
+          "execution_time": 2.651847196608686,
+          "token_input": 325,
+          "token_output": 599,
+          "success": true
+        },
+        {
+          "run": 3,
+          "execution_time": 2.700600217438148,
+          "token_input": 282,
+          "token_output": 583,
+          "success": true
+        },
+        {
+          "run": 4,
+          "execution_time": 3.454969439192716,
+          "token_input": 293,
+          "token_output": 615,
+          "success": true
+        },
+        {
+          "run": 5,
+          "execution_time": 2.588100171035414,
+          "token_input": 319,
+          "token_output": 671,
+          "success": true
+        },
+        {
+          "run": 6,
+          "execution_time": 3.379338426788654,
+          "token_input": 456,
+          "token_output": 697,
+          "success": true
+        },
+        {
+          "run": 7,
+          "execution_time": 3.0151337283514974,
+          "token_input": 203,
+          "token_output": 691,
+          "success": true
+        }
+      ],
+      "statistical_analysis": {
+        "sample_size": 7,
+        "mean_execution_time": 2.9836622567401165,
+        "std_deviation": 0.35093108494552266,
+        "confidence_interval_95": [
+          2.7236888708754945,
+          3.2436356426047386
+        ],
+        "variance": 0.12315262638104164,
+        "coefficient_of_variation": 0.1176175635002811,
+        "success_rate": 1.0,
+        "reliability_score": 0.8823824364997189
+      },
+      "savage_judgment": "COMPLEXITY: 2/10. Actually shows restraint. Did someone read CLAUDE.md? SUCCESS RATE: 100.0%. Actually works reliably. Shocking display of competence. TOKEN EFFICIENCY: 2.1x expansion. Surprisingly concise for once.",
+      "improvement_recommendations": [],
+      "evidence_files": [
+        "commands/context-enhanced-executor.md"
+      ]
+    }
+  ],
+  "methodology": {
+    "samples_per_command": 7,
+    "variance_model": "Gaussian noise with complexity correlation",
+    "complexity_factors": [
+      "abstraction_layers",
+      "mcp_calls",
+      "thinking_blocks",
+      "line_count"
+    ],
+    "violation_detection": "CLAUDE.md pattern matching"
+  },
+  "savage_summary": "Analyzed 5 commands with scientific rigor. Results range from 'surprisingly competent' to 'needs immediate intervention'. Detailed roasting available in individual judgments."
+}
