@@ -1,0 +1,193 @@
+{
+  "benchmark_metadata": {
+    "timestamp": "20250816-013610",
+    "commands_tested": 5,
+    "iterations_per_command": 5,
+    "total_test_runs": 25
+  },
+  "statistical_summary": {
+    "overall_success_rate": 0.72,
+    "success_rate_variance": 0.052,
+    "average_complexity_score": 4.8,
+    "average_execution_time": 0.6623,
+    "total_estimated_tokens": 12066,
+    "average_cost_benefit_ratio": 20413.6
+  },
+  "grade_distribution": {
+    "B": 1,
+    "C": 1,
+    "D": 1,
+    "F": 2
+  },
+  "command_rankings": [
+    {
+      "rank": 1,
+      "command": "adhd-task-breakdown.md",
+      "grade": "B",
+      "success_rate": 1.0,
+      "complexity_score": 3,
+      "avg_execution_time": 0.4703,
+      "savage_verdict": "\u2705 adhd-task-breakdown.md actually follows CLAUDE.md principles: 100.0% success rate with complexity score 3. Rare competence detected."
+    },
+    {
+      "rank": 2,
+      "command": "generate-thinking-command.md",
+      "grade": "C",
+      "success_rate": 0.8,
+      "complexity_score": 3,
+      "avg_execution_time": 0.4782,
+      "savage_verdict": "\ud83d\udcc8 generate-thinking-command.md: 80.0% success rate, complexity 3. Mediocre but functional. The 'participation trophy' of commands."
+    },
+    {
+      "rank": 3,
+      "command": "ultrathink-pure-xml.md",
+      "grade": "D",
+      "success_rate": 0.8,
+      "complexity_score": 6,
+      "avg_execution_time": 0.763,
+      "savage_verdict": "\ud83d\udcc8 ultrathink-pure-xml.md: 80.0% success rate, complexity 6. Mediocre but functional. The 'participation trophy' of commands."
+    },
+    {
+      "rank": 4,
+      "command": "adhd-evening-reflect.md",
+      "grade": "F",
+      "success_rate": 0.6,
+      "complexity_score": 6,
+      "avg_execution_time": 0.792,
+      "savage_verdict": "\ud83d\udcc8 adhd-evening-reflect.md: 60.0% success rate, complexity 6. Mediocre but functional. The 'participation trophy' of commands."
+    },
+    {
+      "rank": 5,
+      "command": "reasoning-wrapper.md",
+      "grade": "F",
+      "success_rate": 0.4,
+      "complexity_score": 6,
+      "avg_execution_time": 0.8077,
+      "savage_verdict": "\ud83d\udeab reasoning-wrapper.md fails 60.0% of the time. That's not 'intelligent automation', that's a coin flip with worse odds. Complexity score of 6 suggests over-engineering without reliability."
+    }
+  ],
+  "detailed_results": [
+    {
+      "command_name": "adhd-task-breakdown.md",
+      "success_rate": 1.0,
+      "avg_execution_time": 0.4703371047973633,
+      "execution_time_stddev": 0.07423889067132321,
+      "token_consumption_estimate": 2611,
+      "complexity_score": 3,
+      "error_frequency": 0.0,
+      "error_types": [],
+      "sample_outputs": [
+        "Run 1: SUCCESS (0.420s)",
+        "Run 2: SUCCESS (0.442s)",
+        "Run 3: SUCCESS (0.403s)",
+        "Run 4: SUCCESS (0.585s)",
+        "Run 5: SUCCESS (0.503s)"
+      ],
+      "performance_grade": "B",
+      "savage_commentary": "\u2705 adhd-task-breakdown.md actually follows CLAUDE.md principles: 100.0% success rate with complexity score 3. Rare competence detected.",
+      "statistical_confidence": 0.95,
+      "cost_benefit_ratio": 7833.0
+    },
+    {
+      "command_name": "generate-thinking-command.md",
+      "success_rate": 0.8,
+      "avg_execution_time": 0.4782308578491211,
+      "execution_time_stddev": 0.058701182704464304,
+      "token_consumption_estimate": 950,
+      "complexity_score": 3,
+      "error_frequency": 0.2,
+      "error_types": [
+        "DependencyMissing"
+      ],
+      "sample_outputs": [
+        "Run 1: SUCCESS (0.529s)",
+        "Run 2: SUCCESS (0.455s)",
+        "Run 3: FAILED - DependencyMissing",
+        "Run 4: SUCCESS (0.552s)",
+        "Run 5: SUCCESS (0.435s)"
+      ],
+      "performance_grade": "C",
+      "savage_commentary": "\ud83d\udcc8 generate-thinking-command.md: 80.0% success rate, complexity 3. Mediocre but functional. The 'participation trophy' of commands.",
+      "statistical_confidence": 0.8154506921747053,
+      "cost_benefit_ratio": 3562.5
+    },
+    {
+      "command_name": "ultrathink-pure-xml.md",
+      "success_rate": 0.8,
+      "avg_execution_time": 0.7629625797271729,
+      "execution_time_stddev": 0.0691133344300699,
+      "token_consumption_estimate": 2831,
+      "complexity_score": 6,
+      "error_frequency": 0.2,
+      "error_types": [
+        "TimeoutError"
+      ],
+      "sample_outputs": [
+        "Run 1: FAILED - TimeoutError",
+        "Run 2: SUCCESS (0.836s)",
+        "Run 3: SUCCESS (0.798s)",
+        "Run 4: SUCCESS (0.674s)",
+        "Run 5: SUCCESS (0.801s)"
+      ],
+      "performance_grade": "D",
+      "savage_commentary": "\ud83d\udcc8 ultrathink-pure-xml.md: 80.0% success rate, complexity 6. Mediocre but functional. The 'participation trophy' of commands.",
+      "statistical_confidence": 0.8218829032336596,
+      "cost_benefit_ratio": 21232.5
+    },
+    {
+      "command_name": "adhd-evening-reflect.md",
+      "success_rate": 0.6,
+      "avg_execution_time": 0.7919926643371582,
+      "execution_time_stddev": 0.10524273434958778,
+      "token_consumption_estimate": 3134,
+      "complexity_score": 6,
+      "error_frequency": 0.4,
+      "error_types": [
+        "TokenLimitExceeded",
+        "ConfigurationError"
+      ],
+      "sample_outputs": [
+        "Run 1: SUCCESS (0.890s)",
+        "Run 2: SUCCESS (0.674s)",
+        "Run 3: SUCCESS (0.862s)",
+        "Run 4: FAILED - ConfigurationError",
+        "Run 5: FAILED - TokenLimitExceeded"
+      ],
+      "performance_grade": "F",
+      "savage_commentary": "\ud83d\udcc8 adhd-evening-reflect.md: 60.0% success rate, complexity 6. Mediocre but functional. The 'participation trophy' of commands.",
+      "statistical_confidence": 0.6534233057732501,
+      "cost_benefit_ratio": 31340.0
+    },
+    {
+      "command_name": "reasoning-wrapper.md",
+      "success_rate": 0.4,
+      "avg_execution_time": 0.8077455520629883,
+      "execution_time_stddev": 0.07009361841793212,
+      "token_consumption_estimate": 2540,
+      "complexity_score": 6,
+      "error_frequency": 0.6,
+      "error_types": [
+        "UnresolvedReference",
+        "TokenLimitExceeded",
+        "ConfigurationError"
+      ],
+      "sample_outputs": [
+        "Run 1: FAILED - ConfigurationError",
+        "Run 2: SUCCESS (0.872s)",
+        "Run 3: SUCCESS (0.698s)",
+        "Run 4: FAILED - TokenLimitExceeded",
+        "Run 5: FAILED - UnresolvedReference"
+      ],
+      "performance_grade": "F",
+      "savage_commentary": "\ud83d\udeab reasoning-wrapper.md fails 60.0% of the time. That's not 'intelligent automation', that's a coin flip with worse odds. Complexity score of 6 suggests over-engineering without reliability.",
+      "statistical_confidence": 0.5026446290570311,
+      "cost_benefit_ratio": 38100.0
+    }
+  ],
+  "scientific_analysis": {
+    "statistical_confidence": 0.749,
+    "performance_consistency": "HIGH",
+    "complexity_assessment": "GOOD",
+    "overall_verdict": "\ud83d\ude10 MEDIOCRE: Commands work sometimes. That's... something, I guess."
+  }
+}

@@ -1,0 +1,193 @@
+{
+  "benchmark_metadata": {
+    "timestamp": "20250816-013426",
+    "commands_tested": 5,
+    "iterations_per_command": 5,
+    "total_test_runs": 25
+  },
+  "statistical_summary": {
+    "overall_success_rate": 0.56,
+    "success_rate_variance": 0.088,
+    "average_complexity_score": 6.6,
+    "average_execution_time": 0.8299,
+    "total_estimated_tokens": 14655,
+    "average_cost_benefit_ratio": 60057.0
+  },
+  "grade_distribution": {
+    "C": 1,
+    "F": 4
+  },
+  "command_rankings": [
+    {
+      "rank": 1,
+      "command": "adhd-hyperfocus-guardian.md",
+      "grade": "C",
+      "success_rate": 1.0,
+      "complexity_score": 5,
+      "avg_execution_time": 0.6813,
+      "savage_verdict": "\ud83d\udcc8 adhd-hyperfocus-guardian.md: 100.0% success rate, complexity 5. Mediocre but functional. The 'participation trophy' of commands."
+    },
+    {
+      "rank": 2,
+      "command": "context-enhanced-executor.md",
+      "grade": "F",
+      "success_rate": 0.6,
+      "complexity_score": 6,
+      "avg_execution_time": 0.7082,
+      "savage_verdict": "\ud83d\udcc8 context-enhanced-executor.md: 60.0% success rate, complexity 6. Mediocre but functional. The 'participation trophy' of commands."
+    },
+    {
+      "rank": 3,
+      "command": "ultrathink-pure-xml.md",
+      "grade": "F",
+      "success_rate": 0.6,
+      "complexity_score": 6,
+      "avg_execution_time": 0.7745,
+      "savage_verdict": "\ud83d\udcc8 ultrathink-pure-xml.md: 60.0% success rate, complexity 6. Mediocre but functional. The 'participation trophy' of commands."
+    },
+    {
+      "rank": 4,
+      "command": "ultrathink-hybrid-mcp.md",
+      "grade": "F",
+      "success_rate": 0.4,
+      "complexity_score": 8,
+      "avg_execution_time": 0.9712,
+      "savage_verdict": "\ud83d\udeab ultrathink-hybrid-mcp.md fails 60.0% of the time. That's not 'intelligent automation', that's a coin flip with worse odds. Complexity score of 8 suggests over-engineering without reliability."
+    },
+    {
+      "rank": 5,
+      "command": "ultrathink-full-mcp.md",
+      "grade": "F",
+      "success_rate": 0.2,
+      "complexity_score": 8,
+      "avg_execution_time": 1.0144,
+      "savage_verdict": "\ud83d\udeab ultrathink-full-mcp.md fails 80.0% of the time. That's not 'intelligent automation', that's a coin flip with worse odds. Complexity score of 8 suggests over-engineering without reliability."
+    }
+  ],
+  "detailed_results": [
+    {
+      "command_name": "adhd-hyperfocus-guardian.md",
+      "success_rate": 1.0,
+      "avg_execution_time": 0.681297779083252,
+      "execution_time_stddev": 0.07372165035546614,
+      "token_consumption_estimate": 3005,
+      "complexity_score": 5,
+      "error_frequency": 0.0,
+      "error_types": [],
+      "sample_outputs": [
+        "Run 1: SUCCESS (0.589s)",
+        "Run 2: SUCCESS (0.788s)",
+        "Run 3: SUCCESS (0.643s)",
+        "Run 4: SUCCESS (0.697s)",
+        "Run 5: SUCCESS (0.689s)"
+      ],
+      "performance_grade": "C",
+      "savage_commentary": "\ud83d\udcc8 adhd-hyperfocus-guardian.md: 100.0% success rate, complexity 5. Mediocre but functional. The 'participation trophy' of commands.",
+      "statistical_confidence": 0.95,
+      "cost_benefit_ratio": 15025.0
+    },
+    {
+      "command_name": "context-enhanced-executor.md",
+      "success_rate": 0.6,
+      "avg_execution_time": 0.7081782817840576,
+      "execution_time_stddev": 0.060805761744414884,
+      "token_consumption_estimate": 971,
+      "complexity_score": 6,
+      "error_frequency": 0.4,
+      "error_types": [
+        "InvalidSyntax",
+        "DependencyMissing"
+      ],
+      "sample_outputs": [
+        "Run 1: SUCCESS (0.738s)",
+        "Run 2: FAILED - InvalidSyntax",
+        "Run 3: SUCCESS (0.653s)",
+        "Run 4: SUCCESS (0.797s)",
+        "Run 5: FAILED - DependencyMissing"
+      ],
+      "performance_grade": "F",
+      "savage_commentary": "\ud83d\udcc8 context-enhanced-executor.md: 60.0% success rate, complexity 6. Mediocre but functional. The 'participation trophy' of commands.",
+      "statistical_confidence": 0.6628275553463087,
+      "cost_benefit_ratio": 9710.0
+    },
+    {
+      "command_name": "ultrathink-pure-xml.md",
+      "success_rate": 0.6,
+      "avg_execution_time": 0.7745225906372071,
+      "execution_time_stddev": 0.0577040490052306,
+      "token_consumption_estimate": 2831,
+      "complexity_score": 6,
+      "error_frequency": 0.4,
+      "error_types": [
+        "DependencyMissing",
+        "TokenLimitExceeded"
+      ],
+      "sample_outputs": [
+        "Run 1: FAILED - DependencyMissing",
+        "Run 2: SUCCESS (0.734s)",
+        "Run 3: SUCCESS (0.871s)",
+        "Run 4: SUCCESS (0.738s)",
+        "Run 5: FAILED - TokenLimitExceeded"
+      ],
+      "performance_grade": "F",
+      "savage_commentary": "\ud83d\udcc8 ultrathink-pure-xml.md: 60.0% success rate, complexity 6. Mediocre but functional. The 'participation trophy' of commands.",
+      "statistical_confidence": 0.6650994535981818,
+      "cost_benefit_ratio": 28310.0
+    },
+    {
+      "command_name": "ultrathink-hybrid-mcp.md",
+      "success_rate": 0.4,
+      "avg_execution_time": 0.9711884021759033,
+      "execution_time_stddev": 0.06910397817829868,
+      "token_consumption_estimate": 3334,
+      "complexity_score": 8,
+      "error_frequency": 0.6,
+      "error_types": [
+        "UnresolvedReference",
+        "TokenLimitExceeded"
+      ],
+      "sample_outputs": [
+        "Run 1: FAILED - TokenLimitExceeded",
+        "Run 2: FAILED - UnresolvedReference",
+        "Run 3: FAILED - UnresolvedReference",
+        "Run 4: SUCCESS (0.941s)",
+        "Run 5: SUCCESS (1.061s)"
+      ],
+      "performance_grade": "F",
+      "savage_commentary": "\ud83d\udeab ultrathink-hybrid-mcp.md fails 60.0% of the time. That's not 'intelligent automation', that's a coin flip with worse odds. Complexity score of 8 suggests over-engineering without reliability.",
+      "statistical_confidence": 0.5057691920489426,
+      "cost_benefit_ratio": 66680.0
+    },
+    {
+      "command_name": "ultrathink-full-mcp.md",
+      "success_rate": 0.2,
+      "avg_execution_time": 1.0143964767456055,
+      "execution_time_stddev": 0.03468858457521758,
+      "token_consumption_estimate": 4514,
+      "complexity_score": 8,
+      "error_frequency": 0.8,
+      "error_types": [
+        "TimeoutError",
+        "ConfigurationError",
+        "TokenLimitExceeded"
+      ],
+      "sample_outputs": [
+        "Run 1: FAILED - TimeoutError",
+        "Run 2: SUCCESS (0.996s)",
+        "Run 3: FAILED - TokenLimitExceeded",
+        "Run 4: FAILED - ConfigurationError",
+        "Run 5: FAILED - TokenLimitExceeded"
+      ],
+      "performance_grade": "F",
+      "savage_commentary": "\ud83d\udeab ultrathink-full-mcp.md fails 80.0% of the time. That's not 'intelligent automation', that's a coin flip with worse odds. Complexity score of 8 suggests over-engineering without reliability.",
+      "statistical_confidence": 0.35316074427101607,
+      "cost_benefit_ratio": 180560.0
+    }
+  ],
+  "scientific_analysis": {
+    "statistical_confidence": 0.627,
+    "performance_consistency": "HIGH",
+    "complexity_assessment": "ACCEPTABLE",
+    "overall_verdict": "\ud83d\udc80 SYSTEMATIC FAILURE: Low success rates indicate fundamental issues. Recommend complete refactoring."
+  }
+}
