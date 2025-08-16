@@ -1,0 +1,155 @@
+{
+  "benchmark_id": "20250816-220226-savage-analysis",
+  "timestamp": "2025-08-16T22:04:32.849713",
+  "commands_total": 22,
+  "commands_analyzed": 5,
+  "selection_method": "random_seed_20250816",
+  "savage_analysis": true,
+  "commands": {
+    "senior-developer-analysis.md": {
+      "file_size_chars": 13387,
+      "lines": 390,
+      "estimated_tokens": 3346,
+      "token_density": 8.58,
+      "complexity_score": 130.5,
+      "complexity_density": 33.46,
+      "patterns": {
+        "thinking_blocks": 26,
+        "conditional_logic": 0,
+        "mcp_calls": 1,
+        "xml_tags": 58,
+        "code_blocks": 8,
+        "variables": 5,
+        "orchestration_blocks": 1,
+        "execution_blocks": 1,
+        "error_handlers": 2
+      },
+      "issues": [
+        "EXTREME_COMPLEXITY",
+        "OVER_THINKING"
+      ],
+      "warnings": [
+        "HIGH_TOKENS",
+        "XML_HEAVY"
+      ],
+      "severity_score": 8,
+      "maintainability_score": 7.0
+    },
+    "intelligent-refactor-session.md": {
+      "file_size_chars": 16531,
+      "lines": 534,
+      "estimated_tokens": 4132,
+      "token_density": 7.74,
+      "complexity_score": 46.0,
+      "complexity_density": 8.61,
+      "patterns": {
+        "thinking_blocks": 0,
+        "conditional_logic": 0,
+        "mcp_calls": 1,
+        "xml_tags": 35,
+        "code_blocks": 16,
+        "variables": 7,
+        "orchestration_blocks": 1,
+        "execution_blocks": 0,
+        "error_handlers": 0
+      },
+      "issues": [
+        "TOKEN_BLOAT",
+        "EXTREME_COMPLEXITY"
+      ],
+      "warnings": [
+        "HIGH_LENGTH",
+        "HIGH_LINES"
+      ],
+      "severity_score": 8,
+      "maintainability_score": 7.0
+    },
+    "java-rapid-implementation.md": {
+      "file_size_chars": 8732,
+      "lines": 250,
+      "estimated_tokens": 2183,
+      "token_density": 8.73,
+      "complexity_score": 64.0,
+      "complexity_density": 25.6,
+      "patterns": {
+        "thinking_blocks": 10,
+        "conditional_logic": 1,
+        "mcp_calls": 2,
+        "xml_tags": 33,
+        "code_blocks": 0,
+        "variables": 3,
+        "orchestration_blocks": 1,
+        "execution_blocks": 0,
+        "error_handlers": 1
+      },
+      "issues": [
+        "EXTREME_COMPLEXITY"
+      ],
+      "warnings": [],
+      "severity_score": 3,
+      "maintainability_score": 9.0
+    },
+    "context-enhanced-executor.md": {
+      "file_size_chars": 3886,
+      "lines": 132,
+      "estimated_tokens": 971,
+      "token_density": 7.36,
+      "complexity_score": 24.5,
+      "complexity_density": 18.56,
+      "patterns": {
+        "thinking_blocks": 0,
+        "conditional_logic": 0,
+        "mcp_calls": 1,
+        "xml_tags": 8,
+        "code_blocks": 10,
+        "variables": 3,
+        "orchestration_blocks": 1,
+        "execution_blocks": 0,
+        "error_handlers": 0
+      },
+      "issues": [],
+      "warnings": [
+        "HIGH_COMPLEXITY"
+      ],
+      "severity_score": 1,
+      "maintainability_score": 9.5
+    },
+    "adhd-task-breakdown.md": {
+      "file_size_chars": 10447,
+      "lines": 365,
+      "estimated_tokens": 2611,
+      "token_density": 7.15,
+      "complexity_score": 28.5,
+      "complexity_density": 7.81,
+      "patterns": {
+        "thinking_blocks": 0,
+        "conditional_logic": 0,
+        "mcp_calls": 3,
+        "xml_tags": 13,
+        "code_blocks": 10,
+        "variables": 0,
+        "orchestration_blocks": 0,
+        "execution_blocks": 0,
+        "error_handlers": 0
+      },
+      "issues": [
+        "MISSING_TASK_TAG"
+      ],
+      "warnings": [
+        "HIGH_COMPLEXITY"
+      ],
+      "severity_score": 4,
+      "maintainability_score": 8.5
+    }
+  },
+  "aggregate_stats": {
+    "total_tokens": 13243,
+    "avg_tokens": 2648.6,
+    "total_complexity": 293.5,
+    "avg_complexity": 58.7,
+    "total_issues": 6,
+    "most_common_issues": [
+      "EXTREME_COMPLEXITY"
+    ]
+  }
+}
