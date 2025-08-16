@@ -1,0 +1,278 @@
+{
+  "benchmark_id": "20250816-103819",
+  "suite_execution_time_s": 0.011929988861083984,
+  "commands_analyzed": 6,
+  "individual_results": [
+    {
+      "command_name": "java-clean-code-generator",
+      "file_path": "commands/java-clean-code-generator.md",
+      "timestamp": "2025-08-16T10:38:19.654290",
+      "execution_time_ms": 4.090309143066406,
+      "complexity": {
+        "complexity_score": 89,
+        "lines": 819,
+        "words": 3102,
+        "patterns": {
+          "new_class": 15,
+          "interfaces": 4,
+          "design_patterns": 18,
+          "config_files": 0,
+          "mcp_calls": 2,
+          "thinking_blocks": 39,
+          "decision_points": 22
+        },
+        "violates_rules": true
+      },
+      "tokens": {
+        "input_tokens": 6280,
+        "estimated_output_tokens": 21980,
+        "total_estimated_tokens": 28260
+      },
+      "structure": {
+        "structure_score": 6,
+        "max_score": 5,
+        "percentage": 120.0,
+        "issues": []
+      },
+      "quality_score": 73.33333333333333,
+      "savage_verdict": {
+        "breakdown": [
+          "COMPLEXITY VIOLATION: Score 89/5. This isn't 'sophisticated', it's BLOATED.",
+          "TOKEN VAMPIRE: 28260 tokens. This command drinks tokens like a Vegas slot machine drinks quarters.",
+          "WELL STRUCTURED: 120.0% compliance. Someone read the docs."
+        ],
+        "overall": "\u2705 DECENT: Gets the job done without embarrassing anyone.",
+        "numeric_score": 73.33333333333333
+      }
+    },
+    {
+      "command_name": "adhd-morning-assistant",
+      "file_path": "commands/adhd-morning-assistant.md",
+      "timestamp": "2025-08-16T10:38:19.655546",
+      "execution_time_ms": 1.2264251708984375,
+      "complexity": {
+        "complexity_score": 1,
+        "lines": 309,
+        "words": 1157,
+        "patterns": {
+          "new_class": 0,
+          "interfaces": 0,
+          "design_patterns": 0,
+          "config_files": 0,
+          "mcp_calls": 7,
+          "thinking_blocks": 0,
+          "decision_points": 0
+        },
+        "violates_rules": false
+      },
+      "tokens": {
+        "input_tokens": 2223,
+        "estimated_output_tokens": 6224,
+        "total_estimated_tokens": 8447
+      },
+      "structure": {
+        "structure_score": 1,
+        "max_score": 5,
+        "percentage": 20.0,
+        "issues": [
+          "Missing <task>",
+          "Missing <context>",
+          "No thinking orchestration",
+          "No complexity detection"
+        ]
+      },
+      "quality_score": 61.49,
+      "savage_verdict": {
+        "breakdown": [
+          "SIMPLICITY WIN: Score 1/5. Actually follows the rules!",
+          "TOKEN VAMPIRE: 8447 tokens. This command drinks tokens like a Vegas slot machine drinks quarters.",
+          "STRUCTURAL NIGHTMARE: 20.0% compliance. Did you even TRY to follow the patterns?"
+        ],
+        "overall": "\u2705 DECENT: Gets the job done without embarrassing anyone.",
+        "numeric_score": 61.49
+      }
+    },
+    {
+      "command_name": "adhd-evening-reflect",
+      "file_path": "commands/adhd-evening-reflect.md",
+      "timestamp": "2025-08-16T10:38:19.657221",
+      "execution_time_ms": 1.651763916015625,
+      "complexity": {
+        "complexity_score": 4,
+        "lines": 438,
+        "words": 1363,
+        "patterns": {
+          "new_class": 0,
+          "interfaces": 0,
+          "design_patterns": 1,
+          "config_files": 0,
+          "mcp_calls": 3,
+          "thinking_blocks": 0,
+          "decision_points": 0
+        },
+        "violates_rules": false
+      },
+      "tokens": {
+        "input_tokens": 3134,
+        "estimated_output_tokens": 8775,
+        "total_estimated_tokens": 11909
+      },
+      "structure": {
+        "structure_score": 1,
+        "max_score": 5,
+        "percentage": 20.0,
+        "issues": [
+          "Missing <task>",
+          "Missing <context>",
+          "No thinking orchestration",
+          "No complexity detection"
+        ]
+      },
+      "quality_score": 46.666666666666664,
+      "savage_verdict": {
+        "breakdown": [
+          "ACCEPTABLE: Score 4/5. Teetering on the edge of chaos.",
+          "TOKEN VAMPIRE: 11909 tokens. This command drinks tokens like a Vegas slot machine drinks quarters.",
+          "STRUCTURAL NIGHTMARE: 20.0% compliance. Did you even TRY to follow the patterns?"
+        ],
+        "overall": "\u26a0\ufe0f PROBLEMATIC: Has issues but not completely hopeless.",
+        "numeric_score": 46.666666666666664
+      }
+    },
+    {
+      "command_name": "analyze-project-architecture",
+      "file_path": "commands/analyze-project-architecture.md",
+      "timestamp": "2025-08-16T10:38:19.658561",
+      "execution_time_ms": 1.3206005096435547,
+      "complexity": {
+        "complexity_score": 29,
+        "lines": 274,
+        "words": 1198,
+        "patterns": {
+          "new_class": 0,
+          "interfaces": 0,
+          "design_patterns": 8,
+          "config_files": 2,
+          "mcp_calls": 1,
+          "thinking_blocks": 1,
+          "decision_points": 1
+        },
+        "violates_rules": true
+      },
+      "tokens": {
+        "input_tokens": 2303,
+        "estimated_output_tokens": 8060,
+        "total_estimated_tokens": 10363
+      },
+      "structure": {
+        "structure_score": 6,
+        "max_score": 5,
+        "percentage": 120.0,
+        "issues": []
+      },
+      "quality_score": 73.33333333333333,
+      "savage_verdict": {
+        "breakdown": [
+          "COMPLEXITY VIOLATION: Score 29/5. This isn't 'sophisticated', it's BLOATED.",
+          "TOKEN VAMPIRE: 10363 tokens. This command drinks tokens like a Vegas slot machine drinks quarters.",
+          "WELL STRUCTURED: 120.0% compliance. Someone read the docs."
+        ],
+        "overall": "\u2705 DECENT: Gets the job done without embarrassing anyone.",
+        "numeric_score": 73.33333333333333
+      }
+    },
+    {
+      "command_name": "reasoning-wrapper",
+      "file_path": "commands/reasoning-wrapper.md",
+      "timestamp": "2025-08-16T10:38:19.660056",
+      "execution_time_ms": 1.4743804931640625,
+      "complexity": {
+        "complexity_score": 19,
+        "lines": 415,
+        "words": 1200,
+        "patterns": {
+          "new_class": 0,
+          "interfaces": 0,
+          "design_patterns": 6,
+          "config_files": 0,
+          "mcp_calls": 2,
+          "thinking_blocks": 3,
+          "decision_points": 14
+        },
+        "violates_rules": true
+      },
+      "tokens": {
+        "input_tokens": 2540,
+        "estimated_output_tokens": 8890,
+        "total_estimated_tokens": 11430
+      },
+      "structure": {
+        "structure_score": 6,
+        "max_score": 5,
+        "percentage": 120.0,
+        "issues": []
+      },
+      "quality_score": 73.33333333333333,
+      "savage_verdict": {
+        "breakdown": [
+          "COMPLEXITY VIOLATION: Score 19/5. This isn't 'sophisticated', it's BLOATED.",
+          "TOKEN VAMPIRE: 11430 tokens. This command drinks tokens like a Vegas slot machine drinks quarters.",
+          "WELL STRUCTURED: 120.0% compliance. Someone read the docs."
+        ],
+        "overall": "\u2705 DECENT: Gets the job done without embarrassing anyone.",
+        "numeric_score": 73.33333333333333
+      }
+    },
+    {
+      "command_name": "senior-developer-analysis",
+      "file_path": "commands/senior-developer-analysis.md",
+      "timestamp": "2025-08-16T10:38:19.661915",
+      "execution_time_ms": 1.840353012084961,
+      "complexity": {
+        "complexity_score": 28,
+        "lines": 390,
+        "words": 1571,
+        "patterns": {
+          "new_class": 0,
+          "interfaces": 0,
+          "design_patterns": 9,
+          "config_files": 0,
+          "mcp_calls": 1,
+          "thinking_blocks": 27,
+          "decision_points": 25
+        },
+        "violates_rules": true
+      },
+      "tokens": {
+        "input_tokens": 3346,
+        "estimated_output_tokens": 11711,
+        "total_estimated_tokens": 15057
+      },
+      "structure": {
+        "structure_score": 6,
+        "max_score": 5,
+        "percentage": 120.0,
+        "issues": []
+      },
+      "quality_score": 73.33333333333333,
+      "savage_verdict": {
+        "breakdown": [
+          "COMPLEXITY VIOLATION: Score 28/5. This isn't 'sophisticated', it's BLOATED.",
+          "TOKEN VAMPIRE: 15057 tokens. This command drinks tokens like a Vegas slot machine drinks quarters.",
+          "WELL STRUCTURED: 120.0% compliance. Someone read the docs."
+        ],
+        "overall": "\u2705 DECENT: Gets the job done without embarrassing anyone.",
+        "numeric_score": 73.33333333333333
+      }
+    }
+  ],
+  "statistics": {
+    "quality_mean": 66.91499999999999,
+    "quality_stdev": 10.992776163361908,
+    "complexity_mean": 28.333333333333332,
+    "complexity_stdev": 31.960392154456844,
+    "token_mean": 14244.333333333334,
+    "token_stdev": 7199.269620361962
+  },
+  "generated_at": "2025-08-16T10:38:19.662107"
+}
