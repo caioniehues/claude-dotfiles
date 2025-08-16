@@ -1,0 +1,195 @@
+{
+  "benchmark_metadata": {
+    "timestamp": "20250816-133857",
+    "commands_tested": 5,
+    "iterations_per_command": 5,
+    "total_test_runs": 25
+  },
+  "statistical_summary": {
+    "overall_success_rate": 0.56,
+    "success_rate_variance": 0.108,
+    "average_complexity_score": 8,
+    "average_execution_time": 0.9718,
+    "total_estimated_tokens": 14602,
+    "average_cost_benefit_ratio": 81187.17
+  },
+  "grade_distribution": {
+    "D": 1,
+    "F": 4
+  },
+  "command_rankings": [
+    {
+      "rank": 1,
+      "command": "ultrathink-pure-xml.md",
+      "grade": "D",
+      "success_rate": 0.8,
+      "complexity_score": 6,
+      "avg_execution_time": 0.7357,
+      "savage_verdict": "\ud83d\udcc8 ultrathink-pure-xml.md: 80.0% success rate, complexity 6. Mediocre but functional. The 'participation trophy' of commands."
+    },
+    {
+      "rank": 2,
+      "command": "intelligent-refactor-session.md",
+      "grade": "F",
+      "success_rate": 0.8,
+      "complexity_score": 8,
+      "avg_execution_time": 0.981,
+      "savage_verdict": "\u26a0\ufe0f intelligent-refactor-session.md has complexity score 8/10. Following Martin Fowler's advice: 'Any fool can write complex code.' This command is that fool."
+    },
+    {
+      "rank": 3,
+      "command": "reasoning-wrapper.md",
+      "grade": "F",
+      "success_rate": 0.6,
+      "complexity_score": 6,
+      "avg_execution_time": 0.8006,
+      "savage_verdict": "\ud83d\udcc8 reasoning-wrapper.md: 60.0% success rate, complexity 6. Mediocre but functional. The 'participation trophy' of commands."
+    },
+    {
+      "rank": 4,
+      "command": "analyze-project-architecture.md",
+      "grade": "F",
+      "success_rate": 0.6,
+      "complexity_score": 10,
+      "avg_execution_time": 1.1373,
+      "savage_verdict": "\u26a0\ufe0f analyze-project-architecture.md has complexity score 10/10. Following Martin Fowler's advice: 'Any fool can write complex code.' This command is that fool."
+    },
+    {
+      "rank": 5,
+      "command": "adaptive-complexity-router.md",
+      "grade": "F",
+      "success_rate": 0.0,
+      "complexity_score": 10,
+      "avg_execution_time": 1.2044,
+      "savage_verdict": "\ud83d\udeab adaptive-complexity-router.md fails 100.0% of the time. That's not 'intelligent automation', that's a coin flip with worse odds. Complexity score of 10 suggests over-engineering without reliability."
+    }
+  ],
+  "detailed_results": [
+    {
+      "command_name": "ultrathink-pure-xml.md",
+      "success_rate": 0.8,
+      "avg_execution_time": 0.7357093334197998,
+      "execution_time_stddev": 0.028260342718776338,
+      "token_consumption_estimate": 2831,
+      "complexity_score": 6,
+      "error_frequency": 0.2,
+      "error_types": [
+        "ConfigurationError"
+      ],
+      "sample_outputs": [
+        "Run 1: SUCCESS (0.785s)",
+        "Run 2: SUCCESS (0.728s)",
+        "Run 3: SUCCESS (0.732s)",
+        "Run 4: SUCCESS (0.717s)",
+        "Run 5: FAILED - ConfigurationError"
+      ],
+      "performance_grade": "D",
+      "savage_commentary": "\ud83d\udcc8 ultrathink-pure-xml.md: 80.0% success rate, complexity 6. Mediocre but functional. The 'participation trophy' of commands.",
+      "statistical_confidence": 0.832317525023799,
+      "cost_benefit_ratio": 21232.5
+    },
+    {
+      "command_name": "intelligent-refactor-session.md",
+      "success_rate": 0.8,
+      "avg_execution_time": 0.9809897899627685,
+      "execution_time_stddev": 0.08425771345129035,
+      "token_consumption_estimate": 4132,
+      "complexity_score": 8,
+      "error_frequency": 0.2,
+      "error_types": [
+        "DependencyMissing"
+      ],
+      "sample_outputs": [
+        "Run 1: SUCCESS (1.052s)",
+        "Run 2: SUCCESS (1.059s)",
+        "Run 3: FAILED - DependencyMissing",
+        "Run 4: SUCCESS (0.871s)",
+        "Run 5: SUCCESS (1.008s)"
+      ],
+      "performance_grade": "F",
+      "savage_commentary": "\u26a0\ufe0f intelligent-refactor-session.md has complexity score 8/10. Following Martin Fowler's advice: 'Any fool can write complex code.' This command is that fool.",
+      "statistical_confidence": 0.8228218979823454,
+      "cost_benefit_ratio": 41320.0
+    },
+    {
+      "command_name": "reasoning-wrapper.md",
+      "success_rate": 0.6,
+      "avg_execution_time": 0.8006279468536377,
+      "execution_time_stddev": 0.08452707606519663,
+      "token_consumption_estimate": 2540,
+      "complexity_score": 6,
+      "error_frequency": 0.4,
+      "error_types": [
+        "DependencyMissing",
+        "UnresolvedReference"
+      ],
+      "sample_outputs": [
+        "Run 1: FAILED - UnresolvedReference",
+        "Run 2: SUCCESS (0.673s)",
+        "Run 3: FAILED - DependencyMissing",
+        "Run 4: SUCCESS (0.758s)",
+        "Run 5: SUCCESS (0.865s)"
+      ],
+      "performance_grade": "F",
+      "savage_commentary": "\ud83d\udcc8 reasoning-wrapper.md: 60.0% success rate, complexity 6. Mediocre but functional. The 'participation trophy' of commands.",
+      "statistical_confidence": 0.658884805009024,
+      "cost_benefit_ratio": 25400.0
+    },
+    {
+      "command_name": "analyze-project-architecture.md",
+      "success_rate": 0.6,
+      "avg_execution_time": 1.1373411178588868,
+      "execution_time_stddev": 0.07195956909982959,
+      "token_consumption_estimate": 2303,
+      "complexity_score": 10,
+      "error_frequency": 0.4,
+      "error_types": [
+        "InvalidSyntax",
+        "ConfigurationError"
+      ],
+      "sample_outputs": [
+        "Run 1: SUCCESS (1.196s)",
+        "Run 2: SUCCESS (1.192s)",
+        "Run 3: FAILED - InvalidSyntax",
+        "Run 4: FAILED - ConfigurationError",
+        "Run 5: SUCCESS (1.058s)"
+      ],
+      "performance_grade": "F",
+      "savage_commentary": "\u26a0\ufe0f analyze-project-architecture.md has complexity score 10/10. Following Martin Fowler's advice: 'Any fool can write complex code.' This command is that fool.",
+      "statistical_confidence": 0.6673460006026516,
+      "cost_benefit_ratio": 38383.333333333336
+    },
+    {
+      "command_name": "adaptive-complexity-router.md",
+      "success_rate": 0.0,
+      "avg_execution_time": 1.2043862342834473,
+      "execution_time_stddev": 0.06389221510693915,
+      "token_consumption_estimate": 2796,
+      "complexity_score": 10,
+      "error_frequency": 1.0,
+      "error_types": [
+        "TokenLimitExceeded",
+        "TimeoutError",
+        "InvalidSyntax",
+        "ConfigurationError"
+      ],
+      "sample_outputs": [
+        "Run 1: FAILED - TokenLimitExceeded",
+        "Run 2: FAILED - TimeoutError",
+        "Run 3: FAILED - TimeoutError",
+        "Run 4: FAILED - ConfigurationError",
+        "Run 5: FAILED - InvalidSyntax"
+      ],
+      "performance_grade": "F",
+      "savage_commentary": "\ud83d\udeab adaptive-complexity-router.md fails 100.0% of the time. That's not 'intelligent automation', that's a coin flip with worse odds. Complexity score of 10 suggests over-engineering without reliability.",
+      "statistical_confidence": 0.18939007881554676,
+      "cost_benefit_ratio": 279600.0
+    }
+  ],
+  "scientific_analysis": {
+    "statistical_confidence": 0.634,
+    "performance_consistency": "MEDIUM",
+    "complexity_assessment": "EXCESSIVE",
+    "overall_verdict": "\ud83d\udc80 SYSTEMATIC FAILURE: Low success rates indicate fundamental issues. Recommend complete refactoring."
+  }
+}
