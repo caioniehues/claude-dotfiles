@@ -1,0 +1,44 @@
+{
+  "test_scenarios": [
+    {
+      "command": "ultrathink",
+      "tests": [
+        "simple math problem: 2+2",
+        "medium complexity: optimize database query performance",
+        "complex architectural: should we migrate to microservices",
+        "debugging mystery: system crashes randomly",
+        "creative challenge: design user onboarding flow"
+      ]
+    },
+    {
+      "command": "java-clean-code-generator", 
+      "tests": [
+        "create simple POJO for User with email validation",
+        "implement order processing service with repository",
+        "create REST controller for user management",
+        "build shopping cart with item management",
+        "design payment processing system"
+      ]
+    },
+    {
+      "command": "adhd-task-breakdown",
+      "tests": [
+        "write unit tests for service layer",
+        "refactor legacy authentication module",
+        "implement real-time notifications",
+        "migrate database schema",
+        "create API documentation"
+      ]
+    },
+    {
+      "command": "senior-developer-analysis",
+      "tests": [
+        "explain this code: public class Singleton",
+        "analyze Spring Boot dependency injection",
+        "explain microservices vs monolith trade-offs",
+        "review this authentication implementation",
+        "analyze performance bottleneck in query"
+      ]
+    }
+  ]
+}
