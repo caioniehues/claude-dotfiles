@@ -1,0 +1,157 @@
+{
+  "context-enhanced-executor.md": {
+    "metrics": {
+      "total_lines": 132,
+      "non_empty_lines": 109,
+      "xml_tags": 16,
+      "thinking_blocks": 0,
+      "estimated_tokens": 551.2
+    },
+    "compliance": {
+      "simplicity_score": 10,
+      "violations": []
+    },
+    "token_efficiency": {
+      "tokens_per_line": 5.056880733944954,
+      "density_score": 0.8257575757575758,
+      "bloat_factor": 0
+    },
+    "execution_complexity": {
+      "mcp_dependencies": 1,
+      "tool_invocations": 0,
+      "sequential_thinking": true,
+      "basic_memory": false
+    },
+    "failure_probability": 0.1,
+    "overall_score": 10,
+    "grade": "A",
+    "savage_roast": "Surprisingly competent. I'm almost disappointed.",
+    "analysis_time_ms": 0.3173351287841797
+  },
+  "git-backup-sync.md": {
+    "metrics": {
+      "total_lines": 531,
+      "non_empty_lines": 438,
+      "xml_tags": 66,
+      "thinking_blocks": 0,
+      "estimated_tokens": 1899.3
+    },
+    "compliance": {
+      "simplicity_score": 5,
+      "violations": [
+        "MASSIVE_FILE_OBESITY",
+        "XML_TAG_POLLUTION"
+      ]
+    },
+    "token_efficiency": {
+      "tokens_per_line": 4.336301369863014,
+      "density_score": 0.8248587570621468,
+      "bloat_factor": 0.8993
+    },
+    "execution_complexity": {
+      "mcp_dependencies": 2,
+      "tool_invocations": 1,
+      "sequential_thinking": true,
+      "basic_memory": true
+    },
+    "failure_probability": 0.25,
+    "overall_score": 5.1007,
+    "grade": "C",
+    "savage_roast": "Mediocre complexity soup. Works but makes me question life choices.",
+    "analysis_time_ms": 0.42891502380371094
+  },
+  "ultrathink-pure-xml.md": {
+    "metrics": {
+      "total_lines": 472,
+      "non_empty_lines": 378,
+      "xml_tags": 46,
+      "thinking_blocks": 3,
+      "estimated_tokens": 1968.2
+    },
+    "compliance": {
+      "simplicity_score": 7,
+      "violations": [
+        "MASSIVE_FILE_OBESITY"
+      ]
+    },
+    "token_efficiency": {
+      "tokens_per_line": 5.206878306878307,
+      "density_score": 0.8008474576271186,
+      "bloat_factor": 0.9682000000000001
+    },
+    "execution_complexity": {
+      "mcp_dependencies": 0,
+      "tool_invocations": 20,
+      "sequential_thinking": false,
+      "basic_memory": false
+    },
+    "failure_probability": 0,
+    "overall_score": 7.0318,
+    "grade": "B",
+    "savage_roast": "Decent but bloated. Like a good idea that ate too much.",
+    "analysis_time_ms": 0.3402233123779297
+  },
+  "adhd-morning-assistant.md": {
+    "metrics": {
+      "total_lines": 309,
+      "non_empty_lines": 247,
+      "xml_tags": 24,
+      "thinking_blocks": 0,
+      "estimated_tokens": 1504.1000000000001
+    },
+    "compliance": {
+      "simplicity_score": 7,
+      "violations": [
+        "MASSIVE_FILE_OBESITY"
+      ]
+    },
+    "token_efficiency": {
+      "tokens_per_line": 6.089473684210527,
+      "density_score": 0.7993527508090615,
+      "bloat_factor": 0.5041000000000001
+    },
+    "execution_complexity": {
+      "mcp_dependencies": 7,
+      "tool_invocations": 22,
+      "sequential_thinking": false,
+      "basic_memory": true
+    },
+    "failure_probability": 0.2,
+    "overall_score": 7.4959,
+    "grade": "B",
+    "savage_roast": "Decent but bloated. Like a good idea that ate too much.",
+    "analysis_time_ms": 0.24652481079101562
+  },
+  "ultrathink-full-mcp.md": {
+    "metrics": {
+      "total_lines": 665,
+      "non_empty_lines": 544,
+      "xml_tags": 54,
+      "thinking_blocks": 3,
+      "estimated_tokens": 2635.1
+    },
+    "compliance": {
+      "simplicity_score": 5,
+      "violations": [
+        "MASSIVE_FILE_OBESITY",
+        "XML_TAG_POLLUTION"
+      ]
+    },
+    "token_efficiency": {
+      "tokens_per_line": 4.843933823529412,
+      "density_score": 0.8180451127819549,
+      "bloat_factor": 1.6351
+    },
+    "execution_complexity": {
+      "mcp_dependencies": 29,
+      "tool_invocations": 11,
+      "sequential_thinking": true,
+      "basic_memory": true
+    },
+    "failure_probability": 0.45,
+    "overall_score": 4.3649000000000004,
+    "grade": "C",
+    "savage_roast": "Mediocre complexity soup. Works but makes me question life choices.",
+    "analysis_time_ms": 0.5626678466796875
+  }
+}
