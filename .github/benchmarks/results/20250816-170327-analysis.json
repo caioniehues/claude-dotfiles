@@ -1,0 +1,59 @@
+{
+  "java-test-driven-development.md": {
+    "complexity_score": 10,
+    "violations": [
+      "Over-engineering: 4 complexity terms",
+      "Abstraction explosion: 54 XML blocks",
+      "Excessive length: 460 lines",
+      "Multiple responsibilities: 13 thinking types",
+      "Pattern soup: 17 pattern references"
+    ],
+    "metrics": {
+      "line_count": 460,
+      "xml_blocks": 54,
+      "engineering_terms": 4,
+      "thinking_types": 13,
+      "pattern_density": 17
+    },
+    "token_estimate": 3349,
+    "claude_md_violation": true
+  },
+  "ultrathink-hybrid-mcp.md": {
+    "complexity_score": 10,
+    "violations": [
+      "Over-engineering: 5 complexity terms",
+      "Abstraction explosion: 56 XML blocks",
+      "Excessive length: 536 lines",
+      "Multiple responsibilities: 6 thinking types",
+      "Pattern soup: 117 pattern references"
+    ],
+    "metrics": {
+      "line_count": 536,
+      "xml_blocks": 56,
+      "engineering_terms": 5,
+      "thinking_types": 6,
+      "pattern_density": 117
+    },
+    "token_estimate": 3334,
+    "claude_md_violation": true
+  },
+  "adaptive-complexity-router.md": {
+    "complexity_score": 11,
+    "violations": [
+      "Over-engineering: 8 complexity terms",
+      "Abstraction explosion: 71 XML blocks",
+      "Excessive length: 499 lines",
+      "Multiple responsibilities: 12 thinking types",
+      "Pattern soup: 31 pattern references"
+    ],
+    "metrics": {
+      "line_count": 499,
+      "xml_blocks": 71,
+      "engineering_terms": 8,
+      "thinking_types": 12,
+      "pattern_density": 31
+    },
+    "token_estimate": 2796,
+    "claude_md_violation": true
+  }
+}
