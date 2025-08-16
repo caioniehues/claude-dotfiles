@@ -1,0 +1,136 @@
+{
+  "timestamp": "20250816-223801",
+  "commands_analyzed": 5,
+  "statistical_analysis": {
+    "complexity_scores": {
+      "mean": 3.2,
+      "min": 1,
+      "max": 5,
+      "std_dev": 1.6431676725154984
+    },
+    "token_estimates": {
+      "mean": 1610.6,
+      "min": 539,
+      "max": 2662,
+      "std_dev": 756.65137282635
+    },
+    "reasoning_depths": {
+      "mean": 8.0,
+      "min": 0,
+      "max": 20,
+      "std_dev": 10.51189802081432
+    },
+    "maintainability_scores": {
+      "mean": 0.986,
+      "min": 0.97,
+      "max": 1.0,
+      "std_dev": 0.01341640786499875
+    }
+  },
+  "savage_rankings": {
+    "most_complex": {
+      "command": "generate-thinking-command.md",
+      "score": 5,
+      "roast": "This command has more layers than a wedding cake in complexity hell."
+    },
+    "least_complex": {
+      "command": "adhd-evening-reflect.md",
+      "score": 1,
+      "praise": "Finally, someone who understands KISS principle."
+    },
+    "most_maintainable": {
+      "command": "adhd-context-switch.md",
+      "score": 1.0,
+      "praise": "This is how you write maintainable code."
+    },
+    "most_violations": {
+      "command": "generate-thinking-command.md",
+      "count": 1,
+      "roast": "Violated more patterns than a rebel teenager."
+    }
+  },
+  "pattern_violations": {
+    "Complexity score exceeds CLAUDE.md limit": 1
+  },
+  "recommendations": [
+    "Reduce complexity scores > 5 to meet CLAUDE.md standards",
+    "Add thinking blocks to commands with reasoning_depth < 3",
+    "Fix pattern violations to improve maintainability",
+    "Consider MCP integration for complex commands",
+    "Break down commands > 500 lines into smaller units"
+  ],
+  "raw_metrics": [
+    {
+      "command": "adhd-context-switch.md",
+      "complexity": 2,
+      "tokens": 1521,
+      "lines": 399,
+      "thinking_blocks": 0,
+      "mcp_integrations": 4,
+      "xml_quality": 1.0,
+      "reasoning_depth": 0,
+      "violations": [],
+      "maintainability": 1.0,
+      "execution_time": 0.002459287643432617,
+      "memory_footprint": 39600
+    },
+    {
+      "command": "generate-thinking-command.md",
+      "complexity": 5,
+      "tokens": 539,
+      "lines": 137,
+      "thinking_blocks": 9,
+      "mcp_integrations": 1,
+      "xml_quality": 1.0,
+      "reasoning_depth": 1,
+      "violations": [
+        "Complexity score exceeds CLAUDE.md limit"
+      ],
+      "maintainability": 1.0,
+      "execution_time": 0.000993490219116211,
+      "memory_footprint": 3844
+    },
+    {
+      "command": "adhd-evening-reflect.md",
+      "complexity": 1,
+      "tokens": 1771,
+      "lines": 438,
+      "thinking_blocks": 0,
+      "mcp_integrations": 3,
+      "xml_quality": 1.0,
+      "reasoning_depth": 0,
+      "violations": [],
+      "maintainability": 0.97,
+      "execution_time": 0.0019447803497314453,
+      "memory_footprint": 50204
+    },
+    {
+      "command": "intelligent-refactor-session.md",
+      "complexity": 4,
+      "tokens": 2662,
+      "lines": 534,
+      "thinking_blocks": 62,
+      "mcp_integrations": 1,
+      "xml_quality": 1.0,
+      "reasoning_depth": 20,
+      "violations": [],
+      "maintainability": 0.98,
+      "execution_time": 0.004569530487060547,
+      "memory_footprint": 33120
+    },
+    {
+      "command": "reasoning-wrapper.md",
+      "complexity": 4,
+      "tokens": 1560,
+      "lines": 415,
+      "thinking_blocks": 35,
+      "mcp_integrations": 2,
+      "xml_quality": 0.7,
+      "reasoning_depth": 19,
+      "violations": [],
+      "maintainability": 0.98,
+      "execution_time": 0.0023293495178222656,
+      "memory_footprint": 20382
+    }
+  ]
+}
