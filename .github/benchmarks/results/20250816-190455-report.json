@@ -1,0 +1,216 @@
+{
+  "benchmark_metadata": {
+    "timestamp": "20250816-190455",
+    "total_commands_tested": 5,
+    "total_samples": 25,
+    "framework_version": "1.0"
+  },
+  "aggregate_statistics": {
+    "average_success_rate": 0.64,
+    "average_savage_score": 1.1999999999999995,
+    "total_estimated_cost": 1.7326400000000002,
+    "compliance_rate": 0.0
+  },
+  "savage_rankings": [
+    {
+      "rank": 1,
+      "command_name": "adhd-task-breakdown",
+      "savage_score": 3.0,
+      "judgment": "\u274c adhd-task-breakdown is struggling. 100.0% success rate is gambling territory.",
+      "key_metrics": {
+        "success_rate": 1.0,
+        "avg_execution_time": 13.916491658236442,
+        "complexity_score": 5,
+        "total_tokens": 27870
+      }
+    },
+    {
+      "rank": 2,
+      "command_name": "intelligent-code-enhancer",
+      "savage_score": 0.9999999999999991,
+      "judgment": "\ud83d\udc80 intelligent-code-enhancer is a disaster. 60.0% success rate with 16.4s execution time. Delete this.",
+      "key_metrics": {
+        "success_rate": 0.6,
+        "avg_execution_time": 16.439598702071972,
+        "complexity_score": 8,
+        "total_tokens": 30500
+      }
+    },
+    {
+      "rank": 3,
+      "command_name": "ultrathink-full-mcp",
+      "savage_score": 0.9999999999999991,
+      "judgment": "\ud83d\udc80 ultrathink-full-mcp is a disaster. 60.0% success rate with 23.1s execution time. Delete this.",
+      "key_metrics": {
+        "success_rate": 0.6,
+        "avg_execution_time": 23.099412930516635,
+        "complexity_score": 8,
+        "total_tokens": 44428
+      }
+    },
+    {
+      "rank": 4,
+      "command_name": "safe-code-beautifier",
+      "savage_score": 0.9999999999999991,
+      "judgment": "\ud83d\udc80 safe-code-beautifier is a disaster. 60.0% success rate with 20.6s execution time. Delete this.",
+      "key_metrics": {
+        "success_rate": 0.6,
+        "avg_execution_time": 20.57695224505716,
+        "complexity_score": 10,
+        "total_tokens": 37949
+      }
+    },
+    {
+      "rank": 5,
+      "command_name": "adhd-hyperfocus-guardian",
+      "savage_score": 0.0,
+      "judgment": "\ud83d\udc80 adhd-hyperfocus-guardian is a disaster. 40.0% success rate with 15.6s execution time. Delete this.",
+      "key_metrics": {
+        "success_rate": 0.4,
+        "avg_execution_time": 15.591270644488427,
+        "complexity_score": 5,
+        "total_tokens": 32517
+      }
+    }
+  ],
+  "detailed_results": [
+    {
+      "command_name": "adhd-task-breakdown",
+      "sample_size": 5,
+      "execution_times": [
+        13.971802472682384,
+        13.76517053846552,
+        13.984812104624357,
+        13.768793924320061,
+        14.091879251089889
+      ],
+      "mean_execution_time": 13.916491658236442,
+      "std_dev": 0.14422246635753697,
+      "success_rate": 1.0,
+      "total_tokens": 27870,
+      "avg_complexity": 5,
+      "cost_estimate": 0.2787,
+      "savage_score": 3.0,
+      "judgment": "\u274c adhd-task-breakdown is struggling. 100.0% success rate is gambling territory.",
+      "recommendations": [
+        "REDUCE COMPLEXITY: Score 5.0 violates CLAUDE.md rule (max 5)",
+        "OPTIMIZE PERFORMANCE: 13.9s execution time is too slow",
+        "MAJOR REFACTOR NEEDED: Multiple critical issues detected"
+      ]
+    },
+    {
+      "command_name": "intelligent-code-enhancer",
+      "sample_size": 5,
+      "execution_times": [
+        16.46527513553014,
+        16.527318076803923,
+        16.268200789814365,
+        16.464389247948354,
+        16.47281026026309
+      ],
+      "mean_execution_time": 16.439598702071972,
+      "std_dev": 0.0993085986044174,
+      "success_rate": 0.6,
+      "total_tokens": 30500,
+      "avg_complexity": 8,
+      "cost_estimate": 0.30500000000000005,
+      "savage_score": 0.9999999999999991,
+      "judgment": "\ud83d\udc80 intelligent-code-enhancer is a disaster. 60.0% success rate with 16.4s execution time. Delete this.",
+      "recommendations": [
+        "REDUCE COMPLEXITY: Score 8.0 violates CLAUDE.md rule (max 5)",
+        "FIX RELIABILITY: 60.0% success rate is unacceptable",
+        "OPTIMIZE PERFORMANCE: 16.4s execution time is too slow",
+        "MAJOR REFACTOR NEEDED: Multiple critical issues detected"
+      ]
+    },
+    {
+      "command_name": "ultrathink-full-mcp",
+      "sample_size": 5,
+      "execution_times": [
+        23.03595823107219,
+        23.099946854785657,
+        23.078669592361262,
+        23.221805317754843,
+        23.06068465660923
+      ],
+      "mean_execution_time": 23.099412930516635,
+      "std_dev": 0.0723478501550884,
+      "success_rate": 0.6,
+      "total_tokens": 44428,
+      "avg_complexity": 8,
+      "cost_estimate": 0.44428000000000006,
+      "savage_score": 0.9999999999999991,
+      "judgment": "\ud83d\udc80 ultrathink-full-mcp is a disaster. 60.0% success rate with 23.1s execution time. Delete this.",
+      "recommendations": [
+        "REDUCE COMPLEXITY: Score 8.0 violates CLAUDE.md rule (max 5)",
+        "FIX RELIABILITY: 60.0% success rate is unacceptable",
+        "OPTIMIZE PERFORMANCE: 23.1s execution time is too slow",
+        "MAJOR REFACTOR NEEDED: Multiple critical issues detected"
+      ]
+    },
+    {
+      "command_name": "safe-code-beautifier",
+      "sample_size": 5,
+      "execution_times": [
+        20.74147876454163,
+        20.590281154860048,
+        20.378847206535454,
+        20.538375788393623,
+        20.635778310955054
+      ],
+      "mean_execution_time": 20.57695224505716,
+      "std_dev": 0.13364214415336073,
+      "success_rate": 0.6,
+      "total_tokens": 37949,
+      "avg_complexity": 10,
+      "cost_estimate": 0.37949000000000005,
+      "savage_score": 0.9999999999999991,
+      "judgment": "\ud83d\udc80 safe-code-beautifier is a disaster. 60.0% success rate with 20.6s execution time. Delete this.",
+      "recommendations": [
+        "REDUCE COMPLEXITY: Score 10.0 violates CLAUDE.md rule (max 5)",
+        "FIX RELIABILITY: 60.0% success rate is unacceptable",
+        "OPTIMIZE PERFORMANCE: 20.6s execution time is too slow",
+        "MAJOR REFACTOR NEEDED: Multiple critical issues detected"
+      ]
+    },
+    {
+      "command_name": "adhd-hyperfocus-guardian",
+      "sample_size": 5,
+      "execution_times": [
+        15.561747947611927,
+        15.658329223344671,
+        15.677293903016995,
+        15.562144764858024,
+        15.496837383610515
+      ],
+      "mean_execution_time": 15.591270644488427,
+      "std_dev": 0.07505731353644715,
+      "success_rate": 0.4,
+      "total_tokens": 32517,
+      "avg_complexity": 5,
+      "cost_estimate": 0.32517,
+      "savage_score": 0.0,
+      "judgment": "\ud83d\udc80 adhd-hyperfocus-guardian is a disaster. 40.0% success rate with 15.6s execution time. Delete this.",
+      "recommendations": [
+        "REDUCE COMPLEXITY: Score 5.0 violates CLAUDE.md rule (max 5)",
+        "FIX RELIABILITY: 40.0% success rate is unacceptable",
+        "OPTIMIZE PERFORMANCE: 15.6s execution time is too slow",
+        "MAJOR REFACTOR NEEDED: Multiple critical issues detected"
+      ]
+    }
+  ],
+  "critical_issues": [
+    "intelligent-code-enhancer",
+    "ultrathink-full-mcp",
+    "adhd-hyperfocus-guardian",
+    "adhd-task-breakdown",
+    "safe-code-beautifier"
+  ],
+  "compliance_violations": [
+    "intelligent-code-enhancer",
+    "ultrathink-full-mcp",
+    "adhd-hyperfocus-guardian",
+    "adhd-task-breakdown",
+    "safe-code-beautifier"
+  ]
+}
