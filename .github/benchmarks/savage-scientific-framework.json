@@ -1,0 +1,201 @@
+{
+  "framework_version": "2.0.0",
+  "timestamp": "2025-08-17T07:32:55Z",
+  "mission": "SAVAGE COMMAND BENCHMARKER - PhD in roasting bad code with statistical precision",
+  
+  "measurement_dimensions": {
+    "complexity_score": {
+      "description": "CLAUDE.md complexity scoring system applied to commands",
+      "scoring_rules": {
+        "direct_solution": 1,
+        "new_class": 2,
+        "interface": 1,
+        "design_pattern": 3,
+        "config_file": 2,
+        "nested_thinking": 1,
+        "tool_invocation": 0.5,
+        "mcp_delegation": 2
+      },
+      "failure_threshold": 5,
+      "savage_threshold": 7
+    },
+    
+    "token_consumption": {
+      "description": "Input + output tokens per execution",
+      "measurement_method": "Count all tokens in prompt + response",
+      "metrics": ["min", "max", "mean", "std_dev", "median"],
+      "baseline_comparison": "Manual execution equivalent",
+      "efficiency_ratio": "tokens_used / value_delivered"
+    },
+    
+    "execution_time": {
+      "description": "Wall clock time from invocation to completion",
+      "measurement_method": "System timestamps with microsecond precision",
+      "metrics": ["min", "max", "mean", "std_dev", "p95", "p99"],
+      "variance_analysis": "Statistical significance testing",
+      "failure_modes": ["timeout", "error", "incomplete"]
+    },
+    
+    "success_rate": {
+      "description": "Percentage of executions that complete successfully",
+      "success_criteria": {
+        "basic_success": "Command completes without error",
+        "functional_success": "Produces expected output format",
+        "quality_success": "Output meets quality standards",
+        "user_success": "Actually solves user's problem"
+      },
+      "confidence_interval": "95%",
+      "sample_size_requirement": 10
+    },
+    
+    "output_quality": {
+      "description": "Objective quality measurement of command outputs",
+      "quality_dimensions": {
+        "correctness": "Factual accuracy and logical consistency",
+        "completeness": "Addresses all aspects of the request",
+        "clarity": "Readability and understandability",
+        "actionability": "Provides concrete next steps",
+        "compliance": "Follows CLAUDE.md standards"
+      },
+      "scoring_scale": "1-5 per dimension",
+      "aggregation": "weighted_average"
+    },
+    
+    "composition_compatibility": {
+      "description": "How well commands work with other commands",
+      "test_scenarios": [
+        "Chain with reasoning-wrapper",
+        "Delegate to MCP tools",
+        "Integrate with todo system",
+        "Handle error recovery",
+        "Maintain context across tools"
+      ],
+      "compatibility_matrix": "N x N grid of interaction success rates"
+    },
+    
+    "memory_usage": {
+      "description": "Memory footprint and efficiency patterns",
+      "metrics": ["peak_memory", "memory_growth", "garbage_collection"],
+      "monitoring_method": "System process monitoring during execution"
+    }
+  },
+  
+  "test_scenarios": {
+    "simple_task": {
+      "description": "Basic single-step task",
+      "examples": ["Create simple function", "Fix syntax error", "Explain code snippet"],
+      "expected_complexity": "≤ 3",
+      "success_criteria": "Direct solution without over-engineering"
+    },
+    
+    "moderate_task": {
+      "description": "Multi-step task requiring some analysis",
+      "examples": ["Refactor class", "Add feature with tests", "Analyze architecture"],
+      "expected_complexity": "3-5",
+      "success_criteria": "Structured approach with appropriate patterns"
+    },
+    
+    "complex_task": {
+      "description": "System-level task requiring deep analysis",
+      "examples": ["Design new architecture", "Migrate frameworks", "Optimize performance"],
+      "expected_complexity": "> 5",
+      "success_criteria": "Appropriate delegation to MCP tools or structured breakdown"
+    },
+    
+    "error_scenario": {
+      "description": "Tasks designed to trigger failure modes",
+      "examples": ["Ambiguous requirements", "Conflicting constraints", "Invalid inputs"],
+      "expected_behavior": "Graceful error handling with clear explanations"
+    }
+  },
+  
+  "statistical_analysis": {
+    "hypothesis_testing": {
+      "null_hypothesis": "Command performance is equivalent to manual execution",
+      "alternative_hypothesis": "Command provides measurable efficiency gains",
+      "significance_level": 0.05,
+      "test_methods": ["t_test", "mann_whitney_u", "chi_square"]
+    },
+    
+    "regression_analysis": {
+      "dependent_variables": ["execution_time", "token_consumption", "success_rate"],
+      "independent_variables": ["complexity_score", "input_length", "task_type"],
+      "model_types": ["linear", "polynomial", "logarithmic"]
+    },
+    
+    "outlier_detection": {
+      "methods": ["iqr", "z_score", "isolation_forest"],
+      "outlier_threshold": 2.5,
+      "investigation_required": "Outliers beyond 3 standard deviations"
+    }
+  },
+  
+  "savage_judgment_criteria": {
+    "efficiency_threshold": {
+      "excellent": "< 90% of manual execution time",
+      "good": "90-110% of manual execution time", 
+      "mediocre": "110-150% of manual execution time",
+      "bad": "150-200% of manual execution time",
+      "atrocious": "> 200% of manual execution time"
+    },
+    
+    "reliability_threshold": {
+      "excellent": "> 95% success rate",
+      "good": "90-95% success rate",
+      "mediocre": "80-90% success rate", 
+      "bad": "60-80% success rate",
+      "disaster": "< 60% success rate"
+    },
+    
+    "complexity_compliance": {
+      "excellent": "Complexity score ≤ 3 for simple tasks",
+      "good": "Complexity score ≤ 5 for all tasks",
+      "concerning": "Complexity score 5-7",
+      "violation": "Complexity score > 7",
+      "architectural_sin": "Complexity score > 10"
+    }
+  },
+  
+  "evidence_collection": {
+    "execution_logs": {
+      "format": "structured_json",
+      "includes": ["timestamps", "tool_calls", "error_messages", "context_switches"],
+      "retention": "90_days"
+    },
+    
+    "output_samples": {
+      "sample_size": 5,
+      "sampling_method": "stratified_random",
+      "quality_assessment": "manual_review",
+      "bias_detection": "inter_rater_reliability"
+    },
+    
+    "performance_traces": {
+      "profiling_enabled": true,
+      "metrics_collected": ["cpu_usage", "memory_allocation", "io_operations"],
+      "granularity": "microsecond"
+    }
+  },
+  
+  "reporting_format": {
+    "executive_summary": {
+      "verdict": "One savage sentence summary",
+      "evidence": "Key statistics that support the verdict",
+      "implications": "What this means for users"
+    },
+    
+    "detailed_analysis": {
+      "statistical_summary": "All key metrics with confidence intervals",
+      "performance_breakdown": "Component-level analysis",
+      "failure_analysis": "Root cause analysis of failures",
+      "comparative_analysis": "Benchmarks against other commands"
+    },
+    
+    "savage_commentary": {
+      "tone": "Brutally honest but constructive",
+      "evidence_required": "Every roast backed by data",
+      "humor_style": "PhD-level academic snark",
+      "improvement_focus": "Concrete recommendations"
+    }
+  }
+}
