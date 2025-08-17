@@ -1,0 +1,103 @@
+{
+  "benchmark_info": {
+    "command": "java-test-driven-development.md",
+    "test_scenario": "tdd-test-scenario.md",
+    "timestamp": "2025-08-17T23:04:15.252962",
+    "total_runs": 5
+  },
+  "raw_results": [
+    {
+      "run_number": 1,
+      "timestamp": "2025-08-17T23:04:14.748135",
+      "execution_time_seconds": 0.00011563301086425781,
+      "input_tokens": 3487,
+      "output_tokens": 243,
+      "total_tokens": 3730,
+      "input_characters": 13950,
+      "output_characters": 975,
+      "success": true,
+      "complexity_score": 4.697062096784121,
+      "simulated_output": "\n# TDD Implementation Run 1\n\n## RED Phase - Test First\n```java\n@Test\nvoid calculateDiscount_standardCustomer_returnsOriginalPrice() {\n    // Given\n    Customer customer = Customer.builder().type(Custo..."
+    },
+    {
+      "run_number": 2,
+      "timestamp": "2025-08-17T23:04:14.848350",
+      "execution_time_seconds": 0.0001068115234375,
+      "input_tokens": 3487,
+      "output_tokens": 243,
+      "total_tokens": 3730,
+      "input_characters": 13950,
+      "output_characters": 975,
+      "success": true,
+      "complexity_score": 3.474827596344149,
+      "simulated_output": "\n# TDD Implementation Run 2\n\n## RED Phase - Test First\n```java\n@Test\nvoid calculateDiscount_standardCustomer_returnsOriginalPrice() {\n    // Given\n    Customer customer = Customer.builder().type(Custo..."
+    },
+    {
+      "run_number": 3,
+      "timestamp": "2025-08-17T23:04:14.948529",
+      "execution_time_seconds": 7.963180541992188e-05,
+      "input_tokens": 3487,
+      "output_tokens": 243,
+      "total_tokens": 3730,
+      "input_characters": 13950,
+      "output_characters": 975,
+      "success": true,
+      "complexity_score": 4.36424391551971,
+      "simulated_output": "\n# TDD Implementation Run 3\n\n## RED Phase - Test First\n```java\n@Test\nvoid calculateDiscount_standardCustomer_returnsOriginalPrice() {\n    // Given\n    Customer customer = Customer.builder().type(Custo..."
+    },
+    {
+      "run_number": 4,
+      "timestamp": "2025-08-17T23:04:15.048760",
+      "execution_time_seconds": 0.00010848045349121094,
+      "input_tokens": 3487,
+      "output_tokens": 243,
+      "total_tokens": 3730,
+      "input_characters": 13950,
+      "output_characters": 975,
+      "success": true,
+      "complexity_score": 3.418852398598215,
+      "simulated_output": "\n# TDD Implementation Run 4\n\n## RED Phase - Test First\n```java\n@Test\nvoid calculateDiscount_standardCustomer_returnsOriginalPrice() {\n    // Given\n    Customer customer = Customer.builder().type(Custo..."
+    },
+    {
+      "run_number": 5,
+      "timestamp": "2025-08-17T23:04:15.148953",
+      "execution_time_seconds": 8.416175842285156e-05,
+      "input_tokens": 3487,
+      "output_tokens": 243,
+      "total_tokens": 3730,
+      "input_characters": 13950,
+      "output_characters": 975,
+      "success": true,
+      "complexity_score": 4.6172538951485,
+      "simulated_output": "\n# TDD Implementation Run 5\n\n## RED Phase - Test First\n```java\n@Test\nvoid calculateDiscount_standardCustomer_returnsOriginalPrice() {\n    // Given\n    Customer customer = Customer.builder().type(Custo..."
+    }
+  ],
+  "statistical_analysis": {
+    "execution_time": {
+      "mean": 9.894371032714844e-05,
+      "median": 0.0001068115234375,
+      "stdev": 1.599093867617986e-05,
+      "min": 7.963180541992188e-05,
+      "max": 0.00011563301086425781
+    },
+    "token_usage": {
+      "mean": 3730,
+      "median": 3730,
+      "stdev": 0.0,
+      "min": 3730,
+      "max": 3730
+    },
+    "complexity_scores": {
+      "mean": 4.114447980478939,
+      "stdev": 0.6220165702857872,
+      "min": 3.418852398598215,
+      "max": 4.697062096784121
+    },
+    "success_rate": 1.0
+  },
+  "savage_judgment": {
+    "performance_grade": "B+",
+    "token_efficiency": "WASTEFUL",
+    "consistency": "STABLE"
+  }
+}
