@@ -1,0 +1,82 @@
+{
+  "framework_version": "1.0.0",
+  "timestamp": "2025-08-17T04:11:23Z",
+  "methodology": "statistical_analysis_with_savage_judgment",
+  "subjects": [
+    {
+      "name": "ultrathink-hybrid-mcp",
+      "file_size_lines": 536,
+      "complexity_indicators": {
+        "xml_blocks": 14,
+        "mcp_tool_calls": 8,
+        "thinking_layers": 6,
+        "configuration_complexity": "HIGH"
+      }
+    },
+    {
+      "name": "analyze-project-architecture", 
+      "file_size_lines": 274,
+      "complexity_indicators": {
+        "xml_blocks": 12,
+        "tool_orchestration": "MEDIUM",
+        "thinking_depth": "MODERATE"
+      }
+    },
+    {
+      "name": "adhd-morning-assistant",
+      "file_size_lines": 309,
+      "complexity_indicators": {
+        "javascript_integration": true,
+        "obsidian_specific": true,
+        "pattern_learning": "HIGH"
+      }
+    },
+    {
+      "name": "java-clean-code-generator",
+      "file_size_lines": 819,
+      "complexity_indicators": {
+        "code_generation": "MASSIVE",
+        "rule_enforcement": "EXTREME",
+        "pattern_templates": 12
+      }
+    },
+    {
+      "name": "adaptive-complexity-router",
+      "file_size_lines": 499,
+      "complexity_indicators": {
+        "meta_orchestration": true,
+        "recursive_thinking": true,
+        "pattern_switching": "COMPLEX"
+      }
+    }
+  ],
+  "measurement_dimensions": {
+    "token_consumption": {
+      "unit": "tokens",
+      "baseline_estimate": "manual_execution_equivalent",
+      "variance_tracking": true
+    },
+    "execution_time": {
+      "unit": "seconds", 
+      "statistical_sampling": 5,
+      "confidence_interval": 0.95
+    },
+    "success_rate": {
+      "definition": "task_completion_without_errors",
+      "measurement_approach": "controlled_scenarios"
+    },
+    "complexity_score_claude_md": {
+      "scale": "1-5",
+      "based_on": "CLAUDE.md_simplicity_rules",
+      "penalty_system": true
+    },
+    "composition_compatibility": {
+      "test_combinations": "pairwise_command_chaining",
+      "failure_modes": "tracked"
+    },
+    "cognitive_load": {
+      "measurement": "mental_model_complexity",
+      "junior_developer_comprehension": "timed_understanding_test"
+    }
+  }
+}

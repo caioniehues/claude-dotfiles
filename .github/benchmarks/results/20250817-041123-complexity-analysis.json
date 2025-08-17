@@ -1,0 +1,64 @@
+{
+  "analysis_timestamp": "2025-08-17T04:11:23Z",
+  "complexity_scoring_results": {
+    "ultrathink-hybrid-mcp": {
+      "score": 4.6,
+      "status": "FAIL",
+      "breakdown": {
+        "thinking_phases": 18,
+        "mcp_configuration": 2,
+        "pattern_library": 3
+      },
+      "violations": ["Exceeds 5.0 threshold", "Over-engineered thinking layers"]
+    },
+    "analyze-project-architecture": {
+      "score": 2.4,
+      "status": "PASS",
+      "breakdown": {
+        "orchestration_layers": 9,
+        "complexity_detection": 3
+      },
+      "notes": "Acceptable complexity for task scope"
+    },
+    "adhd-morning-assistant": {
+      "score": 2.6,
+      "status": "PASS", 
+      "breakdown": {
+        "pattern_learning": 3,
+        "javascript_integration": 2,
+        "obsidian_integration": 2,
+        "data_models": 6
+      },
+      "notes": "Justified complexity for ADHD optimization"
+    },
+    "java-clean-code-generator": {
+      "score": 11.4,
+      "status": "CATASTROPHIC_FAIL",
+      "breakdown": {
+        "code_templates": 36,
+        "tdd_enforcement": 3,
+        "strategic_thinking": 12,
+        "rule_validation": 6
+      },
+      "violations": ["Violates simplicity principle", "Template explosion", "Over-abstraction"]
+    },
+    "adaptive-complexity-router": {
+      "score": 3.6,
+      "status": "BORDERLINE",
+      "breakdown": {
+        "meta_orchestration": 9,
+        "recursive_thinking": 3,
+        "mode_switching": 6
+      },
+      "notes": "Meta-complexity may be justified for routing task"
+    }
+  },
+  "statistical_summary": {
+    "mean_complexity": 4.92,
+    "median_complexity": 3.6,
+    "standard_deviation": 3.47,
+    "fail_rate": 0.4,
+    "pass_rate": 0.4,
+    "borderline_rate": 0.2
+  }
+}
