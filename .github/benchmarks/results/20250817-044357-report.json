@@ -1,0 +1,130 @@
+{
+  "timestamp": "20250817-044357",
+  "methodology": "Scientific simulation based on CLAUDE.md complexity rules",
+  "commands_analyzed": 5,
+  "measurements": {
+    "java-test-driven-development.md": {
+      "execution_time_stats": {
+        "mean": 47.7552267236632,
+        "std": 0.42013080835403016,
+        "min": 47.276357711824865,
+        "max": 48.19626357645276,
+        "cv": 0.8797587974717982
+      },
+      "throughput_stats": {
+        "mean": 59.620207919114144,
+        "std": 0.5252765459737423,
+        "min": 59.07096917344768,
+        "max": 60.22037521067115,
+        "cv": 0.8810377627102159
+      },
+      "success_rate": 1.0,
+      "complexity_score": 38,
+      "is_overcomplicated": true,
+      "lines": 460,
+      "tokens": 2847
+    },
+    "senior-developer-analysis.md": {
+      "execution_time_stats": {
+        "mean": 45.648376233367436,
+        "std": 0.3347082965396525,
+        "min": 45.25684475935026,
+        "max": 46.0826404419369,
+        "cv": 0.7332315498551993
+      },
+      "throughput_stats": {
+        "mean": 55.46985559527707,
+        "std": 0.40647051598416417,
+        "min": 54.94476826236256,
+        "max": 55.94733820847902,
+        "cv": 0.7327773105267877
+      },
+      "success_rate": 0.8,
+      "complexity_score": 40,
+      "is_overcomplicated": true,
+      "lines": 390,
+      "tokens": 2532
+    },
+    "git-backup-sync.md": {
+      "execution_time_stats": {
+        "mean": 60.00989254075385,
+        "std": 0.18764854860371752,
+        "min": 59.74947940818894,
+        "max": 60.2421585841487,
+        "cv": 0.31269602503667515
+      },
+      "throughput_stats": {
+        "mean": 57.007713785790585,
+        "std": 0.1783811478762858,
+        "min": 56.78747376260444,
+        "max": 57.255728985165625,
+        "cv": 0.3129070366627263
+      },
+      "success_rate": 0.8,
+      "complexity_score": 51,
+      "is_overcomplicated": true,
+      "lines": 531,
+      "tokens": 3421
+    },
+    "ultrathink.md": {
+      "execution_time_stats": {
+        "mean": 59.003844237308,
+        "std": 0.34930374956427285,
+        "min": 58.7008182079716,
+        "max": 59.591528779941626,
+        "cv": 0.5920016807030496
+      },
+      "throughput_stats": {
+        "mean": 47.26942434004674,
+        "std": 0.2782375197831523,
+        "min": 46.80195418881033,
+        "max": 47.51211456915012,
+        "cv": 0.5886204955270187
+      },
+      "success_rate": 0.4,
+      "complexity_score": 62,
+      "is_overcomplicated": true,
+      "lines": 357,
+      "tokens": 2789
+    },
+    "adhd-hyperfocus-guardian.md": {
+      "execution_time_stats": {
+        "mean": 46.80160381039257,
+        "std": 0.2216522933997445,
+        "min": 46.50564509488891,
+        "max": 47.12709903386878,
+        "cv": 0.47359978153254073
+      },
+      "throughput_stats": {
+        "mean": 64.3579226761004,
+        "std": 0.30453004115459675,
+        "min": 63.91227259363809,
+        "max": 64.7663309229319,
+        "cv": 0.47318189974407815
+      },
+      "success_rate": 1.0,
+      "complexity_score": 33,
+      "is_overcomplicated": true,
+      "lines": 457,
+      "tokens": 3012
+    }
+  },
+  "statistical_analysis": {
+    "total_commands": 5,
+    "average_complexity": 44.8,
+    "complexity_violations": 5,
+    "violation_rate": 100.0,
+    "average_success_rate": 80.0,
+    "complexity_distribution": {
+      "simple": 0,
+      "complex": 0,
+      "overcomplicated": 5
+    }
+  },
+  "savage_findings": [
+    "\ud83d\udd25 COMPLEXITY CATASTROPHE: Average complexity 44.8. These commands are more bloated than enterprise Java.",
+    "\ud83d\udc51 COMPLEXITY CHAMPION: ultrathink.md scores 62/5. Violates CLAUDE.md with reckless abandon.",
+    "\ud83d\udca9 RELIABILITY TRAINWRECK: ultrathink.md has 40.0% success rate.",
+    "\ud83d\udcca CLAUDE.MD REBELLION: 100.0% of commands violate complexity rules. The inmates run the asylum."
+  ]
+}
