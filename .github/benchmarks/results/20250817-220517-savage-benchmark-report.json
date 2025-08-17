@@ -1,0 +1,384 @@
+{
+  "benchmark_metadata": {
+    "total_commands": 5,
+    "execution_time": 0.006903648376464844,
+    "timestamp": "2025-08-17T22:05:17.095309",
+    "benchmarker_version": "1.0.0-savage"
+  },
+  "statistical_summary": {
+    "mean_score": 5.436,
+    "std_dev": 0.6675552411598609,
+    "min_score": 4.58,
+    "max_score": 6.45,
+    "score_range": 1.87
+  },
+  "individual_results": {
+    "adhd-context-switch": {
+      "command_name": "adhd-context-switch",
+      "overall_score": 5.29,
+      "complexity_analysis": {
+        "line_count": 399,
+        "xml_blocks": 28,
+        "thinking_blocks": 0,
+        "mcp_calls": 4,
+        "parameters": 0,
+        "complexity_score": 4,
+        "violates_claude_md": false
+      },
+      "token_analysis": {
+        "estimated_total_tokens": 2471,
+        "input_tokens": 2271,
+        "output_tokens": 200,
+        "token_efficiency": 494.2
+      },
+      "failure_analysis": {
+        "failure_patterns": [
+          "NO_ERROR_HANDLING",
+          "HARDCODED_VALUES",
+          "NO_VALIDATION"
+        ],
+        "failure_count": 3,
+        "reliability_score": 7
+      },
+      "performance_metrics": {
+        "estimated_execution_time": 8.0,
+        "memory_usage_mb": 9.885,
+        "performance_score": 2.0,
+        "efficiency_ratio": 1.25
+      },
+      "savage_commentary": "Score: 5.2884/10. Mediocre by design, broken by accident.",
+      "timestamp": "2025-08-17T22:05:17.089718"
+    },
+    "ultrathink": {
+      "command_name": "ultrathink",
+      "overall_score": 4.58,
+      "complexity_analysis": {
+        "line_count": 357,
+        "xml_blocks": 28,
+        "thinking_blocks": 8,
+        "mcp_calls": 6,
+        "parameters": 6,
+        "complexity_score": 6,
+        "violates_claude_md": true
+      },
+      "token_analysis": {
+        "estimated_total_tokens": 2439,
+        "input_tokens": 2339,
+        "output_tokens": 100,
+        "token_efficiency": 487.8
+      },
+      "failure_analysis": {
+        "failure_patterns": [
+          "NO_ERROR_HANDLING",
+          "HARDCODED_VALUES"
+        ],
+        "failure_count": 2,
+        "reliability_score": 8
+      },
+      "performance_metrics": {
+        "estimated_execution_time": 11.0,
+        "memory_usage_mb": 13.758000000000001,
+        "performance_score": 0,
+        "efficiency_ratio": 0.9090909090909091
+      },
+      "savage_commentary": "This command violates CLAUDE.md with a complexity score of 6/5. That's not 'sophisticated', that's architectural masturbation. Score: 4.5756/10. Mediocre by design, broken by accident.",
+      "timestamp": "2025-08-17T22:05:17.090116"
+    },
+    "adhd-evening-reflect": {
+      "command_name": "adhd-evening-reflect",
+      "overall_score": 6.45,
+      "complexity_analysis": {
+        "line_count": 438,
+        "xml_blocks": 28,
+        "thinking_blocks": 0,
+        "mcp_calls": 3,
+        "parameters": 0,
+        "complexity_score": 3,
+        "violates_claude_md": false
+      },
+      "token_analysis": {
+        "estimated_total_tokens": 3134,
+        "input_tokens": 3034,
+        "output_tokens": 100,
+        "token_efficiency": 626.8
+      },
+      "failure_analysis": {
+        "failure_patterns": [
+          "NO_ERROR_HANDLING",
+          "HARDCODED_VALUES"
+        ],
+        "failure_count": 2,
+        "reliability_score": 8
+      },
+      "performance_metrics": {
+        "estimated_execution_time": 6.5,
+        "memory_usage_mb": 12.536,
+        "performance_score": 3.5,
+        "efficiency_ratio": 1.5384615384615385
+      },
+      "savage_commentary": "At 438 lines, this isn't a command - it's a novella. War and Peace had better pacing. Score: 6.4536/10. Actually decent work. Did someone competent write this?",
+      "timestamp": "2025-08-17T22:05:17.090665"
+    },
+    "intelligent-code-enhancer": {
+      "command_name": "intelligent-code-enhancer",
+      "overall_score": 5.44,
+      "complexity_analysis": {
+        "line_count": 442,
+        "xml_blocks": 66,
+        "thinking_blocks": 40,
+        "mcp_calls": 1,
+        "parameters": 6,
+        "complexity_score": 5,
+        "violates_claude_md": true
+      },
+      "token_analysis": {
+        "estimated_total_tokens": 2844,
+        "input_tokens": 2744,
+        "output_tokens": 100,
+        "token_efficiency": 568.8
+      },
+      "failure_analysis": {
+        "failure_patterns": [
+          "HARDCODED_VALUES"
+        ],
+        "failure_count": 1,
+        "reliability_score": 9
+      },
+      "performance_metrics": {
+        "estimated_execution_time": 9.5,
+        "memory_usage_mb": 31.377000000000002,
+        "performance_score": 0.5,
+        "efficiency_ratio": 1.0526315789473684
+      },
+      "savage_commentary": "This command violates CLAUDE.md with a complexity score of 5/5. That's not 'sophisticated', that's architectural masturbation. At 442 lines, this isn't a command - it's a novella. War and Peace had better pacing. With 40 thinking blocks, this command has more internal monologue than Hamlet. Just make a decision! Score: 5.437599999999999/10. Mediocre by design, broken by accident.",
+      "timestamp": "2025-08-17T22:05:17.091195"
+    },
+    "adaptive-complexity-router": {
+      "command_name": "adaptive-complexity-router",
+      "overall_score": 5.42,
+      "complexity_analysis": {
+        "line_count": 499,
+        "xml_blocks": 71,
+        "thinking_blocks": 24,
+        "mcp_calls": 2,
+        "parameters": 3,
+        "complexity_score": 5,
+        "violates_claude_md": true
+      },
+      "token_analysis": {
+        "estimated_total_tokens": 2796,
+        "input_tokens": 2796,
+        "output_tokens": 0,
+        "token_efficiency": 559.2
+      },
+      "failure_analysis": {
+        "failure_patterns": [
+          "HARDCODED_VALUES"
+        ],
+        "failure_count": 1,
+        "reliability_score": 9
+      },
+      "performance_metrics": {
+        "estimated_execution_time": 9.5,
+        "memory_usage_mb": 23.186,
+        "performance_score": 0.5,
+        "efficiency_ratio": 1.0526315789473684
+      },
+      "savage_commentary": "This command violates CLAUDE.md with a complexity score of 5/5. That's not 'sophisticated', that's architectural masturbation. At 499 lines, this isn't a command - it's a novella. War and Peace had better pacing. With 24 thinking blocks, this command has more internal monologue than Hamlet. Just make a decision! Score: 5.418399999999999/10. Mediocre by design, broken by accident.",
+      "timestamp": "2025-08-17T22:05:17.095177"
+    }
+  },
+  "ranking": [
+    [
+      "adhd-evening-reflect",
+      {
+        "command_name": "adhd-evening-reflect",
+        "overall_score": 6.45,
+        "complexity_analysis": {
+          "line_count": 438,
+          "xml_blocks": 28,
+          "thinking_blocks": 0,
+          "mcp_calls": 3,
+          "parameters": 0,
+          "complexity_score": 3,
+          "violates_claude_md": false
+        },
+        "token_analysis": {
+          "estimated_total_tokens": 3134,
+          "input_tokens": 3034,
+          "output_tokens": 100,
+          "token_efficiency": 626.8
+        },
+        "failure_analysis": {
+          "failure_patterns": [
+            "NO_ERROR_HANDLING",
+            "HARDCODED_VALUES"
+          ],
+          "failure_count": 2,
+          "reliability_score": 8
+        },
+        "performance_metrics": {
+          "estimated_execution_time": 6.5,
+          "memory_usage_mb": 12.536,
+          "performance_score": 3.5,
+          "efficiency_ratio": 1.5384615384615385
+        },
+        "savage_commentary": "At 438 lines, this isn't a command - it's a novella. War and Peace had better pacing. Score: 6.4536/10. Actually decent work. Did someone competent write this?",
+        "timestamp": "2025-08-17T22:05:17.090665"
+      }
+    ],
+    [
+      "intelligent-code-enhancer",
+      {
+        "command_name": "intelligent-code-enhancer",
+        "overall_score": 5.44,
+        "complexity_analysis": {
+          "line_count": 442,
+          "xml_blocks": 66,
+          "thinking_blocks": 40,
+          "mcp_calls": 1,
+          "parameters": 6,
+          "complexity_score": 5,
+          "violates_claude_md": true
+        },
+        "token_analysis": {
+          "estimated_total_tokens": 2844,
+          "input_tokens": 2744,
+          "output_tokens": 100,
+          "token_efficiency": 568.8
+        },
+        "failure_analysis": {
+          "failure_patterns": [
+            "HARDCODED_VALUES"
+          ],
+          "failure_count": 1,
+          "reliability_score": 9
+        },
+        "performance_metrics": {
+          "estimated_execution_time": 9.5,
+          "memory_usage_mb": 31.377000000000002,
+          "performance_score": 0.5,
+          "efficiency_ratio": 1.0526315789473684
+        },
+        "savage_commentary": "This command violates CLAUDE.md with a complexity score of 5/5. That's not 'sophisticated', that's architectural masturbation. At 442 lines, this isn't a command - it's a novella. War and Peace had better pacing. With 40 thinking blocks, this command has more internal monologue than Hamlet. Just make a decision! Score: 5.437599999999999/10. Mediocre by design, broken by accident.",
+        "timestamp": "2025-08-17T22:05:17.091195"
+      }
+    ],
+    [
+      "adaptive-complexity-router",
+      {
+        "command_name": "adaptive-complexity-router",
+        "overall_score": 5.42,
+        "complexity_analysis": {
+          "line_count": 499,
+          "xml_blocks": 71,
+          "thinking_blocks": 24,
+          "mcp_calls": 2,
+          "parameters": 3,
+          "complexity_score": 5,
+          "violates_claude_md": true
+        },
+        "token_analysis": {
+          "estimated_total_tokens": 2796,
+          "input_tokens": 2796,
+          "output_tokens": 0,
+          "token_efficiency": 559.2
+        },
+        "failure_analysis": {
+          "failure_patterns": [
+            "HARDCODED_VALUES"
+          ],
+          "failure_count": 1,
+          "reliability_score": 9
+        },
+        "performance_metrics": {
+          "estimated_execution_time": 9.5,
+          "memory_usage_mb": 23.186,
+          "performance_score": 0.5,
+          "efficiency_ratio": 1.0526315789473684
+        },
+        "savage_commentary": "This command violates CLAUDE.md with a complexity score of 5/5. That's not 'sophisticated', that's architectural masturbation. At 499 lines, this isn't a command - it's a novella. War and Peace had better pacing. With 24 thinking blocks, this command has more internal monologue than Hamlet. Just make a decision! Score: 5.418399999999999/10. Mediocre by design, broken by accident.",
+        "timestamp": "2025-08-17T22:05:17.095177"
+      }
+    ],
+    [
+      "adhd-context-switch",
+      {
+        "command_name": "adhd-context-switch",
+        "overall_score": 5.29,
+        "complexity_analysis": {
+          "line_count": 399,
+          "xml_blocks": 28,
+          "thinking_blocks": 0,
+          "mcp_calls": 4,
+          "parameters": 0,
+          "complexity_score": 4,
+          "violates_claude_md": false
+        },
+        "token_analysis": {
+          "estimated_total_tokens": 2471,
+          "input_tokens": 2271,
+          "output_tokens": 200,
+          "token_efficiency": 494.2
+        },
+        "failure_analysis": {
+          "failure_patterns": [
+            "NO_ERROR_HANDLING",
+            "HARDCODED_VALUES",
+            "NO_VALIDATION"
+          ],
+          "failure_count": 3,
+          "reliability_score": 7
+        },
+        "performance_metrics": {
+          "estimated_execution_time": 8.0,
+          "memory_usage_mb": 9.885,
+          "performance_score": 2.0,
+          "efficiency_ratio": 1.25
+        },
+        "savage_commentary": "Score: 5.2884/10. Mediocre by design, broken by accident.",
+        "timestamp": "2025-08-17T22:05:17.089718"
+      }
+    ],
+    [
+      "ultrathink",
+      {
+        "command_name": "ultrathink",
+        "overall_score": 4.58,
+        "complexity_analysis": {
+          "line_count": 357,
+          "xml_blocks": 28,
+          "thinking_blocks": 8,
+          "mcp_calls": 6,
+          "parameters": 6,
+          "complexity_score": 6,
+          "violates_claude_md": true
+        },
+        "token_analysis": {
+          "estimated_total_tokens": 2439,
+          "input_tokens": 2339,
+          "output_tokens": 100,
+          "token_efficiency": 487.8
+        },
+        "failure_analysis": {
+          "failure_patterns": [
+            "NO_ERROR_HANDLING",
+            "HARDCODED_VALUES"
+          ],
+          "failure_count": 2,
+          "reliability_score": 8
+        },
+        "performance_metrics": {
+          "estimated_execution_time": 11.0,
+          "memory_usage_mb": 13.758000000000001,
+          "performance_score": 0,
+          "efficiency_ratio": 0.9090909090909091
+        },
+        "savage_commentary": "This command violates CLAUDE.md with a complexity score of 6/5. That's not 'sophisticated', that's architectural masturbation. Score: 4.5756/10. Mediocre by design, broken by accident.",
+        "timestamp": "2025-08-17T22:05:17.090116"
+      }
+    ]
+  ],
+  "hall_of_shame": [],
+  "hall_of_fame": []
+}
