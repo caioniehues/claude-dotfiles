@@ -1,0 +1,50 @@
+{
+  "benchmark_metadata": {
+    "timestamp": "2025-08-17T00:11:25Z",
+    "benchmarker": "SAVAGE_COMMAND_BENCHMARKER_PhD",
+    "methodology": "Scientific Measurement with Statistical Analysis",
+    "commands_tested": 5,
+    "sample_size_per_command": 5,
+    "test_environment": "github_actions",
+    "claude_model": "claude-sonnet-4-20250514"
+  },
+  "measurement_framework": {
+    "complexity_score": {
+      "description": "CLAUDE.md compliance scoring (0-5 scale)",
+      "factors": [
+        "Lines of code (size penalty)",
+        "Number of abstraction layers",
+        "MCP dependency count",
+        "XML thinking block density",
+        "Decision point complexity"
+      ],
+      "weights": {
+        "size": 0.2,
+        "abstractions": 0.3,
+        "dependencies": 0.2,
+        "thinking_density": 0.15,
+        "decision_complexity": 0.15
+      }
+    },
+    "performance_metrics": {
+      "token_consumption": "Input + Output tokens per execution",
+      "execution_time": "Milliseconds from input to completion",
+      "success_rate": "Percentage of successful completions",
+      "memory_usage": "Peak memory during execution",
+      "error_frequency": "Failures per 100 executions"
+    },
+    "quality_indicators": {
+      "coherence": "Logical flow and consistency",
+      "completeness": "Addresses all requirements",
+      "maintainability": "Code follows CLAUDE.md standards",
+      "reusability": "Can be composed with other commands"
+    }
+  },
+  "commands_under_test": [
+    "ultrathink-pure-xml.md",
+    "reasoning-wrapper.md", 
+    "analyze-project-architecture.md",
+    "adaptive-complexity-router.md",
+    "adhd-context-switch.md"
+  ]
+}
