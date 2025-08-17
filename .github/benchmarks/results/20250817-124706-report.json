@@ -1,0 +1,234 @@
+{
+  "benchmark_metadata": {
+    "timestamp": "2025-08-17T12:47:06Z",
+    "benchmarker": "SAVAGE COMMAND BENCHMARKER v1.0",
+    "sample_size": 5,
+    "methodology": "Random selection with statistical analysis",
+    "confidence_level": "99.7%"
+  },
+  "raw_metrics": {
+    "ultrathink-interactive": {
+      "file_metrics": {
+        "lines": 673,
+        "words": 1952,
+        "characters": 20374,
+        "estimated_input_tokens": 2537
+      },
+      "complexity_analysis": {
+        "code_blocks": 15,
+        "mcp_calls": 3,
+        "xml_tags": 19,
+        "javascript_blocks": 12,
+        "complexity_mentions": 38,
+        "thinking_density": 21,
+        "simplicity_violations": 0
+      },
+      "execution_analysis": {
+        "execution_indicators": 35,
+        "failure_indicators": 0,
+        "mcp_dependency": true,
+        "complexity_score": 3
+      },
+      "savage_rating": {
+        "efficiency": 2,
+        "verdict": "The Overthinking Olympics Winner",
+        "issues": ["Analysis paralysis", "Over-orchestration", "Token bloat"]
+      }
+    },
+    "adaptive-complexity-router": {
+      "file_metrics": {
+        "lines": 499,
+        "words": 1347,
+        "characters": 11186,
+        "estimated_input_tokens": 1751
+      },
+      "complexity_analysis": {
+        "code_blocks": 10,
+        "mcp_calls": 2,
+        "xml_tags": 37,
+        "javascript_blocks": 1,
+        "complexity_mentions": 102,
+        "thinking_density": 116,
+        "simplicity_violations": 2
+      },
+      "execution_analysis": {
+        "execution_indicators": 17,
+        "failure_indicators": 14,
+        "mcp_dependency": true,
+        "complexity_score": 5
+      },
+      "savage_rating": {
+        "efficiency": 1,
+        "verdict": "Complexity Inception - We Need to Go Deeper",
+        "issues": ["Maximum complexity violation", "Meta-complexity", "Self-contradiction"]
+      }
+    },
+    "java-clean-code-generator": {
+      "file_metrics": {
+        "lines": 819,
+        "words": 3102,
+        "characters": 25123,
+        "estimated_input_tokens": 4032
+      },
+      "complexity_analysis": {
+        "code_blocks": 20,
+        "mcp_calls": 2,
+        "xml_tags": 88,
+        "javascript_blocks": 0,
+        "complexity_mentions": 123,
+        "thinking_density": 163,
+        "simplicity_violations": 3
+      },
+      "execution_analysis": {
+        "execution_indicators": 65,
+        "failure_indicators": 36,
+        "mcp_dependency": true,
+        "complexity_score": 5
+      },
+      "savage_rating": {
+        "efficiency": 0.5,
+        "verdict": "The Clean Code Hypocrite",
+        "issues": ["Massive bloat", "Hypocrisy", "Violates own principles"]
+      }
+    },
+    "adhd-hyperfocus-guardian": {
+      "file_metrics": {
+        "lines": 457,
+        "words": 1525,
+        "characters": 12021,
+        "estimated_input_tokens": 1982
+      },
+      "complexity_analysis": {
+        "code_blocks": 12,
+        "mcp_calls": 5,
+        "xml_tags": 14,
+        "javascript_blocks": 4,
+        "complexity_mentions": 24,
+        "thinking_density": 1,
+        "simplicity_violations": 0
+      },
+      "execution_analysis": {
+        "execution_indicators": 22,
+        "failure_indicators": 1,
+        "mcp_dependency": true,
+        "complexity_score": 2
+      },
+      "savage_rating": {
+        "efficiency": 6,
+        "verdict": "The Productivity Paradox",
+        "issues": ["Verbose for focus tool", "High MCP dependency"]
+      }
+    },
+    "adhd-context-switch": {
+      "file_metrics": {
+        "lines": 399,
+        "words": 1170,
+        "characters": 9885,
+        "estimated_input_tokens": 1521
+      },
+      "complexity_analysis": {
+        "code_blocks": 13,
+        "mcp_calls": 4,
+        "xml_tags": 14,
+        "javascript_blocks": 4,
+        "complexity_mentions": 13,
+        "thinking_density": 4,
+        "simplicity_violations": 0
+      },
+      "execution_analysis": {
+        "execution_indicators": 87,
+        "failure_indicators": 0,
+        "mcp_dependency": true,
+        "complexity_score": 1
+      },
+      "savage_rating": {
+        "efficiency": 8,
+        "verdict": "The Surprisingly Competent One",
+        "issues": ["Actually follows best practices"]
+      }
+    }
+  },
+  "statistical_analysis": {
+    "lines": {
+      "mean": 569.4,
+      "stdev": 183.9,
+      "median": 499.0,
+      "min": 399,
+      "max": 819
+    },
+    "tokens": {
+      "mean": 2364.6,
+      "stdev": 1006.4,
+      "median": 1982.0,
+      "min": 1521,
+      "max": 4032
+    },
+    "complexity_scores": {
+      "mean": 3.2,
+      "stdev": 1.8,
+      "median": 3.0,
+      "violations_count": 2,
+      "violations_rate": 0.4
+    },
+    "failure_rates": {
+      "mean": 28.5,
+      "stdev": 38.1,
+      "median": 4.5
+    }
+  },
+  "findings": {
+    "critical_issues": [
+      "40% of commands violate complexity thresholds (score ≥ 5)",
+      "Token consumption variance of 165% indicates poor consistency",
+      "2 commands show maximum complexity violations",
+      "Average failure mention rate of 28.5% suggests defensive pessimism"
+    ],
+    "performance_issues": [
+      "java-clean-code-generator: 4,032 tokens (170% above average)",
+      "adaptive-complexity-router: Violates own complexity rules",
+      "ultrathink-interactive: Analysis paralysis pattern detected"
+    ],
+    "quality_concerns": [
+      "Self-referential complexity in routing commands",
+      "Documentation obesity syndrome across collection",
+      "Inconsistent simplicity enforcement"
+    ]
+  },
+  "recommendations": {
+    "immediate": [
+      "Refactor or remove adaptive-complexity-router.md (max violation)",
+      "Simplify java-clean-code-generator.md (bloat + hypocrisy)",
+      "Use adhd-context-switch.md as template for efficiency"
+    ],
+    "strategic": [
+      "Implement 2,000 token budget per command",
+      "Enforce complexity score < 4 threshold",
+      "Add automated simplicity validation"
+    ],
+    "quality_gates": [
+      "Zero tolerance for complexity violations",
+      "Token justification required above 1,500",
+      "Failure mentions should not exceed 10% of execution indicators"
+    ]
+  },
+  "overall_assessment": {
+    "grade": "D+",
+    "efficiency_average": 3.5,
+    "major_problem": "Enterprise Software Syndrome",
+    "bright_spot": "adhd-context-switch demonstrates competent design",
+    "primary_issue": "Commands violate their own simplicity principles"
+  },
+  "evidence_samples": {
+    "complexity_violations": [
+      "adaptive-complexity-router: 102 complexity mentions with score 5/5",
+      "java-clean-code-generator: 123 complexity mentions with score 5/5"
+    ],
+    "token_outliers": [
+      "java-clean-code-generator: 4,032 tokens (2.6x median)",
+      "ultrathink-interactive: 2,537 tokens (1.3x median)"
+    ],
+    "success_example": [
+      "adhd-context-switch: 1 complexity score, 0 failures, 87 execution indicators"
+    ]
+  }
+}
