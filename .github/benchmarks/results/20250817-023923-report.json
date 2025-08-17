@@ -1,0 +1,247 @@
+{
+  "metadata": {
+    "timestamp": "20250817-023923",
+    "benchmarker_version": "1.0.0-savage",
+    "total_commands_available": 23,
+    "analyzed_commands": 3
+  },
+  "aggregate_statistics": {
+    "overall_scores": {
+      "mean": 49.672222222222224,
+      "std_dev": 2.550072620607181,
+      "confidence_interval_95": [
+        46.78654339885935,
+        52.5579010455851
+      ],
+      "outliers": [],
+      "variance": 6.502870370370376,
+      "coefficient_variation": 5.13380015333064
+    },
+    "complexity_scores": {
+      "mean": 6.333333333333333,
+      "std_dev": 2.516611478423583,
+      "confidence_interval_95": [
+        3.4855193568867597,
+        9.181147309779906
+      ],
+      "outliers": [],
+      "variance": 6.333333333333333,
+      "coefficient_variation": 39.73597071195131
+    },
+    "total_commands_analyzed": 3,
+    "commands_exceeding_complexity": 2,
+    "average_line_count": 553,
+    "mcp_integration_rate": 1.0
+  },
+  "summary_commentary": "\ud83d\udc80 SYSTEMATIC FAILURE IDENTIFIED \ud83d\udc80\n\nAverage score of 49.7/100 suggests the commands were designed by committee\u2014a committee of caffeinated monkeys. 2/3 complexity violations indicate a fundamental misunderstanding of the CLAUDE.md principles.",
+  "individual_results": {
+    "ultrathink-full-mcp": {
+      "timestamp": "2025-08-17T02:39:23.910803+00:00",
+      "command_metrics": {
+        "command_name": "ultrathink-full-mcp",
+        "complexity_score": 4,
+        "line_count": 665,
+        "documentation_quality": 10.0,
+        "reusability_factor": 8.0,
+        "adhd_friendliness": 1.0,
+        "mcp_integration_count": 29,
+        "thinking_block_count": 3,
+        "error_handling_quality": 2.0
+      },
+      "performance_metrics": {
+        "execution_time_ms": [
+          71.19436169661063,
+          72.0980306911886,
+          63.27481696232293,
+          73.92573713000515,
+          66.54043387348203
+        ],
+        "memory_usage_mb": 6.65,
+        "token_consumption_estimate": 6650,
+        "success_rate": 0.7,
+        "failure_patterns": []
+      },
+      "statistical_analysis": {
+        "execution_time": {
+          "mean": 69.40667607072187,
+          "std_dev": 4.378246307202825,
+          "confidence_interval_95": [
+            65.56897397558583,
+            73.24437816585791
+          ],
+          "outliers": [],
+          "variance": 19.16904072653517,
+          "coefficient_variation": 6.308105437496553
+        },
+        "complexity_trend": {
+          "mean": 4,
+          "std_dev": 0,
+          "confidence_interval_95": [
+            4,
+            4
+          ],
+          "outliers": [],
+          "variance": 0,
+          "coefficient_variation": 0.0
+        }
+      },
+      "savage_judgment": {
+        "overall_score": 47.25,
+        "roast_level": "savage",
+        "commentary": "\ud83d\udc80 SAVAGE JUDGMENT: 47.2/100 \ud83d\udc80\n\nThis command is like a Swiss Army knife designed by someone who's never seen a knife. Complexity score of 4 suggests the author confused 'enterprise-grade' with 'enterprise-confused'. The 665 lines include more ceremony than a royal wedding. Documentation quality of 10.0/10 means future developers will need archaeological training to understand this.",
+        "improvement_recommendations": [
+          "\ud83d\udccf SIZE REDUCTION: 665 lines is excessive. Target: <300 lines. Break into smaller, focused commands.",
+          "\ud83e\udde0 ADHD OPTIMIZATION: Score 1.0/10. Add task chunking, energy level awareness, and pattern learning integration.",
+          "\ud83d\udee1\ufe0f ERROR HANDLING: Score 2.0/10. Add validation, fallback mechanisms, and graceful degradation."
+        ],
+        "comparable_commands": [],
+        "complexity_verdict": "\u26a0\ufe0f WARNING: At complexity threshold, monitor carefully"
+      },
+      "evidence_files": [
+        ".github/benchmarks/data/ultrathink-full-mcp_analysis.json"
+      ]
+    },
+    "intelligent-refactor-session": {
+      "timestamp": "2025-08-17T02:39:23.914862+00:00",
+      "command_metrics": {
+        "command_name": "intelligent-refactor-session",
+        "complexity_score": 6,
+        "line_count": 534,
+        "documentation_quality": 9.0,
+        "reusability_factor": 8.0,
+        "adhd_friendliness": 1.0,
+        "mcp_integration_count": 1,
+        "thinking_block_count": 0,
+        "error_handling_quality": 7.0
+      },
+      "performance_metrics": {
+        "execution_time_ms": [
+          58.01424836711979,
+          60.07194352776669,
+          57.07631635442971,
+          57.506359300957,
+          49.633243984085176
+        ],
+        "memory_usage_mb": 5.34,
+        "token_consumption_estimate": 5340,
+        "success_rate": 0.5,
+        "failure_patterns": [
+          "complexity_timeout",
+          "memory_overflow"
+        ]
+      },
+      "statistical_analysis": {
+        "execution_time": {
+          "mean": 56.46042230687167,
+          "std_dev": 3.9856346570847645,
+          "confidence_interval_95": [
+            52.9668594963972,
+            59.95398511734614
+          ],
+          "outliers": [],
+          "variance": 15.885283619755187,
+          "coefficient_variation": 7.0591655078706035
+        },
+        "complexity_trend": {
+          "mean": 6,
+          "std_dev": 0,
+          "confidence_interval_95": [
+            6,
+            6
+          ],
+          "outliers": [],
+          "variance": 0,
+          "coefficient_variation": 0.0
+        }
+      },
+      "savage_judgment": {
+        "overall_score": 49.43333333333334,
+        "roast_level": "savage",
+        "commentary": "\ud83d\udc80 SAVAGE JUDGMENT: 49.4/100 \ud83d\udc80\n\nThis command is like a Swiss Army knife designed by someone who's never seen a knife. Complexity score of 6 suggests the author confused 'enterprise-grade' with 'enterprise-confused'. The 534 lines include more ceremony than a royal wedding. Documentation quality of 9.0/10 means future developers will need archaeological training to understand this.",
+        "improvement_recommendations": [
+          "\ud83c\udfaf COMPLEXITY REDUCTION: Score is 6 (target: <5). Apply the 3-question rule: Can you use existing solutions? Can you solve with a simple method? Do you really need abstraction NOW?",
+          "\ud83d\udccf SIZE REDUCTION: 534 lines is excessive. Target: <300 lines. Break into smaller, focused commands.",
+          "\ud83e\udde0 ADHD OPTIMIZATION: Score 1.0/10. Add task chunking, energy level awareness, and pattern learning integration."
+        ],
+        "comparable_commands": [],
+        "complexity_verdict": "\ud83d\udea8 VIOLATION: Score 6 exceeds limit of 5. SIMPLIFY IMMEDIATELY!"
+      },
+      "evidence_files": [
+        ".github/benchmarks/data/intelligent-refactor-session_analysis.json"
+      ]
+    },
+    "java-test-driven-development": {
+      "timestamp": "2025-08-17T02:39:23.917728+00:00",
+      "command_metrics": {
+        "command_name": "java-test-driven-development",
+        "complexity_score": 9,
+        "line_count": 460,
+        "documentation_quality": 10.0,
+        "reusability_factor": 9.0,
+        "adhd_friendliness": 0.0,
+        "mcp_integration_count": 1,
+        "thinking_block_count": 0,
+        "error_handling_quality": 7.0
+      },
+      "performance_metrics": {
+        "execution_time_ms": [
+          47.03764108016322,
+          46.03765750182656,
+          37.6737856328859,
+          55.32073572493737,
+          46.84811292895724
+        ],
+        "memory_usage_mb": 4.6000000000000005,
+        "token_consumption_estimate": 4600,
+        "success_rate": 0.5,
+        "failure_patterns": [
+          "complexity_timeout",
+          "memory_overflow"
+        ]
+      },
+      "statistical_analysis": {
+        "execution_time": {
+          "mean": 46.58358657375406,
+          "std_dev": 6.250930057497075,
+          "confidence_interval_95": [
+            41.10440479753929,
+            52.062768349968835
+          ],
+          "outliers": [],
+          "variance": 39.074126583720385,
+          "coefficient_variation": 13.418739339875021
+        },
+        "complexity_trend": {
+          "mean": 9,
+          "std_dev": 0,
+          "confidence_interval_95": [
+            9,
+            9
+          ],
+          "outliers": [],
+          "variance": 0,
+          "coefficient_variation": 0.0
+        }
+      },
+      "savage_judgment": {
+        "overall_score": 52.333333333333336,
+        "roast_level": "medium",
+        "commentary": "\u26a0\ufe0f MEDIOCRE ALERT: 52.3/100 \u26a0\ufe0f\n\nThis command is the programming equivalent of lukewarm coffee\u2014not terrible enough to throw away, but not good enough to enjoy. Complexity score of 9 is acceptable, but the 460 lines suggest some optimization opportunities. Documentation quality at 10.0/10 is 'meh' tier.",
+        "improvement_recommendations": [
+          "\ud83c\udfaf COMPLEXITY REDUCTION: Score is 9 (target: <5). Apply the 3-question rule: Can you use existing solutions? Can you solve with a simple method? Do you really need abstraction NOW?",
+          "\ud83e\udde0 ADHD OPTIMIZATION: Score 0.0/10. Add task chunking, energy level awareness, and pattern learning integration."
+        ],
+        "comparable_commands": [],
+        "complexity_verdict": "\ud83d\udea8 VIOLATION: Score 9 exceeds limit of 5. SIMPLIFY IMMEDIATELY!"
+      },
+      "evidence_files": [
+        ".github/benchmarks/data/java-test-driven-development_analysis.json"
+      ]
+    }
+  },
+  "recommendations": [
+    "\ud83c\udfaf GLOBAL COMPLEXITY AUDIT: 2 commands exceed complexity limits. Implement mandatory complexity reviews.",
+    "\ud83d\udcda TRAINING INTERVENTION: Average score 49.7 indicates systematic knowledge gaps. Mandatory CLAUDE.md training required.",
+    "\ud83d\udccf SIZE STANDARDIZATION: Average 553 lines per command suggests overly complex implementations. Set size limits."
+  ]
+}

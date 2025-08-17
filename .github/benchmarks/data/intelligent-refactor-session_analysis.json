@@ -1,0 +1,15 @@
+{
+  "command_path": "commands/intelligent-refactor-session.md",
+  "metrics": {
+    "command_name": "intelligent-refactor-session",
+    "complexity_score": 6,
+    "line_count": 534,
+    "documentation_quality": 9.0,
+    "reusability_factor": 8.0,
+    "adhd_friendliness": 1.0,
+    "mcp_integration_count": 1,
+    "thinking_block_count": 0,
+    "error_handling_quality": 7.0
+  },
+  "content_sample": "# Intelligent Refactor Session - Persistent Code Refactoring\n\n<task>\nSession-based code refactoring with persistence, validation, and automatic rollback capabilities for: $ARGUMENTS\n</task>\n\n<context>\nThis command provides session-based refactoring with state persistence, incremental execution, continuous validation, and automatic rollback capabilities, ensuring safe and complete code transformations.\n\nArguments: `$ARGUMENTS` - files, directories, or refactoring scope\n</context>\n\n<thinking_orche..."
+}
