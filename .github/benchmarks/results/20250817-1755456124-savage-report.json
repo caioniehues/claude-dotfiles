@@ -1,0 +1,286 @@
+{
+  "session_info": {
+    "timestamp": "2025-08-17T18:42:04.164492",
+    "session_id": "20250817-1755456124",
+    "benchmarker_version": "1.0-SAVAGE",
+    "standards": "PhD-level statistical analysis with zero BS tolerance"
+  },
+  "commands_analyzed": [
+    "java-rapid-implementation.md",
+    "adhd-hyperfocus-guardian.md",
+    "java-clean-code-generator.md",
+    "adhd-morning-assistant.md",
+    "safe-code-beautifier.md"
+  ],
+  "metrics": {},
+  "statistical_analysis": {
+    "performance_statistics": {
+      "mean": 21.6,
+      "median": 0,
+      "stdev": 29.988331063932183,
+      "min": 0,
+      "max": 61.0
+    },
+    "complexity_statistics": {
+      "mean": 3.4,
+      "median": 3,
+      "stdev": 1.6733200530681511,
+      "threshold_violations": 1,
+      "violation_rate": 0.2
+    },
+    "risk_statistics": {
+      "mean": 0.46,
+      "median": 0.45,
+      "stdev": 0.26551836094703507,
+      "high_risk_count": 1
+    }
+  },
+  "savage_commentary": {},
+  "rankings": {
+    "best_performance": [
+      "adhd-morning-assistant.md",
+      "adhd-hyperfocus-guardian.md",
+      "java-rapid-implementation.md",
+      "java-clean-code-generator.md",
+      "safe-code-beautifier.md"
+    ],
+    "lowest_complexity": [
+      "adhd-hyperfocus-guardian.md",
+      "adhd-morning-assistant.md",
+      "safe-code-beautifier.md",
+      "java-rapid-implementation.md",
+      "java-clean-code-generator.md"
+    ],
+    "lowest_risk": [
+      "adhd-hyperfocus-guardian.md",
+      "adhd-morning-assistant.md",
+      "java-rapid-implementation.md",
+      "safe-code-beautifier.md",
+      "java-clean-code-generator.md"
+    ]
+  },
+  "recommendations": {},
+  "individual_analyses": [
+    {
+      "command_file": "java-rapid-implementation.md",
+      "raw_metrics": {
+        "file_size_bytes": 8736,
+        "total_lines": 250,
+        "non_empty_lines": 210,
+        "total_words": 1032,
+        "xml_blocks": 33,
+        "thinking_blocks": 15,
+        "complexity_indicators": 47,
+        "markdown_headers": 11,
+        "code_blocks": 0,
+        "nested_structures": 72,
+        "conditionals": 32,
+        "is_adhd_command": false,
+        "adhd_features": 0,
+        "is_java_command": true,
+        "java_features": 33,
+        "estimated_read_time_minutes": 5.16,
+        "cognitive_load_score": 15.1
+      },
+      "complexity": {
+        "score": 4,
+        "assessment": "OVER-ENGINEERED",
+        "threshold_violated": false
+      },
+      "risk": {
+        "score": 0.45,
+        "level": "MODERATE"
+      },
+      "token_analysis": {
+        "input_tokens": 2184.0,
+        "estimated_output_tokens": 5460.0,
+        "total_tokens": 7644.0,
+        "estimated_cost_usd": 0.11466,
+        "cost_efficiency_score": 0.13500784929356358
+      },
+      "performance_score": 0,
+      "savage_commentary": "\ud83d\udce6 33 XML blocks detected. This isn't markup, it's a cry for help.\n\ud83e\udde0 Cognitive load score: 15.1. Reading this command requires a PhD in Mind Reading.",
+      "recommendations": [
+        "\ud83e\udde0 High cognitive load. Simplify nested structures and reduce conditional complexity.",
+        "\u26a0\ufe0f High execution risk. Add more validation checkpoints and error handling.",
+        "\ud83d\udce6 Excessive XML structure. Consider using templates or simpler formatting."
+      ]
+    },
+    {
+      "command_file": "adhd-hyperfocus-guardian.md",
+      "raw_metrics": {
+        "file_size_bytes": 12111,
+        "total_lines": 457,
+        "non_empty_lines": 367,
+        "total_words": 1525,
+        "xml_blocks": 14,
+        "thinking_blocks": 0,
+        "complexity_indicators": 24,
+        "markdown_headers": 61,
+        "code_blocks": 12,
+        "nested_structures": 42,
+        "conditionals": 15,
+        "is_adhd_command": true,
+        "adhd_features": 134,
+        "is_java_command": false,
+        "java_features": 0,
+        "estimated_read_time_minutes": 7.625,
+        "cognitive_load_score": 8.1
+      },
+      "complexity": {
+        "score": 2,
+        "assessment": "WELL-DESIGNED",
+        "threshold_violated": false
+      },
+      "risk": {
+        "score": 0.25,
+        "level": "LOW"
+      },
+      "token_analysis": {
+        "input_tokens": 3027.75,
+        "estimated_output_tokens": 5449.95,
+        "total_tokens": 8477.7,
+        "estimated_cost_usd": 0.12716550000000001,
+        "cost_efficiency_score": 0.1798836948700709
+      },
+      "performance_score": 47.0,
+      "savage_commentary": "\ud83c\udfaf Complexity score: 2/5. Refreshingly simple. Your future self will actually thank you.\n\ud83e\udde0 Cognitive load score: 8.1. Reading this command requires a PhD in Mind Reading.\n\ud83e\udde9 Actually understands ADHD patterns. Miracles do happen.",
+      "recommendations": [
+        "\ud83e\udde0 High cognitive load. Simplify nested structures and reduce conditional complexity."
+      ]
+    },
+    {
+      "command_file": "java-clean-code-generator.md",
+      "raw_metrics": {
+        "file_size_bytes": 25195,
+        "total_lines": 819,
+        "non_empty_lines": 686,
+        "total_words": 3102,
+        "xml_blocks": 88,
+        "thinking_blocks": 39,
+        "complexity_indicators": 106,
+        "markdown_headers": 58,
+        "code_blocks": 20,
+        "nested_structures": 212,
+        "conditionals": 72,
+        "is_adhd_command": false,
+        "adhd_features": 0,
+        "is_java_command": true,
+        "java_features": 106,
+        "estimated_read_time_minutes": 15.51,
+        "cognitive_load_score": 39.0
+      },
+      "complexity": {
+        "score": 6,
+        "assessment": "BLOATED MESS",
+        "threshold_violated": true
+      },
+      "risk": {
+        "score": 0.9,
+        "level": "EXTREMELY HIGH"
+      },
+      "token_analysis": {
+        "input_tokens": 6298.75,
+        "estimated_output_tokens": 15746.875,
+        "total_tokens": 22045.625,
+        "estimated_cost_usd": 0.33068437500000003,
+        "cost_efficiency_score": 0.14070819040058968
+      },
+      "performance_score": 0,
+      "savage_commentary": "\ud83d\udccf This command has 819 lines. War and Peace was shorter and more useful.\n\ud83c\udfaf Complexity score: 6/5. You've created a masterpiece of over-engineering. Even Rube Goldberg would be impressed.\n\ud83d\udce6 88 XML blocks detected. This isn't markup, it's a cry for help.\n\ud83e\udde0 Cognitive load score: 39.0. Reading this command requires a PhD in Mind Reading.\n\u2615 This command mentions Java more than Oracle's marketing team.\n\u26a0\ufe0f Execution risk: 0.9. Higher failure rate than a startup's first product launch.",
+      "recommendations": [
+        "\ud83d\udea8 CRITICAL: Complexity score exceeds threshold. Break this command into smaller, focused commands.",
+        "\ud83d\udccf Command is too long. Split into multiple files or reduce redundant content.",
+        "\ud83e\udde0 High cognitive load. Simplify nested structures and reduce conditional complexity.",
+        "\u26a0\ufe0f High execution risk. Add more validation checkpoints and error handling.",
+        "\ud83d\udce6 Excessive XML structure. Consider using templates or simpler formatting."
+      ]
+    },
+    {
+      "command_file": "adhd-morning-assistant.md",
+      "raw_metrics": {
+        "file_size_bytes": 8982,
+        "total_lines": 309,
+        "non_empty_lines": 247,
+        "total_words": 1157,
+        "xml_blocks": 12,
+        "thinking_blocks": 0,
+        "complexity_indicators": 35,
+        "markdown_headers": 47,
+        "code_blocks": 6,
+        "nested_structures": 1,
+        "conditionals": 17,
+        "is_adhd_command": true,
+        "adhd_features": 109,
+        "is_java_command": false,
+        "java_features": 0,
+        "estimated_read_time_minutes": 5.785,
+        "cognitive_load_score": 5.3
+      },
+      "complexity": {
+        "score": 2,
+        "assessment": "WELL-DESIGNED",
+        "threshold_violated": false
+      },
+      "risk": {
+        "score": 0.25,
+        "level": "LOW"
+      },
+      "token_analysis": {
+        "input_tokens": 2245.5,
+        "estimated_output_tokens": 4041.9,
+        "total_tokens": 6287.4,
+        "estimated_cost_usd": 0.09431099999999999,
+        "cost_efficiency_score": 0.1840188313134205
+      },
+      "performance_score": 61.0,
+      "savage_commentary": "\ud83c\udfaf Complexity score: 2/5. Refreshingly simple. Your future self will actually thank you.\n\ud83e\udde9 Actually understands ADHD patterns. Miracles do happen.",
+      "recommendations": []
+    },
+    {
+      "command_file": "safe-code-beautifier.md",
+      "raw_metrics": {
+        "file_size_bytes": 14605,
+        "total_lines": 427,
+        "non_empty_lines": 368,
+        "total_words": 1670,
+        "xml_blocks": 66,
+        "thinking_blocks": 34,
+        "complexity_indicators": 49,
+        "markdown_headers": 26,
+        "code_blocks": 4,
+        "nested_structures": 12,
+        "conditionals": 64,
+        "is_adhd_command": false,
+        "adhd_features": 0,
+        "is_java_command": false,
+        "java_features": 0,
+        "estimated_read_time_minutes": 8.35,
+        "cognitive_load_score": 12.5
+      },
+      "complexity": {
+        "score": 3,
+        "assessment": "ACCEPTABLE",
+        "threshold_violated": false
+      },
+      "risk": {
+        "score": 0.45,
+        "level": "MODERATE"
+      },
+      "token_analysis": {
+        "input_tokens": 3651.25,
+        "estimated_output_tokens": 5476.875,
+        "total_tokens": 9128.125,
+        "estimated_cost_usd": 0.136921875,
+        "cost_efficiency_score": 0.1829510441629579
+      },
+      "performance_score": 0,
+      "savage_commentary": "\ud83d\udce6 66 XML blocks detected. This isn't markup, it's a cry for help.\n\ud83e\udde0 Cognitive load score: 12.5. Reading this command requires a PhD in Mind Reading.",
+      "recommendations": [
+        "\ud83e\udde0 High cognitive load. Simplify nested structures and reduce conditional complexity.",
+        "\u26a0\ufe0f High execution risk. Add more validation checkpoints and error handling.",
+        "\ud83d\udce6 Excessive XML structure. Consider using templates or simpler formatting."
+      ]
+    }
+  ]
+}
