@@ -1,0 +1,93 @@
+{
+  "benchmark_id": "20250817-053703",
+  "test_scenarios": {
+    "java-clean-code-generator": {
+      "test_cases": [
+        {
+          "name": "simple_service",
+          "description": "Create a simple UserService with Spring Boot",
+          "input": "Create a UserService that manages user registration and login",
+          "expected_complexity": 2,
+          "expected_patterns": ["Spring Service", "Repository pattern"],
+          "expected_lines": "< 100"
+        },
+        {
+          "name": "complex_payment_system", 
+          "description": "Create a complex payment processing system",
+          "input": "Create a payment processing system with multiple gateways, fraud detection, and reporting",
+          "expected_complexity": 8,
+          "expected_patterns": ["Strategy pattern", "Factory pattern", "Observer pattern"],
+          "expected_lines": "> 200"
+        },
+        {
+          "name": "basic_dto",
+          "description": "Create a simple Order DTO",
+          "input": "Create an OrderDTO record with validation",
+          "expected_complexity": 1,
+          "expected_patterns": ["Record", "Bean Validation"],
+          "expected_lines": "< 20"
+        }
+      ]
+    },
+    "adhd-task-breakdown": {
+      "test_cases": [
+        {
+          "name": "coding_task",
+          "description": "Break down a coding task",
+          "input": "Implement user authentication with JWT",
+          "expected_chunks": 4,
+          "expected_time_multiplier": 1.5,
+          "expected_starter": "5-minute action"
+        },
+        {
+          "name": "complex_feature",
+          "description": "Break down a complex feature",
+          "input": "Build a complete e-commerce checkout flow with payment integration",
+          "expected_chunks": 8,
+          "expected_time_multiplier": 2.0,
+          "expected_starter": "5-minute action"
+        },
+        {
+          "name": "simple_bug_fix",
+          "description": "Break down a simple bug fix",
+          "input": "Fix the login button not working on mobile",
+          "expected_chunks": 2,
+          "expected_time_multiplier": 1.2,
+          "expected_starter": "5-minute action"
+        }
+      ]
+    },
+    "adhd-morning-assistant": {
+      "test_cases": [
+        {
+          "name": "typical_morning",
+          "description": "Generate morning plan with no parameters",
+          "input": "",
+          "expected_sections": ["Energy Forecast", "Priority Stack", "Blocker Alerts"],
+          "expected_memory_calls": 3,
+          "expected_capacity_adjustment": true
+        }
+      ]
+    },
+    "senior-developer-analysis": {
+      "test_cases": [
+        {
+          "name": "analyze_java_service",
+          "description": "Analyze a Java service class",
+          "input": "src/main/java/com/example/UserService.java",
+          "expected_sections": ["Business Context", "Technical Implementation", "Senior Insights"],
+          "expected_thinking_blocks": 5,
+          "expected_file_reads": 2
+        },
+        {
+          "name": "analyze_complex_pattern",
+          "description": "Analyze a complex design pattern",
+          "input": "Explain the observer pattern implementation in this codebase",
+          "expected_sections": ["Architectural Context", "Pattern Analysis", "Evolution Perspective"],
+          "expected_thinking_blocks": 8,
+          "expected_file_reads": 5
+        }
+      ]
+    }
+  }
+}
