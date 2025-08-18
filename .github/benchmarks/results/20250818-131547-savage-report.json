@@ -1,0 +1,108 @@
+{
+  "timestamp": "20250818-131547",
+  "metadata": {
+    "benchmarker_version": "1.0-SAVAGE",
+    "total_commands_analyzed": 3,
+    "analysis_duration": 0.000640869140625,
+    "savage_mode": "ENABLED"
+  },
+  "statistical_analysis": {
+    "sample_size": 3,
+    "complexity_stats": {
+      "mean": 23.900000000000002,
+      "median": 19.6,
+      "std_dev": 16.573774464496616,
+      "min": 9.9,
+      "max": 42.2,
+      "danger_zone_count": 3
+    },
+    "token_stats": {
+      "mean": 3019,
+      "median": 3118,
+      "bloat_candidates": 3
+    },
+    "readability_stats": {
+      "mean": 10,
+      "unreadable_count": 0
+    },
+    "overall_health": "CRITICAL"
+  },
+  "command_rankings": {
+    "complexity_offenders": [
+      {
+        "name": "safe-code-beautifier",
+        "score": 42.2,
+        "savage_verdict": "Complexity 42.2/10 - Complexity score of 42.2 suggests this command has commitment issues - it can't decide what it wants to be when it grows up. At 3636 estimated tokens, this command is more bloated than a startup's Series A pitch deck."
+      },
+      {
+        "name": "git-backup-sync",
+        "score": 19.6,
+        "savage_verdict": "Complexity 19.6/10 - Complexity score of 19.6 suggests this command has commitment issues - it can't decide what it wants to be when it grows up. At 3118 estimated tokens, this command is more bloated than a startup's Series A pitch deck."
+      },
+      {
+        "name": "analyze-project-architecture",
+        "score": 9.9,
+        "savage_verdict": "Complexity 9.9/10 - Complexity score of 9.9 suggests this command has commitment issues - it can't decide what it wants to be when it grows up."
+      }
+    ],
+    "token_bloat_champions": [
+      {
+        "name": "safe-code-beautifier",
+        "tokens": 3636,
+        "efficiency_ratio": 363.6
+      },
+      {
+        "name": "git-backup-sync",
+        "tokens": 3118,
+        "efficiency_ratio": 311.8
+      },
+      {
+        "name": "analyze-project-architecture",
+        "tokens": 2303,
+        "efficiency_ratio": 230.3
+      }
+    ]
+  },
+  "detailed_metrics": [
+    {
+      "name": "analyze-project-architecture",
+      "file_path": "/home/runner/work/claude-dotfiles/claude-dotfiles/commands/analyze-project-architecture.md",
+      "metrics": {
+        "complexity_score": 9.9,
+        "token_count": 2303,
+        "line_count": 274,
+        "readability_score": 10,
+        "composition_compatibility": 6
+      },
+      "savage_judgment": "Complexity score of 9.9 suggests this command has commitment issues - it can't decide what it wants to be when it grows up.",
+      "recommendation": "URGENT: Refactor immediately. Complexity 9.9 exceeds human comprehension limits."
+    },
+    {
+      "name": "git-backup-sync",
+      "file_path": "/home/runner/work/claude-dotfiles/claude-dotfiles/commands/git-backup-sync.md",
+      "metrics": {
+        "complexity_score": 19.6,
+        "token_count": 3118,
+        "line_count": 531,
+        "readability_score": 10,
+        "composition_compatibility": 6
+      },
+      "savage_judgment": "Complexity score of 19.6 suggests this command has commitment issues - it can't decide what it wants to be when it grows up. At 3118 estimated tokens, this command is more bloated than a startup's Series A pitch deck.",
+      "recommendation": "URGENT: Refactor immediately. Complexity 19.6 exceeds human comprehension limits."
+    },
+    {
+      "name": "safe-code-beautifier",
+      "file_path": "/home/runner/work/claude-dotfiles/claude-dotfiles/commands/safe-code-beautifier.md",
+      "metrics": {
+        "complexity_score": 42.2,
+        "token_count": 3636,
+        "line_count": 427,
+        "readability_score": 10,
+        "composition_compatibility": 6
+      },
+      "savage_judgment": "Complexity score of 42.2 suggests this command has commitment issues - it can't decide what it wants to be when it grows up. At 3636 estimated tokens, this command is more bloated than a startup's Series A pitch deck.",
+      "recommendation": "URGENT: Refactor immediately. Complexity 42.2 exceeds human comprehension limits."
+    }
+  ],
+  "savage_summary": "SCIENTIFIC SAVAGE SUMMARY:\n\nOut of 3 commands analyzed:\n- 3 commands (100.0%) exceed complexity safety limits\n- 3 commands (100.0%) suffer from token obesity\n- 0 commands (0.0%) require translation services\n\nVERDICT: This command collection has more issues than a therapy group. Immediate intervention required before someone gets hurt.\n\nAverage complexity: 23.90 (\u03c3=16.57)\nThat's not 'intelligent automation', that's statistical chaos with delusions of grandeur."
+}
