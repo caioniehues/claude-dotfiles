@@ -1,0 +1,103 @@
+{
+  "timestamp": "20250818-084307",
+  "analysis_type": "complexity",
+  "results": [
+    {
+      "filepath": "commands/ultrathink-full-mcp.md",
+      "lines": 665,
+      "characters": 18058,
+      "words": 2027,
+      "mcp_calls": 29,
+      "xml_blocks": 116,
+      "code_blocks": 42,
+      "thinking_tags": 3,
+      "bash_commands": 14,
+      "complexity_score": 12,
+      "complexity_factors": [
+        "Ultra-long file (>500 lines)",
+        "Heavy MCP dependency (>15 calls)",
+        "Heavy XML structure (>100 tags)",
+        "Sequential thinking pattern (high complexity)",
+        "Many code examples (>15 blocks)"
+      ],
+      "violates_claude_rule": true,
+      "overengineering_indicators": 5
+    },
+    {
+      "filepath": "commands/analyze-project-architecture.md",
+      "lines": 274,
+      "characters": 9214,
+      "words": 1198,
+      "mcp_calls": 1,
+      "xml_blocks": 70,
+      "code_blocks": 2,
+      "thinking_tags": 0,
+      "bash_commands": 0,
+      "complexity_score": 6,
+      "complexity_factors": [
+        "Long file (>200 lines)",
+        "Moderate XML structure (>50 tags)",
+        "Sequential thinking pattern (high complexity)"
+      ],
+      "violates_claude_rule": true,
+      "overengineering_indicators": 3
+    },
+    {
+      "filepath": "commands/adhd-hyperfocus-guardian.md",
+      "lines": 457,
+      "characters": 12021,
+      "words": 1525,
+      "mcp_calls": 5,
+      "xml_blocks": 58,
+      "code_blocks": 24,
+      "thinking_tags": 0,
+      "bash_commands": 1,
+      "complexity_score": 4,
+      "complexity_factors": [
+        "Long file (>200 lines)",
+        "Moderate XML structure (>50 tags)",
+        "Many code examples (>15 blocks)"
+      ],
+      "violates_claude_rule": false,
+      "overengineering_indicators": 1
+    },
+    {
+      "filepath": "commands/adhd-task-breakdown.md",
+      "lines": 365,
+      "characters": 10447,
+      "words": 1264,
+      "mcp_calls": 3,
+      "xml_blocks": 53,
+      "code_blocks": 10,
+      "thinking_tags": 0,
+      "bash_commands": 0,
+      "complexity_score": 3,
+      "complexity_factors": [
+        "Long file (>200 lines)",
+        "Moderate XML structure (>50 tags)"
+      ],
+      "violates_claude_rule": false,
+      "overengineering_indicators": 0
+    },
+    {
+      "filepath": "commands/ultrathink.md",
+      "lines": 357,
+      "characters": 9758,
+      "words": 1215,
+      "mcp_calls": 6,
+      "xml_blocks": 59,
+      "code_blocks": 12,
+      "thinking_tags": 0,
+      "bash_commands": 6,
+      "complexity_score": 7,
+      "complexity_factors": [
+        "Long file (>200 lines)",
+        "Light MCP dependency (>5 calls)",
+        "Moderate XML structure (>50 tags)",
+        "Sequential thinking pattern (high complexity)"
+      ],
+      "violates_claude_rule": true,
+      "overengineering_indicators": 2
+    }
+  ]
+}

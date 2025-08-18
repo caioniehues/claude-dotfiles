@@ -1,0 +1,222 @@
+{
+  "timestamp": "20250818-084358",
+  "analysis_type": "comprehensive_benchmark",
+  "statistical_summary": {
+    "complexity_stats": {
+      "mean": 6.4,
+      "stdev": 3.507135583350036,
+      "median": 6,
+      "min": 3,
+      "max": 12
+    },
+    "token_stats": {
+      "mean": 3189.4,
+      "stdev": 1078.6191635605219,
+      "median": 2730,
+      "min": 2343,
+      "max": 5021
+    },
+    "execution_time_stats": {
+      "mean": 24.88,
+      "stdev": 21.949760818742423,
+      "median": 18.0,
+      "min": 8.0,
+      "max": 62.4
+    },
+    "failure_rate_stats": {
+      "mean": 44.0,
+      "stdev": 22.627416997969522,
+      "median": 40.0,
+      "min": 20.0,
+      "max": 80.0
+    },
+    "roi_stats": {
+      "mean": 1.7,
+      "stdev": 2.4899799195977463,
+      "median": 0,
+      "min": 0,
+      "max": 5.5
+    },
+    "claude_rule_violations": 3,
+    "violation_rate": 60.0
+  },
+  "detailed_results": [
+    {
+      "name": "ultrathink-full-mcp.md",
+      "complexity_score": 12,
+      "lines": 665,
+      "token_estimate": 5021,
+      "estimated_exec_time": 62.4,
+      "failure_probability": 80.0,
+      "roi_score": 0,
+      "mcp_calls": 29,
+      "overengineering_indicators": 5,
+      "violates_claude_rule": true,
+      "savage_insights": [
+        "\ud83d\udd25 NUCLEAR COMPLEXITY ALERT: ultrathink-full-mcp.md scores 12/10. This isn't 'sophisticated', it's academic masturbation.",
+        "\ud83d\udccf SIZE DISASTER: 665 lines. War & Peace was shorter and more useful.",
+        "\ud83d\udd0c DEPENDENCY HELL: 29 MCP calls. This isn't integration, it's desperation."
+      ],
+      "raw_analysis": {
+        "filepath": "commands/ultrathink-full-mcp.md",
+        "lines": 665,
+        "characters": 18058,
+        "words": 2027,
+        "mcp_calls": 29,
+        "xml_blocks": 116,
+        "code_blocks": 42,
+        "thinking_tags": 3,
+        "bash_commands": 14,
+        "complexity_score": 12,
+        "complexity_factors": [
+          "Ultra-long file (>500 lines)",
+          "Heavy MCP dependency (>15 calls)",
+          "Heavy XML structure (>100 tags)",
+          "Sequential thinking pattern (high complexity)",
+          "Many code examples (>15 blocks)"
+        ],
+        "violates_claude_rule": true,
+        "overengineering_indicators": 5
+      }
+    },
+    {
+      "name": "ultrathink.md",
+      "complexity_score": 7,
+      "lines": 357,
+      "token_estimate": 2585,
+      "estimated_exec_time": 24.8,
+      "failure_probability": 48.0,
+      "roi_score": 0,
+      "mcp_calls": 6,
+      "overengineering_indicators": 2,
+      "violates_claude_rule": true,
+      "savage_insights": [
+        "\ud83d\udea8 HIGH COMPLEXITY WARNING: ultrathink.md at 7/10. Someone confused 'thorough' with 'bloated'.",
+        "\ud83d\udccf SIZE WARNING: 357 lines. TL;DR: Nobody will read this monster."
+      ],
+      "raw_analysis": {
+        "filepath": "commands/ultrathink.md",
+        "lines": 357,
+        "characters": 9758,
+        "words": 1215,
+        "mcp_calls": 6,
+        "xml_blocks": 59,
+        "code_blocks": 12,
+        "thinking_tags": 0,
+        "bash_commands": 6,
+        "complexity_score": 7,
+        "complexity_factors": [
+          "Long file (>200 lines)",
+          "Light MCP dependency (>5 calls)",
+          "Moderate XML structure (>50 tags)",
+          "Sequential thinking pattern (high complexity)"
+        ],
+        "violates_claude_rule": true,
+        "overengineering_indicators": 2
+      }
+    },
+    {
+      "name": "analyze-project-architecture.md",
+      "complexity_score": 6,
+      "lines": 274,
+      "token_estimate": 2343,
+      "estimated_exec_time": 18.0,
+      "failure_probability": 40.0,
+      "roi_score": 0,
+      "mcp_calls": 1,
+      "overengineering_indicators": 3,
+      "violates_claude_rule": true,
+      "savage_insights": [
+        "\u26a0\ufe0f COMPLEXITY VIOLATION: analyze-project-architecture.md breaks the sacred CLAUDE.md rule. Simple > Smart, remember?"
+      ],
+      "raw_analysis": {
+        "filepath": "commands/analyze-project-architecture.md",
+        "lines": 274,
+        "characters": 9214,
+        "words": 1198,
+        "mcp_calls": 1,
+        "xml_blocks": 70,
+        "code_blocks": 2,
+        "thinking_tags": 0,
+        "bash_commands": 0,
+        "complexity_score": 6,
+        "complexity_factors": [
+          "Long file (>200 lines)",
+          "Moderate XML structure (>50 tags)",
+          "Sequential thinking pattern (high complexity)"
+        ],
+        "violates_claude_rule": true,
+        "overengineering_indicators": 3
+      }
+    },
+    {
+      "name": "adhd-hyperfocus-guardian.md",
+      "complexity_score": 4,
+      "lines": 457,
+      "token_estimate": 3268,
+      "estimated_exec_time": 11.2,
+      "failure_probability": 32.0,
+      "roi_score": 3.0,
+      "mcp_calls": 5,
+      "overengineering_indicators": 1,
+      "violates_claude_rule": false,
+      "savage_insights": [
+        "\u2705 REASONABLE COMPLEXITY: adhd-hyperfocus-guardian.md actually follows CLAUDE.md. Shocking!",
+        "\ud83d\udccf SIZE WARNING: 457 lines. TL;DR: Nobody will read this monster."
+      ],
+      "raw_analysis": {
+        "filepath": "commands/adhd-hyperfocus-guardian.md",
+        "lines": 457,
+        "characters": 12021,
+        "words": 1525,
+        "mcp_calls": 5,
+        "xml_blocks": 58,
+        "code_blocks": 24,
+        "thinking_tags": 0,
+        "bash_commands": 1,
+        "complexity_score": 4,
+        "complexity_factors": [
+          "Long file (>200 lines)",
+          "Moderate XML structure (>50 tags)",
+          "Many code examples (>15 blocks)"
+        ],
+        "violates_claude_rule": false,
+        "overengineering_indicators": 1
+      }
+    },
+    {
+      "name": "adhd-task-breakdown.md",
+      "complexity_score": 3,
+      "lines": 365,
+      "token_estimate": 2730,
+      "estimated_exec_time": 8.0,
+      "failure_probability": 20.0,
+      "roi_score": 5.5,
+      "mcp_calls": 3,
+      "overengineering_indicators": 0,
+      "violates_claude_rule": false,
+      "savage_insights": [
+        "\u2705 REASONABLE COMPLEXITY: adhd-task-breakdown.md actually follows CLAUDE.md. Shocking!",
+        "\ud83d\udccf SIZE WARNING: 365 lines. TL;DR: Nobody will read this monster."
+      ],
+      "raw_analysis": {
+        "filepath": "commands/adhd-task-breakdown.md",
+        "lines": 365,
+        "characters": 10447,
+        "words": 1264,
+        "mcp_calls": 3,
+        "xml_blocks": 53,
+        "code_blocks": 10,
+        "thinking_tags": 0,
+        "bash_commands": 0,
+        "complexity_score": 3,
+        "complexity_factors": [
+          "Long file (>200 lines)",
+          "Moderate XML structure (>50 tags)"
+        ],
+        "violates_claude_rule": false,
+        "overengineering_indicators": 0
+      }
+    }
+  ]
+}
