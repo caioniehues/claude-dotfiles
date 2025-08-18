@@ -1,0 +1,224 @@
+{
+  "timestamp": "2025-08-18T15:39:09.475322",
+  "benchmark_config": {
+    "command_count": 5,
+    "claude_md_complexity_limit": 5.0,
+    "statistical_confidence": 0.95
+  },
+  "commands": [
+    {
+      "name": "ultrathink.md",
+      "path": "commands/ultrathink.md",
+      "metrics": {
+        "file_path": "/home/runner/work/claude-dotfiles/claude-dotfiles/commands/ultrathink.md",
+        "line_count": 357,
+        "word_count": 1215,
+        "xml_tag_count": 28,
+        "thinking_block_count": 0,
+        "complexity_score": 10.74,
+        "token_estimate": 1579.5,
+        "content_hash": "70afcd86"
+      },
+      "statistical_analysis": {
+        "complexity": {
+          "mean": 10.74,
+          "std_dev": 0,
+          "confidence_interval_95": [
+            10.74,
+            10.74
+          ],
+          "sample_size": 1,
+          "outliers": []
+        },
+        "lines": {
+          "mean": 357,
+          "std_dev": 0,
+          "confidence_interval_95": [
+            357,
+            357
+          ],
+          "sample_size": 1,
+          "outliers": []
+        }
+      },
+      "savage_verdict": "Complexity score 10.74/5.0 violates CLAUDE.md by 2.1x. Even a junior dev would reject this. 357 lines suggests someone confused 'comprehensive' with 'bloated'.",
+      "claude_md_compliant": false
+    },
+    {
+      "name": "senior-developer-analysis.md",
+      "path": "commands/senior-developer-analysis.md",
+      "metrics": {
+        "file_path": "/home/runner/work/claude-dotfiles/claude-dotfiles/commands/senior-developer-analysis.md",
+        "line_count": 390,
+        "word_count": 1571,
+        "xml_tag_count": 114,
+        "thinking_block_count": 0,
+        "complexity_score": 29.7,
+        "token_estimate": 2042.3000000000002,
+        "content_hash": "a8203ad4"
+      },
+      "statistical_analysis": {
+        "complexity": {
+          "mean": 29.7,
+          "std_dev": 0,
+          "confidence_interval_95": [
+            29.7,
+            29.7
+          ],
+          "sample_size": 1,
+          "outliers": []
+        },
+        "lines": {
+          "mean": 390,
+          "std_dev": 0,
+          "confidence_interval_95": [
+            390,
+            390
+          ],
+          "sample_size": 1,
+          "outliers": []
+        }
+      },
+      "savage_verdict": "Complexity score of 29.7/5.0 is 5.9x over target. This isn't 'smart', it's architectural malpractice. 390 lines suggests someone confused 'comprehensive' with 'bloated'. XML tag density of 0.29 per line. This is markup hell.",
+      "claude_md_compliant": false
+    },
+    {
+      "name": "adhd-hyperfocus-guardian.md",
+      "path": "commands/adhd-hyperfocus-guardian.md",
+      "metrics": {
+        "file_path": "/home/runner/work/claude-dotfiles/claude-dotfiles/commands/adhd-hyperfocus-guardian.md",
+        "line_count": 457,
+        "word_count": 1525,
+        "xml_tag_count": 26,
+        "thinking_block_count": 0,
+        "complexity_score": 13.74,
+        "token_estimate": 1982.5,
+        "content_hash": "11aa174d"
+      },
+      "statistical_analysis": {
+        "complexity": {
+          "mean": 13.74,
+          "std_dev": 0,
+          "confidence_interval_95": [
+            13.74,
+            13.74
+          ],
+          "sample_size": 1,
+          "outliers": []
+        },
+        "lines": {
+          "mean": 457,
+          "std_dev": 0,
+          "confidence_interval_95": [
+            457,
+            457
+          ],
+          "sample_size": 1,
+          "outliers": []
+        }
+      },
+      "savage_verdict": "Complexity score 13.74/5.0 violates CLAUDE.md by 2.7x. Even a junior dev would reject this. 457 lines suggests someone confused 'comprehensive' with 'bloated'.",
+      "claude_md_compliant": false
+    },
+    {
+      "name": "java-rapid-implementation.md",
+      "path": "commands/java-rapid-implementation.md",
+      "metrics": {
+        "file_path": "/home/runner/work/claude-dotfiles/claude-dotfiles/commands/java-rapid-implementation.md",
+        "line_count": 250,
+        "word_count": 1032,
+        "xml_tag_count": 59,
+        "thinking_block_count": 0,
+        "complexity_score": 28.6,
+        "token_estimate": 1341.6000000000001,
+        "content_hash": "b8be7a3f"
+      },
+      "statistical_analysis": {
+        "complexity": {
+          "mean": 28.6,
+          "std_dev": 0,
+          "confidence_interval_95": [
+            28.6,
+            28.6
+          ],
+          "sample_size": 1,
+          "outliers": []
+        },
+        "lines": {
+          "mean": 250,
+          "std_dev": 0,
+          "confidence_interval_95": [
+            250,
+            250
+          ],
+          "sample_size": 1,
+          "outliers": []
+        }
+      },
+      "savage_verdict": "Complexity score of 28.6/5.0 is 5.7x over target. This isn't 'smart', it's architectural malpractice. 250 lines suggests someone confused 'comprehensive' with 'bloated'. XML tag density of 0.24 per line. This is markup hell.",
+      "claude_md_compliant": false
+    },
+    {
+      "name": "context-enhanced-executor.md",
+      "path": "commands/context-enhanced-executor.md",
+      "metrics": {
+        "file_path": "/home/runner/work/claude-dotfiles/claude-dotfiles/commands/context-enhanced-executor.md",
+        "line_count": 132,
+        "word_count": 424,
+        "xml_tag_count": 16,
+        "thinking_block_count": 0,
+        "complexity_score": 7.84,
+        "token_estimate": 551.2,
+        "content_hash": "45e62bbc"
+      },
+      "statistical_analysis": {
+        "complexity": {
+          "mean": 7.84,
+          "std_dev": 0,
+          "confidence_interval_95": [
+            7.84,
+            7.84
+          ],
+          "sample_size": 1,
+          "outliers": []
+        },
+        "lines": {
+          "mean": 132,
+          "std_dev": 0,
+          "confidence_interval_95": [
+            132,
+            132
+          ],
+          "sample_size": 1,
+          "outliers": []
+        }
+      },
+      "savage_verdict": "Complexity score 7.84/5.0 exceeds limits. Close, but no cigar.",
+      "claude_md_compliant": false
+    }
+  ],
+  "aggregate_stats": {
+    "complexity": {
+      "mean": 18.124,
+      "std_dev": 10.28656794076625,
+      "confidence_interval_95": [
+        9.10742565307644,
+        27.140574346923557
+      ],
+      "sample_size": 5,
+      "outliers": []
+    },
+    "lines": {
+      "mean": 317.2,
+      "std_dev": 127.71335090741296,
+      "confidence_interval_95": [
+        205.25431216880213,
+        429.14568783119785
+      ],
+      "sample_size": 5,
+      "outliers": []
+    },
+    "compliance_rate": 0.0
+  },
+  "savage_summary": "Average complexity: 18.12/5.0 (3.6x over limit). Compliance rate: 0.0%. Statistical conclusion: This command suite systematically violates architectural principles with 100% non-compliance rate."
+}

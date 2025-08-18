@@ -1,0 +1,163 @@
+{
+  "timestamp": "2025-08-18T15:39:55.898221",
+  "commands": [
+    {
+      "name": "analyze-project-architecture.md",
+      "path": "commands/analyze-project-architecture.md",
+      "lines": 274,
+      "xml_tags": 34,
+      "thinking_blocks": 0,
+      "abstractions": 0,
+      "complexity": 7.88,
+      "compliant": false,
+      "token_estimate": 1557.4
+    },
+    {
+      "name": "git-backup-sync.md",
+      "path": "commands/git-backup-sync.md",
+      "lines": 531,
+      "xml_tags": 66,
+      "thinking_blocks": 0,
+      "abstractions": 0,
+      "complexity": 16.22,
+      "compliant": false,
+      "token_estimate": 1899.3
+    },
+    {
+      "name": "adhd-morning-assistant.md",
+      "path": "commands/adhd-morning-assistant.md",
+      "lines": 309,
+      "xml_tags": 24,
+      "thinking_blocks": 0,
+      "abstractions": 0,
+      "complexity": 7.58,
+      "compliant": false,
+      "token_estimate": 1504.1000000000001
+    },
+    {
+      "name": "ultrathink.md",
+      "path": "commands/ultrathink.md",
+      "lines": 357,
+      "xml_tags": 28,
+      "thinking_blocks": 0,
+      "abstractions": 0,
+      "complexity": 8.94,
+      "compliant": false,
+      "token_estimate": 1579.5
+    },
+    {
+      "name": "generate-thinking-command.md",
+      "path": "commands/generate-thinking-command.md",
+      "lines": 137,
+      "xml_tags": 26,
+      "thinking_blocks": 0,
+      "abstractions": 0,
+      "complexity": 4.34,
+      "compliant": true,
+      "token_estimate": 539.5
+    },
+    {
+      "name": "java-clean-code-generator.md",
+      "path": "commands/java-clean-code-generator.md",
+      "lines": 819,
+      "xml_tags": 152,
+      "thinking_blocks": 0,
+      "abstractions": 0,
+      "complexity": 30.58,
+      "compliant": false,
+      "token_estimate": 4032.6000000000004
+    },
+    {
+      "name": "interactive-bridge.md",
+      "path": "commands/components/interactive-bridge.md",
+      "lines": 616,
+      "xml_tags": 19,
+      "thinking_blocks": 0,
+      "abstractions": 0,
+      "complexity": 13.22,
+      "compliant": false,
+      "token_estimate": 2134.6
+    },
+    {
+      "name": "java-test-driven-development.md",
+      "path": "commands/java-test-driven-development.md",
+      "lines": 460,
+      "xml_tags": 54,
+      "thinking_blocks": 0,
+      "abstractions": 0,
+      "complexity": 13.6,
+      "compliant": false,
+      "token_estimate": 2063.1
+    },
+    {
+      "name": "senior-developer-analysis.md",
+      "path": "commands/senior-developer-analysis.md",
+      "lines": 390,
+      "xml_tags": 114,
+      "thinking_blocks": 0,
+      "abstractions": 0,
+      "complexity": 18.2,
+      "compliant": false,
+      "token_estimate": 2042.3000000000002
+    },
+    {
+      "name": "ultrathink-interactive.md",
+      "path": "commands/ultrathink-interactive.md",
+      "lines": 673,
+      "xml_tags": 33,
+      "thinking_blocks": 0,
+      "abstractions": 0,
+      "complexity": 15.76,
+      "compliant": false,
+      "token_estimate": 2537.6
+    }
+  ],
+  "stats": {
+    "mean_complexity": 13.632,
+    "std_dev_complexity": 7.435400011655951,
+    "mean_lines": 456.6,
+    "std_dev_lines": 205.6821712146086,
+    "compliance_rate": 0.1,
+    "sample_size": 10,
+    "confidence_interval_95": [
+      9.023491327150037,
+      18.240508672849963
+    ]
+  },
+  "worst_offenders": [
+    {
+      "name": "java-clean-code-generator.md",
+      "path": "commands/java-clean-code-generator.md",
+      "lines": 819,
+      "xml_tags": 152,
+      "thinking_blocks": 0,
+      "abstractions": 0,
+      "complexity": 30.58,
+      "compliant": false,
+      "token_estimate": 4032.6000000000004
+    },
+    {
+      "name": "senior-developer-analysis.md",
+      "path": "commands/senior-developer-analysis.md",
+      "lines": 390,
+      "xml_tags": 114,
+      "thinking_blocks": 0,
+      "abstractions": 0,
+      "complexity": 18.2,
+      "compliant": false,
+      "token_estimate": 2042.3000000000002
+    },
+    {
+      "name": "git-backup-sync.md",
+      "path": "commands/git-backup-sync.md",
+      "lines": 531,
+      "xml_tags": 66,
+      "thinking_blocks": 0,
+      "abstractions": 0,
+      "complexity": 16.22,
+      "compliant": false,
+      "token_estimate": 1899.3
+    }
+  ],
+  "savage_conclusion": "With 90% non-compliance and mean complexity 13.63x over CLAUDE.md limits, this command suite represents systematic architectural failure with statistical significance (n=10)."
+}
