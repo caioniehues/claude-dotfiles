@@ -1,0 +1,310 @@
+{
+  "timestamp": "2025-08-18T21:34:52.032297",
+  "session_id": "savage-1755552892",
+  "commands_tested": [
+    {
+      "command": "safe-code-beautifier",
+      "path": "commands/safe-code-beautifier.md",
+      "iterations": 5,
+      "execution_times": [
+        0.43751096725463867,
+        0.501234769821167,
+        0.47826409339904785,
+        0.49378013610839844,
+        0.6357684135437012
+      ],
+      "success_count": 0,
+      "failures": [
+        "Iteration 1: Complexity-induced failure",
+        "Iteration 2: Complexity-induced failure",
+        "Iteration 3: Complexity-induced failure",
+        "Iteration 4: Complexity-induced failure",
+        "Iteration 5: Complexity-induced failure"
+      ],
+      "complexity_score": 24,
+      "token_analysis": {
+        "input_tokens": 3636.75,
+        "estimated_output_tokens": 31639.725,
+        "total_estimated": 35276.475
+      },
+      "content_analysis": {
+        "lines": 427,
+        "chars": 14547,
+        "has_examples": false,
+        "has_error_handling": true,
+        "has_documentation": true
+      }
+    },
+    {
+      "command": "ultrathink-hybrid-mcp",
+      "path": "commands/ultrathink-hybrid-mcp.md",
+      "iterations": 5,
+      "execution_times": [
+        0.1404738426208496,
+        0.12116503715515137,
+        0.12021923065185547,
+        0.13821721076965332,
+        0.12057709693908691
+      ],
+      "success_count": 1,
+      "failures": [
+        "Iteration 1: Complexity-induced failure",
+        "Iteration 2: Complexity-induced failure",
+        "Iteration 4: Complexity-induced failure",
+        "Iteration 5: Complexity-induced failure"
+      ],
+      "complexity_score": 4,
+      "token_analysis": {
+        "input_tokens": 3334.5,
+        "estimated_output_tokens": 9003.150000000001,
+        "total_estimated": 12337.650000000001
+      },
+      "content_analysis": {
+        "lines": 536,
+        "chars": 13338,
+        "has_examples": true,
+        "has_error_handling": true,
+        "has_documentation": true
+      }
+    },
+    {
+      "command": "ultrathink-full-mcp",
+      "path": "commands/ultrathink-full-mcp.md",
+      "iterations": 5,
+      "execution_times": [
+        0.28086042404174805,
+        0.3133664131164551,
+        0.3133697509765625,
+        0.27426743507385254,
+        0.26661181449890137
+      ],
+      "success_count": 2,
+      "failures": [
+        "Iteration 1: Complexity-induced failure",
+        "Iteration 2: Complexity-induced failure",
+        "Iteration 4: Complexity-induced failure"
+      ],
+      "complexity_score": 13,
+      "token_analysis": {
+        "input_tokens": 4514.5,
+        "estimated_output_tokens": 24378.300000000003,
+        "total_estimated": 28892.800000000003
+      },
+      "content_analysis": {
+        "lines": 665,
+        "chars": 18058,
+        "has_examples": true,
+        "has_error_handling": true,
+        "has_documentation": true
+      }
+    },
+    {
+      "command": "adaptive-complexity-router",
+      "path": "commands/adaptive-complexity-router.md",
+      "iterations": 5,
+      "execution_times": [
+        0.14873790740966797,
+        0.13487935066223145,
+        0.15283632278442383,
+        0.12387919425964355,
+        0.1538548469543457
+      ],
+      "success_count": 2,
+      "failures": [
+        "Iteration 2: Complexity-induced failure",
+        "Iteration 4: Complexity-induced failure",
+        "Iteration 5: Complexity-induced failure"
+      ],
+      "complexity_score": 4,
+      "token_analysis": {
+        "input_tokens": 2796.5,
+        "estimated_output_tokens": 7550.55,
+        "total_estimated": 10347.05
+      },
+      "content_analysis": {
+        "lines": 499,
+        "chars": 11186,
+        "has_examples": true,
+        "has_error_handling": true,
+        "has_documentation": true
+      }
+    },
+    {
+      "command": "adhd-morning-assistant",
+      "path": "commands/adhd-morning-assistant.md",
+      "iterations": 5,
+      "execution_times": [
+        0.06338644027709961,
+        0.08257722854614258,
+        0.07250285148620605,
+        0.07006001472473145,
+        0.06264925003051758
+      ],
+      "success_count": 4,
+      "failures": [
+        "Iteration 2: Complexity-induced failure"
+      ],
+      "complexity_score": 1,
+      "token_analysis": {
+        "input_tokens": 2223.25,
+        "estimated_output_tokens": 4001.85,
+        "total_estimated": 6225.1
+      },
+      "content_analysis": {
+        "lines": 309,
+        "chars": 8893,
+        "has_examples": false,
+        "has_error_handling": true,
+        "has_documentation": true
+      }
+    },
+    {
+      "command": "analyze-project-architecture",
+      "path": "commands/analyze-project-architecture.md",
+      "iterations": 5,
+      "execution_times": [
+        0.16716313362121582,
+        0.15228724479675293,
+        0.18111777305603027,
+        0.15494894981384277,
+        0.19098329544067383
+      ],
+      "success_count": 2,
+      "failures": [
+        "Iteration 1: Complexity-induced failure",
+        "Iteration 2: Complexity-induced failure",
+        "Iteration 5: Complexity-induced failure"
+      ],
+      "complexity_score": 6,
+      "token_analysis": {
+        "input_tokens": 2303.5,
+        "estimated_output_tokens": 7601.549999999999,
+        "total_estimated": 9905.05
+      },
+      "content_analysis": {
+        "lines": 274,
+        "chars": 9214,
+        "has_examples": false,
+        "has_error_handling": true,
+        "has_documentation": true
+      }
+    },
+    {
+      "command": "ultrathink",
+      "path": "commands/ultrathink.md",
+      "iterations": 5,
+      "execution_times": [
+        0.07380294799804688,
+        0.056377410888671875,
+        0.06425952911376953,
+        0.0568387508392334,
+        0.08314228057861328
+      ],
+      "success_count": 5,
+      "failures": [],
+      "complexity_score": 1,
+      "token_analysis": {
+        "input_tokens": 2439.5,
+        "estimated_output_tokens": 4391.1,
+        "total_estimated": 6830.6
+      },
+      "content_analysis": {
+        "lines": 357,
+        "chars": 9758,
+        "has_examples": true,
+        "has_error_handling": true,
+        "has_documentation": true
+      }
+    }
+  ],
+  "statistical_summary": {
+    "total_commands": 7,
+    "avg_success_rate": 0.4571428571428572,
+    "avg_complexity": 7.571428571428571,
+    "complexity_violations": 3
+  },
+  "savage_analysis": {
+    "overall_verdict": "\ud83d\udca5 CATASTROPHIC - These commands fail more often than my faith in humanity. Start over.",
+    "command_rankings": [
+      {
+        "command": "ultrathink",
+        "score": 112.65567153215018,
+        "success_rate": 1.0,
+        "complexity_score": 1,
+        "cv": 0.1721642339249079,
+        "savage_comment": "357 lines - brevity is clearly not your strength"
+      },
+      {
+        "command": "adhd-morning-assistant",
+        "score": 99.76956138082983,
+        "success_rate": 0.8,
+        "complexity_score": 1,
+        "cv": 0.11521930958508377,
+        "savage_comment": "309 lines - brevity is clearly not your strength"
+      },
+      {
+        "command": "adaptive-complexity-router",
+        "score": 82.81758193318707,
+        "success_rate": 0.4,
+        "complexity_score": 4,
+        "cv": 0.09120903340646276,
+        "savage_comment": "Fails 60.0% of the time - that's not reliability, that's Russian roulette; 499 lines - brevity is clearly not your strength"
+      },
+      {
+        "command": "ultrathink-hybrid-mcp",
+        "score": 74.83962476798183,
+        "success_rate": 0.2,
+        "complexity_score": 4,
+        "cv": 0.08018761600908197,
+        "savage_comment": "Fails 80.0% of the time - that's not reliability, that's Russian roulette; 536 lines - brevity is clearly not your strength"
+      },
+      {
+        "command": "analyze-project-architecture",
+        "score": 73.80322911310408,
+        "success_rate": 0.4,
+        "complexity_score": 6,
+        "cv": 0.09838544344795837,
+        "savage_comment": "Fails 60.0% of the time - that's not reliability, that's Russian roulette; Complexity score of 6 violates every principle in CLAUDE.md; 274 lines - brevity is clearly not your strength"
+      },
+      {
+        "command": "ultrathink-full-mcp",
+        "score": 64.84679911265974,
+        "success_rate": 0.4,
+        "complexity_score": 13,
+        "cv": 0.07660044367012755,
+        "savage_comment": "Fails 60.0% of the time - that's not reliability, that's Russian roulette; Complexity score of 13 violates every principle in CLAUDE.md; 665 lines - brevity is clearly not your strength"
+      },
+      {
+        "command": "safe-code-beautifier",
+        "score": 29.70602814657025,
+        "success_rate": 0.0,
+        "complexity_score": 24,
+        "cv": 0.14698592671487473,
+        "savage_comment": "Fails 100.0% of the time - that's not reliability, that's Russian roulette; Complexity score of 24 violates every principle in CLAUDE.md; 427 lines - brevity is clearly not your strength"
+      }
+    ],
+    "failure_patterns": {},
+    "complexity_disasters": [
+      {
+        "command": "safe-code-beautifier",
+        "complexity_score": 24,
+        "reason": "Violates CLAUDE.md complexity limit (\u22655)",
+        "evidence": "Score: 24, Limit: <5"
+      },
+      {
+        "command": "ultrathink-full-mcp",
+        "complexity_score": 13,
+        "reason": "Violates CLAUDE.md complexity limit (\u22655)",
+        "evidence": "Score: 13, Limit: <5"
+      },
+      {
+        "command": "analyze-project-architecture",
+        "complexity_score": 6,
+        "reason": "Violates CLAUDE.md complexity limit (\u22655)",
+        "evidence": "Score: 6, Limit: <5"
+      }
+    ],
+    "statistical_evidence": {}
+  },
+  "recommendations": []
+}
