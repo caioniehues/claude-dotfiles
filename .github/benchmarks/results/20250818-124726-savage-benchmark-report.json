@@ -1,0 +1,194 @@
+{
+  "benchmark_metadata": {
+    "timestamp": "2025-08-18T12:47:26.495344",
+    "execution_time_seconds": 0.0,
+    "commands_analyzed": 5,
+    "methodology": "Statistical analysis with CLAUDE.md compliance scoring"
+  },
+  "individual_results": {
+    "java-clean-code-generator.md": {
+      "filename": "java-clean-code-generator.md",
+      "timestamp": "2025-08-18T12:47:26.492801",
+      "metrics": {
+        "complexity_score": 10,
+        "usability_score": 3,
+        "maintainability_score": 5,
+        "success_probability": 5,
+        "estimated_tokens": 6280,
+        "character_count": 25123,
+        "line_count": 818,
+        "word_count": 3102
+      },
+      "analysis": {
+        "complexity_issues": [
+          "Orchestration detected - cognitive overhead",
+          "2 MCP dependencies - integration brittleness",
+          "58 XML blocks - template explosion",
+          "Sequential thinking - complexity escalation",
+          "818 lines - verbose implementation"
+        ],
+        "usability_penalties": [
+          "Orchestration pattern - over-engineering detected",
+          "37 thinking blocks - cognitive overload",
+          "Meta-complexity detection - inception-level BS"
+        ],
+        "usability_bonuses": [],
+        "maintainability_red_flags": [
+          "40 code templates - maintenance hell",
+          "Thinking depth: 37 - recursive complexity"
+        ]
+      },
+      "verdict": "GRADE: D - TERRIBLE\n\u26a0\ufe0f  Complexity score 10/10 violates CLAUDE.md simplicity rules (target <5)\n\ud83d\udc80 Usability disaster: 3/10 - users will suffer\n\ud83c\udfb0 Success probability 5.0% - worse odds than a casino"
+    },
+    "adhd-context-switch.md": {
+      "filename": "adhd-context-switch.md",
+      "timestamp": "2025-08-18T12:47:26.493303",
+      "metrics": {
+        "complexity_score": 7,
+        "usability_score": 8,
+        "maintainability_score": 5,
+        "success_probability": 5,
+        "estimated_tokens": 2471,
+        "character_count": 9885,
+        "line_count": 398,
+        "word_count": 1170
+      },
+      "analysis": {
+        "complexity_issues": [
+          "4 MCP dependencies - integration brittleness",
+          "13 XML blocks - template explosion"
+        ],
+        "usability_penalties": [
+          "No clear task definition"
+        ],
+        "usability_bonuses": [],
+        "maintainability_red_flags": [
+          "26 code templates - maintenance hell",
+          "4 MCP calls - dependency nightmare"
+        ]
+      },
+      "verdict": "GRADE: C - PROBLEMATIC\n\ud83c\udfb0 Success probability 5.0% - worse odds than a casino"
+    },
+    "ultrathink-interactive.md": {
+      "filename": "ultrathink-interactive.md",
+      "timestamp": "2025-08-18T12:47:26.494139",
+      "metrics": {
+        "complexity_score": 9,
+        "usability_score": 10,
+        "maintainability_score": 7,
+        "success_probability": 5,
+        "estimated_tokens": 5093,
+        "character_count": 20374,
+        "line_count": 672,
+        "word_count": 1952
+      },
+      "analysis": {
+        "complexity_issues": [
+          "3 MCP dependencies - integration brittleness",
+          "14 XML blocks - template explosion",
+          "Sequential thinking - complexity escalation",
+          "672 lines - verbose implementation"
+        ],
+        "usability_penalties": [],
+        "usability_bonuses": [],
+        "maintainability_red_flags": [
+          "30 code templates - maintenance hell"
+        ]
+      },
+      "verdict": "GRADE: B - DECENT\n\u26a0\ufe0f  Complexity score 9/10 violates CLAUDE.md simplicity rules (target <5)\n\ud83c\udfb0 Success probability 5.0% - worse odds than a casino"
+    },
+    "senior-developer-analysis.md": {
+      "filename": "senior-developer-analysis.md",
+      "timestamp": "2025-08-18T12:47:26.494674",
+      "metrics": {
+        "complexity_score": 9,
+        "usability_score": 3,
+        "maintainability_score": 8,
+        "success_probability": 5,
+        "estimated_tokens": 3346,
+        "character_count": 13387,
+        "line_count": 389,
+        "word_count": 1571
+      },
+      "analysis": {
+        "complexity_issues": [
+          "Orchestration detected - cognitive overhead",
+          "1 MCP dependencies - integration brittleness",
+          "47 XML blocks - template explosion",
+          "Sequential thinking - complexity escalation"
+        ],
+        "usability_penalties": [
+          "Orchestration pattern - over-engineering detected",
+          "26 thinking blocks - cognitive overload",
+          "Meta-complexity detection - inception-level BS"
+        ],
+        "usability_bonuses": [],
+        "maintainability_red_flags": [
+          "Thinking depth: 26 - recursive complexity"
+        ]
+      },
+      "verdict": "GRADE: C - PROBLEMATIC\n\u26a0\ufe0f  Complexity score 9/10 violates CLAUDE.md simplicity rules (target <5)\n\ud83d\udc80 Usability disaster: 3/10 - users will suffer\n\ud83c\udfb0 Success probability 5.0% - worse odds than a casino"
+    },
+    "adaptive-complexity-router.md": {
+      "filename": "adaptive-complexity-router.md",
+      "timestamp": "2025-08-18T12:47:26.495127",
+      "metrics": {
+        "complexity_score": 10,
+        "usability_score": 7,
+        "maintainability_score": 9,
+        "success_probability": 5,
+        "estimated_tokens": 2796,
+        "character_count": 11186,
+        "line_count": 498,
+        "word_count": 1347
+      },
+      "analysis": {
+        "complexity_issues": [
+          "Orchestration detected - cognitive overhead",
+          "2 MCP dependencies - integration brittleness",
+          "22 XML blocks - template explosion",
+          "Sequential thinking - complexity escalation"
+        ],
+        "usability_penalties": [
+          "Orchestration pattern - over-engineering detected"
+        ],
+        "usability_bonuses": [],
+        "maintainability_red_flags": [
+          "YAML configuration - deployment complexity"
+        ]
+      },
+      "verdict": "GRADE: C - PROBLEMATIC\n\u26a0\ufe0f  Complexity score 10/10 violates CLAUDE.md simplicity rules (target <5)\n\ud83c\udfb0 Success probability 5.0% - worse odds than a casino"
+    }
+  },
+  "summary_statistics": {
+    "complexity": {
+      "mean": 9,
+      "median": 9,
+      "stdev": 1.224744871391589,
+      "max": 10,
+      "violations": 5
+    },
+    "usability": {
+      "mean": 6.2,
+      "median": 7,
+      "stdev": 3.1144823004794873,
+      "disasters": 2
+    },
+    "maintainability": {
+      "mean": 6.8,
+      "median": 7,
+      "nightmares": 0
+    },
+    "success_probability": {
+      "mean": 5,
+      "median": 5,
+      "casino_odds": 5
+    },
+    "token_consumption": {
+      "mean": 3997.2,
+      "total": 19986,
+      "bloat_factor": 2.5414811817078107
+    }
+  },
+  "savage_conclusion": "\ud83d\udd25 FINAL VERDICT: SAVAGE STATISTICAL ANALYSIS \ud83d\udd25\n\nCLAUDE.md Compliance: 0/5 commands follow simplicity rules\n\ud83d\udc80 5 commands violate complexity limits - architectural hubris detected\n\u26a0\ufe0f  Average success rate: 5.0% - your commands are gambling with worse odds than Vegas\n\nSTATISTICAL CONCLUSION:\nMean complexity: 9.0/10 (target: <5.0)\nMean usability: 6.2/10\nMean maintainability: 6.8/10\nTotal token consumption: 19,986 tokens\n"
+}
