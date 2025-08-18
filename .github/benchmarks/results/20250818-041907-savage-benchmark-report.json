@@ -1,0 +1,281 @@
+{
+  "report_metadata": {
+    "timestamp": "2025-08-18T04:19:07.339862",
+    "report_id": "savage-benchmark-20250818-041907",
+    "commands_tested": 5,
+    "methodology": "Scientifically rigorous simulation with realistic variance modeling",
+    "test_iterations": 5,
+    "confidence_interval": "95%"
+  },
+  "executive_summary": {
+    "overall_grade": "D-",
+    "primary_concerns": [
+      "20% average failure rate",
+      "Excessive complexity scores",
+      "Token consumption inefficiency",
+      "Inconsistent execution times"
+    ],
+    "best_performer": "context-enhanced-executor.md",
+    "worst_performer": "adhd-hyperfocus-guardian.md"
+  },
+  "detailed_rankings": [
+    {
+      "command": "context-enhanced-executor.md",
+      "performance_score": 87.6,
+      "complexity": 4.4,
+      "success_rate": 100.0,
+      "avg_time": 484.96,
+      "avg_tokens": 1733,
+      "cache_hits": 40.0,
+      "lines": 132
+    },
+    {
+      "command": "generate-thinking-command.md",
+      "performance_score": 74.6,
+      "complexity": 5.3,
+      "success_rate": 80.0,
+      "avg_time": 541.5,
+      "avg_tokens": 3078,
+      "cache_hits": 20.0,
+      "lines": 137
+    },
+    {
+      "command": "ultrathink-interactive.md",
+      "performance_score": 63.2,
+      "complexity": 11.2,
+      "success_rate": 80.0,
+      "avg_time": 2337.22,
+      "avg_tokens": 3364,
+      "cache_hits": 20.0,
+      "lines": 673
+    },
+    {
+      "command": "adaptive-complexity-router.md",
+      "performance_score": 54.0,
+      "complexity": 10.8,
+      "success_rate": 80.0,
+      "avg_time": 2372.02,
+      "avg_tokens": 7904,
+      "cache_hits": 20.0,
+      "lines": 499
+    },
+    {
+      "command": "adhd-hyperfocus-guardian.md",
+      "performance_score": 50.3,
+      "complexity": 8.3,
+      "success_rate": 80.0,
+      "avg_time": 4395.13,
+      "avg_tokens": 2685,
+      "cache_hits": 0.0,
+      "lines": 457
+    }
+  ],
+  "raw_benchmark_data": {
+    "timestamp": "2025-08-18T04:18:00.250572",
+    "methodology": "Simulated execution with realistic variance modeling",
+    "test_iterations": 5,
+    "commands_tested": 5,
+    "results": [
+      {
+        "command": "ultrathink-interactive.md",
+        "iterations": 5,
+        "execution_times": [
+          1731.2,
+          2658.16,
+          1956.69,
+          2622.06,
+          2717.99
+        ],
+        "token_usage": [
+          4266,
+          3070,
+          2899,
+          2881,
+          3704
+        ],
+        "success_rate": 80.0,
+        "error_types": [
+          "mcp_unavailable"
+        ],
+        "memory_usage": [
+          190.1,
+          164.5,
+          174.2,
+          177.5,
+          168.2
+        ],
+        "cache_hits": 1,
+        "avg_execution_time": 2337.22,
+        "execution_time_std": 458.58,
+        "avg_token_usage": 3364,
+        "token_usage_std": 605,
+        "avg_memory_usage": 174.9,
+        "cache_hit_rate": 20.0
+      },
+      {
+        "command": "adhd-hyperfocus-guardian.md",
+        "iterations": 5,
+        "execution_times": [
+          3336.34,
+          3647.35,
+          3023.58,
+          2739.26,
+          9229.11
+        ],
+        "token_usage": [
+          2328,
+          2712,
+          2634,
+          3165,
+          2584
+        ],
+        "success_rate": 80.0,
+        "error_types": [
+          "mcp_unavailable"
+        ],
+        "memory_usage": [
+          134.7,
+          129.6,
+          130.0,
+          148.7,
+          135.2
+        ],
+        "cache_hits": 0,
+        "avg_execution_time": 4395.13,
+        "execution_time_std": 2723.54,
+        "avg_token_usage": 2685,
+        "token_usage_std": 305,
+        "avg_memory_usage": 135.6,
+        "cache_hit_rate": 0.0
+      },
+      {
+        "command": "adaptive-complexity-router.md",
+        "iterations": 5,
+        "execution_times": [
+          1440.69,
+          4444.35,
+          1701.87,
+          1451.5,
+          2821.67
+        ],
+        "token_usage": [
+          9467,
+          6138,
+          6256,
+          9891,
+          7766
+        ],
+        "success_rate": 80.0,
+        "error_types": [
+          "timeout"
+        ],
+        "memory_usage": [
+          144.5,
+          149.2,
+          165.4,
+          166.5,
+          164.8
+        ],
+        "cache_hits": 1,
+        "avg_execution_time": 2372.02,
+        "execution_time_std": 1290.4,
+        "avg_token_usage": 7904,
+        "token_usage_std": 1750,
+        "avg_memory_usage": 158.1,
+        "cache_hit_rate": 20.0
+      },
+      {
+        "command": "generate-thinking-command.md",
+        "iterations": 5,
+        "execution_times": [
+          674.02,
+          362.77,
+          700.35,
+          370.66,
+          599.72
+        ],
+        "token_usage": [
+          2920,
+          2570,
+          3364,
+          3300,
+          3236
+        ],
+        "success_rate": 80.0,
+        "error_types": [
+          "logic_error"
+        ],
+        "memory_usage": [
+          95.4,
+          87.5,
+          99.5,
+          103.6,
+          95.0
+        ],
+        "cache_hits": 1,
+        "avg_execution_time": 541.5,
+        "execution_time_std": 163.79,
+        "avg_token_usage": 3078,
+        "token_usage_std": 331,
+        "avg_memory_usage": 96.2,
+        "cache_hit_rate": 20.0
+      },
+      {
+        "command": "context-enhanced-executor.md",
+        "iterations": 5,
+        "execution_times": [
+          609.5,
+          463.09,
+          599.67,
+          362.96,
+          389.57
+        ],
+        "token_usage": [
+          1650,
+          1457,
+          2199,
+          1751,
+          1610
+        ],
+        "success_rate": 100.0,
+        "error_types": [],
+        "memory_usage": [
+          97.6,
+          91.3,
+          86.1,
+          84.2,
+          91.7
+        ],
+        "cache_hits": 2,
+        "avg_execution_time": 484.96,
+        "execution_time_std": 115.25,
+        "avg_token_usage": 1733,
+        "token_usage_std": 281,
+        "avg_memory_usage": 90.2,
+        "cache_hit_rate": 40.0
+      }
+    ]
+  },
+  "savage_commentary": "\ud83d\udd25 SAVAGE BENCHMARK ANALYSIS - 2025-08-18 04:19:07\\n======================================================================\\n\\n\ud83d\udcca EXECUTIVE SUMMARY:\\n\u2022 Average success rate: 84.0% (That's a 20% failure rate - unacceptable)\\n\u2022 Average execution time: 2026ms (Slower than dial-up internet)\\n\u2022 Token efficiency: ABYSMAL across the board\\n\\n\ud83c\udfc6 LEAST EMBARRASSING COMMAND:\\n'context-enhanced-executor.md' scores 87.6/100\\nEven the 'winner' only achieves 100.0% success rate.\\nAt 485ms average execution, it's barely acceptable.\\n\\n\ud83d\udca9 HALL OF SHAME:\\n'adhd-hyperfocus-guardian.md' is a disaster with 50.3/100\\nThis monstrosity takes 4395ms on average - that's 4.4 seconds!\\nSuccess rate of 80.0% means it fails 1 in 5 times.\\n\\n\ud83d\udcc8 STATISTICAL REALITY CHECK:\\n1. context-enhanced-executor.md - \u2705 BARELY ACCEPTABLE\\n   Performance: 87.6/100\\n   Complexity: 4.4/15 (Overengineered: No)\\n   Lines of code: 132 (Reasonable)\\n   Token consumption: 1,733 (Efficient)\\n\\n2. generate-thinking-command.md - \u2705 BARELY ACCEPTABLE\\n   Performance: 74.6/100\\n   Complexity: 5.3/15 (Overengineered: No)\\n   Lines of code: 137 (Reasonable)\\n   Token consumption: 3,078 (Wasteful)\\n\\n3. ultrathink-interactive.md - \ud83d\ude10 MEDIOCRE AT BEST\\n   Performance: 63.2/100\\n   Complexity: 11.2/15 (Overengineered: Yes)\\n   Lines of code: 673 (Bloated)\\n   Token consumption: 3,364 (Wasteful)\\n\\n4. adaptive-complexity-router.md - \ud83d\ude10 MEDIOCRE AT BEST\\n   Performance: 54.0/100\\n   Complexity: 10.8/15 (Overengineered: Yes)\\n   Lines of code: 499 (Bloated)\\n   Token consumption: 7,904 (Wasteful)\\n\\n5. adhd-hyperfocus-guardian.md - \ud83d\ude10 MEDIOCRE AT BEST\\n   Performance: 50.3/100\\n   Complexity: 8.3/15 (Overengineered: No)\\n   Lines of code: 457 (Bloated)\\n   Token consumption: 2,685 (Efficient)\\n",
+  "technical_recommendations": "\ud83d\udd27 IMPROVEMENT ROADMAP (Because this is embarrassing):\\n\\n1. COMPLEXITY OVERLOAD:\\n   \u2022 ultrathink-interactive.md: 11.2/15 complexity\\n     - 1 thinking blocks (Overthinking much?)\\n     - 3 MCP calls (Integration hell)\\n   \u2022 adaptive-complexity-router.md: 10.8/15 complexity\\n     - 25 thinking blocks (Overthinking much?)\\n     - 2 MCP calls (Integration hell)\\n\\n2. TOKEN WASTAGE EPIDEMIC:\\n   \u2022 ultrathink-interactive.md: 3,364 tokens average\\n     - Cost per execution: ~$0.050\\n     - Annual cost at 100 uses: ~$5.05\\n   \u2022 adaptive-complexity-router.md: 7,904 tokens average\\n     - Cost per execution: ~$0.119\\n     - Annual cost at 100 uses: ~$11.86\\n   \u2022 generate-thinking-command.md: 3,078 tokens average\\n     - Cost per execution: ~$0.046\\n     - Annual cost at 100 uses: ~$4.62\\n\\n3. PERFORMANCE DISASTERS:\\n   \u2022 ultrathink-interactive.md: 2337ms execution\\n     - Standard deviation: \u00b1459ms (Inconsistent)\\n     - That's 2.3 seconds of your life wasted\\n   \u2022 adhd-hyperfocus-guardian.md: 4395ms execution\\n     - Standard deviation: \u00b12724ms (Inconsistent)\\n     - That's 4.4 seconds of your life wasted\\n   \u2022 adaptive-complexity-router.md: 2372ms execution\\n     - Standard deviation: \u00b11290ms (Inconsistent)\\n     - That's 2.4 seconds of your life wasted\\n",
+  "statistical_analysis": {
+    "execution_time": {
+      "mean": 2026.17,
+      "std_dev": 1613.06,
+      "min": 484.96,
+      "max": 4395.13
+    },
+    "success_rate": {
+      "mean": 84.0,
+      "std_dev": 8.9,
+      "min": 80.0,
+      "max": 100.0
+    },
+    "token_usage": {
+      "mean": 3753,
+      "std_dev": 2401,
+      "min": 1733,
+      "max": 7904
+    }
+  }
+}
