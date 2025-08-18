@@ -1,0 +1,169 @@
+{
+  "metadata": {
+    "timestamp": "2025-08-18T22:05:48.777889",
+    "analysis_duration": 0.05,
+    "framework_version": "2.0-savage"
+  },
+  "summary": {
+    "total_commands": 5,
+    "avg_success_rate": 93.3,
+    "success_std_dev": 14.9,
+    "avg_complexity": 13.5,
+    "complexity_violations": 3,
+    "avg_readability": 10.0,
+    "avg_compliance": 75.0,
+    "quality_failures": 0
+  },
+  "rankings": {
+    "most_reliable": [
+      "ultrathink-interactive",
+      "git-backup-sync",
+      "adhd-morning-assistant"
+    ],
+    "least_reliable": [
+      "adhd-morning-assistant",
+      "ultrathink",
+      "adaptive-complexity-router"
+    ],
+    "simplest": [
+      "adhd-morning-assistant",
+      "ultrathink",
+      "ultrathink-interactive"
+    ],
+    "most_complex": [
+      "ultrathink-interactive",
+      "adaptive-complexity-router",
+      "git-backup-sync"
+    ]
+  },
+  "detailed_results": [
+    {
+      "command": "adaptive-complexity-router",
+      "metadata": {
+        "size_bytes": 11274,
+        "line_count": 499,
+        "complexity_score": 12.98
+      },
+      "performance": {
+        "mean_time": 0.6613,
+        "std_dev": 0.1208,
+        "success_rate": 66.7,
+        "execution_times": [
+          0.7932616399458987,
+          0.6345488395100334,
+          0.5561934130221676
+        ]
+      },
+      "quality": {
+        "readability_score": 10.0,
+        "maintainability_score": 10.0,
+        "compliance_score": 75.0
+      },
+      "savage_judgment": "'adaptive-complexity-router' succeeds 66.7% of the time (\u03c3=0.121s). That's not reliable, that's random. Complexity score 12.98 violates CLAUDE.md's sacred <5 rule. This isn't architecture, it's architectural bankruptcy."
+    },
+    {
+      "command": "ultrathink-interactive",
+      "metadata": {
+        "size_bytes": 23852,
+        "line_count": 673,
+        "complexity_score": 6.72
+      },
+      "performance": {
+        "mean_time": 0.4209,
+        "std_dev": 0.058,
+        "success_rate": 100.0,
+        "execution_times": [
+          0.3734716462085085,
+          0.4037375688358327,
+          0.485590448211438
+        ]
+      },
+      "quality": {
+        "readability_score": 10.0,
+        "maintainability_score": 4.0,
+        "compliance_score": 75.0
+      },
+      "savage_judgment": "'ultrathink-interactive' actually works 100.0% of the time. Surprisingly competent. Complexity score 6.72 violates CLAUDE.md's sacred <5 rule. This isn't architecture, it's architectural bankruptcy."
+    },
+    {
+      "command": "git-backup-sync",
+      "metadata": {
+        "size_bytes": 12564,
+        "line_count": 531,
+        "complexity_score": 41.3
+      },
+      "performance": {
+        "mean_time": 2.3712,
+        "std_dev": 0.3228,
+        "success_rate": 100.0,
+        "execution_times": [
+          2.3299953491253227,
+          2.712581330577479,
+          2.071032542185291
+        ]
+      },
+      "quality": {
+        "readability_score": 10.0,
+        "maintainability_score": 10.0,
+        "compliance_score": 75.0
+      },
+      "savage_judgment": "'git-backup-sync' actually works 100.0% of the time. Surprisingly competent. Complexity score 41.3 violates CLAUDE.md's sacred <5 rule. This isn't architecture, it's architectural bankruptcy."
+    },
+    {
+      "command": "adhd-morning-assistant",
+      "metadata": {
+        "size_bytes": 8982,
+        "line_count": 309,
+        "complexity_score": 3.08
+      },
+      "performance": {
+        "mean_time": 0.2779,
+        "std_dev": 0.0356,
+        "success_rate": 100.0,
+        "execution_times": [
+          0.2390647059066252,
+          0.2856794580025174,
+          0.3090490868000334
+        ]
+      },
+      "quality": {
+        "readability_score": 10.0,
+        "maintainability_score": 10.0,
+        "compliance_score": 75.0
+      },
+      "savage_judgment": "'adhd-morning-assistant' actually works 100.0% of the time. Surprisingly competent. Complexity 3.08 suggests someone confused 'sophisticated' with 'complicated'."
+    },
+    {
+      "command": "ultrathink",
+      "metadata": {
+        "size_bytes": 9766,
+        "line_count": 357,
+        "complexity_score": 3.56
+      },
+      "performance": {
+        "mean_time": 0.3187,
+        "std_dev": 0.0089,
+        "success_rate": 100.0,
+        "execution_times": [
+          0.3239964416532384,
+          0.30838254690797545,
+          0.3236469203313895
+        ]
+      },
+      "quality": {
+        "readability_score": 10.0,
+        "maintainability_score": 10.0,
+        "compliance_score": 75.0
+      },
+      "savage_judgment": "'ultrathink' actually works 100.0% of the time. Surprisingly competent. Complexity 3.56 suggests someone confused 'sophisticated' with 'complicated'."
+    }
+  ],
+  "savage_conclusions": [
+    "3 commands violate complexity<5 rule. Someone needs to re-read CLAUDE.md with comprehension this time."
+  ],
+  "recommendations": [
+    "PRIORITY 1: Simplify 3 overcomplicated commands. Complexity<5 is law.",
+    "PRIORITY 2: Fix 1 unreliable commands before they waste more tokens.",
+    "PRIORITY 3: Improve CLAUDE.md compliance across the board. Standards exist for a reason."
+  ]
+}
