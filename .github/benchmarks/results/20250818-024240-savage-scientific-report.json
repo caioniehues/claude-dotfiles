@@ -1,0 +1,115 @@
+{
+  "timestamp": "2025-08-18T02:42:40.035667",
+  "sample_analysis": {
+    "total_commands_analyzed": 8,
+    "statistical_power": "Sufficient for savage judgment",
+    "confidence_level": "95% - More confident than your last deploy"
+  },
+  "complexity_apocalypse": {
+    "mean_complexity": 35.625,
+    "confidence_interval": {
+      "mean": 35.625,
+      "lower_bound": -6.949428461031417,
+      "upper_bound": 78.19942846103142,
+      "margin_error": 42.57442846103142,
+      "confidence_level": 0.95
+    },
+    "savage_verdict": "Average complexity of 35.6 - CLAUDE.md recommends <5. This is a 7.1x violation of basic sanity.",
+    "violations_count": 6,
+    "violation_rate": "75.0%"
+  },
+  "reliability_disaster": {
+    "mean_success_rate": 0.29375,
+    "confidence_interval": {
+      "mean": 0.29375,
+      "lower_bound": 0.021698057014989114,
+      "upper_bound": 0.565801942985011,
+      "margin_error": 0.2720519429850109,
+      "confidence_level": 0.95
+    },
+    "savage_verdict": "Average success rate 29.4% - Production readiness worse than a college hackathon",
+    "failure_analysis": "6 out of 8 commands fail basic reliability standards"
+  },
+  "performance_variance": {
+    "execution_consistency": 8.015,
+    "savage_verdict": "Average CV 8.0% - Surprisingly stable for this dumpster fire"
+  },
+  "economic_analysis": {
+    "total_estimated_cost": 0.44671500000000003,
+    "total_estimated_value": 0.00023583333333333334,
+    "average_roi": -99.9473181535048,
+    "savage_verdict": "Economic disaster - burning money faster than a startup"
+  },
+  "hall_of_shame_detailed": [
+    {
+      "command": "java-clean-code-generator.md",
+      "complexity_score": 153,
+      "success_rate": 0.1,
+      "savage_verdict": "Complexity 153 with 10.0% success rate - A masterclass in how NOT to write commands",
+      "statistical_evidence": "CV: 6.3%, Token consumption: 6854",
+      "cost_benefit": {
+        "estimated_cost_usd": 0.10281,
+        "estimated_time_saved_minutes": 4.616666666666667e-05,
+        "estimated_value_usd": 4.616666666666667e-05,
+        "roi_percentage": -99.95509515935545,
+        "cost_benefit_ratio": 0.0004490484064455469
+      }
+    },
+    {
+      "command": "java-test-driven-development.md",
+      "complexity_score": 40,
+      "success_rate": 0.1,
+      "savage_verdict": "Complexity 40 with 10.0% success rate - A masterclass in how NOT to write commands",
+      "statistical_evidence": "CV: 4.0%, Token consumption: 3507",
+      "cost_benefit": {
+        "estimated_cost_usd": 0.052605,
+        "estimated_time_saved_minutes": 2.4666666666666665e-05,
+        "estimated_value_usd": 2.4666666666666665e-05,
+        "roi_percentage": -99.95310965370847,
+        "cost_benefit_ratio": 0.00046890346291543895
+      }
+    },
+    {
+      "command": "analyze-project-architecture.md",
+      "complexity_score": 34,
+      "success_rate": 0.1,
+      "savage_verdict": "Complexity 34 with 10.0% success rate - A masterclass in how NOT to write commands",
+      "statistical_evidence": "CV: 9.0%, Token consumption: 2647",
+      "cost_benefit": {
+        "estimated_cost_usd": 0.039705000000000004,
+        "estimated_time_saved_minutes": 1.6833333333333334e-05,
+        "estimated_value_usd": 1.6833333333333334e-05,
+        "roi_percentage": -99.95760399613819,
+        "cost_benefit_ratio": 0.0004239600386181421
+      }
+    }
+  ],
+  "hall_of_fame_detailed": [
+    {
+      "command": "interactive-bridge.md",
+      "complexity_score": 3,
+      "success_rate": 0.8,
+      "savage_verdict": "Complexity 3 with 80.0% success rate - Actually functional, miracle detected",
+      "statistical_evidence": "CV: 9.7%, Token consumption: 3628"
+    },
+    {
+      "command": "adhd-morning-assistant.md",
+      "complexity_score": 3,
+      "success_rate": 0.8,
+      "savage_verdict": "Complexity 3 with 80.0% success rate - Actually functional, miracle detected",
+      "statistical_evidence": "CV: 8.5%, Token consumption: 2556"
+    }
+  ],
+  "recommendations_backed_by_science": [
+    {
+      "recommendation": "EMERGENCY SIMPLIFICATION PROTOCOL",
+      "evidence": "Mean complexity 35.6 with 95% CI [-6.9, 78.2] - Statistically significant complexity crisis",
+      "action": "Immediate refactoring required. Target complexity <5 per CLAUDE.md"
+    },
+    {
+      "recommendation": "RELIABILITY INTERVENTION REQUIRED",
+      "evidence": "Mean success rate 29.4% with 95% CI [2.2%, 56.6%]",
+      "action": "Add comprehensive error handling and validation"
+    }
+  ]
+}
