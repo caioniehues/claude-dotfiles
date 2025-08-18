@@ -1,0 +1,453 @@
+{
+  "reasoning-wrapper": {
+    "hypocrisy_violations": [
+      {
+        "type": "Preaches simplicity while being complex",
+        "complexity_score": 21.45,
+        "example_lines": [
+          "- Simple enhancement: Direct wrapper"
+        ]
+      }
+    ],
+    "complexity_crimes": [
+      {
+        "type": "Thinking block explosion",
+        "count": 15,
+        "evidence": "15 thinking blocks for what should be simple logic"
+      },
+      {
+        "type": "XML tag hell",
+        "count": 67,
+        "evidence": "67 XML tags - this isn't enterprise Java"
+      }
+    ],
+    "token_waste_examples": [],
+    "specific_violations": [
+      {
+        "rule": "Complexity score must be < 5",
+        "violation": "Score: 21.4/5.0",
+        "severity": "CATASTROPHIC"
+      }
+    ],
+    "damning_quotes": [
+      {
+        "line": 12,
+        "quote": "- Add automatic complexity detection"
+      },
+      {
+        "line": 19,
+        "quote": "## Meta-Enhancement Complexity Assessment"
+      },
+      {
+        "line": 20,
+        "quote": "<complexity_detection>"
+      },
+      {
+        "line": 27,
+        "quote": "- Integration complexity: _____"
+      },
+      {
+        "line": 28,
+        "quote": "- Estimated complexity score: _____"
+      },
+      {
+        "line": 30,
+        "quote": "If complexity > 3:"
+      },
+      {
+        "line": 35,
+        "quote": "</complexity_detection>"
+      },
+      {
+        "line": 86,
+        "quote": "- Inject complexity detection"
+      },
+      {
+        "line": 94,
+        "quote": "- Add complexity annotations"
+      },
+      {
+        "line": 119,
+        "quote": "<complexity_detection>"
+      },
+      {
+        "line": 120,
+        "quote": "Command complexity: _____"
+      },
+      {
+        "line": 122,
+        "quote": "</complexity_detection>"
+      },
+      {
+        "line": 214,
+        "quote": "- Wrapping complex operations"
+      },
+      {
+        "line": 257,
+        "quote": "1. Complexity Assessment"
+      },
+      {
+        "line": 260,
+        "quote": "- Complex: Full orchestration with MCP"
+      },
+      {
+        "line": 313,
+        "quote": "- Complexity detection: [accurate?]"
+      },
+      {
+        "line": 326,
+        "quote": "- Complexity handling: [approach]"
+      },
+      {
+        "line": 331,
+        "quote": "- \u2705 Complexity detection (MCP at >3)"
+      },
+      {
+        "line": 375,
+        "quote": "### Force Complexity Mode"
+      },
+      {
+        "line": 377,
+        "quote": "/user:reasoning-wrapper --complex \"refactor entire system\""
+      }
+    ]
+  },
+  "senior-developer-analysis": {
+    "hypocrisy_violations": [
+      {
+        "type": "Preaches simplicity while being complex",
+        "complexity_score": 35.7,
+        "example_lines": [
+          "- Code complexity (simple/moderate/complex/architectural): _____",
+          "- Code complexity: [simple/moderate/complex]"
+        ]
+      }
+    ],
+    "complexity_crimes": [
+      {
+        "type": "Thinking block explosion",
+        "count": 42,
+        "evidence": "42 thinking blocks for what should be simple logic"
+      },
+      {
+        "type": "XML tag hell",
+        "count": 114,
+        "evidence": "114 XML tags - this isn't enterprise Java"
+      }
+    ],
+    "token_waste_examples": [
+      {
+        "type": "Massive template bloat",
+        "token_estimate": 2042,
+        "code_blocks": 4,
+        "evidence": "~2042 tokens for configuration"
+      }
+    ],
+    "specific_violations": [
+      {
+        "rule": "Complexity score must be < 5",
+        "violation": "Score: 35.7/5.0",
+        "severity": "NUCLEAR"
+      }
+    ],
+    "damning_quotes": [
+      {
+        "line": 19,
+        "quote": "## Automatic Complexity Assessment"
+      },
+      {
+        "line": 20,
+        "quote": "<complexity_detection>"
+      },
+      {
+        "line": 22,
+        "quote": "- Code complexity (simple/moderate/complex/architectural): _____"
+      },
+      {
+        "line": 23,
+        "quote": "- Domain complexity (business/technical/integration): _____"
+      },
+      {
+        "line": 26,
+        "quote": "- Estimated complexity score: _____"
+      },
+      {
+        "line": 28,
+        "quote": "If complexity > 3:"
+      },
+      {
+        "line": 31,
+        "quote": "If complexity <= 3:"
+      },
+      {
+        "line": 33,
+        "quote": "</complexity_detection>"
+      },
+      {
+        "line": 88,
+        "quote": "- Complexity indicators: [nested logic/design patterns/dependencies]"
+      },
+      {
+        "line": 164,
+        "quote": "- \"The complexity here is justified because of [specific business requirement]\""
+      },
+      {
+        "line": 259,
+        "quote": "- Deployment complexity and automation"
+      },
+      {
+        "line": 271,
+        "quote": "3. Complex domain that needs explanation?"
+      },
+      {
+        "line": 285,
+        "quote": "- **Complex legacy code**:"
+      },
+      {
+        "line": 288,
+        "quote": "\ud83d\udd0d Analyzing complex legacy implementation"
+      },
+      {
+        "line": 307,
+        "quote": "- Code complexity: [simple/moderate/complex]"
+      },
+      {
+        "line": 320,
+        "quote": "- Emphasize: [architectural decisions/patterns] due to [complexity level]"
+      },
+      {
+        "line": 343,
+        "quote": "- Complexity of the code being analyzed"
+      }
+    ]
+  },
+  "ultrathink-hybrid-mcp": {
+    "hypocrisy_violations": [],
+    "complexity_crimes": [
+      {
+        "type": "XML tag hell",
+        "count": 56,
+        "evidence": "56 XML tags - this isn't enterprise Java"
+      },
+      {
+        "type": "MCP dependency explosion",
+        "count": 16,
+        "evidence": "16 MCP calls - external dependency hell"
+      }
+    ],
+    "token_waste_examples": [
+      {
+        "type": "Massive template bloat",
+        "token_estimate": 2132,
+        "code_blocks": 15,
+        "evidence": "~2132 tokens for configuration"
+      }
+    ],
+    "specific_violations": [
+      {
+        "rule": "Keep functions < 20 lines (by analogy: keep commands reasonable)",
+        "violation": "536 lines",
+        "severity": "SEVERE"
+      },
+      {
+        "rule": "Complexity score must be < 5",
+        "violation": "Score: 14.6/5.0",
+        "severity": "CATASTROPHIC"
+      }
+    ],
+    "damning_quotes": [
+      {
+        "line": 83,
+        "quote": "- Complexity level: [assess difficulty]"
+      },
+      {
+        "line": 165,
+        "quote": "### \ud83e\udde0 Advanced Analysis"
+      },
+      {
+        "line": 233,
+        "quote": "- Cons: Complexity increase"
+      },
+      {
+        "line": 384,
+        "quote": "- Complexity: [level]"
+      },
+      {
+        "line": 503,
+        "quote": "### Example 3: Complex Integration"
+      },
+      {
+        "line": 515,
+        "quote": "- Medium to high complexity challenges"
+      },
+      {
+        "line": 523,
+        "quote": "- Higher quality for complex tasks"
+      }
+    ]
+  },
+  "safe-code-beautifier": {
+    "hypocrisy_violations": [
+      {
+        "type": "Preaches simplicity while being complex",
+        "complexity_score": 37.87,
+        "example_lines": [
+          "- Complexity level (simple/moderate/complex/legacy): _____",
+          "<thinking>Simpler expressions are easier to understand and debug</thinking>"
+        ]
+      }
+    ],
+    "complexity_crimes": [
+      {
+        "type": "Thinking block explosion",
+        "count": 47,
+        "evidence": "47 thinking blocks for what should be simple logic"
+      },
+      {
+        "type": "XML tag hell",
+        "count": 130,
+        "evidence": "130 XML tags - this isn't enterprise Java"
+      }
+    ],
+    "token_waste_examples": [
+      {
+        "type": "Massive template bloat",
+        "token_estimate": 2171,
+        "code_blocks": 4,
+        "evidence": "~2171 tokens for configuration"
+      }
+    ],
+    "specific_violations": [
+      {
+        "rule": "Complexity score must be < 5",
+        "violation": "Score: 37.9/5.0",
+        "severity": "NUCLEAR"
+      }
+    ],
+    "damning_quotes": [
+      {
+        "line": 19,
+        "quote": "## Automatic Complexity Assessment"
+      },
+      {
+        "line": 20,
+        "quote": "<complexity_detection>"
+      },
+      {
+        "line": 23,
+        "quote": "- Complexity level (simple/moderate/complex/legacy): _____"
+      },
+      {
+        "line": 26,
+        "quote": "- Estimated complexity score: _____"
+      },
+      {
+        "line": 28,
+        "quote": "If complexity > 3:"
+      },
+      {
+        "line": 31,
+        "quote": "If complexity <= 3:"
+      },
+      {
+        "line": 33,
+        "quote": "</complexity_detection>"
+      },
+      {
+        "line": 41,
+        "quote": "- Hidden complexity: [detect obscure patterns]"
+      },
+      {
+        "line": 87,
+        "quote": "- Complexity indicators: [nested structures/repeated patterns/unclear naming]"
+      },
+      {
+        "line": 139,
+        "quote": "- Code clarity problems: [complex expressions/unclear logic]"
+      },
+      {
+        "line": 156,
+        "quote": "4. Complexity reduction through extraction"
+      },
+      {
+        "line": 188,
+        "quote": "- Simplify complex nested structures"
+      },
+      {
+        "line": 214,
+        "quote": "#### Phase 4: Complexity Reduction"
+      },
+      {
+        "line": 215,
+        "quote": "<complexity_thinking>"
+      },
+      {
+        "line": 217,
+        "quote": "- Break down complex expressions"
+      },
+      {
+        "line": 220,
+        "quote": "- Extract complex calculations"
+      },
+      {
+        "line": 221,
+        "quote": "</complexity_thinking>"
+      },
+      {
+        "line": 223,
+        "quote": "- Simplify complex expressions while preserving logic"
+      },
+      {
+        "line": 226,
+        "quote": "<thinking>Flatter structure reduces cognitive complexity</thinking>"
+      },
+      {
+        "line": 258,
+        "quote": "- Interface definitions for complex objects"
+      },
+      {
+        "line": 261,
+        "quote": "### Complexity Reduction Strategy"
+      },
+      {
+        "line": 262,
+        "quote": "<complexity_strategy>"
+      },
+      {
+        "line": 264,
+        "quote": "- Extract complex conditions into well-named functions"
+      },
+      {
+        "line": 268,
+        "quote": "</complexity_strategy>"
+      },
+      {
+        "line": 309,
+        "quote": "3. Is the complexity too high for safe automated beautification?"
+      },
+      {
+        "line": 315,
+        "quote": "- **Code too complex for safe refactoring**:"
+      },
+      {
+        "line": 318,
+        "quote": "\u26a0\ufe0f Complex code detected: [specific complexity indicators]"
+      },
+      {
+        "line": 366,
+        "quote": "- Complexity reductions: [functions simplified/extracted]"
+      },
+      {
+        "line": 377,
+        "quote": "- Code complexity: [reduction achieved]"
+      }
+    ]
+  },
+  "adhd-context-switch": {
+    "hypocrisy_violations": [],
+    "complexity_crimes": [],
+    "token_waste_examples": [],
+    "specific_violations": [],
+    "damning_quotes": []
+  }
+}

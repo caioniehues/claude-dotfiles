@@ -1,0 +1,71 @@
+{
+  "benchmark_report": {
+    "timestamp": "2025-08-18T14:03:24Z",
+    "run_id": "20250818-140324",
+    "methodology": "Random command selection with statistical rigor",
+    "sample_size": 5,
+    "commands_tested": [
+      "reasoning-wrapper.md",
+      "senior-developer-analysis.md", 
+      "ultrathink-hybrid-mcp.md",
+      "safe-code-beautifier.md",
+      "adhd-context-switch.md"
+    ],
+    
+    "statistical_summary": {
+      "complexity_score": {
+        "mean": 23.022,
+        "standard_deviation": 13.802,
+        "confidence_interval_95": [5.863, 40.181],
+        "target_limit": 5.0,
+        "excess_over_limit": 18.022,
+        "excess_percentage": 360.4,
+        "t_statistic": 2.920,
+        "statistical_significance": "SIGNIFICANT"
+      },
+      "violation_rate": 1.0,
+      "failure_probabilities": {
+        "high_risk_commands": 3,
+        "average_failure_probability": 0.642
+      }
+    },
+    
+    "command_rankings": {
+      "best_performer": {
+        "command": "adhd-context-switch",
+        "complexity_score": 5.49,
+        "violation_severity": 0.49,
+        "failure_probability": 0.1,
+        "grade": "C+"
+      },
+      "worst_performer": {
+        "command": "safe-code-beautifier", 
+        "complexity_score": 37.87,
+        "violation_severity": 32.87,
+        "failure_probability": 0.9,
+        "grade": "F"
+      }
+    },
+    
+    "key_correlations": {
+      "thinking_blocks_complexity": 0.986,
+      "xml_tags_complexity": 0.992,
+      "complexity_token_usage": 0.629
+    },
+    
+    "performance_predictions": {
+      "average_execution_time": 14.8,
+      "slow_commands": 4,
+      "token_waste_total": 4426
+    },
+    
+    "claude_md_violations": {
+      "total_violations": 12,
+      "severity_breakdown": {
+        "complexity_limit_violations": 5,
+        "token_waste_violations": 4,
+        "overthinking_violations": 3
+      }
+    }
+  }
+}

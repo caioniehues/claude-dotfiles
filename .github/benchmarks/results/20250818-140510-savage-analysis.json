@@ -1,0 +1,127 @@
+{
+  "timestamp": "20250818-140510",
+  "selected_commands": [
+    "reasoning-wrapper.md",
+    "senior-developer-analysis.md",
+    "ultrathink-hybrid-mcp.md",
+    "safe-code-beautifier.md",
+    "adhd-context-switch.md"
+  ],
+  "benchmarks": {
+    "reasoning-wrapper": {
+      "line_count": 415,
+      "character_count": 10162,
+      "word_count": 1200,
+      "complexity_indicators": {
+        "thinking_blocks": 30,
+        "xml_tags": 67,
+        "mcp_calls": 2,
+        "conditional_complexity": 7,
+        "template_variables": 7
+      },
+      "structural_metrics": {
+        "sections": 37,
+        "code_blocks": 20,
+        "examples": 3
+      },
+      "complexity_score": 21.45,
+      "estimated_token_usage": 1560,
+      "maintainability_score": 1,
+      "violation_score": 16.45
+    },
+    "senior-developer-analysis": {
+      "line_count": 390,
+      "character_count": 13387,
+      "word_count": 1571,
+      "complexity_indicators": {
+        "thinking_blocks": 60,
+        "xml_tags": 114,
+        "mcp_calls": 1,
+        "conditional_complexity": 5,
+        "template_variables": 5
+      },
+      "structural_metrics": {
+        "sections": 30,
+        "code_blocks": 8,
+        "examples": 4
+      },
+      "complexity_score": 35.7,
+      "estimated_token_usage": 2042,
+      "maintainability_score": 1,
+      "violation_score": 30.7
+    },
+    "ultrathink-hybrid-mcp": {
+      "line_count": 536,
+      "character_count": 13338,
+      "word_count": 1640,
+      "complexity_indicators": {
+        "thinking_blocks": 6,
+        "xml_tags": 56,
+        "mcp_calls": 16,
+        "conditional_complexity": 8,
+        "template_variables": 7
+      },
+      "structural_metrics": {
+        "sections": 48,
+        "code_blocks": 30,
+        "examples": 4
+      },
+      "complexity_score": 14.6,
+      "estimated_token_usage": 2132,
+      "maintainability_score": 1,
+      "violation_score": 9.6
+    },
+    "safe-code-beautifier": {
+      "line_count": 427,
+      "character_count": 14547,
+      "word_count": 1670,
+      "complexity_indicators": {
+        "thinking_blocks": 63,
+        "xml_tags": 130,
+        "mcp_calls": 1,
+        "conditional_complexity": 8,
+        "template_variables": 4
+      },
+      "structural_metrics": {
+        "sections": 26,
+        "code_blocks": 8,
+        "examples": 0
+      },
+      "complexity_score": 37.87,
+      "estimated_token_usage": 2171,
+      "maintainability_score": 1,
+      "violation_score": 32.87
+    },
+    "adhd-context-switch": {
+      "line_count": 399,
+      "character_count": 9885,
+      "word_count": 1170,
+      "complexity_indicators": {
+        "thinking_blocks": 0,
+        "xml_tags": 28,
+        "mcp_calls": 4,
+        "conditional_complexity": 3,
+        "template_variables": 131
+      },
+      "structural_metrics": {
+        "sections": 67,
+        "code_blocks": 26,
+        "examples": 0
+      },
+      "complexity_score": 5.49,
+      "estimated_token_usage": 1521,
+      "maintainability_score": 1,
+      "violation_score": 0.49
+    }
+  },
+  "statistics": {
+    "complexity_mean": 23.022,
+    "complexity_stdev": 13.801875597178812,
+    "lines_mean": 433.4,
+    "lines_stdev": 59.10414537069291,
+    "tokens_mean": 1885.2,
+    "tokens_stdev": 318.4237742380427,
+    "violation_mean": 18.022,
+    "violation_stdev": 13.801875597178812
+  }
+}

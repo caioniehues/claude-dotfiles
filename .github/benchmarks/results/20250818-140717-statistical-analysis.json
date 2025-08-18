@@ -1,0 +1,124 @@
+{
+  "timestamp": "20250818-140717",
+  "sample_size": 5,
+  "complexity_analysis": {
+    "mean": 23.022,
+    "std": 13.801875597178812,
+    "ci_95": [
+      5.862765778928246,
+      40.18123422107175
+    ],
+    "t_statistic": 2.91977831612527,
+    "exceeds_target_by": 18.022,
+    "excess_percentage": 360.43999999999994
+  },
+  "correlations": {
+    "complexity_tokens": 0.628536796942777,
+    "complexity_lines": -0.2688710035635935,
+    "thinking_complexity": 0.9860220390321854,
+    "xml_complexity": 0.992152217898776
+  },
+  "outlier_analysis": {
+    "reasoning-wrapper": {
+      "z_complexity": -0.11389756333706744,
+      "z_lines": -0.3113148812929746,
+      "z_tokens": -1.0212805271157035,
+      "is_outlier_complexity": false,
+      "is_outlier_lines": false,
+      "is_outlier_tokens": false,
+      "severity": "MODERATE",
+      "failure_probability": 0.8225
+    },
+    "senior-developer-analysis": {
+      "z_complexity": 0.918570806607724,
+      "z_lines": -0.7342970569627776,
+      "z_tokens": 0.4924255432095395,
+      "is_outlier_complexity": false,
+      "is_outlier_lines": false,
+      "is_outlier_tokens": false,
+      "severity": "MODERATE",
+      "failure_probability": 0.9
+    },
+    "ultrathink-hybrid-mcp": {
+      "z_complexity": -0.610206920117546,
+      "z_lines": 1.7359188489488717,
+      "z_tokens": 0.7750677555109334,
+      "is_outlier_complexity": false,
+      "is_outlier_lines": false,
+      "is_outlier_tokens": false,
+      "severity": "MODERATE",
+      "failure_probability": 0.48
+    },
+    "safe-code-beautifier": {
+      "z_complexity": 1.0757958145221234,
+      "z_lines": -0.10828343697146917,
+      "z_tokens": 0.8975460475082041,
+      "is_outlier_complexity": false,
+      "is_outlier_lines": false,
+      "is_outlier_tokens": false,
+      "severity": "MODERATE",
+      "failure_probability": 0.9
+    },
+    "adhd-context-switch": {
+      "z_complexity": -1.2702621376752334,
+      "z_lines": -0.5820234737216484,
+      "z_tokens": -1.1437588191129742,
+      "is_outlier_complexity": false,
+      "is_outlier_lines": false,
+      "is_outlier_tokens": false,
+      "severity": "MODERATE",
+      "failure_probability": 0.1
+    }
+  },
+  "execution_predictions": {
+    "reasoning-wrapper": 13.344999999999999,
+    "senior-developer-analysis": 21.434,
+    "ultrathink-hybrid-mcp": 11.064,
+    "safe-code-beautifier": 22.777,
+    "adhd-context-switch": 5.287
+  },
+  "violation_rate": 1.0,
+  "average_violation_severity": 18.022,
+  "violations_by_command": [
+    [
+      "reasoning-wrapper",
+      [
+        "Complexity: 21.4/5.0 (16.4 over)",
+        "Thinking blocks: 30 (overthinking)"
+      ]
+    ],
+    [
+      "senior-developer-analysis",
+      [
+        "Complexity: 35.7/5.0 (30.7 over)",
+        "Tokens: ~2042 (token waste)",
+        "Thinking blocks: 60 (overthinking)"
+      ]
+    ],
+    [
+      "ultrathink-hybrid-mcp",
+      [
+        "Complexity: 14.6/5.0 (9.6 over)",
+        "Length: 536 lines (excessive)",
+        "Tokens: ~2132 (token waste)"
+      ]
+    ],
+    [
+      "safe-code-beautifier",
+      [
+        "Complexity: 37.9/5.0 (32.9 over)",
+        "Tokens: ~2171 (token waste)",
+        "Thinking blocks: 63 (overthinking)"
+      ]
+    ],
+    [
+      "adhd-context-switch",
+      [
+        "Complexity: 5.5/5.0 (0.5 over)"
+      ]
+    ]
+  ],
+  "worst_offender": "safe-code-beautifier",
+  "best_performer": "adhd-context-switch",
+  "total_token_waste": 4426
+}
