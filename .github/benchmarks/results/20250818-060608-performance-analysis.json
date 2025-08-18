@@ -1,0 +1,106 @@
+{
+  "timestamp": "20250818-060608",
+  "performance_summary": {
+    "mean_execution_time": 4.3824592760000005,
+    "std_execution_time": 1.7721216908277535,
+    "mean_token_usage": 4797.875,
+    "std_token_usage": 2226.2293834771704,
+    "mean_cost_efficiency": 0.8661929220202089,
+    "std_cost_efficiency": 0.2706872930900713
+  },
+  "performance_distribution": {
+    "high_cost": 5,
+    "medium_cost": 2,
+    "low_cost": 1
+  },
+  "detailed_profiles": {
+    "ultrathink-interactive.md": {
+      "complexity_score": 4.673,
+      "input_tokens": 5093,
+      "estimated_output_tokens": 2800,
+      "total_tokens": 7893,
+      "estimated_execution_time": 5.803547472000001,
+      "mcp_dependencies": 11,
+      "has_sequential_thinking": true,
+      "cost_efficiency_score": 0.5920435829215761,
+      "performance_class": "HIGH"
+    },
+    "adhd-hyperfocus-guardian.md": {
+      "complexity_score": 2.957,
+      "input_tokens": 3005,
+      "estimated_output_tokens": 1800,
+      "total_tokens": 4805,
+      "estimated_execution_time": 3.3052624799999997,
+      "mcp_dependencies": 5,
+      "has_sequential_thinking": false,
+      "cost_efficiency_score": 0.6154006243496358,
+      "performance_class": "MEDIUM"
+    },
+    "adaptive-complexity-router.md": {
+      "complexity_score": 5.0,
+      "input_tokens": 2796,
+      "estimated_output_tokens": 2200,
+      "total_tokens": 4996,
+      "estimated_execution_time": 5.458992,
+      "mcp_dependencies": 6,
+      "has_sequential_thinking": true,
+      "cost_efficiency_score": 1.00080064051241,
+      "performance_class": "HIGH"
+    },
+    "generate-thinking-command.md": {
+      "complexity_score": 2.237,
+      "input_tokens": 950,
+      "estimated_output_tokens": 1200,
+      "total_tokens": 2150,
+      "estimated_execution_time": 2.2462584000000003,
+      "mcp_dependencies": 0,
+      "has_sequential_thinking": true,
+      "cost_efficiency_score": 1.04046511627907,
+      "performance_class": "MEDIUM"
+    },
+    "context-enhanced-executor.md": {
+      "complexity_score": 1.432,
+      "input_tokens": 971,
+      "estimated_output_tokens": 1200,
+      "total_tokens": 2171,
+      "estimated_execution_time": 1.520877856,
+      "mcp_dependencies": 0,
+      "has_sequential_thinking": true,
+      "cost_efficiency_score": 0.6596038691847075,
+      "performance_class": "LOW"
+    },
+    "ultrathink-full-mcp.md": {
+      "complexity_score": 5.0,
+      "input_tokens": 4514,
+      "estimated_output_tokens": 3500,
+      "total_tokens": 8014,
+      "estimated_execution_time": 6.219528,
+      "mcp_dependencies": 43,
+      "has_sequential_thinking": true,
+      "cost_efficiency_score": 0.6239081607187422,
+      "performance_class": "HIGH"
+    },
+    "adhd-morning-assistant.md": {
+      "complexity_score": 5.0,
+      "input_tokens": 2223,
+      "estimated_output_tokens": 1800,
+      "total_tokens": 4023,
+      "estimated_execution_time": 5.213796,
+      "mcp_dependencies": 26,
+      "has_sequential_thinking": false,
+      "cost_efficiency_score": 1.2428535918468806,
+      "performance_class": "HIGH"
+    },
+    "ultrathink-pure-xml.md": {
+      "complexity_score": 5.0,
+      "input_tokens": 2831,
+      "estimated_output_tokens": 1500,
+      "total_tokens": 4331,
+      "estimated_execution_time": 5.291412,
+      "mcp_dependencies": 19,
+      "has_sequential_thinking": false,
+      "cost_efficiency_score": 1.154467790348649,
+      "performance_class": "HIGH"
+    }
+  }
+}

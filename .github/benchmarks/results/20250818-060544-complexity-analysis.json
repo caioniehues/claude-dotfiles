@@ -1,0 +1,124 @@
+{
+  "timestamp": "20250818-060544",
+  "sample_size": 8,
+  "population_size": 24,
+  "statistical_summary": {
+    "mean": 3.912375,
+    "std_dev": 1.4727110993480212,
+    "median": 4.8365,
+    "min": 1.432,
+    "max": 5.0,
+    "cv_percent": 37.64238089007371
+  },
+  "classification_counts": {
+    "simple": 1,
+    "moderate": 2,
+    "complex": 5
+  },
+  "detailed_results": {
+    "ultrathink-interactive.md": {
+      "complexity_score": 4.673,
+      "factors": {
+        "file_length": 673,
+        "mcp_tools_count": 3,
+        "thinking_blocks": 0,
+        "orchestration_blocks": 0,
+        "complex_patterns": 9,
+        "external_dependencies": 11
+      },
+      "cmd_name": "ultrathink-interactive",
+      "file_path": "/home/runner/work/claude-dotfiles/claude-dotfiles/commands/ultrathink-interactive.md"
+    },
+    "adhd-hyperfocus-guardian.md": {
+      "complexity_score": 2.957,
+      "factors": {
+        "file_length": 457,
+        "mcp_tools_count": 5,
+        "thinking_blocks": 0,
+        "orchestration_blocks": 0,
+        "complex_patterns": 0,
+        "external_dependencies": 5
+      },
+      "cmd_name": "adhd-hyperfocus-guardian",
+      "file_path": "/home/runner/work/claude-dotfiles/claude-dotfiles/commands/adhd-hyperfocus-guardian.md"
+    },
+    "adaptive-complexity-router.md": {
+      "complexity_score": 5.0,
+      "factors": {
+        "file_length": 499,
+        "mcp_tools_count": 2,
+        "thinking_blocks": 1,
+        "orchestration_blocks": 16,
+        "complex_patterns": 10,
+        "external_dependencies": 6
+      },
+      "cmd_name": "adaptive-complexity-router",
+      "file_path": "/home/runner/work/claude-dotfiles/claude-dotfiles/commands/adaptive-complexity-router.md"
+    },
+    "generate-thinking-command.md": {
+      "complexity_score": 2.237,
+      "factors": {
+        "file_length": 137,
+        "mcp_tools_count": 1,
+        "thinking_blocks": 0,
+        "orchestration_blocks": 4,
+        "complex_patterns": 2,
+        "external_dependencies": 0
+      },
+      "cmd_name": "generate-thinking-command",
+      "file_path": "/home/runner/work/claude-dotfiles/claude-dotfiles/commands/generate-thinking-command.md"
+    },
+    "context-enhanced-executor.md": {
+      "complexity_score": 1.432,
+      "factors": {
+        "file_length": 132,
+        "mcp_tools_count": 1,
+        "thinking_blocks": 0,
+        "orchestration_blocks": 2,
+        "complex_patterns": 2,
+        "external_dependencies": 0
+      },
+      "cmd_name": "context-enhanced-executor",
+      "file_path": "/home/runner/work/claude-dotfiles/claude-dotfiles/commands/context-enhanced-executor.md"
+    },
+    "ultrathink-full-mcp.md": {
+      "complexity_score": 5.0,
+      "factors": {
+        "file_length": 665,
+        "mcp_tools_count": 29,
+        "thinking_blocks": 3,
+        "orchestration_blocks": 10,
+        "complex_patterns": 60,
+        "external_dependencies": 43
+      },
+      "cmd_name": "ultrathink-full-mcp",
+      "file_path": "/home/runner/work/claude-dotfiles/claude-dotfiles/commands/ultrathink-full-mcp.md"
+    },
+    "adhd-morning-assistant.md": {
+      "complexity_score": 5.0,
+      "factors": {
+        "file_length": 309,
+        "mcp_tools_count": 7,
+        "thinking_blocks": 0,
+        "orchestration_blocks": 0,
+        "complex_patterns": 4,
+        "external_dependencies": 26
+      },
+      "cmd_name": "adhd-morning-assistant",
+      "file_path": "/home/runner/work/claude-dotfiles/claude-dotfiles/commands/adhd-morning-assistant.md"
+    },
+    "ultrathink-pure-xml.md": {
+      "complexity_score": 5.0,
+      "factors": {
+        "file_length": 472,
+        "mcp_tools_count": 0,
+        "thinking_blocks": 3,
+        "orchestration_blocks": 0,
+        "complex_patterns": 19,
+        "external_dependencies": 19
+      },
+      "cmd_name": "ultrathink-pure-xml",
+      "file_path": "/home/runner/work/claude-dotfiles/claude-dotfiles/commands/ultrathink-pure-xml.md"
+    }
+  }
+}

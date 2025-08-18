@@ -1,0 +1,210 @@
+{
+  "timestamp": "20250818-060635",
+  "reliability_summary": {
+    "mean_success_rate": 0.2689325000000001,
+    "std_success_rate": 0.19257336307050807,
+    "mean_failure_score": 0.515625,
+    "std_failure_score": 0.1695253352325672,
+    "mean_composability": 0.2,
+    "std_composability": 0.14142135623730953
+  },
+  "reliability_distribution": {
+    "high_reliability": 0,
+    "medium_reliability": 0,
+    "low_reliability": 8
+  },
+  "detailed_analysis": {
+    "ultrathink-interactive.md": {
+      "failure_indicators": {
+        "missing_error_handling": false,
+        "no_fallback_logic": true,
+        "hardcoded_dependencies": true,
+        "no_validation": false,
+        "complex_orchestration": false,
+        "deep_nesting": false,
+        "missing_timeout": true,
+        "no_confidence_tracking": false
+      },
+      "failure_score": 0.375,
+      "composition_factors": {
+        "can_chain": false,
+        "has_mcp_deps": true,
+        "self_contained": false,
+        "has_thinking_blocks": false,
+        "interactive_elements": true,
+        "state_dependent": true
+      },
+      "composition_score": 0.0,
+      "success_probability": 0.1576200000000001,
+      "reliability_class": "LOW"
+    },
+    "adhd-hyperfocus-guardian.md": {
+      "failure_indicators": {
+        "missing_error_handling": true,
+        "no_fallback_logic": true,
+        "hardcoded_dependencies": true,
+        "no_validation": false,
+        "complex_orchestration": false,
+        "deep_nesting": false,
+        "missing_timeout": true,
+        "no_confidence_tracking": true
+      },
+      "failure_score": 0.625,
+      "composition_factors": {
+        "can_chain": false,
+        "has_mcp_deps": true,
+        "self_contained": false,
+        "has_thinking_blocks": false,
+        "interactive_elements": false,
+        "state_dependent": true
+      },
+      "composition_score": 0.1,
+      "success_probability": 0.37090000000000006,
+      "reliability_class": "LOW"
+    },
+    "adaptive-complexity-router.md": {
+      "failure_indicators": {
+        "missing_error_handling": false,
+        "no_fallback_logic": false,
+        "hardcoded_dependencies": false,
+        "no_validation": false,
+        "complex_orchestration": true,
+        "deep_nesting": true,
+        "missing_timeout": false,
+        "no_confidence_tracking": true
+      },
+      "failure_score": 0.375,
+      "composition_factors": {
+        "can_chain": false,
+        "has_mcp_deps": true,
+        "self_contained": true,
+        "has_thinking_blocks": true,
+        "interactive_elements": false,
+        "state_dependent": true
+      },
+      "composition_score": 0.4,
+      "success_probability": 0.13754000000000005,
+      "reliability_class": "LOW"
+    },
+    "generate-thinking-command.md": {
+      "failure_indicators": {
+        "missing_error_handling": false,
+        "no_fallback_logic": true,
+        "hardcoded_dependencies": true,
+        "no_validation": false,
+        "complex_orchestration": true,
+        "deep_nesting": false,
+        "missing_timeout": true,
+        "no_confidence_tracking": true
+      },
+      "failure_score": 0.625,
+      "composition_factors": {
+        "can_chain": false,
+        "has_mcp_deps": false,
+        "self_contained": false,
+        "has_thinking_blocks": false,
+        "interactive_elements": false,
+        "state_dependent": true
+      },
+      "composition_score": 0.30000000000000004,
+      "success_probability": 0.5054500000000001,
+      "reliability_class": "LOW"
+    },
+    "context-enhanced-executor.md": {
+      "failure_indicators": {
+        "missing_error_handling": true,
+        "no_fallback_logic": true,
+        "hardcoded_dependencies": true,
+        "no_validation": true,
+        "complex_orchestration": false,
+        "deep_nesting": false,
+        "missing_timeout": true,
+        "no_confidence_tracking": true
+      },
+      "failure_score": 0.75,
+      "composition_factors": {
+        "can_chain": false,
+        "has_mcp_deps": false,
+        "self_contained": false,
+        "has_thinking_blocks": false,
+        "interactive_elements": false,
+        "state_dependent": true
+      },
+      "composition_score": 0.30000000000000004,
+      "success_probability": 0.5884900000000001,
+      "reliability_class": "LOW"
+    },
+    "ultrathink-full-mcp.md": {
+      "failure_indicators": {
+        "missing_error_handling": false,
+        "no_fallback_logic": true,
+        "hardcoded_dependencies": true,
+        "no_validation": false,
+        "complex_orchestration": true,
+        "deep_nesting": true,
+        "missing_timeout": true,
+        "no_confidence_tracking": false
+      },
+      "failure_score": 0.625,
+      "composition_factors": {
+        "can_chain": false,
+        "has_mcp_deps": true,
+        "self_contained": false,
+        "has_thinking_blocks": true,
+        "interactive_elements": true,
+        "state_dependent": true
+      },
+      "composition_score": 0.1,
+      "success_probability": 0.1,
+      "reliability_class": "LOW"
+    },
+    "adhd-morning-assistant.md": {
+      "failure_indicators": {
+        "missing_error_handling": false,
+        "no_fallback_logic": true,
+        "hardcoded_dependencies": true,
+        "no_validation": false,
+        "complex_orchestration": false,
+        "deep_nesting": false,
+        "missing_timeout": true,
+        "no_confidence_tracking": true
+      },
+      "failure_score": 0.5,
+      "composition_factors": {
+        "can_chain": false,
+        "has_mcp_deps": true,
+        "self_contained": false,
+        "has_thinking_blocks": false,
+        "interactive_elements": false,
+        "state_dependent": true
+      },
+      "composition_score": 0.1,
+      "success_probability": 0.10977000000000005,
+      "reliability_class": "LOW"
+    },
+    "ultrathink-pure-xml.md": {
+      "failure_indicators": {
+        "missing_error_handling": false,
+        "no_fallback_logic": true,
+        "hardcoded_dependencies": false,
+        "no_validation": false,
+        "complex_orchestration": false,
+        "deep_nesting": false,
+        "missing_timeout": true,
+        "no_confidence_tracking": false
+      },
+      "failure_score": 0.25,
+      "composition_factors": {
+        "can_chain": false,
+        "has_mcp_deps": true,
+        "self_contained": true,
+        "has_thinking_blocks": true,
+        "interactive_elements": true,
+        "state_dependent": true
+      },
+      "composition_score": 0.30000000000000004,
+      "success_probability": 0.18169000000000002,
+      "reliability_class": "LOW"
+    }
+  }
+}
