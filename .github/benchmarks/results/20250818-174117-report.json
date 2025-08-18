@@ -1,0 +1,321 @@
+{
+  "metadata": {
+    "timestamp": "20250818-174117",
+    "analysis_date": "2025-08-18T17:41:17.481211+00:00",
+    "total_commands": 3,
+    "selected_commands": [
+      "intelligent-refactor-session.md",
+      "ultrathink-full-mcp.md",
+      "ultrathink-pure-xml.md"
+    ],
+    "benchmarker_version": "SAVAGE_RANDOM_v1.0",
+    "methodology": "Truly random selection with PhD-level statistical analysis"
+  },
+  "statistical_summary": {
+    "complexity": {
+      "mean": 29.333333333333332,
+      "median": 35,
+      "stdev": 12.503332889007368,
+      "min": 15,
+      "max": 38,
+      "exceeds_limit": 3,
+      "violation_rate": 1.0
+    },
+    "tokens": {
+      "mean": 4746.25,
+      "median": 4783.75,
+      "stdev": 1262.417794353359,
+      "min": 3465.5,
+      "max": 5989.5,
+      "total_estimated": 14238.75
+    },
+    "maintainability": {
+      "mean": 7.166666666666667,
+      "median": 7,
+      "stdev": 0.28867513459481287,
+      "below_minimum": 0
+    },
+    "violations": {
+      "total": 2,
+      "mean_per_command": 0.6666666666666666,
+      "max_violations": 1
+    }
+  },
+  "savage_executive_summary": "\ud83d\udd2c RANDOM SAVAGE BENCHMARK REPORT - PhD in Code Destruction\n\n\ud83d\udcca SAMPLE: 3 randomly selected commands analyzed with scientific rigor\n\ud83c\udfb2 SELECTION: Truly random sampling with uniform distribution\n\ud83c\udfc6 CONFIDENCE: High statistical significance (\u03b1=0.05)\n\n\ud83d\udc80 BRUTAL FINDINGS:\n- COMPLEXITY CATASTROPHE: 100.0% exceed CLAUDE.md limits (\u03c3=12.50)\n- AVERAGE COMPLEXITY: 29.3/5 maximum allowed\n- TOKEN CONSUMPTION: 14239 total estimated tokens\n- PATTERN VIOLATIONS: 2 total violations detected\n\n\u2696\ufe0f SCIENTIFIC VERDICT:\n100.0% failure rate on basic complexity requirements. \nIf this was a medical trial, the FDA would shut it down immediately.\n\n\ud83d\udd2c METHODOLOGY: Random selection, multiple measurement techniques, statistical variance analysis",
+  "command_analyses": [
+    {
+      "file_name": "intelligent-refactor-session.md",
+      "file_path": "/home/runner/work/claude-dotfiles/claude-dotfiles/commands/intelligent-refactor-session.md",
+      "file_size_bytes": 16585,
+      "line_count": 534,
+      "character_count": 16531,
+      "word_count": 2048,
+      "token_estimate": 4783.75,
+      "complexity_score": 38,
+      "readability_score": 8.0,
+      "maintainability_index": 7,
+      "pattern_violations": [
+        "PREMATURE_OPTIMIZATION"
+      ],
+      "dependency_analysis": {
+        "mcp_tools": 1,
+        "external_commands": 0,
+        "system_calls": 17,
+        "file_operations": 0,
+        "network_calls": 7,
+        "async_operations": 0,
+        "total_dependencies": 25,
+        "dependency_risk": "HIGH"
+      },
+      "execution_phases": {
+        "initialization": 12,
+        "processing": 28,
+        "validation": 59,
+        "completion": 35,
+        "error_handling": 8,
+        "total_phases": 142,
+        "phase_complexity": "INSANE"
+      },
+      "error_handling_score": 4.5,
+      "integration_complexity": {
+        "external_apis": 9,
+        "file_system": 29,
+        "database": 0,
+        "network": 0,
+        "third_party": 0,
+        "total_integration_points": 38,
+        "integration_risk": "NUCLEAR"
+      },
+      "reusability_score": 8.0,
+      "documentation_quality": {
+        "has_title": true,
+        "has_description": true,
+        "has_usage": true,
+        "has_parameters": true,
+        "comment_density": 0.06741573033707865,
+        "structure_score": 5,
+        "documentation_score": 10.0,
+        "documentation_grade": "A"
+      },
+      "statistical_analysis": {
+        "complexity_percentile": 100,
+        "token_efficiency": 0.42811601776848707,
+        "lines_per_violation": 534.0,
+        "dependency_density": 4.681647940074907,
+        "maintainability_risk": "LOW"
+      },
+      "savage_verdict": {
+        "complexity": "COMPLEXITY APOCALYPSE: Score of 38. This isn't code, it's a distributed system with abandonment issues. The CLAUDE.md limit is <5, but you've created a monument to over-engineering.",
+        "tokens": "TOKEN HEMORRHAGING: 4784 tokens with 0.428 efficiency. This command consumes more resources than Chrome with 500 tabs open.",
+        "maintainability": "MAINTAINABILITY: Score of 7.0/10. Actually maintainable. Shocking.",
+        "violations": "Pattern violations: Surprisingly minimal. Did you actually follow guidelines?",
+        "dependencies": "DEPENDENCY OVERLOAD: HIGH risk. Like a house of cards in a hurricane."
+      },
+      "recommendations": [
+        "URGENT: Reduce complexity from 38 to <5. Remove unnecessary abstractions. Follow CLAUDE.md simplicity rules.",
+        "TOKEN OPTIMIZATION: Current usage 4784 tokens. Target <3000. Reduce verbosity and redundancy.",
+        "DEPENDENCY REDUCTION: 25 dependencies detected. Reduce external coupling for reliability."
+      ]
+    },
+    {
+      "file_name": "ultrathink-full-mcp.md",
+      "file_path": "/home/runner/work/claude-dotfiles/claude-dotfiles/commands/ultrathink-full-mcp.md",
+      "file_size_bytes": 18173,
+      "line_count": 665,
+      "character_count": 18058,
+      "word_count": 2027,
+      "token_estimate": 5989.5,
+      "complexity_score": 35,
+      "readability_score": 9.0,
+      "maintainability_index": 7,
+      "pattern_violations": [
+        "PREMATURE_OPTIMIZATION"
+      ],
+      "dependency_analysis": {
+        "mcp_tools": 29,
+        "external_commands": 3,
+        "system_calls": 40,
+        "file_operations": 0,
+        "network_calls": 0,
+        "async_operations": 0,
+        "total_dependencies": 72,
+        "dependency_risk": "CATASTROPHIC"
+      },
+      "execution_phases": {
+        "initialization": 9,
+        "processing": 17,
+        "validation": 17,
+        "completion": 28,
+        "error_handling": 1,
+        "total_phases": 72,
+        "phase_complexity": "INSANE"
+      },
+      "error_handling_score": 1.0,
+      "integration_complexity": {
+        "external_apis": 1,
+        "file_system": 1,
+        "database": 1,
+        "network": 0,
+        "third_party": 7,
+        "total_integration_points": 10,
+        "integration_risk": "HIGH"
+      },
+      "reusability_score": 8.0,
+      "documentation_quality": {
+        "has_title": true,
+        "has_description": true,
+        "has_usage": true,
+        "has_parameters": true,
+        "comment_density": 0.10075187969924812,
+        "structure_score": 5,
+        "documentation_score": 10.0,
+        "documentation_grade": "A"
+      },
+      "statistical_analysis": {
+        "complexity_percentile": 100,
+        "token_efficiency": 0.33842557809499957,
+        "lines_per_violation": 665.0,
+        "dependency_density": 10.827067669172932,
+        "maintainability_risk": "LOW"
+      },
+      "savage_verdict": {
+        "complexity": "COMPLEXITY APOCALYPSE: Score of 35. This isn't code, it's a distributed system with abandonment issues. The CLAUDE.md limit is <5, but you've created a monument to over-engineering.",
+        "tokens": "TOKEN HEMORRHAGING: 5990 tokens with 0.338 efficiency. This command consumes more resources than Chrome with 500 tabs open.",
+        "maintainability": "MAINTAINABILITY: Score of 7.0/10. Actually maintainable. Shocking.",
+        "violations": "Pattern violations: Surprisingly minimal. Did you actually follow guidelines?",
+        "dependencies": "DEPENDENCY HELL: CATASTROPHIC risk level. This command has more dependencies than a JavaScript project from 2016."
+      },
+      "recommendations": [
+        "URGENT: Reduce complexity from 35 to <5. Remove unnecessary abstractions. Follow CLAUDE.md simplicity rules.",
+        "TOKEN OPTIMIZATION: Current usage 5990 tokens. Target <3000. Reduce verbosity and redundancy.",
+        "DEPENDENCY REDUCTION: 72 dependencies detected. Reduce external coupling for reliability.",
+        "ERROR HANDLING: Score 1.0/10. Add proper validation and error recovery mechanisms."
+      ]
+    },
+    {
+      "file_name": "ultrathink-pure-xml.md",
+      "file_path": "/home/runner/work/claude-dotfiles/claude-dotfiles/commands/ultrathink-pure-xml.md",
+      "file_size_bytes": 11500,
+      "line_count": 472,
+      "character_count": 11326,
+      "word_count": 1514,
+      "token_estimate": 3465.5,
+      "complexity_score": 15,
+      "readability_score": 9.0,
+      "maintainability_index": 7.5,
+      "pattern_violations": [],
+      "dependency_analysis": {
+        "mcp_tools": 0,
+        "external_commands": 3,
+        "system_calls": 20,
+        "file_operations": 0,
+        "network_calls": 1,
+        "async_operations": 0,
+        "total_dependencies": 24,
+        "dependency_risk": "HIGH"
+      },
+      "execution_phases": {
+        "initialization": 8,
+        "processing": 5,
+        "validation": 17,
+        "completion": 18,
+        "error_handling": 2,
+        "total_phases": 50,
+        "phase_complexity": "INSANE"
+      },
+      "error_handling_score": 1.0,
+      "integration_complexity": {
+        "external_apis": 2,
+        "file_system": 6,
+        "database": 0,
+        "network": 0,
+        "third_party": 3,
+        "total_integration_points": 11,
+        "integration_risk": "HIGH"
+      },
+      "reusability_score": 2.0,
+      "documentation_quality": {
+        "has_title": true,
+        "has_description": true,
+        "has_usage": true,
+        "has_parameters": true,
+        "comment_density": 0.06991525423728813,
+        "structure_score": 5,
+        "documentation_score": 10.0,
+        "documentation_grade": "A"
+      },
+      "statistical_analysis": {
+        "complexity_percentile": 75.0,
+        "token_efficiency": 0.43687779541191746,
+        "lines_per_violation": 472.0,
+        "dependency_density": 5.084745762711865,
+        "maintainability_risk": "LOW"
+      },
+      "savage_verdict": {
+        "complexity": "COMPLEXITY APOCALYPSE: Score of 15. This isn't code, it's a distributed system with abandonment issues. The CLAUDE.md limit is <5, but you've created a monument to over-engineering.",
+        "tokens": "TOKEN HEMORRHAGING: 3466 tokens with 0.437 efficiency. This command consumes more resources than Chrome with 500 tabs open.",
+        "maintainability": "MAINTAINABILITY: Score of 7.5/10. Actually maintainable. Shocking.",
+        "violations": "Pattern violations: Surprisingly minimal. Did you actually follow guidelines?",
+        "dependencies": "DEPENDENCY OVERLOAD: HIGH risk. Like a house of cards in a hurricane."
+      },
+      "recommendations": [
+        "URGENT: Reduce complexity from 15 to <5. Remove unnecessary abstractions. Follow CLAUDE.md simplicity rules.",
+        "TOKEN OPTIMIZATION: Current usage 3466 tokens. Target <3000. Reduce verbosity and redundancy.",
+        "DEPENDENCY REDUCTION: 24 dependencies detected. Reduce external coupling for reliability.",
+        "ERROR HANDLING: Score 1.0/10. Add proper validation and error recovery mechanisms."
+      ]
+    }
+  ],
+  "rankings": {
+    "most_complex": [
+      {
+        "name": "intelligent-refactor-session.md",
+        "score": 38
+      },
+      {
+        "name": "ultrathink-full-mcp.md",
+        "score": 35
+      },
+      {
+        "name": "ultrathink-pure-xml.md",
+        "score": 15
+      }
+    ],
+    "biggest_token_wasters": [
+      {
+        "name": "ultrathink-full-mcp.md",
+        "tokens": 5989.5
+      },
+      {
+        "name": "intelligent-refactor-session.md",
+        "tokens": 4783.75
+      },
+      {
+        "name": "ultrathink-pure-xml.md",
+        "tokens": 3465.5
+      }
+    ],
+    "least_maintainable": [
+      {
+        "name": "intelligent-refactor-session.md",
+        "score": 7
+      },
+      {
+        "name": "ultrathink-full-mcp.md",
+        "score": 7
+      },
+      {
+        "name": "ultrathink-pure-xml.md",
+        "score": 7.5
+      }
+    ]
+  },
+  "phd_savage_insights": [
+    "COMPLEXITY EPIDEMIC: 100% of commands violate basic complexity limits. This isn't software engineering, it's architectural anarchy with a computer science degree.",
+    "TOKEN HEMORRHAGING: Average 4746 tokens per command. You're burning computational resources like a cryptocurrency mining operation."
+  ],
+  "evidence_based_recommendations": [
+    "EMERGENCY REFACTORING REQUIRED: 3 commands exceed limits. Priority targets: intelligent-refactor-session.md, ultrathink-full-mcp.md, ultrathink-pure-xml.md",
+    "TOKEN OPTIMIZATION CAMPAIGN: Average 4746 tokens per command. Optimize: ultrathink-full-mcp.md, intelligent-refactor-session.md, ultrathink-pure-xml.md"
+  ]
+}
