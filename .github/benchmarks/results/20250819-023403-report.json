@@ -1,0 +1,215 @@
+{
+  "benchmark_metadata": {
+    "timestamp": "20250819-023403",
+    "total_commands_tested": 5,
+    "total_samples": 25,
+    "framework_version": "1.0"
+  },
+  "aggregate_statistics": {
+    "average_success_rate": 0.6,
+    "average_savage_score": 1.6999999999999995,
+    "total_estimated_cost": 1.7403000000000002,
+    "compliance_rate": 0.0
+  },
+  "savage_rankings": [
+    {
+      "rank": 1,
+      "command_name": "context-enhanced-executor",
+      "savage_score": 3.499999999999999,
+      "judgment": "\u274c context-enhanced-executor is struggling. 60.0% success rate is gambling territory.",
+      "key_metrics": {
+        "success_rate": 0.6,
+        "avg_execution_time": 7.444187463236777,
+        "complexity_score": 5,
+        "total_tokens": 11724
+      }
+    },
+    {
+      "rank": 2,
+      "command_name": "git-backup-sync",
+      "savage_score": 3.0,
+      "judgment": "\u274c git-backup-sync is struggling. 100.0% success rate is gambling territory.",
+      "key_metrics": {
+        "success_rate": 1.0,
+        "avg_execution_time": 17.461061584670034,
+        "complexity_score": 8,
+        "total_tokens": 32090
+      }
+    },
+    {
+      "rank": 3,
+      "command_name": "adhd-morning-assistant",
+      "savage_score": 0.9999999999999991,
+      "judgment": "\ud83d\udc80 adhd-morning-assistant is a disaster. 60.0% success rate with 12.4s execution time. Delete this.",
+      "key_metrics": {
+        "success_rate": 0.6,
+        "avg_execution_time": 12.370795941333299,
+        "complexity_score": 5,
+        "total_tokens": 25266
+      }
+    },
+    {
+      "rank": 4,
+      "command_name": "java-rapid-implementation",
+      "savage_score": 0.9999999999999991,
+      "judgment": "\ud83d\udc80 java-rapid-implementation is a disaster. 60.0% success rate with 14.8s execution time. Delete this.",
+      "key_metrics": {
+        "success_rate": 0.6,
+        "avg_execution_time": 14.752251961636372,
+        "complexity_score": 10,
+        "total_tokens": 24685
+      }
+    },
+    {
+      "rank": 5,
+      "command_name": "java-clean-code-generator",
+      "savage_score": 0.0,
+      "judgment": "\ud83d\udc80 java-clean-code-generator is a disaster. 20.0% success rate with 31.1s execution time. Delete this.",
+      "key_metrics": {
+        "success_rate": 0.2,
+        "avg_execution_time": 31.109336221665284,
+        "complexity_score": 10,
+        "total_tokens": 80265
+      }
+    }
+  ],
+  "detailed_results": [
+    {
+      "command_name": "context-enhanced-executor",
+      "sample_size": 5,
+      "execution_times": [
+        7.450100346191361,
+        7.418721792213717,
+        7.5581453053985586,
+        7.24472560448389,
+        7.549244267896359
+      ],
+      "mean_execution_time": 7.444187463236777,
+      "std_dev": 0.12697619627128634,
+      "success_rate": 0.6,
+      "total_tokens": 11724,
+      "avg_complexity": 5,
+      "cost_estimate": 0.11724000000000001,
+      "savage_score": 3.499999999999999,
+      "judgment": "\u274c context-enhanced-executor is struggling. 60.0% success rate is gambling territory.",
+      "recommendations": [
+        "REDUCE COMPLEXITY: Score 5.0 violates CLAUDE.md rule (max 5)",
+        "FIX RELIABILITY: 60.0% success rate is unacceptable",
+        "MAJOR REFACTOR NEEDED: Multiple critical issues detected"
+      ]
+    },
+    {
+      "command_name": "git-backup-sync",
+      "sample_size": 5,
+      "execution_times": [
+        17.29907713234963,
+        17.482436312755503,
+        17.49645899420984,
+        17.543614907528568,
+        17.483720576506627
+      ],
+      "mean_execution_time": 17.461061584670034,
+      "std_dev": 0.09391126053678758,
+      "success_rate": 1.0,
+      "total_tokens": 32090,
+      "avg_complexity": 8,
+      "cost_estimate": 0.3209,
+      "savage_score": 3.0,
+      "judgment": "\u274c git-backup-sync is struggling. 100.0% success rate is gambling territory.",
+      "recommendations": [
+        "REDUCE COMPLEXITY: Score 8.0 violates CLAUDE.md rule (max 5)",
+        "OPTIMIZE PERFORMANCE: 17.5s execution time is too slow",
+        "MAJOR REFACTOR NEEDED: Multiple critical issues detected"
+      ]
+    },
+    {
+      "command_name": "adhd-morning-assistant",
+      "sample_size": 5,
+      "execution_times": [
+        12.275580904585512,
+        12.451918786785395,
+        12.544545788233517,
+        12.369083513184735,
+        12.212850713877332
+      ],
+      "mean_execution_time": 12.370795941333299,
+      "std_dev": 0.13302768119949457,
+      "success_rate": 0.6,
+      "total_tokens": 25266,
+      "avg_complexity": 5,
+      "cost_estimate": 0.25266,
+      "savage_score": 0.9999999999999991,
+      "judgment": "\ud83d\udc80 adhd-morning-assistant is a disaster. 60.0% success rate with 12.4s execution time. Delete this.",
+      "recommendations": [
+        "REDUCE COMPLEXITY: Score 5.0 violates CLAUDE.md rule (max 5)",
+        "FIX RELIABILITY: 60.0% success rate is unacceptable",
+        "OPTIMIZE PERFORMANCE: 12.4s execution time is too slow",
+        "MAJOR REFACTOR NEEDED: Multiple critical issues detected"
+      ]
+    },
+    {
+      "command_name": "java-rapid-implementation",
+      "sample_size": 5,
+      "execution_times": [
+        14.695713807380987,
+        14.668648121366282,
+        14.901721918504602,
+        14.839134467026561,
+        14.656041493903425
+      ],
+      "mean_execution_time": 14.752251961636372,
+      "std_dev": 0.11105455511253452,
+      "success_rate": 0.6,
+      "total_tokens": 24685,
+      "avg_complexity": 10,
+      "cost_estimate": 0.24685,
+      "savage_score": 0.9999999999999991,
+      "judgment": "\ud83d\udc80 java-rapid-implementation is a disaster. 60.0% success rate with 14.8s execution time. Delete this.",
+      "recommendations": [
+        "REDUCE COMPLEXITY: Score 10.0 violates CLAUDE.md rule (max 5)",
+        "FIX RELIABILITY: 60.0% success rate is unacceptable",
+        "OPTIMIZE PERFORMANCE: 14.8s execution time is too slow",
+        "MAJOR REFACTOR NEEDED: Multiple critical issues detected"
+      ]
+    },
+    {
+      "command_name": "java-clean-code-generator",
+      "sample_size": 5,
+      "execution_times": [
+        31.052540841332917,
+        31.11215047960967,
+        30.968305968960575,
+        31.1647149002623,
+        31.248968918160962
+      ],
+      "mean_execution_time": 31.109336221665284,
+      "std_dev": 0.10687288644300255,
+      "success_rate": 0.2,
+      "total_tokens": 80265,
+      "avg_complexity": 10,
+      "cost_estimate": 0.8026500000000001,
+      "savage_score": 0.0,
+      "judgment": "\ud83d\udc80 java-clean-code-generator is a disaster. 20.0% success rate with 31.1s execution time. Delete this.",
+      "recommendations": [
+        "REDUCE COMPLEXITY: Score 10.0 violates CLAUDE.md rule (max 5)",
+        "FIX RELIABILITY: 20.0% success rate is unacceptable",
+        "OPTIMIZE PERFORMANCE: 31.1s execution time is too slow",
+        "MAJOR REFACTOR NEEDED: Multiple critical issues detected"
+      ]
+    }
+  ],
+  "critical_issues": [
+    "git-backup-sync",
+    "java-clean-code-generator",
+    "adhd-morning-assistant",
+    "java-rapid-implementation",
+    "context-enhanced-executor"
+  ],
+  "compliance_violations": [
+    "git-backup-sync",
+    "java-clean-code-generator",
+    "adhd-morning-assistant",
+    "java-rapid-implementation",
+    "context-enhanced-executor"
+  ]
+}
