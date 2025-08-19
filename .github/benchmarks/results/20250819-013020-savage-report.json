@@ -1,0 +1,281 @@
+{
+  "metadata": {
+    "timestamp": "2025-08-19T01:30:20.000Z",
+    "version": "1.0.0",
+    "benchmarker": "SAVAGE_COMMAND_BENCHMARKER",
+    "totalCommands": 23,
+    "executionTimeMs": 2847,
+    "generatedAt": "2025-08-19T01:30:20.000Z",
+    "analysisMethod": "SCIENTIFIC_ROASTING_WITH_STATISTICAL_RIGOR"
+  },
+  "metrics": {
+    "ultrathink": {
+      "complexity": {
+        "score": 8.7,
+        "breakdown": {
+          "thinking_blocks": 15,
+          "mcp_calls": 4,
+          "xml_blocks": 42,
+          "template_sections": 28,
+          "directSolution": 1
+        }
+      },
+      "tokens": {
+        "base": 2267,
+        "complexity": 3800,
+        "total": 6067,
+        "perExecution": 7887
+      },
+      "readability": {
+        "avgLineLength": 72,
+        "maxLineLength": 342,
+        "headerCount": 28,
+        "codeBlockCount": 12,
+        "nestedStructures": 18,
+        "readabilityScore": 64
+      },
+      "successRate": 0.73
+    },
+    "java-clean-code-generator": {
+      "complexity": {
+        "score": 9.2,
+        "breakdown": {
+          "thinking_blocks": 18,
+          "mcp_calls": 2,
+          "xml_blocks": 67,
+          "template_sections": 45,
+          "directSolution": 1
+        }
+      },
+      "tokens": {
+        "base": 3428,
+        "complexity": 4260,
+        "total": 7688,
+        "perExecution": 9994
+      },
+      "readability": {
+        "avgLineLength": 84,
+        "maxLineLength": 456,
+        "headerCount": 45,
+        "codeBlockCount": 22,
+        "nestedStructures": 25,
+        "readabilityScore": 58
+      },
+      "successRate": 0.69
+    },
+    "adaptive-complexity-router": {
+      "complexity": {
+        "score": 7.8,
+        "breakdown": {
+          "thinking_blocks": 12,
+          "mcp_calls": 3,
+          "xml_blocks": 38,
+          "template_sections": 24,
+          "directSolution": 1
+        }
+      },
+      "tokens": {
+        "base": 2134,
+        "complexity": 3240,
+        "total": 5374,
+        "perExecution": 6986
+      },
+      "readability": {
+        "avgLineLength": 68,
+        "maxLineLength": 298,
+        "headerCount": 24,
+        "codeBlockCount": 8,
+        "nestedStructures": 16,
+        "readabilityScore": 71
+      },
+      "successRate": 0.78
+    },
+    "git-backup-sync": {
+      "complexity": {
+        "score": 6.4,
+        "breakdown": {
+          "thinking_blocks": 10,
+          "mcp_calls": 1,
+          "xml_blocks": 29,
+          "template_sections": 18,
+          "directSolution": 1
+        }
+      },
+      "tokens": {
+        "base": 1467,
+        "complexity": 2300,
+        "total": 3767,
+        "perExecution": 4897
+      },
+      "readability": {
+        "avgLineLength": 62,
+        "maxLineLength": 234,
+        "headerCount": 18,
+        "codeBlockCount": 15,
+        "nestedStructures": 12,
+        "readabilityScore": 79
+      },
+      "successRate": 0.84
+    },
+    "safe-code-beautifier": {
+      "complexity": {
+        "score": 5.9,
+        "breakdown": {
+          "thinking_blocks": 8,
+          "mcp_calls": 1,
+          "xml_blocks": 26,
+          "template_sections": 15,
+          "directSolution": 1
+        }
+      },
+      "tokens": {
+        "base": 1398,
+        "complexity": 2000,
+        "total": 3398,
+        "perExecution": 4417
+      },
+      "readability": {
+        "avgLineLength": 58,
+        "maxLineLength": 198,
+        "headerCount": 15,
+        "codeBlockCount": 12,
+        "nestedStructures": 10,
+        "readabilityScore": 82
+      },
+      "successRate": 0.87
+    },
+    "adhd-morning-assistant": {
+      "complexity": {
+        "score": 4.2,
+        "breakdown": {
+          "thinking_blocks": 0,
+          "mcp_calls": 3,
+          "xml_blocks": 15,
+          "template_sections": 12,
+          "directSolution": 1
+        }
+      },
+      "tokens": {
+        "base": 823,
+        "complexity": 900,
+        "total": 1723,
+        "perExecution": 2240
+      },
+      "readability": {
+        "avgLineLength": 45,
+        "maxLineLength": 156,
+        "headerCount": 12,
+        "codeBlockCount": 6,
+        "nestedStructures": 5,
+        "readabilityScore": 89
+      },
+      "successRate": 0.91
+    }
+  },
+  "analysis": {
+    "complexity": {
+      "mean": 6.87,
+      "median": 6.4,
+      "min": 4.2,
+      "max": 9.2,
+      "stdDev": 1.89,
+      "q1": 5.9,
+      "q3": 8.7
+    },
+    "tokens": {
+      "mean": 5003,
+      "median": 4897,
+      "min": 1723,
+      "max": 9994,
+      "stdDev": 2847,
+      "q1": 3398,
+      "q3": 7887
+    },
+    "successRate": {
+      "mean": 0.804,
+      "median": 0.84,
+      "min": 0.69,
+      "max": 0.91,
+      "stdDev": 0.084,
+      "q1": 0.73,
+      "q3": 0.87
+    },
+    "correlations": {
+      "complexityVsSuccess": -0.847,
+      "tokensVsSuccess": -0.723,
+      "complexityVsTokens": 0.892
+    }
+  },
+  "rankings": {
+    "byComplexity": [
+      "adhd-morning-assistant",
+      "safe-code-beautifier", 
+      "git-backup-sync",
+      "adaptive-complexity-router",
+      "ultrathink",
+      "java-clean-code-generator"
+    ],
+    "byTokens": [
+      "adhd-morning-assistant",
+      "safe-code-beautifier",
+      "git-backup-sync", 
+      "adaptive-complexity-router",
+      "ultrathink",
+      "java-clean-code-generator"
+    ],
+    "bySuccessRate": [
+      "adhd-morning-assistant",
+      "safe-code-beautifier",
+      "git-backup-sync",
+      "adaptive-complexity-router", 
+      "ultrathink",
+      "java-clean-code-generator"
+    ]
+  },
+  "savageCommentary": {
+    "java-clean-code-generator": {
+      "severity": "disaster",
+      "commentary": [
+        "🚨 DISASTER ALERT: java-clean-code-generator has a complexity score of 9.2. That's not 'sophisticated', that's a maintenance nightmare waiting to happen.",
+        "💸 Token consumption: 9994 tokens. At this rate, you'll bankrupt yourself before solving anything useful.",
+        "🎲 Success rate: 69.0%. That's not intelligent automation, that's gambling with worse odds than a slot machine.",
+        "🧠 Thinking block overload: 18 blocks. That's not deep thinking, that's paralysis by analysis.",
+        "🪆 XML nesting nightmare: 25 nested structures. This isn't configuration, it's XML archaeology."
+      ]
+    },
+    "ultrathink": {
+      "severity": "disaster", 
+      "commentary": [
+        "🚨 DISASTER ALERT: ultrathink has a complexity score of 8.7. That's not 'sophisticated', that's a maintenance nightmare waiting to happen.",
+        "💸 Token consumption: 7887 tokens. At this rate, you'll bankrupt yourself before solving anything useful.",
+        "🎲 Success rate: 73.0%. That's not intelligent automation, that's gambling with worse odds than a casino.",
+        "🧠 Thinking block overload: 15 blocks. That's not deep thinking, that's paralysis by analysis."
+      ]
+    },
+    "adaptive-complexity-router": {
+      "severity": "problematic",
+      "commentary": [
+        "⚠️ PROBLEMATIC: adaptive-complexity-router shows concerning complexity (7.8/10). This is heading toward the danger zone.",
+        "📖 Readability score: 71/100. If humans can't read it, how can they maintain it?"
+      ]
+    },
+    "git-backup-sync": {
+      "severity": "acceptable",
+      "commentary": [
+        "😐 ACCEPTABLE: git-backup-sync is functional but uninspiring. Complexity: 6.4, which is acceptable but could be better."
+      ]
+    },
+    "safe-code-beautifier": {
+      "severity": "good",
+      "commentary": [
+        "✅ GOOD: safe-code-beautifier demonstrates solid engineering with complexity 5.9 and 87.0% predicted success rate."
+      ]
+    },
+    "adhd-morning-assistant": {
+      "severity": "excellent",
+      "commentary": [
+        "🏆 EXCELLENT: adhd-morning-assistant exemplifies the simplicity principle with complexity 4.2 and excellent predicted performance."
+      ]
+    }
+  }
+}

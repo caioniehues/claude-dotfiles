@@ -1,0 +1,84 @@
+{
+  "testCases": [
+    {
+      "id": "simple_task",
+      "description": "Basic task with minimal complexity",
+      "input": "create a simple hello world function",
+      "expectedComplexity": 1,
+      "category": "baseline"
+    },
+    {
+      "id": "moderate_java_task",
+      "description": "Java implementation requiring some design",
+      "input": "implement a user service with CRUD operations",
+      "expectedComplexity": 3,
+      "category": "moderate"
+    },
+    {
+      "id": "complex_architecture",
+      "description": "Complex architectural decision requiring analysis",
+      "input": "design a microservices architecture for e-commerce platform with payment processing, inventory management, and user authentication",
+      "expectedComplexity": 8,
+      "category": "complex"
+    },
+    {
+      "id": "debugging_mystery",
+      "description": "Debugging task requiring investigation",
+      "input": "investigate intermittent database connection failures in production",
+      "expectedComplexity": 5,
+      "category": "investigation"
+    },
+    {
+      "id": "refactoring_task",
+      "description": "Refactoring legacy code",
+      "input": "refactor monolithic order processing system to follow clean architecture principles",
+      "expectedComplexity": 6,
+      "category": "refactoring"
+    },
+    {
+      "id": "adhd_planning",
+      "description": "ADHD-specific task planning",
+      "input": "plan my day with 5 tasks considering ADHD patterns",
+      "expectedComplexity": 2,
+      "category": "adhd_support"
+    },
+    {
+      "id": "thinking_intensive",
+      "description": "Task requiring deep analysis",
+      "input": "analyze the trade-offs between REST and GraphQL for a real-time chat application",
+      "expectedComplexity": 4,
+      "category": "analysis"
+    }
+  ],
+  "performance_thresholds": {
+    "token_consumption": {
+      "excellent": 500,
+      "good": 1000,
+      "acceptable": 2000,
+      "problematic": 3000,
+      "disaster": 5000
+    },
+    "execution_time": {
+      "excellent": 2000,
+      "good": 5000,
+      "acceptable": 10000,
+      "problematic": 20000,
+      "disaster": 30000
+    },
+    "success_rate": {
+      "excellent": 0.95,
+      "good": 0.85,
+      "acceptable": 0.75,
+      "problematic": 0.65,
+      "disaster": 0.5
+    }
+  },
+  "command_categories": {
+    "utility": ["git-backup-sync", "safe-code-beautifier"],
+    "java_development": ["java-clean-code-generator", "java-rapid-implementation", "java-test-driven-development"],
+    "thinking_tools": ["ultrathink", "ultrathink-pure-xml", "ultrathink-interactive", "reasoning-wrapper"],
+    "adhd_support": ["adhd-morning-assistant", "adhd-task-breakdown", "adhd-context-switch", "adhd-evening-reflect"],
+    "analysis": ["senior-developer-analysis", "analyze-project-architecture", "intelligent-refactor-session"],
+    "enhancement": ["intelligent-code-enhancer", "context-enhanced-executor", "adaptive-complexity-router"]
+  }
+}
