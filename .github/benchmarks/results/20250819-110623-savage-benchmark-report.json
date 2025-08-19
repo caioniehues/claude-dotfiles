@@ -1,0 +1,464 @@
+{
+  "benchmark_info": {
+    "timestamp": "2025-08-19T11:06:23.025470",
+    "commands_analyzed": 5,
+    "total_commands_available": 23,
+    "benchmark_version": "1.0.0"
+  },
+  "individual_results": [
+    {
+      "command_name": "analyze-project-architecture",
+      "file_path": "commands/analyze-project-architecture.md",
+      "timestamp": "2025-08-19T11:06:23.026054",
+      "metrics": {
+        "complexity": {
+          "total_lines": 274,
+          "classes": 0,
+          "interfaces": 0,
+          "patterns": 1,
+          "config_files": 2,
+          "complexity_score": 8,
+          "violates_simplicity_rule": true
+        },
+        "tokens": {
+          "estimated_input_tokens": 2303,
+          "estimated_output_tokens": 700,
+          "total_estimated_tokens": 3003
+        },
+        "structure": {
+          "has_proper_structure": true,
+          "has_thinking_orchestration": true,
+          "has_complexity_detection": true,
+          "has_mcp_integration": true,
+          "thinking_blocks_count": 0,
+          "decision_points_count": 0,
+          "examples_count": 0
+        },
+        "execution": {
+          "mean_execution_time": 6.499756731656515,
+          "std_deviation": 0.267576864782544,
+          "min_time": 6.180585303614,
+          "max_time": 6.80106075253785,
+          "execution_samples": [
+            6.336994008074304,
+            6.80106075253785,
+            6.749648854488514,
+            6.180585303614,
+            6.430494739567904
+          ]
+        },
+        "success_probability": {
+          "estimated_success_rate": 90,
+          "positive_factors": 4,
+          "negative_factors": 0,
+          "confidence_level": "HIGH"
+        }
+      },
+      "savage_commentary": "This command has a complexity score of 8. That's not 'intelligent architecture', that's a Rube Goldberg machine with a CS degree. Success rate: 90%. Impressive. This might actually work more often than a Windows update. Token consumption: 3,003. Efficient? No. But at least you're keeping OpenAI's shareholders happy. Average execution time: 6.5s. Not terrible, but I could make a sandwich while waiting.",
+      "overall_score": {
+        "overall_score": 66.5,
+        "grade": "C",
+        "component_scores": {
+          "complexity": 20,
+          "success_probability": 90,
+          "efficiency": 67.5,
+          "structure": 100
+        }
+      }
+    },
+    {
+      "command_name": "safe-code-beautifier",
+      "file_path": "commands/safe-code-beautifier.md",
+      "timestamp": "2025-08-19T11:06:23.026902",
+      "metrics": {
+        "complexity": {
+          "total_lines": 427,
+          "classes": 1,
+          "interfaces": 1,
+          "patterns": 4,
+          "config_files": 0,
+          "complexity_score": 16,
+          "violates_simplicity_rule": true
+        },
+        "tokens": {
+          "estimated_input_tokens": 3636,
+          "estimated_output_tokens": 5650,
+          "total_estimated_tokens": 9286
+        },
+        "structure": {
+          "has_proper_structure": true,
+          "has_thinking_orchestration": true,
+          "has_complexity_detection": true,
+          "has_mcp_integration": true,
+          "thinking_blocks_count": 33,
+          "decision_points_count": 0,
+          "examples_count": 0
+        },
+        "execution": {
+          "mean_execution_time": 19.93185370465795,
+          "std_deviation": 5.624870794228603,
+          "min_time": 14.564098286907413,
+          "max_time": 28.598501951649716,
+          "execution_samples": [
+            14.564098286907413,
+            15.316969663288525,
+            28.598501951649716,
+            20.10506864139701,
+            21.074629980047078
+          ]
+        },
+        "success_probability": {
+          "estimated_success_rate": 87,
+          "positive_factors": 5,
+          "negative_factors": 1,
+          "confidence_level": "HIGH"
+        }
+      },
+      "savage_commentary": "This command has a complexity score of 16. That's not 'intelligent architecture', that's a Rube Goldberg machine with a CS degree. Success rate: 87%. Impressive. This might actually work more often than a Windows update. Token consumption: 9,286. This command burns through tokens like a crypto mining farm burns through electricity. Average execution time: 19.9s. I've seen glaciers move faster.",
+      "overall_score": {
+        "overall_score": 46.17,
+        "grade": "F",
+        "component_scores": {
+          "complexity": 0,
+          "success_probability": 87,
+          "efficiency": 0.34,
+          "structure": 100
+        }
+      }
+    },
+    {
+      "command_name": "senior-developer-analysis",
+      "file_path": "commands/senior-developer-analysis.md",
+      "timestamp": "2025-08-19T11:06:23.027559",
+      "metrics": {
+        "complexity": {
+          "total_lines": 390,
+          "classes": 0,
+          "interfaces": 0,
+          "patterns": 1,
+          "config_files": 0,
+          "complexity_score": 4,
+          "violates_simplicity_rule": false
+        },
+        "tokens": {
+          "estimated_input_tokens": 3346,
+          "estimated_output_tokens": 4600,
+          "total_estimated_tokens": 7946
+        },
+        "structure": {
+          "has_proper_structure": true,
+          "has_thinking_orchestration": true,
+          "has_complexity_detection": true,
+          "has_mcp_integration": true,
+          "thinking_blocks_count": 26,
+          "decision_points_count": 1,
+          "examples_count": 4
+        },
+        "execution": {
+          "mean_execution_time": 10.461878043928888,
+          "std_deviation": 0.975652347740728,
+          "min_time": 9.439319657759764,
+          "max_time": 11.75806925416097,
+          "execution_samples": [
+            9.704778506053039,
+            11.146207698868835,
+            11.75806925416097,
+            9.439319657759764,
+            10.26101510280183
+          ]
+        },
+        "success_probability": {
+          "estimated_success_rate": 87,
+          "positive_factors": 5,
+          "negative_factors": 1,
+          "confidence_level": "HIGH"
+        }
+      },
+      "savage_commentary": "Complexity score: 4/5. Finally, someone who read the memo about keeping it simple. Success rate: 87%. Impressive. This might actually work more often than a Windows update. Token consumption: 7,946. This command burns through tokens like a crypto mining farm burns through electricity. Average execution time: 10.5s. I've seen glaciers move faster.",
+      "overall_score": {
+        "overall_score": 73.64,
+        "grade": "B",
+        "component_scores": {
+          "complexity": 60,
+          "success_probability": 87,
+          "efficiency": 47.69,
+          "structure": 100
+        }
+      }
+    },
+    {
+      "command_name": "adhd-morning-assistant",
+      "file_path": "commands/adhd-morning-assistant.md",
+      "timestamp": "2025-08-19T11:06:23.028054",
+      "metrics": {
+        "complexity": {
+          "total_lines": 309,
+          "classes": 0,
+          "interfaces": 0,
+          "patterns": 0,
+          "config_files": 0,
+          "complexity_score": 1,
+          "violates_simplicity_rule": false
+        },
+        "tokens": {
+          "estimated_input_tokens": 2223,
+          "estimated_output_tokens": 850,
+          "total_estimated_tokens": 3073
+        },
+        "structure": {
+          "has_proper_structure": false,
+          "has_thinking_orchestration": false,
+          "has_complexity_detection": false,
+          "has_mcp_integration": true,
+          "thinking_blocks_count": 0,
+          "decision_points_count": 0,
+          "examples_count": 0
+        },
+        "execution": {
+          "mean_execution_time": 2.3158543353920025,
+          "std_deviation": 0.2380327828544986,
+          "min_time": 2.0549740546235,
+          "max_time": 2.652964154674233,
+          "execution_samples": [
+            2.459754559255758,
+            2.652964154674233,
+            2.0549740546235,
+            2.206510957236648,
+            2.205067951169874
+          ]
+        },
+        "success_probability": {
+          "estimated_success_rate": 70,
+          "positive_factors": 0,
+          "negative_factors": 0,
+          "confidence_level": "MEDIUM"
+        }
+      },
+      "savage_commentary": "Complexity score: 1/5. Finally, someone who read the memo about keeping it simple. Success rate: 70%. Mediocre. Like a participation trophy in command form. Token consumption: 3,073. Efficient? No. But at least you're keeping OpenAI's shareholders happy. Average execution time: 2.3s. Fast enough that humans might actually use it.",
+      "overall_score": {
+        "overall_score": 65.68,
+        "grade": "C",
+        "component_scores": {
+          "complexity": 90,
+          "success_probability": 70,
+          "efficiency": 88.42,
+          "structure": 0
+        }
+      }
+    },
+    {
+      "command_name": "ultrathink-hybrid-mcp",
+      "file_path": "commands/ultrathink-hybrid-mcp.md",
+      "timestamp": "2025-08-19T11:06:23.028755",
+      "metrics": {
+        "complexity": {
+          "total_lines": 536,
+          "classes": 0,
+          "interfaces": 0,
+          "patterns": 1,
+          "config_files": 0,
+          "complexity_score": 4,
+          "violates_simplicity_rule": false
+        },
+        "tokens": {
+          "estimated_input_tokens": 3334,
+          "estimated_output_tokens": 2440,
+          "total_estimated_tokens": 5774
+        },
+        "structure": {
+          "has_proper_structure": true,
+          "has_thinking_orchestration": false,
+          "has_complexity_detection": false,
+          "has_mcp_integration": true,
+          "thinking_blocks_count": 6,
+          "decision_points_count": 1,
+          "examples_count": 4
+        },
+        "execution": {
+          "mean_execution_time": 6.124831019774617,
+          "std_deviation": 0.6263482792693251,
+          "min_time": 5.314048314655408,
+          "max_time": 7.073217825078426,
+          "execution_samples": [
+            6.017474624228059,
+            7.073217825078426,
+            5.314048314655408,
+            6.094546644755058,
+            6.124867690156137
+          ]
+        },
+        "success_probability": {
+          "estimated_success_rate": 74,
+          "positive_factors": 4,
+          "negative_factors": 2,
+          "confidence_level": "MEDIUM"
+        }
+      },
+      "savage_commentary": "Complexity score: 4/5. Finally, someone who read the memo about keeping it simple. Success rate: 74%. Mediocre. Like a participation trophy in command form. Token consumption: 5,774. This command burns through tokens like a crypto mining farm burns through electricity. Average execution time: 6.1s. Not terrible, but I could make a sandwich while waiting.",
+      "overall_score": {
+        "overall_score": 64.08,
+        "grade": "C",
+        "component_scores": {
+          "complexity": 60,
+          "success_probability": 74,
+          "efficiency": 69.38,
+          "structure": 50
+        }
+      }
+    }
+  ],
+  "statistical_summary": {
+    "complexity": {
+      "mean": 6.6,
+      "std_dev": 5.813776741499453,
+      "min": 1,
+      "max": 16,
+      "violations": 2
+    },
+    "success_rate": {
+      "mean": 81.6,
+      "std_dev": 8.96102672688794,
+      "min": 70,
+      "max": 90
+    },
+    "execution_time": {
+      "mean": 9.066834767081994,
+      "std_dev": 6.723388184843183,
+      "min": 2.3158543353920025,
+      "max": 19.93185370465795
+    },
+    "token_consumption": {
+      "mean": 5816.4,
+      "std_dev": 2829.159822279399,
+      "min": 3003,
+      "max": 9286,
+      "total": 29082
+    },
+    "overall_quality": {
+      "mean": 63.214,
+      "std_dev": 10.20818691051452,
+      "min": 46.17,
+      "max": 73.64
+    }
+  },
+  "rankings": {
+    "best_overall": [
+      {
+        "rank": 1,
+        "command": "senior-developer-analysis",
+        "score": 73.64,
+        "grade": "B"
+      },
+      {
+        "rank": 2,
+        "command": "analyze-project-architecture",
+        "score": 66.5,
+        "grade": "C"
+      },
+      {
+        "rank": 3,
+        "command": "adhd-morning-assistant",
+        "score": 65.68,
+        "grade": "C"
+      },
+      {
+        "rank": 4,
+        "command": "ultrathink-hybrid-mcp",
+        "score": 64.08,
+        "grade": "C"
+      },
+      {
+        "rank": 5,
+        "command": "safe-code-beautifier",
+        "score": 46.17,
+        "grade": "F"
+      }
+    ],
+    "most_simple": [
+      {
+        "rank": 1,
+        "command": "adhd-morning-assistant",
+        "complexity_score": 1
+      },
+      {
+        "rank": 2,
+        "command": "senior-developer-analysis",
+        "complexity_score": 4
+      },
+      {
+        "rank": 3,
+        "command": "ultrathink-hybrid-mcp",
+        "complexity_score": 4
+      },
+      {
+        "rank": 4,
+        "command": "analyze-project-architecture",
+        "complexity_score": 8
+      },
+      {
+        "rank": 5,
+        "command": "safe-code-beautifier",
+        "complexity_score": 16
+      }
+    ],
+    "most_reliable": [
+      {
+        "rank": 1,
+        "command": "analyze-project-architecture",
+        "success_rate": 90
+      },
+      {
+        "rank": 2,
+        "command": "safe-code-beautifier",
+        "success_rate": 87
+      },
+      {
+        "rank": 3,
+        "command": "senior-developer-analysis",
+        "success_rate": 87
+      },
+      {
+        "rank": 4,
+        "command": "ultrathink-hybrid-mcp",
+        "success_rate": 74
+      },
+      {
+        "rank": 5,
+        "command": "adhd-morning-assistant",
+        "success_rate": 70
+      }
+    ],
+    "most_efficient": [
+      {
+        "rank": 1,
+        "command": "adhd-morning-assistant",
+        "execution_time": 2.3158543353920025
+      },
+      {
+        "rank": 2,
+        "command": "ultrathink-hybrid-mcp",
+        "execution_time": 6.124831019774617
+      },
+      {
+        "rank": 3,
+        "command": "analyze-project-architecture",
+        "execution_time": 6.499756731656515
+      },
+      {
+        "rank": 4,
+        "command": "senior-developer-analysis",
+        "execution_time": 10.461878043928888
+      },
+      {
+        "rank": 5,
+        "command": "safe-code-beautifier",
+        "execution_time": 19.93185370465795
+      }
+    ]
+  },
+  "recommendations": [
+    "\ud83d\udea8 2 commands violate the complexity rule (score \u2265 5). These need immediate simplification: analyze-project-architecture, safe-code-beautifier",
+    "\ud83d\udcb0 3 commands are token-hungry (>4000 tokens). Optimize for efficiency: safe-code-beautifier, senior-developer-analysis, ultrathink-hybrid-mcp",
+    "\ud83d\udcc9 Average quality score is 63.2/100. This command suite needs significant improvement."
+  ]
+}
