@@ -1,0 +1,343 @@
+{
+  "metadata": {
+    "timestamp": "20250819-113234",
+    "benchmarker_version": "1.0.0-savage",
+    "commands_tested": 5,
+    "total_analysis_time": 47.3,
+    "methodology": "Scientific brutality with statistical backing",
+    "selection_method": "Random sampling for unbiased roasting"
+  },
+  "individual_results": {
+    "intelligent-refactor-session.md": {
+      "structure": {
+        "file_size": 16585,
+        "line_count": 533,
+        "word_count": 2048,
+        "xml_blocks": 89,
+        "bash_commands": 0,
+        "mcp_calls": 1,
+        "thinking_blocks": 62,
+        "complexity_score": 4.7,
+        "estimated_classes": 17,
+        "estimated_interfaces": 0,
+        "estimated_patterns": 31
+      },
+      "tokens": {
+        "estimated_input_tokens": 4146,
+        "estimated_output_tokens": 3897,
+        "total_estimated_tokens": 8043,
+        "cost_estimate_usd": 0.1206
+      },
+      "readability": {
+        "avg_line_length": 82.4,
+        "max_line_length": 180,
+        "max_nesting_level": 6,
+        "avg_nesting_level": 2.1,
+        "readability_score": 6.2
+      },
+      "composition": {
+        "mcp_integration_points": 1,
+        "command_references": 3,
+        "bash_dependencies": 0,
+        "state_awareness_score": 12,
+        "composition_score": 7.0
+      }
+    },
+    "context-enhanced-executor.md": {
+      "structure": {
+        "file_size": 3886,
+        "line_count": 132,
+        "word_count": 486,
+        "xml_blocks": 21,
+        "bash_commands": 5,
+        "mcp_calls": 1,
+        "thinking_blocks": 12,
+        "complexity_score": 2.4,
+        "estimated_classes": 4,
+        "estimated_interfaces": 0,
+        "estimated_patterns": 6
+      },
+      "tokens": {
+        "estimated_input_tokens": 972,
+        "estimated_output_tokens": 467,
+        "total_estimated_tokens": 1439,
+        "cost_estimate_usd": 0.0216
+      },
+      "readability": {
+        "avg_line_length": 67.3,
+        "max_line_length": 120,
+        "max_nesting_level": 3,
+        "avg_nesting_level": 1.2,
+        "readability_score": 7.8
+      },
+      "composition": {
+        "mcp_integration_points": 1,
+        "command_references": 8,
+        "bash_dependencies": 5,
+        "state_awareness_score": 8,
+        "composition_score": 8.0
+      }
+    },
+    "git-backup-sync.md": {
+      "structure": {
+        "file_size": 12564,
+        "line_count": 394,
+        "word_count": 1547,
+        "xml_blocks": 67,
+        "bash_commands": 15,
+        "mcp_calls": 2,
+        "thinking_blocks": 47,
+        "complexity_score": 4.1,
+        "estimated_classes": 13,
+        "estimated_interfaces": 0,
+        "estimated_patterns": 23
+      },
+      "tokens": {
+        "estimated_input_tokens": 3141,
+        "estimated_output_tokens": 2576,
+        "total_estimated_tokens": 5717,
+        "cost_estimate_usd": 0.0858
+      },
+      "readability": {
+        "avg_line_length": 78.9,
+        "max_line_length": 156,
+        "max_nesting_level": 5,
+        "avg_nesting_level": 1.8,
+        "readability_score": 6.8
+      },
+      "composition": {
+        "mcp_integration_points": 2,
+        "command_references": 2,
+        "bash_dependencies": 15,
+        "state_awareness_score": 9,
+        "composition_score": 6.5
+      }
+    },
+    "ultrathink-hybrid-mcp.md": {
+      "structure": {
+        "file_size": 13431,
+        "line_count": 535,
+        "word_count": 1640,
+        "xml_blocks": 78,
+        "bash_commands": 8,
+        "mcp_calls": 16,
+        "thinking_blocks": 52,
+        "complexity_score": 6.8,
+        "estimated_classes": 15,
+        "estimated_interfaces": 5,
+        "estimated_patterns": 26
+      },
+      "tokens": {
+        "estimated_input_tokens": 3358,
+        "estimated_output_tokens": 4567,
+        "total_estimated_tokens": 7925,
+        "cost_estimate_usd": 0.1189
+      },
+      "readability": {
+        "avg_line_length": 74.2,
+        "max_line_length": 142,
+        "max_nesting_level": 7,
+        "avg_nesting_level": 2.4,
+        "readability_score": 5.4
+      },
+      "composition": {
+        "mcp_integration_points": 8,
+        "command_references": 4,
+        "bash_dependencies": 8,
+        "state_awareness_score": 15,
+        "composition_score": 9.5
+      }
+    },
+    "ultrathink-full-mcp.md": {
+      "structure": {
+        "file_size": 18173,
+        "line_count": 664,
+        "word_count": 2027,
+        "xml_blocks": 95,
+        "bash_commands": 12,
+        "mcp_calls": 29,
+        "thinking_blocks": 78,
+        "complexity_score": 8.6,
+        "estimated_classes": 19,
+        "estimated_interfaces": 9,
+        "estimated_patterns": 39
+      },
+      "tokens": {
+        "estimated_input_tokens": 4543,
+        "estimated_output_tokens": 7815,
+        "total_estimated_tokens": 12358,
+        "cost_estimate_usd": 0.1854
+      },
+      "readability": {
+        "avg_line_length": 81.7,
+        "max_line_length": 165,
+        "max_nesting_level": 8,
+        "avg_nesting_level": 2.7,
+        "readability_score": 4.6
+      },
+      "composition": {
+        "mcp_integration_points": 12,
+        "command_references": 6,
+        "bash_dependencies": 12,
+        "state_awareness_score": 18,
+        "composition_score": 10.0
+      }
+    }
+  },
+  "statistical_analysis": {
+    "complexity": {
+      "mean": 5.32,
+      "median": 4.7,
+      "stdev": 2.41,
+      "min": 2.4,
+      "max": 8.6,
+      "violation_rate": 0.4,
+      "claude_md_threshold": 5.0
+    },
+    "tokens": {
+      "mean": 7096,
+      "median": 7925,
+      "stdev": 4245,
+      "min": 1439,
+      "max": 12358,
+      "cost_analysis": {
+        "total_estimated_cost": 0.5323,
+        "most_expensive": "ultrathink-full-mcp.md",
+        "most_efficient": "context-enhanced-executor.md"
+      }
+    },
+    "readability": {
+      "mean": 6.16,
+      "median": 6.2,
+      "stdev": 1.33,
+      "min": 4.6,
+      "max": 7.8,
+      "acceptable_threshold": 6.0,
+      "pass_rate": 0.6
+    },
+    "composition": {
+      "mean": 8.2,
+      "median": 8.0,
+      "stdev": 1.36,
+      "min": 6.5,
+      "max": 10.0,
+      "integration_health": "Good"
+    }
+  },
+  "rankings": [
+    {
+      "rank": 1,
+      "command": "context-enhanced-executor.md",
+      "composite_score": 8.56,
+      "complexity_score": 7.6,
+      "token_efficiency": 8.56,
+      "readability_score": 7.8,
+      "composition_score": 8.0,
+      "verdict": "WINNER - The Goldilocks command: not too simple, not too complex"
+    },
+    {
+      "rank": 2,
+      "command": "git-backup-sync.md",
+      "composite_score": 7.42,
+      "complexity_score": 5.9,
+      "token_efficiency": 4.28,
+      "readability_score": 6.8,
+      "composition_score": 6.5,
+      "verdict": "RUNNER-UP - Solid but unremarkable, like a reliable sedan"
+    },
+    {
+      "rank": 3,
+      "command": "intelligent-refactor-session.md",
+      "composite_score": 6.98,
+      "complexity_score": 5.3,
+      "token_efficiency": 1.96,
+      "readability_score": 6.2,
+      "composition_score": 7.0,
+      "verdict": "MIDDLE CHILD - Tries hard but still has issues"
+    },
+    {
+      "rank": 4,
+      "command": "ultrathink-hybrid-mcp.md",
+      "composite_score": 5.84,
+      "complexity_score": 3.2,
+      "token_efficiency": 2.08,
+      "readability_score": 5.4,
+      "composition_score": 9.5,
+      "verdict": "PROBLEMATIC - Complexity violation detected"
+    },
+    {
+      "rank": 5,
+      "command": "ultrathink-full-mcp.md",
+      "composite_score": 4.76,
+      "complexity_score": 1.4,
+      "token_efficiency": -2.36,
+      "readability_score": 4.6,
+      "composition_score": 10.0,
+      "verdict": "TRAIN WRECK - Complexity score 8.6/5.0. This is architectural violence"
+    }
+  ],
+  "savage_commentary": {
+    "intelligent-refactor-session.md": [
+      "Complexity score 4.7/5. Teetering on the edge of acceptability like a drunk tightrope walker.",
+      "Token consumption ~8,043 tokens ($0.12). That's a lot of words to say 'refactor code carefully.'",
+      "Readability score 6.2/10. Readable enough that a senior might not immediately quit.",
+      "62 thinking blocks detected. Either very thorough or suffering from analysis paralysis."
+    ],
+    "context-enhanced-executor.md": [
+      "Complexity score 2.4/5. Finally, someone who understands that simple can be good.",
+      "Lightweight at ~1,439 tokens. Either efficient or just didn't try very hard.",
+      "Readability score 7.8/10. Actually readable! Revolutionary concept in this codebase.",
+      "Composition score 8.0/10. Plays well with others, unlike most commands here."
+    ],
+    "git-backup-sync.md": [
+      "Complexity score 4.1/5. Acceptable, but I'm watching you closely.",
+      "Token consumption ~5,717 tokens ($0.09). Reasonable for git operations, surprisingly.",
+      "15 bash dependencies. Either comprehensive or just showing off CLI skills.",
+      "Composition score 6.5/10. Average team player, nothing special."
+    ],
+    "ultrathink-hybrid-mcp.md": [
+      "COMPLEXITY VIOLATION: Score 6.8/5. This isn't 'hybrid thinking', it's hybrid disaster.",
+      "Token consumption ~7,925 tokens ($0.12). All that thinking and still over-engineered.",
+      "Readability score 5.4/10. Code review would be 'Please explain what this fever dream does.'",
+      "16 MCP calls detected. More dependencies than a Node.js project."
+    ],
+    "ultrathink-full-mcp.md": [
+      "NUCLEAR COMPLEXITY VIOLATION: Score 8.6/5. This isn't intelligence, it's artificial constipation.",
+      "Token glutton: ~12,358 tokens ($0.19). That's not deep thinking, that's deep wallet drainage.",
+      "Readability score 4.6/10. Reading this would require a PhD in XML archeology.",
+      "29 MCP calls, 78 thinking blocks. This command has more dependencies than a codependent relationship.",
+      "Perfect composition score 10.0/10, but at what cost? Like winning a dance contest by stepping on everyone."
+    ]
+  },
+  "methodology_notes": {
+    "complexity_scoring": "Based on CLAUDE.md rules: Base(1) + Classes(2ea) + Interfaces(1ea) + Patterns(3ea) + XML overhead",
+    "token_estimation": "~4 chars per token, output scaled by complexity multiplier",
+    "readability_scoring": "0-10 scale: line length penalty + nesting penalty from ideal of 80 chars, max 3 levels",
+    "composition_scoring": "Integration points + tool references + state awareness, balanced for coupling",
+    "savage_factor": "Brutally honest but statistically accurate. Feelings were not considered in this analysis."
+  },
+  "executive_summary": {
+    "overall_health": "CONCERNING",
+    "violations": {
+      "complexity_violations": 2,
+      "readability_failures": 2,
+      "token_waste": 1
+    },
+    "key_findings": [
+      "40% of commands violate CLAUDE.md complexity threshold (>5)",
+      "Average complexity 5.32 exceeds recommended maximum of 5.0",
+      "Token consumption varies wildly (1,439 to 12,358) - no consistency",
+      "Readability ranges from 'architectural poetry' to 'XML nightmare'",
+      "Ultra-think commands are particularly problematic with complexity bloat",
+      "Only context-enhanced-executor.md achieved respectable scores across all metrics"
+    ],
+    "recommendations": [
+      "IMMEDIATE: Refactor ultrathink-full-mcp.md - complexity score 8.6 is unacceptable",
+      "URGENT: Review ultrathink-hybrid-mcp.md for unnecessary complexity",
+      "CONSIDER: Use context-enhanced-executor.md as template for balanced design",
+      "ENFORCE: Stricter complexity scoring during command development",
+      "STANDARDIZE: Token consumption guidelines to prevent bloat"
+    ],
+    "savage_verdict": "This command suite has more architectural sins than a Vegas chapel. Two commands are complexity disasters, token consumption is inconsistent, and readability varies from 'decent' to 'requires decoder ring.' The only bright spot is context-enhanced-executor.md, which proves that simple, readable, and effective IS possible. The rest need an intervention before they reproduce."
+  }
+}
