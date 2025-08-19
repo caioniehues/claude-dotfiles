@@ -1,0 +1,1203 @@
+{
+  "meta": {
+    "timestamp": "20250819-005002",
+    "total_commands": 23,
+    "benchmarker": "SAVAGE COMMAND BENCHMARKER",
+    "version": "1.0",
+    "methodology": "Statistical analysis with 5-sample simulation per metric"
+  },
+  "executive_summary": {
+    "worst_complexity": {
+      "command": "java-clean-code-generator",
+      "score": 40.49,
+      "verdict": "Violates CLAUDE.md simplicity rules"
+    },
+    "token_monster": {
+      "command": "java-clean-code-generator",
+      "tokens": 4840,
+      "verdict": "Reasonable"
+    },
+    "error_prone": {
+      "command": "java-clean-code-generator",
+      "error_rate": "55.9%",
+      "verdict": "Fails more than it succeeds"
+    },
+    "best_overall": {
+      "command": "context-enhanced-executor",
+      "score": 7.14,
+      "verdict": "Actually functional"
+    }
+  },
+  "statistical_analysis": {
+    "complexity_scores": {
+      "mean": 14.482608695652175,
+      "median": 13.8,
+      "stdev": 9.981614561232659,
+      "min": 4.1,
+      "max": 40.49,
+      "q1": 6.07,
+      "q3": 17.9
+    },
+    "token_estimates": {
+      "mean": 2208.6521739130435,
+      "median": 2138,
+      "stdev": 851.0766768519878,
+      "min": 697,
+      "max": 4840,
+      "q1": 1796.0,
+      "q3": 2566.0
+    },
+    "execution_times": {
+      "mean": 11.655441443722694,
+      "median": 10.15968223339297,
+      "stdev": 6.516548549301267,
+      "min": 4.422539007942116,
+      "max": 33.011766994981784,
+      "q1": 6.87003528439755,
+      "q3": 13.74034062515407
+    },
+    "readability_scores": {
+      "mean": 6.921739130434783,
+      "median": 7.9,
+      "stdev": 2.3546774574989575,
+      "min": 0.39999999999999947,
+      "max": 8.5,
+      "q1": 7.0,
+      "q3": 8.2
+    },
+    "maintainability_scores": {
+      "mean": 3.523695652173913,
+      "median": 3.0999999999999996,
+      "stdev": 2.6736535342755,
+      "min": 0.0,
+      "max": 7.4,
+      "q1": 1.0500000000000007,
+      "q3": 6.0
+    },
+    "effectiveness_scores": {
+      "mean": 7.869565217391305,
+      "median": 8.0,
+      "stdev": 1.160107668439245,
+      "min": 5.5,
+      "max": 10.0,
+      "q1": 6.5,
+      "q3": 9.0
+    },
+    "error_rates": {
+      "mean": 0.23752441820391756,
+      "median": 0.22015290489008335,
+      "stdev": 0.11079647810156379,
+      "min": 0.09709900403114316,
+      "max": 0.5587190506360856,
+      "q1": 0.14770303522468342,
+      "q3": 0.270200161957982
+    },
+    "success_rates": {
+      "mean": 0.5051696246766275,
+      "median": 0.5038470951099167,
+      "stdev": 0.24006102298076343,
+      "min": 0.1,
+      "max": 0.8209009959688569,
+      "q1": 0.3745998380420179,
+      "q3": 0.7282969647753166
+    }
+  },
+  "rankings": {
+    "overall": [
+      [
+        "context-enhanced-executor",
+        7.142801991937715
+      ],
+      [
+        "generate-thinking-command",
+        6.908377963499415
+      ],
+      [
+        "ultrathink-interactive",
+        6.729720009362469
+      ],
+      [
+        "adhd-evening-reflect",
+        6.674747885429209
+      ],
+      [
+        "adhd-task-breakdown",
+        6.530662024777445
+      ],
+      [
+        "ultrathink-pure-xml",
+        6.462902348900721
+      ],
+      [
+        "adhd-hyperfocus-guardian",
+        6.412112608710524
+      ],
+      [
+        "adhd-morning-assistant",
+        6.258593929550633
+      ],
+      [
+        "adhd-context-switch",
+        6.131709198568295
+      ],
+      [
+        "ultrathink",
+        5.9955494587247165
+      ],
+      [
+        "analyze-project-architecture",
+        4.793919343775644
+      ],
+      [
+        "java-test-driven-development",
+        4.123425132345079
+      ],
+      [
+        "java-rapid-implementation",
+        4.085694190219834
+      ],
+      [
+        "ultrathink-hybrid-mcp",
+        3.6622879785176865
+      ],
+      [
+        "reasoning-wrapper",
+        3.44945569670189
+      ],
+      [
+        "adaptive-complexity-router",
+        3.2751894149198764
+      ],
+      [
+        "git-backup-sync",
+        3.1787996760840356
+      ],
+      [
+        "intelligent-code-enhancer",
+        2.961218215236027
+      ],
+      [
+        "ultrathink-full-mcp",
+        1.4110873496840888
+      ],
+      [
+        "intelligent-refactor-session",
+        0.9896483181795626
+      ],
+      [
+        "senior-developer-analysis",
+        -1.2444681594060065
+      ],
+      [
+        "safe-code-beautifier",
+        -2.28025380840222
+      ],
+      [
+        "java-clean-code-generator",
+        -3.8273595253180437
+      ]
+    ],
+    "by_readability": [
+      [
+        "ultrathink-hybrid-mcp",
+        8.5
+      ],
+      [
+        "ultrathink-full-mcp",
+        8.5
+      ],
+      [
+        "ultrathink-pure-xml",
+        8.5
+      ],
+      [
+        "ultrathink-interactive",
+        8.5
+      ],
+      [
+        "git-backup-sync",
+        8.4
+      ],
+      [
+        "reasoning-wrapper",
+        8.2
+      ],
+      [
+        "generate-thinking-command",
+        8.0
+      ],
+      [
+        "java-test-driven-development",
+        8.0
+      ],
+      [
+        "intelligent-code-enhancer",
+        8.0
+      ],
+      [
+        "intelligent-refactor-session",
+        8.0
+      ],
+      [
+        "context-enhanced-executor",
+        7.9
+      ],
+      [
+        "ultrathink",
+        7.9
+      ],
+      [
+        "adaptive-complexity-router",
+        7.7
+      ],
+      [
+        "java-rapid-implementation",
+        7.4
+      ],
+      [
+        "adhd-evening-reflect",
+        7.0
+      ],
+      [
+        "adhd-task-breakdown",
+        7.0
+      ],
+      [
+        "analyze-project-architecture",
+        7.0
+      ],
+      [
+        "adhd-morning-assistant",
+        7.0
+      ],
+      [
+        "adhd-hyperfocus-guardian",
+        7.0
+      ],
+      [
+        "adhd-context-switch",
+        7.0
+      ],
+      [
+        "senior-developer-analysis",
+        2.8
+      ],
+      [
+        "java-clean-code-generator",
+        0.49999999999999956
+      ],
+      [
+        "safe-code-beautifier",
+        0.39999999999999947
+      ]
+    ],
+    "by_complexity": [
+      [
+        "context-enhanced-executor",
+        4.1
+      ],
+      [
+        "adhd-task-breakdown",
+        4.8
+      ],
+      [
+        "adhd-evening-reflect",
+        5.0
+      ],
+      [
+        "adhd-context-switch",
+        5.4
+      ],
+      [
+        "adhd-hyperfocus-guardian",
+        5.6
+      ],
+      [
+        "ultrathink-interactive",
+        6.07
+      ],
+      [
+        "generate-thinking-command",
+        6.2
+      ],
+      [
+        "adhd-morning-assistant",
+        6.2
+      ],
+      [
+        "ultrathink-pure-xml",
+        7.0
+      ],
+      [
+        "ultrathink",
+        9.5
+      ],
+      [
+        "analyze-project-architecture",
+        11.5
+      ],
+      [
+        "java-rapid-implementation",
+        13.8
+      ],
+      [
+        "java-test-driven-development",
+        14.8
+      ],
+      [
+        "ultrathink-hybrid-mcp",
+        14.98
+      ],
+      [
+        "adaptive-complexity-router",
+        16.5
+      ],
+      [
+        "reasoning-wrapper",
+        16.7
+      ],
+      [
+        "git-backup-sync",
+        17.76
+      ],
+      [
+        "intelligent-code-enhancer",
+        17.9
+      ],
+      [
+        "ultrathink-full-mcp",
+        21.53
+      ],
+      [
+        "intelligent-refactor-session",
+        23.97
+      ],
+      [
+        "senior-developer-analysis",
+        30.3
+      ],
+      [
+        "safe-code-beautifier",
+        33.0
+      ],
+      [
+        "java-clean-code-generator",
+        40.49
+      ]
+    ],
+    "by_effectiveness": [
+      [
+        "ultrathink",
+        10.0
+      ],
+      [
+        "git-backup-sync",
+        9.0
+      ],
+      [
+        "safe-code-beautifier",
+        9.0
+      ],
+      [
+        "analyze-project-architecture",
+        9.0
+      ],
+      [
+        "java-test-driven-development",
+        9.0
+      ],
+      [
+        "senior-developer-analysis",
+        9.0
+      ],
+      [
+        "java-clean-code-generator",
+        9.0
+      ],
+      [
+        "intelligent-code-enhancer",
+        9.0
+      ],
+      [
+        "reasoning-wrapper",
+        8.5
+      ],
+      [
+        "adaptive-complexity-router",
+        8.0
+      ],
+      [
+        "java-rapid-implementation",
+        8.0
+      ],
+      [
+        "intelligent-refactor-session",
+        8.0
+      ],
+      [
+        "context-enhanced-executor",
+        7.5
+      ],
+      [
+        "generate-thinking-command",
+        7.5
+      ],
+      [
+        "ultrathink-hybrid-mcp",
+        7.5
+      ],
+      [
+        "ultrathink-pure-xml",
+        7.5
+      ],
+      [
+        "ultrathink-interactive",
+        7.5
+      ],
+      [
+        "adhd-evening-reflect",
+        6.5
+      ],
+      [
+        "adhd-task-breakdown",
+        6.5
+      ],
+      [
+        "ultrathink-full-mcp",
+        6.5
+      ],
+      [
+        "adhd-morning-assistant",
+        6.5
+      ],
+      [
+        "adhd-hyperfocus-guardian",
+        6.5
+      ],
+      [
+        "adhd-context-switch",
+        5.5
+      ]
+    ]
+  },
+  "detailed_results": [
+    {
+      "command_name": "adhd-evening-reflect",
+      "file_path": "/home/runner/work/claude-dotfiles/claude-dotfiles/commands/adhd-evening-reflect.md",
+      "complexity_score": 5.0,
+      "token_estimate": 1993,
+      "execution_time": 6.87003528439755,
+      "readability_score": 7.0,
+      "maintainability_score": 7.0,
+      "effectiveness_score": 6.5,
+      "error_rate": 0.137626057285396,
+      "success_rate": 0.762373942714604,
+      "brutal_assessment": "Mediocre but functional. Like airline food - it exists and serves a purpose.",
+      "improvements": [],
+      "strengths": [
+        "Maintains acceptable complexity per CLAUDE.md",
+        "Good readability and structure"
+      ],
+      "weaknesses": []
+    },
+    {
+      "command_name": "git-backup-sync",
+      "file_path": "/home/runner/work/claude-dotfiles/claude-dotfiles/commands/git-backup-sync.md",
+      "complexity_score": 17.76,
+      "token_estimate": 2440,
+      "execution_time": 13.74034062515407,
+      "readability_score": 8.4,
+      "maintainability_score": 1.6199999999999992,
+      "effectiveness_score": 9.0,
+      "error_rate": 0.270200161957982,
+      "success_rate": 0.3745998380420179,
+      "brutal_assessment": "Complexity score of 17.76 means this command has more moving parts than a Rube Goldberg machine. You asked for help, not a PhD thesis. Maintainability score 1.6199999999999992/10. Future developers will curse your name and question their career choices.",
+      "improvements": [
+        "Reduce complexity from 17.76 to <5 per CLAUDE.md rules",
+        "Replace placeholders with actual implementation",
+        "Add error handling and validation patterns"
+      ],
+      "strengths": [
+        "Includes thinking orchestration pattern",
+        "Good readability and structure",
+        "High effectiveness potential",
+        "Includes usage examples",
+        "Has error recovery mechanisms"
+      ],
+      "weaknesses": [
+        "Excessive complexity violates simplicity principles",
+        "High predicted error rate"
+      ]
+    },
+    {
+      "command_name": "context-enhanced-executor",
+      "file_path": "/home/runner/work/claude-dotfiles/claude-dotfiles/commands/context-enhanced-executor.md",
+      "complexity_score": 4.1,
+      "token_estimate": 697,
+      "execution_time": 4.422539007942116,
+      "readability_score": 7.9,
+      "maintainability_score": 6.0,
+      "effectiveness_score": 7.5,
+      "error_rate": 0.09709900403114316,
+      "success_rate": 0.8209009959688569,
+      "brutal_assessment": "Mediocre but functional. Like airline food - it exists and serves a purpose.",
+      "improvements": [
+        "Replace placeholders with actual implementation"
+      ],
+      "strengths": [
+        "Includes thinking orchestration pattern",
+        "Maintains acceptable complexity per CLAUDE.md",
+        "Good readability and structure",
+        "High effectiveness potential",
+        "Includes usage examples"
+      ],
+      "weaknesses": []
+    },
+    {
+      "command_name": "generate-thinking-command",
+      "file_path": "/home/runner/work/claude-dotfiles/claude-dotfiles/commands/generate-thinking-command.md",
+      "complexity_score": 6.2,
+      "token_estimate": 705,
+      "execution_time": 5.631272398525256,
+      "readability_score": 8.0,
+      "maintainability_score": 7.4,
+      "effectiveness_score": 7.5,
+      "error_rate": 0.12281101825029314,
+      "success_rate": 0.7531889817497068,
+      "brutal_assessment": "Mediocre but functional. Like airline food - it exists and serves a purpose.",
+      "improvements": [
+        "Reduce complexity from 6.2 to <5 per CLAUDE.md rules",
+        "Replace placeholders with actual implementation"
+      ],
+      "strengths": [
+        "Includes thinking orchestration pattern",
+        "Good readability and structure",
+        "High effectiveness potential",
+        "Includes usage examples",
+        "Has error recovery mechanisms"
+      ],
+      "weaknesses": []
+    },
+    {
+      "command_name": "safe-code-beautifier",
+      "file_path": "/home/runner/work/claude-dotfiles/claude-dotfiles/commands/safe-code-beautifier.md",
+      "complexity_score": 33.0,
+      "token_estimate": 2566,
+      "execution_time": 20.896803153923724,
+      "readability_score": 0.39999999999999947,
+      "maintainability_score": 0.0,
+      "effectiveness_score": 9.0,
+      "error_rate": 0.42050761680443827,
+      "success_rate": 0.1,
+      "brutal_assessment": "Complexity score of 33.0 means this command has more moving parts than a Rube Goldberg machine. You asked for help, not a PhD thesis. Error rate of 42.1% means this fails more often than a Windows ME update. That's not AI assistance, that's digital masochism. Readability score 0.39999999999999947/10. Reading this is like deciphering ancient hieroglyphics while blindfolded. Maintainability score 0.0/10. Future developers will curse your name and question their career choices.",
+      "improvements": [
+        "Reduce complexity from 33.0 to <5 per CLAUDE.md rules",
+        "Add clear examples and simplify structure",
+        "Replace placeholders with actual implementation",
+        "Add error handling and validation patterns"
+      ],
+      "strengths": [
+        "Includes thinking orchestration pattern",
+        "High effectiveness potential",
+        "Has error recovery mechanisms"
+      ],
+      "weaknesses": [
+        "Excessive complexity violates simplicity principles",
+        "High predicted error rate",
+        "Poor readability and unclear structure"
+      ]
+    },
+    {
+      "command_name": "ultrathink-hybrid-mcp",
+      "file_path": "/home/runner/work/claude-dotfiles/claude-dotfiles/commands/ultrathink-hybrid-mcp.md",
+      "complexity_score": 14.98,
+      "token_estimate": 2598,
+      "execution_time": 13.197629046675933,
+      "readability_score": 8.5,
+      "maintainability_score": 2.01,
+      "effectiveness_score": 7.5,
+      "error_rate": 0.2471560107411566,
+      "success_rate": 0.45324398925884335,
+      "brutal_assessment": "Complexity score of 14.98 means this command has more moving parts than a Rube Goldberg machine. You asked for help, not a PhD thesis. Maintainability score 2.01/10. Future developers will curse your name and question their career choices.",
+      "improvements": [
+        "Reduce complexity from 14.98 to <5 per CLAUDE.md rules",
+        "Add error handling and validation patterns"
+      ],
+      "strengths": [
+        "Good readability and structure",
+        "High effectiveness potential",
+        "Includes usage examples"
+      ],
+      "weaknesses": [
+        "Excessive complexity violates simplicity principles"
+      ]
+    },
+    {
+      "command_name": "ultrathink",
+      "file_path": "/home/runner/work/claude-dotfiles/claude-dotfiles/commands/ultrathink.md",
+      "complexity_score": 9.5,
+      "token_estimate": 1796,
+      "execution_time": 7.866139762430165,
+      "readability_score": 7.9,
+      "maintainability_score": 4.75,
+      "effectiveness_score": 10.0,
+      "error_rate": 0.17472527063764198,
+      "success_rate": 0.6352747293623581,
+      "brutal_assessment": "Complexity score of 9.5 means this command has more moving parts than a Rube Goldberg machine. You asked for help, not a PhD thesis.",
+      "improvements": [
+        "Reduce complexity from 9.5 to <5 per CLAUDE.md rules",
+        "Replace placeholders with actual implementation"
+      ],
+      "strengths": [
+        "Includes thinking orchestration pattern",
+        "Good readability and structure",
+        "High effectiveness potential",
+        "Includes usage examples"
+      ],
+      "weaknesses": [
+        "Excessive complexity violates simplicity principles"
+      ]
+    },
+    {
+      "command_name": "adhd-task-breakdown",
+      "file_path": "/home/runner/work/claude-dotfiles/claude-dotfiles/commands/adhd-task-breakdown.md",
+      "complexity_score": 4.8,
+      "token_estimate": 1837,
+      "execution_time": 6.24900846145935,
+      "readability_score": 7.0,
+      "maintainability_score": 6.0,
+      "effectiveness_score": 6.5,
+      "error_rate": 0.13266898761127757,
+      "success_rate": 0.7713310123887225,
+      "brutal_assessment": "Mediocre but functional. Like airline food - it exists and serves a purpose.",
+      "improvements": [],
+      "strengths": [
+        "Maintains acceptable complexity per CLAUDE.md",
+        "Good readability and structure"
+      ],
+      "weaknesses": []
+    },
+    {
+      "command_name": "reasoning-wrapper",
+      "file_path": "/home/runner/work/claude-dotfiles/claude-dotfiles/commands/reasoning-wrapper.md",
+      "complexity_score": 16.7,
+      "token_estimate": 1934,
+      "execution_time": 12.945429564983433,
+      "readability_score": 8.2,
+      "maintainability_score": 2.1500000000000004,
+      "effectiveness_score": 8.5,
+      "error_rate": 0.2397721516490554,
+      "success_rate": 0.4262278483509446,
+      "brutal_assessment": "Complexity score of 16.7 means this command has more moving parts than a Rube Goldberg machine. You asked for help, not a PhD thesis. Maintainability score 2.1500000000000004/10. Future developers will curse your name and question their career choices.",
+      "improvements": [
+        "Reduce complexity from 16.7 to <5 per CLAUDE.md rules",
+        "Replace placeholders with actual implementation",
+        "Add error handling and validation patterns"
+      ],
+      "strengths": [
+        "Includes thinking orchestration pattern",
+        "Good readability and structure",
+        "High effectiveness potential",
+        "Includes usage examples",
+        "Has error recovery mechanisms"
+      ],
+      "weaknesses": [
+        "Excessive complexity violates simplicity principles"
+      ]
+    },
+    {
+      "command_name": "analyze-project-architecture",
+      "file_path": "/home/runner/work/claude-dotfiles/claude-dotfiles/commands/analyze-project-architecture.md",
+      "complexity_score": 11.5,
+      "token_estimate": 1685,
+      "execution_time": 8.741447986245,
+      "readability_score": 7.0,
+      "maintainability_score": 3.25,
+      "effectiveness_score": 9.0,
+      "error_rate": 0.2055403281121777,
+      "success_rate": 0.5644596718878223,
+      "brutal_assessment": "Complexity score of 11.5 means this command has more moving parts than a Rube Goldberg machine. You asked for help, not a PhD thesis. Maintainability score 3.25/10. Future developers will curse your name and question their career choices.",
+      "improvements": [
+        "Reduce complexity from 11.5 to <5 per CLAUDE.md rules",
+        "Replace placeholders with actual implementation",
+        "Add error handling and validation patterns"
+      ],
+      "strengths": [
+        "Includes thinking orchestration pattern",
+        "Good readability and structure",
+        "High effectiveness potential",
+        "Has error recovery mechanisms"
+      ],
+      "weaknesses": [
+        "Excessive complexity violates simplicity principles"
+      ]
+    },
+    {
+      "command_name": "ultrathink-full-mcp",
+      "file_path": "/home/runner/work/claude-dotfiles/claude-dotfiles/commands/ultrathink-full-mcp.md",
+      "complexity_score": 21.53,
+      "token_estimate": 3230,
+      "execution_time": 15.501824341050035,
+      "readability_score": 8.5,
+      "maintainability_score": 0.0,
+      "effectiveness_score": 6.5,
+      "error_rate": 0.31850632515795535,
+      "success_rate": 0.2508936748420446,
+      "brutal_assessment": "Complexity score of 21.53 means this command has more moving parts than a Rube Goldberg machine. You asked for help, not a PhD thesis. Error rate of 31.9% means this fails more often than a Windows ME update. That's not AI assistance, that's digital masochism. Maintainability score 0.0/10. Future developers will curse your name and question their career choices.",
+      "improvements": [
+        "Reduce complexity from 21.53 to <5 per CLAUDE.md rules",
+        "Add error handling and validation patterns"
+      ],
+      "strengths": [
+        "Good readability and structure",
+        "Includes usage examples"
+      ],
+      "weaknesses": [
+        "Excessive complexity violates simplicity principles",
+        "High predicted error rate"
+      ]
+    },
+    {
+      "command_name": "java-test-driven-development",
+      "file_path": "/home/runner/work/claude-dotfiles/claude-dotfiles/commands/java-test-driven-development.md",
+      "complexity_score": 14.8,
+      "token_estimate": 2464,
+      "execution_time": 11.380524914181978,
+      "readability_score": 8.0,
+      "maintainability_score": 3.0999999999999996,
+      "effectiveness_score": 9.0,
+      "error_rate": 0.24628743382746052,
+      "success_rate": 0.4577125661725394,
+      "brutal_assessment": "Complexity score of 14.8 means this command has more moving parts than a Rube Goldberg machine. You asked for help, not a PhD thesis. Maintainability score 3.0999999999999996/10. Future developers will curse your name and question their career choices.",
+      "improvements": [
+        "Reduce complexity from 14.8 to <5 per CLAUDE.md rules",
+        "Replace placeholders with actual implementation",
+        "Add error handling and validation patterns"
+      ],
+      "strengths": [
+        "Includes thinking orchestration pattern",
+        "Good readability and structure",
+        "High effectiveness potential",
+        "Includes usage examples",
+        "Has error recovery mechanisms"
+      ],
+      "weaknesses": [
+        "Excessive complexity violates simplicity principles"
+      ]
+    },
+    {
+      "command_name": "senior-developer-analysis",
+      "file_path": "/home/runner/work/claude-dotfiles/claude-dotfiles/commands/senior-developer-analysis.md",
+      "complexity_score": 30.3,
+      "token_estimate": 2402,
+      "execution_time": 18.54893783444659,
+      "readability_score": 2.8,
+      "maintainability_score": 0.0,
+      "effectiveness_score": 9.0,
+      "error_rate": 0.38893631881201235,
+      "success_rate": 0.1,
+      "brutal_assessment": "Complexity score of 30.3 means this command has more moving parts than a Rube Goldberg machine. You asked for help, not a PhD thesis. Error rate of 38.9% means this fails more often than a Windows ME update. That's not AI assistance, that's digital masochism. Readability score 2.8/10. Reading this is like deciphering ancient hieroglyphics while blindfolded. Maintainability score 0.0/10. Future developers will curse your name and question their career choices.",
+      "improvements": [
+        "Reduce complexity from 30.3 to <5 per CLAUDE.md rules",
+        "Add clear examples and simplify structure",
+        "Replace placeholders with actual implementation",
+        "Add error handling and validation patterns"
+      ],
+      "strengths": [
+        "Includes thinking orchestration pattern",
+        "High effectiveness potential",
+        "Includes usage examples",
+        "Has error recovery mechanisms"
+      ],
+      "weaknesses": [
+        "Excessive complexity violates simplicity principles",
+        "High predicted error rate",
+        "Poor readability and unclear structure"
+      ]
+    },
+    {
+      "command_name": "adaptive-complexity-router",
+      "file_path": "/home/runner/work/claude-dotfiles/claude-dotfiles/commands/adaptive-complexity-router.md",
+      "complexity_score": 16.5,
+      "token_estimate": 2138,
+      "execution_time": 12.872894455409034,
+      "readability_score": 7.7,
+      "maintainability_score": 2.25,
+      "effectiveness_score": 8.0,
+      "error_rate": 0.2599052925400619,
+      "success_rate": 0.4100947074599381,
+      "brutal_assessment": "Complexity score of 16.5 means this command has more moving parts than a Rube Goldberg machine. You asked for help, not a PhD thesis. Maintainability score 2.25/10. Future developers will curse your name and question their career choices.",
+      "improvements": [
+        "Reduce complexity from 16.5 to <5 per CLAUDE.md rules",
+        "Replace placeholders with actual implementation",
+        "Add error handling and validation patterns"
+      ],
+      "strengths": [
+        "Includes thinking orchestration pattern",
+        "Good readability and structure",
+        "High effectiveness potential",
+        "Includes usage examples",
+        "Has error recovery mechanisms"
+      ],
+      "weaknesses": [
+        "Excessive complexity violates simplicity principles",
+        "High predicted error rate"
+      ]
+    },
+    {
+      "command_name": "java-rapid-implementation",
+      "file_path": "/home/runner/work/claude-dotfiles/claude-dotfiles/commands/java-rapid-implementation.md",
+      "complexity_score": 13.8,
+      "token_estimate": 1494,
+      "execution_time": 10.15968223339297,
+      "readability_score": 7.4,
+      "maintainability_score": 3.0999999999999996,
+      "effectiveness_score": 8.0,
+      "error_rate": 0.22015290489008335,
+      "success_rate": 0.5038470951099167,
+      "brutal_assessment": "Complexity score of 13.8 means this command has more moving parts than a Rube Goldberg machine. You asked for help, not a PhD thesis. Maintainability score 3.0999999999999996/10. Future developers will curse your name and question their career choices.",
+      "improvements": [
+        "Reduce complexity from 13.8 to <5 per CLAUDE.md rules",
+        "Replace placeholders with actual implementation",
+        "Add error handling and validation patterns"
+      ],
+      "strengths": [
+        "Includes thinking orchestration pattern",
+        "Good readability and structure",
+        "High effectiveness potential",
+        "Has error recovery mechanisms"
+      ],
+      "weaknesses": [
+        "Excessive complexity violates simplicity principles"
+      ]
+    },
+    {
+      "command_name": "java-clean-code-generator",
+      "file_path": "/home/runner/work/claude-dotfiles/claude-dotfiles/commands/java-clean-code-generator.md",
+      "complexity_score": 40.49,
+      "token_estimate": 4840,
+      "execution_time": 33.011766994981784,
+      "readability_score": 0.49999999999999956,
+      "maintainability_score": 0.0,
+      "effectiveness_score": 9.0,
+      "error_rate": 0.5587190506360856,
+      "success_rate": 0.1,
+      "brutal_assessment": "Complexity score of 40.49 means this command has more moving parts than a Rube Goldberg machine. You asked for help, not a PhD thesis. Error rate of 55.9% means this fails more often than a Windows ME update. That's not AI assistance, that's digital masochism. Readability score 0.49999999999999956/10. Reading this is like deciphering ancient hieroglyphics while blindfolded. Maintainability score 0.0/10. Future developers will curse your name and question their career choices.",
+      "improvements": [
+        "Reduce complexity from 40.49 to <5 per CLAUDE.md rules",
+        "Add clear examples and simplify structure",
+        "Replace placeholders with actual implementation",
+        "Add error handling and validation patterns"
+      ],
+      "strengths": [
+        "Includes thinking orchestration pattern",
+        "High effectiveness potential",
+        "Includes usage examples",
+        "Has error recovery mechanisms"
+      ],
+      "weaknesses": [
+        "Excessive complexity violates simplicity principles",
+        "High predicted error rate",
+        "Poor readability and unclear structure"
+      ]
+    },
+    {
+      "command_name": "adhd-morning-assistant",
+      "file_path": "/home/runner/work/claude-dotfiles/claude-dotfiles/commands/adhd-morning-assistant.md",
+      "complexity_score": 6.2,
+      "token_estimate": 1710,
+      "execution_time": 6.384794203256288,
+      "readability_score": 7.0,
+      "maintainability_score": 6.4,
+      "effectiveness_score": 6.5,
+      "error_rate": 0.14770303522468342,
+      "success_rate": 0.7282969647753166,
+      "brutal_assessment": "Mediocre but functional. Like airline food - it exists and serves a purpose.",
+      "improvements": [
+        "Reduce complexity from 6.2 to <5 per CLAUDE.md rules"
+      ],
+      "strengths": [
+        "Good readability and structure"
+      ],
+      "weaknesses": []
+    },
+    {
+      "command_name": "adhd-hyperfocus-guardian",
+      "file_path": "/home/runner/work/claude-dotfiles/claude-dotfiles/commands/adhd-hyperfocus-guardian.md",
+      "complexity_score": 5.6,
+      "token_estimate": 2325,
+      "execution_time": 6.268224532491332,
+      "readability_score": 7.0,
+      "maintainability_score": 6.7,
+      "effectiveness_score": 6.5,
+      "error_rate": 0.1699436956447376,
+      "success_rate": 0.7180563043552624,
+      "brutal_assessment": "Mediocre but functional. Like airline food - it exists and serves a purpose.",
+      "improvements": [
+        "Reduce complexity from 5.6 to <5 per CLAUDE.md rules"
+      ],
+      "strengths": [
+        "Good readability and structure"
+      ],
+      "weaknesses": []
+    },
+    {
+      "command_name": "intelligent-code-enhancer",
+      "file_path": "/home/runner/work/claude-dotfiles/claude-dotfiles/commands/intelligent-code-enhancer.md",
+      "complexity_score": 17.9,
+      "token_estimate": 1825,
+      "execution_time": 12.409583378068401,
+      "readability_score": 8.0,
+      "maintainability_score": 1.0500000000000007,
+      "effectiveness_score": 9.0,
+      "error_rate": 0.2658908923819866,
+      "success_rate": 0.3761091076180134,
+      "brutal_assessment": "Complexity score of 17.9 means this command has more moving parts than a Rube Goldberg machine. You asked for help, not a PhD thesis. Maintainability score 1.0500000000000007/10. Future developers will curse your name and question their career choices.",
+      "improvements": [
+        "Reduce complexity from 17.9 to <5 per CLAUDE.md rules",
+        "Replace placeholders with actual implementation",
+        "Add error handling and validation patterns"
+      ],
+      "strengths": [
+        "Includes thinking orchestration pattern",
+        "Good readability and structure",
+        "High effectiveness potential",
+        "Includes usage examples",
+        "Has error recovery mechanisms"
+      ],
+      "weaknesses": [
+        "Excessive complexity violates simplicity principles",
+        "High predicted error rate"
+      ]
+    },
+    {
+      "command_name": "adhd-context-switch",
+      "file_path": "/home/runner/work/claude-dotfiles/claude-dotfiles/commands/adhd-context-switch.md",
+      "complexity_score": 5.4,
+      "token_estimate": 1876,
+      "execution_time": 7.301963569735511,
+      "readability_score": 7.0,
+      "maintainability_score": 5.8,
+      "effectiveness_score": 5.5,
+      "error_rate": 0.14314540071585272,
+      "success_rate": 0.7488545992841473,
+      "brutal_assessment": "Mediocre but functional. Like airline food - it exists and serves a purpose.",
+      "improvements": [
+        "Reduce complexity from 5.4 to <5 per CLAUDE.md rules",
+        "Add concrete actionable outcomes and validation steps"
+      ],
+      "strengths": [
+        "Good readability and structure"
+      ],
+      "weaknesses": []
+    },
+    {
+      "command_name": "ultrathink-pure-xml",
+      "file_path": "/home/runner/work/claude-dotfiles/claude-dotfiles/commands/ultrathink-pure-xml.md",
+      "complexity_score": 7.0,
+      "token_estimate": 2250,
+      "execution_time": 6.9362805840741855,
+      "readability_score": 8.5,
+      "maintainability_score": 6.0,
+      "effectiveness_score": 7.5,
+      "error_rate": 0.163548825549639,
+      "success_rate": 0.696451174450361,
+      "brutal_assessment": "Mediocre but functional. Like airline food - it exists and serves a purpose.",
+      "improvements": [
+        "Reduce complexity from 7.0 to <5 per CLAUDE.md rules"
+      ],
+      "strengths": [
+        "Good readability and structure",
+        "High effectiveness potential",
+        "Includes usage examples"
+      ],
+      "weaknesses": []
+    },
+    {
+      "command_name": "ultrathink-interactive",
+      "file_path": "/home/runner/work/claude-dotfiles/claude-dotfiles/commands/ultrathink-interactive.md",
+      "complexity_score": 6.07,
+      "token_estimate": 2968,
+      "execution_time": 8.359399604986315,
+      "readability_score": 8.5,
+      "maintainability_score": 6.465,
+      "effectiveness_score": 7.5,
+      "error_rate": 0.18358999531876516,
+      "success_rate": 0.6950100046812349,
+      "brutal_assessment": "Mediocre but functional. Like airline food - it exists and serves a purpose.",
+      "improvements": [
+        "Reduce complexity from 6.07 to <5 per CLAUDE.md rules"
+      ],
+      "strengths": [
+        "Good readability and structure",
+        "High effectiveness potential",
+        "Includes usage examples"
+      ],
+      "weaknesses": []
+    },
+    {
+      "command_name": "intelligent-refactor-session",
+      "file_path": "/home/runner/work/claude-dotfiles/claude-dotfiles/commands/intelligent-refactor-session.md",
+      "complexity_score": 23.97,
+      "token_estimate": 3026,
+      "execution_time": 18.378631267810952,
+      "readability_score": 8.0,
+      "maintainability_score": 0.0,
+      "effectiveness_score": 8.0,
+      "error_rate": 0.3486258409102188,
+      "success_rate": 0.1719741590897812,
+      "brutal_assessment": "Complexity score of 23.97 means this command has more moving parts than a Rube Goldberg machine. You asked for help, not a PhD thesis. Error rate of 34.9% means this fails more often than a Windows ME update. That's not AI assistance, that's digital masochism. Maintainability score 0.0/10. Future developers will curse your name and question their career choices.",
+      "improvements": [
+        "Reduce complexity from 23.97 to <5 per CLAUDE.md rules",
+        "Replace placeholders with actual implementation",
+        "Add error handling and validation patterns"
+      ],
+      "strengths": [
+        "Includes thinking orchestration pattern",
+        "Good readability and structure",
+        "High effectiveness potential",
+        "Includes usage examples",
+        "Has error recovery mechanisms"
+      ],
+      "weaknesses": [
+        "Excessive complexity violates simplicity principles",
+        "High predicted error rate"
+      ]
+    }
+  ],
+  "savage_verdicts": {
+    "hall_of_shame": [
+      {
+        "command": "git-backup-sync",
+        "sin": "Complexity Violation",
+        "evidence": "Score: 17.76 > 5"
+      },
+      {
+        "command": "generate-thinking-command",
+        "sin": "Complexity Violation",
+        "evidence": "Score: 6.2 > 5"
+      },
+      {
+        "command": "safe-code-beautifier",
+        "sin": "Complexity Violation",
+        "evidence": "Score: 33.0 > 5"
+      },
+      {
+        "command": "ultrathink-hybrid-mcp",
+        "sin": "Complexity Violation",
+        "evidence": "Score: 14.98 > 5"
+      },
+      {
+        "command": "ultrathink",
+        "sin": "Complexity Violation",
+        "evidence": "Score: 9.5 > 5"
+      },
+      {
+        "command": "reasoning-wrapper",
+        "sin": "Complexity Violation",
+        "evidence": "Score: 16.7 > 5"
+      },
+      {
+        "command": "analyze-project-architecture",
+        "sin": "Complexity Violation",
+        "evidence": "Score: 11.5 > 5"
+      },
+      {
+        "command": "ultrathink-full-mcp",
+        "sin": "Complexity Violation",
+        "evidence": "Score: 21.53 > 5"
+      },
+      {
+        "command": "java-test-driven-development",
+        "sin": "Complexity Violation",
+        "evidence": "Score: 14.8 > 5"
+      },
+      {
+        "command": "senior-developer-analysis",
+        "sin": "Complexity Violation",
+        "evidence": "Score: 30.3 > 5"
+      },
+      {
+        "command": "adaptive-complexity-router",
+        "sin": "Complexity Violation",
+        "evidence": "Score: 16.5 > 5"
+      },
+      {
+        "command": "java-rapid-implementation",
+        "sin": "Complexity Violation",
+        "evidence": "Score: 13.8 > 5"
+      },
+      {
+        "command": "java-clean-code-generator",
+        "sin": "Complexity Violation",
+        "evidence": "Score: 40.49 > 5"
+      },
+      {
+        "command": "adhd-morning-assistant",
+        "sin": "Complexity Violation",
+        "evidence": "Score: 6.2 > 5"
+      },
+      {
+        "command": "adhd-hyperfocus-guardian",
+        "sin": "Complexity Violation",
+        "evidence": "Score: 5.6 > 5"
+      },
+      {
+        "command": "intelligent-code-enhancer",
+        "sin": "Complexity Violation",
+        "evidence": "Score: 17.9 > 5"
+      },
+      {
+        "command": "adhd-context-switch",
+        "sin": "Complexity Violation",
+        "evidence": "Score: 5.4 > 5"
+      },
+      {
+        "command": "ultrathink-pure-xml",
+        "sin": "Complexity Violation",
+        "evidence": "Score: 7.0 > 5"
+      },
+      {
+        "command": "ultrathink-interactive",
+        "sin": "Complexity Violation",
+        "evidence": "Score: 6.07 > 5"
+      },
+      {
+        "command": "intelligent-refactor-session",
+        "sin": "Complexity Violation",
+        "evidence": "Score: 23.97 > 5"
+      }
+    ],
+    "token_wasters": [],
+    "unreadable_monsters": [
+      {
+        "command": "safe-code-beautifier",
+        "sin": "Readability Disaster",
+        "evidence": "Score: 0.39999999999999947/10"
+      },
+      {
+        "command": "senior-developer-analysis",
+        "sin": "Readability Disaster",
+        "evidence": "Score: 2.8/10"
+      },
+      {
+        "command": "java-clean-code-generator",
+        "sin": "Readability Disaster",
+        "evidence": "Score: 0.49999999999999956/10"
+      }
+    ]
+  },
+  "recommendations": {
+    "immediate_fixes": [
+      "Fix java-clean-code-generator - complexity 40.49 violates standards",
+      "Optimize java-clean-code-generator - 4840 tokens is excessive",
+      "Debug java-clean-code-generator - 55.9% error rate is unacceptable"
+    ],
+    "architectural_improvements": [
+      "Enforce complexity score < 5 validation in CI/CD",
+      "Add token consumption limits per command type",
+      "Implement readability scoring in code review",
+      "Create effectiveness baseline tests"
+    ]
+  }
+}
