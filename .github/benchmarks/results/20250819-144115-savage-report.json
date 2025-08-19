@@ -1,0 +1,236 @@
+{
+  "metadata": {
+    "timestamp": "20250819-144115",
+    "analysis_date": "2025-08-19T14:41:15.695660",
+    "total_commands_analyzed": 5,
+    "benchmark_version": "1.0.0-savage-phd",
+    "analysis_type": "static_code_analysis_with_brutal_statistical_honesty",
+    "methodology": "Scientific brutality with 95% confidence intervals",
+    "claude_md_compliance_threshold": 5
+  },
+  "aggregate_metrics": {
+    "average_complexity_score": 9.89,
+    "complexity_standard_deviation": 3.59,
+    "claude_md_violation_rate": 80.0,
+    "average_token_waste": 815.0,
+    "average_execution_time_seconds": 10.2,
+    "total_execution_risks": 9,
+    "total_functionality_gaps": 4,
+    "total_mcp_dependencies": 20,
+    "failure_risk_rate": 2.6,
+    "savage_category_distribution": {
+      "DUMPSTER_FIRE": 4,
+      "HOT_MESS": 1
+    },
+    "overall_repository_score": 24.38
+  },
+  "individual_results": {
+    "adhd-morning-assistant.md": {
+      "filename": "adhd-morning-assistant.md",
+      "token_waste_score": 298,
+      "complexity_score": 8.64,
+      "mcp_dependencies": [
+        "basic-memory::build_context",
+        "basic-memory::write_note",
+        "basic-memory::search_notes"
+      ],
+      "execution_risks": [
+        "Unhandled async operations (4 awaits, 0 catches) - will crash on first error",
+        "System calls (2) without validation - security nightmare",
+        "Hyperfocus management claims timer functionality but provides none"
+      ],
+      "functionality_gaps": [
+        "Mentions timers but no actual timer mechanism",
+        "Environment optimization claims without environment access"
+      ],
+      "performance_metrics": {
+        "estimated_execution_time_seconds": 8.0,
+        "estimated_token_count": 1504,
+        "mcp_dependency_count": 7,
+        "sequential_bottlenecks": 2,
+        "token_efficiency": "ACCEPTABLE",
+        "scalability": "LIMITED"
+      },
+      "savage_rating": {
+        "total_score": 28.1,
+        "standard_deviation": 1.12,
+        "category": "DUMPSTER_FIRE",
+        "savage_roast": "Score: 28.1\u00b11.1. An over-engineered monument to everything wrong with modern development",
+        "confidence_interval_95": "25.9 to 30.3",
+        "recommendation": "DELETE IMMEDIATELY. Start over with a simple bash script. Current complexity violates all known engineering principles.",
+        "statistical_significance": "HIGH"
+      },
+      "analysis_duration": 0.0033
+    },
+    "ultrathink-interactive.md": {
+      "filename": "ultrathink-interactive.md",
+      "token_waste_score": 1806,
+      "complexity_score": 9.58,
+      "mcp_dependencies": [
+        "basic-memory::build_context",
+        "basic-memory::write_note",
+        "basic-memory::recent_activity"
+      ],
+      "execution_risks": [
+        "System calls (12) without validation - security nightmare",
+        "Debug logging in production command (13 calls) - performance drain"
+      ],
+      "functionality_gaps": [
+        "Claims interactivity but no input mechanism implementation"
+      ],
+      "performance_metrics": {
+        "estimated_execution_time_seconds": 9.3,
+        "estimated_token_count": 2537,
+        "mcp_dependency_count": 3,
+        "sequential_bottlenecks": 7,
+        "token_efficiency": "POOR",
+        "scalability": "LIMITED"
+      },
+      "savage_rating": {
+        "total_score": 25.58,
+        "standard_deviation": 15.06,
+        "category": "DUMPSTER_FIRE",
+        "savage_roast": "Score: 25.6\u00b115.1. An over-engineered monument to everything wrong with modern development",
+        "confidence_interval_95": "0.0 to 55.1",
+        "recommendation": "DELETE IMMEDIATELY. Start over with a simple bash script. Current complexity violates all known engineering principles.",
+        "statistical_significance": "LOW"
+      },
+      "analysis_duration": 0.0049
+    },
+    "ultrathink-full-mcp.md": {
+      "filename": "ultrathink-full-mcp.md",
+      "token_waste_score": 884,
+      "complexity_score": 11.4,
+      "mcp_dependencies": [
+        "basic-memory::search_notes",
+        "firecrawl::firecrawl_search",
+        "mcp-obsidian::search_notes",
+        "mcp-sequentialthinking-tools::sequentialthinking_tools",
+        "basic-memory::build_context",
+        "basic-memory::write_note",
+        "firecrawl::firecrawl_scrape",
+        "firecrawl::firecrawl_deep_research",
+        "mcp-obsidian::read_notes",
+        "basic-memory::recent_activity"
+      ],
+      "execution_risks": [
+        "MCP addiction - 29 dependencies, massive single point of failure"
+      ],
+      "functionality_gaps": [],
+      "performance_metrics": {
+        "estimated_execution_time_seconds": 24.2,
+        "estimated_token_count": 2635,
+        "mcp_dependency_count": 29,
+        "sequential_bottlenecks": 0,
+        "token_efficiency": "POOR",
+        "scalability": "TERRIBLE"
+      },
+      "savage_rating": {
+        "total_score": 21.9,
+        "standard_deviation": 7.46,
+        "category": "DUMPSTER_FIRE",
+        "savage_roast": "Score: 21.9\u00b17.5. An over-engineered monument to everything wrong with modern development",
+        "confidence_interval_95": "7.3 to 36.5",
+        "recommendation": "DELETE IMMEDIATELY. Start over with a simple bash script. Current complexity violates all known engineering principles.",
+        "statistical_significance": "LOW"
+      },
+      "analysis_duration": 0.0036
+    },
+    "reasoning-wrapper.md": {
+      "filename": "reasoning-wrapper.md",
+      "token_waste_score": 462,
+      "complexity_score": 15.42,
+      "mcp_dependencies": [
+        "mcp-sequentialthinking-tools::sequentialthinking_tools",
+        "tool::function\""
+      ],
+      "execution_risks": [
+        "System calls (8) without validation - security nightmare"
+      ],
+      "functionality_gaps": [
+        "Pattern learning claims without persistent storage mechanism"
+      ],
+      "performance_metrics": {
+        "estimated_execution_time_seconds": 2.6,
+        "estimated_token_count": 1560,
+        "mcp_dependency_count": 2,
+        "sequential_bottlenecks": 0,
+        "token_efficiency": "ACCEPTABLE",
+        "scalability": "LIMITED"
+      },
+      "savage_rating": {
+        "total_score": 28.92,
+        "standard_deviation": 5.28,
+        "category": "DUMPSTER_FIRE",
+        "savage_roast": "Score: 28.9\u00b15.3. An over-engineered monument to everything wrong with modern development",
+        "confidence_interval_95": "18.6 to 39.3",
+        "recommendation": "DELETE IMMEDIATELY. Start over with a simple bash script. Current complexity violates all known engineering principles.",
+        "statistical_significance": "LOW"
+      },
+      "analysis_duration": 0.0021
+    },
+    "adhd-hyperfocus-guardian.md": {
+      "filename": "adhd-hyperfocus-guardian.md",
+      "token_waste_score": 625,
+      "complexity_score": 4.42,
+      "mcp_dependencies": [
+        "basic-memory::search_notes",
+        "basic-memory::write_note"
+      ],
+      "execution_risks": [
+        "Unhandled async operations (5 awaits, 0 catches) - will crash on first error",
+        "System calls (3) without validation - security nightmare"
+      ],
+      "functionality_gaps": [],
+      "performance_metrics": {
+        "estimated_execution_time_seconds": 6.8,
+        "estimated_token_count": 1982,
+        "mcp_dependency_count": 5,
+        "sequential_bottlenecks": 2,
+        "token_efficiency": "ACCEPTABLE",
+        "scalability": "LIMITED"
+      },
+      "savage_rating": {
+        "total_score": 17.42,
+        "standard_deviation": 4.63,
+        "category": "HOT_MESS",
+        "savage_roast": "Score: 17.4\u00b14.6. Impressive token waste with a generous helping of false promises",
+        "confidence_interval_95": "8.3 to 26.5",
+        "recommendation": "Major refactoring needed. Consider professional intervention. Current state is unsustainable.",
+        "statistical_significance": "LOW"
+      },
+      "analysis_duration": 0.0053
+    }
+  },
+  "statistical_analysis": {
+    "confidence_level": 0.95,
+    "methodology": "Weighted scoring with standard deviation calculation",
+    "complexity_scoring": "Based on CLAUDE.md rules: >5 = over-engineered violation",
+    "token_waste_calculation": "Verbose patterns, unnecessary abstractions, XML bloat",
+    "risk_assessment": "Static analysis for crash-prone patterns and unhandled errors",
+    "gap_analysis": "Claims vs actual implementation capability",
+    "performance_estimation": "MCP latency + processing overhead modeling"
+  },
+  "scientific_conclusions": {
+    "overall_assessment": "REPOSITORY REQUIRES IMMEDIATE INTERVENTION",
+    "worst_offender": {
+      "command": "reasoning-wrapper.md",
+      "score": 28.92,
+      "category": "DUMPSTER_FIRE"
+    },
+    "best_of_worst": {
+      "command": "adhd-hyperfocus-guardian.md",
+      "score": 17.42,
+      "category": "HOT_MESS"
+    },
+    "claude_md_compliance": {
+      "violations": 4,
+      "violation_rate": "80%",
+      "status": "FAILING"
+    },
+    "recommendations": [
+      "Immediate complexity reduction needed",
+      "Error handling severely lacking"
+    ]
+  }
+}
