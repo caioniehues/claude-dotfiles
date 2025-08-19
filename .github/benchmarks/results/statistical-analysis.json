@@ -1,0 +1,126 @@
+{
+  "timestamp": "2025-08-19T06:06:38.908874",
+  "methodology": "savage_scientific_benchmarking",
+  "commands_analyzed": 5,
+  "statistical_results": {
+    "git-backup-sync.md": {
+      "complexity_score": 41,
+      "over_engineering_factor": 8.2,
+      "avg_tokens": 892.6,
+      "token_confidence_interval": [
+        776.5098174467453,
+        1008.6901825532548
+      ],
+      "avg_execution_time": 12.449360006443618,
+      "time_confidence_interval": [
+        9.712090740179182,
+        15.186629272708053
+      ],
+      "success_rate": 0.8,
+      "failure_rate": 0.19999999999999996,
+      "tokens_per_second": 71.69846478357141,
+      "failure_cost_tokens": 232.07599999999994,
+      "roi_ratio": 143.58574569844112,
+      "efficiency_score": 1.951219512195122,
+      "statistical_confidence": 95,
+      "sample_size": 5
+    },
+    "adhd-morning-assistant.md": {
+      "complexity_score": 26,
+      "over_engineering_factor": 5.2,
+      "avg_tokens": 715.2,
+      "token_confidence_interval": [
+        529.7641973679517,
+        900.6358026320484
+      ],
+      "avg_execution_time": 9.316523480921735,
+      "time_confidence_interval": [
+        5.190511691127694,
+        13.442535270715776
+      ],
+      "success_rate": 0.8,
+      "failure_rate": 0.19999999999999996,
+      "tokens_per_second": 76.76683276380702,
+      "failure_cost_tokens": 185.95199999999997,
+      "roi_ratio": 192.20511601629283,
+      "efficiency_score": 3.076923076923077,
+      "statistical_confidence": 95,
+      "sample_size": 5
+    },
+    "adhd-context-switch.md": {
+      "complexity_score": 26,
+      "over_engineering_factor": 5.2,
+      "avg_tokens": 730.0,
+      "token_confidence_interval": [
+        588.5209210185478,
+        871.4790789814522
+      ],
+      "avg_execution_time": 14.236792465603354,
+      "time_confidence_interval": [
+        11.075535774112288,
+        17.39804915709442
+      ],
+      "success_rate": 0.4,
+      "failure_rate": 0.6,
+      "tokens_per_second": 51.27559467932882,
+      "failure_cost_tokens": 569.4,
+      "roi_ratio": 125.43297318190668,
+      "efficiency_score": 1.5384615384615385,
+      "statistical_confidence": 95,
+      "sample_size": 5
+    },
+    "context-enhanced-executor.md": {
+      "complexity_score": 11,
+      "over_engineering_factor": 2.2,
+      "avg_tokens": 336.4,
+      "token_confidence_interval": [
+        267.47197031012706,
+        405.3280296898729
+      ],
+      "avg_execution_time": 4.137913439528237,
+      "time_confidence_interval": [
+        3.2010941663624832,
+        5.074732712693991
+      ],
+      "success_rate": 1.0,
+      "failure_rate": 0.0,
+      "tokens_per_second": 81.29701235083179,
+      "failure_cost_tokens": 0.0,
+      "roi_ratio": 434.00184967745906,
+      "efficiency_score": 9.090909090909092,
+      "statistical_confidence": 95,
+      "sample_size": 5
+    },
+    "generate-thinking-command.md": {
+      "complexity_score": 15,
+      "over_engineering_factor": 3.0,
+      "avg_tokens": 536.0,
+      "token_confidence_interval": [
+        397.2688618819841,
+        674.7311381180159
+      ],
+      "avg_execution_time": 6.9873926106913,
+      "time_confidence_interval": [
+        3.8928837683457695,
+        10.081901453036831
+      ],
+      "success_rate": 0.8,
+      "failure_rate": 0.19999999999999996,
+      "tokens_per_second": 76.7095868035059,
+      "failure_cost_tokens": 139.35999999999999,
+      "roi_ratio": 256.60682135505715,
+      "efficiency_score": 5.333333333333333,
+      "statistical_confidence": 95,
+      "sample_size": 5
+    }
+  },
+  "aggregate_metrics": {
+    "average_complexity_score": 23.8,
+    "average_success_rate": 0.76,
+    "average_token_consumption": 642.04,
+    "total_commands_violating_complexity": 5,
+    "percentage_over_engineered": 100.0,
+    "worst_offender": "git-backup-sync.md",
+    "best_performer": "context-enhanced-executor.md"
+  }
+}

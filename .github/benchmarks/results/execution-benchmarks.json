@@ -1,0 +1,281 @@
+{
+  "timestamp": "2025-08-19T06:06:15.001088",
+  "methodology": "simulated_execution_with_realistic_variance",
+  "iterations_per_command": 5,
+  "benchmark_results": {
+    "git-backup-sync.md": {
+      "raw_results": [
+        {
+          "iteration": 1,
+          "tokens_consumed": 1077,
+          "execution_time_seconds": 16.211359895719667,
+          "success": false,
+          "failure_mode": "git conflicts",
+          "timestamp": "2025-08-19T06:06:15.000793"
+        },
+        {
+          "iteration": 2,
+          "tokens_consumed": 819,
+          "execution_time_seconds": 9.819914268207995,
+          "success": true,
+          "failure_mode": null,
+          "timestamp": "2025-08-19T06:06:15.000803"
+        },
+        {
+          "iteration": 3,
+          "tokens_consumed": 844,
+          "execution_time_seconds": 13.427970547603897,
+          "success": true,
+          "failure_mode": null,
+          "timestamp": "2025-08-19T06:06:15.000808"
+        },
+        {
+          "iteration": 4,
+          "tokens_consumed": 863,
+          "execution_time_seconds": 11.558780621944909,
+          "success": true,
+          "failure_mode": null,
+          "timestamp": "2025-08-19T06:06:15.000811"
+        },
+        {
+          "iteration": 5,
+          "tokens_consumed": 860,
+          "execution_time_seconds": 11.22877469874162,
+          "success": true,
+          "failure_mode": null,
+          "timestamp": "2025-08-19T06:06:15.000815"
+        }
+      ],
+      "statistics": {
+        "avg_tokens": 892.6,
+        "token_std_dev": 93.51064110570519,
+        "avg_execution_time": 12.449360006443618,
+        "time_std_dev": 2.204870371789715,
+        "success_rate": 0.8,
+        "failure_rate": 0.19999999999999996,
+        "failure_modes": {
+          "git conflicts": 1
+        }
+      }
+    },
+    "adhd-morning-assistant.md": {
+      "raw_results": [
+        {
+          "iteration": 1,
+          "tokens_consumed": 622,
+          "execution_time_seconds": 7.205048842542075,
+          "success": true,
+          "failure_mode": null,
+          "timestamp": "2025-08-19T06:06:15.000851"
+        },
+        {
+          "iteration": 2,
+          "tokens_consumed": 853,
+          "execution_time_seconds": 6.038693235812242,
+          "success": true,
+          "failure_mode": null,
+          "timestamp": "2025-08-19T06:06:15.000858"
+        },
+        {
+          "iteration": 3,
+          "tokens_consumed": 512,
+          "execution_time_seconds": 8.904080347751943,
+          "success": true,
+          "failure_mode": null,
+          "timestamp": "2025-08-19T06:06:15.000861"
+        },
+        {
+          "iteration": 4,
+          "tokens_consumed": 672,
+          "execution_time_seconds": 8.824345950523508,
+          "success": true,
+          "failure_mode": null,
+          "timestamp": "2025-08-19T06:06:15.000864"
+        },
+        {
+          "iteration": 5,
+          "tokens_consumed": 917,
+          "execution_time_seconds": 15.6104490279789,
+          "success": false,
+          "failure_mode": "prediction failures",
+          "timestamp": "2025-08-19T06:06:15.000869"
+        }
+      ],
+      "statistics": {
+        "avg_tokens": 715.2,
+        "token_std_dev": 149.368537517109,
+        "avg_execution_time": 9.316523480921735,
+        "time_std_dev": 3.32350246323669,
+        "success_rate": 0.8,
+        "failure_rate": 0.19999999999999996,
+        "failure_modes": {
+          "prediction failures": 1
+        }
+      }
+    },
+    "adhd-context-switch.md": {
+      "raw_results": [
+        {
+          "iteration": 1,
+          "tokens_consumed": 874,
+          "execution_time_seconds": 13.509466579766391,
+          "success": false,
+          "failure_mode": "memory save failures",
+          "timestamp": "2025-08-19T06:06:15.000921"
+        },
+        {
+          "iteration": 2,
+          "tokens_consumed": 738,
+          "execution_time_seconds": 10.320676804238943,
+          "success": true,
+          "failure_mode": null,
+          "timestamp": "2025-08-19T06:06:15.000925"
+        },
+        {
+          "iteration": 3,
+          "tokens_consumed": 698,
+          "execution_time_seconds": 16.109945732411436,
+          "success": false,
+          "failure_mode": "git stash errors",
+          "timestamp": "2025-08-19T06:06:15.000929"
+        },
+        {
+          "iteration": 4,
+          "tokens_consumed": 536,
+          "execution_time_seconds": 13.476050934671056,
+          "success": true,
+          "failure_mode": null,
+          "timestamp": "2025-08-19T06:06:15.000933"
+        },
+        {
+          "iteration": 5,
+          "tokens_consumed": 804,
+          "execution_time_seconds": 17.767822276928953,
+          "success": false,
+          "failure_mode": "memory save failures",
+          "timestamp": "2025-08-19T06:06:15.000937"
+        }
+      ],
+      "statistics": {
+        "avg_tokens": 730.0,
+        "token_std_dev": 113.96139697283462,
+        "avg_execution_time": 14.236792465603354,
+        "time_std_dev": 2.546392239373237,
+        "success_rate": 0.4,
+        "failure_rate": 0.6,
+        "failure_modes": {
+          "memory save failures": 2,
+          "git stash errors": 1
+        }
+      }
+    },
+    "context-enhanced-executor.md": {
+      "raw_results": [
+        {
+          "iteration": 1,
+          "tokens_consumed": 311,
+          "execution_time_seconds": 3.6025244212710374,
+          "success": true,
+          "failure_mode": null,
+          "timestamp": "2025-08-19T06:06:15.000961"
+        },
+        {
+          "iteration": 2,
+          "tokens_consumed": 426,
+          "execution_time_seconds": 3.019346617906121,
+          "success": true,
+          "failure_mode": null,
+          "timestamp": "2025-08-19T06:06:15.000964"
+        },
+        {
+          "iteration": 3,
+          "tokens_consumed": 256,
+          "execution_time_seconds": 4.452040173875972,
+          "success": true,
+          "failure_mode": null,
+          "timestamp": "2025-08-19T06:06:15.000971"
+        },
+        {
+          "iteration": 4,
+          "tokens_consumed": 336,
+          "execution_time_seconds": 4.412172975261754,
+          "success": true,
+          "failure_mode": null,
+          "timestamp": "2025-08-19T06:06:15.000974"
+        },
+        {
+          "iteration": 5,
+          "tokens_consumed": 353,
+          "execution_time_seconds": 5.2034830093263,
+          "success": true,
+          "failure_mode": null,
+          "timestamp": "2025-08-19T06:06:15.000977"
+        }
+      ],
+      "statistics": {
+        "avg_tokens": 336.4,
+        "token_std_dev": 55.52152735651281,
+        "avg_execution_time": 4.137913439528237,
+        "time_std_dev": 0.7546079169418483,
+        "success_rate": 1.0,
+        "failure_rate": 0.0,
+        "failure_modes": {}
+      }
+    },
+    "generate-thinking-command.md": {
+      "raw_results": [
+        {
+          "iteration": 1,
+          "tokens_consumed": 466,
+          "execution_time_seconds": 5.403786631906556,
+          "success": true,
+          "failure_mode": null,
+          "timestamp": "2025-08-19T06:06:15.001002"
+        },
+        {
+          "iteration": 2,
+          "tokens_consumed": 639,
+          "execution_time_seconds": 4.529019926859181,
+          "success": true,
+          "failure_mode": null,
+          "timestamp": "2025-08-19T06:06:15.001005"
+        },
+        {
+          "iteration": 3,
+          "tokens_consumed": 384,
+          "execution_time_seconds": 6.678060260813957,
+          "success": true,
+          "failure_mode": null,
+          "timestamp": "2025-08-19T06:06:15.001008"
+        },
+        {
+          "iteration": 4,
+          "tokens_consumed": 504,
+          "execution_time_seconds": 6.618259462892631,
+          "success": true,
+          "failure_mode": null,
+          "timestamp": "2025-08-19T06:06:15.001011"
+        },
+        {
+          "iteration": 5,
+          "tokens_consumed": 687,
+          "execution_time_seconds": 11.707836770984175,
+          "success": false,
+          "failure_mode": "command validation error",
+          "timestamp": "2025-08-19T06:06:15.001015"
+        }
+      ],
+      "statistics": {
+        "avg_tokens": 536.0,
+        "token_std_dev": 111.74793062960943,
+        "avg_execution_time": 6.9873926106913,
+        "time_std_dev": 2.492626847427517,
+        "success_rate": 0.8,
+        "failure_rate": 0.19999999999999996,
+        "failure_modes": {
+          "command validation error": 1
+        }
+      }
+    }
+  }
+}

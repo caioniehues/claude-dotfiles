@@ -1,0 +1,58 @@
+{
+  "timestamp": "2025-08-19T06:05:44.829917",
+  "analysis_method": "CLAUDE_MD_COMPLEXITY_SCORING",
+  "violation_threshold": 5,
+  "results": {
+    "git-backup-sync.md": {
+      "abstractions": 8,
+      "patterns": 5,
+      "config_files": 3,
+      "integrations": 4,
+      "total_score": 41,
+      "violation_score": 36,
+      "simplicity_rating": "CATASTROPHIC"
+    },
+    "adhd-morning-assistant.md": {
+      "abstractions": 6,
+      "patterns": 3,
+      "config_files": 1,
+      "integrations": 3,
+      "total_score": 26,
+      "violation_score": 21,
+      "simplicity_rating": "SEVERE"
+    },
+    "adhd-context-switch.md": {
+      "abstractions": 7,
+      "patterns": 2,
+      "config_files": 1,
+      "integrations": 4,
+      "total_score": 26,
+      "violation_score": 21,
+      "simplicity_rating": "SEVERE"
+    },
+    "context-enhanced-executor.md": {
+      "abstractions": 3,
+      "patterns": 1,
+      "config_files": 0,
+      "integrations": 2,
+      "total_score": 11,
+      "violation_score": 6,
+      "simplicity_rating": "ACCEPTABLE"
+    },
+    "generate-thinking-command.md": {
+      "abstractions": 4,
+      "patterns": 2,
+      "config_files": 0,
+      "integrations": 1,
+      "total_score": 15,
+      "violation_score": 10,
+      "simplicity_rating": "ACCEPTABLE"
+    }
+  },
+  "summary": {
+    "total_commands": 5,
+    "catastrophic_violations": 1,
+    "severe_violations": 2,
+    "acceptable_commands": 2
+  }
+}
