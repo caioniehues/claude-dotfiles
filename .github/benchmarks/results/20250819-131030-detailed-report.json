@@ -1,0 +1,245 @@
+{
+  "detailed_results": {
+    "context-enhanced-executor.md": {
+      "filename": "context-enhanced-executor.md",
+      "basic_metrics": {
+        "lines": 132,
+        "characters": 3886,
+        "words": 424,
+        "chars_per_word": 9.165094339622641
+      },
+      "token_analysis": {
+        "estimated_input_tokens": 987,
+        "estimated_thinking_tokens": 0,
+        "estimated_xml_overhead": 16,
+        "total_token_burden": 987
+      },
+      "usability_analysis": {
+        "action_directives": 5,
+        "thinking_directives": 7,
+        "action_ratio_percent": 41.66666666666667,
+        "talk_to_action_ratio": 1.4,
+        "usability_score": 83.33333333333334
+      },
+      "complexity_analysis": {
+        "complexity_score": 22,
+        "classes": 0,
+        "interfaces": 0,
+        "patterns": 7,
+        "configs": 0,
+        "abstractions": 0,
+        "violates_complexity_rule": true,
+        "simplicity_violation_severity": 18
+      },
+      "quality_metrics": {
+        "error_handling_references": 0,
+        "null_safety_indicators": 0,
+        "defensive_programming": 0,
+        "documentation_ratio": 21.96969696969697
+      },
+      "efficiency_score": 0
+    },
+    "senior-developer-analysis.md": {
+      "filename": "senior-developer-analysis.md",
+      "basic_metrics": {
+        "lines": 390,
+        "characters": 13387,
+        "words": 1571,
+        "chars_per_word": 8.521323997453852
+      },
+      "token_analysis": {
+        "estimated_input_tokens": 3460,
+        "estimated_thinking_tokens": 1229,
+        "estimated_xml_overhead": 114,
+        "total_token_burden": 4690
+      },
+      "usability_analysis": {
+        "action_directives": 3,
+        "thinking_directives": 109,
+        "action_ratio_percent": 2.6785714285714284,
+        "talk_to_action_ratio": 36.333333333333336,
+        "usability_score": 5.357142857142857
+      },
+      "complexity_analysis": {
+        "complexity_score": 109,
+        "classes": 0,
+        "interfaces": 0,
+        "patterns": 34,
+        "configs": 3,
+        "abstractions": 0,
+        "violates_complexity_rule": true,
+        "simplicity_violation_severity": 105
+      },
+      "quality_metrics": {
+        "error_handling_references": 7,
+        "null_safety_indicators": 0,
+        "defensive_programming": 1,
+        "documentation_ratio": 9.743589743589745
+      },
+      "efficiency_score": 0
+    },
+    "intelligent-refactor-session.md": {
+      "filename": "intelligent-refactor-session.md",
+      "basic_metrics": {
+        "lines": 534,
+        "characters": 16531,
+        "words": 2048,
+        "chars_per_word": 8.07177734375
+      },
+      "token_analysis": {
+        "estimated_input_tokens": 4200,
+        "estimated_thinking_tokens": 0,
+        "estimated_xml_overhead": 68,
+        "total_token_burden": 4200
+      },
+      "usability_analysis": {
+        "action_directives": 14,
+        "thinking_directives": 114,
+        "action_ratio_percent": 10.9375,
+        "talk_to_action_ratio": 8.142857142857142,
+        "usability_score": 21.875
+      },
+      "complexity_analysis": {
+        "complexity_score": 99,
+        "classes": 1,
+        "interfaces": 0,
+        "patterns": 28,
+        "configs": 6,
+        "abstractions": 0,
+        "violates_complexity_rule": true,
+        "simplicity_violation_severity": 95
+      },
+      "quality_metrics": {
+        "error_handling_references": 3,
+        "null_safety_indicators": 0,
+        "defensive_programming": 34,
+        "documentation_ratio": 7.677902621722846
+      },
+      "efficiency_score": 0
+    },
+    "analyze-project-architecture.md": {
+      "filename": "analyze-project-architecture.md",
+      "basic_metrics": {
+        "lines": 274,
+        "characters": 9214,
+        "words": 1198,
+        "chars_per_word": 7.691151919866444
+      },
+      "token_analysis": {
+        "estimated_input_tokens": 2337,
+        "estimated_thinking_tokens": 0,
+        "estimated_xml_overhead": 34,
+        "total_token_burden": 2337
+      },
+      "usability_analysis": {
+        "action_directives": 4,
+        "thinking_directives": 53,
+        "action_ratio_percent": 7.017543859649122,
+        "talk_to_action_ratio": 13.25,
+        "usability_score": 14.035087719298245
+      },
+      "complexity_analysis": {
+        "complexity_score": 118,
+        "classes": 0,
+        "interfaces": 0,
+        "patterns": 36,
+        "configs": 4,
+        "abstractions": 1,
+        "violates_complexity_rule": true,
+        "simplicity_violation_severity": 114
+      },
+      "quality_metrics": {
+        "error_handling_references": 13,
+        "null_safety_indicators": 0,
+        "defensive_programming": 0,
+        "documentation_ratio": 4.014598540145985
+      },
+      "efficiency_score": 0
+    },
+    "java-rapid-implementation.md": {
+      "filename": "java-rapid-implementation.md",
+      "basic_metrics": {
+        "lines": 250,
+        "characters": 8732,
+        "words": 1032,
+        "chars_per_word": 8.46124031007752
+      },
+      "token_analysis": {
+        "estimated_input_tokens": 2241,
+        "estimated_thinking_tokens": 1722,
+        "estimated_xml_overhead": 58,
+        "total_token_burden": 3963
+      },
+      "usability_analysis": {
+        "action_directives": 2,
+        "thinking_directives": 47,
+        "action_ratio_percent": 4.081632653061225,
+        "talk_to_action_ratio": 23.5,
+        "usability_score": 8.16326530612245
+      },
+      "complexity_analysis": {
+        "complexity_score": 50,
+        "classes": 2,
+        "interfaces": 0,
+        "patterns": 11,
+        "configs": 3,
+        "abstractions": 6,
+        "violates_complexity_rule": true,
+        "simplicity_violation_severity": 46
+      },
+      "quality_metrics": {
+        "error_handling_references": 7,
+        "null_safety_indicators": 2,
+        "defensive_programming": 19,
+        "documentation_ratio": 4.3999999999999995
+      },
+      "efficiency_score": 0
+    }
+  },
+  "comparative_statistics": {
+    "efficiency_scores": {
+      "mean": 0,
+      "median": 0,
+      "stdev": 0.0,
+      "worst": 0,
+      "best": 0
+    },
+    "token_costs": {
+      "mean": 3235.4,
+      "total": 16177,
+      "worst_offender": 4690,
+      "estimated_cost_per_run_usd": 0.48531
+    },
+    "action_effectiveness": {
+      "mean": 13.27638292158969,
+      "median": 7.017543859649122,
+      "worst_talker": 2.6785714285714284
+    },
+    "complexity_violations": {
+      "mean": 79.6,
+      "violations": 5,
+      "worst_violator": 118
+    }
+  },
+  "savage_roasts": [
+    "\ud83d\udea8 context-enhanced-executor.md: Complexity score 22 (limit: 4). Violates CLAUDE.md standards by 18 points. Even your own rules can't contain this chaos.",
+    "\u26b0\ufe0f context-enhanced-executor.md: Efficiency score 0.0/100. This command is clinically dead. Time of death: 132 lines of bloated thinking.",
+    "\ud83d\udd25 senior-developer-analysis.md: 4690 token burden. That's $0.141 per execution. Your command costs more than a Starbucks coffee.",
+    "\ud83d\udcac senior-developer-analysis.md: 2.7% action ratio. This is a philosophy course, not a command. Talk-to-action ratio: 36.3:1",
+    "\ud83d\udea8 senior-developer-analysis.md: Complexity score 109 (limit: 4). Violates CLAUDE.md standards by 105 points. Even your own rules can't contain this chaos.",
+    "\u26b0\ufe0f senior-developer-analysis.md: Efficiency score 0.0/100. This command is clinically dead. Time of death: 390 lines of bloated thinking.",
+    "\ud83d\udd25 intelligent-refactor-session.md: 4200 token burden. That's $0.126 per execution. Your command costs more than a Starbucks coffee.",
+    "\ud83d\udcac intelligent-refactor-session.md: 10.9% action ratio. This is a philosophy course, not a command. Talk-to-action ratio: 8.1:1",
+    "\ud83d\udea8 intelligent-refactor-session.md: Complexity score 99 (limit: 4). Violates CLAUDE.md standards by 95 points. Even your own rules can't contain this chaos.",
+    "\u26b0\ufe0f intelligent-refactor-session.md: Efficiency score 0.0/100. This command is clinically dead. Time of death: 534 lines of bloated thinking.",
+    "\ud83d\udd25 analyze-project-architecture.md: 2337 token burden. That's $0.070 per execution. Your command costs more than a Starbucks coffee.",
+    "\ud83d\udcac analyze-project-architecture.md: 7.0% action ratio. This is a philosophy course, not a command. Talk-to-action ratio: 13.2:1",
+    "\ud83d\udea8 analyze-project-architecture.md: Complexity score 118 (limit: 4). Violates CLAUDE.md standards by 114 points. Even your own rules can't contain this chaos.",
+    "\u26b0\ufe0f analyze-project-architecture.md: Efficiency score 0.0/100. This command is clinically dead. Time of death: 274 lines of bloated thinking.",
+    "\ud83d\udd25 java-rapid-implementation.md: 3963 token burden. That's $0.119 per execution. Your command costs more than a Starbucks coffee.",
+    "\ud83d\udcac java-rapid-implementation.md: 4.1% action ratio. This is a philosophy course, not a command. Talk-to-action ratio: 23.5:1",
+    "\ud83d\udea8 java-rapid-implementation.md: Complexity score 50 (limit: 4). Violates CLAUDE.md standards by 46 points. Even your own rules can't contain this chaos.",
+    "\u26b0\ufe0f java-rapid-implementation.md: Efficiency score 0.0/100. This command is clinically dead. Time of death: 250 lines of bloated thinking."
+  ],
+  "analysis_timestamp": "2025-08-19T13:10:30Z"
+}
