@@ -1,0 +1,210 @@
+{
+  "timestamp": "2025-08-20T12:07:14.254684",
+  "methodology": "Savage Scientific Analysis with Simulated Execution",
+  "test_runs_per_command": 3,
+  "commands": {
+    "adhd-evening-reflect": {
+      "command": "adhd-evening-reflect",
+      "runs": 3,
+      "avg_time": 14.36,
+      "std_dev_time": 1.85,
+      "min_time": 12.39,
+      "max_time": 16.05,
+      "avg_tokens": 3124,
+      "token_variance": 337,
+      "success_rate": 66.7,
+      "failure_types": [
+        "parsing_error"
+      ],
+      "raw_results": [
+        {
+          "run": 1,
+          "execution_time": 0.1,
+          "simulated_processing_time": 16.05,
+          "estimated_tokens": 2744,
+          "success": true,
+          "error_type": null
+        },
+        {
+          "run": 2,
+          "execution_time": 0.1,
+          "simulated_processing_time": 12.39,
+          "estimated_tokens": 3388,
+          "success": false,
+          "error_type": "parsing_error"
+        },
+        {
+          "run": 3,
+          "execution_time": 0.1,
+          "simulated_processing_time": 14.64,
+          "estimated_tokens": 3240,
+          "success": true,
+          "error_type": null
+        }
+      ]
+    },
+    "intelligent-code-enhancer": {
+      "command": "intelligent-code-enhancer",
+      "runs": 3,
+      "avg_time": 21.54,
+      "std_dev_time": 2.76,
+      "min_time": 18.59,
+      "max_time": 24.07,
+      "avg_tokens": 4002,
+      "token_variance": 433,
+      "success_rate": 33.3,
+      "failure_types": [
+        "timeout",
+        "parsing_error"
+      ],
+      "raw_results": [
+        {
+          "run": 1,
+          "execution_time": 0.1,
+          "simulated_processing_time": 24.07,
+          "estimated_tokens": 3515,
+          "success": false,
+          "error_type": "timeout"
+        },
+        {
+          "run": 2,
+          "execution_time": 0.1,
+          "simulated_processing_time": 18.59,
+          "estimated_tokens": 4341,
+          "success": false,
+          "error_type": "parsing_error"
+        },
+        {
+          "run": 3,
+          "execution_time": 0.1,
+          "simulated_processing_time": 21.97,
+          "estimated_tokens": 4151,
+          "success": true,
+          "error_type": null
+        }
+      ]
+    },
+    "adhd-task-breakdown": {
+      "command": "adhd-task-breakdown",
+      "runs": 3,
+      "avg_time": 11.81,
+      "std_dev_time": 1.52,
+      "min_time": 10.19,
+      "max_time": 13.2,
+      "avg_tokens": 2733,
+      "token_variance": 295,
+      "success_rate": 66.7,
+      "failure_types": [
+        "parsing_error"
+      ],
+      "raw_results": [
+        {
+          "run": 1,
+          "execution_time": 0.1,
+          "simulated_processing_time": 13.2,
+          "estimated_tokens": 2401,
+          "success": true,
+          "error_type": null
+        },
+        {
+          "run": 2,
+          "execution_time": 0.1,
+          "simulated_processing_time": 10.19,
+          "estimated_tokens": 2964,
+          "success": false,
+          "error_type": "parsing_error"
+        },
+        {
+          "run": 3,
+          "execution_time": 0.1,
+          "simulated_processing_time": 12.04,
+          "estimated_tokens": 2835,
+          "success": true,
+          "error_type": null
+        }
+      ]
+    },
+    "ultrathink-interactive": {
+      "command": "ultrathink-interactive",
+      "runs": 3,
+      "avg_time": 33.73,
+      "std_dev_time": 4.33,
+      "min_time": 29.11,
+      "max_time": 37.69,
+      "avg_tokens": 5760,
+      "token_variance": 622,
+      "success_rate": 33.3,
+      "failure_types": [
+        "timeout",
+        "parsing_error"
+      ],
+      "raw_results": [
+        {
+          "run": 1,
+          "execution_time": 0.1,
+          "simulated_processing_time": 37.69,
+          "estimated_tokens": 5059,
+          "success": false,
+          "error_type": "timeout"
+        },
+        {
+          "run": 2,
+          "execution_time": 0.1,
+          "simulated_processing_time": 29.11,
+          "estimated_tokens": 6247,
+          "success": false,
+          "error_type": "parsing_error"
+        },
+        {
+          "run": 3,
+          "execution_time": 0.1,
+          "simulated_processing_time": 34.39,
+          "estimated_tokens": 5974,
+          "success": true,
+          "error_type": null
+        }
+      ]
+    },
+    "safe-code-beautifier": {
+      "command": "safe-code-beautifier",
+      "runs": 3,
+      "avg_time": 26.74,
+      "std_dev_time": 3.43,
+      "min_time": 23.08,
+      "max_time": 29.88,
+      "avg_tokens": 4686,
+      "token_variance": 506,
+      "success_rate": 33.3,
+      "failure_types": [
+        "timeout",
+        "parsing_error"
+      ],
+      "raw_results": [
+        {
+          "run": 1,
+          "execution_time": 0.1,
+          "simulated_processing_time": 29.88,
+          "estimated_tokens": 4116,
+          "success": false,
+          "error_type": "timeout"
+        },
+        {
+          "run": 2,
+          "execution_time": 0.1,
+          "simulated_processing_time": 23.08,
+          "estimated_tokens": 5082,
+          "success": false,
+          "error_type": "parsing_error"
+        },
+        {
+          "run": 3,
+          "execution_time": 0.1,
+          "simulated_processing_time": 27.26,
+          "estimated_tokens": 4860,
+          "success": true,
+          "error_type": null
+        }
+      ]
+    }
+  }
+}

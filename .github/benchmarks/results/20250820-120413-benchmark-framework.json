@@ -1,0 +1,81 @@
+{
+  "benchmark_session": {
+    "id": "20250820-120413-savage-benchmark",
+    "timestamp": "2025-08-20T12:04:13Z",
+    "mode": "SAVAGE_SCIENTIFIC_ANALYSIS",
+    "evaluator": "PhD in Roasting Bad Code",
+    "selected_commands": [
+      "adhd-evening-reflect",
+      "intelligent-code-enhancer", 
+      "adhd-task-breakdown",
+      "ultrathink-interactive",
+      "safe-code-beautifier"
+    ]
+  },
+  "measurement_framework": {
+    "objective_metrics": [
+      {
+        "metric": "token_consumption",
+        "description": "Input + output tokens per execution",
+        "measurement_method": "Token counting during execution",
+        "expected_range": "1000-10000 tokens",
+        "evaluation_criteria": "Lower is better for equivalent functionality"
+      },
+      {
+        "metric": "execution_time", 
+        "description": "Wall clock time with statistical variance",
+        "measurement_method": "Multiple runs with standard deviation calculation",
+        "expected_range": "5-120 seconds",
+        "evaluation_criteria": "Speed vs thoroughness trade-off analysis"
+      },
+      {
+        "metric": "success_rate",
+        "description": "Percentage of successful executions",
+        "measurement_method": "5 sample runs per command with defined success criteria",
+        "expected_range": "60-100%",
+        "evaluation_criteria": "Anything below 85% is unacceptable trash"
+      },
+      {
+        "metric": "complexity_score",
+        "description": "Adherence to CLAUDE.md complexity rules",
+        "measurement_method": "Static analysis of command structure",
+        "expected_range": "1-10 points",
+        "evaluation_criteria": "Must be < 5 per CLAUDE.md rules or it's bloated garbage"
+      },
+      {
+        "metric": "composition_compatibility",
+        "description": "How well commands work with other tools/commands",
+        "measurement_method": "Integration testing with common workflows",
+        "expected_range": "Boolean matrix",
+        "evaluation_criteria": "Should compose with at least 3 other common patterns"
+      }
+    ],
+    "quality_metrics": [
+      {
+        "metric": "clarity_score",
+        "description": "How clear and understandable the command output is",
+        "measurement_method": "Readability analysis and instruction following",
+        "scale": "1-10",
+        "evaluation_criteria": "Below 7 means it's confusing garbage"
+      },
+      {
+        "metric": "consistency_score", 
+        "description": "Consistent behavior across different inputs",
+        "measurement_method": "Variance analysis across test cases",
+        "scale": "Standard deviation",
+        "evaluation_criteria": "High variance = unreliable command"
+      }
+    ]
+  },
+  "baseline_comparisons": {
+    "manual_execution": "Time for human to accomplish same task manually",
+    "simple_alternatives": "Simpler command combinations that achieve similar results",
+    "cost_analysis": "Token cost vs value delivered"
+  },
+  "savage_evaluation_criteria": {
+    "excellence_threshold": "Commands that deliver 3x improvement over manual methods",
+    "acceptable_threshold": "Commands that deliver 1.5x improvement with < 15% failure rate",
+    "trash_threshold": "Commands with > 25% failure rate or negative ROI",
+    "roasting_intensity": "Proportional to how badly the command fails to meet basic expectations"
+  }
+}
