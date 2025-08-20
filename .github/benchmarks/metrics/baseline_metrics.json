@@ -1,0 +1,36 @@
+{
+  "test_environment": {
+    "platform": "linux",
+    "os_version": "Linux 6.11.0-1018-azure",
+    "date": "2025-08-20",
+    "claude_model": "claude-sonnet-4-20250514",
+    "working_directory": "/home/runner/work/claude-dotfiles/claude-dotfiles"
+  },
+  "commands_analyzed": [
+    "adhd-evening-reflect.md",
+    "git-backup-sync.md", 
+    "context-enhanced-executor.md",
+    "generate-thinking-command.md",
+    "safe-code-beautifier.md"
+  ],
+  "baseline_measurements": {
+    "manual_task_execution_time": {
+      "simple_task": 30,
+      "moderate_task": 120, 
+      "complex_task": 300,
+      "units": "seconds"
+    },
+    "manual_token_consumption": {
+      "simple_response": 150,
+      "moderate_response": 800,
+      "complex_response": 2000,
+      "units": "tokens"
+    },
+    "human_error_rate": {
+      "simple_task": 0.05,
+      "moderate_task": 0.15,
+      "complex_task": 0.30,
+      "units": "decimal"
+    }
+  }
+}
