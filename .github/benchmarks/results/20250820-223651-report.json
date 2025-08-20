@@ -1,0 +1,332 @@
+{
+  "benchmark_id": "savage-benchmark-20250820-223651",
+  "timestamp": "2025-08-20T22:36:51.234135",
+  "methodology": "Random sampling with statistical analysis",
+  "sample_size": 8,
+  "commands_tested": [
+    "adhd-task-breakdown.md",
+    "adhd-hyperfocus-guardian.md",
+    "adhd-context-switch.md",
+    "context-enhanced-executor.md",
+    "adhd-evening-reflect.md",
+    "java-test-driven-development.md",
+    "ultrathink.md",
+    "git-backup-sync.md"
+  ],
+  "individual_results": [
+    {
+      "command": "adhd-task-breakdown.md",
+      "timestamp": "2025-08-20T22:36:51.225675",
+      "analysis": {
+        "file_size_bytes": 10447,
+        "line_count": 365,
+        "char_count": 10447,
+        "has_examples": false,
+        "has_error_handling": true,
+        "has_validation": false,
+        "complexity": {
+          "score": 1,
+          "classes": 0,
+          "interfaces": 0,
+          "patterns": 0,
+          "config_files": 0,
+          "violation": false
+        }
+      },
+      "performance": {
+        "execution_times_ms": [
+          203.24372751535788,
+          226.85733360471176,
+          210.39502733070555,
+          178.402502911453,
+          276.6936193350574
+        ],
+        "avg_execution_time_ms": 219.11844213945713,
+        "execution_time_std": 36.608345045072795,
+        "input_tokens": 1643,
+        "output_tokens": 477,
+        "total_tokens": 2120,
+        "success_rate": 0.8999999999999999,
+        "simulated": true
+      },
+      "commentary": "Token efficiency: 2356 tokens per success. More wasteful than a gas-guzzling SUV.",
+      "benchmark_duration_ms": 1.8031597137451172
+    },
+    {
+      "command": "adhd-hyperfocus-guardian.md",
+      "timestamp": "2025-08-20T22:36:51.227237",
+      "analysis": {
+        "file_size_bytes": 12021,
+        "line_count": 457,
+        "char_count": 12021,
+        "has_examples": false,
+        "has_error_handling": false,
+        "has_validation": true,
+        "complexity": {
+          "score": 9,
+          "classes": 0,
+          "interfaces": 0,
+          "patterns": 0,
+          "config_files": 4,
+          "violation": true
+        }
+      },
+      "performance": {
+        "execution_times_ms": [
+          590.9867067496227,
+          648.273846556082,
+          645.2867709007953,
+          604.2581939478537,
+          573.5053088783231
+        ],
+        "avg_execution_time_ms": 612.4621654065354,
+        "execution_time_std": 33.18911107347535,
+        "input_tokens": 1982,
+        "output_tokens": 347,
+        "total_tokens": 2329,
+        "success_rate": 0.49999999999999994,
+        "simulated": true
+      },
+      "commentary": "COMPLEXITY VIOLATION: Score 9/5. This isn't architecture, it's digital hoarding. Success rate 50.0%. Russian roulette has better odds. Token efficiency: 4658 tokens per success. More wasteful than a gas-guzzling SUV.",
+      "benchmark_duration_ms": 1.5494823455810547
+    },
+    {
+      "command": "adhd-context-switch.md",
+      "timestamp": "2025-08-20T22:36:51.228446",
+      "analysis": {
+        "file_size_bytes": 9885,
+        "line_count": 399,
+        "char_count": 9885,
+        "has_examples": false,
+        "has_error_handling": false,
+        "has_validation": false,
+        "complexity": {
+          "score": 4,
+          "classes": 0,
+          "interfaces": 0,
+          "patterns": 1,
+          "config_files": 0,
+          "violation": false
+        }
+      },
+      "performance": {
+        "execution_times_ms": [
+          396.368728674641,
+          340.4217070346173,
+          379.1468993507607,
+          391.42461628705854,
+          388.0027372959497
+        ],
+        "avg_execution_time_ms": 379.07293772860544,
+        "execution_time_std": 22.50207086278226,
+        "input_tokens": 1521,
+        "output_tokens": 539,
+        "total_tokens": 2060,
+        "success_rate": 0.75,
+        "simulated": true
+      },
+      "commentary": "Success rate 75.0%. Russian roulette has better odds. Token efficiency: 2747 tokens per success. More wasteful than a gas-guzzling SUV.",
+      "benchmark_duration_ms": 1.2001991271972656
+    },
+    {
+      "command": "context-enhanced-executor.md",
+      "timestamp": "2025-08-20T22:36:51.228715",
+      "analysis": {
+        "file_size_bytes": 3886,
+        "line_count": 132,
+        "char_count": 3886,
+        "has_examples": true,
+        "has_error_handling": false,
+        "has_validation": false,
+        "complexity": {
+          "score": 4,
+          "classes": 0,
+          "interfaces": 0,
+          "patterns": 1,
+          "config_files": 0,
+          "violation": false
+        }
+      },
+      "performance": {
+        "execution_times_ms": [
+          334.04617671526853,
+          327.05790371845364,
+          426.5641597645317,
+          414.8577703746867,
+          368.47518200928414
+        ],
+        "avg_execution_time_ms": 374.2002385164449,
+        "execution_time_std": 45.449256942849345,
+        "input_tokens": 551,
+        "output_tokens": 258,
+        "total_tokens": 809,
+        "success_rate": 0.75,
+        "simulated": true
+      },
+      "commentary": "Success rate 75.0%. Russian roulette has better odds. Token efficiency: 1079 tokens per success. More wasteful than a gas-guzzling SUV.",
+      "benchmark_duration_ms": 0.2617835998535156
+    },
+    {
+      "command": "adhd-evening-reflect.md",
+      "timestamp": "2025-08-20T22:36:51.230349",
+      "analysis": {
+        "file_size_bytes": 12536,
+        "line_count": 438,
+        "char_count": 12536,
+        "has_examples": false,
+        "has_error_handling": false,
+        "has_validation": false,
+        "complexity": {
+          "score": 4,
+          "classes": 0,
+          "interfaces": 0,
+          "patterns": 1,
+          "config_files": 0,
+          "violation": false
+        }
+      },
+      "performance": {
+        "execution_times_ms": [
+          420.1533333309466,
+          419.3027700597547,
+          345.1222384535168,
+          425.8831012182727,
+          415.996603475002
+        ],
+        "avg_execution_time_ms": 405.29160930749856,
+        "execution_time_std": 33.8235978821608,
+        "input_tokens": 1771,
+        "output_tokens": 589,
+        "total_tokens": 2360,
+        "success_rate": 0.75,
+        "simulated": true
+      },
+      "commentary": "Success rate 75.0%. Russian roulette has better odds. Token efficiency: 3147 tokens per success. More wasteful than a gas-guzzling SUV.",
+      "benchmark_duration_ms": 1.6269683837890625
+    },
+    {
+      "command": "java-test-driven-development.md",
+      "timestamp": "2025-08-20T22:36:51.231673",
+      "analysis": {
+        "file_size_bytes": 13396,
+        "line_count": 460,
+        "char_count": 13396,
+        "has_examples": true,
+        "has_error_handling": true,
+        "has_validation": true,
+        "complexity": {
+          "score": 13,
+          "classes": 3,
+          "interfaces": 0,
+          "patterns": 2,
+          "config_files": 0,
+          "violation": true
+        }
+      },
+      "performance": {
+        "execution_times_ms": [
+          798.6570765010373,
+          791.8570302840058,
+          828.6979777021711,
+          786.2046548897141,
+          874.373760455035
+        ],
+        "avg_execution_time_ms": 815.9580999663926,
+        "execution_time_std": 36.53815930558726,
+        "input_tokens": 2063,
+        "output_tokens": 642,
+        "total_tokens": 2705,
+        "success_rate": 0.3999999999999999,
+        "simulated": true
+      },
+      "commentary": "COMPLEXITY VIOLATION: Score 13/5. This isn't architecture, it's digital hoarding. Success rate 40.0%. Russian roulette has better odds. Token efficiency: 6763 tokens per success. More wasteful than a gas-guzzling SUV.",
+      "benchmark_duration_ms": 1.3151168823242188
+    },
+    {
+      "command": "ultrathink.md",
+      "timestamp": "2025-08-20T22:36:51.232769",
+      "analysis": {
+        "file_size_bytes": 9758,
+        "line_count": 357,
+        "char_count": 9758,
+        "has_examples": true,
+        "has_error_handling": true,
+        "has_validation": true,
+        "complexity": {
+          "score": 1,
+          "classes": 0,
+          "interfaces": 0,
+          "patterns": 0,
+          "config_files": 0,
+          "violation": false
+        }
+      },
+      "performance": {
+        "execution_times_ms": [
+          239.88645653424916,
+          248.74807222881216,
+          214.86543241135058,
+          233.65755019586533,
+          223.57879051246798
+        ],
+        "avg_execution_time_ms": 232.14726037654904,
+        "execution_time_std": 13.321442679851828,
+        "input_tokens": 1579,
+        "output_tokens": 789,
+        "total_tokens": 2368,
+        "success_rate": 0.8999999999999999,
+        "simulated": true
+      },
+      "commentary": "Token efficiency: 2631 tokens per success. More wasteful than a gas-guzzling SUV.",
+      "benchmark_duration_ms": 1.0869503021240234
+    },
+    {
+      "command": "git-backup-sync.md",
+      "timestamp": "2025-08-20T22:36:51.234063",
+      "analysis": {
+        "file_size_bytes": 12474,
+        "line_count": 531,
+        "char_count": 12474,
+        "has_examples": true,
+        "has_error_handling": true,
+        "has_validation": true,
+        "complexity": {
+          "score": 18,
+          "classes": 0,
+          "interfaces": 0,
+          "patterns": 1,
+          "config_files": 7,
+          "violation": true
+        }
+      },
+      "performance": {
+        "execution_times_ms": [
+          1117.010654283333,
+          1098.9717781390052,
+          1128.3055231291735,
+          1102.129147286089,
+          1104.2464578785057
+        ],
+        "avg_execution_time_ms": 1110.1327121432212,
+        "execution_time_std": 12.255903013971905,
+        "input_tokens": 1899,
+        "output_tokens": 447,
+        "total_tokens": 2346,
+        "success_rate": 0.3,
+        "simulated": true
+      },
+      "commentary": "COMPLEXITY VIOLATION: Score 18/5. This isn't architecture, it's digital hoarding. Success rate 30.0%. Russian roulette has better odds. Token efficiency: 7820 tokens per success. More wasteful than a gas-guzzling SUV.",
+      "benchmark_duration_ms": 1.262664794921875
+    }
+  ],
+  "aggregate_statistics": {
+    "total_commands_tested": 8,
+    "avg_complexity_score": 6.75,
+    "complexity_violations": 3,
+    "avg_success_rate": 0.65625,
+    "avg_execution_time_ms": 518.547933198088,
+    "worst_performer": "git-backup-sync.md",
+    "most_complex": "git-backup-sync.md"
+  },
+  "savage_summary": "3 commands violated complexity rules. That's 37.5% of your codebase ignoring basic sanity. Average success rate: 65.6%. Your commands are less reliable than a chocolate teapot. Worst performer: git-backup-sync.md. Most complex: git-backup-sync.md. Your code complexity is approaching the event horizon of maintainability."
+}
