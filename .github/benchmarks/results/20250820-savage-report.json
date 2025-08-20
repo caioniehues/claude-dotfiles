@@ -1,0 +1,129 @@
+{
+  "timestamp": "2025-08-20T21:05:44.458922",
+  "methodology": "SAVAGE_SCIENTIFIC_ANALYSIS",
+  "commands": {
+    "adhd-morning-assistant.md": {
+      "lines": 309,
+      "size_kb": 8.77,
+      "complexity_score": 20.5,
+      "claude_md_violations": [
+        "CLAUDE.md complexity violation: 20.5/5"
+      ],
+      "performance": {
+        "estimated_tokens": 1504.1000000000001,
+        "response_time_category": "SLOW",
+        "memory_usage": "UNKNOWN",
+        "complexity_operations": 14
+      },
+      "quality_score": 25,
+      "grade": "F",
+      "savage_assessment": [
+        "\ud83d\udd25 adhd-morning-assistant.md achieves a complexity score of 20.5. This violates CLAUDE.md by 15.5 points. That's not 'advanced', that's architectural malpractice.",
+        "\ud83d\udc0c Performance category: SLOW. Users will have time to make coffee while waiting for this command.",
+        "\ud83d\udd17 14 MCP dependencies. This isn't a command, it's a distributed system."
+      ]
+    },
+    "ultrathink-pure-xml.md": {
+      "lines": 472,
+      "size_kb": 11.23,
+      "complexity_score": 12.5,
+      "claude_md_violations": [
+        "CLAUDE.md complexity violation: 12.5/5"
+      ],
+      "performance": {
+        "estimated_tokens": 1968.2,
+        "response_time_category": "MODERATE",
+        "memory_usage": "UNKNOWN",
+        "complexity_operations": 7
+      },
+      "quality_score": 60,
+      "grade": "C",
+      "savage_assessment": [
+        "\ud83d\udd25 ultrathink-pure-xml.md achieves a complexity score of 12.5. This violates CLAUDE.md by 7.5 points. That's not 'advanced', that's architectural malpractice."
+      ]
+    },
+    "adaptive-complexity-router.md": {
+      "lines": 499,
+      "size_kb": 11.01,
+      "complexity_score": 17.0,
+      "claude_md_violations": [
+        "CLAUDE.md complexity violation: 17.0/5"
+      ],
+      "performance": {
+        "estimated_tokens": 1751.1000000000001,
+        "response_time_category": "MODERATE",
+        "memory_usage": "UNKNOWN",
+        "complexity_operations": 2
+      },
+      "quality_score": 60,
+      "grade": "C",
+      "savage_assessment": [
+        "\ud83d\udd25 adaptive-complexity-router.md achieves a complexity score of 17.0. This violates CLAUDE.md by 12.0 points. That's not 'advanced', that's architectural malpractice."
+      ]
+    },
+    "intelligent-refactor-session.md": {
+      "lines": 534,
+      "size_kb": 16.2,
+      "complexity_score": 23.5,
+      "claude_md_violations": [
+        "CLAUDE.md complexity violation: 23.5/5"
+      ],
+      "performance": {
+        "estimated_tokens": 2662.4,
+        "response_time_category": "MODERATE",
+        "memory_usage": "UNKNOWN",
+        "complexity_operations": 1
+      },
+      "quality_score": 45,
+      "grade": "D",
+      "savage_assessment": [
+        "\ud83d\udd25 intelligent-refactor-session.md achieves a complexity score of 23.5. This violates CLAUDE.md by 18.5 points. That's not 'advanced', that's architectural malpractice.",
+        "\ud83d\udcc4 534 lines for a single command? Someone confused 'comprehensive' with 'comprehensive failure'."
+      ]
+    },
+    "adhd-task-breakdown.md": {
+      "lines": 365,
+      "size_kb": 10.42,
+      "complexity_score": 15.5,
+      "claude_md_violations": [
+        "CLAUDE.md complexity violation: 15.5/5"
+      ],
+      "performance": {
+        "estimated_tokens": 1643.2,
+        "response_time_category": "MODERATE",
+        "memory_usage": "UNKNOWN",
+        "complexity_operations": 6
+      },
+      "quality_score": 60,
+      "grade": "C",
+      "savage_assessment": [
+        "\ud83d\udd25 adhd-task-breakdown.md achieves a complexity score of 15.5. This violates CLAUDE.md by 10.5 points. That's not 'advanced', that's architectural malpractice."
+      ]
+    }
+  },
+  "statistical_summary": {
+    "sample_size": 5,
+    "quality_scores": {
+      "mean": 50.0,
+      "min": 25,
+      "max": 60,
+      "std_dev": 13.78
+    },
+    "complexity_scores": {
+      "mean": 17.8,
+      "violations": 5,
+      "violation_rate": 100.0
+    },
+    "code_size": {
+      "mean_lines": 436,
+      "total_lines": 2179,
+      "largest": 534
+    }
+  },
+  "harsh_truths": [
+    "Your commands have a 100.0% CLAUDE.md violation rate. That's not 'comprehensive', that's 'comprehensively broken'.",
+    "Average quality score: 50.0/100. I've seen better code in student homework assignments.",
+    "Total codebase: 2179 lines for 5 commands. The Linux kernel has better code density.",
+    "Standard deviation of 13.78 indicates inconsistent quality. Pick a standard and stick to it!"
+  ]
+}

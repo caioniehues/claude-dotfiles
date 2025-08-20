@@ -1,0 +1,94 @@
+{
+  "timestamp": "2025-08-20T21:09:52.335501",
+  "statistical_analysis": {
+    "complexity_analysis": {
+      "raw_scores": [
+        20.5,
+        12.5,
+        17.0,
+        23.5,
+        15.5
+      ],
+      "violations_over_limit": [
+        15.5,
+        7.5,
+        12.0,
+        18.5,
+        10.5
+      ],
+      "mean_violation": 12.8,
+      "worst_offender": 18.5,
+      "confidence_interval": {
+        "mean": 17.8,
+        "std_error": 1.92,
+        "margin_error": 5.33,
+        "ci_lower": 12.47,
+        "ci_upper": 23.13,
+        "confidence_level": 0.95
+      }
+    },
+    "quality_analysis": {
+      "quality_scores": [
+        25,
+        60,
+        60,
+        45,
+        60
+      ],
+      "quality_ci": {
+        "mean": 50.0,
+        "std_error": 6.89,
+        "margin_error": 19.13,
+        "ci_lower": 30.87,
+        "ci_upper": 69.13,
+        "confidence_level": 0.95
+      },
+      "size_quality_correlation": 0.507,
+      "correlation_interpretation": "moderate positive correlation (r=0.507)"
+    },
+    "performance_analysis": {
+      "token_usage": {
+        "values": [
+          1504.1000000000001,
+          1968.2,
+          1751.1000000000001,
+          2662.4,
+          1643.2
+        ],
+        "confidence_interval": {
+          "mean": 1905.8,
+          "std_error": 203.79,
+          "margin_error": 565.72,
+          "ci_lower": 1340.08,
+          "ci_upper": 2471.52,
+          "confidence_level": 0.95
+        },
+        "total_estimated": 9529.0
+      },
+      "complexity_operations": {
+        "values": [
+          14,
+          7,
+          2,
+          1,
+          6
+        ],
+        "confidence_interval": {
+          "mean": 6.0,
+          "std_error": 2.3,
+          "margin_error": 6.39,
+          "ci_lower": -0.39,
+          "ci_upper": 12.39,
+          "confidence_level": 0.95
+        },
+        "total": 30
+      }
+    },
+    "statistical_verdicts": [
+      "Complexity violations: Mean = 12.8 points over CLAUDE.md limit (95% CI: 12.5 - 23.1). This isn't measurement error - it's systematic over-engineering.",
+      "Quality scores: Mean = 50.0/100 (95% CI: 30.9 - 69.1). Even with generous confidence bounds, quality is consistently mediocre.",
+      "Size vs Quality: moderate positive correlation (r=0.507). Bigger commands are worse - statistical confirmation of bloat hypothesis.",
+      "Token consumption: Mean = 1905.8 tokens per command (95% CI: 1340 - 2472). These commands are token black holes."
+    ]
+  }
+}
