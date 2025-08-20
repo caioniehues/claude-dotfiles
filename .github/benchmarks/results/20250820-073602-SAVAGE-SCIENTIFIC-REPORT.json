@@ -1,0 +1,198 @@
+{
+  "benchmark_session_id": "20250820-073602",
+  "timestamp": "2025-08-20T07:36:05.784839",
+  "commands_analyzed": [
+    "intelligent-code-enhancer.md",
+    "safe-code-beautifier.md",
+    "java-test-driven-development.md",
+    "context-enhanced-executor.md",
+    "ultrathink-hybrid-mcp.md"
+  ],
+  "individual_results": {
+    "intelligent-code-enhancer.md": {
+      "metrics": {
+        "execution_time": {
+          "mean": 0.14009575939999194,
+          "std_dev": 0.031631203848445956,
+          "variance": 0.0010005330569019422,
+          "confidence_interval_95": [
+            0.11236978677000292,
+            0.16782173202998096
+          ],
+          "samples": [
+            0.10007918499999846,
+            0.12009430500000917,
+            0.1401020449999919,
+            0.16010055299997816,
+            0.18010270899998204
+          ],
+          "outliers": []
+        },
+        "token_consumption": {
+          "input_tokens": 1631,
+          "output_tokens": 2447,
+          "total_tokens": 4078,
+          "estimated_cost_usd": 0.06118125
+        },
+        "success_rate": 0.6000000000000001,
+        "complexity_score": 52,
+        "claude_md_compliance": 5,
+        "error_frequency": 0.3999999999999999,
+        "cognitive_load_score": 10,
+        "composition_compatibility": 1
+      },
+      "savage_judgment": "## SAVAGE ANALYSIS: intelligent-code-enhancer.md\n\n**PERFORMANCE VERDICT:**\n- Mean execution: 0.140s (\u03c3=0.032)\n- 95% CI: [0.112, 0.168]s\n\n**SUCCESS RATE REALITY CHECK:**\n- Success rate: 60.0%\n- \ud83c\udfaf **FAILURE FACTORY**: 60.0% success rate? Vegas slots have better odds!\n\n**COMPLEXITY SCORE SAVAGERY:**\n- Complexity score: 52/5 (CLAUDE.md violation threshold)\n- CLAUDE.md compliance: 5/5\n- \ud83d\udca3 **OVER-ENGINEERED DISASTER**: Complexity score 52 violates CLAUDE.md rules. This is architectural masturbation!\n\n**TOKEN ECONOMICS REALITY:**\n- Estimated cost: $0.0612 per execution\n- Token efficiency: 0.15 success/1K tokens\n\n**FINAL SAVAGE VERDICT:**\n- Overall Score: 0.62/1.0\n- \ud83e\udd15 **NEEDS INTENSIVE CARE**: Barely functional, definitely not optimal.\n"
+    },
+    "safe-code-beautifier.md": {
+      "metrics": {
+        "execution_time": {
+          "mean": 0.14009779579999987,
+          "std_dev": 0.03162697214981935,
+          "variance": 0.0010002653673654486,
+          "confidence_interval_95": [
+            0.1123755324174003,
+            0.16782005918259946
+          ],
+          "samples": [
+            0.10008646399998611,
+            0.12010703299998227,
+            0.14009062100001302,
+            0.16010323200001153,
+            0.18010162900000637
+          ],
+          "outliers": []
+        },
+        "token_consumption": {
+          "input_tokens": 2171,
+          "output_tokens": 3256,
+          "total_tokens": 5427,
+          "estimated_cost_usd": 0.0814125
+        },
+        "success_rate": 0.55,
+        "complexity_score": 49,
+        "claude_md_compliance": 4,
+        "error_frequency": 0.44999999999999996,
+        "cognitive_load_score": 10,
+        "composition_compatibility": 1
+      },
+      "savage_judgment": "## SAVAGE ANALYSIS: safe-code-beautifier.md\n\n**PERFORMANCE VERDICT:**\n- Mean execution: 0.140s (\u03c3=0.032)\n- 95% CI: [0.112, 0.168]s\n\n**SUCCESS RATE REALITY CHECK:**\n- Success rate: 55.0%\n- \ud83c\udfaf **FAILURE FACTORY**: 55.0% success rate? Vegas slots have better odds!\n\n**COMPLEXITY SCORE SAVAGERY:**\n- Complexity score: 49/5 (CLAUDE.md violation threshold)\n- CLAUDE.md compliance: 4/5\n- \ud83d\udca3 **OVER-ENGINEERED DISASTER**: Complexity score 49 violates CLAUDE.md rules. This is architectural masturbation!\n\n**TOKEN ECONOMICS REALITY:**\n- Estimated cost: $0.0814 per execution\n- Token efficiency: 0.10 success/1K tokens\n\n**FINAL SAVAGE VERDICT:**\n- Overall Score: 0.55/1.0\n- \ud83e\udd15 **NEEDS INTENSIVE CARE**: Barely functional, definitely not optimal.\n"
+    },
+    "java-test-driven-development.md": {
+      "metrics": {
+        "execution_time": {
+          "mean": 0.14009580300000835,
+          "std_dev": 0.03162838684687443,
+          "variance": 0.0010003548545355395,
+          "confidence_interval_95": [
+            0.11237229958076593,
+            0.16781930641925075
+          ],
+          "samples": [
+            0.10010145100000045,
+            0.12006966400002739,
+            0.1401018580000084,
+            0.1601040540000156,
+            0.1801019879999899
+          ],
+          "outliers": []
+        },
+        "token_consumption": {
+          "input_tokens": 2063,
+          "output_tokens": 4126,
+          "total_tokens": 6189,
+          "estimated_cost_usd": 0.09283949999999999
+        },
+        "success_rate": 0.6000000000000001,
+        "complexity_score": 36,
+        "claude_md_compliance": 4,
+        "error_frequency": 0.3999999999999999,
+        "cognitive_load_score": 10,
+        "composition_compatibility": 1
+      },
+      "savage_judgment": "## SAVAGE ANALYSIS: java-test-driven-development.md\n\n**PERFORMANCE VERDICT:**\n- Mean execution: 0.140s (\u03c3=0.032)\n- 95% CI: [0.112, 0.168]s\n\n**SUCCESS RATE REALITY CHECK:**\n- Success rate: 60.0%\n- \ud83c\udfaf **FAILURE FACTORY**: 60.0% success rate? Vegas slots have better odds!\n\n**COMPLEXITY SCORE SAVAGERY:**\n- Complexity score: 36/5 (CLAUDE.md violation threshold)\n- CLAUDE.md compliance: 4/5\n- \ud83d\udca3 **OVER-ENGINEERED DISASTER**: Complexity score 36 violates CLAUDE.md rules. This is architectural masturbation!\n\n**TOKEN ECONOMICS REALITY:**\n- Estimated cost: $0.0928 per execution\n- Token efficiency: 0.10 success/1K tokens\n\n**FINAL SAVAGE VERDICT:**\n- Overall Score: 0.58/1.0\n- \ud83e\udd15 **NEEDS INTENSIVE CARE**: Barely functional, definitely not optimal.\n"
+    },
+    "context-enhanced-executor.md": {
+      "metrics": {
+        "execution_time": {
+          "mean": 0.14009227919999034,
+          "std_dev": 0.031609687220179886,
+          "variance": 0.0009991723261576035,
+          "confidence_interval_95": [
+            0.11238516672623354,
+            0.16779939167374713
+          ],
+          "samples": [
+            0.10010235400000056,
+            0.12010293899999169,
+            0.14010578699998177,
+            0.16007577699997455,
+            0.18007453900000314
+          ],
+          "outliers": []
+        },
+        "token_consumption": {
+          "input_tokens": 551,
+          "output_tokens": 826,
+          "total_tokens": 1378,
+          "estimated_cost_usd": 0.02067
+        },
+        "success_rate": 0.7500000000000001,
+        "complexity_score": 19,
+        "claude_md_compliance": 5,
+        "error_frequency": 0.2499999999999999,
+        "cognitive_load_score": 10,
+        "composition_compatibility": 1
+      },
+      "savage_judgment": "## SAVAGE ANALYSIS: context-enhanced-executor.md\n\n**PERFORMANCE VERDICT:**\n- Mean execution: 0.140s (\u03c3=0.032)\n- 95% CI: [0.112, 0.168]s\n\n**SUCCESS RATE REALITY CHECK:**\n- Success rate: 75.0%\n- \u26a0\ufe0f **MEDIOCRE RELIABILITY**: 75.0% isn't exactly confidence-inspiring.\n\n**COMPLEXITY SCORE SAVAGERY:**\n- Complexity score: 19/5 (CLAUDE.md violation threshold)\n- CLAUDE.md compliance: 5/5\n- \ud83d\udca3 **OVER-ENGINEERED DISASTER**: Complexity score 19 violates CLAUDE.md rules. This is architectural masturbation!\n\n**TOKEN ECONOMICS REALITY:**\n- Estimated cost: $0.0207 per execution\n- Token efficiency: 0.54 success/1K tokens\n\n**FINAL SAVAGE VERDICT:**\n- Overall Score: 0.73/1.0\n- \ud83d\udd27 **FUNCTIONAL BUT FLAWED**: Works, but could be much better.\n"
+    },
+    "ultrathink-hybrid-mcp.md": {
+      "metrics": {
+        "execution_time": {
+          "mean": 0.14009998559998849,
+          "std_dev": 0.031622426559164515,
+          "variance": 0.0009999778614897534,
+          "confidence_interval_95": [
+            0.11238170660327212,
+            0.16781826459670485
+          ],
+          "samples": [
+            0.10010096199999907,
+            0.1201007999999888,
+            0.1400979199999881,
+            0.16009998199999131,
+            0.18010026399997514
+          ],
+          "outliers": []
+        },
+        "token_consumption": {
+          "input_tokens": 2132,
+          "output_tokens": 6396,
+          "total_tokens": 8528,
+          "estimated_cost_usd": 0.12792
+        },
+        "success_rate": 0.6000000000000001,
+        "complexity_score": 241,
+        "claude_md_compliance": 5,
+        "error_frequency": 0.3999999999999999,
+        "cognitive_load_score": 10,
+        "composition_compatibility": 1
+      },
+      "savage_judgment": "## SAVAGE ANALYSIS: ultrathink-hybrid-mcp.md\n\n**PERFORMANCE VERDICT:**\n- Mean execution: 0.140s (\u03c3=0.032)\n- 95% CI: [0.112, 0.168]s\n\n**SUCCESS RATE REALITY CHECK:**\n- Success rate: 60.0%\n- \ud83c\udfaf **FAILURE FACTORY**: 60.0% success rate? Vegas slots have better odds!\n\n**COMPLEXITY SCORE SAVAGERY:**\n- Complexity score: 241/5 (CLAUDE.md violation threshold)\n- CLAUDE.md compliance: 5/5\n- \ud83d\udca3 **OVER-ENGINEERED DISASTER**: Complexity score 241 violates CLAUDE.md rules. This is architectural masturbation!\n\n**TOKEN ECONOMICS REALITY:**\n- Estimated cost: $0.1279 per execution\n- Token efficiency: 0.07 success/1K tokens\n\n**FINAL SAVAGE VERDICT:**\n- Overall Score: 0.62/1.0\n- \ud83e\udd15 **NEEDS INTENSIVE CARE**: Barely functional, definitely not optimal.\n"
+    }
+  },
+  "statistical_summary": {
+    "sample_size": 5,
+    "success_rate_stats": {
+      "mean": 0.6200000000000001,
+      "std_dev": 0.07582875444051553,
+      "min": 0.55,
+      "max": 0.7500000000000001
+    },
+    "complexity_distribution": {
+      "mean": 79.4,
+      "std_dev": 91.27047715444463,
+      "violations": 5
+    }
+  },
+  "methodology": "SAVAGE SCIENTIFIC BENCHMARKING v2.0 - PhD-level statistical rigor with brutal honesty"
+}
