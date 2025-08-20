@@ -1,0 +1,1151 @@
+{
+  "benchmark_metadata": {
+    "timestamp": "20250820-013321",
+    "version": "1.0.0",
+    "evaluator": "SAVAGE_COMMAND_BENCHMARKER_PhD",
+    "methodology": "Scientific analysis with statistical rigor",
+    "commands_analyzed": 6
+  },
+  "command_results": {
+    "adaptive-complexity-router.md": {
+      "basic_metrics": {
+        "file_size_bytes": 11274,
+        "total_lines": 499,
+        "xml_blocks": 71,
+        "code_blocks": 10,
+        "thinking_blocks": 24
+      },
+      "effectiveness": {
+        "complexity_score": 16,
+        "adherence_score": 40,
+        "violations": [
+          "Complexity score 16 >= 5 (CRITICAL violation)"
+        ],
+        "memory_integration": false,
+        "thinking_integration": true,
+        "patterns_used": 3,
+        "classes_mentioned": 0
+      },
+      "token_analysis": {
+        "estimated_input_tokens": 2796,
+        "estimated_output_tokens": 28519,
+        "total_estimated_tokens": 31315,
+        "cost_estimate_usd": 0.4361729999999999
+      },
+      "maintainability": {
+        "avg_line_length": 21.42,
+        "documentation_ratio": 0.074,
+        "nested_complexity": 0,
+        "conditional_complexity": 34,
+        "maintenance_burden_score": 45,
+        "maintainability_grade": "C"
+      }
+    },
+    "adhd-context-switch.md": {
+      "basic_metrics": {
+        "file_size_bytes": 9972,
+        "total_lines": 399,
+        "xml_blocks": 28,
+        "code_blocks": 13,
+        "thinking_blocks": 0
+      },
+      "effectiveness": {
+        "complexity_score": 7,
+        "adherence_score": 35,
+        "violations": [
+          "Complexity score 7 >= 5 (CRITICAL violation)",
+          "No thinking blocks found - missing reasoning transparency"
+        ],
+        "memory_integration": true,
+        "thinking_integration": false,
+        "patterns_used": 2,
+        "classes_mentioned": 0
+      },
+      "token_analysis": {
+        "estimated_input_tokens": 2471,
+        "estimated_output_tokens": 8895,
+        "total_estimated_tokens": 11366,
+        "cost_estimate_usd": 0.140838
+      },
+      "maintainability": {
+        "avg_line_length": 23.78,
+        "documentation_ratio": 0.195,
+        "nested_complexity": 0,
+        "conditional_complexity": 61,
+        "maintenance_burden_score": 30,
+        "maintainability_grade": "B"
+      }
+    },
+    "java-clean-code-generator.md": {
+      "basic_metrics": {
+        "file_size_bytes": 25195,
+        "total_lines": 819,
+        "xml_blocks": 152,
+        "code_blocks": 20,
+        "thinking_blocks": 87
+      },
+      "effectiveness": {
+        "complexity_score": 172,
+        "adherence_score": 60,
+        "violations": [
+          "Complexity score 172 >= 5 (CRITICAL violation)",
+          "Wildcard imports found: 1 (FORBIDDEN)"
+        ],
+        "memory_integration": false,
+        "thinking_integration": true,
+        "patterns_used": 37,
+        "classes_mentioned": 20
+      },
+      "token_analysis": {
+        "estimated_input_tokens": 6280,
+        "estimated_output_tokens": 195308,
+        "total_estimated_tokens": 201588,
+        "cost_estimate_usd": 2.94846
+      },
+      "maintainability": {
+        "avg_line_length": 29.68,
+        "documentation_ratio": 0.109,
+        "nested_complexity": 39,
+        "conditional_complexity": 73,
+        "maintenance_burden_score": 55,
+        "maintainability_grade": "C"
+      }
+    },
+    "ultrathink.md": {
+      "basic_metrics": {
+        "file_size_bytes": 9766,
+        "total_lines": 357,
+        "xml_blocks": 28,
+        "code_blocks": 6,
+        "thinking_blocks": 8
+      },
+      "effectiveness": {
+        "complexity_score": 1,
+        "adherence_score": 70,
+        "violations": [],
+        "memory_integration": true,
+        "thinking_integration": true,
+        "patterns_used": 0,
+        "classes_mentioned": 0
+      },
+      "token_analysis": {
+        "estimated_input_tokens": 2439,
+        "estimated_output_tokens": 11219,
+        "total_estimated_tokens": 13658,
+        "cost_estimate_usd": 0.175602
+      },
+      "maintainability": {
+        "avg_line_length": 26.34,
+        "documentation_ratio": 0.087,
+        "nested_complexity": 0,
+        "conditional_complexity": 27,
+        "maintenance_burden_score": 45,
+        "maintainability_grade": "C"
+      }
+    },
+    "java-test-driven-development.md": {
+      "basic_metrics": {
+        "file_size_bytes": 13414,
+        "total_lines": 460,
+        "xml_blocks": 54,
+        "code_blocks": 12,
+        "thinking_blocks": 26
+      },
+      "effectiveness": {
+        "complexity_score": 45,
+        "adherence_score": 70,
+        "violations": [
+          "Complexity score 45 >= 5 (CRITICAL violation)"
+        ],
+        "memory_integration": false,
+        "thinking_integration": true,
+        "patterns_used": 12,
+        "classes_mentioned": 3
+      },
+      "token_analysis": {
+        "estimated_input_tokens": 3349,
+        "estimated_output_tokens": 37508,
+        "total_estimated_tokens": 40857,
+        "cost_estimate_usd": 0.572667
+      },
+      "maintainability": {
+        "avg_line_length": 28.12,
+        "documentation_ratio": 0.117,
+        "nested_complexity": 52,
+        "conditional_complexity": 31,
+        "maintenance_burden_score": 55,
+        "maintainability_grade": "C"
+      }
+    },
+    "adhd-morning-assistant.md": {
+      "basic_metrics": {
+        "file_size_bytes": 8982,
+        "total_lines": 309,
+        "xml_blocks": 24,
+        "code_blocks": 6,
+        "thinking_blocks": 0
+      },
+      "effectiveness": {
+        "complexity_score": 10,
+        "adherence_score": 35,
+        "violations": [
+          "Complexity score 10 >= 5 (CRITICAL violation)",
+          "No thinking blocks found - missing reasoning transparency"
+        ],
+        "memory_integration": true,
+        "thinking_integration": false,
+        "patterns_used": 3,
+        "classes_mentioned": 0
+      },
+      "token_analysis": {
+        "estimated_input_tokens": 2223,
+        "estimated_output_tokens": 4890,
+        "total_estimated_tokens": 7113,
+        "cost_estimate_usd": 0.08001899999999999
+      },
+      "maintainability": {
+        "avg_line_length": 27.78,
+        "documentation_ratio": 0.162,
+        "nested_complexity": 0,
+        "conditional_complexity": 17,
+        "maintenance_burden_score": 0,
+        "maintainability_grade": "A"
+      }
+    }
+  },
+  "statistical_summary": {
+    "complexity_stats": {
+      "mean": 41.83,
+      "stdev": 65.6,
+      "min": 1,
+      "max": 172
+    },
+    "adherence_stats": {
+      "mean": 51.67,
+      "stdev": 16.93,
+      "min": 35,
+      "max": 70
+    },
+    "cost_stats": {
+      "mean_usd": 0.7256,
+      "stdev_usd": 1.1054,
+      "total_estimated_cost_usd": 4.3538
+    },
+    "maintenance_stats": {
+      "mean": 38.33,
+      "stdev": 20.9
+    }
+  },
+  "rankings": {
+    "best_adherence": [
+      [
+        "ultrathink.md",
+        {
+          "basic_metrics": {
+            "file_size_bytes": 9766,
+            "total_lines": 357,
+            "xml_blocks": 28,
+            "code_blocks": 6,
+            "thinking_blocks": 8
+          },
+          "effectiveness": {
+            "complexity_score": 1,
+            "adherence_score": 70,
+            "violations": [],
+            "memory_integration": true,
+            "thinking_integration": true,
+            "patterns_used": 0,
+            "classes_mentioned": 0
+          },
+          "token_analysis": {
+            "estimated_input_tokens": 2439,
+            "estimated_output_tokens": 11219,
+            "total_estimated_tokens": 13658,
+            "cost_estimate_usd": 0.175602
+          },
+          "maintainability": {
+            "avg_line_length": 26.34,
+            "documentation_ratio": 0.087,
+            "nested_complexity": 0,
+            "conditional_complexity": 27,
+            "maintenance_burden_score": 45,
+            "maintainability_grade": "C"
+          }
+        }
+      ],
+      [
+        "java-test-driven-development.md",
+        {
+          "basic_metrics": {
+            "file_size_bytes": 13414,
+            "total_lines": 460,
+            "xml_blocks": 54,
+            "code_blocks": 12,
+            "thinking_blocks": 26
+          },
+          "effectiveness": {
+            "complexity_score": 45,
+            "adherence_score": 70,
+            "violations": [
+              "Complexity score 45 >= 5 (CRITICAL violation)"
+            ],
+            "memory_integration": false,
+            "thinking_integration": true,
+            "patterns_used": 12,
+            "classes_mentioned": 3
+          },
+          "token_analysis": {
+            "estimated_input_tokens": 3349,
+            "estimated_output_tokens": 37508,
+            "total_estimated_tokens": 40857,
+            "cost_estimate_usd": 0.572667
+          },
+          "maintainability": {
+            "avg_line_length": 28.12,
+            "documentation_ratio": 0.117,
+            "nested_complexity": 52,
+            "conditional_complexity": 31,
+            "maintenance_burden_score": 55,
+            "maintainability_grade": "C"
+          }
+        }
+      ],
+      [
+        "java-clean-code-generator.md",
+        {
+          "basic_metrics": {
+            "file_size_bytes": 25195,
+            "total_lines": 819,
+            "xml_blocks": 152,
+            "code_blocks": 20,
+            "thinking_blocks": 87
+          },
+          "effectiveness": {
+            "complexity_score": 172,
+            "adherence_score": 60,
+            "violations": [
+              "Complexity score 172 >= 5 (CRITICAL violation)",
+              "Wildcard imports found: 1 (FORBIDDEN)"
+            ],
+            "memory_integration": false,
+            "thinking_integration": true,
+            "patterns_used": 37,
+            "classes_mentioned": 20
+          },
+          "token_analysis": {
+            "estimated_input_tokens": 6280,
+            "estimated_output_tokens": 195308,
+            "total_estimated_tokens": 201588,
+            "cost_estimate_usd": 2.94846
+          },
+          "maintainability": {
+            "avg_line_length": 29.68,
+            "documentation_ratio": 0.109,
+            "nested_complexity": 39,
+            "conditional_complexity": 73,
+            "maintenance_burden_score": 55,
+            "maintainability_grade": "C"
+          }
+        }
+      ],
+      [
+        "adaptive-complexity-router.md",
+        {
+          "basic_metrics": {
+            "file_size_bytes": 11274,
+            "total_lines": 499,
+            "xml_blocks": 71,
+            "code_blocks": 10,
+            "thinking_blocks": 24
+          },
+          "effectiveness": {
+            "complexity_score": 16,
+            "adherence_score": 40,
+            "violations": [
+              "Complexity score 16 >= 5 (CRITICAL violation)"
+            ],
+            "memory_integration": false,
+            "thinking_integration": true,
+            "patterns_used": 3,
+            "classes_mentioned": 0
+          },
+          "token_analysis": {
+            "estimated_input_tokens": 2796,
+            "estimated_output_tokens": 28519,
+            "total_estimated_tokens": 31315,
+            "cost_estimate_usd": 0.4361729999999999
+          },
+          "maintainability": {
+            "avg_line_length": 21.42,
+            "documentation_ratio": 0.074,
+            "nested_complexity": 0,
+            "conditional_complexity": 34,
+            "maintenance_burden_score": 45,
+            "maintainability_grade": "C"
+          }
+        }
+      ],
+      [
+        "adhd-context-switch.md",
+        {
+          "basic_metrics": {
+            "file_size_bytes": 9972,
+            "total_lines": 399,
+            "xml_blocks": 28,
+            "code_blocks": 13,
+            "thinking_blocks": 0
+          },
+          "effectiveness": {
+            "complexity_score": 7,
+            "adherence_score": 35,
+            "violations": [
+              "Complexity score 7 >= 5 (CRITICAL violation)",
+              "No thinking blocks found - missing reasoning transparency"
+            ],
+            "memory_integration": true,
+            "thinking_integration": false,
+            "patterns_used": 2,
+            "classes_mentioned": 0
+          },
+          "token_analysis": {
+            "estimated_input_tokens": 2471,
+            "estimated_output_tokens": 8895,
+            "total_estimated_tokens": 11366,
+            "cost_estimate_usd": 0.140838
+          },
+          "maintainability": {
+            "avg_line_length": 23.78,
+            "documentation_ratio": 0.195,
+            "nested_complexity": 0,
+            "conditional_complexity": 61,
+            "maintenance_burden_score": 30,
+            "maintainability_grade": "B"
+          }
+        }
+      ],
+      [
+        "adhd-morning-assistant.md",
+        {
+          "basic_metrics": {
+            "file_size_bytes": 8982,
+            "total_lines": 309,
+            "xml_blocks": 24,
+            "code_blocks": 6,
+            "thinking_blocks": 0
+          },
+          "effectiveness": {
+            "complexity_score": 10,
+            "adherence_score": 35,
+            "violations": [
+              "Complexity score 10 >= 5 (CRITICAL violation)",
+              "No thinking blocks found - missing reasoning transparency"
+            ],
+            "memory_integration": true,
+            "thinking_integration": false,
+            "patterns_used": 3,
+            "classes_mentioned": 0
+          },
+          "token_analysis": {
+            "estimated_input_tokens": 2223,
+            "estimated_output_tokens": 4890,
+            "total_estimated_tokens": 7113,
+            "cost_estimate_usd": 0.08001899999999999
+          },
+          "maintainability": {
+            "avg_line_length": 27.78,
+            "documentation_ratio": 0.162,
+            "nested_complexity": 0,
+            "conditional_complexity": 17,
+            "maintenance_burden_score": 0,
+            "maintainability_grade": "A"
+          }
+        }
+      ]
+    ],
+    "worst_complexity": [
+      [
+        "java-clean-code-generator.md",
+        {
+          "basic_metrics": {
+            "file_size_bytes": 25195,
+            "total_lines": 819,
+            "xml_blocks": 152,
+            "code_blocks": 20,
+            "thinking_blocks": 87
+          },
+          "effectiveness": {
+            "complexity_score": 172,
+            "adherence_score": 60,
+            "violations": [
+              "Complexity score 172 >= 5 (CRITICAL violation)",
+              "Wildcard imports found: 1 (FORBIDDEN)"
+            ],
+            "memory_integration": false,
+            "thinking_integration": true,
+            "patterns_used": 37,
+            "classes_mentioned": 20
+          },
+          "token_analysis": {
+            "estimated_input_tokens": 6280,
+            "estimated_output_tokens": 195308,
+            "total_estimated_tokens": 201588,
+            "cost_estimate_usd": 2.94846
+          },
+          "maintainability": {
+            "avg_line_length": 29.68,
+            "documentation_ratio": 0.109,
+            "nested_complexity": 39,
+            "conditional_complexity": 73,
+            "maintenance_burden_score": 55,
+            "maintainability_grade": "C"
+          }
+        }
+      ],
+      [
+        "java-test-driven-development.md",
+        {
+          "basic_metrics": {
+            "file_size_bytes": 13414,
+            "total_lines": 460,
+            "xml_blocks": 54,
+            "code_blocks": 12,
+            "thinking_blocks": 26
+          },
+          "effectiveness": {
+            "complexity_score": 45,
+            "adherence_score": 70,
+            "violations": [
+              "Complexity score 45 >= 5 (CRITICAL violation)"
+            ],
+            "memory_integration": false,
+            "thinking_integration": true,
+            "patterns_used": 12,
+            "classes_mentioned": 3
+          },
+          "token_analysis": {
+            "estimated_input_tokens": 3349,
+            "estimated_output_tokens": 37508,
+            "total_estimated_tokens": 40857,
+            "cost_estimate_usd": 0.572667
+          },
+          "maintainability": {
+            "avg_line_length": 28.12,
+            "documentation_ratio": 0.117,
+            "nested_complexity": 52,
+            "conditional_complexity": 31,
+            "maintenance_burden_score": 55,
+            "maintainability_grade": "C"
+          }
+        }
+      ],
+      [
+        "adaptive-complexity-router.md",
+        {
+          "basic_metrics": {
+            "file_size_bytes": 11274,
+            "total_lines": 499,
+            "xml_blocks": 71,
+            "code_blocks": 10,
+            "thinking_blocks": 24
+          },
+          "effectiveness": {
+            "complexity_score": 16,
+            "adherence_score": 40,
+            "violations": [
+              "Complexity score 16 >= 5 (CRITICAL violation)"
+            ],
+            "memory_integration": false,
+            "thinking_integration": true,
+            "patterns_used": 3,
+            "classes_mentioned": 0
+          },
+          "token_analysis": {
+            "estimated_input_tokens": 2796,
+            "estimated_output_tokens": 28519,
+            "total_estimated_tokens": 31315,
+            "cost_estimate_usd": 0.4361729999999999
+          },
+          "maintainability": {
+            "avg_line_length": 21.42,
+            "documentation_ratio": 0.074,
+            "nested_complexity": 0,
+            "conditional_complexity": 34,
+            "maintenance_burden_score": 45,
+            "maintainability_grade": "C"
+          }
+        }
+      ],
+      [
+        "adhd-morning-assistant.md",
+        {
+          "basic_metrics": {
+            "file_size_bytes": 8982,
+            "total_lines": 309,
+            "xml_blocks": 24,
+            "code_blocks": 6,
+            "thinking_blocks": 0
+          },
+          "effectiveness": {
+            "complexity_score": 10,
+            "adherence_score": 35,
+            "violations": [
+              "Complexity score 10 >= 5 (CRITICAL violation)",
+              "No thinking blocks found - missing reasoning transparency"
+            ],
+            "memory_integration": true,
+            "thinking_integration": false,
+            "patterns_used": 3,
+            "classes_mentioned": 0
+          },
+          "token_analysis": {
+            "estimated_input_tokens": 2223,
+            "estimated_output_tokens": 4890,
+            "total_estimated_tokens": 7113,
+            "cost_estimate_usd": 0.08001899999999999
+          },
+          "maintainability": {
+            "avg_line_length": 27.78,
+            "documentation_ratio": 0.162,
+            "nested_complexity": 0,
+            "conditional_complexity": 17,
+            "maintenance_burden_score": 0,
+            "maintainability_grade": "A"
+          }
+        }
+      ],
+      [
+        "adhd-context-switch.md",
+        {
+          "basic_metrics": {
+            "file_size_bytes": 9972,
+            "total_lines": 399,
+            "xml_blocks": 28,
+            "code_blocks": 13,
+            "thinking_blocks": 0
+          },
+          "effectiveness": {
+            "complexity_score": 7,
+            "adherence_score": 35,
+            "violations": [
+              "Complexity score 7 >= 5 (CRITICAL violation)",
+              "No thinking blocks found - missing reasoning transparency"
+            ],
+            "memory_integration": true,
+            "thinking_integration": false,
+            "patterns_used": 2,
+            "classes_mentioned": 0
+          },
+          "token_analysis": {
+            "estimated_input_tokens": 2471,
+            "estimated_output_tokens": 8895,
+            "total_estimated_tokens": 11366,
+            "cost_estimate_usd": 0.140838
+          },
+          "maintainability": {
+            "avg_line_length": 23.78,
+            "documentation_ratio": 0.195,
+            "nested_complexity": 0,
+            "conditional_complexity": 61,
+            "maintenance_burden_score": 30,
+            "maintainability_grade": "B"
+          }
+        }
+      ],
+      [
+        "ultrathink.md",
+        {
+          "basic_metrics": {
+            "file_size_bytes": 9766,
+            "total_lines": 357,
+            "xml_blocks": 28,
+            "code_blocks": 6,
+            "thinking_blocks": 8
+          },
+          "effectiveness": {
+            "complexity_score": 1,
+            "adherence_score": 70,
+            "violations": [],
+            "memory_integration": true,
+            "thinking_integration": true,
+            "patterns_used": 0,
+            "classes_mentioned": 0
+          },
+          "token_analysis": {
+            "estimated_input_tokens": 2439,
+            "estimated_output_tokens": 11219,
+            "total_estimated_tokens": 13658,
+            "cost_estimate_usd": 0.175602
+          },
+          "maintainability": {
+            "avg_line_length": 26.34,
+            "documentation_ratio": 0.087,
+            "nested_complexity": 0,
+            "conditional_complexity": 27,
+            "maintenance_burden_score": 45,
+            "maintainability_grade": "C"
+          }
+        }
+      ]
+    ],
+    "most_expensive": [
+      [
+        "java-clean-code-generator.md",
+        {
+          "basic_metrics": {
+            "file_size_bytes": 25195,
+            "total_lines": 819,
+            "xml_blocks": 152,
+            "code_blocks": 20,
+            "thinking_blocks": 87
+          },
+          "effectiveness": {
+            "complexity_score": 172,
+            "adherence_score": 60,
+            "violations": [
+              "Complexity score 172 >= 5 (CRITICAL violation)",
+              "Wildcard imports found: 1 (FORBIDDEN)"
+            ],
+            "memory_integration": false,
+            "thinking_integration": true,
+            "patterns_used": 37,
+            "classes_mentioned": 20
+          },
+          "token_analysis": {
+            "estimated_input_tokens": 6280,
+            "estimated_output_tokens": 195308,
+            "total_estimated_tokens": 201588,
+            "cost_estimate_usd": 2.94846
+          },
+          "maintainability": {
+            "avg_line_length": 29.68,
+            "documentation_ratio": 0.109,
+            "nested_complexity": 39,
+            "conditional_complexity": 73,
+            "maintenance_burden_score": 55,
+            "maintainability_grade": "C"
+          }
+        }
+      ],
+      [
+        "java-test-driven-development.md",
+        {
+          "basic_metrics": {
+            "file_size_bytes": 13414,
+            "total_lines": 460,
+            "xml_blocks": 54,
+            "code_blocks": 12,
+            "thinking_blocks": 26
+          },
+          "effectiveness": {
+            "complexity_score": 45,
+            "adherence_score": 70,
+            "violations": [
+              "Complexity score 45 >= 5 (CRITICAL violation)"
+            ],
+            "memory_integration": false,
+            "thinking_integration": true,
+            "patterns_used": 12,
+            "classes_mentioned": 3
+          },
+          "token_analysis": {
+            "estimated_input_tokens": 3349,
+            "estimated_output_tokens": 37508,
+            "total_estimated_tokens": 40857,
+            "cost_estimate_usd": 0.572667
+          },
+          "maintainability": {
+            "avg_line_length": 28.12,
+            "documentation_ratio": 0.117,
+            "nested_complexity": 52,
+            "conditional_complexity": 31,
+            "maintenance_burden_score": 55,
+            "maintainability_grade": "C"
+          }
+        }
+      ],
+      [
+        "adaptive-complexity-router.md",
+        {
+          "basic_metrics": {
+            "file_size_bytes": 11274,
+            "total_lines": 499,
+            "xml_blocks": 71,
+            "code_blocks": 10,
+            "thinking_blocks": 24
+          },
+          "effectiveness": {
+            "complexity_score": 16,
+            "adherence_score": 40,
+            "violations": [
+              "Complexity score 16 >= 5 (CRITICAL violation)"
+            ],
+            "memory_integration": false,
+            "thinking_integration": true,
+            "patterns_used": 3,
+            "classes_mentioned": 0
+          },
+          "token_analysis": {
+            "estimated_input_tokens": 2796,
+            "estimated_output_tokens": 28519,
+            "total_estimated_tokens": 31315,
+            "cost_estimate_usd": 0.4361729999999999
+          },
+          "maintainability": {
+            "avg_line_length": 21.42,
+            "documentation_ratio": 0.074,
+            "nested_complexity": 0,
+            "conditional_complexity": 34,
+            "maintenance_burden_score": 45,
+            "maintainability_grade": "C"
+          }
+        }
+      ],
+      [
+        "ultrathink.md",
+        {
+          "basic_metrics": {
+            "file_size_bytes": 9766,
+            "total_lines": 357,
+            "xml_blocks": 28,
+            "code_blocks": 6,
+            "thinking_blocks": 8
+          },
+          "effectiveness": {
+            "complexity_score": 1,
+            "adherence_score": 70,
+            "violations": [],
+            "memory_integration": true,
+            "thinking_integration": true,
+            "patterns_used": 0,
+            "classes_mentioned": 0
+          },
+          "token_analysis": {
+            "estimated_input_tokens": 2439,
+            "estimated_output_tokens": 11219,
+            "total_estimated_tokens": 13658,
+            "cost_estimate_usd": 0.175602
+          },
+          "maintainability": {
+            "avg_line_length": 26.34,
+            "documentation_ratio": 0.087,
+            "nested_complexity": 0,
+            "conditional_complexity": 27,
+            "maintenance_burden_score": 45,
+            "maintainability_grade": "C"
+          }
+        }
+      ],
+      [
+        "adhd-context-switch.md",
+        {
+          "basic_metrics": {
+            "file_size_bytes": 9972,
+            "total_lines": 399,
+            "xml_blocks": 28,
+            "code_blocks": 13,
+            "thinking_blocks": 0
+          },
+          "effectiveness": {
+            "complexity_score": 7,
+            "adherence_score": 35,
+            "violations": [
+              "Complexity score 7 >= 5 (CRITICAL violation)",
+              "No thinking blocks found - missing reasoning transparency"
+            ],
+            "memory_integration": true,
+            "thinking_integration": false,
+            "patterns_used": 2,
+            "classes_mentioned": 0
+          },
+          "token_analysis": {
+            "estimated_input_tokens": 2471,
+            "estimated_output_tokens": 8895,
+            "total_estimated_tokens": 11366,
+            "cost_estimate_usd": 0.140838
+          },
+          "maintainability": {
+            "avg_line_length": 23.78,
+            "documentation_ratio": 0.195,
+            "nested_complexity": 0,
+            "conditional_complexity": 61,
+            "maintenance_burden_score": 30,
+            "maintainability_grade": "B"
+          }
+        }
+      ],
+      [
+        "adhd-morning-assistant.md",
+        {
+          "basic_metrics": {
+            "file_size_bytes": 8982,
+            "total_lines": 309,
+            "xml_blocks": 24,
+            "code_blocks": 6,
+            "thinking_blocks": 0
+          },
+          "effectiveness": {
+            "complexity_score": 10,
+            "adherence_score": 35,
+            "violations": [
+              "Complexity score 10 >= 5 (CRITICAL violation)",
+              "No thinking blocks found - missing reasoning transparency"
+            ],
+            "memory_integration": true,
+            "thinking_integration": false,
+            "patterns_used": 3,
+            "classes_mentioned": 0
+          },
+          "token_analysis": {
+            "estimated_input_tokens": 2223,
+            "estimated_output_tokens": 4890,
+            "total_estimated_tokens": 7113,
+            "cost_estimate_usd": 0.08001899999999999
+          },
+          "maintainability": {
+            "avg_line_length": 27.78,
+            "documentation_ratio": 0.162,
+            "nested_complexity": 0,
+            "conditional_complexity": 17,
+            "maintenance_burden_score": 0,
+            "maintainability_grade": "A"
+          }
+        }
+      ]
+    ],
+    "hardest_to_maintain": [
+      [
+        "java-clean-code-generator.md",
+        {
+          "basic_metrics": {
+            "file_size_bytes": 25195,
+            "total_lines": 819,
+            "xml_blocks": 152,
+            "code_blocks": 20,
+            "thinking_blocks": 87
+          },
+          "effectiveness": {
+            "complexity_score": 172,
+            "adherence_score": 60,
+            "violations": [
+              "Complexity score 172 >= 5 (CRITICAL violation)",
+              "Wildcard imports found: 1 (FORBIDDEN)"
+            ],
+            "memory_integration": false,
+            "thinking_integration": true,
+            "patterns_used": 37,
+            "classes_mentioned": 20
+          },
+          "token_analysis": {
+            "estimated_input_tokens": 6280,
+            "estimated_output_tokens": 195308,
+            "total_estimated_tokens": 201588,
+            "cost_estimate_usd": 2.94846
+          },
+          "maintainability": {
+            "avg_line_length": 29.68,
+            "documentation_ratio": 0.109,
+            "nested_complexity": 39,
+            "conditional_complexity": 73,
+            "maintenance_burden_score": 55,
+            "maintainability_grade": "C"
+          }
+        }
+      ],
+      [
+        "java-test-driven-development.md",
+        {
+          "basic_metrics": {
+            "file_size_bytes": 13414,
+            "total_lines": 460,
+            "xml_blocks": 54,
+            "code_blocks": 12,
+            "thinking_blocks": 26
+          },
+          "effectiveness": {
+            "complexity_score": 45,
+            "adherence_score": 70,
+            "violations": [
+              "Complexity score 45 >= 5 (CRITICAL violation)"
+            ],
+            "memory_integration": false,
+            "thinking_integration": true,
+            "patterns_used": 12,
+            "classes_mentioned": 3
+          },
+          "token_analysis": {
+            "estimated_input_tokens": 3349,
+            "estimated_output_tokens": 37508,
+            "total_estimated_tokens": 40857,
+            "cost_estimate_usd": 0.572667
+          },
+          "maintainability": {
+            "avg_line_length": 28.12,
+            "documentation_ratio": 0.117,
+            "nested_complexity": 52,
+            "conditional_complexity": 31,
+            "maintenance_burden_score": 55,
+            "maintainability_grade": "C"
+          }
+        }
+      ],
+      [
+        "adaptive-complexity-router.md",
+        {
+          "basic_metrics": {
+            "file_size_bytes": 11274,
+            "total_lines": 499,
+            "xml_blocks": 71,
+            "code_blocks": 10,
+            "thinking_blocks": 24
+          },
+          "effectiveness": {
+            "complexity_score": 16,
+            "adherence_score": 40,
+            "violations": [
+              "Complexity score 16 >= 5 (CRITICAL violation)"
+            ],
+            "memory_integration": false,
+            "thinking_integration": true,
+            "patterns_used": 3,
+            "classes_mentioned": 0
+          },
+          "token_analysis": {
+            "estimated_input_tokens": 2796,
+            "estimated_output_tokens": 28519,
+            "total_estimated_tokens": 31315,
+            "cost_estimate_usd": 0.4361729999999999
+          },
+          "maintainability": {
+            "avg_line_length": 21.42,
+            "documentation_ratio": 0.074,
+            "nested_complexity": 0,
+            "conditional_complexity": 34,
+            "maintenance_burden_score": 45,
+            "maintainability_grade": "C"
+          }
+        }
+      ],
+      [
+        "ultrathink.md",
+        {
+          "basic_metrics": {
+            "file_size_bytes": 9766,
+            "total_lines": 357,
+            "xml_blocks": 28,
+            "code_blocks": 6,
+            "thinking_blocks": 8
+          },
+          "effectiveness": {
+            "complexity_score": 1,
+            "adherence_score": 70,
+            "violations": [],
+            "memory_integration": true,
+            "thinking_integration": true,
+            "patterns_used": 0,
+            "classes_mentioned": 0
+          },
+          "token_analysis": {
+            "estimated_input_tokens": 2439,
+            "estimated_output_tokens": 11219,
+            "total_estimated_tokens": 13658,
+            "cost_estimate_usd": 0.175602
+          },
+          "maintainability": {
+            "avg_line_length": 26.34,
+            "documentation_ratio": 0.087,
+            "nested_complexity": 0,
+            "conditional_complexity": 27,
+            "maintenance_burden_score": 45,
+            "maintainability_grade": "C"
+          }
+        }
+      ],
+      [
+        "adhd-context-switch.md",
+        {
+          "basic_metrics": {
+            "file_size_bytes": 9972,
+            "total_lines": 399,
+            "xml_blocks": 28,
+            "code_blocks": 13,
+            "thinking_blocks": 0
+          },
+          "effectiveness": {
+            "complexity_score": 7,
+            "adherence_score": 35,
+            "violations": [
+              "Complexity score 7 >= 5 (CRITICAL violation)",
+              "No thinking blocks found - missing reasoning transparency"
+            ],
+            "memory_integration": true,
+            "thinking_integration": false,
+            "patterns_used": 2,
+            "classes_mentioned": 0
+          },
+          "token_analysis": {
+            "estimated_input_tokens": 2471,
+            "estimated_output_tokens": 8895,
+            "total_estimated_tokens": 11366,
+            "cost_estimate_usd": 0.140838
+          },
+          "maintainability": {
+            "avg_line_length": 23.78,
+            "documentation_ratio": 0.195,
+            "nested_complexity": 0,
+            "conditional_complexity": 61,
+            "maintenance_burden_score": 30,
+            "maintainability_grade": "B"
+          }
+        }
+      ],
+      [
+        "adhd-morning-assistant.md",
+        {
+          "basic_metrics": {
+            "file_size_bytes": 8982,
+            "total_lines": 309,
+            "xml_blocks": 24,
+            "code_blocks": 6,
+            "thinking_blocks": 0
+          },
+          "effectiveness": {
+            "complexity_score": 10,
+            "adherence_score": 35,
+            "violations": [
+              "Complexity score 10 >= 5 (CRITICAL violation)",
+              "No thinking blocks found - missing reasoning transparency"
+            ],
+            "memory_integration": true,
+            "thinking_integration": false,
+            "patterns_used": 3,
+            "classes_mentioned": 0
+          },
+          "token_analysis": {
+            "estimated_input_tokens": 2223,
+            "estimated_output_tokens": 4890,
+            "total_estimated_tokens": 7113,
+            "cost_estimate_usd": 0.08001899999999999
+          },
+          "maintainability": {
+            "avg_line_length": 27.78,
+            "documentation_ratio": 0.162,
+            "nested_complexity": 0,
+            "conditional_complexity": 17,
+            "maintenance_burden_score": 0,
+            "maintainability_grade": "A"
+          }
+        }
+      ]
+    ]
+  },
+  "savage_commentary": [
+    "Adherence score of 51.67% suggests these commands are having an identity crisis.",
+    "'java-clean-code-generator.md' has complexity score 172 - breaking the sacred rule of < 5. This is like doing 120 in a 55 zone while a cop is watching.",
+    "Total estimated cost of $4.3538 per run means these commands are basically burning money. At least make it efficient suffering.",
+    "'adaptive-complexity-router.md' has 1 violations - apparently rules are more like 'guidelines' to this command.",
+    "'adhd-context-switch.md' has 2 violations - apparently rules are more like 'guidelines' to this command.",
+    "'java-clean-code-generator.md' has 2 violations - apparently rules are more like 'guidelines' to this command.",
+    "'java-test-driven-development.md' has 1 violations - apparently rules are more like 'guidelines' to this command.",
+    "'adhd-morning-assistant.md' has 2 violations - apparently rules are more like 'guidelines' to this command."
+  ]
+}
