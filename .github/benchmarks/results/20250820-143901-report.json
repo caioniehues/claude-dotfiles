@@ -1,0 +1,125 @@
+{
+  "timestamp": "20250820-143901",
+  "methodology": "PhD-Level Statistical Roasting with Scientific Rigor",
+  "commands_tested": 5,
+  "statistical_summary": {
+    "sample_size": 4,
+    "lines": {
+      "mean": 431.8,
+      "std_dev": 40.5,
+      "min": 389,
+      "max": 498
+    },
+    "tokens": {
+      "mean": 1881.0,
+      "std_dev": 240.0,
+      "min": 1560,
+      "max": 2171
+    },
+    "complexity": {
+      "mean": 3.5,
+      "std_dev": 0.87,
+      "min": 3,
+      "max": 5
+    },
+    "grade_distribution": {
+      "F": 2,
+      "C": 2,
+      "B": 1
+    },
+    "failure_rate": "40.0%"
+  },
+  "individual_results": {
+    "safe-code-beautifier.md": {
+      "metrics": {
+        "lines": 426,
+        "words": 1670,
+        "estimated_tokens": 2171,
+        "thinking_blocks": 98,
+        "xml_tags": 130,
+        "mcp_calls": 1,
+        "arg_usage": 4,
+        "violations": [
+          "OVERTHINKING: >20 thinking blocks"
+        ],
+        "complexity_score": 5,
+        "bloat_ratio": 4.346938775510204,
+        "readability_score": 5.74
+      },
+      "roast": "VERBOSE DISASTER: 426 lines! This has more words than some PhD dissertations and less value.",
+      "grade": "F"
+    },
+    "adaptive-complexity-router.md": {
+      "metrics": {
+        "lines": 498,
+        "words": 1347,
+        "estimated_tokens": 1751,
+        "thinking_blocks": 24,
+        "xml_tags": 71,
+        "mcp_calls": 2,
+        "arg_usage": 3,
+        "violations": [
+          "OVERTHINKING: >20 thinking blocks"
+        ],
+        "complexity_score": 3,
+        "bloat_ratio": 20.75,
+        "readability_score": 5.02
+      },
+      "roast": "VERBOSE DISASTER: 498 lines! This has more words than some PhD dissertations and less value.",
+      "grade": "C"
+    },
+    "adhd-morning-assistant.md": {
+      "metrics": {
+        "error": "'tokens_estimated'"
+      },
+      "roast": "CATASTROPHIC FAILURE: 'tokens_estimated'",
+      "grade": "F"
+    },
+    "senior-developer-analysis.md": {
+      "metrics": {
+        "lines": 389,
+        "words": 1571,
+        "estimated_tokens": 2042,
+        "thinking_blocks": 88,
+        "xml_tags": 114,
+        "mcp_calls": 1,
+        "arg_usage": 5,
+        "violations": [
+          "OVERTHINKING: >20 thinking blocks"
+        ],
+        "complexity_score": 3,
+        "bloat_ratio": 4.420454545454546,
+        "readability_score": 6.109999999999999
+      },
+      "roast": "ANALYSIS PARALYSIS: 88 thinking blocks. This isn't thinking, it's XML masturbation.",
+      "grade": "B"
+    },
+    "reasoning-wrapper.md": {
+      "metrics": {
+        "lines": 414,
+        "words": 1200,
+        "estimated_tokens": 1560,
+        "thinking_blocks": 35,
+        "xml_tags": 67,
+        "mcp_calls": 2,
+        "arg_usage": 7,
+        "violations": [
+          "OVERTHINKING: >20 thinking blocks"
+        ],
+        "complexity_score": 3,
+        "bloat_ratio": 11.82857142857143,
+        "readability_score": 5.86
+      },
+      "roast": "VERBOSE DISASTER: 414 lines! This has more words than some PhD dissertations and less value.",
+      "grade": "C"
+    }
+  },
+  "overall_verdict": "FAILING GRADE: Average complexity 3.50/5 exceeds CLAUDE.md limit of 3.0",
+  "recommendations": [
+    "COMPLEXITY REDUCTION: Current avg 3.50/5, target <3.0",
+    "SIZE OPTIMIZATION: Current avg 432 lines, target <300",
+    "THINKING DIET: Reduce XML bloat by 50%",
+    "CLAUDE.md COMPLIANCE: Read the damn manual!"
+  ],
+  "confidence_level": "95% (with appropriate statistical disclaimers)"
+}
