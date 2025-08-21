@@ -1,0 +1,259 @@
+{
+  "timestamp": "2025-08-21T21:36:45.935682",
+  "statistics": {
+    "total_lines": {
+      "mean": 427.1666666666667,
+      "median": 478.0,
+      "stdev": 242.63916968755615,
+      "min": 132,
+      "max": 673,
+      "range": 541,
+      "variance": 58873.76666666667,
+      "coefficient_of_variation": 0.5680199056283015
+    },
+    "estimated_tokens": {
+      "mean": 1666.1666666666667,
+      "median": 1866.8000000000002,
+      "stdev": 929.304767375411,
+      "min": 539.5,
+      "max": 2635.1,
+      "range": 2095.6,
+      "variance": 863607.3506666666,
+      "coefficient_of_variation": 0.5577501854808908
+    },
+    "complexity_score": {
+      "mean": 22.166666666666668,
+      "median": 15.0,
+      "stdev": 22.850966427411045,
+      "min": 1,
+      "max": 64,
+      "range": 63,
+      "variance": 522.1666666666666,
+      "coefficient_of_variation": 1.0308706658982425
+    },
+    "compliance_score": {
+      "mean": 89.0,
+      "median": 94.0,
+      "stdev": 9.939818911831342,
+      "min": 72.0,
+      "max": 96.0,
+      "range": 24.0,
+      "variance": 98.8,
+      "coefficient_of_variation": 0.11168335855990272
+    },
+    "violations_count": {
+      "mean": 5.5,
+      "median": 3.0,
+      "stdev": 4.969909455915671,
+      "min": 2,
+      "max": 14,
+      "range": 12,
+      "variance": 24.7,
+      "coefficient_of_variation": 0.9036199010755765
+    },
+    "thinking_blocks": {
+      "mean": 0.6666666666666666,
+      "median": 0.0,
+      "stdev": 1.2110601416389966,
+      "min": 0,
+      "max": 3,
+      "range": 3,
+      "variance": 1.4666666666666666,
+      "coefficient_of_variation": 1.816590212458495
+    },
+    "xml_blocks": {
+      "mean": 20.333333333333332,
+      "median": 16.5,
+      "stdev": 11.003029885748138,
+      "min": 8,
+      "max": 37,
+      "range": 29,
+      "variance": 121.06666666666666,
+      "coefficient_of_variation": 0.5411326173318757
+    },
+    "code_blocks": {
+      "mean": 11.333333333333334,
+      "median": 11.0,
+      "stdev": 6.153589738247641,
+      "min": 5,
+      "max": 21,
+      "range": 16,
+      "variance": 37.86666666666667,
+      "coefficient_of_variation": 0.5429638004336154
+    }
+  },
+  "rankings": [
+    {
+      "command": "ultrathink-full-mcp.md",
+      "overall_score": 281.13509999999997,
+      "grade": "F"
+    },
+    {
+      "command": "ultrathink-interactive.md",
+      "overall_score": 185.8376,
+      "grade": "D"
+    },
+    {
+      "command": "adaptive-complexity-router.md",
+      "overall_score": 103.65110000000001,
+      "grade": "C"
+    },
+    {
+      "command": "adhd-hyperfocus-guardian.md",
+      "overall_score": 91.6825,
+      "grade": "B"
+    },
+    {
+      "command": "context-enhanced-executor.md",
+      "overall_score": 39.7512,
+      "grade": "A"
+    },
+    {
+      "command": "generate-thinking-command.md",
+      "overall_score": 28.2395,
+      "grade": "A"
+    }
+  ],
+  "raw_metrics": {
+    "total_lines": [
+      673,
+      457,
+      499,
+      137,
+      132,
+      665
+    ],
+    "estimated_tokens": [
+      2537.6,
+      1982.5,
+      1751.1000000000001,
+      539.5,
+      551.2,
+      2635.1
+    ],
+    "complexity_score": [
+      31,
+      16,
+      14,
+      1,
+      7,
+      64
+    ],
+    "compliance_score": [
+      82.0,
+      96.0,
+      92.0,
+      96.0,
+      96.0,
+      72.0
+    ],
+    "violations_count": [
+      9,
+      2,
+      4,
+      2,
+      2,
+      14
+    ],
+    "thinking_blocks": [
+      0,
+      0,
+      1,
+      0,
+      0,
+      3
+    ],
+    "xml_blocks": [
+      19,
+      14,
+      37,
+      14,
+      8,
+      30
+    ],
+    "code_blocks": [
+      15,
+      12,
+      10,
+      5,
+      5,
+      21
+    ]
+  },
+  "confidence_intervals": {
+    "total_lines": {
+      "mean": 427.1666666666667,
+      "lower": 172.4910522434361,
+      "upper": 681.8422810898973,
+      "margin_error": 254.6756144232306
+    },
+    "estimated_tokens": {
+      "mean": 1666.1666666666667,
+      "lower": 690.7624772996771,
+      "upper": 2641.570856033656,
+      "margin_error": 975.4041893669896
+    },
+    "complexity_score": {
+      "mean": 22.166666666666668,
+      "lower": -1.8178529084676285,
+      "upper": 46.151186241800964,
+      "margin_error": 23.984519575134296
+    },
+    "compliance_score": {
+      "mean": 89.0,
+      "lower": 78.56710290475364,
+      "upper": 99.43289709524636,
+      "margin_error": 10.432897095246364
+    },
+    "violations_count": {
+      "mean": 5.5,
+      "lower": 0.2835514523768179,
+      "upper": 10.716448547623182,
+      "margin_error": 5.216448547623182
+    },
+    "thinking_blocks": {
+      "mean": 0.6666666666666666,
+      "lower": -0.6044697540215301,
+      "upper": 1.9378030873548635,
+      "margin_error": 1.2711364206881968
+    },
+    "xml_blocks": {
+      "mean": 20.333333333333332,
+      "lower": 8.78448324338931,
+      "upper": 31.882183423277354,
+      "margin_error": 11.548850089944022
+    },
+    "code_blocks": {
+      "mean": 11.333333333333334,
+      "lower": 4.874486439343663,
+      "upper": 17.792180227323005,
+      "margin_error": 6.458846893989671
+    }
+  },
+  "savage_commentary": [
+    "\ud83d\udcca STATISTICAL REALITY CHECK:",
+    "Average command consumes 1,666 tokens (\u03c3=929)",
+    "That's enough to buy a coffee... if tokens were free!",
+    "",
+    "\ud83c\udfaa COMPLEXITY CIRCUS:",
+    "Average complexity score: 22.2",
+    "Maximum complexity: 64 (Someone went completely off the rails)",
+    "Coefficient of variation: 1.03",
+    "",
+    "\u2696\ufe0f COMPLIANCE CATASTROPHE:",
+    "Average compliance: 89.0/100",
+    "Worst offender scored: 72.0/100",
+    "CLAUDE.md is crying somewhere...",
+    "",
+    "\ud83d\udea8 VIOLATION STATISTICS:",
+    "Total violations across all commands: 33",
+    "Average violations per command: 5.5",
+    "That's 33 ways these commands disappoint Martin Fowler!",
+    "",
+    "\ud83d\udccf SIZE INFLATION DISASTER:",
+    "Average command size: 427 lines",
+    "Largest monstrosity: 673 lines",
+    "Remember when commands did ONE thing? Pepperidge Farm remembers.",
+    ""
+  ]
+}

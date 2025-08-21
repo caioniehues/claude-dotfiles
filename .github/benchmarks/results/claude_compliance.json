@@ -1,0 +1,63 @@
+{
+  "ultrathink-interactive.md": {
+    "violations_count": 9,
+    "violations_detail": [
+      "HIGH COMPLEXITY: Multiple abstraction layers",
+      "LONG FUNCTIONS: 2 functions > 20 lines",
+      "SCOPE CREEP: 51 different tasks - pick ONE thing!"
+    ],
+    "compliance_score": 82.0,
+    "recommendation": "ACCEPTABLE - Minor tweaks needed",
+    "simplicity_grade": "B"
+  },
+  "adhd-hyperfocus-guardian.md": {
+    "violations_count": 2,
+    "violations_detail": [
+      "SCOPE CREEP: 24 different tasks - pick ONE thing!"
+    ],
+    "compliance_score": 96.0,
+    "recommendation": "ACCEPTABLE - Minor tweaks needed",
+    "simplicity_grade": "A"
+  },
+  "adaptive-complexity-router.md": {
+    "violations_count": 4,
+    "violations_detail": [
+      "OVER-ENGINEERING: 32 complexity indicators",
+      "SCOPE CREEP: 61 different tasks - pick ONE thing!"
+    ],
+    "compliance_score": 92.0,
+    "recommendation": "ACCEPTABLE - Minor tweaks needed",
+    "simplicity_grade": "A"
+  },
+  "generate-thinking-command.md": {
+    "violations_count": 2,
+    "violations_detail": [
+      "SCOPE CREEP: 30 different tasks - pick ONE thing!"
+    ],
+    "compliance_score": 96.0,
+    "recommendation": "ACCEPTABLE - Minor tweaks needed",
+    "simplicity_grade": "A"
+  },
+  "context-enhanced-executor.md": {
+    "violations_count": 2,
+    "violations_detail": [
+      "SCOPE CREEP: 23 different tasks - pick ONE thing!"
+    ],
+    "compliance_score": 96.0,
+    "recommendation": "ACCEPTABLE - Minor tweaks needed",
+    "simplicity_grade": "A"
+  },
+  "ultrathink-full-mcp.md": {
+    "violations_count": 14,
+    "violations_detail": [
+      "HIGH COMPLEXITY: Multiple abstraction layers",
+      "PATTERN OVERUSE: 4 unnecessary abstractions",
+      "OVER-ENGINEERING: 35 complexity indicators",
+      "MCP ADDICTION: 29 MCP calls - where's the simplicity?",
+      "SCOPE CREEP: 68 different tasks - pick ONE thing!"
+    ],
+    "compliance_score": 72.0,
+    "recommendation": "NEEDS REFACTORING - Violates simplicity principles",
+    "simplicity_grade": "C"
+  }
+}
