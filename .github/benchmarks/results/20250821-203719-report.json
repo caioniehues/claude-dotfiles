@@ -1,0 +1,226 @@
+{
+  "benchmark_metadata": {
+    "timestamp": "20250821-203719",
+    "total_commands_tested": 5,
+    "total_samples": 35,
+    "framework_version": "1.0"
+  },
+  "aggregate_statistics": {
+    "average_success_rate": 0.5142857142857142,
+    "average_savage_score": 0.7428571428571427,
+    "total_estimated_cost": 2.39004,
+    "compliance_rate": 0.0
+  },
+  "savage_rankings": [
+    {
+      "rank": 1,
+      "command_name": "ultrathink-interactive",
+      "savage_score": 3.0,
+      "judgment": "\u274c ultrathink-interactive is struggling. 100.0% success rate is gambling territory.",
+      "key_metrics": {
+        "success_rate": 1.0,
+        "avg_execution_time": 23.853295160536153,
+        "complexity_score": 5,
+        "total_tokens": 79727
+      }
+    },
+    {
+      "rank": 2,
+      "command_name": "adhd-evening-reflect",
+      "savage_score": 0.7142857142857135,
+      "judgment": "\ud83d\udc80 adhd-evening-reflect is a disaster. 57.1% success rate with 17.5s execution time. Delete this.",
+      "key_metrics": {
+        "success_rate": 0.5714285714285714,
+        "avg_execution_time": 17.52487769135976,
+        "complexity_score": 8,
+        "total_tokens": 49524
+      }
+    },
+    {
+      "rank": 3,
+      "command_name": "adhd-context-switch",
+      "savage_score": 0.0,
+      "judgment": "\ud83d\udc80 adhd-context-switch is a disaster. 42.9% success rate with 14.8s execution time. Delete this.",
+      "key_metrics": {
+        "success_rate": 0.42857142857142855,
+        "avg_execution_time": 14.809067655433623,
+        "complexity_score": 8,
+        "total_tokens": 35105
+      }
+    },
+    {
+      "rank": 4,
+      "command_name": "java-rapid-implementation",
+      "savage_score": 0.0,
+      "judgment": "\ud83d\udc80 java-rapid-implementation is a disaster. 28.6% success rate with 14.7s execution time. Delete this.",
+      "key_metrics": {
+        "success_rate": 0.2857142857142857,
+        "avg_execution_time": 14.685843382021579,
+        "complexity_score": 10,
+        "total_tokens": 31971
+      }
+    },
+    {
+      "rank": 5,
+      "command_name": "intelligent-code-enhancer",
+      "savage_score": 0.0,
+      "judgment": "\ud83d\udc80 intelligent-code-enhancer is a disaster. 28.6% success rate with 16.4s execution time. Delete this.",
+      "key_metrics": {
+        "success_rate": 0.2857142857142857,
+        "avg_execution_time": 16.42054310004239,
+        "complexity_score": 8,
+        "total_tokens": 42677
+      }
+    }
+  ],
+  "detailed_results": [
+    {
+      "command_name": "ultrathink-interactive",
+      "sample_size": 7,
+      "execution_times": [
+        23.960445129216197,
+        23.913666565839822,
+        24.03645231419378,
+        23.783927514398865,
+        23.798611288981885,
+        23.674203451926324,
+        23.80575985919619
+      ],
+      "mean_execution_time": 23.853295160536153,
+      "std_dev": 0.12302303741406784,
+      "success_rate": 1.0,
+      "total_tokens": 79727,
+      "avg_complexity": 5,
+      "cost_estimate": 0.79727,
+      "savage_score": 3.0,
+      "judgment": "\u274c ultrathink-interactive is struggling. 100.0% success rate is gambling territory.",
+      "recommendations": [
+        "REDUCE COMPLEXITY: Score 5.0 violates CLAUDE.md rule (max 5)",
+        "OPTIMIZE PERFORMANCE: 23.9s execution time is too slow",
+        "MAJOR REFACTOR NEEDED: Multiple critical issues detected"
+      ]
+    },
+    {
+      "command_name": "adhd-evening-reflect",
+      "sample_size": 7,
+      "execution_times": [
+        17.6058064988576,
+        17.621540044646334,
+        17.34039305862208,
+        17.426783384712675,
+        17.630448241866354,
+        17.34183712270944,
+        17.707335488103837
+      ],
+      "mean_execution_time": 17.52487769135976,
+      "std_dev": 0.15137700928347245,
+      "success_rate": 0.5714285714285714,
+      "total_tokens": 49524,
+      "avg_complexity": 8,
+      "cost_estimate": 0.49524,
+      "savage_score": 0.7142857142857135,
+      "judgment": "\ud83d\udc80 adhd-evening-reflect is a disaster. 57.1% success rate with 17.5s execution time. Delete this.",
+      "recommendations": [
+        "REDUCE COMPLEXITY: Score 8.0 violates CLAUDE.md rule (max 5)",
+        "FIX RELIABILITY: 57.1% success rate is unacceptable",
+        "OPTIMIZE PERFORMANCE: 17.5s execution time is too slow",
+        "MAJOR REFACTOR NEEDED: Multiple critical issues detected"
+      ]
+    },
+    {
+      "command_name": "adhd-context-switch",
+      "sample_size": 7,
+      "execution_times": [
+        14.723592811020113,
+        14.985545299445615,
+        14.68558853551109,
+        14.861057559012359,
+        14.761025894141373,
+        14.879716227135075,
+        14.766947261769731
+      ],
+      "mean_execution_time": 14.809067655433623,
+      "std_dev": 0.10446188305503631,
+      "success_rate": 0.42857142857142855,
+      "total_tokens": 35105,
+      "avg_complexity": 8,
+      "cost_estimate": 0.35105000000000003,
+      "savage_score": 0.0,
+      "judgment": "\ud83d\udc80 adhd-context-switch is a disaster. 42.9% success rate with 14.8s execution time. Delete this.",
+      "recommendations": [
+        "REDUCE COMPLEXITY: Score 8.0 violates CLAUDE.md rule (max 5)",
+        "FIX RELIABILITY: 42.9% success rate is unacceptable",
+        "OPTIMIZE PERFORMANCE: 14.8s execution time is too slow",
+        "MAJOR REFACTOR NEEDED: Multiple critical issues detected"
+      ]
+    },
+    {
+      "command_name": "java-rapid-implementation",
+      "sample_size": 7,
+      "execution_times": [
+        14.609745570161627,
+        14.572845080221853,
+        14.624979934859319,
+        14.896207483391272,
+        14.633937962916352,
+        14.842441130877026,
+        14.620746511723606
+      ],
+      "mean_execution_time": 14.685843382021579,
+      "std_dev": 0.12778336976221408,
+      "success_rate": 0.2857142857142857,
+      "total_tokens": 31971,
+      "avg_complexity": 10,
+      "cost_estimate": 0.31971000000000005,
+      "savage_score": 0.0,
+      "judgment": "\ud83d\udc80 java-rapid-implementation is a disaster. 28.6% success rate with 14.7s execution time. Delete this.",
+      "recommendations": [
+        "REDUCE COMPLEXITY: Score 10.0 violates CLAUDE.md rule (max 5)",
+        "FIX RELIABILITY: 28.6% success rate is unacceptable",
+        "OPTIMIZE PERFORMANCE: 14.7s execution time is too slow",
+        "MAJOR REFACTOR NEEDED: Multiple critical issues detected"
+      ]
+    },
+    {
+      "command_name": "intelligent-code-enhancer",
+      "sample_size": 7,
+      "execution_times": [
+        16.190489229737143,
+        16.531043845324508,
+        16.575551225220938,
+        16.436985249012437,
+        16.180905930389443,
+        16.45404263972291,
+        16.574783580889356
+      ],
+      "mean_execution_time": 16.42054310004239,
+      "std_dev": 0.16919977307630277,
+      "success_rate": 0.2857142857142857,
+      "total_tokens": 42677,
+      "avg_complexity": 8,
+      "cost_estimate": 0.42677000000000004,
+      "savage_score": 0.0,
+      "judgment": "\ud83d\udc80 intelligent-code-enhancer is a disaster. 28.6% success rate with 16.4s execution time. Delete this.",
+      "recommendations": [
+        "REDUCE COMPLEXITY: Score 8.0 violates CLAUDE.md rule (max 5)",
+        "FIX RELIABILITY: 28.6% success rate is unacceptable",
+        "OPTIMIZE PERFORMANCE: 16.4s execution time is too slow",
+        "MAJOR REFACTOR NEEDED: Multiple critical issues detected"
+      ]
+    }
+  ],
+  "critical_issues": [
+    "adhd-context-switch",
+    "ultrathink-interactive",
+    "java-rapid-implementation",
+    "adhd-evening-reflect",
+    "intelligent-code-enhancer"
+  ],
+  "compliance_violations": [
+    "adhd-context-switch",
+    "ultrathink-interactive",
+    "java-rapid-implementation",
+    "adhd-evening-reflect",
+    "intelligent-code-enhancer"
+  ]
+}

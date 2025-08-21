@@ -1,0 +1,216 @@
+{
+  "benchmark_metadata": {
+    "timestamp": "20250821-203711",
+    "total_commands_tested": 5,
+    "total_samples": 25,
+    "framework_version": "1.0"
+  },
+  "aggregate_statistics": {
+    "average_success_rate": 0.4,
+    "average_savage_score": 0.6999999999999996,
+    "total_estimated_cost": 1.8166900000000001,
+    "compliance_rate": 0.0
+  },
+  "savage_rankings": [
+    {
+      "rank": 1,
+      "command_name": "context-enhanced-executor",
+      "savage_score": 1.5,
+      "judgment": "\ud83d\udc80 context-enhanced-executor is a disaster. 40.0% success rate with 7.5s execution time. Delete this.",
+      "key_metrics": {
+        "success_rate": 0.4,
+        "avg_execution_time": 7.501911859256024,
+        "complexity_score": 5,
+        "total_tokens": 11168
+      }
+    },
+    {
+      "rank": 2,
+      "command_name": "ultrathink-interactive",
+      "savage_score": 0.9999999999999991,
+      "judgment": "\ud83d\udc80 ultrathink-interactive is a disaster. 60.0% success rate with 23.9s execution time. Delete this.",
+      "key_metrics": {
+        "success_rate": 0.6,
+        "avg_execution_time": 23.90058308972609,
+        "complexity_score": 5,
+        "total_tokens": 65181
+      }
+    },
+    {
+      "rank": 3,
+      "command_name": "intelligent-refactor-session",
+      "savage_score": 0.9999999999999991,
+      "judgment": "\ud83d\udc80 intelligent-refactor-session is a disaster. 60.0% success rate with 22.5s execution time. Delete this.",
+      "key_metrics": {
+        "success_rate": 0.6,
+        "avg_execution_time": 22.496519419737293,
+        "complexity_score": 10,
+        "total_tokens": 44243
+      }
+    },
+    {
+      "rank": 4,
+      "command_name": "safe-code-beautifier",
+      "savage_score": 0.0,
+      "judgment": "\ud83d\udc80 safe-code-beautifier is a disaster. 20.0% success rate with 20.5s execution time. Delete this.",
+      "key_metrics": {
+        "success_rate": 0.2,
+        "avg_execution_time": 20.48002478045417,
+        "complexity_score": 10,
+        "total_tokens": 36842
+      }
+    },
+    {
+      "rank": 5,
+      "command_name": "analyze-project-architecture",
+      "savage_score": 0.0,
+      "judgment": "\ud83d\udc80 analyze-project-architecture is a disaster. 20.0% success rate with 14.2s execution time. Delete this.",
+      "key_metrics": {
+        "success_rate": 0.2,
+        "avg_execution_time": 14.195776240865612,
+        "complexity_score": 8,
+        "total_tokens": 24235
+      }
+    }
+  ],
+  "detailed_results": [
+    {
+      "command_name": "context-enhanced-executor",
+      "sample_size": 5,
+      "execution_times": [
+        7.574530834466723,
+        7.578943449031344,
+        7.5473898585178105,
+        7.50429492273289,
+        7.304400231531355
+      ],
+      "mean_execution_time": 7.501911859256024,
+      "std_dev": 0.11433738657893497,
+      "success_rate": 0.4,
+      "total_tokens": 11168,
+      "avg_complexity": 5,
+      "cost_estimate": 0.11168000000000002,
+      "savage_score": 1.5,
+      "judgment": "\ud83d\udc80 context-enhanced-executor is a disaster. 40.0% success rate with 7.5s execution time. Delete this.",
+      "recommendations": [
+        "REDUCE COMPLEXITY: Score 5.0 violates CLAUDE.md rule (max 5)",
+        "FIX RELIABILITY: 40.0% success rate is unacceptable",
+        "MAJOR REFACTOR NEEDED: Multiple critical issues detected"
+      ]
+    },
+    {
+      "command_name": "ultrathink-interactive",
+      "sample_size": 5,
+      "execution_times": [
+        23.872747598237385,
+        23.725488303085633,
+        24.061793737841317,
+        24.048486300017988,
+        23.794399509448123
+      ],
+      "mean_execution_time": 23.90058308972609,
+      "std_dev": 0.15047606478782016,
+      "success_rate": 0.6,
+      "total_tokens": 65181,
+      "avg_complexity": 5,
+      "cost_estimate": 0.65181,
+      "savage_score": 0.9999999999999991,
+      "judgment": "\ud83d\udc80 ultrathink-interactive is a disaster. 60.0% success rate with 23.9s execution time. Delete this.",
+      "recommendations": [
+        "REDUCE COMPLEXITY: Score 5.0 violates CLAUDE.md rule (max 5)",
+        "FIX RELIABILITY: 60.0% success rate is unacceptable",
+        "OPTIMIZE PERFORMANCE: 23.9s execution time is too slow",
+        "MAJOR REFACTOR NEEDED: Multiple critical issues detected"
+      ]
+    },
+    {
+      "command_name": "intelligent-refactor-session",
+      "sample_size": 5,
+      "execution_times": [
+        22.39015788055957,
+        22.50345352732628,
+        22.365650492541974,
+        22.58554990786991,
+        22.637785290388724
+      ],
+      "mean_execution_time": 22.496519419737293,
+      "std_dev": 0.11871184544686621,
+      "success_rate": 0.6,
+      "total_tokens": 44243,
+      "avg_complexity": 10,
+      "cost_estimate": 0.44243000000000005,
+      "savage_score": 0.9999999999999991,
+      "judgment": "\ud83d\udc80 intelligent-refactor-session is a disaster. 60.0% success rate with 22.5s execution time. Delete this.",
+      "recommendations": [
+        "REDUCE COMPLEXITY: Score 10.0 violates CLAUDE.md rule (max 5)",
+        "FIX RELIABILITY: 60.0% success rate is unacceptable",
+        "OPTIMIZE PERFORMANCE: 22.5s execution time is too slow",
+        "MAJOR REFACTOR NEEDED: Multiple critical issues detected"
+      ]
+    },
+    {
+      "command_name": "safe-code-beautifier",
+      "sample_size": 5,
+      "execution_times": [
+        20.41009937298039,
+        20.54464866018444,
+        20.509000822986287,
+        20.43355795620108,
+        20.50281708991865
+      ],
+      "mean_execution_time": 20.48002478045417,
+      "std_dev": 0.0560893809234011,
+      "success_rate": 0.2,
+      "total_tokens": 36842,
+      "avg_complexity": 10,
+      "cost_estimate": 0.36842,
+      "savage_score": 0.0,
+      "judgment": "\ud83d\udc80 safe-code-beautifier is a disaster. 20.0% success rate with 20.5s execution time. Delete this.",
+      "recommendations": [
+        "REDUCE COMPLEXITY: Score 10.0 violates CLAUDE.md rule (max 5)",
+        "FIX RELIABILITY: 20.0% success rate is unacceptable",
+        "OPTIMIZE PERFORMANCE: 20.5s execution time is too slow",
+        "MAJOR REFACTOR NEEDED: Multiple critical issues detected"
+      ]
+    },
+    {
+      "command_name": "analyze-project-architecture",
+      "sample_size": 5,
+      "execution_times": [
+        14.103231270112268,
+        14.132659274710576,
+        14.357569137675831,
+        14.07340308419122,
+        14.312018437638162
+      ],
+      "mean_execution_time": 14.195776240865612,
+      "std_dev": 0.1296270634084171,
+      "success_rate": 0.2,
+      "total_tokens": 24235,
+      "avg_complexity": 8,
+      "cost_estimate": 0.24235,
+      "savage_score": 0.0,
+      "judgment": "\ud83d\udc80 analyze-project-architecture is a disaster. 20.0% success rate with 14.2s execution time. Delete this.",
+      "recommendations": [
+        "REDUCE COMPLEXITY: Score 8.0 violates CLAUDE.md rule (max 5)",
+        "FIX RELIABILITY: 20.0% success rate is unacceptable",
+        "OPTIMIZE PERFORMANCE: 14.2s execution time is too slow",
+        "MAJOR REFACTOR NEEDED: Multiple critical issues detected"
+      ]
+    }
+  ],
+  "critical_issues": [
+    "ultrathink-interactive",
+    "safe-code-beautifier",
+    "intelligent-refactor-session",
+    "context-enhanced-executor",
+    "analyze-project-architecture"
+  ],
+  "compliance_violations": [
+    "ultrathink-interactive",
+    "safe-code-beautifier",
+    "intelligent-refactor-session",
+    "context-enhanced-executor",
+    "analyze-project-architecture"
+  ]
+}
