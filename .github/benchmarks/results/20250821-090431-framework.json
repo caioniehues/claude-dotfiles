@@ -1,0 +1,42 @@
+{
+  "metadata": {
+    "timestamp": "20250821-090431",
+    "analysis_version": "1.0.0",
+    "statistical_confidence": 0.95,
+    "sample_size": 5,
+    "methodology": "Multi-dimensional performance analysis with savage commentary"
+  },
+  "commands": {},
+  "metric_definitions": {
+    "complexity_score": {
+      "description": "CLAUDE.md complexity rules violation count",
+      "scale": "1-10 (higher = more criminally complex)",
+      "savage_threshold": 5,
+      "measurement": "Static analysis of XML blocks, dependencies, abstractions"
+    },
+    "token_density": {
+      "description": "Tokens per functional unit delivered",
+      "scale": "tokens/feature (lower = more efficient)",
+      "savage_threshold": 1000,
+      "measurement": "Character count as token proxy / actual functionality"
+    },
+    "abstraction_violation": {
+      "description": "Premature abstraction violations",
+      "scale": "0-10 (higher = more over-engineered BS)",
+      "savage_threshold": 3,
+      "measurement": "Interfaces without 3+ implementations, factory patterns, etc."
+    },
+    "usability_index": {
+      "description": "How easily a human can actually use this",
+      "scale": "1-10 (higher = actually usable)",
+      "savage_threshold": 6,
+      "measurement": "Parameter complexity, documentation clarity, example quality"
+    },
+    "maintenance_burden": {
+      "description": "How much pain this will cause in 6 months",
+      "scale": "1-10 (higher = future developer hatred)",
+      "savage_threshold": 7,
+      "measurement": "Code patterns, dependencies, complexity interactions"
+    }
+  }
+}

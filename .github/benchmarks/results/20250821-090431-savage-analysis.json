@@ -1,0 +1,69 @@
+{
+  "metadata": {
+    "timestamp": "20250821-090431",
+    "commands_analyzed": 6,
+    "statistical_summary": {
+      "mean_overall_score": 3.85,
+      "std_deviation": 1.9211142600064164,
+      "best_performer": "ultrathink-pure-xml.md",
+      "worst_performer": "safe-code-beautifier.md"
+    }
+  },
+  "detailed_results": {
+    "ultrathink-pure-xml.md": {
+      "complexity_score": 2,
+      "token_density": 69.0609756097561,
+      "abstraction_violation": 0,
+      "usability_index": 8,
+      "maintenance_burden": 5,
+      "overall_score": 6.07
+    },
+    "adaptive-complexity-router.md": {
+      "complexity_score": 6,
+      "token_density": 60.79347826086956,
+      "abstraction_violation": 7,
+      "usability_index": 8,
+      "maintenance_burden": 10,
+      "overall_score": 2.45
+    },
+    "adhd-context-switch.md": {
+      "complexity_score": 2,
+      "token_density": 37.44318181818182,
+      "abstraction_violation": 0,
+      "usability_index": 4,
+      "maintenance_burden": 7,
+      "overall_score": 4.53
+    },
+    "context-enhanced-executor.md": {
+      "complexity_score": 3,
+      "token_density": 42.23913043478261,
+      "abstraction_violation": 0,
+      "usability_index": 10,
+      "maintenance_burden": 10,
+      "overall_score": 5.61
+    },
+    "generate-thinking-command.md": {
+      "complexity_score": 5,
+      "token_density": 39.614583333333336,
+      "abstraction_violation": 7,
+      "usability_index": 10,
+      "maintenance_burden": 10,
+      "overall_score": 3.38
+    },
+    "safe-code-beautifier.md": {
+      "complexity_score": 7,
+      "token_density": 103.90714285714286,
+      "abstraction_violation": 5,
+      "usability_index": 3,
+      "maintenance_burden": 10,
+      "overall_score": 1.06
+    }
+  },
+  "metrics_statistics": {
+    "complexity_score": 4.166666666666667,
+    "token_density": 58.84308205234438,
+    "abstraction_violation": 3.1666666666666665,
+    "usability_index": 7.166666666666667,
+    "maintenance_burden": 8.666666666666666
+  }
+}
