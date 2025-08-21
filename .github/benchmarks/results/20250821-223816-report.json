@@ -1,0 +1,373 @@
+{
+  "benchmark_metadata": {
+    "timestamp": "20250821-223816",
+    "analyzer_version": "SAVAGE-1.0",
+    "commands_analyzed": 5,
+    "analysis_duration_seconds": 0.007302
+  },
+  "individual_analysis": {
+    "context-enhanced-executor": {
+      "file_metrics": {
+        "lines": 132,
+        "characters": 3886,
+        "words": 424,
+        "estimated_tokens": 971
+      },
+      "complexity": {
+        "total_score": 10,
+        "factors": [
+          "MCP tools: 1 (+2)",
+          "Thinking blocks: 4 (+4)",
+          "Sequential thinking trigger (+3)",
+          "Orchestration pattern (+2)",
+          "Complexity conditions: 1 (+1)"
+        ],
+        "claude_md_compliant": false,
+        "risk_level": "HIGH"
+      },
+      "patterns": {
+        "good_patterns": [
+          "Explicit thinking blocks",
+          "Complexity detection"
+        ],
+        "anti_patterns": [],
+        "design_patterns": [
+          "Strategy pattern"
+        ],
+        "adhd_patterns": []
+      },
+      "performance": {
+        "estimated_execution_time": 2.07,
+        "estimated_success_rate": 0.95,
+        "token_efficiency": 0.75,
+        "performance_factors": {
+          "base_time": 0.5,
+          "token_processing": 0.971,
+          "mcp_overhead": 0.5,
+          "thinking_overhead": 0.1,
+          "mcp_calls": 1,
+          "thinking_blocks": 1
+        }
+      },
+      "quality": {
+        "total_score": 65,
+        "grade": "B",
+        "factors": [
+          "Well-structured documentation (+10)",
+          "Contains examples (+5)",
+          "Explicit thinking architecture (+15)",
+          "Usage instructions provided (+5)",
+          "Integration considerations (+5)",
+          "Learning/pattern mechanisms (+10)",
+          "Complexity awareness (+10)",
+          "MCP tool integration (+5)"
+        ],
+        "max_possible": 80
+      },
+      "analyzed_at": "2025-08-21T22:38:16.216696"
+    },
+    "ultrathink-hybrid-mcp": {
+      "file_metrics": {
+        "lines": 536,
+        "characters": 13338,
+        "words": 1640,
+        "estimated_tokens": 3334
+      },
+      "complexity": {
+        "total_score": 10,
+        "factors": [
+          "MCP tools: 16 (+32)",
+          "Thinking blocks: 12 (+12)",
+          "Phases: 20 (+20)"
+        ],
+        "claude_md_compliant": false,
+        "risk_level": "HIGH"
+      },
+      "patterns": {
+        "good_patterns": [
+          "Explicit thinking blocks",
+          "Pattern learning"
+        ],
+        "anti_patterns": [],
+        "design_patterns": [
+          "Strategy pattern"
+        ],
+        "adhd_patterns": []
+      },
+      "performance": {
+        "estimated_execution_time": 12.43,
+        "estimated_success_rate": 0.887,
+        "token_efficiency": 1.0,
+        "performance_factors": {
+          "base_time": 0.5,
+          "token_processing": 3.334,
+          "mcp_overhead": 8.0,
+          "thinking_overhead": 0.6000000000000001,
+          "mcp_calls": 16,
+          "thinking_blocks": 6
+        }
+      },
+      "quality": {
+        "total_score": 70,
+        "grade": "B",
+        "factors": [
+          "Well-structured documentation (+10)",
+          "Contains examples (+5)",
+          "Explicit thinking architecture (+15)",
+          "Usage instructions provided (+5)",
+          "Integration considerations (+5)",
+          "Learning/pattern mechanisms (+10)",
+          "Validation steps included (+5)",
+          "Complexity awareness (+10)",
+          "MCP tool integration (+5)"
+        ],
+        "max_possible": 80
+      },
+      "analyzed_at": "2025-08-21T22:38:16.218671"
+    },
+    "adhd-evening-reflect": {
+      "file_metrics": {
+        "lines": 438,
+        "characters": 12536,
+        "words": 1363,
+        "estimated_tokens": 3134
+      },
+      "complexity": {
+        "total_score": 10,
+        "factors": [
+          "MCP tools: 3 (+6)",
+          "Phases: 9 (+9)"
+        ],
+        "claude_md_compliant": false,
+        "risk_level": "HIGH"
+      },
+      "patterns": {
+        "good_patterns": [],
+        "anti_patterns": [],
+        "design_patterns": [
+          "Strategy pattern"
+        ],
+        "adhd_patterns": [
+          "ADHD awareness",
+          "Energy management",
+          "Hyperfocus handling"
+        ]
+      },
+      "performance": {
+        "estimated_execution_time": 5.13,
+        "estimated_success_rate": 0.896,
+        "token_efficiency": 0.7,
+        "performance_factors": {
+          "base_time": 0.5,
+          "token_processing": 3.134,
+          "mcp_overhead": 1.5,
+          "thinking_overhead": 0.0,
+          "mcp_calls": 3,
+          "thinking_blocks": 0
+        }
+      },
+      "quality": {
+        "total_score": 35,
+        "grade": "F",
+        "factors": [
+          "Well-structured documentation (+10)",
+          "Usage instructions provided (+5)",
+          "Learning/pattern mechanisms (+10)",
+          "Validation steps included (+5)",
+          "MCP tool integration (+5)"
+        ],
+        "max_possible": 80
+      },
+      "analyzed_at": "2025-08-21T22:38:16.220332"
+    },
+    "intelligent-code-enhancer": {
+      "file_metrics": {
+        "lines": 442,
+        "characters": 11377,
+        "words": 1255,
+        "estimated_tokens": 2844
+      },
+      "complexity": {
+        "total_score": 10,
+        "factors": [
+          "MCP tools: 1 (+2)",
+          "Thinking blocks: 41 (+41)",
+          "Sequential thinking trigger (+3)",
+          "Orchestration pattern (+2)",
+          "Phases: 4 (+4)",
+          "Complexity conditions: 2 (+2)"
+        ],
+        "claude_md_compliant": false,
+        "risk_level": "HIGH"
+      },
+      "patterns": {
+        "good_patterns": [
+          "Explicit thinking blocks",
+          "Complexity detection",
+          "Error recovery"
+        ],
+        "anti_patterns": [],
+        "design_patterns": [
+          "Strategy pattern",
+          "Template pattern"
+        ],
+        "adhd_patterns": []
+      },
+      "performance": {
+        "estimated_execution_time": 4.34,
+        "estimated_success_rate": 0.91,
+        "token_efficiency": 0.95,
+        "performance_factors": {
+          "base_time": 0.5,
+          "token_processing": 2.844,
+          "mcp_overhead": 0.5,
+          "thinking_overhead": 0.5,
+          "mcp_calls": 1,
+          "thinking_blocks": 5
+        }
+      },
+      "quality": {
+        "total_score": 80,
+        "grade": "A",
+        "factors": [
+          "Well-structured documentation (+10)",
+          "Contains examples (+5)",
+          "Error handling present (+10)",
+          "Explicit thinking architecture (+15)",
+          "Usage instructions provided (+5)",
+          "Integration considerations (+5)",
+          "Learning/pattern mechanisms (+10)",
+          "Validation steps included (+5)",
+          "Complexity awareness (+10)",
+          "MCP tool integration (+5)"
+        ],
+        "max_possible": 80
+      },
+      "analyzed_at": "2025-08-21T22:38:16.221781"
+    },
+    "reasoning-wrapper": {
+      "file_metrics": {
+        "lines": 415,
+        "characters": 10162,
+        "words": 1200,
+        "estimated_tokens": 2540
+      },
+      "complexity": {
+        "total_score": 10,
+        "factors": [
+          "MCP tools: 2 (+4)",
+          "Thinking blocks: 35 (+35)",
+          "Sequential thinking trigger (+3)",
+          "Orchestration pattern (+2)",
+          "Complexity conditions: 1 (+1)"
+        ],
+        "claude_md_compliant": false,
+        "risk_level": "HIGH"
+      },
+      "patterns": {
+        "good_patterns": [
+          "Explicit thinking blocks",
+          "Complexity detection",
+          "Pattern learning"
+        ],
+        "anti_patterns": [],
+        "design_patterns": [
+          "Strategy pattern",
+          "Template pattern",
+          "Wrapper pattern"
+        ],
+        "adhd_patterns": []
+      },
+      "performance": {
+        "estimated_execution_time": 4.34,
+        "estimated_success_rate": 0.924,
+        "token_efficiency": 0.85,
+        "performance_factors": {
+          "base_time": 0.5,
+          "token_processing": 2.54,
+          "mcp_overhead": 1.0,
+          "thinking_overhead": 0.30000000000000004,
+          "mcp_calls": 2,
+          "thinking_blocks": 3
+        }
+      },
+      "quality": {
+        "total_score": 80,
+        "grade": "A",
+        "factors": [
+          "Well-structured documentation (+10)",
+          "Contains examples (+5)",
+          "Error handling present (+10)",
+          "Explicit thinking architecture (+15)",
+          "Usage instructions provided (+5)",
+          "Integration considerations (+5)",
+          "Learning/pattern mechanisms (+10)",
+          "Validation steps included (+5)",
+          "Complexity awareness (+10)",
+          "MCP tool integration (+5)"
+        ],
+        "max_possible": 80
+      },
+      "analyzed_at": "2025-08-21T22:38:16.223061"
+    }
+  },
+  "aggregate_statistics": {
+    "complexity": {
+      "average": 10,
+      "std_dev": 0.0,
+      "violators": [
+        "context-enhanced-executor",
+        "ultrathink-hybrid-mcp",
+        "adhd-evening-reflect",
+        "intelligent-code-enhancer",
+        "reasoning-wrapper"
+      ]
+    },
+    "quality": {
+      "average": 66,
+      "std_dev": 18.506755523321747,
+      "top_performer": "intelligent-code-enhancer",
+      "worst_performer": "adhd-evening-reflect"
+    },
+    "performance": {
+      "avg_execution_time": 5.662,
+      "avg_success_rate": 0.9134,
+      "fastest": "context-enhanced-executor",
+      "slowest": "ultrathink-hybrid-mcp"
+    }
+  },
+  "savage_verdicts": [
+    "context-enhanced-executor: VIOLATES CLAUDE.MD - Complexity 10/10 breaks the sacred rule of <5. SOLID - Grade B with 65/80 points. FUNCTIONAL - 95% success in 2.07s. Not embarrassing.",
+    "ultrathink-hybrid-mcp: VIOLATES CLAUDE.MD - Complexity 10/10 breaks the sacred rule of <5. SOLID - Grade B with 70/80 points. SLUGGISH - 12.43s execution time. Watching paint dry is faster.",
+    "adhd-evening-reflect: VIOLATES CLAUDE.MD - Complexity 10/10 breaks the sacred rule of <5. TERRIBLE - Grade F. This is embarrassing. SLUGGISH - 5.13s execution time. Watching paint dry is faster.",
+    "intelligent-code-enhancer: VIOLATES CLAUDE.MD - Complexity 10/10 breaks the sacred rule of <5. SOLID - Grade A with 80/80 points. SLUGGISH - 4.34s execution time. Watching paint dry is faster.",
+    "reasoning-wrapper: VIOLATES CLAUDE.MD - Complexity 10/10 breaks the sacred rule of <5. SOLID - Grade A with 80/80 points. SLUGGISH - 4.34s execution time. Watching paint dry is faster."
+  ],
+  "scientific_conclusions": {
+    "complexity": "SCIENTIFIC FAIL: 5/5 commands violate CLAUDE.MD complexity rule (<5). Average: 10.0",
+    "quality": "Grade distribution: {'A': 2, 'F': 1, 'B': 2}. This is acceptable",
+    "reliability": "RELIABLE: 91% average success rate is acceptable for production use"
+  },
+  "recommendations": {
+    "context-enhanced-executor": [
+      "CRITICAL: Reduce complexity from 10 to <5 per CLAUDE.MD"
+    ],
+    "ultrathink-hybrid-mcp": [
+      "CRITICAL: Reduce complexity from 10 to <5 per CLAUDE.MD",
+      "Optimize speed: 12.43s is too slow"
+    ],
+    "adhd-evening-reflect": [
+      "CRITICAL: Reduce complexity from 10 to <5 per CLAUDE.MD",
+      "Improve quality: Currently F grade with 35/80 points",
+      "Optimize speed: 5.13s is too slow"
+    ],
+    "intelligent-code-enhancer": [
+      "CRITICAL: Reduce complexity from 10 to <5 per CLAUDE.MD",
+      "Optimize speed: 4.34s is too slow"
+    ],
+    "reasoning-wrapper": [
+      "CRITICAL: Reduce complexity from 10 to <5 per CLAUDE.MD",
+      "Optimize speed: 4.34s is too slow"
+    ]
+  }
+}
