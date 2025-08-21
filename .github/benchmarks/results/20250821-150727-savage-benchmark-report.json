@@ -1,0 +1,5265 @@
+{
+  "meta": {
+    "timestamp": "20250821-150727",
+    "benchmarker_version": "3.0",
+    "commands_tested": 5,
+    "test_scenarios": 5,
+    "total_measurements": 25
+  },
+  "individual_results": [
+    {
+      "command": "ultrathink-hybrid-mcp.md",
+      "timestamp": "20250821-150727",
+      "complexity_analysis": {
+        "total_score": 46.2,
+        "base_score": 1.0,
+        "breakdown": {
+          "interfaces": 0.0,
+          "abstract_classes": 0.0,
+          "factory_patterns": 0.0,
+          "builder_patterns": 0.0,
+          "strategy_patterns": 3.0,
+          "observer_patterns": 0.0,
+          "template_methods": 0.0,
+          "nested_thinking": 3.0,
+          "mcp_dependencies": 32.0,
+          "xml_blocks": 5.9,
+          "conditional_complexity": 0.8,
+          "loop_complexity": 0.5
+        },
+        "passes_claude_rules": false
+      },
+      "success_analysis": {
+        "estimated_success_rate": 0.37,
+        "failure_rate": 0.63,
+        "reliability_grade": "F"
+      },
+      "scenarios": {
+        "simple task - create hello world": {
+          "token_metrics": {
+            "input_tokens": 3334,
+            "output_tokens": 5568,
+            "total_tokens": 8902,
+            "cost_estimate_usd": 0.46760999999999997,
+            "scenario_multiplier": 1.2
+          },
+          "execution_metrics": {
+            "mean_time": 30.03406700360595,
+            "median_time": 29.00857388640544,
+            "std_dev": 4.969891954609589,
+            "min_time": 23.41369366976707,
+            "max_time": 36.222111373082626,
+            "raw_times": [
+              36.222111373082626,
+              28.064477607127387,
+              23.41369366976707,
+              33.46147848164724,
+              29.00857388640544
+            ],
+            "confidence_interval_95": [
+              23.864120380864016,
+              36.20401362634789
+            ]
+          }
+        },
+        "medium complexity - refactor authentication": {
+          "token_metrics": {
+            "input_tokens": 3334,
+            "output_tokens": 7655,
+            "total_tokens": 10989,
+            "cost_estimate_usd": 0.624135,
+            "scenario_multiplier": 2.5
+          },
+          "execution_metrics": {
+            "mean_time": 78.62220696999073,
+            "median_time": 67.50179551753882,
+            "std_dev": 21.933099749710017,
+            "min_time": 60.575947160116904,
+            "max_time": 111.27776047350679,
+            "raw_times": [
+              62.692543076062364,
+              111.27776047350679,
+              60.575947160116904,
+              67.50179551753882,
+              91.06298862272874
+            ],
+            "confidence_interval_95": [
+              51.39303258090366,
+              105.8513813590778
+            ]
+          }
+        },
+        "high complexity - design microservice architecture": {
+          "token_metrics": {
+            "input_tokens": 3334,
+            "output_tokens": 17651,
+            "total_tokens": 20985,
+            "cost_estimate_usd": 1.3738349999999997,
+            "scenario_multiplier": 4.0
+          },
+          "execution_metrics": {
+            "mean_time": 235.66338986605243,
+            "median_time": 258.6791466070289,
+            "std_dev": 65.92272482088542,
+            "min_time": 146.86611287750165,
+            "max_time": 315.53869815347144,
+            "raw_times": [
+              193.33789873943337,
+              315.53869815347144,
+              258.6791466070289,
+              263.89509295282676,
+              146.86611287750165
+            ],
+            "confidence_interval_95": [
+              153.8226381786207,
+              317.50414155348415
+            ]
+          }
+        },
+        "edge case - handle null pointer exceptions": {
+          "token_metrics": {
+            "input_tokens": 3334,
+            "output_tokens": 4888,
+            "total_tokens": 8222,
+            "cost_estimate_usd": 0.41661,
+            "scenario_multiplier": 1.8
+          },
+          "execution_metrics": {
+            "mean_time": 67.34464707206962,
+            "median_time": 66.38608973996256,
+            "std_dev": 5.028273769936698,
+            "min_time": 62.224888770462634,
+            "max_time": 74.1597270876994,
+            "raw_times": [
+              63.28257670401441,
+              62.224888770462634,
+              74.1597270876994,
+              70.66995305820913,
+              66.38608973996256
+            ],
+            "confidence_interval_95": [
+              61.10222147240084,
+              73.5870726717384
+            ]
+          }
+        },
+        "integration task - connect three APIs": {
+          "token_metrics": {
+            "input_tokens": 3334,
+            "output_tokens": 14124,
+            "total_tokens": 17458,
+            "cost_estimate_usd": 1.1093099999999998,
+            "scenario_multiplier": 3.2
+          },
+          "execution_metrics": {
+            "mean_time": 179.62926167331946,
+            "median_time": 181.2919115386619,
+            "std_dev": 30.686336617811328,
+            "min_time": 144.56087967380563,
+            "max_time": 226.0845942578205,
+            "raw_times": [
+              226.0845942578205,
+              181.2919115386619,
+              185.16276228108174,
+              161.0461606152276,
+              144.56087967380563
+            ],
+            "confidence_interval_95": [
+              141.53325059127164,
+              217.72527275536729
+            ]
+          }
+        }
+      },
+      "aggregate_metrics": {
+        "avg_total_tokens": 13311.2,
+        "avg_execution_time": 118.25871451700763,
+        "avg_cost_usd": 0.7982999999999999,
+        "token_efficiency_score": 0.07512470701364264,
+        "time_efficiency_score": 0.08456036445890698,
+        "cost_efficiency_score": 1.252661906551422
+      }
+    },
+    {
+      "command": "adhd-morning-assistant.md",
+      "timestamp": "20250821-150727",
+      "complexity_analysis": {
+        "total_score": 19.2,
+        "base_score": 1.0,
+        "breakdown": {
+          "interfaces": 0.0,
+          "abstract_classes": 0.0,
+          "factory_patterns": 0.0,
+          "builder_patterns": 0.0,
+          "strategy_patterns": 0.0,
+          "observer_patterns": 0.0,
+          "template_methods": 0.0,
+          "nested_thinking": 0.0,
+          "mcp_dependencies": 14.0,
+          "xml_blocks": 2.5,
+          "conditional_complexity": 0.1,
+          "loop_complexity": 1.6
+        },
+        "passes_claude_rules": false
+      },
+      "success_analysis": {
+        "estimated_success_rate": 0.36999999999999994,
+        "failure_rate": 0.6300000000000001,
+        "reliability_grade": "F"
+      },
+      "scenarios": {
+        "simple task - create hello world": {
+          "token_metrics": {
+            "input_tokens": 2223,
+            "output_tokens": 2323,
+            "total_tokens": 4546,
+            "cost_estimate_usd": 0.20756999999999998,
+            "scenario_multiplier": 1.2
+          },
+          "execution_metrics": {
+            "mean_time": 12.864174678589363,
+            "median_time": 12.709253329577855,
+            "std_dev": 1.9266901739728803,
+            "min_time": 10.928148791167887,
+            "max_time": 15.947172892025266,
+            "raw_times": [
+              11.633512310312003,
+              15.947172892025266,
+              13.102786069863798,
+              12.709253329577855,
+              10.928148791167887
+            ],
+            "confidence_interval_95": [
+              10.472256375224983,
+              15.256092981953742
+            ]
+          }
+        },
+        "medium complexity - refactor authentication": {
+          "token_metrics": {
+            "input_tokens": 2223,
+            "output_tokens": 6353,
+            "total_tokens": 8576,
+            "cost_estimate_usd": 0.5098199999999999,
+            "scenario_multiplier": 2.5
+          },
+          "execution_metrics": {
+            "mean_time": 40.11516721208476,
+            "median_time": 41.010460515651324,
+            "std_dev": 7.17896481955925,
+            "min_time": 30.679287833181704,
+            "max_time": 48.83607566754529,
+            "raw_times": [
+              41.010460515651324,
+              30.679287833181704,
+              44.5106649145573,
+              48.83607566754529,
+              35.539347129488185
+            ],
+            "confidence_interval_95": [
+              31.202734075155075,
+              49.02760034901445
+            ]
+          }
+        },
+        "high complexity - design microservice architecture": {
+          "token_metrics": {
+            "input_tokens": 2223,
+            "output_tokens": 9469,
+            "total_tokens": 11692,
+            "cost_estimate_usd": 0.7435199999999998,
+            "scenario_multiplier": 4.0
+          },
+          "execution_metrics": {
+            "mean_time": 108.50387215172198,
+            "median_time": 114.66500574905106,
+            "std_dev": 26.972616129612142,
+            "min_time": 69.95774441599616,
+            "max_time": 143.59270385735707,
+            "raw_times": [
+              69.95774441599616,
+              114.66500574905106,
+              143.59270385735707,
+              98.45014109659185,
+              115.85376563961374
+            ],
+            "confidence_interval_95": [
+              75.0183148568475,
+              141.98942944659646
+            ]
+          }
+        },
+        "edge case - handle null pointer exceptions": {
+          "token_metrics": {
+            "input_tokens": 2223,
+            "output_tokens": 4083,
+            "total_tokens": 6306,
+            "cost_estimate_usd": 0.33957,
+            "scenario_multiplier": 1.8
+          },
+          "execution_metrics": {
+            "mean_time": 28.509123734938278,
+            "median_time": 29.2541316274163,
+            "std_dev": 6.641623805626038,
+            "min_time": 21.553823433121696,
+            "max_time": 38.71496171170016,
+            "raw_times": [
+              29.2541316274163,
+              38.71496171170016,
+              23.73897768496751,
+              29.283724217485723,
+              21.553823433121696
+            ],
+            "confidence_interval_95": [
+              20.263780628226037,
+              36.75446684165052
+            ]
+          }
+        },
+        "integration task - connect three APIs": {
+          "token_metrics": {
+            "input_tokens": 2223,
+            "output_tokens": 6796,
+            "total_tokens": 9019,
+            "cost_estimate_usd": 0.5430449999999999,
+            "scenario_multiplier": 3.2
+          },
+          "execution_metrics": {
+            "mean_time": 82.03905768565953,
+            "median_time": 70.1791307471943,
+            "std_dev": 22.21189620730308,
+            "min_time": 60.63613878140533,
+            "max_time": 106.91858640763883,
+            "raw_times": [
+              67.24915182832466,
+              70.1791307471943,
+              106.91858640763883,
+              105.21228066373455,
+              60.63613878140533
+            ],
+            "confidence_interval_95": [
+              54.463767268765594,
+              109.61434810255346
+            ]
+          }
+        }
+      },
+      "aggregate_metrics": {
+        "avg_total_tokens": 8027.8,
+        "avg_execution_time": 54.40627909259878,
+        "avg_cost_usd": 0.4687049999999999,
+        "token_efficiency_score": 0.12456712922593986,
+        "time_efficiency_score": 0.18380231412223816,
+        "cost_efficiency_score": 2.1335381529960213
+      }
+    },
+    {
+      "command": "adhd-hyperfocus-guardian.md",
+      "timestamp": "20250821-150727",
+      "complexity_analysis": {
+        "total_score": 14.700000000000001,
+        "base_score": 1.0,
+        "breakdown": {
+          "interfaces": 0.0,
+          "abstract_classes": 0.0,
+          "factory_patterns": 0.0,
+          "builder_patterns": 0.0,
+          "strategy_patterns": 0.0,
+          "observer_patterns": 0.0,
+          "template_methods": 0.0,
+          "nested_thinking": 0.0,
+          "mcp_dependencies": 10.0,
+          "xml_blocks": 2.7,
+          "conditional_complexity": 0.4,
+          "loop_complexity": 0.6000000000000001
+        },
+        "passes_claude_rules": false
+      },
+      "success_analysis": {
+        "estimated_success_rate": 0.36999999999999994,
+        "failure_rate": 0.6300000000000001,
+        "reliability_grade": "F"
+      },
+      "scenarios": {
+        "simple task - create hello world": {
+          "token_metrics": {
+            "input_tokens": 3005,
+            "output_tokens": 4278,
+            "total_tokens": 7283,
+            "cost_estimate_usd": 0.36592499999999994,
+            "scenario_multiplier": 1.2
+          },
+          "execution_metrics": {
+            "mean_time": 19.888711687042314,
+            "median_time": 19.54510364037798,
+            "std_dev": 0.8900295142622122,
+            "min_time": 18.80286803091947,
+            "max_time": 20.882710583652294,
+            "raw_times": [
+              19.54510364037798,
+              19.478487522772713,
+              20.882710583652294,
+              20.734388657489106,
+              18.80286803091947
+            ],
+            "confidence_interval_95": [
+              18.7837712485345,
+              20.993652125550128
+            ]
+          }
+        },
+        "medium complexity - refactor authentication": {
+          "token_metrics": {
+            "input_tokens": 3005,
+            "output_tokens": 9967,
+            "total_tokens": 12972,
+            "cost_estimate_usd": 0.7925999999999999,
+            "scenario_multiplier": 2.5
+          },
+          "execution_metrics": {
+            "mean_time": 54.69927267336427,
+            "median_time": 53.512169008428764,
+            "std_dev": 12.19687110068157,
+            "min_time": 42.461403476216475,
+            "max_time": 72.43382538229177,
+            "raw_times": [
+              60.29301170629487,
+              44.79595379358948,
+              72.43382538229177,
+              42.461403476216475,
+              53.512169008428764
+            ],
+            "confidence_interval_95": [
+              39.557284810656185,
+              69.84126053607235
+            ]
+          }
+        },
+        "high complexity - design microservice architecture": {
+          "token_metrics": {
+            "input_tokens": 3005,
+            "output_tokens": 12142,
+            "total_tokens": 15147,
+            "cost_estimate_usd": 0.9557249999999999,
+            "scenario_multiplier": 4.0
+          },
+          "execution_metrics": {
+            "mean_time": 121.10418425147748,
+            "median_time": 119.83634269203759,
+            "std_dev": 30.195303518583007,
+            "min_time": 89.86912696265645,
+            "max_time": 170.25784551004006,
+            "raw_times": [
+              105.19319718001782,
+              119.83634269203759,
+              120.36440891263545,
+              89.86912696265645,
+              170.25784551004006
+            ],
+            "confidence_interval_95": [
+              83.61777354704518,
+              158.59059495590978
+            ]
+          }
+        },
+        "edge case - handle null pointer exceptions": {
+          "token_metrics": {
+            "input_tokens": 3005,
+            "output_tokens": 4780,
+            "total_tokens": 7785,
+            "cost_estimate_usd": 0.403575,
+            "scenario_multiplier": 1.8
+          },
+          "execution_metrics": {
+            "mean_time": 35.142945615565395,
+            "median_time": 33.40946766107243,
+            "std_dev": 8.317730125827874,
+            "min_time": 26.535880266259003,
+            "max_time": 49.03900721836846,
+            "raw_times": [
+              26.535880266259003,
+              33.02560232162982,
+              49.03900721836846,
+              33.70477061049725,
+              33.40946766107243
+            ],
+            "confidence_interval_95": [
+              24.81677527475323,
+              45.469115956377564
+            ]
+          }
+        },
+        "integration task - connect three APIs": {
+          "token_metrics": {
+            "input_tokens": 3005,
+            "output_tokens": 11528,
+            "total_tokens": 14533,
+            "cost_estimate_usd": 0.9096749999999999,
+            "scenario_multiplier": 3.2
+          },
+          "execution_metrics": {
+            "mean_time": 103.1079780006048,
+            "median_time": 98.94050975808791,
+            "std_dev": 20.100989646068275,
+            "min_time": 75.10674768730223,
+            "max_time": 124.92058169321626,
+            "raw_times": [
+              98.94050975808791,
+              120.23065640464921,
+              75.10674768730223,
+              96.34139445976838,
+              124.92058169321626
+            ],
+            "confidence_interval_95": [
+              78.15330407343848,
+              128.06265192777113
+            ]
+          }
+        }
+      },
+      "aggregate_metrics": {
+        "avg_total_tokens": 11544,
+        "avg_execution_time": 66.78861844561085,
+        "avg_cost_usd": 0.6854999999999999,
+        "token_efficiency_score": 0.08662508662508663,
+        "time_efficiency_score": 0.14972610951884677,
+        "cost_efficiency_score": 1.4587892049598836
+      }
+    },
+    {
+      "command": "adhd-context-switch.md",
+      "timestamp": "20250821-150727",
+      "complexity_analysis": {
+        "total_score": 15.6,
+        "base_score": 1.0,
+        "breakdown": {
+          "interfaces": 0.0,
+          "abstract_classes": 0.0,
+          "factory_patterns": 0.0,
+          "builder_patterns": 0.0,
+          "strategy_patterns": 3.0,
+          "observer_patterns": 0.0,
+          "template_methods": 0.0,
+          "nested_thinking": 0.0,
+          "mcp_dependencies": 8.0,
+          "xml_blocks": 2.9,
+          "conditional_complexity": 0.1,
+          "loop_complexity": 0.6000000000000001
+        },
+        "passes_claude_rules": false
+      },
+      "success_analysis": {
+        "estimated_success_rate": 0.41999999999999993,
+        "failure_rate": 0.5800000000000001,
+        "reliability_grade": "F"
+      },
+      "scenarios": {
+        "simple task - create hello world": {
+          "token_metrics": {
+            "input_tokens": 2471,
+            "output_tokens": 2546,
+            "total_tokens": 5017,
+            "cost_estimate_usd": 0.22801499999999997,
+            "scenario_multiplier": 1.2
+          },
+          "execution_metrics": {
+            "mean_time": 14.843288692393342,
+            "median_time": 15.183758815987034,
+            "std_dev": 2.7978603697664144,
+            "min_time": 10.824455966872467,
+            "max_time": 18.5904033501693,
+            "raw_times": [
+              15.51669883731681,
+              18.5904033501693,
+              10.824455966872467,
+              14.1011264916211,
+              15.183758815987034
+            ],
+            "confidence_interval_95": [
+              11.3698431332132,
+              18.316734251573482
+            ]
+          }
+        },
+        "medium complexity - refactor authentication": {
+          "token_metrics": {
+            "input_tokens": 2471,
+            "output_tokens": 5155,
+            "total_tokens": 7626,
+            "cost_estimate_usd": 0.42368999999999996,
+            "scenario_multiplier": 2.5
+          },
+          "execution_metrics": {
+            "mean_time": 41.60531215663886,
+            "median_time": 41.21819647835631,
+            "std_dev": 10.13357475409177,
+            "min_time": 28.484054240962315,
+            "max_time": 55.67212775957456,
+            "raw_times": [
+              45.82102448888079,
+              55.67212775957456,
+              28.484054240962315,
+              36.83115781542032,
+              41.21819647835631
+            ],
+            "confidence_interval_95": [
+              29.024834371337988,
+              54.18578994193973
+            ]
+          }
+        },
+        "high complexity - design microservice architecture": {
+          "token_metrics": {
+            "input_tokens": 2471,
+            "output_tokens": 14653,
+            "total_tokens": 17124,
+            "cost_estimate_usd": 1.1360399999999997,
+            "scenario_multiplier": 4.0
+          },
+          "execution_metrics": {
+            "mean_time": 99.13758607118092,
+            "median_time": 89.95271098416012,
+            "std_dev": 24.21241969888182,
+            "min_time": 77.81619565025224,
+            "max_time": 134.77450368378922,
+            "raw_times": [
+              89.95271098416012,
+              77.81619565025224,
+              80.40362126328513,
+              134.77450368378922,
+              112.74089877441787
+            ],
+            "confidence_interval_95": [
+              69.07871587562926,
+              129.19645626673258
+            ]
+          }
+        },
+        "edge case - handle null pointer exceptions": {
+          "token_metrics": {
+            "input_tokens": 2471,
+            "output_tokens": 5305,
+            "total_tokens": 7776,
+            "cost_estimate_usd": 0.43494,
+            "scenario_multiplier": 1.8
+          },
+          "execution_metrics": {
+            "mean_time": 31.72198571850811,
+            "median_time": 32.141900678369346,
+            "std_dev": 6.642821522162401,
+            "min_time": 22.320997497509715,
+            "max_time": 39.93067331528901,
+            "raw_times": [
+              28.924425959202882,
+              39.93067331528901,
+              22.320997497509715,
+              32.141900678369346,
+              35.291931142169595
+            ],
+            "confidence_interval_95": [
+              23.475155688706586,
+              39.96881574830964
+            ]
+          }
+        },
+        "integration task - connect three APIs": {
+          "token_metrics": {
+            "input_tokens": 2471,
+            "output_tokens": 11044,
+            "total_tokens": 13515,
+            "cost_estimate_usd": 0.8653649999999999,
+            "scenario_multiplier": 3.2
+          },
+          "execution_metrics": {
+            "mean_time": 81.36687410597017,
+            "median_time": 79.36133494981122,
+            "std_dev": 19.003127265791864,
+            "min_time": 57.95055266437836,
+            "max_time": 109.43969575874758,
+            "raw_times": [
+              79.36133494981122,
+              57.95055266437836,
+              109.43969575874758,
+              72.95154260857012,
+              87.13124454834356
+            ],
+            "confidence_interval_95": [
+              57.775157834078264,
+              104.95859037786207
+            ]
+          }
+        }
+      },
+      "aggregate_metrics": {
+        "avg_total_tokens": 10211.6,
+        "avg_execution_time": 53.73500934893828,
+        "avg_cost_usd": 0.6176099999999999,
+        "token_efficiency_score": 0.09792784676250538,
+        "time_efficiency_score": 0.18609841370014732,
+        "cost_efficiency_score": 1.6191447677336834
+      }
+    },
+    {
+      "command": "reasoning-wrapper.md",
+      "timestamp": "20250821-150727",
+      "complexity_analysis": {
+        "total_score": 18.4,
+        "base_score": 1.0,
+        "breakdown": {
+          "interfaces": 0.0,
+          "abstract_classes": 0.0,
+          "factory_patterns": 0.0,
+          "builder_patterns": 0.0,
+          "strategy_patterns": 6.0,
+          "observer_patterns": 0.0,
+          "template_methods": 0.0,
+          "nested_thinking": 0.0,
+          "mcp_dependencies": 4.0,
+          "xml_blocks": 6.7,
+          "conditional_complexity": 0.2,
+          "loop_complexity": 0.5
+        },
+        "passes_claude_rules": false
+      },
+      "success_analysis": {
+        "estimated_success_rate": 0.42,
+        "failure_rate": 0.5800000000000001,
+        "reliability_grade": "F"
+      },
+      "scenarios": {
+        "simple task - create hello world": {
+          "token_metrics": {
+            "input_tokens": 2540,
+            "output_tokens": 3855,
+            "total_tokens": 6395,
+            "cost_estimate_usd": 0.327225,
+            "scenario_multiplier": 1.2
+          },
+          "execution_metrics": {
+            "mean_time": 17.250202545850037,
+            "median_time": 16.206715835436324,
+            "std_dev": 3.7253622239747832,
+            "min_time": 13.257452237713423,
+            "max_time": 21.38712091554311,
+            "raw_times": [
+              16.206715835436324,
+              21.38712091554311,
+              14.46227830782478,
+              13.257452237713423,
+              20.937445432732538
+            ],
+            "confidence_interval_95": [
+              12.62529595185765,
+              21.875109139842422
+            ]
+          }
+        },
+        "medium complexity - refactor authentication": {
+          "token_metrics": {
+            "input_tokens": 2540,
+            "output_tokens": 6979,
+            "total_tokens": 9519,
+            "cost_estimate_usd": 0.5615249999999999,
+            "scenario_multiplier": 2.5
+          },
+          "execution_metrics": {
+            "mean_time": 38.291583490262944,
+            "median_time": 34.843786574288565,
+            "std_dev": 9.467391781436254,
+            "min_time": 31.51353387417158,
+            "max_time": 54.62335074757006,
+            "raw_times": [
+              31.51353387417158,
+              38.00710761400962,
+              32.47013864127491,
+              34.843786574288565,
+              54.62335074757006
+            ],
+            "confidence_interval_95": [
+              26.53814850987693,
+              50.045018470648955
+            ]
+          }
+        },
+        "high complexity - design microservice architecture": {
+          "token_metrics": {
+            "input_tokens": 2540,
+            "output_tokens": 12393,
+            "total_tokens": 14933,
+            "cost_estimate_usd": 0.967575,
+            "scenario_multiplier": 4.0
+          },
+          "execution_metrics": {
+            "mean_time": 116.01859101283668,
+            "median_time": 118.40275072058398,
+            "std_dev": 22.324199688099604,
+            "min_time": 87.47260366365091,
+            "max_time": 147.52794307653065,
+            "raw_times": [
+              122.44935183719907,
+              87.47260366365091,
+              147.52794307653065,
+              118.40275072058398,
+              104.24030576621878
+            ],
+            "confidence_interval_95": [
+              88.30387976176948,
+              143.73330226390388
+            ]
+          }
+        },
+        "edge case - handle null pointer exceptions": {
+          "token_metrics": {
+            "input_tokens": 2540,
+            "output_tokens": 3727,
+            "total_tokens": 6267,
+            "cost_estimate_usd": 0.317625,
+            "scenario_multiplier": 1.8
+          },
+          "execution_metrics": {
+            "mean_time": 29.28269323277802,
+            "median_time": 29.41348892983231,
+            "std_dev": 3.658672226863299,
+            "min_time": 24.886532468425596,
+            "max_time": 33.715456712580036,
+            "raw_times": [
+              26.502997949751958,
+              29.41348892983231,
+              33.715456712580036,
+              24.886532468425596,
+              31.894990103300202
+            ],
+            "confidence_interval_95": [
+              24.740579932122127,
+              33.824806533433915
+            ]
+          }
+        },
+        "integration task - connect three APIs": {
+          "token_metrics": {
+            "input_tokens": 2540,
+            "output_tokens": 10816,
+            "total_tokens": 13356,
+            "cost_estimate_usd": 0.8492999999999999,
+            "scenario_multiplier": 3.2
+          },
+          "execution_metrics": {
+            "mean_time": 88.96296018658465,
+            "median_time": 97.2209712858099,
+            "std_dev": 25.949242458782397,
+            "min_time": 60.668243225972034,
+            "max_time": 119.88052776046422,
+            "raw_times": [
+              97.2209712858099,
+              63.403205024413225,
+              60.668243225972034,
+              103.64185363626387,
+              119.88052776046422
+            ],
+            "confidence_interval_95": [
+              56.747885425698186,
+              121.17803494747112
+            ]
+          }
+        }
+      },
+      "aggregate_metrics": {
+        "avg_total_tokens": 10094,
+        "avg_execution_time": 57.96120609366247,
+        "avg_cost_usd": 0.6046499999999999,
+        "token_efficiency_score": 0.09906875371507827,
+        "time_efficiency_score": 0.17252919105652303,
+        "cost_efficiency_score": 1.653849334325643
+      }
+    }
+  ],
+  "comparative_analysis": {
+    "rankings": {
+      "complexity_champions": [
+        {
+          "command": "adhd-hyperfocus-guardian.md",
+          "timestamp": "20250821-150727",
+          "complexity_analysis": {
+            "total_score": 14.700000000000001,
+            "base_score": 1.0,
+            "breakdown": {
+              "interfaces": 0.0,
+              "abstract_classes": 0.0,
+              "factory_patterns": 0.0,
+              "builder_patterns": 0.0,
+              "strategy_patterns": 0.0,
+              "observer_patterns": 0.0,
+              "template_methods": 0.0,
+              "nested_thinking": 0.0,
+              "mcp_dependencies": 10.0,
+              "xml_blocks": 2.7,
+              "conditional_complexity": 0.4,
+              "loop_complexity": 0.6000000000000001
+            },
+            "passes_claude_rules": false
+          },
+          "success_analysis": {
+            "estimated_success_rate": 0.36999999999999994,
+            "failure_rate": 0.6300000000000001,
+            "reliability_grade": "F"
+          },
+          "scenarios": {
+            "simple task - create hello world": {
+              "token_metrics": {
+                "input_tokens": 3005,
+                "output_tokens": 4278,
+                "total_tokens": 7283,
+                "cost_estimate_usd": 0.36592499999999994,
+                "scenario_multiplier": 1.2
+              },
+              "execution_metrics": {
+                "mean_time": 19.888711687042314,
+                "median_time": 19.54510364037798,
+                "std_dev": 0.8900295142622122,
+                "min_time": 18.80286803091947,
+                "max_time": 20.882710583652294,
+                "raw_times": [
+                  19.54510364037798,
+                  19.478487522772713,
+                  20.882710583652294,
+                  20.734388657489106,
+                  18.80286803091947
+                ],
+                "confidence_interval_95": [
+                  18.7837712485345,
+                  20.993652125550128
+                ]
+              }
+            },
+            "medium complexity - refactor authentication": {
+              "token_metrics": {
+                "input_tokens": 3005,
+                "output_tokens": 9967,
+                "total_tokens": 12972,
+                "cost_estimate_usd": 0.7925999999999999,
+                "scenario_multiplier": 2.5
+              },
+              "execution_metrics": {
+                "mean_time": 54.69927267336427,
+                "median_time": 53.512169008428764,
+                "std_dev": 12.19687110068157,
+                "min_time": 42.461403476216475,
+                "max_time": 72.43382538229177,
+                "raw_times": [
+                  60.29301170629487,
+                  44.79595379358948,
+                  72.43382538229177,
+                  42.461403476216475,
+                  53.512169008428764
+                ],
+                "confidence_interval_95": [
+                  39.557284810656185,
+                  69.84126053607235
+                ]
+              }
+            },
+            "high complexity - design microservice architecture": {
+              "token_metrics": {
+                "input_tokens": 3005,
+                "output_tokens": 12142,
+                "total_tokens": 15147,
+                "cost_estimate_usd": 0.9557249999999999,
+                "scenario_multiplier": 4.0
+              },
+              "execution_metrics": {
+                "mean_time": 121.10418425147748,
+                "median_time": 119.83634269203759,
+                "std_dev": 30.195303518583007,
+                "min_time": 89.86912696265645,
+                "max_time": 170.25784551004006,
+                "raw_times": [
+                  105.19319718001782,
+                  119.83634269203759,
+                  120.36440891263545,
+                  89.86912696265645,
+                  170.25784551004006
+                ],
+                "confidence_interval_95": [
+                  83.61777354704518,
+                  158.59059495590978
+                ]
+              }
+            },
+            "edge case - handle null pointer exceptions": {
+              "token_metrics": {
+                "input_tokens": 3005,
+                "output_tokens": 4780,
+                "total_tokens": 7785,
+                "cost_estimate_usd": 0.403575,
+                "scenario_multiplier": 1.8
+              },
+              "execution_metrics": {
+                "mean_time": 35.142945615565395,
+                "median_time": 33.40946766107243,
+                "std_dev": 8.317730125827874,
+                "min_time": 26.535880266259003,
+                "max_time": 49.03900721836846,
+                "raw_times": [
+                  26.535880266259003,
+                  33.02560232162982,
+                  49.03900721836846,
+                  33.70477061049725,
+                  33.40946766107243
+                ],
+                "confidence_interval_95": [
+                  24.81677527475323,
+                  45.469115956377564
+                ]
+              }
+            },
+            "integration task - connect three APIs": {
+              "token_metrics": {
+                "input_tokens": 3005,
+                "output_tokens": 11528,
+                "total_tokens": 14533,
+                "cost_estimate_usd": 0.9096749999999999,
+                "scenario_multiplier": 3.2
+              },
+              "execution_metrics": {
+                "mean_time": 103.1079780006048,
+                "median_time": 98.94050975808791,
+                "std_dev": 20.100989646068275,
+                "min_time": 75.10674768730223,
+                "max_time": 124.92058169321626,
+                "raw_times": [
+                  98.94050975808791,
+                  120.23065640464921,
+                  75.10674768730223,
+                  96.34139445976838,
+                  124.92058169321626
+                ],
+                "confidence_interval_95": [
+                  78.15330407343848,
+                  128.06265192777113
+                ]
+              }
+            }
+          },
+          "aggregate_metrics": {
+            "avg_total_tokens": 11544,
+            "avg_execution_time": 66.78861844561085,
+            "avg_cost_usd": 0.6854999999999999,
+            "token_efficiency_score": 0.08662508662508663,
+            "time_efficiency_score": 0.14972610951884677,
+            "cost_efficiency_score": 1.4587892049598836
+          }
+        },
+        {
+          "command": "adhd-context-switch.md",
+          "timestamp": "20250821-150727",
+          "complexity_analysis": {
+            "total_score": 15.6,
+            "base_score": 1.0,
+            "breakdown": {
+              "interfaces": 0.0,
+              "abstract_classes": 0.0,
+              "factory_patterns": 0.0,
+              "builder_patterns": 0.0,
+              "strategy_patterns": 3.0,
+              "observer_patterns": 0.0,
+              "template_methods": 0.0,
+              "nested_thinking": 0.0,
+              "mcp_dependencies": 8.0,
+              "xml_blocks": 2.9,
+              "conditional_complexity": 0.1,
+              "loop_complexity": 0.6000000000000001
+            },
+            "passes_claude_rules": false
+          },
+          "success_analysis": {
+            "estimated_success_rate": 0.41999999999999993,
+            "failure_rate": 0.5800000000000001,
+            "reliability_grade": "F"
+          },
+          "scenarios": {
+            "simple task - create hello world": {
+              "token_metrics": {
+                "input_tokens": 2471,
+                "output_tokens": 2546,
+                "total_tokens": 5017,
+                "cost_estimate_usd": 0.22801499999999997,
+                "scenario_multiplier": 1.2
+              },
+              "execution_metrics": {
+                "mean_time": 14.843288692393342,
+                "median_time": 15.183758815987034,
+                "std_dev": 2.7978603697664144,
+                "min_time": 10.824455966872467,
+                "max_time": 18.5904033501693,
+                "raw_times": [
+                  15.51669883731681,
+                  18.5904033501693,
+                  10.824455966872467,
+                  14.1011264916211,
+                  15.183758815987034
+                ],
+                "confidence_interval_95": [
+                  11.3698431332132,
+                  18.316734251573482
+                ]
+              }
+            },
+            "medium complexity - refactor authentication": {
+              "token_metrics": {
+                "input_tokens": 2471,
+                "output_tokens": 5155,
+                "total_tokens": 7626,
+                "cost_estimate_usd": 0.42368999999999996,
+                "scenario_multiplier": 2.5
+              },
+              "execution_metrics": {
+                "mean_time": 41.60531215663886,
+                "median_time": 41.21819647835631,
+                "std_dev": 10.13357475409177,
+                "min_time": 28.484054240962315,
+                "max_time": 55.67212775957456,
+                "raw_times": [
+                  45.82102448888079,
+                  55.67212775957456,
+                  28.484054240962315,
+                  36.83115781542032,
+                  41.21819647835631
+                ],
+                "confidence_interval_95": [
+                  29.024834371337988,
+                  54.18578994193973
+                ]
+              }
+            },
+            "high complexity - design microservice architecture": {
+              "token_metrics": {
+                "input_tokens": 2471,
+                "output_tokens": 14653,
+                "total_tokens": 17124,
+                "cost_estimate_usd": 1.1360399999999997,
+                "scenario_multiplier": 4.0
+              },
+              "execution_metrics": {
+                "mean_time": 99.13758607118092,
+                "median_time": 89.95271098416012,
+                "std_dev": 24.21241969888182,
+                "min_time": 77.81619565025224,
+                "max_time": 134.77450368378922,
+                "raw_times": [
+                  89.95271098416012,
+                  77.81619565025224,
+                  80.40362126328513,
+                  134.77450368378922,
+                  112.74089877441787
+                ],
+                "confidence_interval_95": [
+                  69.07871587562926,
+                  129.19645626673258
+                ]
+              }
+            },
+            "edge case - handle null pointer exceptions": {
+              "token_metrics": {
+                "input_tokens": 2471,
+                "output_tokens": 5305,
+                "total_tokens": 7776,
+                "cost_estimate_usd": 0.43494,
+                "scenario_multiplier": 1.8
+              },
+              "execution_metrics": {
+                "mean_time": 31.72198571850811,
+                "median_time": 32.141900678369346,
+                "std_dev": 6.642821522162401,
+                "min_time": 22.320997497509715,
+                "max_time": 39.93067331528901,
+                "raw_times": [
+                  28.924425959202882,
+                  39.93067331528901,
+                  22.320997497509715,
+                  32.141900678369346,
+                  35.291931142169595
+                ],
+                "confidence_interval_95": [
+                  23.475155688706586,
+                  39.96881574830964
+                ]
+              }
+            },
+            "integration task - connect three APIs": {
+              "token_metrics": {
+                "input_tokens": 2471,
+                "output_tokens": 11044,
+                "total_tokens": 13515,
+                "cost_estimate_usd": 0.8653649999999999,
+                "scenario_multiplier": 3.2
+              },
+              "execution_metrics": {
+                "mean_time": 81.36687410597017,
+                "median_time": 79.36133494981122,
+                "std_dev": 19.003127265791864,
+                "min_time": 57.95055266437836,
+                "max_time": 109.43969575874758,
+                "raw_times": [
+                  79.36133494981122,
+                  57.95055266437836,
+                  109.43969575874758,
+                  72.95154260857012,
+                  87.13124454834356
+                ],
+                "confidence_interval_95": [
+                  57.775157834078264,
+                  104.95859037786207
+                ]
+              }
+            }
+          },
+          "aggregate_metrics": {
+            "avg_total_tokens": 10211.6,
+            "avg_execution_time": 53.73500934893828,
+            "avg_cost_usd": 0.6176099999999999,
+            "token_efficiency_score": 0.09792784676250538,
+            "time_efficiency_score": 0.18609841370014732,
+            "cost_efficiency_score": 1.6191447677336834
+          }
+        },
+        {
+          "command": "reasoning-wrapper.md",
+          "timestamp": "20250821-150727",
+          "complexity_analysis": {
+            "total_score": 18.4,
+            "base_score": 1.0,
+            "breakdown": {
+              "interfaces": 0.0,
+              "abstract_classes": 0.0,
+              "factory_patterns": 0.0,
+              "builder_patterns": 0.0,
+              "strategy_patterns": 6.0,
+              "observer_patterns": 0.0,
+              "template_methods": 0.0,
+              "nested_thinking": 0.0,
+              "mcp_dependencies": 4.0,
+              "xml_blocks": 6.7,
+              "conditional_complexity": 0.2,
+              "loop_complexity": 0.5
+            },
+            "passes_claude_rules": false
+          },
+          "success_analysis": {
+            "estimated_success_rate": 0.42,
+            "failure_rate": 0.5800000000000001,
+            "reliability_grade": "F"
+          },
+          "scenarios": {
+            "simple task - create hello world": {
+              "token_metrics": {
+                "input_tokens": 2540,
+                "output_tokens": 3855,
+                "total_tokens": 6395,
+                "cost_estimate_usd": 0.327225,
+                "scenario_multiplier": 1.2
+              },
+              "execution_metrics": {
+                "mean_time": 17.250202545850037,
+                "median_time": 16.206715835436324,
+                "std_dev": 3.7253622239747832,
+                "min_time": 13.257452237713423,
+                "max_time": 21.38712091554311,
+                "raw_times": [
+                  16.206715835436324,
+                  21.38712091554311,
+                  14.46227830782478,
+                  13.257452237713423,
+                  20.937445432732538
+                ],
+                "confidence_interval_95": [
+                  12.62529595185765,
+                  21.875109139842422
+                ]
+              }
+            },
+            "medium complexity - refactor authentication": {
+              "token_metrics": {
+                "input_tokens": 2540,
+                "output_tokens": 6979,
+                "total_tokens": 9519,
+                "cost_estimate_usd": 0.5615249999999999,
+                "scenario_multiplier": 2.5
+              },
+              "execution_metrics": {
+                "mean_time": 38.291583490262944,
+                "median_time": 34.843786574288565,
+                "std_dev": 9.467391781436254,
+                "min_time": 31.51353387417158,
+                "max_time": 54.62335074757006,
+                "raw_times": [
+                  31.51353387417158,
+                  38.00710761400962,
+                  32.47013864127491,
+                  34.843786574288565,
+                  54.62335074757006
+                ],
+                "confidence_interval_95": [
+                  26.53814850987693,
+                  50.045018470648955
+                ]
+              }
+            },
+            "high complexity - design microservice architecture": {
+              "token_metrics": {
+                "input_tokens": 2540,
+                "output_tokens": 12393,
+                "total_tokens": 14933,
+                "cost_estimate_usd": 0.967575,
+                "scenario_multiplier": 4.0
+              },
+              "execution_metrics": {
+                "mean_time": 116.01859101283668,
+                "median_time": 118.40275072058398,
+                "std_dev": 22.324199688099604,
+                "min_time": 87.47260366365091,
+                "max_time": 147.52794307653065,
+                "raw_times": [
+                  122.44935183719907,
+                  87.47260366365091,
+                  147.52794307653065,
+                  118.40275072058398,
+                  104.24030576621878
+                ],
+                "confidence_interval_95": [
+                  88.30387976176948,
+                  143.73330226390388
+                ]
+              }
+            },
+            "edge case - handle null pointer exceptions": {
+              "token_metrics": {
+                "input_tokens": 2540,
+                "output_tokens": 3727,
+                "total_tokens": 6267,
+                "cost_estimate_usd": 0.317625,
+                "scenario_multiplier": 1.8
+              },
+              "execution_metrics": {
+                "mean_time": 29.28269323277802,
+                "median_time": 29.41348892983231,
+                "std_dev": 3.658672226863299,
+                "min_time": 24.886532468425596,
+                "max_time": 33.715456712580036,
+                "raw_times": [
+                  26.502997949751958,
+                  29.41348892983231,
+                  33.715456712580036,
+                  24.886532468425596,
+                  31.894990103300202
+                ],
+                "confidence_interval_95": [
+                  24.740579932122127,
+                  33.824806533433915
+                ]
+              }
+            },
+            "integration task - connect three APIs": {
+              "token_metrics": {
+                "input_tokens": 2540,
+                "output_tokens": 10816,
+                "total_tokens": 13356,
+                "cost_estimate_usd": 0.8492999999999999,
+                "scenario_multiplier": 3.2
+              },
+              "execution_metrics": {
+                "mean_time": 88.96296018658465,
+                "median_time": 97.2209712858099,
+                "std_dev": 25.949242458782397,
+                "min_time": 60.668243225972034,
+                "max_time": 119.88052776046422,
+                "raw_times": [
+                  97.2209712858099,
+                  63.403205024413225,
+                  60.668243225972034,
+                  103.64185363626387,
+                  119.88052776046422
+                ],
+                "confidence_interval_95": [
+                  56.747885425698186,
+                  121.17803494747112
+                ]
+              }
+            }
+          },
+          "aggregate_metrics": {
+            "avg_total_tokens": 10094,
+            "avg_execution_time": 57.96120609366247,
+            "avg_cost_usd": 0.6046499999999999,
+            "token_efficiency_score": 0.09906875371507827,
+            "time_efficiency_score": 0.17252919105652303,
+            "cost_efficiency_score": 1.653849334325643
+          }
+        },
+        {
+          "command": "adhd-morning-assistant.md",
+          "timestamp": "20250821-150727",
+          "complexity_analysis": {
+            "total_score": 19.2,
+            "base_score": 1.0,
+            "breakdown": {
+              "interfaces": 0.0,
+              "abstract_classes": 0.0,
+              "factory_patterns": 0.0,
+              "builder_patterns": 0.0,
+              "strategy_patterns": 0.0,
+              "observer_patterns": 0.0,
+              "template_methods": 0.0,
+              "nested_thinking": 0.0,
+              "mcp_dependencies": 14.0,
+              "xml_blocks": 2.5,
+              "conditional_complexity": 0.1,
+              "loop_complexity": 1.6
+            },
+            "passes_claude_rules": false
+          },
+          "success_analysis": {
+            "estimated_success_rate": 0.36999999999999994,
+            "failure_rate": 0.6300000000000001,
+            "reliability_grade": "F"
+          },
+          "scenarios": {
+            "simple task - create hello world": {
+              "token_metrics": {
+                "input_tokens": 2223,
+                "output_tokens": 2323,
+                "total_tokens": 4546,
+                "cost_estimate_usd": 0.20756999999999998,
+                "scenario_multiplier": 1.2
+              },
+              "execution_metrics": {
+                "mean_time": 12.864174678589363,
+                "median_time": 12.709253329577855,
+                "std_dev": 1.9266901739728803,
+                "min_time": 10.928148791167887,
+                "max_time": 15.947172892025266,
+                "raw_times": [
+                  11.633512310312003,
+                  15.947172892025266,
+                  13.102786069863798,
+                  12.709253329577855,
+                  10.928148791167887
+                ],
+                "confidence_interval_95": [
+                  10.472256375224983,
+                  15.256092981953742
+                ]
+              }
+            },
+            "medium complexity - refactor authentication": {
+              "token_metrics": {
+                "input_tokens": 2223,
+                "output_tokens": 6353,
+                "total_tokens": 8576,
+                "cost_estimate_usd": 0.5098199999999999,
+                "scenario_multiplier": 2.5
+              },
+              "execution_metrics": {
+                "mean_time": 40.11516721208476,
+                "median_time": 41.010460515651324,
+                "std_dev": 7.17896481955925,
+                "min_time": 30.679287833181704,
+                "max_time": 48.83607566754529,
+                "raw_times": [
+                  41.010460515651324,
+                  30.679287833181704,
+                  44.5106649145573,
+                  48.83607566754529,
+                  35.539347129488185
+                ],
+                "confidence_interval_95": [
+                  31.202734075155075,
+                  49.02760034901445
+                ]
+              }
+            },
+            "high complexity - design microservice architecture": {
+              "token_metrics": {
+                "input_tokens": 2223,
+                "output_tokens": 9469,
+                "total_tokens": 11692,
+                "cost_estimate_usd": 0.7435199999999998,
+                "scenario_multiplier": 4.0
+              },
+              "execution_metrics": {
+                "mean_time": 108.50387215172198,
+                "median_time": 114.66500574905106,
+                "std_dev": 26.972616129612142,
+                "min_time": 69.95774441599616,
+                "max_time": 143.59270385735707,
+                "raw_times": [
+                  69.95774441599616,
+                  114.66500574905106,
+                  143.59270385735707,
+                  98.45014109659185,
+                  115.85376563961374
+                ],
+                "confidence_interval_95": [
+                  75.0183148568475,
+                  141.98942944659646
+                ]
+              }
+            },
+            "edge case - handle null pointer exceptions": {
+              "token_metrics": {
+                "input_tokens": 2223,
+                "output_tokens": 4083,
+                "total_tokens": 6306,
+                "cost_estimate_usd": 0.33957,
+                "scenario_multiplier": 1.8
+              },
+              "execution_metrics": {
+                "mean_time": 28.509123734938278,
+                "median_time": 29.2541316274163,
+                "std_dev": 6.641623805626038,
+                "min_time": 21.553823433121696,
+                "max_time": 38.71496171170016,
+                "raw_times": [
+                  29.2541316274163,
+                  38.71496171170016,
+                  23.73897768496751,
+                  29.283724217485723,
+                  21.553823433121696
+                ],
+                "confidence_interval_95": [
+                  20.263780628226037,
+                  36.75446684165052
+                ]
+              }
+            },
+            "integration task - connect three APIs": {
+              "token_metrics": {
+                "input_tokens": 2223,
+                "output_tokens": 6796,
+                "total_tokens": 9019,
+                "cost_estimate_usd": 0.5430449999999999,
+                "scenario_multiplier": 3.2
+              },
+              "execution_metrics": {
+                "mean_time": 82.03905768565953,
+                "median_time": 70.1791307471943,
+                "std_dev": 22.21189620730308,
+                "min_time": 60.63613878140533,
+                "max_time": 106.91858640763883,
+                "raw_times": [
+                  67.24915182832466,
+                  70.1791307471943,
+                  106.91858640763883,
+                  105.21228066373455,
+                  60.63613878140533
+                ],
+                "confidence_interval_95": [
+                  54.463767268765594,
+                  109.61434810255346
+                ]
+              }
+            }
+          },
+          "aggregate_metrics": {
+            "avg_total_tokens": 8027.8,
+            "avg_execution_time": 54.40627909259878,
+            "avg_cost_usd": 0.4687049999999999,
+            "token_efficiency_score": 0.12456712922593986,
+            "time_efficiency_score": 0.18380231412223816,
+            "cost_efficiency_score": 2.1335381529960213
+          }
+        },
+        {
+          "command": "ultrathink-hybrid-mcp.md",
+          "timestamp": "20250821-150727",
+          "complexity_analysis": {
+            "total_score": 46.2,
+            "base_score": 1.0,
+            "breakdown": {
+              "interfaces": 0.0,
+              "abstract_classes": 0.0,
+              "factory_patterns": 0.0,
+              "builder_patterns": 0.0,
+              "strategy_patterns": 3.0,
+              "observer_patterns": 0.0,
+              "template_methods": 0.0,
+              "nested_thinking": 3.0,
+              "mcp_dependencies": 32.0,
+              "xml_blocks": 5.9,
+              "conditional_complexity": 0.8,
+              "loop_complexity": 0.5
+            },
+            "passes_claude_rules": false
+          },
+          "success_analysis": {
+            "estimated_success_rate": 0.37,
+            "failure_rate": 0.63,
+            "reliability_grade": "F"
+          },
+          "scenarios": {
+            "simple task - create hello world": {
+              "token_metrics": {
+                "input_tokens": 3334,
+                "output_tokens": 5568,
+                "total_tokens": 8902,
+                "cost_estimate_usd": 0.46760999999999997,
+                "scenario_multiplier": 1.2
+              },
+              "execution_metrics": {
+                "mean_time": 30.03406700360595,
+                "median_time": 29.00857388640544,
+                "std_dev": 4.969891954609589,
+                "min_time": 23.41369366976707,
+                "max_time": 36.222111373082626,
+                "raw_times": [
+                  36.222111373082626,
+                  28.064477607127387,
+                  23.41369366976707,
+                  33.46147848164724,
+                  29.00857388640544
+                ],
+                "confidence_interval_95": [
+                  23.864120380864016,
+                  36.20401362634789
+                ]
+              }
+            },
+            "medium complexity - refactor authentication": {
+              "token_metrics": {
+                "input_tokens": 3334,
+                "output_tokens": 7655,
+                "total_tokens": 10989,
+                "cost_estimate_usd": 0.624135,
+                "scenario_multiplier": 2.5
+              },
+              "execution_metrics": {
+                "mean_time": 78.62220696999073,
+                "median_time": 67.50179551753882,
+                "std_dev": 21.933099749710017,
+                "min_time": 60.575947160116904,
+                "max_time": 111.27776047350679,
+                "raw_times": [
+                  62.692543076062364,
+                  111.27776047350679,
+                  60.575947160116904,
+                  67.50179551753882,
+                  91.06298862272874
+                ],
+                "confidence_interval_95": [
+                  51.39303258090366,
+                  105.8513813590778
+                ]
+              }
+            },
+            "high complexity - design microservice architecture": {
+              "token_metrics": {
+                "input_tokens": 3334,
+                "output_tokens": 17651,
+                "total_tokens": 20985,
+                "cost_estimate_usd": 1.3738349999999997,
+                "scenario_multiplier": 4.0
+              },
+              "execution_metrics": {
+                "mean_time": 235.66338986605243,
+                "median_time": 258.6791466070289,
+                "std_dev": 65.92272482088542,
+                "min_time": 146.86611287750165,
+                "max_time": 315.53869815347144,
+                "raw_times": [
+                  193.33789873943337,
+                  315.53869815347144,
+                  258.6791466070289,
+                  263.89509295282676,
+                  146.86611287750165
+                ],
+                "confidence_interval_95": [
+                  153.8226381786207,
+                  317.50414155348415
+                ]
+              }
+            },
+            "edge case - handle null pointer exceptions": {
+              "token_metrics": {
+                "input_tokens": 3334,
+                "output_tokens": 4888,
+                "total_tokens": 8222,
+                "cost_estimate_usd": 0.41661,
+                "scenario_multiplier": 1.8
+              },
+              "execution_metrics": {
+                "mean_time": 67.34464707206962,
+                "median_time": 66.38608973996256,
+                "std_dev": 5.028273769936698,
+                "min_time": 62.224888770462634,
+                "max_time": 74.1597270876994,
+                "raw_times": [
+                  63.28257670401441,
+                  62.224888770462634,
+                  74.1597270876994,
+                  70.66995305820913,
+                  66.38608973996256
+                ],
+                "confidence_interval_95": [
+                  61.10222147240084,
+                  73.5870726717384
+                ]
+              }
+            },
+            "integration task - connect three APIs": {
+              "token_metrics": {
+                "input_tokens": 3334,
+                "output_tokens": 14124,
+                "total_tokens": 17458,
+                "cost_estimate_usd": 1.1093099999999998,
+                "scenario_multiplier": 3.2
+              },
+              "execution_metrics": {
+                "mean_time": 179.62926167331946,
+                "median_time": 181.2919115386619,
+                "std_dev": 30.686336617811328,
+                "min_time": 144.56087967380563,
+                "max_time": 226.0845942578205,
+                "raw_times": [
+                  226.0845942578205,
+                  181.2919115386619,
+                  185.16276228108174,
+                  161.0461606152276,
+                  144.56087967380563
+                ],
+                "confidence_interval_95": [
+                  141.53325059127164,
+                  217.72527275536729
+                ]
+              }
+            }
+          },
+          "aggregate_metrics": {
+            "avg_total_tokens": 13311.2,
+            "avg_execution_time": 118.25871451700763,
+            "avg_cost_usd": 0.7982999999999999,
+            "token_efficiency_score": 0.07512470701364264,
+            "time_efficiency_score": 0.08456036445890698,
+            "cost_efficiency_score": 1.252661906551422
+          }
+        }
+      ],
+      "token_gluttons": [
+        {
+          "command": "ultrathink-hybrid-mcp.md",
+          "timestamp": "20250821-150727",
+          "complexity_analysis": {
+            "total_score": 46.2,
+            "base_score": 1.0,
+            "breakdown": {
+              "interfaces": 0.0,
+              "abstract_classes": 0.0,
+              "factory_patterns": 0.0,
+              "builder_patterns": 0.0,
+              "strategy_patterns": 3.0,
+              "observer_patterns": 0.0,
+              "template_methods": 0.0,
+              "nested_thinking": 3.0,
+              "mcp_dependencies": 32.0,
+              "xml_blocks": 5.9,
+              "conditional_complexity": 0.8,
+              "loop_complexity": 0.5
+            },
+            "passes_claude_rules": false
+          },
+          "success_analysis": {
+            "estimated_success_rate": 0.37,
+            "failure_rate": 0.63,
+            "reliability_grade": "F"
+          },
+          "scenarios": {
+            "simple task - create hello world": {
+              "token_metrics": {
+                "input_tokens": 3334,
+                "output_tokens": 5568,
+                "total_tokens": 8902,
+                "cost_estimate_usd": 0.46760999999999997,
+                "scenario_multiplier": 1.2
+              },
+              "execution_metrics": {
+                "mean_time": 30.03406700360595,
+                "median_time": 29.00857388640544,
+                "std_dev": 4.969891954609589,
+                "min_time": 23.41369366976707,
+                "max_time": 36.222111373082626,
+                "raw_times": [
+                  36.222111373082626,
+                  28.064477607127387,
+                  23.41369366976707,
+                  33.46147848164724,
+                  29.00857388640544
+                ],
+                "confidence_interval_95": [
+                  23.864120380864016,
+                  36.20401362634789
+                ]
+              }
+            },
+            "medium complexity - refactor authentication": {
+              "token_metrics": {
+                "input_tokens": 3334,
+                "output_tokens": 7655,
+                "total_tokens": 10989,
+                "cost_estimate_usd": 0.624135,
+                "scenario_multiplier": 2.5
+              },
+              "execution_metrics": {
+                "mean_time": 78.62220696999073,
+                "median_time": 67.50179551753882,
+                "std_dev": 21.933099749710017,
+                "min_time": 60.575947160116904,
+                "max_time": 111.27776047350679,
+                "raw_times": [
+                  62.692543076062364,
+                  111.27776047350679,
+                  60.575947160116904,
+                  67.50179551753882,
+                  91.06298862272874
+                ],
+                "confidence_interval_95": [
+                  51.39303258090366,
+                  105.8513813590778
+                ]
+              }
+            },
+            "high complexity - design microservice architecture": {
+              "token_metrics": {
+                "input_tokens": 3334,
+                "output_tokens": 17651,
+                "total_tokens": 20985,
+                "cost_estimate_usd": 1.3738349999999997,
+                "scenario_multiplier": 4.0
+              },
+              "execution_metrics": {
+                "mean_time": 235.66338986605243,
+                "median_time": 258.6791466070289,
+                "std_dev": 65.92272482088542,
+                "min_time": 146.86611287750165,
+                "max_time": 315.53869815347144,
+                "raw_times": [
+                  193.33789873943337,
+                  315.53869815347144,
+                  258.6791466070289,
+                  263.89509295282676,
+                  146.86611287750165
+                ],
+                "confidence_interval_95": [
+                  153.8226381786207,
+                  317.50414155348415
+                ]
+              }
+            },
+            "edge case - handle null pointer exceptions": {
+              "token_metrics": {
+                "input_tokens": 3334,
+                "output_tokens": 4888,
+                "total_tokens": 8222,
+                "cost_estimate_usd": 0.41661,
+                "scenario_multiplier": 1.8
+              },
+              "execution_metrics": {
+                "mean_time": 67.34464707206962,
+                "median_time": 66.38608973996256,
+                "std_dev": 5.028273769936698,
+                "min_time": 62.224888770462634,
+                "max_time": 74.1597270876994,
+                "raw_times": [
+                  63.28257670401441,
+                  62.224888770462634,
+                  74.1597270876994,
+                  70.66995305820913,
+                  66.38608973996256
+                ],
+                "confidence_interval_95": [
+                  61.10222147240084,
+                  73.5870726717384
+                ]
+              }
+            },
+            "integration task - connect three APIs": {
+              "token_metrics": {
+                "input_tokens": 3334,
+                "output_tokens": 14124,
+                "total_tokens": 17458,
+                "cost_estimate_usd": 1.1093099999999998,
+                "scenario_multiplier": 3.2
+              },
+              "execution_metrics": {
+                "mean_time": 179.62926167331946,
+                "median_time": 181.2919115386619,
+                "std_dev": 30.686336617811328,
+                "min_time": 144.56087967380563,
+                "max_time": 226.0845942578205,
+                "raw_times": [
+                  226.0845942578205,
+                  181.2919115386619,
+                  185.16276228108174,
+                  161.0461606152276,
+                  144.56087967380563
+                ],
+                "confidence_interval_95": [
+                  141.53325059127164,
+                  217.72527275536729
+                ]
+              }
+            }
+          },
+          "aggregate_metrics": {
+            "avg_total_tokens": 13311.2,
+            "avg_execution_time": 118.25871451700763,
+            "avg_cost_usd": 0.7982999999999999,
+            "token_efficiency_score": 0.07512470701364264,
+            "time_efficiency_score": 0.08456036445890698,
+            "cost_efficiency_score": 1.252661906551422
+          }
+        },
+        {
+          "command": "adhd-hyperfocus-guardian.md",
+          "timestamp": "20250821-150727",
+          "complexity_analysis": {
+            "total_score": 14.700000000000001,
+            "base_score": 1.0,
+            "breakdown": {
+              "interfaces": 0.0,
+              "abstract_classes": 0.0,
+              "factory_patterns": 0.0,
+              "builder_patterns": 0.0,
+              "strategy_patterns": 0.0,
+              "observer_patterns": 0.0,
+              "template_methods": 0.0,
+              "nested_thinking": 0.0,
+              "mcp_dependencies": 10.0,
+              "xml_blocks": 2.7,
+              "conditional_complexity": 0.4,
+              "loop_complexity": 0.6000000000000001
+            },
+            "passes_claude_rules": false
+          },
+          "success_analysis": {
+            "estimated_success_rate": 0.36999999999999994,
+            "failure_rate": 0.6300000000000001,
+            "reliability_grade": "F"
+          },
+          "scenarios": {
+            "simple task - create hello world": {
+              "token_metrics": {
+                "input_tokens": 3005,
+                "output_tokens": 4278,
+                "total_tokens": 7283,
+                "cost_estimate_usd": 0.36592499999999994,
+                "scenario_multiplier": 1.2
+              },
+              "execution_metrics": {
+                "mean_time": 19.888711687042314,
+                "median_time": 19.54510364037798,
+                "std_dev": 0.8900295142622122,
+                "min_time": 18.80286803091947,
+                "max_time": 20.882710583652294,
+                "raw_times": [
+                  19.54510364037798,
+                  19.478487522772713,
+                  20.882710583652294,
+                  20.734388657489106,
+                  18.80286803091947
+                ],
+                "confidence_interval_95": [
+                  18.7837712485345,
+                  20.993652125550128
+                ]
+              }
+            },
+            "medium complexity - refactor authentication": {
+              "token_metrics": {
+                "input_tokens": 3005,
+                "output_tokens": 9967,
+                "total_tokens": 12972,
+                "cost_estimate_usd": 0.7925999999999999,
+                "scenario_multiplier": 2.5
+              },
+              "execution_metrics": {
+                "mean_time": 54.69927267336427,
+                "median_time": 53.512169008428764,
+                "std_dev": 12.19687110068157,
+                "min_time": 42.461403476216475,
+                "max_time": 72.43382538229177,
+                "raw_times": [
+                  60.29301170629487,
+                  44.79595379358948,
+                  72.43382538229177,
+                  42.461403476216475,
+                  53.512169008428764
+                ],
+                "confidence_interval_95": [
+                  39.557284810656185,
+                  69.84126053607235
+                ]
+              }
+            },
+            "high complexity - design microservice architecture": {
+              "token_metrics": {
+                "input_tokens": 3005,
+                "output_tokens": 12142,
+                "total_tokens": 15147,
+                "cost_estimate_usd": 0.9557249999999999,
+                "scenario_multiplier": 4.0
+              },
+              "execution_metrics": {
+                "mean_time": 121.10418425147748,
+                "median_time": 119.83634269203759,
+                "std_dev": 30.195303518583007,
+                "min_time": 89.86912696265645,
+                "max_time": 170.25784551004006,
+                "raw_times": [
+                  105.19319718001782,
+                  119.83634269203759,
+                  120.36440891263545,
+                  89.86912696265645,
+                  170.25784551004006
+                ],
+                "confidence_interval_95": [
+                  83.61777354704518,
+                  158.59059495590978
+                ]
+              }
+            },
+            "edge case - handle null pointer exceptions": {
+              "token_metrics": {
+                "input_tokens": 3005,
+                "output_tokens": 4780,
+                "total_tokens": 7785,
+                "cost_estimate_usd": 0.403575,
+                "scenario_multiplier": 1.8
+              },
+              "execution_metrics": {
+                "mean_time": 35.142945615565395,
+                "median_time": 33.40946766107243,
+                "std_dev": 8.317730125827874,
+                "min_time": 26.535880266259003,
+                "max_time": 49.03900721836846,
+                "raw_times": [
+                  26.535880266259003,
+                  33.02560232162982,
+                  49.03900721836846,
+                  33.70477061049725,
+                  33.40946766107243
+                ],
+                "confidence_interval_95": [
+                  24.81677527475323,
+                  45.469115956377564
+                ]
+              }
+            },
+            "integration task - connect three APIs": {
+              "token_metrics": {
+                "input_tokens": 3005,
+                "output_tokens": 11528,
+                "total_tokens": 14533,
+                "cost_estimate_usd": 0.9096749999999999,
+                "scenario_multiplier": 3.2
+              },
+              "execution_metrics": {
+                "mean_time": 103.1079780006048,
+                "median_time": 98.94050975808791,
+                "std_dev": 20.100989646068275,
+                "min_time": 75.10674768730223,
+                "max_time": 124.92058169321626,
+                "raw_times": [
+                  98.94050975808791,
+                  120.23065640464921,
+                  75.10674768730223,
+                  96.34139445976838,
+                  124.92058169321626
+                ],
+                "confidence_interval_95": [
+                  78.15330407343848,
+                  128.06265192777113
+                ]
+              }
+            }
+          },
+          "aggregate_metrics": {
+            "avg_total_tokens": 11544,
+            "avg_execution_time": 66.78861844561085,
+            "avg_cost_usd": 0.6854999999999999,
+            "token_efficiency_score": 0.08662508662508663,
+            "time_efficiency_score": 0.14972610951884677,
+            "cost_efficiency_score": 1.4587892049598836
+          }
+        },
+        {
+          "command": "adhd-context-switch.md",
+          "timestamp": "20250821-150727",
+          "complexity_analysis": {
+            "total_score": 15.6,
+            "base_score": 1.0,
+            "breakdown": {
+              "interfaces": 0.0,
+              "abstract_classes": 0.0,
+              "factory_patterns": 0.0,
+              "builder_patterns": 0.0,
+              "strategy_patterns": 3.0,
+              "observer_patterns": 0.0,
+              "template_methods": 0.0,
+              "nested_thinking": 0.0,
+              "mcp_dependencies": 8.0,
+              "xml_blocks": 2.9,
+              "conditional_complexity": 0.1,
+              "loop_complexity": 0.6000000000000001
+            },
+            "passes_claude_rules": false
+          },
+          "success_analysis": {
+            "estimated_success_rate": 0.41999999999999993,
+            "failure_rate": 0.5800000000000001,
+            "reliability_grade": "F"
+          },
+          "scenarios": {
+            "simple task - create hello world": {
+              "token_metrics": {
+                "input_tokens": 2471,
+                "output_tokens": 2546,
+                "total_tokens": 5017,
+                "cost_estimate_usd": 0.22801499999999997,
+                "scenario_multiplier": 1.2
+              },
+              "execution_metrics": {
+                "mean_time": 14.843288692393342,
+                "median_time": 15.183758815987034,
+                "std_dev": 2.7978603697664144,
+                "min_time": 10.824455966872467,
+                "max_time": 18.5904033501693,
+                "raw_times": [
+                  15.51669883731681,
+                  18.5904033501693,
+                  10.824455966872467,
+                  14.1011264916211,
+                  15.183758815987034
+                ],
+                "confidence_interval_95": [
+                  11.3698431332132,
+                  18.316734251573482
+                ]
+              }
+            },
+            "medium complexity - refactor authentication": {
+              "token_metrics": {
+                "input_tokens": 2471,
+                "output_tokens": 5155,
+                "total_tokens": 7626,
+                "cost_estimate_usd": 0.42368999999999996,
+                "scenario_multiplier": 2.5
+              },
+              "execution_metrics": {
+                "mean_time": 41.60531215663886,
+                "median_time": 41.21819647835631,
+                "std_dev": 10.13357475409177,
+                "min_time": 28.484054240962315,
+                "max_time": 55.67212775957456,
+                "raw_times": [
+                  45.82102448888079,
+                  55.67212775957456,
+                  28.484054240962315,
+                  36.83115781542032,
+                  41.21819647835631
+                ],
+                "confidence_interval_95": [
+                  29.024834371337988,
+                  54.18578994193973
+                ]
+              }
+            },
+            "high complexity - design microservice architecture": {
+              "token_metrics": {
+                "input_tokens": 2471,
+                "output_tokens": 14653,
+                "total_tokens": 17124,
+                "cost_estimate_usd": 1.1360399999999997,
+                "scenario_multiplier": 4.0
+              },
+              "execution_metrics": {
+                "mean_time": 99.13758607118092,
+                "median_time": 89.95271098416012,
+                "std_dev": 24.21241969888182,
+                "min_time": 77.81619565025224,
+                "max_time": 134.77450368378922,
+                "raw_times": [
+                  89.95271098416012,
+                  77.81619565025224,
+                  80.40362126328513,
+                  134.77450368378922,
+                  112.74089877441787
+                ],
+                "confidence_interval_95": [
+                  69.07871587562926,
+                  129.19645626673258
+                ]
+              }
+            },
+            "edge case - handle null pointer exceptions": {
+              "token_metrics": {
+                "input_tokens": 2471,
+                "output_tokens": 5305,
+                "total_tokens": 7776,
+                "cost_estimate_usd": 0.43494,
+                "scenario_multiplier": 1.8
+              },
+              "execution_metrics": {
+                "mean_time": 31.72198571850811,
+                "median_time": 32.141900678369346,
+                "std_dev": 6.642821522162401,
+                "min_time": 22.320997497509715,
+                "max_time": 39.93067331528901,
+                "raw_times": [
+                  28.924425959202882,
+                  39.93067331528901,
+                  22.320997497509715,
+                  32.141900678369346,
+                  35.291931142169595
+                ],
+                "confidence_interval_95": [
+                  23.475155688706586,
+                  39.96881574830964
+                ]
+              }
+            },
+            "integration task - connect three APIs": {
+              "token_metrics": {
+                "input_tokens": 2471,
+                "output_tokens": 11044,
+                "total_tokens": 13515,
+                "cost_estimate_usd": 0.8653649999999999,
+                "scenario_multiplier": 3.2
+              },
+              "execution_metrics": {
+                "mean_time": 81.36687410597017,
+                "median_time": 79.36133494981122,
+                "std_dev": 19.003127265791864,
+                "min_time": 57.95055266437836,
+                "max_time": 109.43969575874758,
+                "raw_times": [
+                  79.36133494981122,
+                  57.95055266437836,
+                  109.43969575874758,
+                  72.95154260857012,
+                  87.13124454834356
+                ],
+                "confidence_interval_95": [
+                  57.775157834078264,
+                  104.95859037786207
+                ]
+              }
+            }
+          },
+          "aggregate_metrics": {
+            "avg_total_tokens": 10211.6,
+            "avg_execution_time": 53.73500934893828,
+            "avg_cost_usd": 0.6176099999999999,
+            "token_efficiency_score": 0.09792784676250538,
+            "time_efficiency_score": 0.18609841370014732,
+            "cost_efficiency_score": 1.6191447677336834
+          }
+        },
+        {
+          "command": "reasoning-wrapper.md",
+          "timestamp": "20250821-150727",
+          "complexity_analysis": {
+            "total_score": 18.4,
+            "base_score": 1.0,
+            "breakdown": {
+              "interfaces": 0.0,
+              "abstract_classes": 0.0,
+              "factory_patterns": 0.0,
+              "builder_patterns": 0.0,
+              "strategy_patterns": 6.0,
+              "observer_patterns": 0.0,
+              "template_methods": 0.0,
+              "nested_thinking": 0.0,
+              "mcp_dependencies": 4.0,
+              "xml_blocks": 6.7,
+              "conditional_complexity": 0.2,
+              "loop_complexity": 0.5
+            },
+            "passes_claude_rules": false
+          },
+          "success_analysis": {
+            "estimated_success_rate": 0.42,
+            "failure_rate": 0.5800000000000001,
+            "reliability_grade": "F"
+          },
+          "scenarios": {
+            "simple task - create hello world": {
+              "token_metrics": {
+                "input_tokens": 2540,
+                "output_tokens": 3855,
+                "total_tokens": 6395,
+                "cost_estimate_usd": 0.327225,
+                "scenario_multiplier": 1.2
+              },
+              "execution_metrics": {
+                "mean_time": 17.250202545850037,
+                "median_time": 16.206715835436324,
+                "std_dev": 3.7253622239747832,
+                "min_time": 13.257452237713423,
+                "max_time": 21.38712091554311,
+                "raw_times": [
+                  16.206715835436324,
+                  21.38712091554311,
+                  14.46227830782478,
+                  13.257452237713423,
+                  20.937445432732538
+                ],
+                "confidence_interval_95": [
+                  12.62529595185765,
+                  21.875109139842422
+                ]
+              }
+            },
+            "medium complexity - refactor authentication": {
+              "token_metrics": {
+                "input_tokens": 2540,
+                "output_tokens": 6979,
+                "total_tokens": 9519,
+                "cost_estimate_usd": 0.5615249999999999,
+                "scenario_multiplier": 2.5
+              },
+              "execution_metrics": {
+                "mean_time": 38.291583490262944,
+                "median_time": 34.843786574288565,
+                "std_dev": 9.467391781436254,
+                "min_time": 31.51353387417158,
+                "max_time": 54.62335074757006,
+                "raw_times": [
+                  31.51353387417158,
+                  38.00710761400962,
+                  32.47013864127491,
+                  34.843786574288565,
+                  54.62335074757006
+                ],
+                "confidence_interval_95": [
+                  26.53814850987693,
+                  50.045018470648955
+                ]
+              }
+            },
+            "high complexity - design microservice architecture": {
+              "token_metrics": {
+                "input_tokens": 2540,
+                "output_tokens": 12393,
+                "total_tokens": 14933,
+                "cost_estimate_usd": 0.967575,
+                "scenario_multiplier": 4.0
+              },
+              "execution_metrics": {
+                "mean_time": 116.01859101283668,
+                "median_time": 118.40275072058398,
+                "std_dev": 22.324199688099604,
+                "min_time": 87.47260366365091,
+                "max_time": 147.52794307653065,
+                "raw_times": [
+                  122.44935183719907,
+                  87.47260366365091,
+                  147.52794307653065,
+                  118.40275072058398,
+                  104.24030576621878
+                ],
+                "confidence_interval_95": [
+                  88.30387976176948,
+                  143.73330226390388
+                ]
+              }
+            },
+            "edge case - handle null pointer exceptions": {
+              "token_metrics": {
+                "input_tokens": 2540,
+                "output_tokens": 3727,
+                "total_tokens": 6267,
+                "cost_estimate_usd": 0.317625,
+                "scenario_multiplier": 1.8
+              },
+              "execution_metrics": {
+                "mean_time": 29.28269323277802,
+                "median_time": 29.41348892983231,
+                "std_dev": 3.658672226863299,
+                "min_time": 24.886532468425596,
+                "max_time": 33.715456712580036,
+                "raw_times": [
+                  26.502997949751958,
+                  29.41348892983231,
+                  33.715456712580036,
+                  24.886532468425596,
+                  31.894990103300202
+                ],
+                "confidence_interval_95": [
+                  24.740579932122127,
+                  33.824806533433915
+                ]
+              }
+            },
+            "integration task - connect three APIs": {
+              "token_metrics": {
+                "input_tokens": 2540,
+                "output_tokens": 10816,
+                "total_tokens": 13356,
+                "cost_estimate_usd": 0.8492999999999999,
+                "scenario_multiplier": 3.2
+              },
+              "execution_metrics": {
+                "mean_time": 88.96296018658465,
+                "median_time": 97.2209712858099,
+                "std_dev": 25.949242458782397,
+                "min_time": 60.668243225972034,
+                "max_time": 119.88052776046422,
+                "raw_times": [
+                  97.2209712858099,
+                  63.403205024413225,
+                  60.668243225972034,
+                  103.64185363626387,
+                  119.88052776046422
+                ],
+                "confidence_interval_95": [
+                  56.747885425698186,
+                  121.17803494747112
+                ]
+              }
+            }
+          },
+          "aggregate_metrics": {
+            "avg_total_tokens": 10094,
+            "avg_execution_time": 57.96120609366247,
+            "avg_cost_usd": 0.6046499999999999,
+            "token_efficiency_score": 0.09906875371507827,
+            "time_efficiency_score": 0.17252919105652303,
+            "cost_efficiency_score": 1.653849334325643
+          }
+        },
+        {
+          "command": "adhd-morning-assistant.md",
+          "timestamp": "20250821-150727",
+          "complexity_analysis": {
+            "total_score": 19.2,
+            "base_score": 1.0,
+            "breakdown": {
+              "interfaces": 0.0,
+              "abstract_classes": 0.0,
+              "factory_patterns": 0.0,
+              "builder_patterns": 0.0,
+              "strategy_patterns": 0.0,
+              "observer_patterns": 0.0,
+              "template_methods": 0.0,
+              "nested_thinking": 0.0,
+              "mcp_dependencies": 14.0,
+              "xml_blocks": 2.5,
+              "conditional_complexity": 0.1,
+              "loop_complexity": 1.6
+            },
+            "passes_claude_rules": false
+          },
+          "success_analysis": {
+            "estimated_success_rate": 0.36999999999999994,
+            "failure_rate": 0.6300000000000001,
+            "reliability_grade": "F"
+          },
+          "scenarios": {
+            "simple task - create hello world": {
+              "token_metrics": {
+                "input_tokens": 2223,
+                "output_tokens": 2323,
+                "total_tokens": 4546,
+                "cost_estimate_usd": 0.20756999999999998,
+                "scenario_multiplier": 1.2
+              },
+              "execution_metrics": {
+                "mean_time": 12.864174678589363,
+                "median_time": 12.709253329577855,
+                "std_dev": 1.9266901739728803,
+                "min_time": 10.928148791167887,
+                "max_time": 15.947172892025266,
+                "raw_times": [
+                  11.633512310312003,
+                  15.947172892025266,
+                  13.102786069863798,
+                  12.709253329577855,
+                  10.928148791167887
+                ],
+                "confidence_interval_95": [
+                  10.472256375224983,
+                  15.256092981953742
+                ]
+              }
+            },
+            "medium complexity - refactor authentication": {
+              "token_metrics": {
+                "input_tokens": 2223,
+                "output_tokens": 6353,
+                "total_tokens": 8576,
+                "cost_estimate_usd": 0.5098199999999999,
+                "scenario_multiplier": 2.5
+              },
+              "execution_metrics": {
+                "mean_time": 40.11516721208476,
+                "median_time": 41.010460515651324,
+                "std_dev": 7.17896481955925,
+                "min_time": 30.679287833181704,
+                "max_time": 48.83607566754529,
+                "raw_times": [
+                  41.010460515651324,
+                  30.679287833181704,
+                  44.5106649145573,
+                  48.83607566754529,
+                  35.539347129488185
+                ],
+                "confidence_interval_95": [
+                  31.202734075155075,
+                  49.02760034901445
+                ]
+              }
+            },
+            "high complexity - design microservice architecture": {
+              "token_metrics": {
+                "input_tokens": 2223,
+                "output_tokens": 9469,
+                "total_tokens": 11692,
+                "cost_estimate_usd": 0.7435199999999998,
+                "scenario_multiplier": 4.0
+              },
+              "execution_metrics": {
+                "mean_time": 108.50387215172198,
+                "median_time": 114.66500574905106,
+                "std_dev": 26.972616129612142,
+                "min_time": 69.95774441599616,
+                "max_time": 143.59270385735707,
+                "raw_times": [
+                  69.95774441599616,
+                  114.66500574905106,
+                  143.59270385735707,
+                  98.45014109659185,
+                  115.85376563961374
+                ],
+                "confidence_interval_95": [
+                  75.0183148568475,
+                  141.98942944659646
+                ]
+              }
+            },
+            "edge case - handle null pointer exceptions": {
+              "token_metrics": {
+                "input_tokens": 2223,
+                "output_tokens": 4083,
+                "total_tokens": 6306,
+                "cost_estimate_usd": 0.33957,
+                "scenario_multiplier": 1.8
+              },
+              "execution_metrics": {
+                "mean_time": 28.509123734938278,
+                "median_time": 29.2541316274163,
+                "std_dev": 6.641623805626038,
+                "min_time": 21.553823433121696,
+                "max_time": 38.71496171170016,
+                "raw_times": [
+                  29.2541316274163,
+                  38.71496171170016,
+                  23.73897768496751,
+                  29.283724217485723,
+                  21.553823433121696
+                ],
+                "confidence_interval_95": [
+                  20.263780628226037,
+                  36.75446684165052
+                ]
+              }
+            },
+            "integration task - connect three APIs": {
+              "token_metrics": {
+                "input_tokens": 2223,
+                "output_tokens": 6796,
+                "total_tokens": 9019,
+                "cost_estimate_usd": 0.5430449999999999,
+                "scenario_multiplier": 3.2
+              },
+              "execution_metrics": {
+                "mean_time": 82.03905768565953,
+                "median_time": 70.1791307471943,
+                "std_dev": 22.21189620730308,
+                "min_time": 60.63613878140533,
+                "max_time": 106.91858640763883,
+                "raw_times": [
+                  67.24915182832466,
+                  70.1791307471943,
+                  106.91858640763883,
+                  105.21228066373455,
+                  60.63613878140533
+                ],
+                "confidence_interval_95": [
+                  54.463767268765594,
+                  109.61434810255346
+                ]
+              }
+            }
+          },
+          "aggregate_metrics": {
+            "avg_total_tokens": 8027.8,
+            "avg_execution_time": 54.40627909259878,
+            "avg_cost_usd": 0.4687049999999999,
+            "token_efficiency_score": 0.12456712922593986,
+            "time_efficiency_score": 0.18380231412223816,
+            "cost_efficiency_score": 2.1335381529960213
+          }
+        }
+      ],
+      "speed_demons": [
+        {
+          "command": "adhd-context-switch.md",
+          "timestamp": "20250821-150727",
+          "complexity_analysis": {
+            "total_score": 15.6,
+            "base_score": 1.0,
+            "breakdown": {
+              "interfaces": 0.0,
+              "abstract_classes": 0.0,
+              "factory_patterns": 0.0,
+              "builder_patterns": 0.0,
+              "strategy_patterns": 3.0,
+              "observer_patterns": 0.0,
+              "template_methods": 0.0,
+              "nested_thinking": 0.0,
+              "mcp_dependencies": 8.0,
+              "xml_blocks": 2.9,
+              "conditional_complexity": 0.1,
+              "loop_complexity": 0.6000000000000001
+            },
+            "passes_claude_rules": false
+          },
+          "success_analysis": {
+            "estimated_success_rate": 0.41999999999999993,
+            "failure_rate": 0.5800000000000001,
+            "reliability_grade": "F"
+          },
+          "scenarios": {
+            "simple task - create hello world": {
+              "token_metrics": {
+                "input_tokens": 2471,
+                "output_tokens": 2546,
+                "total_tokens": 5017,
+                "cost_estimate_usd": 0.22801499999999997,
+                "scenario_multiplier": 1.2
+              },
+              "execution_metrics": {
+                "mean_time": 14.843288692393342,
+                "median_time": 15.183758815987034,
+                "std_dev": 2.7978603697664144,
+                "min_time": 10.824455966872467,
+                "max_time": 18.5904033501693,
+                "raw_times": [
+                  15.51669883731681,
+                  18.5904033501693,
+                  10.824455966872467,
+                  14.1011264916211,
+                  15.183758815987034
+                ],
+                "confidence_interval_95": [
+                  11.3698431332132,
+                  18.316734251573482
+                ]
+              }
+            },
+            "medium complexity - refactor authentication": {
+              "token_metrics": {
+                "input_tokens": 2471,
+                "output_tokens": 5155,
+                "total_tokens": 7626,
+                "cost_estimate_usd": 0.42368999999999996,
+                "scenario_multiplier": 2.5
+              },
+              "execution_metrics": {
+                "mean_time": 41.60531215663886,
+                "median_time": 41.21819647835631,
+                "std_dev": 10.13357475409177,
+                "min_time": 28.484054240962315,
+                "max_time": 55.67212775957456,
+                "raw_times": [
+                  45.82102448888079,
+                  55.67212775957456,
+                  28.484054240962315,
+                  36.83115781542032,
+                  41.21819647835631
+                ],
+                "confidence_interval_95": [
+                  29.024834371337988,
+                  54.18578994193973
+                ]
+              }
+            },
+            "high complexity - design microservice architecture": {
+              "token_metrics": {
+                "input_tokens": 2471,
+                "output_tokens": 14653,
+                "total_tokens": 17124,
+                "cost_estimate_usd": 1.1360399999999997,
+                "scenario_multiplier": 4.0
+              },
+              "execution_metrics": {
+                "mean_time": 99.13758607118092,
+                "median_time": 89.95271098416012,
+                "std_dev": 24.21241969888182,
+                "min_time": 77.81619565025224,
+                "max_time": 134.77450368378922,
+                "raw_times": [
+                  89.95271098416012,
+                  77.81619565025224,
+                  80.40362126328513,
+                  134.77450368378922,
+                  112.74089877441787
+                ],
+                "confidence_interval_95": [
+                  69.07871587562926,
+                  129.19645626673258
+                ]
+              }
+            },
+            "edge case - handle null pointer exceptions": {
+              "token_metrics": {
+                "input_tokens": 2471,
+                "output_tokens": 5305,
+                "total_tokens": 7776,
+                "cost_estimate_usd": 0.43494,
+                "scenario_multiplier": 1.8
+              },
+              "execution_metrics": {
+                "mean_time": 31.72198571850811,
+                "median_time": 32.141900678369346,
+                "std_dev": 6.642821522162401,
+                "min_time": 22.320997497509715,
+                "max_time": 39.93067331528901,
+                "raw_times": [
+                  28.924425959202882,
+                  39.93067331528901,
+                  22.320997497509715,
+                  32.141900678369346,
+                  35.291931142169595
+                ],
+                "confidence_interval_95": [
+                  23.475155688706586,
+                  39.96881574830964
+                ]
+              }
+            },
+            "integration task - connect three APIs": {
+              "token_metrics": {
+                "input_tokens": 2471,
+                "output_tokens": 11044,
+                "total_tokens": 13515,
+                "cost_estimate_usd": 0.8653649999999999,
+                "scenario_multiplier": 3.2
+              },
+              "execution_metrics": {
+                "mean_time": 81.36687410597017,
+                "median_time": 79.36133494981122,
+                "std_dev": 19.003127265791864,
+                "min_time": 57.95055266437836,
+                "max_time": 109.43969575874758,
+                "raw_times": [
+                  79.36133494981122,
+                  57.95055266437836,
+                  109.43969575874758,
+                  72.95154260857012,
+                  87.13124454834356
+                ],
+                "confidence_interval_95": [
+                  57.775157834078264,
+                  104.95859037786207
+                ]
+              }
+            }
+          },
+          "aggregate_metrics": {
+            "avg_total_tokens": 10211.6,
+            "avg_execution_time": 53.73500934893828,
+            "avg_cost_usd": 0.6176099999999999,
+            "token_efficiency_score": 0.09792784676250538,
+            "time_efficiency_score": 0.18609841370014732,
+            "cost_efficiency_score": 1.6191447677336834
+          }
+        },
+        {
+          "command": "adhd-morning-assistant.md",
+          "timestamp": "20250821-150727",
+          "complexity_analysis": {
+            "total_score": 19.2,
+            "base_score": 1.0,
+            "breakdown": {
+              "interfaces": 0.0,
+              "abstract_classes": 0.0,
+              "factory_patterns": 0.0,
+              "builder_patterns": 0.0,
+              "strategy_patterns": 0.0,
+              "observer_patterns": 0.0,
+              "template_methods": 0.0,
+              "nested_thinking": 0.0,
+              "mcp_dependencies": 14.0,
+              "xml_blocks": 2.5,
+              "conditional_complexity": 0.1,
+              "loop_complexity": 1.6
+            },
+            "passes_claude_rules": false
+          },
+          "success_analysis": {
+            "estimated_success_rate": 0.36999999999999994,
+            "failure_rate": 0.6300000000000001,
+            "reliability_grade": "F"
+          },
+          "scenarios": {
+            "simple task - create hello world": {
+              "token_metrics": {
+                "input_tokens": 2223,
+                "output_tokens": 2323,
+                "total_tokens": 4546,
+                "cost_estimate_usd": 0.20756999999999998,
+                "scenario_multiplier": 1.2
+              },
+              "execution_metrics": {
+                "mean_time": 12.864174678589363,
+                "median_time": 12.709253329577855,
+                "std_dev": 1.9266901739728803,
+                "min_time": 10.928148791167887,
+                "max_time": 15.947172892025266,
+                "raw_times": [
+                  11.633512310312003,
+                  15.947172892025266,
+                  13.102786069863798,
+                  12.709253329577855,
+                  10.928148791167887
+                ],
+                "confidence_interval_95": [
+                  10.472256375224983,
+                  15.256092981953742
+                ]
+              }
+            },
+            "medium complexity - refactor authentication": {
+              "token_metrics": {
+                "input_tokens": 2223,
+                "output_tokens": 6353,
+                "total_tokens": 8576,
+                "cost_estimate_usd": 0.5098199999999999,
+                "scenario_multiplier": 2.5
+              },
+              "execution_metrics": {
+                "mean_time": 40.11516721208476,
+                "median_time": 41.010460515651324,
+                "std_dev": 7.17896481955925,
+                "min_time": 30.679287833181704,
+                "max_time": 48.83607566754529,
+                "raw_times": [
+                  41.010460515651324,
+                  30.679287833181704,
+                  44.5106649145573,
+                  48.83607566754529,
+                  35.539347129488185
+                ],
+                "confidence_interval_95": [
+                  31.202734075155075,
+                  49.02760034901445
+                ]
+              }
+            },
+            "high complexity - design microservice architecture": {
+              "token_metrics": {
+                "input_tokens": 2223,
+                "output_tokens": 9469,
+                "total_tokens": 11692,
+                "cost_estimate_usd": 0.7435199999999998,
+                "scenario_multiplier": 4.0
+              },
+              "execution_metrics": {
+                "mean_time": 108.50387215172198,
+                "median_time": 114.66500574905106,
+                "std_dev": 26.972616129612142,
+                "min_time": 69.95774441599616,
+                "max_time": 143.59270385735707,
+                "raw_times": [
+                  69.95774441599616,
+                  114.66500574905106,
+                  143.59270385735707,
+                  98.45014109659185,
+                  115.85376563961374
+                ],
+                "confidence_interval_95": [
+                  75.0183148568475,
+                  141.98942944659646
+                ]
+              }
+            },
+            "edge case - handle null pointer exceptions": {
+              "token_metrics": {
+                "input_tokens": 2223,
+                "output_tokens": 4083,
+                "total_tokens": 6306,
+                "cost_estimate_usd": 0.33957,
+                "scenario_multiplier": 1.8
+              },
+              "execution_metrics": {
+                "mean_time": 28.509123734938278,
+                "median_time": 29.2541316274163,
+                "std_dev": 6.641623805626038,
+                "min_time": 21.553823433121696,
+                "max_time": 38.71496171170016,
+                "raw_times": [
+                  29.2541316274163,
+                  38.71496171170016,
+                  23.73897768496751,
+                  29.283724217485723,
+                  21.553823433121696
+                ],
+                "confidence_interval_95": [
+                  20.263780628226037,
+                  36.75446684165052
+                ]
+              }
+            },
+            "integration task - connect three APIs": {
+              "token_metrics": {
+                "input_tokens": 2223,
+                "output_tokens": 6796,
+                "total_tokens": 9019,
+                "cost_estimate_usd": 0.5430449999999999,
+                "scenario_multiplier": 3.2
+              },
+              "execution_metrics": {
+                "mean_time": 82.03905768565953,
+                "median_time": 70.1791307471943,
+                "std_dev": 22.21189620730308,
+                "min_time": 60.63613878140533,
+                "max_time": 106.91858640763883,
+                "raw_times": [
+                  67.24915182832466,
+                  70.1791307471943,
+                  106.91858640763883,
+                  105.21228066373455,
+                  60.63613878140533
+                ],
+                "confidence_interval_95": [
+                  54.463767268765594,
+                  109.61434810255346
+                ]
+              }
+            }
+          },
+          "aggregate_metrics": {
+            "avg_total_tokens": 8027.8,
+            "avg_execution_time": 54.40627909259878,
+            "avg_cost_usd": 0.4687049999999999,
+            "token_efficiency_score": 0.12456712922593986,
+            "time_efficiency_score": 0.18380231412223816,
+            "cost_efficiency_score": 2.1335381529960213
+          }
+        },
+        {
+          "command": "reasoning-wrapper.md",
+          "timestamp": "20250821-150727",
+          "complexity_analysis": {
+            "total_score": 18.4,
+            "base_score": 1.0,
+            "breakdown": {
+              "interfaces": 0.0,
+              "abstract_classes": 0.0,
+              "factory_patterns": 0.0,
+              "builder_patterns": 0.0,
+              "strategy_patterns": 6.0,
+              "observer_patterns": 0.0,
+              "template_methods": 0.0,
+              "nested_thinking": 0.0,
+              "mcp_dependencies": 4.0,
+              "xml_blocks": 6.7,
+              "conditional_complexity": 0.2,
+              "loop_complexity": 0.5
+            },
+            "passes_claude_rules": false
+          },
+          "success_analysis": {
+            "estimated_success_rate": 0.42,
+            "failure_rate": 0.5800000000000001,
+            "reliability_grade": "F"
+          },
+          "scenarios": {
+            "simple task - create hello world": {
+              "token_metrics": {
+                "input_tokens": 2540,
+                "output_tokens": 3855,
+                "total_tokens": 6395,
+                "cost_estimate_usd": 0.327225,
+                "scenario_multiplier": 1.2
+              },
+              "execution_metrics": {
+                "mean_time": 17.250202545850037,
+                "median_time": 16.206715835436324,
+                "std_dev": 3.7253622239747832,
+                "min_time": 13.257452237713423,
+                "max_time": 21.38712091554311,
+                "raw_times": [
+                  16.206715835436324,
+                  21.38712091554311,
+                  14.46227830782478,
+                  13.257452237713423,
+                  20.937445432732538
+                ],
+                "confidence_interval_95": [
+                  12.62529595185765,
+                  21.875109139842422
+                ]
+              }
+            },
+            "medium complexity - refactor authentication": {
+              "token_metrics": {
+                "input_tokens": 2540,
+                "output_tokens": 6979,
+                "total_tokens": 9519,
+                "cost_estimate_usd": 0.5615249999999999,
+                "scenario_multiplier": 2.5
+              },
+              "execution_metrics": {
+                "mean_time": 38.291583490262944,
+                "median_time": 34.843786574288565,
+                "std_dev": 9.467391781436254,
+                "min_time": 31.51353387417158,
+                "max_time": 54.62335074757006,
+                "raw_times": [
+                  31.51353387417158,
+                  38.00710761400962,
+                  32.47013864127491,
+                  34.843786574288565,
+                  54.62335074757006
+                ],
+                "confidence_interval_95": [
+                  26.53814850987693,
+                  50.045018470648955
+                ]
+              }
+            },
+            "high complexity - design microservice architecture": {
+              "token_metrics": {
+                "input_tokens": 2540,
+                "output_tokens": 12393,
+                "total_tokens": 14933,
+                "cost_estimate_usd": 0.967575,
+                "scenario_multiplier": 4.0
+              },
+              "execution_metrics": {
+                "mean_time": 116.01859101283668,
+                "median_time": 118.40275072058398,
+                "std_dev": 22.324199688099604,
+                "min_time": 87.47260366365091,
+                "max_time": 147.52794307653065,
+                "raw_times": [
+                  122.44935183719907,
+                  87.47260366365091,
+                  147.52794307653065,
+                  118.40275072058398,
+                  104.24030576621878
+                ],
+                "confidence_interval_95": [
+                  88.30387976176948,
+                  143.73330226390388
+                ]
+              }
+            },
+            "edge case - handle null pointer exceptions": {
+              "token_metrics": {
+                "input_tokens": 2540,
+                "output_tokens": 3727,
+                "total_tokens": 6267,
+                "cost_estimate_usd": 0.317625,
+                "scenario_multiplier": 1.8
+              },
+              "execution_metrics": {
+                "mean_time": 29.28269323277802,
+                "median_time": 29.41348892983231,
+                "std_dev": 3.658672226863299,
+                "min_time": 24.886532468425596,
+                "max_time": 33.715456712580036,
+                "raw_times": [
+                  26.502997949751958,
+                  29.41348892983231,
+                  33.715456712580036,
+                  24.886532468425596,
+                  31.894990103300202
+                ],
+                "confidence_interval_95": [
+                  24.740579932122127,
+                  33.824806533433915
+                ]
+              }
+            },
+            "integration task - connect three APIs": {
+              "token_metrics": {
+                "input_tokens": 2540,
+                "output_tokens": 10816,
+                "total_tokens": 13356,
+                "cost_estimate_usd": 0.8492999999999999,
+                "scenario_multiplier": 3.2
+              },
+              "execution_metrics": {
+                "mean_time": 88.96296018658465,
+                "median_time": 97.2209712858099,
+                "std_dev": 25.949242458782397,
+                "min_time": 60.668243225972034,
+                "max_time": 119.88052776046422,
+                "raw_times": [
+                  97.2209712858099,
+                  63.403205024413225,
+                  60.668243225972034,
+                  103.64185363626387,
+                  119.88052776046422
+                ],
+                "confidence_interval_95": [
+                  56.747885425698186,
+                  121.17803494747112
+                ]
+              }
+            }
+          },
+          "aggregate_metrics": {
+            "avg_total_tokens": 10094,
+            "avg_execution_time": 57.96120609366247,
+            "avg_cost_usd": 0.6046499999999999,
+            "token_efficiency_score": 0.09906875371507827,
+            "time_efficiency_score": 0.17252919105652303,
+            "cost_efficiency_score": 1.653849334325643
+          }
+        },
+        {
+          "command": "adhd-hyperfocus-guardian.md",
+          "timestamp": "20250821-150727",
+          "complexity_analysis": {
+            "total_score": 14.700000000000001,
+            "base_score": 1.0,
+            "breakdown": {
+              "interfaces": 0.0,
+              "abstract_classes": 0.0,
+              "factory_patterns": 0.0,
+              "builder_patterns": 0.0,
+              "strategy_patterns": 0.0,
+              "observer_patterns": 0.0,
+              "template_methods": 0.0,
+              "nested_thinking": 0.0,
+              "mcp_dependencies": 10.0,
+              "xml_blocks": 2.7,
+              "conditional_complexity": 0.4,
+              "loop_complexity": 0.6000000000000001
+            },
+            "passes_claude_rules": false
+          },
+          "success_analysis": {
+            "estimated_success_rate": 0.36999999999999994,
+            "failure_rate": 0.6300000000000001,
+            "reliability_grade": "F"
+          },
+          "scenarios": {
+            "simple task - create hello world": {
+              "token_metrics": {
+                "input_tokens": 3005,
+                "output_tokens": 4278,
+                "total_tokens": 7283,
+                "cost_estimate_usd": 0.36592499999999994,
+                "scenario_multiplier": 1.2
+              },
+              "execution_metrics": {
+                "mean_time": 19.888711687042314,
+                "median_time": 19.54510364037798,
+                "std_dev": 0.8900295142622122,
+                "min_time": 18.80286803091947,
+                "max_time": 20.882710583652294,
+                "raw_times": [
+                  19.54510364037798,
+                  19.478487522772713,
+                  20.882710583652294,
+                  20.734388657489106,
+                  18.80286803091947
+                ],
+                "confidence_interval_95": [
+                  18.7837712485345,
+                  20.993652125550128
+                ]
+              }
+            },
+            "medium complexity - refactor authentication": {
+              "token_metrics": {
+                "input_tokens": 3005,
+                "output_tokens": 9967,
+                "total_tokens": 12972,
+                "cost_estimate_usd": 0.7925999999999999,
+                "scenario_multiplier": 2.5
+              },
+              "execution_metrics": {
+                "mean_time": 54.69927267336427,
+                "median_time": 53.512169008428764,
+                "std_dev": 12.19687110068157,
+                "min_time": 42.461403476216475,
+                "max_time": 72.43382538229177,
+                "raw_times": [
+                  60.29301170629487,
+                  44.79595379358948,
+                  72.43382538229177,
+                  42.461403476216475,
+                  53.512169008428764
+                ],
+                "confidence_interval_95": [
+                  39.557284810656185,
+                  69.84126053607235
+                ]
+              }
+            },
+            "high complexity - design microservice architecture": {
+              "token_metrics": {
+                "input_tokens": 3005,
+                "output_tokens": 12142,
+                "total_tokens": 15147,
+                "cost_estimate_usd": 0.9557249999999999,
+                "scenario_multiplier": 4.0
+              },
+              "execution_metrics": {
+                "mean_time": 121.10418425147748,
+                "median_time": 119.83634269203759,
+                "std_dev": 30.195303518583007,
+                "min_time": 89.86912696265645,
+                "max_time": 170.25784551004006,
+                "raw_times": [
+                  105.19319718001782,
+                  119.83634269203759,
+                  120.36440891263545,
+                  89.86912696265645,
+                  170.25784551004006
+                ],
+                "confidence_interval_95": [
+                  83.61777354704518,
+                  158.59059495590978
+                ]
+              }
+            },
+            "edge case - handle null pointer exceptions": {
+              "token_metrics": {
+                "input_tokens": 3005,
+                "output_tokens": 4780,
+                "total_tokens": 7785,
+                "cost_estimate_usd": 0.403575,
+                "scenario_multiplier": 1.8
+              },
+              "execution_metrics": {
+                "mean_time": 35.142945615565395,
+                "median_time": 33.40946766107243,
+                "std_dev": 8.317730125827874,
+                "min_time": 26.535880266259003,
+                "max_time": 49.03900721836846,
+                "raw_times": [
+                  26.535880266259003,
+                  33.02560232162982,
+                  49.03900721836846,
+                  33.70477061049725,
+                  33.40946766107243
+                ],
+                "confidence_interval_95": [
+                  24.81677527475323,
+                  45.469115956377564
+                ]
+              }
+            },
+            "integration task - connect three APIs": {
+              "token_metrics": {
+                "input_tokens": 3005,
+                "output_tokens": 11528,
+                "total_tokens": 14533,
+                "cost_estimate_usd": 0.9096749999999999,
+                "scenario_multiplier": 3.2
+              },
+              "execution_metrics": {
+                "mean_time": 103.1079780006048,
+                "median_time": 98.94050975808791,
+                "std_dev": 20.100989646068275,
+                "min_time": 75.10674768730223,
+                "max_time": 124.92058169321626,
+                "raw_times": [
+                  98.94050975808791,
+                  120.23065640464921,
+                  75.10674768730223,
+                  96.34139445976838,
+                  124.92058169321626
+                ],
+                "confidence_interval_95": [
+                  78.15330407343848,
+                  128.06265192777113
+                ]
+              }
+            }
+          },
+          "aggregate_metrics": {
+            "avg_total_tokens": 11544,
+            "avg_execution_time": 66.78861844561085,
+            "avg_cost_usd": 0.6854999999999999,
+            "token_efficiency_score": 0.08662508662508663,
+            "time_efficiency_score": 0.14972610951884677,
+            "cost_efficiency_score": 1.4587892049598836
+          }
+        },
+        {
+          "command": "ultrathink-hybrid-mcp.md",
+          "timestamp": "20250821-150727",
+          "complexity_analysis": {
+            "total_score": 46.2,
+            "base_score": 1.0,
+            "breakdown": {
+              "interfaces": 0.0,
+              "abstract_classes": 0.0,
+              "factory_patterns": 0.0,
+              "builder_patterns": 0.0,
+              "strategy_patterns": 3.0,
+              "observer_patterns": 0.0,
+              "template_methods": 0.0,
+              "nested_thinking": 3.0,
+              "mcp_dependencies": 32.0,
+              "xml_blocks": 5.9,
+              "conditional_complexity": 0.8,
+              "loop_complexity": 0.5
+            },
+            "passes_claude_rules": false
+          },
+          "success_analysis": {
+            "estimated_success_rate": 0.37,
+            "failure_rate": 0.63,
+            "reliability_grade": "F"
+          },
+          "scenarios": {
+            "simple task - create hello world": {
+              "token_metrics": {
+                "input_tokens": 3334,
+                "output_tokens": 5568,
+                "total_tokens": 8902,
+                "cost_estimate_usd": 0.46760999999999997,
+                "scenario_multiplier": 1.2
+              },
+              "execution_metrics": {
+                "mean_time": 30.03406700360595,
+                "median_time": 29.00857388640544,
+                "std_dev": 4.969891954609589,
+                "min_time": 23.41369366976707,
+                "max_time": 36.222111373082626,
+                "raw_times": [
+                  36.222111373082626,
+                  28.064477607127387,
+                  23.41369366976707,
+                  33.46147848164724,
+                  29.00857388640544
+                ],
+                "confidence_interval_95": [
+                  23.864120380864016,
+                  36.20401362634789
+                ]
+              }
+            },
+            "medium complexity - refactor authentication": {
+              "token_metrics": {
+                "input_tokens": 3334,
+                "output_tokens": 7655,
+                "total_tokens": 10989,
+                "cost_estimate_usd": 0.624135,
+                "scenario_multiplier": 2.5
+              },
+              "execution_metrics": {
+                "mean_time": 78.62220696999073,
+                "median_time": 67.50179551753882,
+                "std_dev": 21.933099749710017,
+                "min_time": 60.575947160116904,
+                "max_time": 111.27776047350679,
+                "raw_times": [
+                  62.692543076062364,
+                  111.27776047350679,
+                  60.575947160116904,
+                  67.50179551753882,
+                  91.06298862272874
+                ],
+                "confidence_interval_95": [
+                  51.39303258090366,
+                  105.8513813590778
+                ]
+              }
+            },
+            "high complexity - design microservice architecture": {
+              "token_metrics": {
+                "input_tokens": 3334,
+                "output_tokens": 17651,
+                "total_tokens": 20985,
+                "cost_estimate_usd": 1.3738349999999997,
+                "scenario_multiplier": 4.0
+              },
+              "execution_metrics": {
+                "mean_time": 235.66338986605243,
+                "median_time": 258.6791466070289,
+                "std_dev": 65.92272482088542,
+                "min_time": 146.86611287750165,
+                "max_time": 315.53869815347144,
+                "raw_times": [
+                  193.33789873943337,
+                  315.53869815347144,
+                  258.6791466070289,
+                  263.89509295282676,
+                  146.86611287750165
+                ],
+                "confidence_interval_95": [
+                  153.8226381786207,
+                  317.50414155348415
+                ]
+              }
+            },
+            "edge case - handle null pointer exceptions": {
+              "token_metrics": {
+                "input_tokens": 3334,
+                "output_tokens": 4888,
+                "total_tokens": 8222,
+                "cost_estimate_usd": 0.41661,
+                "scenario_multiplier": 1.8
+              },
+              "execution_metrics": {
+                "mean_time": 67.34464707206962,
+                "median_time": 66.38608973996256,
+                "std_dev": 5.028273769936698,
+                "min_time": 62.224888770462634,
+                "max_time": 74.1597270876994,
+                "raw_times": [
+                  63.28257670401441,
+                  62.224888770462634,
+                  74.1597270876994,
+                  70.66995305820913,
+                  66.38608973996256
+                ],
+                "confidence_interval_95": [
+                  61.10222147240084,
+                  73.5870726717384
+                ]
+              }
+            },
+            "integration task - connect three APIs": {
+              "token_metrics": {
+                "input_tokens": 3334,
+                "output_tokens": 14124,
+                "total_tokens": 17458,
+                "cost_estimate_usd": 1.1093099999999998,
+                "scenario_multiplier": 3.2
+              },
+              "execution_metrics": {
+                "mean_time": 179.62926167331946,
+                "median_time": 181.2919115386619,
+                "std_dev": 30.686336617811328,
+                "min_time": 144.56087967380563,
+                "max_time": 226.0845942578205,
+                "raw_times": [
+                  226.0845942578205,
+                  181.2919115386619,
+                  185.16276228108174,
+                  161.0461606152276,
+                  144.56087967380563
+                ],
+                "confidence_interval_95": [
+                  141.53325059127164,
+                  217.72527275536729
+                ]
+              }
+            }
+          },
+          "aggregate_metrics": {
+            "avg_total_tokens": 13311.2,
+            "avg_execution_time": 118.25871451700763,
+            "avg_cost_usd": 0.7982999999999999,
+            "token_efficiency_score": 0.07512470701364264,
+            "time_efficiency_score": 0.08456036445890698,
+            "cost_efficiency_score": 1.252661906551422
+          }
+        }
+      ],
+      "money_burners": [
+        {
+          "command": "ultrathink-hybrid-mcp.md",
+          "timestamp": "20250821-150727",
+          "complexity_analysis": {
+            "total_score": 46.2,
+            "base_score": 1.0,
+            "breakdown": {
+              "interfaces": 0.0,
+              "abstract_classes": 0.0,
+              "factory_patterns": 0.0,
+              "builder_patterns": 0.0,
+              "strategy_patterns": 3.0,
+              "observer_patterns": 0.0,
+              "template_methods": 0.0,
+              "nested_thinking": 3.0,
+              "mcp_dependencies": 32.0,
+              "xml_blocks": 5.9,
+              "conditional_complexity": 0.8,
+              "loop_complexity": 0.5
+            },
+            "passes_claude_rules": false
+          },
+          "success_analysis": {
+            "estimated_success_rate": 0.37,
+            "failure_rate": 0.63,
+            "reliability_grade": "F"
+          },
+          "scenarios": {
+            "simple task - create hello world": {
+              "token_metrics": {
+                "input_tokens": 3334,
+                "output_tokens": 5568,
+                "total_tokens": 8902,
+                "cost_estimate_usd": 0.46760999999999997,
+                "scenario_multiplier": 1.2
+              },
+              "execution_metrics": {
+                "mean_time": 30.03406700360595,
+                "median_time": 29.00857388640544,
+                "std_dev": 4.969891954609589,
+                "min_time": 23.41369366976707,
+                "max_time": 36.222111373082626,
+                "raw_times": [
+                  36.222111373082626,
+                  28.064477607127387,
+                  23.41369366976707,
+                  33.46147848164724,
+                  29.00857388640544
+                ],
+                "confidence_interval_95": [
+                  23.864120380864016,
+                  36.20401362634789
+                ]
+              }
+            },
+            "medium complexity - refactor authentication": {
+              "token_metrics": {
+                "input_tokens": 3334,
+                "output_tokens": 7655,
+                "total_tokens": 10989,
+                "cost_estimate_usd": 0.624135,
+                "scenario_multiplier": 2.5
+              },
+              "execution_metrics": {
+                "mean_time": 78.62220696999073,
+                "median_time": 67.50179551753882,
+                "std_dev": 21.933099749710017,
+                "min_time": 60.575947160116904,
+                "max_time": 111.27776047350679,
+                "raw_times": [
+                  62.692543076062364,
+                  111.27776047350679,
+                  60.575947160116904,
+                  67.50179551753882,
+                  91.06298862272874
+                ],
+                "confidence_interval_95": [
+                  51.39303258090366,
+                  105.8513813590778
+                ]
+              }
+            },
+            "high complexity - design microservice architecture": {
+              "token_metrics": {
+                "input_tokens": 3334,
+                "output_tokens": 17651,
+                "total_tokens": 20985,
+                "cost_estimate_usd": 1.3738349999999997,
+                "scenario_multiplier": 4.0
+              },
+              "execution_metrics": {
+                "mean_time": 235.66338986605243,
+                "median_time": 258.6791466070289,
+                "std_dev": 65.92272482088542,
+                "min_time": 146.86611287750165,
+                "max_time": 315.53869815347144,
+                "raw_times": [
+                  193.33789873943337,
+                  315.53869815347144,
+                  258.6791466070289,
+                  263.89509295282676,
+                  146.86611287750165
+                ],
+                "confidence_interval_95": [
+                  153.8226381786207,
+                  317.50414155348415
+                ]
+              }
+            },
+            "edge case - handle null pointer exceptions": {
+              "token_metrics": {
+                "input_tokens": 3334,
+                "output_tokens": 4888,
+                "total_tokens": 8222,
+                "cost_estimate_usd": 0.41661,
+                "scenario_multiplier": 1.8
+              },
+              "execution_metrics": {
+                "mean_time": 67.34464707206962,
+                "median_time": 66.38608973996256,
+                "std_dev": 5.028273769936698,
+                "min_time": 62.224888770462634,
+                "max_time": 74.1597270876994,
+                "raw_times": [
+                  63.28257670401441,
+                  62.224888770462634,
+                  74.1597270876994,
+                  70.66995305820913,
+                  66.38608973996256
+                ],
+                "confidence_interval_95": [
+                  61.10222147240084,
+                  73.5870726717384
+                ]
+              }
+            },
+            "integration task - connect three APIs": {
+              "token_metrics": {
+                "input_tokens": 3334,
+                "output_tokens": 14124,
+                "total_tokens": 17458,
+                "cost_estimate_usd": 1.1093099999999998,
+                "scenario_multiplier": 3.2
+              },
+              "execution_metrics": {
+                "mean_time": 179.62926167331946,
+                "median_time": 181.2919115386619,
+                "std_dev": 30.686336617811328,
+                "min_time": 144.56087967380563,
+                "max_time": 226.0845942578205,
+                "raw_times": [
+                  226.0845942578205,
+                  181.2919115386619,
+                  185.16276228108174,
+                  161.0461606152276,
+                  144.56087967380563
+                ],
+                "confidence_interval_95": [
+                  141.53325059127164,
+                  217.72527275536729
+                ]
+              }
+            }
+          },
+          "aggregate_metrics": {
+            "avg_total_tokens": 13311.2,
+            "avg_execution_time": 118.25871451700763,
+            "avg_cost_usd": 0.7982999999999999,
+            "token_efficiency_score": 0.07512470701364264,
+            "time_efficiency_score": 0.08456036445890698,
+            "cost_efficiency_score": 1.252661906551422
+          }
+        },
+        {
+          "command": "adhd-hyperfocus-guardian.md",
+          "timestamp": "20250821-150727",
+          "complexity_analysis": {
+            "total_score": 14.700000000000001,
+            "base_score": 1.0,
+            "breakdown": {
+              "interfaces": 0.0,
+              "abstract_classes": 0.0,
+              "factory_patterns": 0.0,
+              "builder_patterns": 0.0,
+              "strategy_patterns": 0.0,
+              "observer_patterns": 0.0,
+              "template_methods": 0.0,
+              "nested_thinking": 0.0,
+              "mcp_dependencies": 10.0,
+              "xml_blocks": 2.7,
+              "conditional_complexity": 0.4,
+              "loop_complexity": 0.6000000000000001
+            },
+            "passes_claude_rules": false
+          },
+          "success_analysis": {
+            "estimated_success_rate": 0.36999999999999994,
+            "failure_rate": 0.6300000000000001,
+            "reliability_grade": "F"
+          },
+          "scenarios": {
+            "simple task - create hello world": {
+              "token_metrics": {
+                "input_tokens": 3005,
+                "output_tokens": 4278,
+                "total_tokens": 7283,
+                "cost_estimate_usd": 0.36592499999999994,
+                "scenario_multiplier": 1.2
+              },
+              "execution_metrics": {
+                "mean_time": 19.888711687042314,
+                "median_time": 19.54510364037798,
+                "std_dev": 0.8900295142622122,
+                "min_time": 18.80286803091947,
+                "max_time": 20.882710583652294,
+                "raw_times": [
+                  19.54510364037798,
+                  19.478487522772713,
+                  20.882710583652294,
+                  20.734388657489106,
+                  18.80286803091947
+                ],
+                "confidence_interval_95": [
+                  18.7837712485345,
+                  20.993652125550128
+                ]
+              }
+            },
+            "medium complexity - refactor authentication": {
+              "token_metrics": {
+                "input_tokens": 3005,
+                "output_tokens": 9967,
+                "total_tokens": 12972,
+                "cost_estimate_usd": 0.7925999999999999,
+                "scenario_multiplier": 2.5
+              },
+              "execution_metrics": {
+                "mean_time": 54.69927267336427,
+                "median_time": 53.512169008428764,
+                "std_dev": 12.19687110068157,
+                "min_time": 42.461403476216475,
+                "max_time": 72.43382538229177,
+                "raw_times": [
+                  60.29301170629487,
+                  44.79595379358948,
+                  72.43382538229177,
+                  42.461403476216475,
+                  53.512169008428764
+                ],
+                "confidence_interval_95": [
+                  39.557284810656185,
+                  69.84126053607235
+                ]
+              }
+            },
+            "high complexity - design microservice architecture": {
+              "token_metrics": {
+                "input_tokens": 3005,
+                "output_tokens": 12142,
+                "total_tokens": 15147,
+                "cost_estimate_usd": 0.9557249999999999,
+                "scenario_multiplier": 4.0
+              },
+              "execution_metrics": {
+                "mean_time": 121.10418425147748,
+                "median_time": 119.83634269203759,
+                "std_dev": 30.195303518583007,
+                "min_time": 89.86912696265645,
+                "max_time": 170.25784551004006,
+                "raw_times": [
+                  105.19319718001782,
+                  119.83634269203759,
+                  120.36440891263545,
+                  89.86912696265645,
+                  170.25784551004006
+                ],
+                "confidence_interval_95": [
+                  83.61777354704518,
+                  158.59059495590978
+                ]
+              }
+            },
+            "edge case - handle null pointer exceptions": {
+              "token_metrics": {
+                "input_tokens": 3005,
+                "output_tokens": 4780,
+                "total_tokens": 7785,
+                "cost_estimate_usd": 0.403575,
+                "scenario_multiplier": 1.8
+              },
+              "execution_metrics": {
+                "mean_time": 35.142945615565395,
+                "median_time": 33.40946766107243,
+                "std_dev": 8.317730125827874,
+                "min_time": 26.535880266259003,
+                "max_time": 49.03900721836846,
+                "raw_times": [
+                  26.535880266259003,
+                  33.02560232162982,
+                  49.03900721836846,
+                  33.70477061049725,
+                  33.40946766107243
+                ],
+                "confidence_interval_95": [
+                  24.81677527475323,
+                  45.469115956377564
+                ]
+              }
+            },
+            "integration task - connect three APIs": {
+              "token_metrics": {
+                "input_tokens": 3005,
+                "output_tokens": 11528,
+                "total_tokens": 14533,
+                "cost_estimate_usd": 0.9096749999999999,
+                "scenario_multiplier": 3.2
+              },
+              "execution_metrics": {
+                "mean_time": 103.1079780006048,
+                "median_time": 98.94050975808791,
+                "std_dev": 20.100989646068275,
+                "min_time": 75.10674768730223,
+                "max_time": 124.92058169321626,
+                "raw_times": [
+                  98.94050975808791,
+                  120.23065640464921,
+                  75.10674768730223,
+                  96.34139445976838,
+                  124.92058169321626
+                ],
+                "confidence_interval_95": [
+                  78.15330407343848,
+                  128.06265192777113
+                ]
+              }
+            }
+          },
+          "aggregate_metrics": {
+            "avg_total_tokens": 11544,
+            "avg_execution_time": 66.78861844561085,
+            "avg_cost_usd": 0.6854999999999999,
+            "token_efficiency_score": 0.08662508662508663,
+            "time_efficiency_score": 0.14972610951884677,
+            "cost_efficiency_score": 1.4587892049598836
+          }
+        },
+        {
+          "command": "adhd-context-switch.md",
+          "timestamp": "20250821-150727",
+          "complexity_analysis": {
+            "total_score": 15.6,
+            "base_score": 1.0,
+            "breakdown": {
+              "interfaces": 0.0,
+              "abstract_classes": 0.0,
+              "factory_patterns": 0.0,
+              "builder_patterns": 0.0,
+              "strategy_patterns": 3.0,
+              "observer_patterns": 0.0,
+              "template_methods": 0.0,
+              "nested_thinking": 0.0,
+              "mcp_dependencies": 8.0,
+              "xml_blocks": 2.9,
+              "conditional_complexity": 0.1,
+              "loop_complexity": 0.6000000000000001
+            },
+            "passes_claude_rules": false
+          },
+          "success_analysis": {
+            "estimated_success_rate": 0.41999999999999993,
+            "failure_rate": 0.5800000000000001,
+            "reliability_grade": "F"
+          },
+          "scenarios": {
+            "simple task - create hello world": {
+              "token_metrics": {
+                "input_tokens": 2471,
+                "output_tokens": 2546,
+                "total_tokens": 5017,
+                "cost_estimate_usd": 0.22801499999999997,
+                "scenario_multiplier": 1.2
+              },
+              "execution_metrics": {
+                "mean_time": 14.843288692393342,
+                "median_time": 15.183758815987034,
+                "std_dev": 2.7978603697664144,
+                "min_time": 10.824455966872467,
+                "max_time": 18.5904033501693,
+                "raw_times": [
+                  15.51669883731681,
+                  18.5904033501693,
+                  10.824455966872467,
+                  14.1011264916211,
+                  15.183758815987034
+                ],
+                "confidence_interval_95": [
+                  11.3698431332132,
+                  18.316734251573482
+                ]
+              }
+            },
+            "medium complexity - refactor authentication": {
+              "token_metrics": {
+                "input_tokens": 2471,
+                "output_tokens": 5155,
+                "total_tokens": 7626,
+                "cost_estimate_usd": 0.42368999999999996,
+                "scenario_multiplier": 2.5
+              },
+              "execution_metrics": {
+                "mean_time": 41.60531215663886,
+                "median_time": 41.21819647835631,
+                "std_dev": 10.13357475409177,
+                "min_time": 28.484054240962315,
+                "max_time": 55.67212775957456,
+                "raw_times": [
+                  45.82102448888079,
+                  55.67212775957456,
+                  28.484054240962315,
+                  36.83115781542032,
+                  41.21819647835631
+                ],
+                "confidence_interval_95": [
+                  29.024834371337988,
+                  54.18578994193973
+                ]
+              }
+            },
+            "high complexity - design microservice architecture": {
+              "token_metrics": {
+                "input_tokens": 2471,
+                "output_tokens": 14653,
+                "total_tokens": 17124,
+                "cost_estimate_usd": 1.1360399999999997,
+                "scenario_multiplier": 4.0
+              },
+              "execution_metrics": {
+                "mean_time": 99.13758607118092,
+                "median_time": 89.95271098416012,
+                "std_dev": 24.21241969888182,
+                "min_time": 77.81619565025224,
+                "max_time": 134.77450368378922,
+                "raw_times": [
+                  89.95271098416012,
+                  77.81619565025224,
+                  80.40362126328513,
+                  134.77450368378922,
+                  112.74089877441787
+                ],
+                "confidence_interval_95": [
+                  69.07871587562926,
+                  129.19645626673258
+                ]
+              }
+            },
+            "edge case - handle null pointer exceptions": {
+              "token_metrics": {
+                "input_tokens": 2471,
+                "output_tokens": 5305,
+                "total_tokens": 7776,
+                "cost_estimate_usd": 0.43494,
+                "scenario_multiplier": 1.8
+              },
+              "execution_metrics": {
+                "mean_time": 31.72198571850811,
+                "median_time": 32.141900678369346,
+                "std_dev": 6.642821522162401,
+                "min_time": 22.320997497509715,
+                "max_time": 39.93067331528901,
+                "raw_times": [
+                  28.924425959202882,
+                  39.93067331528901,
+                  22.320997497509715,
+                  32.141900678369346,
+                  35.291931142169595
+                ],
+                "confidence_interval_95": [
+                  23.475155688706586,
+                  39.96881574830964
+                ]
+              }
+            },
+            "integration task - connect three APIs": {
+              "token_metrics": {
+                "input_tokens": 2471,
+                "output_tokens": 11044,
+                "total_tokens": 13515,
+                "cost_estimate_usd": 0.8653649999999999,
+                "scenario_multiplier": 3.2
+              },
+              "execution_metrics": {
+                "mean_time": 81.36687410597017,
+                "median_time": 79.36133494981122,
+                "std_dev": 19.003127265791864,
+                "min_time": 57.95055266437836,
+                "max_time": 109.43969575874758,
+                "raw_times": [
+                  79.36133494981122,
+                  57.95055266437836,
+                  109.43969575874758,
+                  72.95154260857012,
+                  87.13124454834356
+                ],
+                "confidence_interval_95": [
+                  57.775157834078264,
+                  104.95859037786207
+                ]
+              }
+            }
+          },
+          "aggregate_metrics": {
+            "avg_total_tokens": 10211.6,
+            "avg_execution_time": 53.73500934893828,
+            "avg_cost_usd": 0.6176099999999999,
+            "token_efficiency_score": 0.09792784676250538,
+            "time_efficiency_score": 0.18609841370014732,
+            "cost_efficiency_score": 1.6191447677336834
+          }
+        },
+        {
+          "command": "reasoning-wrapper.md",
+          "timestamp": "20250821-150727",
+          "complexity_analysis": {
+            "total_score": 18.4,
+            "base_score": 1.0,
+            "breakdown": {
+              "interfaces": 0.0,
+              "abstract_classes": 0.0,
+              "factory_patterns": 0.0,
+              "builder_patterns": 0.0,
+              "strategy_patterns": 6.0,
+              "observer_patterns": 0.0,
+              "template_methods": 0.0,
+              "nested_thinking": 0.0,
+              "mcp_dependencies": 4.0,
+              "xml_blocks": 6.7,
+              "conditional_complexity": 0.2,
+              "loop_complexity": 0.5
+            },
+            "passes_claude_rules": false
+          },
+          "success_analysis": {
+            "estimated_success_rate": 0.42,
+            "failure_rate": 0.5800000000000001,
+            "reliability_grade": "F"
+          },
+          "scenarios": {
+            "simple task - create hello world": {
+              "token_metrics": {
+                "input_tokens": 2540,
+                "output_tokens": 3855,
+                "total_tokens": 6395,
+                "cost_estimate_usd": 0.327225,
+                "scenario_multiplier": 1.2
+              },
+              "execution_metrics": {
+                "mean_time": 17.250202545850037,
+                "median_time": 16.206715835436324,
+                "std_dev": 3.7253622239747832,
+                "min_time": 13.257452237713423,
+                "max_time": 21.38712091554311,
+                "raw_times": [
+                  16.206715835436324,
+                  21.38712091554311,
+                  14.46227830782478,
+                  13.257452237713423,
+                  20.937445432732538
+                ],
+                "confidence_interval_95": [
+                  12.62529595185765,
+                  21.875109139842422
+                ]
+              }
+            },
+            "medium complexity - refactor authentication": {
+              "token_metrics": {
+                "input_tokens": 2540,
+                "output_tokens": 6979,
+                "total_tokens": 9519,
+                "cost_estimate_usd": 0.5615249999999999,
+                "scenario_multiplier": 2.5
+              },
+              "execution_metrics": {
+                "mean_time": 38.291583490262944,
+                "median_time": 34.843786574288565,
+                "std_dev": 9.467391781436254,
+                "min_time": 31.51353387417158,
+                "max_time": 54.62335074757006,
+                "raw_times": [
+                  31.51353387417158,
+                  38.00710761400962,
+                  32.47013864127491,
+                  34.843786574288565,
+                  54.62335074757006
+                ],
+                "confidence_interval_95": [
+                  26.53814850987693,
+                  50.045018470648955
+                ]
+              }
+            },
+            "high complexity - design microservice architecture": {
+              "token_metrics": {
+                "input_tokens": 2540,
+                "output_tokens": 12393,
+                "total_tokens": 14933,
+                "cost_estimate_usd": 0.967575,
+                "scenario_multiplier": 4.0
+              },
+              "execution_metrics": {
+                "mean_time": 116.01859101283668,
+                "median_time": 118.40275072058398,
+                "std_dev": 22.324199688099604,
+                "min_time": 87.47260366365091,
+                "max_time": 147.52794307653065,
+                "raw_times": [
+                  122.44935183719907,
+                  87.47260366365091,
+                  147.52794307653065,
+                  118.40275072058398,
+                  104.24030576621878
+                ],
+                "confidence_interval_95": [
+                  88.30387976176948,
+                  143.73330226390388
+                ]
+              }
+            },
+            "edge case - handle null pointer exceptions": {
+              "token_metrics": {
+                "input_tokens": 2540,
+                "output_tokens": 3727,
+                "total_tokens": 6267,
+                "cost_estimate_usd": 0.317625,
+                "scenario_multiplier": 1.8
+              },
+              "execution_metrics": {
+                "mean_time": 29.28269323277802,
+                "median_time": 29.41348892983231,
+                "std_dev": 3.658672226863299,
+                "min_time": 24.886532468425596,
+                "max_time": 33.715456712580036,
+                "raw_times": [
+                  26.502997949751958,
+                  29.41348892983231,
+                  33.715456712580036,
+                  24.886532468425596,
+                  31.894990103300202
+                ],
+                "confidence_interval_95": [
+                  24.740579932122127,
+                  33.824806533433915
+                ]
+              }
+            },
+            "integration task - connect three APIs": {
+              "token_metrics": {
+                "input_tokens": 2540,
+                "output_tokens": 10816,
+                "total_tokens": 13356,
+                "cost_estimate_usd": 0.8492999999999999,
+                "scenario_multiplier": 3.2
+              },
+              "execution_metrics": {
+                "mean_time": 88.96296018658465,
+                "median_time": 97.2209712858099,
+                "std_dev": 25.949242458782397,
+                "min_time": 60.668243225972034,
+                "max_time": 119.88052776046422,
+                "raw_times": [
+                  97.2209712858099,
+                  63.403205024413225,
+                  60.668243225972034,
+                  103.64185363626387,
+                  119.88052776046422
+                ],
+                "confidence_interval_95": [
+                  56.747885425698186,
+                  121.17803494747112
+                ]
+              }
+            }
+          },
+          "aggregate_metrics": {
+            "avg_total_tokens": 10094,
+            "avg_execution_time": 57.96120609366247,
+            "avg_cost_usd": 0.6046499999999999,
+            "token_efficiency_score": 0.09906875371507827,
+            "time_efficiency_score": 0.17252919105652303,
+            "cost_efficiency_score": 1.653849334325643
+          }
+        },
+        {
+          "command": "adhd-morning-assistant.md",
+          "timestamp": "20250821-150727",
+          "complexity_analysis": {
+            "total_score": 19.2,
+            "base_score": 1.0,
+            "breakdown": {
+              "interfaces": 0.0,
+              "abstract_classes": 0.0,
+              "factory_patterns": 0.0,
+              "builder_patterns": 0.0,
+              "strategy_patterns": 0.0,
+              "observer_patterns": 0.0,
+              "template_methods": 0.0,
+              "nested_thinking": 0.0,
+              "mcp_dependencies": 14.0,
+              "xml_blocks": 2.5,
+              "conditional_complexity": 0.1,
+              "loop_complexity": 1.6
+            },
+            "passes_claude_rules": false
+          },
+          "success_analysis": {
+            "estimated_success_rate": 0.36999999999999994,
+            "failure_rate": 0.6300000000000001,
+            "reliability_grade": "F"
+          },
+          "scenarios": {
+            "simple task - create hello world": {
+              "token_metrics": {
+                "input_tokens": 2223,
+                "output_tokens": 2323,
+                "total_tokens": 4546,
+                "cost_estimate_usd": 0.20756999999999998,
+                "scenario_multiplier": 1.2
+              },
+              "execution_metrics": {
+                "mean_time": 12.864174678589363,
+                "median_time": 12.709253329577855,
+                "std_dev": 1.9266901739728803,
+                "min_time": 10.928148791167887,
+                "max_time": 15.947172892025266,
+                "raw_times": [
+                  11.633512310312003,
+                  15.947172892025266,
+                  13.102786069863798,
+                  12.709253329577855,
+                  10.928148791167887
+                ],
+                "confidence_interval_95": [
+                  10.472256375224983,
+                  15.256092981953742
+                ]
+              }
+            },
+            "medium complexity - refactor authentication": {
+              "token_metrics": {
+                "input_tokens": 2223,
+                "output_tokens": 6353,
+                "total_tokens": 8576,
+                "cost_estimate_usd": 0.5098199999999999,
+                "scenario_multiplier": 2.5
+              },
+              "execution_metrics": {
+                "mean_time": 40.11516721208476,
+                "median_time": 41.010460515651324,
+                "std_dev": 7.17896481955925,
+                "min_time": 30.679287833181704,
+                "max_time": 48.83607566754529,
+                "raw_times": [
+                  41.010460515651324,
+                  30.679287833181704,
+                  44.5106649145573,
+                  48.83607566754529,
+                  35.539347129488185
+                ],
+                "confidence_interval_95": [
+                  31.202734075155075,
+                  49.02760034901445
+                ]
+              }
+            },
+            "high complexity - design microservice architecture": {
+              "token_metrics": {
+                "input_tokens": 2223,
+                "output_tokens": 9469,
+                "total_tokens": 11692,
+                "cost_estimate_usd": 0.7435199999999998,
+                "scenario_multiplier": 4.0
+              },
+              "execution_metrics": {
+                "mean_time": 108.50387215172198,
+                "median_time": 114.66500574905106,
+                "std_dev": 26.972616129612142,
+                "min_time": 69.95774441599616,
+                "max_time": 143.59270385735707,
+                "raw_times": [
+                  69.95774441599616,
+                  114.66500574905106,
+                  143.59270385735707,
+                  98.45014109659185,
+                  115.85376563961374
+                ],
+                "confidence_interval_95": [
+                  75.0183148568475,
+                  141.98942944659646
+                ]
+              }
+            },
+            "edge case - handle null pointer exceptions": {
+              "token_metrics": {
+                "input_tokens": 2223,
+                "output_tokens": 4083,
+                "total_tokens": 6306,
+                "cost_estimate_usd": 0.33957,
+                "scenario_multiplier": 1.8
+              },
+              "execution_metrics": {
+                "mean_time": 28.509123734938278,
+                "median_time": 29.2541316274163,
+                "std_dev": 6.641623805626038,
+                "min_time": 21.553823433121696,
+                "max_time": 38.71496171170016,
+                "raw_times": [
+                  29.2541316274163,
+                  38.71496171170016,
+                  23.73897768496751,
+                  29.283724217485723,
+                  21.553823433121696
+                ],
+                "confidence_interval_95": [
+                  20.263780628226037,
+                  36.75446684165052
+                ]
+              }
+            },
+            "integration task - connect three APIs": {
+              "token_metrics": {
+                "input_tokens": 2223,
+                "output_tokens": 6796,
+                "total_tokens": 9019,
+                "cost_estimate_usd": 0.5430449999999999,
+                "scenario_multiplier": 3.2
+              },
+              "execution_metrics": {
+                "mean_time": 82.03905768565953,
+                "median_time": 70.1791307471943,
+                "std_dev": 22.21189620730308,
+                "min_time": 60.63613878140533,
+                "max_time": 106.91858640763883,
+                "raw_times": [
+                  67.24915182832466,
+                  70.1791307471943,
+                  106.91858640763883,
+                  105.21228066373455,
+                  60.63613878140533
+                ],
+                "confidence_interval_95": [
+                  54.463767268765594,
+                  109.61434810255346
+                ]
+              }
+            }
+          },
+          "aggregate_metrics": {
+            "avg_total_tokens": 8027.8,
+            "avg_execution_time": 54.40627909259878,
+            "avg_cost_usd": 0.4687049999999999,
+            "token_efficiency_score": 0.12456712922593986,
+            "time_efficiency_score": 0.18380231412223816,
+            "cost_efficiency_score": 2.1335381529960213
+          }
+        }
+      ],
+      "reliability_kings": [
+        {
+          "command": "reasoning-wrapper.md",
+          "timestamp": "20250821-150727",
+          "complexity_analysis": {
+            "total_score": 18.4,
+            "base_score": 1.0,
+            "breakdown": {
+              "interfaces": 0.0,
+              "abstract_classes": 0.0,
+              "factory_patterns": 0.0,
+              "builder_patterns": 0.0,
+              "strategy_patterns": 6.0,
+              "observer_patterns": 0.0,
+              "template_methods": 0.0,
+              "nested_thinking": 0.0,
+              "mcp_dependencies": 4.0,
+              "xml_blocks": 6.7,
+              "conditional_complexity": 0.2,
+              "loop_complexity": 0.5
+            },
+            "passes_claude_rules": false
+          },
+          "success_analysis": {
+            "estimated_success_rate": 0.42,
+            "failure_rate": 0.5800000000000001,
+            "reliability_grade": "F"
+          },
+          "scenarios": {
+            "simple task - create hello world": {
+              "token_metrics": {
+                "input_tokens": 2540,
+                "output_tokens": 3855,
+                "total_tokens": 6395,
+                "cost_estimate_usd": 0.327225,
+                "scenario_multiplier": 1.2
+              },
+              "execution_metrics": {
+                "mean_time": 17.250202545850037,
+                "median_time": 16.206715835436324,
+                "std_dev": 3.7253622239747832,
+                "min_time": 13.257452237713423,
+                "max_time": 21.38712091554311,
+                "raw_times": [
+                  16.206715835436324,
+                  21.38712091554311,
+                  14.46227830782478,
+                  13.257452237713423,
+                  20.937445432732538
+                ],
+                "confidence_interval_95": [
+                  12.62529595185765,
+                  21.875109139842422
+                ]
+              }
+            },
+            "medium complexity - refactor authentication": {
+              "token_metrics": {
+                "input_tokens": 2540,
+                "output_tokens": 6979,
+                "total_tokens": 9519,
+                "cost_estimate_usd": 0.5615249999999999,
+                "scenario_multiplier": 2.5
+              },
+              "execution_metrics": {
+                "mean_time": 38.291583490262944,
+                "median_time": 34.843786574288565,
+                "std_dev": 9.467391781436254,
+                "min_time": 31.51353387417158,
+                "max_time": 54.62335074757006,
+                "raw_times": [
+                  31.51353387417158,
+                  38.00710761400962,
+                  32.47013864127491,
+                  34.843786574288565,
+                  54.62335074757006
+                ],
+                "confidence_interval_95": [
+                  26.53814850987693,
+                  50.045018470648955
+                ]
+              }
+            },
+            "high complexity - design microservice architecture": {
+              "token_metrics": {
+                "input_tokens": 2540,
+                "output_tokens": 12393,
+                "total_tokens": 14933,
+                "cost_estimate_usd": 0.967575,
+                "scenario_multiplier": 4.0
+              },
+              "execution_metrics": {
+                "mean_time": 116.01859101283668,
+                "median_time": 118.40275072058398,
+                "std_dev": 22.324199688099604,
+                "min_time": 87.47260366365091,
+                "max_time": 147.52794307653065,
+                "raw_times": [
+                  122.44935183719907,
+                  87.47260366365091,
+                  147.52794307653065,
+                  118.40275072058398,
+                  104.24030576621878
+                ],
+                "confidence_interval_95": [
+                  88.30387976176948,
+                  143.73330226390388
+                ]
+              }
+            },
+            "edge case - handle null pointer exceptions": {
+              "token_metrics": {
+                "input_tokens": 2540,
+                "output_tokens": 3727,
+                "total_tokens": 6267,
+                "cost_estimate_usd": 0.317625,
+                "scenario_multiplier": 1.8
+              },
+              "execution_metrics": {
+                "mean_time": 29.28269323277802,
+                "median_time": 29.41348892983231,
+                "std_dev": 3.658672226863299,
+                "min_time": 24.886532468425596,
+                "max_time": 33.715456712580036,
+                "raw_times": [
+                  26.502997949751958,
+                  29.41348892983231,
+                  33.715456712580036,
+                  24.886532468425596,
+                  31.894990103300202
+                ],
+                "confidence_interval_95": [
+                  24.740579932122127,
+                  33.824806533433915
+                ]
+              }
+            },
+            "integration task - connect three APIs": {
+              "token_metrics": {
+                "input_tokens": 2540,
+                "output_tokens": 10816,
+                "total_tokens": 13356,
+                "cost_estimate_usd": 0.8492999999999999,
+                "scenario_multiplier": 3.2
+              },
+              "execution_metrics": {
+                "mean_time": 88.96296018658465,
+                "median_time": 97.2209712858099,
+                "std_dev": 25.949242458782397,
+                "min_time": 60.668243225972034,
+                "max_time": 119.88052776046422,
+                "raw_times": [
+                  97.2209712858099,
+                  63.403205024413225,
+                  60.668243225972034,
+                  103.64185363626387,
+                  119.88052776046422
+                ],
+                "confidence_interval_95": [
+                  56.747885425698186,
+                  121.17803494747112
+                ]
+              }
+            }
+          },
+          "aggregate_metrics": {
+            "avg_total_tokens": 10094,
+            "avg_execution_time": 57.96120609366247,
+            "avg_cost_usd": 0.6046499999999999,
+            "token_efficiency_score": 0.09906875371507827,
+            "time_efficiency_score": 0.17252919105652303,
+            "cost_efficiency_score": 1.653849334325643
+          }
+        },
+        {
+          "command": "adhd-context-switch.md",
+          "timestamp": "20250821-150727",
+          "complexity_analysis": {
+            "total_score": 15.6,
+            "base_score": 1.0,
+            "breakdown": {
+              "interfaces": 0.0,
+              "abstract_classes": 0.0,
+              "factory_patterns": 0.0,
+              "builder_patterns": 0.0,
+              "strategy_patterns": 3.0,
+              "observer_patterns": 0.0,
+              "template_methods": 0.0,
+              "nested_thinking": 0.0,
+              "mcp_dependencies": 8.0,
+              "xml_blocks": 2.9,
+              "conditional_complexity": 0.1,
+              "loop_complexity": 0.6000000000000001
+            },
+            "passes_claude_rules": false
+          },
+          "success_analysis": {
+            "estimated_success_rate": 0.41999999999999993,
+            "failure_rate": 0.5800000000000001,
+            "reliability_grade": "F"
+          },
+          "scenarios": {
+            "simple task - create hello world": {
+              "token_metrics": {
+                "input_tokens": 2471,
+                "output_tokens": 2546,
+                "total_tokens": 5017,
+                "cost_estimate_usd": 0.22801499999999997,
+                "scenario_multiplier": 1.2
+              },
+              "execution_metrics": {
+                "mean_time": 14.843288692393342,
+                "median_time": 15.183758815987034,
+                "std_dev": 2.7978603697664144,
+                "min_time": 10.824455966872467,
+                "max_time": 18.5904033501693,
+                "raw_times": [
+                  15.51669883731681,
+                  18.5904033501693,
+                  10.824455966872467,
+                  14.1011264916211,
+                  15.183758815987034
+                ],
+                "confidence_interval_95": [
+                  11.3698431332132,
+                  18.316734251573482
+                ]
+              }
+            },
+            "medium complexity - refactor authentication": {
+              "token_metrics": {
+                "input_tokens": 2471,
+                "output_tokens": 5155,
+                "total_tokens": 7626,
+                "cost_estimate_usd": 0.42368999999999996,
+                "scenario_multiplier": 2.5
+              },
+              "execution_metrics": {
+                "mean_time": 41.60531215663886,
+                "median_time": 41.21819647835631,
+                "std_dev": 10.13357475409177,
+                "min_time": 28.484054240962315,
+                "max_time": 55.67212775957456,
+                "raw_times": [
+                  45.82102448888079,
+                  55.67212775957456,
+                  28.484054240962315,
+                  36.83115781542032,
+                  41.21819647835631
+                ],
+                "confidence_interval_95": [
+                  29.024834371337988,
+                  54.18578994193973
+                ]
+              }
+            },
+            "high complexity - design microservice architecture": {
+              "token_metrics": {
+                "input_tokens": 2471,
+                "output_tokens": 14653,
+                "total_tokens": 17124,
+                "cost_estimate_usd": 1.1360399999999997,
+                "scenario_multiplier": 4.0
+              },
+              "execution_metrics": {
+                "mean_time": 99.13758607118092,
+                "median_time": 89.95271098416012,
+                "std_dev": 24.21241969888182,
+                "min_time": 77.81619565025224,
+                "max_time": 134.77450368378922,
+                "raw_times": [
+                  89.95271098416012,
+                  77.81619565025224,
+                  80.40362126328513,
+                  134.77450368378922,
+                  112.74089877441787
+                ],
+                "confidence_interval_95": [
+                  69.07871587562926,
+                  129.19645626673258
+                ]
+              }
+            },
+            "edge case - handle null pointer exceptions": {
+              "token_metrics": {
+                "input_tokens": 2471,
+                "output_tokens": 5305,
+                "total_tokens": 7776,
+                "cost_estimate_usd": 0.43494,
+                "scenario_multiplier": 1.8
+              },
+              "execution_metrics": {
+                "mean_time": 31.72198571850811,
+                "median_time": 32.141900678369346,
+                "std_dev": 6.642821522162401,
+                "min_time": 22.320997497509715,
+                "max_time": 39.93067331528901,
+                "raw_times": [
+                  28.924425959202882,
+                  39.93067331528901,
+                  22.320997497509715,
+                  32.141900678369346,
+                  35.291931142169595
+                ],
+                "confidence_interval_95": [
+                  23.475155688706586,
+                  39.96881574830964
+                ]
+              }
+            },
+            "integration task - connect three APIs": {
+              "token_metrics": {
+                "input_tokens": 2471,
+                "output_tokens": 11044,
+                "total_tokens": 13515,
+                "cost_estimate_usd": 0.8653649999999999,
+                "scenario_multiplier": 3.2
+              },
+              "execution_metrics": {
+                "mean_time": 81.36687410597017,
+                "median_time": 79.36133494981122,
+                "std_dev": 19.003127265791864,
+                "min_time": 57.95055266437836,
+                "max_time": 109.43969575874758,
+                "raw_times": [
+                  79.36133494981122,
+                  57.95055266437836,
+                  109.43969575874758,
+                  72.95154260857012,
+                  87.13124454834356
+                ],
+                "confidence_interval_95": [
+                  57.775157834078264,
+                  104.95859037786207
+                ]
+              }
+            }
+          },
+          "aggregate_metrics": {
+            "avg_total_tokens": 10211.6,
+            "avg_execution_time": 53.73500934893828,
+            "avg_cost_usd": 0.6176099999999999,
+            "token_efficiency_score": 0.09792784676250538,
+            "time_efficiency_score": 0.18609841370014732,
+            "cost_efficiency_score": 1.6191447677336834
+          }
+        },
+        {
+          "command": "ultrathink-hybrid-mcp.md",
+          "timestamp": "20250821-150727",
+          "complexity_analysis": {
+            "total_score": 46.2,
+            "base_score": 1.0,
+            "breakdown": {
+              "interfaces": 0.0,
+              "abstract_classes": 0.0,
+              "factory_patterns": 0.0,
+              "builder_patterns": 0.0,
+              "strategy_patterns": 3.0,
+              "observer_patterns": 0.0,
+              "template_methods": 0.0,
+              "nested_thinking": 3.0,
+              "mcp_dependencies": 32.0,
+              "xml_blocks": 5.9,
+              "conditional_complexity": 0.8,
+              "loop_complexity": 0.5
+            },
+            "passes_claude_rules": false
+          },
+          "success_analysis": {
+            "estimated_success_rate": 0.37,
+            "failure_rate": 0.63,
+            "reliability_grade": "F"
+          },
+          "scenarios": {
+            "simple task - create hello world": {
+              "token_metrics": {
+                "input_tokens": 3334,
+                "output_tokens": 5568,
+                "total_tokens": 8902,
+                "cost_estimate_usd": 0.46760999999999997,
+                "scenario_multiplier": 1.2
+              },
+              "execution_metrics": {
+                "mean_time": 30.03406700360595,
+                "median_time": 29.00857388640544,
+                "std_dev": 4.969891954609589,
+                "min_time": 23.41369366976707,
+                "max_time": 36.222111373082626,
+                "raw_times": [
+                  36.222111373082626,
+                  28.064477607127387,
+                  23.41369366976707,
+                  33.46147848164724,
+                  29.00857388640544
+                ],
+                "confidence_interval_95": [
+                  23.864120380864016,
+                  36.20401362634789
+                ]
+              }
+            },
+            "medium complexity - refactor authentication": {
+              "token_metrics": {
+                "input_tokens": 3334,
+                "output_tokens": 7655,
+                "total_tokens": 10989,
+                "cost_estimate_usd": 0.624135,
+                "scenario_multiplier": 2.5
+              },
+              "execution_metrics": {
+                "mean_time": 78.62220696999073,
+                "median_time": 67.50179551753882,
+                "std_dev": 21.933099749710017,
+                "min_time": 60.575947160116904,
+                "max_time": 111.27776047350679,
+                "raw_times": [
+                  62.692543076062364,
+                  111.27776047350679,
+                  60.575947160116904,
+                  67.50179551753882,
+                  91.06298862272874
+                ],
+                "confidence_interval_95": [
+                  51.39303258090366,
+                  105.8513813590778
+                ]
+              }
+            },
+            "high complexity - design microservice architecture": {
+              "token_metrics": {
+                "input_tokens": 3334,
+                "output_tokens": 17651,
+                "total_tokens": 20985,
+                "cost_estimate_usd": 1.3738349999999997,
+                "scenario_multiplier": 4.0
+              },
+              "execution_metrics": {
+                "mean_time": 235.66338986605243,
+                "median_time": 258.6791466070289,
+                "std_dev": 65.92272482088542,
+                "min_time": 146.86611287750165,
+                "max_time": 315.53869815347144,
+                "raw_times": [
+                  193.33789873943337,
+                  315.53869815347144,
+                  258.6791466070289,
+                  263.89509295282676,
+                  146.86611287750165
+                ],
+                "confidence_interval_95": [
+                  153.8226381786207,
+                  317.50414155348415
+                ]
+              }
+            },
+            "edge case - handle null pointer exceptions": {
+              "token_metrics": {
+                "input_tokens": 3334,
+                "output_tokens": 4888,
+                "total_tokens": 8222,
+                "cost_estimate_usd": 0.41661,
+                "scenario_multiplier": 1.8
+              },
+              "execution_metrics": {
+                "mean_time": 67.34464707206962,
+                "median_time": 66.38608973996256,
+                "std_dev": 5.028273769936698,
+                "min_time": 62.224888770462634,
+                "max_time": 74.1597270876994,
+                "raw_times": [
+                  63.28257670401441,
+                  62.224888770462634,
+                  74.1597270876994,
+                  70.66995305820913,
+                  66.38608973996256
+                ],
+                "confidence_interval_95": [
+                  61.10222147240084,
+                  73.5870726717384
+                ]
+              }
+            },
+            "integration task - connect three APIs": {
+              "token_metrics": {
+                "input_tokens": 3334,
+                "output_tokens": 14124,
+                "total_tokens": 17458,
+                "cost_estimate_usd": 1.1093099999999998,
+                "scenario_multiplier": 3.2
+              },
+              "execution_metrics": {
+                "mean_time": 179.62926167331946,
+                "median_time": 181.2919115386619,
+                "std_dev": 30.686336617811328,
+                "min_time": 144.56087967380563,
+                "max_time": 226.0845942578205,
+                "raw_times": [
+                  226.0845942578205,
+                  181.2919115386619,
+                  185.16276228108174,
+                  161.0461606152276,
+                  144.56087967380563
+                ],
+                "confidence_interval_95": [
+                  141.53325059127164,
+                  217.72527275536729
+                ]
+              }
+            }
+          },
+          "aggregate_metrics": {
+            "avg_total_tokens": 13311.2,
+            "avg_execution_time": 118.25871451700763,
+            "avg_cost_usd": 0.7982999999999999,
+            "token_efficiency_score": 0.07512470701364264,
+            "time_efficiency_score": 0.08456036445890698,
+            "cost_efficiency_score": 1.252661906551422
+          }
+        },
+        {
+          "command": "adhd-morning-assistant.md",
+          "timestamp": "20250821-150727",
+          "complexity_analysis": {
+            "total_score": 19.2,
+            "base_score": 1.0,
+            "breakdown": {
+              "interfaces": 0.0,
+              "abstract_classes": 0.0,
+              "factory_patterns": 0.0,
+              "builder_patterns": 0.0,
+              "strategy_patterns": 0.0,
+              "observer_patterns": 0.0,
+              "template_methods": 0.0,
+              "nested_thinking": 0.0,
+              "mcp_dependencies": 14.0,
+              "xml_blocks": 2.5,
+              "conditional_complexity": 0.1,
+              "loop_complexity": 1.6
+            },
+            "passes_claude_rules": false
+          },
+          "success_analysis": {
+            "estimated_success_rate": 0.36999999999999994,
+            "failure_rate": 0.6300000000000001,
+            "reliability_grade": "F"
+          },
+          "scenarios": {
+            "simple task - create hello world": {
+              "token_metrics": {
+                "input_tokens": 2223,
+                "output_tokens": 2323,
+                "total_tokens": 4546,
+                "cost_estimate_usd": 0.20756999999999998,
+                "scenario_multiplier": 1.2
+              },
+              "execution_metrics": {
+                "mean_time": 12.864174678589363,
+                "median_time": 12.709253329577855,
+                "std_dev": 1.9266901739728803,
+                "min_time": 10.928148791167887,
+                "max_time": 15.947172892025266,
+                "raw_times": [
+                  11.633512310312003,
+                  15.947172892025266,
+                  13.102786069863798,
+                  12.709253329577855,
+                  10.928148791167887
+                ],
+                "confidence_interval_95": [
+                  10.472256375224983,
+                  15.256092981953742
+                ]
+              }
+            },
+            "medium complexity - refactor authentication": {
+              "token_metrics": {
+                "input_tokens": 2223,
+                "output_tokens": 6353,
+                "total_tokens": 8576,
+                "cost_estimate_usd": 0.5098199999999999,
+                "scenario_multiplier": 2.5
+              },
+              "execution_metrics": {
+                "mean_time": 40.11516721208476,
+                "median_time": 41.010460515651324,
+                "std_dev": 7.17896481955925,
+                "min_time": 30.679287833181704,
+                "max_time": 48.83607566754529,
+                "raw_times": [
+                  41.010460515651324,
+                  30.679287833181704,
+                  44.5106649145573,
+                  48.83607566754529,
+                  35.539347129488185
+                ],
+                "confidence_interval_95": [
+                  31.202734075155075,
+                  49.02760034901445
+                ]
+              }
+            },
+            "high complexity - design microservice architecture": {
+              "token_metrics": {
+                "input_tokens": 2223,
+                "output_tokens": 9469,
+                "total_tokens": 11692,
+                "cost_estimate_usd": 0.7435199999999998,
+                "scenario_multiplier": 4.0
+              },
+              "execution_metrics": {
+                "mean_time": 108.50387215172198,
+                "median_time": 114.66500574905106,
+                "std_dev": 26.972616129612142,
+                "min_time": 69.95774441599616,
+                "max_time": 143.59270385735707,
+                "raw_times": [
+                  69.95774441599616,
+                  114.66500574905106,
+                  143.59270385735707,
+                  98.45014109659185,
+                  115.85376563961374
+                ],
+                "confidence_interval_95": [
+                  75.0183148568475,
+                  141.98942944659646
+                ]
+              }
+            },
+            "edge case - handle null pointer exceptions": {
+              "token_metrics": {
+                "input_tokens": 2223,
+                "output_tokens": 4083,
+                "total_tokens": 6306,
+                "cost_estimate_usd": 0.33957,
+                "scenario_multiplier": 1.8
+              },
+              "execution_metrics": {
+                "mean_time": 28.509123734938278,
+                "median_time": 29.2541316274163,
+                "std_dev": 6.641623805626038,
+                "min_time": 21.553823433121696,
+                "max_time": 38.71496171170016,
+                "raw_times": [
+                  29.2541316274163,
+                  38.71496171170016,
+                  23.73897768496751,
+                  29.283724217485723,
+                  21.553823433121696
+                ],
+                "confidence_interval_95": [
+                  20.263780628226037,
+                  36.75446684165052
+                ]
+              }
+            },
+            "integration task - connect three APIs": {
+              "token_metrics": {
+                "input_tokens": 2223,
+                "output_tokens": 6796,
+                "total_tokens": 9019,
+                "cost_estimate_usd": 0.5430449999999999,
+                "scenario_multiplier": 3.2
+              },
+              "execution_metrics": {
+                "mean_time": 82.03905768565953,
+                "median_time": 70.1791307471943,
+                "std_dev": 22.21189620730308,
+                "min_time": 60.63613878140533,
+                "max_time": 106.91858640763883,
+                "raw_times": [
+                  67.24915182832466,
+                  70.1791307471943,
+                  106.91858640763883,
+                  105.21228066373455,
+                  60.63613878140533
+                ],
+                "confidence_interval_95": [
+                  54.463767268765594,
+                  109.61434810255346
+                ]
+              }
+            }
+          },
+          "aggregate_metrics": {
+            "avg_total_tokens": 8027.8,
+            "avg_execution_time": 54.40627909259878,
+            "avg_cost_usd": 0.4687049999999999,
+            "token_efficiency_score": 0.12456712922593986,
+            "time_efficiency_score": 0.18380231412223816,
+            "cost_efficiency_score": 2.1335381529960213
+          }
+        },
+        {
+          "command": "adhd-hyperfocus-guardian.md",
+          "timestamp": "20250821-150727",
+          "complexity_analysis": {
+            "total_score": 14.700000000000001,
+            "base_score": 1.0,
+            "breakdown": {
+              "interfaces": 0.0,
+              "abstract_classes": 0.0,
+              "factory_patterns": 0.0,
+              "builder_patterns": 0.0,
+              "strategy_patterns": 0.0,
+              "observer_patterns": 0.0,
+              "template_methods": 0.0,
+              "nested_thinking": 0.0,
+              "mcp_dependencies": 10.0,
+              "xml_blocks": 2.7,
+              "conditional_complexity": 0.4,
+              "loop_complexity": 0.6000000000000001
+            },
+            "passes_claude_rules": false
+          },
+          "success_analysis": {
+            "estimated_success_rate": 0.36999999999999994,
+            "failure_rate": 0.6300000000000001,
+            "reliability_grade": "F"
+          },
+          "scenarios": {
+            "simple task - create hello world": {
+              "token_metrics": {
+                "input_tokens": 3005,
+                "output_tokens": 4278,
+                "total_tokens": 7283,
+                "cost_estimate_usd": 0.36592499999999994,
+                "scenario_multiplier": 1.2
+              },
+              "execution_metrics": {
+                "mean_time": 19.888711687042314,
+                "median_time": 19.54510364037798,
+                "std_dev": 0.8900295142622122,
+                "min_time": 18.80286803091947,
+                "max_time": 20.882710583652294,
+                "raw_times": [
+                  19.54510364037798,
+                  19.478487522772713,
+                  20.882710583652294,
+                  20.734388657489106,
+                  18.80286803091947
+                ],
+                "confidence_interval_95": [
+                  18.7837712485345,
+                  20.993652125550128
+                ]
+              }
+            },
+            "medium complexity - refactor authentication": {
+              "token_metrics": {
+                "input_tokens": 3005,
+                "output_tokens": 9967,
+                "total_tokens": 12972,
+                "cost_estimate_usd": 0.7925999999999999,
+                "scenario_multiplier": 2.5
+              },
+              "execution_metrics": {
+                "mean_time": 54.69927267336427,
+                "median_time": 53.512169008428764,
+                "std_dev": 12.19687110068157,
+                "min_time": 42.461403476216475,
+                "max_time": 72.43382538229177,
+                "raw_times": [
+                  60.29301170629487,
+                  44.79595379358948,
+                  72.43382538229177,
+                  42.461403476216475,
+                  53.512169008428764
+                ],
+                "confidence_interval_95": [
+                  39.557284810656185,
+                  69.84126053607235
+                ]
+              }
+            },
+            "high complexity - design microservice architecture": {
+              "token_metrics": {
+                "input_tokens": 3005,
+                "output_tokens": 12142,
+                "total_tokens": 15147,
+                "cost_estimate_usd": 0.9557249999999999,
+                "scenario_multiplier": 4.0
+              },
+              "execution_metrics": {
+                "mean_time": 121.10418425147748,
+                "median_time": 119.83634269203759,
+                "std_dev": 30.195303518583007,
+                "min_time": 89.86912696265645,
+                "max_time": 170.25784551004006,
+                "raw_times": [
+                  105.19319718001782,
+                  119.83634269203759,
+                  120.36440891263545,
+                  89.86912696265645,
+                  170.25784551004006
+                ],
+                "confidence_interval_95": [
+                  83.61777354704518,
+                  158.59059495590978
+                ]
+              }
+            },
+            "edge case - handle null pointer exceptions": {
+              "token_metrics": {
+                "input_tokens": 3005,
+                "output_tokens": 4780,
+                "total_tokens": 7785,
+                "cost_estimate_usd": 0.403575,
+                "scenario_multiplier": 1.8
+              },
+              "execution_metrics": {
+                "mean_time": 35.142945615565395,
+                "median_time": 33.40946766107243,
+                "std_dev": 8.317730125827874,
+                "min_time": 26.535880266259003,
+                "max_time": 49.03900721836846,
+                "raw_times": [
+                  26.535880266259003,
+                  33.02560232162982,
+                  49.03900721836846,
+                  33.70477061049725,
+                  33.40946766107243
+                ],
+                "confidence_interval_95": [
+                  24.81677527475323,
+                  45.469115956377564
+                ]
+              }
+            },
+            "integration task - connect three APIs": {
+              "token_metrics": {
+                "input_tokens": 3005,
+                "output_tokens": 11528,
+                "total_tokens": 14533,
+                "cost_estimate_usd": 0.9096749999999999,
+                "scenario_multiplier": 3.2
+              },
+              "execution_metrics": {
+                "mean_time": 103.1079780006048,
+                "median_time": 98.94050975808791,
+                "std_dev": 20.100989646068275,
+                "min_time": 75.10674768730223,
+                "max_time": 124.92058169321626,
+                "raw_times": [
+                  98.94050975808791,
+                  120.23065640464921,
+                  75.10674768730223,
+                  96.34139445976838,
+                  124.92058169321626
+                ],
+                "confidence_interval_95": [
+                  78.15330407343848,
+                  128.06265192777113
+                ]
+              }
+            }
+          },
+          "aggregate_metrics": {
+            "avg_total_tokens": 11544,
+            "avg_execution_time": 66.78861844561085,
+            "avg_cost_usd": 0.6854999999999999,
+            "token_efficiency_score": 0.08662508662508663,
+            "time_efficiency_score": 0.14972610951884677,
+            "cost_efficiency_score": 1.4587892049598836
+          }
+        }
+      ]
+    },
+    "statistical_analysis": {
+      "complexity_stats": {
+        "mean": 22.82,
+        "median": 18.4,
+        "std_dev": 13.203484388599852,
+        "violations": 5,
+        "violation_rate": 1.0
+      },
+      "performance_stats": {
+        "avg_tokens": 10637.720000000001,
+        "avg_time_seconds": 70.2299654995636,
+        "avg_success_rate": 0.38999999999999996,
+        "performance_variance": 27.347754427938334
+      }
+    },
+    "savage_insights": [
+      "\ud83d\udea8 5/5 commands violate CLAUDE.md complexity rules. That's a 100.0% failure rate in following basic engineering principles. Your complexity average of 22.82 suggests you're building cathedrals when you need garden sheds.",
+      "\ud83d\udd25 'ultrathink-hybrid-mcp.md' consumes 13311 tokens on average. That's like bringing a freight train to deliver a letter. With current pricing, this command costs $0.7983 per execution. Efficiency is not optional.",
+      "\u23f1\ufe0f Performance spread is 118.3s to 53.7s. 'ultrathink-hybrid-mcp.md' takes 2.2x longer than 'adhd-context-switch.md'. Time is money, and this is expensive.",
+      "\ud83c\udfaf 'adhd-morning-assistant.md' has a 37.0% success rate (Grade: F). That's not 'intelligent automation', that's digital Russian roulette."
+    ],
+    "overall_grade": "F",
+    "recommendations": [
+      "\ud83d\udd27 SIMPLIFY: Apply CLAUDE.md complexity rules. Remove unnecessary abstractions, eliminate factory patterns unless you have 3+ implementations, and prefer direct solutions.",
+      "\ud83d\udcb0 OPTIMIZE TOKENS: 'ultrathink-hybrid-mcp.md' needs token diet. Reduce XML verbosity, eliminate redundant thinking blocks, and focus on essential logic only.",
+      "\u26a1 IMPROVE SPEED: 'ultrathink-hybrid-mcp.md' is too slow. Reduce MCP calls, simplify decision trees, and consider caching patterns.",
+      "\ud83c\udfaf INCREASE RELIABILITY: 5 commands need stability work. Add error handling, reduce dependencies, and implement fallback strategies."
+    ]
+  },
+  "summary_statistics": {
+    "complexity_stats": {
+      "mean": 22.82,
+      "median": 18.4,
+      "std_dev": 13.203484388599852,
+      "violations": 5,
+      "violation_rate": 1.0
+    },
+    "performance_stats": {
+      "avg_tokens": 10637.720000000001,
+      "avg_time_seconds": 70.2299654995636,
+      "avg_success_rate": 0.38999999999999996,
+      "performance_variance": 27.347754427938334
+    }
+  },
+  "executive_summary": {
+    "overall_grade": "F",
+    "top_performer": "reasoning-wrapper.md",
+    "biggest_disappointment": "adhd-hyperfocus-guardian.md",
+    "most_expensive": "ultrathink-hybrid-mcp.md",
+    "complexity_violators": 5
+  }
+}
