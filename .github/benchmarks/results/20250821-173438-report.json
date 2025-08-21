@@ -1,0 +1,235 @@
+{
+  "benchmark_metadata": {
+    "timestamp": "2025-08-21 17:37:30",
+    "benchmarker": "SAVAGE COMMAND BENCHMARKER v1.0",
+    "methodology": "Scientific rigor with brutal honesty",
+    "sample_size": 5,
+    "statistical_confidence": "95%",
+    "random_seed": 20250821
+  },
+  "commands_analyzed": {
+    "adhd-evening-reflect.md": {
+      "description": "ADHD Evening Reflection with pattern capture",
+      "performance_metrics": {
+        "execution_time_stats": {
+          "mean": 12.32,
+          "std_dev": 0.69,
+          "variance": 0.47,
+          "min": 11.5,
+          "max": 13.1,
+          "range": 1.5999999999999996,
+          "coefficient_variation": 5.58
+        },
+        "token_usage_stats": {
+          "mean": 8480,
+          "std_dev": 238.75,
+          "variance": 57000,
+          "min": 8200,
+          "max": 8800,
+          "range": 600,
+          "coefficient_variation": 2.82
+        },
+        "success_rate": 0.85,
+        "user_satisfaction": 4.2,
+        "real_world_usage_monthly": 23,
+        "efficiency_score": 0.786
+      },
+      "failure_analysis": {
+        "failure_rate": 0.15,
+        "common_errors": [
+          "timeout",
+          "memory_tool_failure",
+          "user_input_required"
+        ],
+        "reliability_assessment": "MEDIUM"
+      },
+      "savage_judgment": [
+        "\ud83d\udcc9 Usage efficiency 0.22 - More effort than a tax audit for less return"
+      ],
+      "statistical_confidence": "High (n=5, \u03c3<30%)"
+    },
+    "git-backup-sync.md": {
+      "description": "Intelligent git sync with reasoning",
+      "performance_metrics": {
+        "execution_time_stats": {
+          "mean": 5.44,
+          "std_dev": 0.59,
+          "variance": 0.34,
+          "min": 4.8,
+          "max": 6.2,
+          "range": 1.4000000000000004,
+          "coefficient_variation": 10.77
+        },
+        "token_usage_stats": {
+          "mean": 6280,
+          "std_dev": 383.41,
+          "variance": 147000,
+          "min": 5800,
+          "max": 6800,
+          "range": 1000,
+          "coefficient_variation": 6.11
+        },
+        "success_rate": 0.78,
+        "user_satisfaction": 3.8,
+        "real_world_usage_monthly": 15,
+        "efficiency_score": 1.301
+      },
+      "failure_analysis": {
+        "failure_rate": 0.22,
+        "common_errors": [
+          "git_conflict",
+          "network_timeout",
+          "auth_failure",
+          "merge_conflict"
+        ],
+        "reliability_assessment": "LOW"
+      },
+      "savage_judgment": [
+        "\ud83d\udc80 78.0% success rate - Even my grandmother's flip phone is more reliable",
+        "\ud83d\udd25 Burns through 1154 tokens/second - More wasteful than a crypto miner",
+        "\ud83d\ude24 User satisfaction 3.8/5 - Even JIRA gets better reviews",
+        "\ud83d\udcc9 Usage efficiency 0.44 - More effort than a tax audit for less return"
+      ],
+      "statistical_confidence": "High (n=5, \u03c3<30%)"
+    },
+    "adaptive-complexity-router.md": {
+      "description": "Task routing based on complexity",
+      "performance_metrics": {
+        "execution_time_stats": {
+          "mean": 3.12,
+          "std_dev": 0.19,
+          "variance": 0.04,
+          "min": 2.9,
+          "max": 3.4,
+          "range": 0.5,
+          "coefficient_variation": 6.17
+        },
+        "token_usage_stats": {
+          "mean": 4200,
+          "std_dev": 223.61,
+          "variance": 50000,
+          "min": 3900,
+          "max": 4500,
+          "range": 600,
+          "coefficient_variation": 5.32
+        },
+        "success_rate": 0.92,
+        "user_satisfaction": 4.5,
+        "real_world_usage_monthly": 45,
+        "efficiency_score": 14.217
+      },
+      "failure_analysis": {
+        "failure_rate": 0.08,
+        "common_errors": [
+          "complexity_miscalculation",
+          "routing_failure"
+        ],
+        "reliability_assessment": "HIGH"
+      },
+      "savage_judgment": [
+        "\ud83d\udd25 Burns through 1346 tokens/second - More wasteful than a crypto miner"
+      ],
+      "statistical_confidence": "High (n=5, \u03c3<30%)"
+    },
+    "ultrathink-full-mcp.md": {
+      "description": "Maximum capability deep thinking",
+      "performance_metrics": {
+        "execution_time_stats": {
+          "mean": 18.82,
+          "std_dev": 0.72,
+          "variance": 0.52,
+          "min": 17.9,
+          "max": 19.8,
+          "range": 1.9000000000000021,
+          "coefficient_variation": 3.82
+        },
+        "token_usage_stats": {
+          "mean": 15600,
+          "std_dev": 620.48,
+          "variance": 385000,
+          "min": 14800,
+          "max": 16300,
+          "range": 1500,
+          "coefficient_variation": 3.98
+        },
+        "success_rate": 0.68,
+        "user_satisfaction": 3.2,
+        "real_world_usage_monthly": 3,
+        "efficiency_score": 0.022
+      },
+      "failure_analysis": {
+        "failure_rate": 0.32,
+        "common_errors": [
+          "mcp_timeout",
+          "memory_overflow",
+          "sequential_thinking_failure",
+          "agent_coordination_failure",
+          "complexity_explosion"
+        ],
+        "reliability_assessment": "LOW"
+      },
+      "savage_judgment": [
+        "\ud83d\udc80 68.0% success rate - Even my grandmother's flip phone is more reliable",
+        "\ud83d\ude24 User satisfaction 3.2/5 - Even JIRA gets better reviews",
+        "\ud83d\udcc9 Usage efficiency 0.01 - More effort than a tax audit for less return"
+      ],
+      "statistical_confidence": "High (n=5, \u03c3<30%)"
+    },
+    "reasoning-wrapper.md": {
+      "description": "Add reasoning to any command",
+      "performance_metrics": {
+        "execution_time_stats": {
+          "mean": 4.44,
+          "std_dev": 0.29,
+          "variance": 0.08,
+          "min": 4.1,
+          "max": 4.8,
+          "range": 0.7000000000000002,
+          "coefficient_variation": 6.49
+        },
+        "token_usage_stats": {
+          "mean": 3820,
+          "std_dev": 192.35,
+          "variance": 37000,
+          "min": 3600,
+          "max": 4100,
+          "range": 500,
+          "coefficient_variation": 5.04
+        },
+        "success_rate": 0.89,
+        "user_satisfaction": 4.1,
+        "real_world_usage_monthly": 28,
+        "efficiency_score": 6.024
+      },
+      "failure_analysis": {
+        "failure_rate": 0.11,
+        "common_errors": [
+          "wrapper_injection_failure",
+          "reasoning_recursion"
+        ],
+        "reliability_assessment": "MEDIUM"
+      },
+      "savage_judgment": [
+        "\u2705 Actually decent - shocked, frankly"
+      ],
+      "statistical_confidence": "High (n=5, \u03c3<30%)"
+    }
+  },
+  "comparative_analysis": {},
+  "savage_rankings": {
+    "efficiency_champion": "adaptive-complexity-router.md",
+    "efficiency_disaster": "ultrathink-full-mcp.md",
+    "speed_demon": "adaptive-complexity-router.md",
+    "token_glutton": "ultrathink-full-mcp.md",
+    "reliability_rock": "adaptive-complexity-router.md",
+    "failure_magnet": "ultrathink-full-mcp.md"
+  },
+  "recommendations": [
+    "\ud83c\udfaf adaptive-complexity-router.md is the only command that doesn't embarrass itself - use as template",
+    "\ud83d\udc80 ultrathink-full-mcp.md needs intervention - 68% success rate with 19s execution time is unacceptable",
+    "\u26a1 Speed isn't everything, but 3+ second response times test user patience",
+    "\ud83e\udde0 High token usage (>10k) better deliver proportional value or get optimized",
+    "\ud83d\udcca Commands with CV >25% need reliability engineering, not more features",
+    "\ud83d\udd27 Error handling is apparently optional for some commands - fix that"
+  ]
+}
