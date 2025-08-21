@@ -1,0 +1,51 @@
+{
+  "benchmark_framework": {
+    "version": "1.0.0",
+    "timestamp": "2025-08-21T21:02:35Z",
+    "methodology": "Scientific command measurement with statistical rigor",
+    "selected_commands": [
+      "ultrathink.md",
+      "adhd-context-switch.md", 
+      "adaptive-complexity-router.md",
+      "analyze-project-architecture.md",
+      "senior-developer-analysis.md"
+    ],
+    "selection_method": "random.seed(42) for reproducible results",
+    "measurement_dimensions": {
+      "token_consumption": {
+        "input_tokens": "measured per command invocation",
+        "output_tokens": "measured per command execution",
+        "statistical_samples": 5
+      },
+      "execution_time": {
+        "measurement_unit": "milliseconds",
+        "includes": ["parsing", "thinking", "output_generation"],
+        "statistical_samples": 5
+      },
+      "success_rate": {
+        "criteria": "command produces useful output without errors",
+        "measurement": "percentage over 10 test runs"
+      },
+      "complexity_score": {
+        "based_on": "CLAUDE.md complexity rules",
+        "factors": ["abstractions", "dependencies", "cognitive_load", "maintenance_burden"],
+        "scale": "1-10"
+      },
+      "thinking_effectiveness": {
+        "criteria": "quality of reasoning vs token cost",
+        "measurement": "expert evaluation 1-10 scale"
+      },
+      "real_world_utility": {
+        "criteria": "solves actual problems vs theoretical value",
+        "measurement": "practical impact assessment"
+      }
+    },
+    "test_scenarios": {
+      "simple_task": "rename variable x to count",
+      "moderate_task": "refactor this service for better testing", 
+      "complex_task": "redesign architecture for microservices",
+      "edge_case": "analyze legacy spaghetti code with no documentation",
+      "error_handling": "malformed input and invalid parameters"
+    }
+  }
+}
