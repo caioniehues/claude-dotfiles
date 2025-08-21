@@ -1,0 +1,193 @@
+{
+  "benchmark_metadata": {
+    "timestamp": "20250821-134511",
+    "commands_tested": 5,
+    "iterations_per_command": 5,
+    "total_test_runs": 25
+  },
+  "statistical_summary": {
+    "overall_success_rate": 0.64,
+    "success_rate_variance": 0.068,
+    "average_complexity_score": 5.2,
+    "average_execution_time": 0.6666,
+    "total_estimated_tokens": 13287,
+    "average_cost_benefit_ratio": 31267.85
+  },
+  "grade_distribution": {
+    "B": 1,
+    "C": 1,
+    "F": 3
+  },
+  "command_rankings": [
+    {
+      "rank": 1,
+      "command": "adhd-task-breakdown.md",
+      "grade": "B",
+      "success_rate": 1.0,
+      "complexity_score": 3,
+      "avg_execution_time": 0.4408,
+      "savage_verdict": "\u2705 adhd-task-breakdown.md actually follows CLAUDE.md principles: 100.0% success rate with complexity score 3. Rare competence detected."
+    },
+    {
+      "rank": 2,
+      "command": "ultrathink.md",
+      "grade": "C",
+      "success_rate": 0.8,
+      "complexity_score": 3,
+      "avg_execution_time": 0.4061,
+      "savage_verdict": "\ud83d\udcc8 ultrathink.md: 80.0% success rate, complexity 3. Mediocre but functional. The 'participation trophy' of commands."
+    },
+    {
+      "rank": 3,
+      "command": "context-enhanced-executor.md",
+      "grade": "F",
+      "success_rate": 0.6,
+      "complexity_score": 6,
+      "avg_execution_time": 0.7924,
+      "savage_verdict": "\ud83d\udcc8 context-enhanced-executor.md: 60.0% success rate, complexity 6. Mediocre but functional. The 'participation trophy' of commands."
+    },
+    {
+      "rank": 4,
+      "command": "adhd-evening-reflect.md",
+      "grade": "F",
+      "success_rate": 0.4,
+      "complexity_score": 6,
+      "avg_execution_time": 0.7673,
+      "savage_verdict": "\ud83d\udeab adhd-evening-reflect.md fails 60.0% of the time. That's not 'intelligent automation', that's a coin flip with worse odds. Complexity score of 6 suggests over-engineering without reliability."
+    },
+    {
+      "rank": 5,
+      "command": "intelligent-refactor-session.md",
+      "grade": "F",
+      "success_rate": 0.4,
+      "complexity_score": 8,
+      "avg_execution_time": 0.9262,
+      "savage_verdict": "\ud83d\udeab intelligent-refactor-session.md fails 60.0% of the time. That's not 'intelligent automation', that's a coin flip with worse odds. Complexity score of 8 suggests over-engineering without reliability."
+    }
+  ],
+  "detailed_results": [
+    {
+      "command_name": "adhd-task-breakdown.md",
+      "success_rate": 1.0,
+      "avg_execution_time": 0.44078311920166013,
+      "execution_time_stddev": 0.07182889164992849,
+      "token_consumption_estimate": 2611,
+      "complexity_score": 3,
+      "error_frequency": 0.0,
+      "error_types": [],
+      "sample_outputs": [
+        "Run 1: SUCCESS (0.458s)",
+        "Run 2: SUCCESS (0.518s)",
+        "Run 3: SUCCESS (0.359s)",
+        "Run 4: SUCCESS (0.373s)",
+        "Run 5: SUCCESS (0.496s)"
+      ],
+      "performance_grade": "B",
+      "savage_commentary": "\u2705 adhd-task-breakdown.md actually follows CLAUDE.md principles: 100.0% success rate with complexity score 3. Rare competence detected.",
+      "statistical_confidence": 0.95,
+      "cost_benefit_ratio": 7833.0
+    },
+    {
+      "command_name": "ultrathink.md",
+      "success_rate": 0.8,
+      "avg_execution_time": 0.40614733695983884,
+      "execution_time_stddev": 0.02452003432503366,
+      "token_consumption_estimate": 2439,
+      "complexity_score": 3,
+      "error_frequency": 0.2,
+      "error_types": [
+        "ContextOverflow"
+      ],
+      "sample_outputs": [
+        "Run 1: FAILED - ContextOverflow",
+        "Run 2: SUCCESS (0.394s)",
+        "Run 3: SUCCESS (0.419s)",
+        "Run 4: SUCCESS (0.379s)",
+        "Run 5: SUCCESS (0.397s)"
+      ],
+      "performance_grade": "C",
+      "savage_commentary": "\ud83d\udcc8 ultrathink.md: 80.0% success rate, complexity 3. Mediocre but functional. The 'participation trophy' of commands.",
+      "statistical_confidence": 0.8279255471629705,
+      "cost_benefit_ratio": 9146.25
+    },
+    {
+      "command_name": "context-enhanced-executor.md",
+      "success_rate": 0.6,
+      "avg_execution_time": 0.7924228191375733,
+      "execution_time_stddev": 0.0759970341930922,
+      "token_consumption_estimate": 971,
+      "complexity_score": 6,
+      "error_frequency": 0.4,
+      "error_types": [
+        "ConfigurationError"
+      ],
+      "sample_outputs": [
+        "Run 1: FAILED - ConfigurationError",
+        "Run 2: FAILED - ConfigurationError",
+        "Run 3: SUCCESS (0.661s)",
+        "Run 4: SUCCESS (0.840s)",
+        "Run 5: SUCCESS (0.837s)"
+      ],
+      "performance_grade": "F",
+      "savage_commentary": "\ud83d\udcc8 context-enhanced-executor.md: 60.0% success rate, complexity 6. Mediocre but functional. The 'participation trophy' of commands.",
+      "statistical_confidence": 0.6608190697295157,
+      "cost_benefit_ratio": 9710.0
+    },
+    {
+      "command_name": "adhd-evening-reflect.md",
+      "success_rate": 0.4,
+      "avg_execution_time": 0.7673300266265869,
+      "execution_time_stddev": 0.08148747621768816,
+      "token_consumption_estimate": 3134,
+      "complexity_score": 6,
+      "error_frequency": 0.6,
+      "error_types": [
+        "TokenLimitExceeded",
+        "ContextOverflow",
+        "InvalidSyntax"
+      ],
+      "sample_outputs": [
+        "Run 1: FAILED - TokenLimitExceeded",
+        "Run 2: FAILED - InvalidSyntax",
+        "Run 3: FAILED - ContextOverflow",
+        "Run 4: SUCCESS (0.897s)",
+        "Run 5: SUCCESS (0.700s)"
+      ],
+      "performance_grade": "F",
+      "savage_commentary": "\ud83d\udeab adhd-evening-reflect.md fails 60.0% of the time. That's not 'intelligent automation', that's a coin flip with worse odds. Complexity score of 6 suggests over-engineering without reliability.",
+      "statistical_confidence": 0.49876077479310144,
+      "cost_benefit_ratio": 47010.0
+    },
+    {
+      "command_name": "intelligent-refactor-session.md",
+      "success_rate": 0.4,
+      "avg_execution_time": 0.9262022972106934,
+      "execution_time_stddev": 0.06778840033870498,
+      "token_consumption_estimate": 4132,
+      "complexity_score": 8,
+      "error_frequency": 0.6,
+      "error_types": [
+        "TimeoutError",
+        "InvalidSyntax",
+        "TokenLimitExceeded"
+      ],
+      "sample_outputs": [
+        "Run 1: FAILED - InvalidSyntax",
+        "Run 2: FAILED - TokenLimitExceeded",
+        "Run 3: FAILED - TimeoutError",
+        "Run 4: SUCCESS (0.861s)",
+        "Run 5: SUCCESS (0.925s)"
+      ],
+      "performance_grade": "F",
+      "savage_commentary": "\ud83d\udeab intelligent-refactor-session.md fails 60.0% of the time. That's not 'intelligent automation', that's a coin flip with worse odds. Complexity score of 8 suggests over-engineering without reliability.",
+      "statistical_confidence": 0.5053620746692482,
+      "cost_benefit_ratio": 82640.0
+    }
+  ],
+  "scientific_analysis": {
+    "statistical_confidence": 0.689,
+    "performance_consistency": "HIGH",
+    "complexity_assessment": "ACCEPTABLE",
+    "overall_verdict": "\ud83d\ude10 MEDIOCRE: Commands work sometimes. That's... something, I guess."
+  }
+}
