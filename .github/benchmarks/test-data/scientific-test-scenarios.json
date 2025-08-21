@@ -1,0 +1,59 @@
+{
+  "test_scenarios": [
+    {
+      "command": "ultrathink-full-mcp",
+      "complexity_score": 8,
+      "test_cases": [
+        "optimize database performance",
+        "design microservice architecture", 
+        "debug memory leak",
+        "implement caching strategy",
+        "plan system migration"
+      ]
+    },
+    {
+      "command": "reasoning-wrapper",
+      "complexity_score": 4,
+      "test_cases": [
+        "/user:simple-command",
+        "function add(a, b) { return a + b; }",
+        "deploy to production",
+        "mcp__tool__example",
+        "refactor authentication"
+      ]
+    },
+    {
+      "command": "adhd-morning-assistant",
+      "complexity_score": 5,
+      "test_cases": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "command": "ultrathink", 
+      "complexity_score": 6,
+      "test_cases": [
+        "solve infinite loop bug",
+        "choose between React and Vue",
+        "optimize API response time",
+        "design user onboarding flow",
+        "debug flaky tests"
+      ]
+    },
+    {
+      "command": "intelligent-code-enhancer",
+      "complexity_score": 7,
+      "test_cases": [
+        "improve UserService.java readability",
+        "enhance API documentation", 
+        "optimize SQL queries",
+        "refactor legacy authentication",
+        "modernize JavaScript patterns"
+      ]
+    }
+  ]
+}

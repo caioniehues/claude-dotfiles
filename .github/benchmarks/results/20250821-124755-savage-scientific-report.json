@@ -1,0 +1,1056 @@
+{
+  "benchmark_metadata": {
+    "timestamp": "20250821-124755",
+    "benchmarker_version": "2.0_SCIENTIFIC_SAVAGE",
+    "total_commands_tested": 5,
+    "total_test_runs": 100,
+    "methodology": "Scientific sampling with statistical analysis"
+  },
+  "aggregate_statistics": {
+    "complexity_violations": 5,
+    "average_complexity_score": 11.12,
+    "average_execution_time": 8.06,
+    "average_success_rate": 0.8,
+    "average_token_consumption": 2190.0
+  },
+  "executive_summary": "SAVAGE SCIENTIFIC BENCHMARKER - EXECUTIVE SUMMARY\n=================================================\n\nTESTED: 5 commands with 100 statistical samples\n\nCLAUDE.MD RULE VIOLATIONS: 5/5 commands (100.0%)\n- Complexity Score Average: 11.12/5.00 (RULE: must be < 5.0)\n\nPERFORMANCE ANALYSIS:\n- Average Execution Time: 8.06 seconds\n- Average Success Rate: 80.0%\n- Average Token Consumption: 2190 tokens\n\nSTATISTICAL VERDICT:\nSYSTEMATIC FAILURE - Most commands violate basic complexity rules\nRELIABILITY CONCERN - Success rate below industry standards",
+  "detailed_results": [
+    {
+      "command": "ultrathink-full-mcp",
+      "complexity": {
+        "complexity_score": 28.4,
+        "lines": 665,
+        "mcp_tools": 29,
+        "thinking_blocks": 3,
+        "violates_rule": true,
+        "violation_severity": "CRITICAL"
+      },
+      "runs": [
+        {
+          "run_number": 1,
+          "test_case": "optimize database performance",
+          "execution_time": 9.33,
+          "tokens_consumed": 4057,
+          "success": false,
+          "error_message": "Simulated failure: timeout"
+        },
+        {
+          "run_number": 2,
+          "test_case": "optimize database performance",
+          "execution_time": 11.48,
+          "tokens_consumed": 4223,
+          "success": true,
+          "error_message": null
+        },
+        {
+          "run_number": 3,
+          "test_case": "optimize database performance",
+          "execution_time": 9.6,
+          "tokens_consumed": 2357,
+          "success": true,
+          "error_message": null
+        },
+        {
+          "run_number": 4,
+          "test_case": "optimize database performance",
+          "execution_time": 11.93,
+          "tokens_consumed": 2455,
+          "success": true,
+          "error_message": null
+        },
+        {
+          "run_number": 5,
+          "test_case": "optimize database performance",
+          "execution_time": 11.73,
+          "tokens_consumed": 3449,
+          "success": true,
+          "error_message": null
+        },
+        {
+          "run_number": 1,
+          "test_case": "design microservice architecture",
+          "execution_time": 13.57,
+          "tokens_consumed": 4908,
+          "success": true,
+          "error_message": null
+        },
+        {
+          "run_number": 2,
+          "test_case": "design microservice architecture",
+          "execution_time": 10.24,
+          "tokens_consumed": 3461,
+          "success": true,
+          "error_message": null
+        },
+        {
+          "run_number": 3,
+          "test_case": "design microservice architecture",
+          "execution_time": 9.3,
+          "tokens_consumed": 4500,
+          "success": false,
+          "error_message": "Simulated failure: pattern mismatch"
+        },
+        {
+          "run_number": 4,
+          "test_case": "design microservice architecture",
+          "execution_time": 8.8,
+          "tokens_consumed": 4121,
+          "success": true,
+          "error_message": null
+        },
+        {
+          "run_number": 5,
+          "test_case": "design microservice architecture",
+          "execution_time": 11.91,
+          "tokens_consumed": 2698,
+          "success": true,
+          "error_message": null
+        },
+        {
+          "run_number": 1,
+          "test_case": "debug memory leak",
+          "execution_time": 9.71,
+          "tokens_consumed": 4299,
+          "success": false,
+          "error_message": "Simulated failure: timeout"
+        },
+        {
+          "run_number": 2,
+          "test_case": "debug memory leak",
+          "execution_time": 10.15,
+          "tokens_consumed": 2959,
+          "success": true,
+          "error_message": null
+        },
+        {
+          "run_number": 3,
+          "test_case": "debug memory leak",
+          "execution_time": 15.66,
+          "tokens_consumed": 2721,
+          "success": false,
+          "error_message": "Simulated failure: pattern mismatch"
+        },
+        {
+          "run_number": 4,
+          "test_case": "debug memory leak",
+          "execution_time": 9.0,
+          "tokens_consumed": 4335,
+          "success": true,
+          "error_message": null
+        },
+        {
+          "run_number": 5,
+          "test_case": "debug memory leak",
+          "execution_time": 12.42,
+          "tokens_consumed": 3186,
+          "success": true,
+          "error_message": null
+        },
+        {
+          "run_number": 1,
+          "test_case": "implement caching strategy",
+          "execution_time": 13.09,
+          "tokens_consumed": 4501,
+          "success": true,
+          "error_message": null
+        },
+        {
+          "run_number": 2,
+          "test_case": "implement caching strategy",
+          "execution_time": 12.5,
+          "tokens_consumed": 3790,
+          "success": true,
+          "error_message": null
+        },
+        {
+          "run_number": 3,
+          "test_case": "implement caching strategy",
+          "execution_time": 12.24,
+          "tokens_consumed": 2660,
+          "success": false,
+          "error_message": "Simulated failure: timeout"
+        },
+        {
+          "run_number": 4,
+          "test_case": "implement caching strategy",
+          "execution_time": 12.84,
+          "tokens_consumed": 3455,
+          "success": true,
+          "error_message": null
+        },
+        {
+          "run_number": 5,
+          "test_case": "implement caching strategy",
+          "execution_time": 14.12,
+          "tokens_consumed": 3600,
+          "success": true,
+          "error_message": null
+        },
+        {
+          "run_number": 1,
+          "test_case": "plan system migration",
+          "execution_time": 9.94,
+          "tokens_consumed": 2875,
+          "success": true,
+          "error_message": null
+        },
+        {
+          "run_number": 2,
+          "test_case": "plan system migration",
+          "execution_time": 14.25,
+          "tokens_consumed": 5056,
+          "success": false,
+          "error_message": "Simulated failure: mcp unavailable"
+        },
+        {
+          "run_number": 3,
+          "test_case": "plan system migration",
+          "execution_time": 10.52,
+          "tokens_consumed": 3408,
+          "success": true,
+          "error_message": null
+        },
+        {
+          "run_number": 4,
+          "test_case": "plan system migration",
+          "execution_time": 9.75,
+          "tokens_consumed": 3611,
+          "success": true,
+          "error_message": null
+        },
+        {
+          "run_number": 5,
+          "test_case": "plan system migration",
+          "execution_time": 13.77,
+          "tokens_consumed": 4601,
+          "success": true,
+          "error_message": null
+        }
+      ],
+      "timestamp": "20250821-124755",
+      "statistical_analysis": {
+        "execution_time": {
+          "mean": 11.44,
+          "median": 11.73,
+          "stdev": 1.663777495807524,
+          "min": 8.8,
+          "max": 14.12,
+          "variance": 2.768155555555555
+        },
+        "token_consumption": {
+          "mean": 3578.5789473684213,
+          "median": 3461,
+          "stdev": 731.4200279661076,
+          "min": 2357,
+          "max": 4908
+        },
+        "reliability": {
+          "success_rate": 0.76,
+          "failure_rate": 0.24,
+          "confidence_interval_95": {
+            "lower": 0.5925834130081491,
+            "upper": 0.9274165869918509,
+            "margin_of_error": 0.16741658699185097
+          }
+        },
+        "savage_analysis": {
+          "roi_score": "GOOD",
+          "efficiency_rating": "MEDIOCRE",
+          "brutally_honest_verdict": "COMPLEXITY VIOLATION: Score 28.4/5 (CLAUDE.md rule violated) | PERFORMANCE DISASTER: 11.4s average execution (slower than my grandma's dial-up) | RELIABILITY NIGHTMARE: 76.0% success rate (worse odds than Vegas) | TOKEN WASTE: 3579 tokens average (burning money like a Ferrari)"
+        }
+      }
+    },
+    {
+      "command": "reasoning-wrapper",
+      "complexity": {
+        "complexity_score": 7.0,
+        "lines": 415,
+        "mcp_tools": 2,
+        "thinking_blocks": 0,
+        "violates_rule": true,
+        "violation_severity": "WARNING"
+      },
+      "runs": [
+        {
+          "run_number": 1,
+          "test_case": "/user:simple-command",
+          "execution_time": 3.9,
+          "tokens_consumed": 963,
+          "success": true,
+          "error_message": null
+        },
+        {
+          "run_number": 2,
+          "test_case": "/user:simple-command",
+          "execution_time": 2.6,
+          "tokens_consumed": 1213,
+          "success": false,
+          "error_message": "Simulated failure: mcp unavailable"
+        },
+        {
+          "run_number": 3,
+          "test_case": "/user:simple-command",
+          "execution_time": 2.53,
+          "tokens_consumed": 958,
+          "success": true,
+          "error_message": null
+        },
+        {
+          "run_number": 4,
+          "test_case": "/user:simple-command",
+          "execution_time": 4.46,
+          "tokens_consumed": 806,
+          "success": true,
+          "error_message": null
+        },
+        {
+          "run_number": 5,
+          "test_case": "/user:simple-command",
+          "execution_time": 2.57,
+          "tokens_consumed": 687,
+          "success": true,
+          "error_message": null
+        },
+        {
+          "run_number": 1,
+          "test_case": "function add(a, b) { return a + b; }",
+          "execution_time": 3.52,
+          "tokens_consumed": 1371,
+          "success": true,
+          "error_message": null
+        },
+        {
+          "run_number": 2,
+          "test_case": "function add(a, b) { return a + b; }",
+          "execution_time": 4.25,
+          "tokens_consumed": 1109,
+          "success": true,
+          "error_message": null
+        },
+        {
+          "run_number": 3,
+          "test_case": "function add(a, b) { return a + b; }",
+          "execution_time": 4.91,
+          "tokens_consumed": 1155,
+          "success": true,
+          "error_message": null
+        },
+        {
+          "run_number": 4,
+          "test_case": "function add(a, b) { return a + b; }",
+          "execution_time": 4.22,
+          "tokens_consumed": 610,
+          "success": true,
+          "error_message": null
+        },
+        {
+          "run_number": 5,
+          "test_case": "function add(a, b) { return a + b; }",
+          "execution_time": 1.91,
+          "tokens_consumed": 1151,
+          "success": false,
+          "error_message": "Simulated failure: pattern mismatch"
+        },
+        {
+          "run_number": 1,
+          "test_case": "deploy to production",
+          "execution_time": 2.52,
+          "tokens_consumed": 1200,
+          "success": true,
+          "error_message": null
+        },
+        {
+          "run_number": 2,
+          "test_case": "deploy to production",
+          "execution_time": 2.47,
+          "tokens_consumed": 993,
+          "success": true,
+          "error_message": null
+        },
+        {
+          "run_number": 3,
+          "test_case": "deploy to production",
+          "execution_time": 3.59,
+          "tokens_consumed": 1060,
+          "success": true,
+          "error_message": null
+        },
+        {
+          "run_number": 4,
+          "test_case": "deploy to production",
+          "execution_time": 2.93,
+          "tokens_consumed": 1491,
+          "success": true,
+          "error_message": null
+        },
+        {
+          "run_number": 5,
+          "test_case": "deploy to production",
+          "execution_time": 4.49,
+          "tokens_consumed": 672,
+          "success": true,
+          "error_message": null
+        },
+        {
+          "run_number": 1,
+          "test_case": "mcp__tool__example",
+          "execution_time": 2.39,
+          "tokens_consumed": 560,
+          "success": false,
+          "error_message": "Simulated failure: mcp unavailable"
+        },
+        {
+          "run_number": 2,
+          "test_case": "mcp__tool__example",
+          "execution_time": 2.72,
+          "tokens_consumed": 1214,
+          "success": true,
+          "error_message": null
+        },
+        {
+          "run_number": 3,
+          "test_case": "mcp__tool__example",
+          "execution_time": 4.3,
+          "tokens_consumed": 683,
+          "success": true,
+          "error_message": null
+        },
+        {
+          "run_number": 4,
+          "test_case": "mcp__tool__example",
+          "execution_time": 2.85,
+          "tokens_consumed": 841,
+          "success": true,
+          "error_message": null
+        },
+        {
+          "run_number": 5,
+          "test_case": "mcp__tool__example",
+          "execution_time": 4.39,
+          "tokens_consumed": 1437,
+          "success": true,
+          "error_message": null
+        },
+        {
+          "run_number": 1,
+          "test_case": "refactor authentication",
+          "execution_time": 3.18,
+          "tokens_consumed": 1192,
+          "success": true,
+          "error_message": null
+        },
+        {
+          "run_number": 2,
+          "test_case": "refactor authentication",
+          "execution_time": 4.77,
+          "tokens_consumed": 406,
+          "success": true,
+          "error_message": null
+        },
+        {
+          "run_number": 3,
+          "test_case": "refactor authentication",
+          "execution_time": 3.78,
+          "tokens_consumed": 578,
+          "success": true,
+          "error_message": null
+        },
+        {
+          "run_number": 4,
+          "test_case": "refactor authentication",
+          "execution_time": 2.65,
+          "tokens_consumed": 809,
+          "success": true,
+          "error_message": null
+        },
+        {
+          "run_number": 5,
+          "test_case": "refactor authentication",
+          "execution_time": 4.38,
+          "tokens_consumed": 611,
+          "success": true,
+          "error_message": null
+        }
+      ],
+      "timestamp": "20250821-124755",
+      "statistical_analysis": {
+        "execution_time": {
+          "mean": 3.608181818181818,
+          "median": 3.6849999999999996,
+          "stdev": 0.839141490785935,
+          "min": 2.47,
+          "max": 4.91,
+          "variance": 0.7041584415584414
+        },
+        "token_consumption": {
+          "mean": 947.5454545454545,
+          "median": 960.5,
+          "stdev": 301.92142264924735,
+          "min": 406,
+          "max": 1491
+        },
+        "reliability": {
+          "success_rate": 0.88,
+          "failure_rate": 0.12,
+          "confidence_interval_95": {
+            "lower": 0.7526150778153081,
+            "upper": 1,
+            "margin_of_error": 0.12738492218469186
+          }
+        },
+        "savage_analysis": {
+          "roi_score": "EXCELLENT",
+          "efficiency_rating": "SOLID",
+          "brutally_honest_verdict": "COMPLEXITY VIOLATION: Score 7.0/5 (CLAUDE.md rule violated)"
+        }
+      }
+    },
+    {
+      "command": "adhd-morning-assistant",
+      "complexity": {
+        "complexity_score": 5.5,
+        "lines": 309,
+        "mcp_tools": 7,
+        "thinking_blocks": 0,
+        "violates_rule": true,
+        "violation_severity": "WARNING"
+      },
+      "runs": [],
+      "timestamp": "20250821-124755",
+      "statistical_analysis": {
+        "error": "NO SUCCESSFUL RUNS - COMPLETE FAILURE",
+        "success_rate": 0.0,
+        "savage_verdict": "CATASTROPHIC FAILURE - UNUSABLE"
+      }
+    },
+    {
+      "command": "ultrathink",
+      "complexity": {
+        "complexity_score": 7.0,
+        "lines": 357,
+        "mcp_tools": 6,
+        "thinking_blocks": 0,
+        "violates_rule": true,
+        "violation_severity": "WARNING"
+      },
+      "runs": [
+        {
+          "run_number": 1,
+          "test_case": "solve infinite loop bug",
+          "execution_time": 9.54,
+          "tokens_consumed": 2280,
+          "success": true,
+          "error_message": null
+        },
+        {
+          "run_number": 2,
+          "test_case": "solve infinite loop bug",
+          "execution_time": 10.08,
+          "tokens_consumed": 2432,
+          "success": true,
+          "error_message": null
+        },
+        {
+          "run_number": 3,
+          "test_case": "solve infinite loop bug",
+          "execution_time": 8.96,
+          "tokens_consumed": 2040,
+          "success": true,
+          "error_message": null
+        },
+        {
+          "run_number": 4,
+          "test_case": "solve infinite loop bug",
+          "execution_time": 8.23,
+          "tokens_consumed": 2316,
+          "success": true,
+          "error_message": null
+        },
+        {
+          "run_number": 5,
+          "test_case": "solve infinite loop bug",
+          "execution_time": 11.02,
+          "tokens_consumed": 1807,
+          "success": true,
+          "error_message": null
+        },
+        {
+          "run_number": 1,
+          "test_case": "choose between React and Vue",
+          "execution_time": 9.29,
+          "tokens_consumed": 1961,
+          "success": false,
+          "error_message": "Simulated failure: mcp unavailable"
+        },
+        {
+          "run_number": 2,
+          "test_case": "choose between React and Vue",
+          "execution_time": 8.75,
+          "tokens_consumed": 1400,
+          "success": true,
+          "error_message": null
+        },
+        {
+          "run_number": 3,
+          "test_case": "choose between React and Vue",
+          "execution_time": 9.49,
+          "tokens_consumed": 2000,
+          "success": true,
+          "error_message": null
+        },
+        {
+          "run_number": 4,
+          "test_case": "choose between React and Vue",
+          "execution_time": 5.76,
+          "tokens_consumed": 1634,
+          "success": true,
+          "error_message": null
+        },
+        {
+          "run_number": 5,
+          "test_case": "choose between React and Vue",
+          "execution_time": 7.36,
+          "tokens_consumed": 2211,
+          "success": false,
+          "error_message": "Simulated failure: pattern mismatch"
+        },
+        {
+          "run_number": 1,
+          "test_case": "optimize API response time",
+          "execution_time": 8.0,
+          "tokens_consumed": 2120,
+          "success": false,
+          "error_message": "Simulated failure: mcp unavailable"
+        },
+        {
+          "run_number": 2,
+          "test_case": "optimize API response time",
+          "execution_time": 8.29,
+          "tokens_consumed": 1301,
+          "success": true,
+          "error_message": null
+        },
+        {
+          "run_number": 3,
+          "test_case": "optimize API response time",
+          "execution_time": 8.42,
+          "tokens_consumed": 1838,
+          "success": false,
+          "error_message": "Simulated failure: pattern mismatch"
+        },
+        {
+          "run_number": 4,
+          "test_case": "optimize API response time",
+          "execution_time": 9.37,
+          "tokens_consumed": 2316,
+          "success": true,
+          "error_message": null
+        },
+        {
+          "run_number": 5,
+          "test_case": "optimize API response time",
+          "execution_time": 8.31,
+          "tokens_consumed": 1566,
+          "success": false,
+          "error_message": "Simulated failure: pattern mismatch"
+        },
+        {
+          "run_number": 1,
+          "test_case": "design user onboarding flow",
+          "execution_time": 7.26,
+          "tokens_consumed": 2032,
+          "success": true,
+          "error_message": null
+        },
+        {
+          "run_number": 2,
+          "test_case": "design user onboarding flow",
+          "execution_time": 7.04,
+          "tokens_consumed": 2625,
+          "success": true,
+          "error_message": null
+        },
+        {
+          "run_number": 3,
+          "test_case": "design user onboarding flow",
+          "execution_time": 7.58,
+          "tokens_consumed": 2345,
+          "success": true,
+          "error_message": null
+        },
+        {
+          "run_number": 4,
+          "test_case": "design user onboarding flow",
+          "execution_time": 7.82,
+          "tokens_consumed": 1557,
+          "success": true,
+          "error_message": null
+        },
+        {
+          "run_number": 5,
+          "test_case": "design user onboarding flow",
+          "execution_time": 6.19,
+          "tokens_consumed": 2225,
+          "success": true,
+          "error_message": null
+        },
+        {
+          "run_number": 1,
+          "test_case": "debug flaky tests",
+          "execution_time": 7.16,
+          "tokens_consumed": 1504,
+          "success": true,
+          "error_message": null
+        },
+        {
+          "run_number": 2,
+          "test_case": "debug flaky tests",
+          "execution_time": 9.72,
+          "tokens_consumed": 1763,
+          "success": true,
+          "error_message": null
+        },
+        {
+          "run_number": 3,
+          "test_case": "debug flaky tests",
+          "execution_time": 8.9,
+          "tokens_consumed": 1928,
+          "success": true,
+          "error_message": null
+        },
+        {
+          "run_number": 4,
+          "test_case": "debug flaky tests",
+          "execution_time": 6.61,
+          "tokens_consumed": 1909,
+          "success": true,
+          "error_message": null
+        },
+        {
+          "run_number": 5,
+          "test_case": "debug flaky tests",
+          "execution_time": 5.15,
+          "tokens_consumed": 1160,
+          "success": true,
+          "error_message": null
+        }
+      ],
+      "timestamp": "20250821-124755",
+      "statistical_analysis": {
+        "execution_time": {
+          "mean": 8.146,
+          "median": 8.26,
+          "stdev": 1.5493713495954957,
+          "min": 5.15,
+          "max": 11.02,
+          "variance": 2.400551578947368
+        },
+        "token_consumption": {
+          "mean": 1928.7,
+          "median": 1964.0,
+          "stdev": 408.02903663445585,
+          "min": 1160,
+          "max": 2625
+        },
+        "reliability": {
+          "success_rate": 0.8,
+          "failure_rate": 0.2,
+          "confidence_interval_95": {
+            "lower": 0.6432,
+            "upper": 0.9568000000000001,
+            "margin_of_error": 0.1568
+          }
+        },
+        "savage_analysis": {
+          "roi_score": "GOOD",
+          "efficiency_rating": "MEDIOCRE",
+          "brutally_honest_verdict": "COMPLEXITY VIOLATION: Score 7.0/5 (CLAUDE.md rule violated)"
+        }
+      }
+    },
+    {
+      "command": "intelligent-code-enhancer",
+      "complexity": {
+        "complexity_score": 7.7,
+        "lines": 442,
+        "mcp_tools": 1,
+        "thinking_blocks": 4,
+        "violates_rule": true,
+        "violation_severity": "WARNING"
+      },
+      "runs": [
+        {
+          "run_number": 1,
+          "test_case": "improve UserService.java readability",
+          "execution_time": 6.44,
+          "tokens_consumed": 2281,
+          "success": true,
+          "error_message": null
+        },
+        {
+          "run_number": 2,
+          "test_case": "improve UserService.java readability",
+          "execution_time": 7.81,
+          "tokens_consumed": 3003,
+          "success": false,
+          "error_message": "Simulated failure: mcp unavailable"
+        },
+        {
+          "run_number": 3,
+          "test_case": "improve UserService.java readability",
+          "execution_time": 9.45,
+          "tokens_consumed": 2983,
+          "success": true,
+          "error_message": null
+        },
+        {
+          "run_number": 4,
+          "test_case": "improve UserService.java readability",
+          "execution_time": 6.77,
+          "tokens_consumed": 2012,
+          "success": false,
+          "error_message": "Simulated failure: timeout"
+        },
+        {
+          "run_number": 5,
+          "test_case": "improve UserService.java readability",
+          "execution_time": 11.56,
+          "tokens_consumed": 2021,
+          "success": true,
+          "error_message": null
+        },
+        {
+          "run_number": 1,
+          "test_case": "enhance API documentation",
+          "execution_time": 7.77,
+          "tokens_consumed": 3148,
+          "success": true,
+          "error_message": null
+        },
+        {
+          "run_number": 2,
+          "test_case": "enhance API documentation",
+          "execution_time": 6.33,
+          "tokens_consumed": 1734,
+          "success": true,
+          "error_message": null
+        },
+        {
+          "run_number": 3,
+          "test_case": "enhance API documentation",
+          "execution_time": 11.23,
+          "tokens_consumed": 2169,
+          "success": true,
+          "error_message": null
+        },
+        {
+          "run_number": 4,
+          "test_case": "enhance API documentation",
+          "execution_time": 8.28,
+          "tokens_consumed": 2158,
+          "success": false,
+          "error_message": "Simulated failure: timeout"
+        },
+        {
+          "run_number": 5,
+          "test_case": "enhance API documentation",
+          "execution_time": 8.69,
+          "tokens_consumed": 2310,
+          "success": true,
+          "error_message": null
+        },
+        {
+          "run_number": 1,
+          "test_case": "optimize SQL queries",
+          "execution_time": 10.17,
+          "tokens_consumed": 3258,
+          "success": false,
+          "error_message": "Simulated failure: mcp unavailable"
+        },
+        {
+          "run_number": 2,
+          "test_case": "optimize SQL queries",
+          "execution_time": 7.42,
+          "tokens_consumed": 1649,
+          "success": true,
+          "error_message": null
+        },
+        {
+          "run_number": 3,
+          "test_case": "optimize SQL queries",
+          "execution_time": 8.26,
+          "tokens_consumed": 1959,
+          "success": true,
+          "error_message": null
+        },
+        {
+          "run_number": 4,
+          "test_case": "optimize SQL queries",
+          "execution_time": 12.16,
+          "tokens_consumed": 2273,
+          "success": true,
+          "error_message": null
+        },
+        {
+          "run_number": 5,
+          "test_case": "optimize SQL queries",
+          "execution_time": 10.33,
+          "tokens_consumed": 2784,
+          "success": false,
+          "error_message": "Simulated failure: complexity overload"
+        },
+        {
+          "run_number": 1,
+          "test_case": "refactor legacy authentication",
+          "execution_time": 8.78,
+          "tokens_consumed": 2496,
+          "success": true,
+          "error_message": null
+        },
+        {
+          "run_number": 2,
+          "test_case": "refactor legacy authentication",
+          "execution_time": 7.49,
+          "tokens_consumed": 1840,
+          "success": true,
+          "error_message": null
+        },
+        {
+          "run_number": 3,
+          "test_case": "refactor legacy authentication",
+          "execution_time": 11.01,
+          "tokens_consumed": 3118,
+          "success": true,
+          "error_message": null
+        },
+        {
+          "run_number": 4,
+          "test_case": "refactor legacy authentication",
+          "execution_time": 9.4,
+          "tokens_consumed": 2336,
+          "success": true,
+          "error_message": null
+        },
+        {
+          "run_number": 5,
+          "test_case": "refactor legacy authentication",
+          "execution_time": 13.24,
+          "tokens_consumed": 1768,
+          "success": true,
+          "error_message": null
+        },
+        {
+          "run_number": 1,
+          "test_case": "modernize JavaScript patterns",
+          "execution_time": 6.24,
+          "tokens_consumed": 2128,
+          "success": true,
+          "error_message": null
+        },
+        {
+          "run_number": 2,
+          "test_case": "modernize JavaScript patterns",
+          "execution_time": 13.0,
+          "tokens_consumed": 2728,
+          "success": false,
+          "error_message": "Simulated failure: timeout"
+        },
+        {
+          "run_number": 3,
+          "test_case": "modernize JavaScript patterns",
+          "execution_time": 7.05,
+          "tokens_consumed": 1952,
+          "success": true,
+          "error_message": null
+        },
+        {
+          "run_number": 4,
+          "test_case": "modernize JavaScript patterns",
+          "execution_time": 10.08,
+          "tokens_consumed": 2750,
+          "success": true,
+          "error_message": null
+        },
+        {
+          "run_number": 5,
+          "test_case": "modernize JavaScript patterns",
+          "execution_time": 9.41,
+          "tokens_consumed": 2899,
+          "success": true,
+          "error_message": null
+        }
+      ],
+      "timestamp": "20250821-124755",
+      "statistical_analysis": {
+        "execution_time": {
+          "mean": 9.053157894736842,
+          "median": 8.78,
+          "stdev": 2.0717304968219175,
+          "min": 6.24,
+          "max": 13.24,
+          "variance": 4.292067251461988
+        },
+        "token_consumption": {
+          "mean": 2306,
+          "median": 2273,
+          "stdev": 474.75069480962554,
+          "min": 1649,
+          "max": 3148
+        },
+        "reliability": {
+          "success_rate": 0.76,
+          "failure_rate": 0.24,
+          "confidence_interval_95": {
+            "lower": 0.5925834130081491,
+            "upper": 0.9274165869918509,
+            "margin_of_error": 0.16741658699185097
+          }
+        },
+        "savage_analysis": {
+          "roi_score": "GOOD",
+          "efficiency_rating": "MEDIOCRE",
+          "brutally_honest_verdict": "COMPLEXITY VIOLATION: Score 7.7/5 (CLAUDE.md rule violated) | RELIABILITY NIGHTMARE: 76.0% success rate (worse odds than Vegas)"
+        }
+      }
+    }
+  ],
+  "evidence_collected": [
+    {
+      "command": "ultrathink-full-mcp",
+      "total_runs": 25,
+      "successful_runs": 19,
+      "avg_execution_time": 11.44,
+      "complexity_violation": true
+    },
+    {
+      "command": "reasoning-wrapper",
+      "total_runs": 25,
+      "successful_runs": 22,
+      "avg_execution_time": 3.608181818181818,
+      "complexity_violation": true
+    },
+    {
+      "command": "adhd-morning-assistant",
+      "total_runs": 0,
+      "successful_runs": 0,
+      "avg_execution_time": 0,
+      "complexity_violation": true
+    },
+    {
+      "command": "ultrathink",
+      "total_runs": 25,
+      "successful_runs": 20,
+      "avg_execution_time": 8.146,
+      "complexity_violation": true
+    },
+    {
+      "command": "intelligent-code-enhancer",
+      "total_runs": 25,
+      "successful_runs": 19,
+      "avg_execution_time": 9.053157894736842,
+      "complexity_violation": true
+    }
+  ],
+  "statistical_violations": [],
+  "savage_final_verdict": "SYSTEMATIC OVER-ENGINEERING - Commands are too complex for their own good"
+}
