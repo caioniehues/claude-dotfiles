@@ -1,0 +1,478 @@
+{
+  "metadata": {
+    "timestamp": "2025-08-21T00:51:05.364115",
+    "benchmarker_version": "2.0-ENHANCED",
+    "total_commands_analyzed": 5,
+    "statistical_model": "Advanced with autocorrelation and confidence intervals",
+    "savage_level": "PhD-tier"
+  },
+  "individual_results": [
+    {
+      "command_name": "adaptive-complexity-router",
+      "timestamp": "2025-08-21T00:51:05.358797",
+      "metrics": {
+        "complexity_score": 8,
+        "execution_time_mean": 6.86276194665602,
+        "execution_time_std": 1.933357018427237,
+        "execution_time_cv": 0.28171704533176956,
+        "token_input_mean": 736.375,
+        "token_output_mean": 3441.875,
+        "token_efficiency": 4.674079103717535,
+        "token_cost_estimate": 0.01253475,
+        "success_rate": 0.5,
+        "confidence_interval_95": [
+          0.21521252682444186,
+          0.7847874731755582
+        ],
+        "failure_types": [
+          "COMPLEXITY_OVERLOAD"
+        ],
+        "pattern_violations": [],
+        "anti_pattern_count": 0,
+        "good_pattern_count": 1,
+        "line_count": 499,
+        "word_count": 1347,
+        "mcp_complexity": 0,
+        "thinking_bloat_ratio": 0.012024048096192385
+      },
+      "raw_performance_data": {
+        "execution_times": [
+          9.156262544157421,
+          4.44417059594592,
+          8.455125516764317,
+          7.397715779082052,
+          6.898033248071637,
+          7.8529340750255665,
+          7.174917201123824,
+          3.5229366130774253
+        ],
+        "input_tokens": [
+          607,
+          1032,
+          723,
+          618,
+          494,
+          910,
+          908,
+          599
+        ],
+        "output_tokens": [
+          2809,
+          4981,
+          3391,
+          2821,
+          2222,
+          4356,
+          4080,
+          2875
+        ],
+        "successes": [
+          true,
+          true,
+          true,
+          true,
+          false,
+          false,
+          false,
+          false
+        ],
+        "failure_types": [
+          "COMPLEXITY_OVERLOAD",
+          "COMPLEXITY_OVERLOAD",
+          "COMPLEXITY_OVERLOAD",
+          "COMPLEXITY_OVERLOAD"
+        ],
+        "base_success_rate": 0.41999999999999993
+      },
+      "content_analysis": {
+        "violations": [],
+        "good_patterns": [
+          "IMMUTABILITY: Final parameters"
+        ],
+        "file_size_bytes": 11186,
+        "content_hash": "5f51b505fb8d0d02152d96b212363816"
+      },
+      "savage_judgment": "\ud83d\udca5 COMPLEXITY OVERLOAD: 8/15. When simple solutions hurt your ego this much. | \ud83d\udc80 RELIABILITY DISASTER: 50.0% success (CI: \u00b157.0%). Vegas has better odds! | \ud83d\udcca PERFORMANCE STABLE: CV=28.2%. Consistent execution. | \ud83d\udcb0 TOKEN HEAVY: 4.7x expansion. Verbose but not insane. Cost: $0.0125 | \u2728 GOOD PATTERNS: 1 detected. IMMUTABILITY: Final parameters",
+      "evidence_file": "commands/adaptive-complexity-router.md"
+    },
+    {
+      "command_name": "ultrathink-hybrid-mcp",
+      "timestamp": "2025-08-21T00:51:05.360415",
+      "metrics": {
+        "complexity_score": 15,
+        "execution_time_mean": 10.69316260888959,
+        "execution_time_std": 2.252794444813469,
+        "execution_time_cv": 0.21067616075908582,
+        "token_input_mean": 1233,
+        "token_output_mean": 9573.5,
+        "token_efficiency": 7.764395782643958,
+        "token_cost_estimate": 0.0324195,
+        "success_rate": 0.125,
+        "confidence_interval_95": [
+          0.02241690886329617,
+          0.4708948057698615
+        ],
+        "failure_types": [
+          "COMPLEXITY_OVERLOAD"
+        ],
+        "pattern_violations": [],
+        "anti_pattern_count": 0,
+        "good_pattern_count": 1,
+        "line_count": 536,
+        "word_count": 1640,
+        "mcp_complexity": 15,
+        "thinking_bloat_ratio": 0.15671641791044777
+      },
+      "raw_performance_data": {
+        "execution_times": [
+          9.769462634461751,
+          7.6979189991313755,
+          9.79585374561924,
+          11.39331886856374,
+          8.108662363531625,
+          14.202014355744595,
+          11.88891459852627,
+          12.68915530553812
+        ],
+        "input_tokens": [
+          1197,
+          1060,
+          1161,
+          1239,
+          1324,
+          1911,
+          615,
+          1357
+        ],
+        "output_tokens": [
+          9108,
+          7847,
+          9322,
+          9732,
+          10224,
+          14810,
+          4785,
+          10760
+        ],
+        "successes": [
+          false,
+          false,
+          false,
+          true,
+          false,
+          false,
+          false,
+          false
+        ],
+        "failure_types": [
+          "COMPLEXITY_OVERLOAD",
+          "COMPLEXITY_OVERLOAD",
+          "COMPLEXITY_OVERLOAD",
+          "COMPLEXITY_OVERLOAD",
+          "COMPLEXITY_OVERLOAD",
+          "COMPLEXITY_OVERLOAD",
+          "COMPLEXITY_OVERLOAD"
+        ],
+        "base_success_rate": 0.2
+      },
+      "content_analysis": {
+        "violations": [],
+        "good_patterns": [
+          "IMMUTABILITY: Final parameters"
+        ],
+        "file_size_bytes": 13338,
+        "content_hash": "afe8502b7c452e52a31eec96c6b34a57"
+      },
+      "savage_judgment": "\ud83d\udea8 COMPLEXITY CATASTROPHE: 15/15. This isn't software engineering, it's digital archaeology! | \ud83d\udc80 RELIABILITY DISASTER: 12.5% success (CI: \u00b144.8%). Vegas has better odds! | \ud83d\udcca PERFORMANCE STABLE: CV=21.1%. Consistent execution. | \ud83d\udcb8 TOKEN WASTE: 7.8x expansion. This is bloat, not intelligence! Cost: $0.0324 | \ud83d\udd27 MCP OVERLOAD: 15 MCP complexity points. Tool orchestration gone wild! | \u2728 GOOD PATTERNS: 1 detected. IMMUTABILITY: Final parameters",
+      "evidence_file": "commands/ultrathink-hybrid-mcp.md"
+    },
+    {
+      "command_name": "adhd-context-switch",
+      "timestamp": "2025-08-21T00:51:05.361533",
+      "metrics": {
+        "complexity_score": 9,
+        "execution_time_mean": 6.530361207960732,
+        "execution_time_std": 1.9677747521071294,
+        "execution_time_cv": 0.30132709193916335,
+        "token_input_mean": 918.75,
+        "token_output_mean": 4718.75,
+        "token_efficiency": 5.136054421768708,
+        "token_cost_estimate": 0.0169125,
+        "success_rate": 0.125,
+        "confidence_interval_95": [
+          0.02241690886329617,
+          0.4708948057698615
+        ],
+        "failure_types": [
+          "COMPLEXITY_OVERLOAD"
+        ],
+        "pattern_violations": [],
+        "anti_pattern_count": 0,
+        "good_pattern_count": 1,
+        "line_count": 399,
+        "word_count": 1170,
+        "mcp_complexity": 7,
+        "thinking_bloat_ratio": 0.0
+      },
+      "raw_performance_data": {
+        "execution_times": [
+          7.824455264381001,
+          7.780755368930658,
+          5.549840433517872,
+          8.832543433913049,
+          5.030152686841287,
+          8.373098685886086,
+          5.671521482288064,
+          3.1805223079278377
+        ],
+        "input_tokens": [
+          888,
+          1117,
+          914,
+          953,
+          932,
+          620,
+          927,
+          999
+        ],
+        "output_tokens": [
+          4636,
+          6115,
+          4128,
+          4738,
+          4821,
+          2843,
+          4985,
+          5484
+        ],
+        "successes": [
+          false,
+          false,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "failure_types": [
+          "COMPLEXITY_OVERLOAD",
+          "COMPLEXITY_OVERLOAD",
+          "COMPLEXITY_OVERLOAD",
+          "COMPLEXITY_OVERLOAD",
+          "COMPLEXITY_OVERLOAD",
+          "COMPLEXITY_OVERLOAD",
+          "COMPLEXITY_OVERLOAD"
+        ],
+        "base_success_rate": 0.33999999999999997
+      },
+      "content_analysis": {
+        "violations": [],
+        "good_patterns": [
+          "MODERN_JAVA: Using records for DTOs"
+        ],
+        "file_size_bytes": 9885,
+        "content_hash": "1a013fe8b72fff345cff3361132c7db0"
+      },
+      "savage_judgment": "\ud83d\udca5 COMPLEXITY OVERLOAD: 9/15. When simple solutions hurt your ego this much. | \ud83d\udc80 RELIABILITY DISASTER: 12.5% success (CI: \u00b144.8%). Vegas has better odds! | \ud83d\udcca PERFORMANCE VARIANCE: CV=30.1%. Inconsistent execution times. | \ud83d\udcb8 TOKEN WASTE: 5.1x expansion. This is bloat, not intelligence! Cost: $0.0169 | \u2728 GOOD PATTERNS: 1 detected. MODERN_JAVA: Using records for DTOs",
+      "evidence_file": "commands/adhd-context-switch.md"
+    },
+    {
+      "command_name": "git-backup-sync",
+      "timestamp": "2025-08-21T00:51:05.362748",
+      "metrics": {
+        "complexity_score": 13,
+        "execution_time_mean": 10.444458845234863,
+        "execution_time_std": 2.9593693219661708,
+        "execution_time_cv": 0.2833434805783491,
+        "token_input_mean": 1174.625,
+        "token_output_mean": 7735.125,
+        "token_efficiency": 6.5851867617324675,
+        "token_cost_estimate": 0.026729250000000003,
+        "success_rate": 0.125,
+        "confidence_interval_95": [
+          0.02241690886329617,
+          0.4708948057698615
+        ],
+        "failure_types": [
+          "COMPLEXITY_OVERLOAD"
+        ],
+        "pattern_violations": [],
+        "anti_pattern_count": 0,
+        "good_pattern_count": 1,
+        "line_count": 531,
+        "word_count": 1461,
+        "mcp_complexity": 4,
+        "thinking_bloat_ratio": 0.0
+      },
+      "raw_performance_data": {
+        "execution_times": [
+          10.09393158898564,
+          9.029226770631082,
+          9.326534483195124,
+          12.957591006177157,
+          11.75601601323178,
+          15.76599232868646,
+          8.304433260134294,
+          6.321945310837359
+        ],
+        "input_tokens": [
+          909,
+          1317,
+          1177,
+          1193,
+          1005,
+          1123,
+          1110,
+          1563
+        ],
+        "output_tokens": [
+          5635,
+          8660,
+          7443,
+          7532,
+          7105,
+          7684,
+          7415,
+          10407
+        ],
+        "successes": [
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "failure_types": [
+          "COMPLEXITY_OVERLOAD",
+          "COMPLEXITY_OVERLOAD",
+          "COMPLEXITY_OVERLOAD",
+          "COMPLEXITY_OVERLOAD",
+          "COMPLEXITY_OVERLOAD",
+          "COMPLEXITY_OVERLOAD",
+          "COMPLEXITY_OVERLOAD"
+        ],
+        "base_success_rate": 0.2
+      },
+      "content_analysis": {
+        "violations": [],
+        "good_patterns": [
+          "IMMUTABILITY: Final parameters"
+        ],
+        "file_size_bytes": 12474,
+        "content_hash": "e47599373ff9cdf7c8da5d9adde2538c"
+      },
+      "savage_judgment": "\ud83d\udea8 COMPLEXITY CATASTROPHE: 13/15. This isn't software engineering, it's digital archaeology! | \ud83d\udc80 RELIABILITY DISASTER: 12.5% success (CI: \u00b144.8%). Vegas has better odds! | \ud83d\udcca PERFORMANCE STABLE: CV=28.3%. Consistent execution. | \ud83d\udcb8 TOKEN WASTE: 6.6x expansion. This is bloat, not intelligence! Cost: $0.0267 | \u2728 GOOD PATTERNS: 1 detected. IMMUTABILITY: Final parameters",
+      "evidence_file": "commands/git-backup-sync.md"
+    },
+    {
+      "command_name": "ultrathink-pure-xml",
+      "timestamp": "2025-08-21T00:51:05.363934",
+      "metrics": {
+        "complexity_score": 8,
+        "execution_time_mean": 7.094262245128818,
+        "execution_time_std": 1.1710166229327748,
+        "execution_time_cv": 0.16506531369584454,
+        "token_input_mean": 694.125,
+        "token_output_mean": 3370,
+        "token_efficiency": 4.855033315325049,
+        "token_cost_estimate": 0.012192375,
+        "success_rate": 0.25,
+        "confidence_interval_95": [
+          0.07147768885802763,
+          0.5907301208974108
+        ],
+        "failure_types": [
+          "COMPLEXITY_OVERLOAD"
+        ],
+        "pattern_violations": [],
+        "anti_pattern_count": 0,
+        "good_pattern_count": 1,
+        "line_count": 472,
+        "word_count": 1514,
+        "mcp_complexity": 0,
+        "thinking_bloat_ratio": 0.17584745762711865
+      },
+      "raw_performance_data": {
+        "execution_times": [
+          5.682838375382127,
+          5.289037469928745,
+          7.5103788688399415,
+          6.628837561552943,
+          7.276331582854192,
+          8.293928201049246,
+          7.440243897605325,
+          8.632502003818026
+        ],
+        "input_tokens": [
+          626,
+          690,
+          614,
+          628,
+          851,
+          665,
+          579,
+          900
+        ],
+        "output_tokens": [
+          3103,
+          3329,
+          3094,
+          3074,
+          4490,
+          3150,
+          2591,
+          4129
+        ],
+        "successes": [
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          false
+        ],
+        "failure_types": [
+          "COMPLEXITY_OVERLOAD",
+          "COMPLEXITY_OVERLOAD",
+          "COMPLEXITY_OVERLOAD",
+          "COMPLEXITY_OVERLOAD",
+          "COMPLEXITY_OVERLOAD",
+          "COMPLEXITY_OVERLOAD"
+        ],
+        "base_success_rate": 0.41999999999999993
+      },
+      "content_analysis": {
+        "violations": [],
+        "good_patterns": [
+          "IMMUTABILITY: Final parameters"
+        ],
+        "file_size_bytes": 11326,
+        "content_hash": "4d7b163a5f28aef0d93a47a061f50e18"
+      },
+      "savage_judgment": "\ud83d\udca5 COMPLEXITY OVERLOAD: 8/15. When simple solutions hurt your ego this much. | \ud83d\udc80 RELIABILITY DISASTER: 25.0% success (CI: \u00b151.9%). Vegas has better odds! | \ud83d\udcca PERFORMANCE STABLE: CV=16.5%. Consistent execution. | \ud83d\udcb0 TOKEN HEAVY: 4.9x expansion. Verbose but not insane. Cost: $0.0122 | \u2728 GOOD PATTERNS: 1 detected. IMMUTABILITY: Final parameters",
+      "evidence_file": "commands/ultrathink-pure-xml.md"
+    }
+  ],
+  "comparative_analysis": {
+    "complexity_stats": {
+      "mean": 10.6,
+      "max": 15,
+      "violators_count": 5
+    },
+    "reliability_stats": {
+      "mean": 0.225,
+      "worst": 0.125
+    },
+    "efficiency_stats": {
+      "mean": 5.802949877037544,
+      "total_cost": 0.100788375
+    }
+  },
+  "savage_summary": "Enhanced statistical analysis complete. Some commands need immediate intervention. See individual judgments for detailed roasting with confidence intervals."
+}
