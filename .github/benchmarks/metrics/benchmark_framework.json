@@ -1,0 +1,52 @@
+{
+  "benchmark_config": {
+    "timestamp": "2025-08-22T23:02:46Z",
+    "selected_commands": [
+      "adhd-evening-reflect.md",
+      "adhd-hyperfocus-guardian.md", 
+      "git-backup-sync.md",
+      "intelligent-code-enhancer.md",
+      "java-clean-code-generator.md"
+    ],
+    "sample_size": 5,
+    "metrics": {
+      "complexity_score": {
+        "calculation": "Direct solution: 1pt + New class: 2pts + Interface: 1pt + Pattern: 3pts + Config: 2pts",
+        "threshold": 5,
+        "weight": 0.25
+      },
+      "token_consumption": {
+        "measurement": "input + output tokens per execution",
+        "unit": "tokens",
+        "weight": 0.20
+      },
+      "execution_time": {
+        "measurement": "wall clock time for command completion",
+        "unit": "seconds", 
+        "statistical_samples": 5,
+        "weight": 0.15
+      },
+      "success_rate": {
+        "measurement": "percentage of successful executions",
+        "unit": "percentage",
+        "weight": 0.20
+      },
+      "composition_compatibility": {
+        "measurement": "ability to chain with other commands",
+        "scale": "1-10",
+        "weight": 0.10
+      },
+      "memory_integration": {
+        "measurement": "Basic Memory usage patterns",
+        "scale": "1-10",
+        "weight": 0.10
+      }
+    },
+    "savage_criteria": {
+      "failure_threshold": 25,
+      "complexity_violation": 5,
+      "token_waste_threshold": 10000,
+      "time_waste_threshold": 60
+    }
+  }
+}

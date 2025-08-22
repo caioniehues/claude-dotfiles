@@ -1,0 +1,97 @@
+{
+  "test_scenarios": {
+    "adhd-evening-reflect": {
+      "test_cases": [
+        {
+          "id": "basic_reflection",
+          "input": "/adhd-evening-reflect",
+          "expected_tokens": "8000-12000",
+          "expected_time": "60-90s",
+          "success_criteria": "Actual memory integration and daily note creation"
+        },
+        {
+          "id": "no_memory_data", 
+          "input": "/adhd-evening-reflect",
+          "condition": "Empty Basic Memory",
+          "expected_outcome": "Graceful degradation or failure"
+        },
+        {
+          "id": "invalid_interpolation",
+          "input": "/adhd-evening-reflect", 
+          "expected_outcome": "Template variable failures"
+        }
+      ]
+    },
+    "adhd-hyperfocus-guardian": {
+      "test_cases": [
+        {
+          "id": "basic_session",
+          "input": "/adhd-hyperfocus-guardian coding task",
+          "expected_tokens": "10000-15000", 
+          "expected_time": "45-75s",
+          "success_criteria": "Actual timer setup and session management"
+        },
+        {
+          "id": "system_integration",
+          "input": "/adhd-hyperfocus-guardian system task",
+          "expected_outcome": "Cross-platform script failures"
+        }
+      ]
+    },
+    "git-backup-sync": {
+      "test_cases": [
+        {
+          "id": "simple_sync",
+          "input": "/git-backup-sync",
+          "expected_tokens": "5000-8000",
+          "expected_time": "30-60s", 
+          "success_criteria": "Actual git operations"
+        },
+        {
+          "id": "complex_scenario",
+          "input": "/git-backup-sync --multi-repo",
+          "expected_outcome": "Complexity explosion"
+        }
+      ]
+    },
+    "intelligent-code-enhancer": {
+      "test_cases": [
+        {
+          "id": "simple_enhancement",
+          "input": "/intelligent-code-enhancer improve function readability",
+          "expected_tokens": "6000-10000",
+          "expected_time": "40-70s",
+          "success_criteria": "Actual code improvement"
+        }
+      ]
+    },
+    "java-clean-code-generator": {
+      "test_cases": [
+        {
+          "id": "simple_class",
+          "input": "/java-clean-code-generator create User service",
+          "expected_tokens": "12000-18000",
+          "expected_time": "60-120s",
+          "success_criteria": "Production Java code following standards"
+        },
+        {
+          "id": "complexity_explosion", 
+          "input": "/java-clean-code-generator enterprise payment system",
+          "expected_outcome": "Ironic complexity violation"
+        }
+      ]
+    }
+  },
+  "measurement_protocol": {
+    "token_measurement": "Use Claude API response metadata",
+    "time_measurement": "Wall clock time start to completion",
+    "success_measurement": "Binary: produces expected output vs fails",
+    "quality_measurement": "Manual assessment of output utility"
+  },
+  "statistical_plan": {
+    "sample_size": 5,
+    "confidence_level": 0.95,
+    "measurements": ["mean", "std_dev", "confidence_interval", "failure_rate"],
+    "comparison_baseline": "Manual execution of equivalent task"
+  }
+}
