@@ -1,0 +1,138 @@
+{
+  "benchmark_metadata": {
+    "timestamp": "20250822-163952",
+    "total_commands_tested": 3,
+    "total_samples": 15,
+    "framework_version": "1.0"
+  },
+  "aggregate_statistics": {
+    "average_success_rate": 0.5333333333333333,
+    "average_savage_score": 1.333333333333333,
+    "total_estimated_cost": 1.15318,
+    "compliance_rate": 0.0
+  },
+  "savage_rankings": [
+    {
+      "rank": 1,
+      "command_name": "adaptive-complexity-router",
+      "savage_score": 3.0,
+      "judgment": "\u274c adaptive-complexity-router is struggling. 80.0% success rate is gambling territory.",
+      "key_metrics": {
+        "success_rate": 0.8,
+        "avg_execution_time": 16.131418279211317,
+        "complexity_score": 8,
+        "total_tokens": 32199
+      }
+    },
+    {
+      "rank": 2,
+      "command_name": "intelligent-refactor-session",
+      "savage_score": 0.9999999999999991,
+      "judgment": "\ud83d\udc80 intelligent-refactor-session is a disaster. 60.0% success rate with 22.5s execution time. Delete this.",
+      "key_metrics": {
+        "success_rate": 0.6,
+        "avg_execution_time": 22.4842934106973,
+        "complexity_score": 10,
+        "total_tokens": 47324
+      }
+    },
+    {
+      "rank": 3,
+      "command_name": "adhd-hyperfocus-guardian",
+      "savage_score": 0.0,
+      "judgment": "\ud83d\udc80 adhd-hyperfocus-guardian is a disaster. 20.0% success rate with 15.5s execution time. Delete this.",
+      "key_metrics": {
+        "success_rate": 0.2,
+        "avg_execution_time": 15.527432663069197,
+        "complexity_score": 5,
+        "total_tokens": 35795
+      }
+    }
+  ],
+  "detailed_results": [
+    {
+      "command_name": "adaptive-complexity-router",
+      "sample_size": 5,
+      "execution_times": [
+        16.16499153061233,
+        16.00566414917295,
+        16.26414375467931,
+        16.214613630465088,
+        16.007678331126904
+      ],
+      "mean_execution_time": 16.131418279211317,
+      "std_dev": 0.11915363768231994,
+      "success_rate": 0.8,
+      "total_tokens": 32199,
+      "avg_complexity": 8,
+      "cost_estimate": 0.32199000000000005,
+      "savage_score": 3.0,
+      "judgment": "\u274c adaptive-complexity-router is struggling. 80.0% success rate is gambling territory.",
+      "recommendations": [
+        "REDUCE COMPLEXITY: Score 8.0 violates CLAUDE.md rule (max 5)",
+        "OPTIMIZE PERFORMANCE: 16.1s execution time is too slow",
+        "MAJOR REFACTOR NEEDED: Multiple critical issues detected"
+      ]
+    },
+    {
+      "command_name": "intelligent-refactor-session",
+      "sample_size": 5,
+      "execution_times": [
+        22.673115887837945,
+        22.34400208937173,
+        22.595240714205893,
+        22.411129957648306,
+        22.397978404422638
+      ],
+      "mean_execution_time": 22.4842934106973,
+      "std_dev": 0.1418168343664447,
+      "success_rate": 0.6,
+      "total_tokens": 47324,
+      "avg_complexity": 10,
+      "cost_estimate": 0.47324000000000005,
+      "savage_score": 0.9999999999999991,
+      "judgment": "\ud83d\udc80 intelligent-refactor-session is a disaster. 60.0% success rate with 22.5s execution time. Delete this.",
+      "recommendations": [
+        "REDUCE COMPLEXITY: Score 10.0 violates CLAUDE.md rule (max 5)",
+        "FIX RELIABILITY: 60.0% success rate is unacceptable",
+        "OPTIMIZE PERFORMANCE: 22.5s execution time is too slow",
+        "MAJOR REFACTOR NEEDED: Multiple critical issues detected"
+      ]
+    },
+    {
+      "command_name": "adhd-hyperfocus-guardian",
+      "sample_size": 5,
+      "execution_times": [
+        15.466021001337287,
+        15.656762706234591,
+        15.451646155669167,
+        15.41597468552257,
+        15.646758766582366
+      ],
+      "mean_execution_time": 15.527432663069197,
+      "std_dev": 0.11500309420201689,
+      "success_rate": 0.2,
+      "total_tokens": 35795,
+      "avg_complexity": 5,
+      "cost_estimate": 0.35795000000000005,
+      "savage_score": 0.0,
+      "judgment": "\ud83d\udc80 adhd-hyperfocus-guardian is a disaster. 20.0% success rate with 15.5s execution time. Delete this.",
+      "recommendations": [
+        "REDUCE COMPLEXITY: Score 5.0 violates CLAUDE.md rule (max 5)",
+        "FIX RELIABILITY: 20.0% success rate is unacceptable",
+        "OPTIMIZE PERFORMANCE: 15.5s execution time is too slow",
+        "MAJOR REFACTOR NEEDED: Multiple critical issues detected"
+      ]
+    }
+  ],
+  "critical_issues": [
+    "intelligent-refactor-session",
+    "adhd-hyperfocus-guardian",
+    "adaptive-complexity-router"
+  ],
+  "compliance_violations": [
+    "intelligent-refactor-session",
+    "adhd-hyperfocus-guardian",
+    "adaptive-complexity-router"
+  ]
+}
