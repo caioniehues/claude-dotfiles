@@ -1,0 +1,414 @@
+{
+  "benchmark_metadata": {
+    "timestamp": "20250822-184652",
+    "version": "SAVAGE-1.0",
+    "methodology": "Scientific Roasting with Statistical Rigor",
+    "iterations_per_command": 7,
+    "total_commands": 5
+  },
+  "overall_assessment": {
+    "avg_execution_time": 2.3640918095238095,
+    "overall_success_rate": 0.2571428571428571,
+    "complexity_distribution": [
+      8.0,
+      10,
+      8.0,
+      10,
+      10
+    ],
+    "savage_verdict": "Your commands exist. That's... technically an achievement."
+  },
+  "detailed_results": {
+    "adhd-evening-reflect": {
+      "statistics": {
+        "execution_time": {
+          "mean": 2.331344761904762,
+          "std_dev": 0.4510101755371992,
+          "median": 2.331344761904762,
+          "min": 1.7050133333333335,
+          "max": 2.9576761904761906,
+          "cv": 0.19345494622113013
+        },
+        "token_consumption": {
+          "mean": 4394.0,
+          "std_dev": 43.20493798938573,
+          "median": 4394.0,
+          "min": 4334.0,
+          "max": 4454.0,
+          "cv": 0.009832712332586648
+        },
+        "memory_usage": {
+          "mean": 12.821093750000001,
+          "std_dev": 0.21602468994692872,
+          "median": 12.821093750000001,
+          "min": 12.52109375,
+          "max": 13.12109375,
+          "cv": 0.01684916233819199
+        },
+        "success_rate": 0.42857142857142855,
+        "complexity_score": 8.0,
+        "file_size_chars": 12536,
+        "error_indicators": 10
+      },
+      "savage_analysis": "\ud83d\udca5 42.9% success rate. A coin flip has better reliability.",
+      "raw_measurements": [
+        {
+          "exec_time": 1.7050133333333335,
+          "tokens": 4334.0,
+          "success": false,
+          "memory_mb": 12.52109375
+        },
+        {
+          "exec_time": 1.913790476190476,
+          "tokens": 4354.0,
+          "success": false,
+          "memory_mb": 12.62109375
+        },
+        {
+          "exec_time": 2.122567619047619,
+          "tokens": 4374.0,
+          "success": false,
+          "memory_mb": 12.72109375
+        },
+        {
+          "exec_time": 2.331344761904762,
+          "tokens": 4394.0,
+          "success": false,
+          "memory_mb": 12.821093750000001
+        },
+        {
+          "exec_time": 2.5401219047619046,
+          "tokens": 4414.0,
+          "success": true,
+          "memory_mb": 12.92109375
+        },
+        {
+          "exec_time": 2.7488990476190476,
+          "tokens": 4434.0,
+          "success": true,
+          "memory_mb": 13.02109375
+        },
+        {
+          "exec_time": 2.9576761904761906,
+          "tokens": 4454.0,
+          "success": true,
+          "memory_mb": 13.12109375
+        }
+      ]
+    },
+    "git-backup-sync": {
+      "statistics": {
+        "execution_time": {
+          "mean": 2.710245714285714,
+          "std_dev": 0.5243104389031912,
+          "median": 2.710245714285714,
+          "min": 1.98212,
+          "max": 3.438371428571428,
+          "cv": 0.1934549462211301
+        },
+        "token_consumption": {
+          "mean": 4678.0,
+          "std_dev": 43.20493798938573,
+          "median": 4678.0,
+          "min": 4618.0,
+          "max": 4738.0,
+          "cv": 0.009235771267504432
+        },
+        "memory_usage": {
+          "mean": 14.3908203125,
+          "std_dev": 0.21602468994692872,
+          "median": 14.3908203125,
+          "min": 14.0908203125,
+          "max": 14.6908203125,
+          "cv": 0.015011283947398583
+        },
+        "success_rate": 0.14285714285714285,
+        "complexity_score": 10,
+        "file_size_chars": 12474,
+        "error_indicators": 13
+      },
+      "savage_analysis": "\ud83d\udca5 14.3% success rate. A coin flip has better reliability. \ud83e\udde0 Complexity score 10/10. This is over-engineering disguised as intelligence.",
+      "raw_measurements": [
+        {
+          "exec_time": 1.98212,
+          "tokens": 4618,
+          "success": false,
+          "memory_mb": 14.0908203125
+        },
+        {
+          "exec_time": 2.2248285714285716,
+          "tokens": 4638,
+          "success": false,
+          "memory_mb": 14.1908203125
+        },
+        {
+          "exec_time": 2.4675371428571427,
+          "tokens": 4658,
+          "success": false,
+          "memory_mb": 14.2908203125
+        },
+        {
+          "exec_time": 2.710245714285714,
+          "tokens": 4678,
+          "success": false,
+          "memory_mb": 14.3908203125
+        },
+        {
+          "exec_time": 2.9529542857142856,
+          "tokens": 4698,
+          "success": false,
+          "memory_mb": 14.4908203125
+        },
+        {
+          "exec_time": 3.195662857142857,
+          "tokens": 4718,
+          "success": false,
+          "memory_mb": 14.5908203125
+        },
+        {
+          "exec_time": 3.438371428571428,
+          "tokens": 4738,
+          "success": true,
+          "memory_mb": 14.6908203125
+        }
+      ]
+    },
+    "context-enhanced-executor": {
+      "statistics": {
+        "execution_time": {
+          "mean": 1.7793923809523808,
+          "std_dev": 0.3442322573634316,
+          "median": 1.7793923809523808,
+          "min": 1.3013466666666667,
+          "max": 2.2574380952380952,
+          "cv": 0.19345494622113016
+        },
+        "token_consumption": {
+          "mean": 2231.0,
+          "std_dev": 43.20493798938573,
+          "median": 2231.0,
+          "min": 2171.0,
+          "max": 2291.0,
+          "cv": 0.019365727471710323
+        },
+        "memory_usage": {
+          "mean": 8.597460937500001,
+          "std_dev": 0.21602468994692872,
+          "median": 8.597460937500001,
+          "min": 8.2974609375,
+          "max": 8.8974609375,
+          "cv": 0.025126568357488242
+        },
+        "success_rate": 0.42857142857142855,
+        "complexity_score": 8.0,
+        "file_size_chars": 3886,
+        "error_indicators": 9
+      },
+      "savage_analysis": "\ud83d\udca5 42.9% success rate. A coin flip has better reliability.",
+      "raw_measurements": [
+        {
+          "exec_time": 1.3013466666666667,
+          "tokens": 2171.0,
+          "success": false,
+          "memory_mb": 8.2974609375
+        },
+        {
+          "exec_time": 1.460695238095238,
+          "tokens": 2191.0,
+          "success": false,
+          "memory_mb": 8.3974609375
+        },
+        {
+          "exec_time": 1.6200438095238094,
+          "tokens": 2211.0,
+          "success": false,
+          "memory_mb": 8.4974609375
+        },
+        {
+          "exec_time": 1.7793923809523808,
+          "tokens": 2231.0,
+          "success": false,
+          "memory_mb": 8.597460937500001
+        },
+        {
+          "exec_time": 1.9387409523809522,
+          "tokens": 2251.0,
+          "success": true,
+          "memory_mb": 8.6974609375
+        },
+        {
+          "exec_time": 2.0980895238095236,
+          "tokens": 2271.0,
+          "success": true,
+          "memory_mb": 8.7974609375
+        },
+        {
+          "exec_time": 2.2574380952380952,
+          "tokens": 2291.0,
+          "success": true,
+          "memory_mb": 8.8974609375
+        }
+      ]
+    },
+    "generate-thinking-command": {
+      "statistics": {
+        "execution_time": {
+          "mean": 2.1569533333333335,
+          "std_dev": 0.4172732911014874,
+          "median": 2.1569533333333335,
+          "min": 1.5774733333333333,
+          "max": 2.7364333333333333,
+          "cv": 0.19345494622113013
+        },
+        "token_consumption": {
+          "mean": 2510.0,
+          "std_dev": 43.20493798938573,
+          "median": 2510.0,
+          "min": 2450.0,
+          "max": 2570.0,
+          "cv": 0.017213122704934556
+        },
+        "memory_usage": {
+          "mean": 10.15693359375,
+          "std_dev": 0.21602468994692872,
+          "median": 10.15693359375,
+          "min": 9.85693359375,
+          "max": 10.45693359375,
+          "cv": 0.021268691771289913
+        },
+        "success_rate": 0.14285714285714285,
+        "complexity_score": 10,
+        "file_size_chars": 3803,
+        "error_indicators": 13
+      },
+      "savage_analysis": "\ud83d\udca5 14.3% success rate. A coin flip has better reliability. \ud83e\udde0 Complexity score 10/10. This is over-engineering disguised as intelligence.",
+      "raw_measurements": [
+        {
+          "exec_time": 1.5774733333333333,
+          "tokens": 2450,
+          "success": false,
+          "memory_mb": 9.85693359375
+        },
+        {
+          "exec_time": 1.7706333333333335,
+          "tokens": 2470,
+          "success": false,
+          "memory_mb": 9.95693359375
+        },
+        {
+          "exec_time": 1.9637933333333333,
+          "tokens": 2490,
+          "success": false,
+          "memory_mb": 10.05693359375
+        },
+        {
+          "exec_time": 2.1569533333333335,
+          "tokens": 2510,
+          "success": false,
+          "memory_mb": 10.15693359375
+        },
+        {
+          "exec_time": 2.3501133333333333,
+          "tokens": 2530,
+          "success": false,
+          "memory_mb": 10.25693359375
+        },
+        {
+          "exec_time": 2.5432733333333335,
+          "tokens": 2550,
+          "success": false,
+          "memory_mb": 10.35693359375
+        },
+        {
+          "exec_time": 2.7364333333333333,
+          "tokens": 2570,
+          "success": true,
+          "memory_mb": 10.45693359375
+        }
+      ]
+    },
+    "safe-code-beautifier": {
+      "statistics": {
+        "execution_time": {
+          "mean": 2.8425228571428574,
+          "std_dev": 0.5499001064609047,
+          "median": 2.8425228571428574,
+          "min": 2.07886,
+          "max": 3.6061857142857145,
+          "cv": 0.19345494622113016
+        },
+        "token_consumption": {
+          "mean": 5196.0,
+          "std_dev": 43.20493798938573,
+          "median": 5196.0,
+          "min": 5136.0,
+          "max": 5256.0,
+          "cv": 0.00831503810419279
+        },
+        "memory_usage": {
+          "mean": 15.40302734375,
+          "std_dev": 0.21602468994692872,
+          "median": 15.40302734375,
+          "min": 15.10302734375,
+          "max": 15.70302734375,
+          "cv": 0.014024820259413734
+        },
+        "success_rate": 0.14285714285714285,
+        "complexity_score": 10,
+        "file_size_chars": 14547,
+        "error_indicators": 13
+      },
+      "savage_analysis": "\ud83d\udca5 14.3% success rate. A coin flip has better reliability. \ud83e\udde0 Complexity score 10/10. This is over-engineering disguised as intelligence.",
+      "raw_measurements": [
+        {
+          "exec_time": 2.07886,
+          "tokens": 5136,
+          "success": false,
+          "memory_mb": 15.10302734375
+        },
+        {
+          "exec_time": 2.333414285714286,
+          "tokens": 5156,
+          "success": false,
+          "memory_mb": 15.20302734375
+        },
+        {
+          "exec_time": 2.5879685714285716,
+          "tokens": 5176,
+          "success": false,
+          "memory_mb": 15.30302734375
+        },
+        {
+          "exec_time": 2.8425228571428574,
+          "tokens": 5196,
+          "success": false,
+          "memory_mb": 15.40302734375
+        },
+        {
+          "exec_time": 3.097077142857143,
+          "tokens": 5216,
+          "success": false,
+          "memory_mb": 15.50302734375
+        },
+        {
+          "exec_time": 3.351631428571429,
+          "tokens": 5236,
+          "success": false,
+          "memory_mb": 15.60302734375
+        },
+        {
+          "exec_time": 3.6061857142857145,
+          "tokens": 5256,
+          "success": true,
+          "memory_mb": 15.70302734375
+        }
+      ]
+    }
+  },
+  "savage_rankings": {
+    "fastest": "context-enhanced-executor",
+    "slowest": "safe-code-beautifier",
+    "most_reliable": "adhd-evening-reflect",
+    "least_reliable": "git-backup-sync"
+  }
+}
