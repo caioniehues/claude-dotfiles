@@ -1,0 +1,1395 @@
+{
+  "benchmark_metadata": {
+    "timestamp": "20250822-001600",
+    "version": "2.0-savage-phd",
+    "commands_analyzed": 5,
+    "analysis_depth": "COMPREHENSIVE"
+  },
+  "executive_summary": {
+    "average_score": 84.4,
+    "score_standard_deviation": 22.5,
+    "score_range": [
+      46.6,
+      100
+    ],
+    "overall_assessment": "\ud83c\udfc6 SURPRISINGLY COMPETENT: Commands show proper engineering"
+  },
+  "statistical_analysis": {
+    "complexity_score": {
+      "mean": 15,
+      "median": 15,
+      "std_deviation": 0.0,
+      "variance": 0,
+      "confidence_interval_95": [
+        15,
+        15
+      ],
+      "sample_size": 5,
+      "coefficient_of_variation": 0.0,
+      "outliers": [],
+      "distribution_shape": "HIGHLY_CONSISTENT"
+    },
+    "estimated_response_time": {
+      "mean": 29.684,
+      "median": 30.13,
+      "std_deviation": 15.237,
+      "variance": 232.178,
+      "confidence_interval_95": [
+        16.327848102331274,
+        43.04015189766873
+      ],
+      "sample_size": 5,
+      "coefficient_of_variation": 0.513,
+      "outliers": [],
+      "distribution_shape": "HIGH_VARIATION"
+    },
+    "reusability_score": {
+      "mean": 9,
+      "median": 10,
+      "std_deviation": 1.414,
+      "variance": 2,
+      "confidence_interval_95": [
+        7.760387157213995,
+        10.239612842786006
+      ],
+      "sample_size": 5,
+      "coefficient_of_variation": 0.157,
+      "outliers": [],
+      "distribution_shape": "CONSISTENT"
+    },
+    "token_estimate": {
+      "mean": 2376.14,
+      "median": 2132.0,
+      "std_deviation": 1032.942,
+      "variance": 1066968.318,
+      "confidence_interval_95": [
+        1470.726780477687,
+        3281.5532195223127
+      ],
+      "sample_size": 5,
+      "coefficient_of_variation": 0.435,
+      "outliers": [],
+      "distribution_shape": "MODERATE_VARIATION"
+    },
+    "mcp_dependency_count": {
+      "mean": 10.6,
+      "median": 4,
+      "std_deviation": 11.824,
+      "variance": 139.8,
+      "confidence_interval_95": [
+        0.23606561194060838,
+        20.963934388059393
+      ],
+      "sample_size": 5,
+      "coefficient_of_variation": 1.115,
+      "outliers": [],
+      "distribution_shape": "HIGH_VARIATION"
+    },
+    "innovation_score": {
+      "mean": 8.2,
+      "median": 9,
+      "std_deviation": 1.643,
+      "variance": 2.7,
+      "confidence_interval_95": [
+        6.75970003124349,
+        9.640299968756509
+      ],
+      "sample_size": 5,
+      "coefficient_of_variation": 0.2,
+      "outliers": [],
+      "distribution_shape": "CONSISTENT"
+    }
+  },
+  "command_results": [
+    {
+      "command": "reasoning-wrapper",
+      "metrics": {
+        "name": "reasoning-wrapper",
+        "file_size_bytes": 10182,
+        "line_count": 415,
+        "word_count": 1200,
+        "token_estimate": 1560.0,
+        "complexity_score": 15,
+        "mcp_dependencies": [
+          "mcp-sequentialthinking-tools__sequentialthinking_tools",
+          "tool__function\""
+        ],
+        "mcp_dependency_count": 2,
+        "xml_blocks": 34,
+        "thinking_blocks": 0,
+        "code_blocks": 20,
+        "template_quality": 10,
+        "reusability_score": 10,
+        "estimated_response_time": 19.35,
+        "performance_tier": "HEAVYWEIGHT_BEAST",
+        "failure_modes": [
+          "COMPLEXITY_OVERFLOW: Users will get lost in abstraction layers",
+          "TIMEOUT_RISK: Sequential thinking may cause timeouts"
+        ],
+        "composition_compatibility": [
+          "reasoning-enhanced",
+          "code-improvement",
+          "complex-reasoning",
+          "meta-command"
+        ],
+        "maintenance_burden": "NIGHTMARE",
+        "innovation_score": 10
+      },
+      "evidence": {
+        "content_hash": "e2b10a369aa2eaf4",
+        "creation_timestamp": "2025-08-22T00:09:57.671690",
+        "sample_content": [
+          "# Reasoning Wrapper - Add Explicit Reasoning to Any Command or Code",
+          "",
+          "<task>",
+          "...",
+          "# Creates command then adds reasoning",
+          "```",
+          "</integration_notes>"
+        ],
+        "complexity_breakdown": {
+          "xml_blocks": 34,
+          "thinking_blocks": 0,
+          "code_blocks": 20,
+          "mcp_dependencies": 2,
+          "total_score": 15
+        },
+        "dependency_analysis": {
+          "mcp_tools": [
+            "mcp-sequentialthinking-tools__sequentialthinking_tools",
+            "tool__function\""
+          ],
+          "dependency_types": [
+            "tool",
+            "mcp-sequentialthinking-tools"
+          ],
+          "external_dependency_count": 2
+        },
+        "performance_measurements": {
+          "estimated_response_time": 19.35,
+          "token_efficiency": 6.41025641025641,
+          "complexity_per_line": 0.03614457831325301,
+          "features_per_kb": 0.4022785307405225
+        },
+        "failure_simulation_results": [
+          "COMPLEXITY_OVERFLOW: Users will get lost in abstraction layers: 50.0% probability",
+          "TIMEOUT_RISK: Sequential thinking may cause timeouts: 46.8% probability"
+        ],
+        "comparison_baseline": {
+          "complexity_vs_baseline": 3.0,
+          "response_time_vs_baseline": 4.8375,
+          "reusability_vs_baseline": 1.6666666666666667,
+          "tokens_vs_baseline": 0.52
+        }
+      },
+      "verdict": {
+        "final_score": 100,
+        "grade": "A",
+        "strengths": [
+          "High reusability score (10/10)",
+          "Excellent template structure (10/10)",
+          "High innovation value (10/10)"
+        ],
+        "weaknesses": [
+          "Excessive complexity (15/15) violates simplicity principles",
+          "Slow response time (19.35s) - users will suffer",
+          "Maintenance nightmare - will cause developer tears"
+        ],
+        "brutal_commentary": "\ud83c\udfc6 reasoning-wrapper scores 100/100 - Actually competent! Complexity 15, response 19.35s. Rare to see engineering principles properly applied.",
+        "improvement_recommendations": [
+          "CRITICAL: Reduce complexity from 15 to <5 by eliminating unnecessary abstractions",
+          "PERFORMANCE: Optimize response time from 19.35s to <4s",
+          "ROBUSTNESS: Address 2 failure modes for better reliability"
+        ],
+        "comparable_commands": [
+          "ultrathink-full-mcp",
+          "sequential-thinking-orchestrator"
+        ],
+        "roi_assessment": "NEGATIVE ROI (0.9x) - Costs exceed benefits"
+      }
+    },
+    {
+      "command": "adhd-context-switch",
+      "metrics": {
+        "name": "adhd-context-switch",
+        "file_size_bytes": 9972,
+        "line_count": 399,
+        "word_count": 1170,
+        "token_estimate": 1521.0,
+        "complexity_score": 15,
+        "mcp_dependencies": [
+          "basic-memory__write_note",
+          "basic-memory__write_note",
+          "basic-memory__search_notes",
+          "basic-memory__search_notes"
+        ],
+        "mcp_dependency_count": 4,
+        "xml_blocks": 14,
+        "thinking_blocks": 0,
+        "code_blocks": 26,
+        "template_quality": 8,
+        "reusability_score": 7,
+        "estimated_response_time": 13.34,
+        "performance_tier": "HEAVYWEIGHT_BEAST",
+        "failure_modes": [
+          "COMPLEXITY_OVERFLOW: Users will get lost in abstraction layers",
+          "DEPENDENCY_RISK: Multiple points of failure"
+        ],
+        "composition_compatibility": [
+          "java-ecosystem",
+          "memory-persistent",
+          "adhd-optimized"
+        ],
+        "maintenance_burden": "NIGHTMARE",
+        "innovation_score": 7
+      },
+      "evidence": {
+        "content_hash": "912967bcaa65ae26",
+        "creation_timestamp": "2025-08-22T00:09:57.669690",
+        "sample_content": [
+          "# ADHD Context Switch",
+          "",
+          "Seamless context switching that preserves mental state, reduces switching costs, and enables smooth task transitions without losing progress.",
+          "...",
+          "- Improved task completion rates",
+          "- Reduced anxiety about switching",
+          "- Better work-life boundaries"
+        ],
+        "complexity_breakdown": {
+          "xml_blocks": 14,
+          "thinking_blocks": 0,
+          "code_blocks": 26,
+          "mcp_dependencies": 4,
+          "total_score": 15
+        },
+        "dependency_analysis": {
+          "mcp_tools": [
+            "basic-memory__write_note",
+            "basic-memory__write_note",
+            "basic-memory__search_notes",
+            "basic-memory__search_notes"
+          ],
+          "dependency_types": [
+            "basic-memory"
+          ],
+          "external_dependency_count": 1
+        },
+        "performance_measurements": {
+          "estimated_response_time": 13.34,
+          "token_efficiency": 4.602235371466141,
+          "complexity_per_line": 0.03759398496240601,
+          "features_per_kb": 0.30806257521058966
+        },
+        "failure_simulation_results": [
+          "COMPLEXITY_OVERFLOW: Users will get lost in abstraction layers: 50.0% probability",
+          "DEPENDENCY_RISK: Multiple points of failure: 10.0% probability"
+        ],
+        "comparison_baseline": {
+          "complexity_vs_baseline": 3.0,
+          "response_time_vs_baseline": 3.335,
+          "reusability_vs_baseline": 1.1666666666666667,
+          "tokens_vs_baseline": 0.507
+        }
+      },
+      "verdict": {
+        "final_score": 94.3,
+        "grade": "A",
+        "strengths": [
+          "High reusability score (7/10)",
+          "Excellent template structure (8/10)",
+          "High innovation value (7/10)"
+        ],
+        "weaknesses": [
+          "Excessive complexity (15/15) violates simplicity principles",
+          "Slow response time (13.34s) - users will suffer",
+          "Maintenance nightmare - will cause developer tears"
+        ],
+        "brutal_commentary": "\ud83c\udfc6 adhd-context-switch scores 94.3/100 - Actually competent! Complexity 15, response 13.34s. Rare to see engineering principles properly applied.",
+        "improvement_recommendations": [
+          "CRITICAL: Reduce complexity from 15 to <5 by eliminating unnecessary abstractions",
+          "PERFORMANCE: Optimize response time from 13.34s to <4s",
+          "RELIABILITY: Reduce MCP dependencies from 4 to \u22643",
+          "ROBUSTNESS: Address 2 failure modes for better reliability"
+        ],
+        "comparable_commands": [
+          "ultrathink-full-mcp",
+          "sequential-thinking-orchestrator"
+        ],
+        "roi_assessment": "NEGATIVE ROI (0.7x) - Costs exceed benefits"
+      }
+    },
+    {
+      "command": "ultrathink-full-mcp",
+      "metrics": {
+        "name": "ultrathink-full-mcp",
+        "file_size_bytes": 18173,
+        "line_count": 665,
+        "word_count": 2027,
+        "token_estimate": 2635.1,
+        "complexity_score": 15,
+        "mcp_dependencies": [
+          "mcp-sequentialthinking-tools__sequentialthinking_tools",
+          "basic-memory__search_notes",
+          "basic-memory__build_context",
+          "basic-memory__write_note",
+          "basic-memory__recent_activity",
+          "firecrawl__firecrawl_search",
+          "firecrawl__firecrawl_scrape",
+          "firecrawl__firecrawl_deep_research",
+          "mcp-obsidian__read_notes",
+          "mcp-obsidian__search_notes",
+          "basic-memory__recent_activity",
+          "basic-memory__search_notes",
+          "basic-memory__search_notes",
+          "basic-memory__search_notes",
+          "basic-memory__build_context",
+          "basic-memory__build_context",
+          "mcp-obsidian__search_notes",
+          "mcp-sequentialthinking-tools__sequentialthinking_tools",
+          "basic-memory__search_notes",
+          "basic-memory__build_context",
+          "firecrawl__firecrawl_deep_research",
+          "firecrawl__firecrawl_search",
+          "firecrawl__firecrawl_search",
+          "mcp-obsidian__search_notes",
+          "mcp-obsidian__read_notes",
+          "mcp-sequentialthinking-tools__sequentialthinking_tools",
+          "mcp-sequentialthinking-tools__sequentialthinking_tools",
+          "mcp-sequentialthinking-tools__sequentialthinking_tools",
+          "basic-memory__write_note"
+        ],
+        "mcp_dependency_count": 29,
+        "xml_blocks": 30,
+        "thinking_blocks": 3,
+        "code_blocks": 42,
+        "template_quality": 9,
+        "reusability_score": 8,
+        "estimated_response_time": 53.06,
+        "performance_tier": "HEAVYWEIGHT_BEAST",
+        "failure_modes": [
+          "COMPLEXITY_OVERFLOW: Users will get lost in abstraction layers",
+          "DEPENDENCY_HELL: High failure probability from external services",
+          "TIMEOUT_RISK: Sequential thinking may cause timeouts"
+        ],
+        "composition_compatibility": [
+          "java-ecosystem",
+          "testing-workflow",
+          "memory-persistent",
+          "reasoning-enhanced",
+          "agent-orchestration",
+          "deep-analysis",
+          "complex-reasoning"
+        ],
+        "maintenance_burden": "NIGHTMARE",
+        "innovation_score": 9
+      },
+      "evidence": {
+        "content_hash": "bc3f473a168a5646",
+        "creation_timestamp": "2025-08-22T00:09:57.672690",
+        "sample_content": [
+          "# ULTRATHINK Full MCP - Maximum Capability Deep Thinking",
+          "",
+          "<task>",
+          "...",
+          "- Pattern persistence: Enhanced permanent",
+          "- Quality score: 85-95%",
+          "- Completeness: Near 100%"
+        ],
+        "complexity_breakdown": {
+          "xml_blocks": 30,
+          "thinking_blocks": 3,
+          "code_blocks": 42,
+          "mcp_dependencies": 29,
+          "total_score": 15
+        },
+        "dependency_analysis": {
+          "mcp_tools": [
+            "mcp-sequentialthinking-tools__sequentialthinking_tools",
+            "basic-memory__search_notes",
+            "basic-memory__build_context",
+            "basic-memory__write_note",
+            "basic-memory__recent_activity",
+            "firecrawl__firecrawl_search",
+            "firecrawl__firecrawl_scrape",
+            "firecrawl__firecrawl_deep_research",
+            "mcp-obsidian__read_notes",
+            "mcp-obsidian__search_notes",
+            "basic-memory__recent_activity",
+            "basic-memory__search_notes",
+            "basic-memory__search_notes",
+            "basic-memory__search_notes",
+            "basic-memory__build_context",
+            "basic-memory__build_context",
+            "mcp-obsidian__search_notes",
+            "mcp-sequentialthinking-tools__sequentialthinking_tools",
+            "basic-memory__search_notes",
+            "basic-memory__build_context",
+            "firecrawl__firecrawl_deep_research",
+            "firecrawl__firecrawl_search",
+            "firecrawl__firecrawl_search",
+            "mcp-obsidian__search_notes",
+            "mcp-obsidian__read_notes",
+            "mcp-sequentialthinking-tools__sequentialthinking_tools",
+            "mcp-sequentialthinking-tools__sequentialthinking_tools",
+            "mcp-sequentialthinking-tools__sequentialthinking_tools",
+            "basic-memory__write_note"
+          ],
+          "dependency_types": [
+            "mcp-sequentialthinking-tools",
+            "firecrawl",
+            "mcp-obsidian",
+            "basic-memory"
+          ],
+          "external_dependency_count": 4
+        },
+        "performance_measurements": {
+          "estimated_response_time": 53.06,
+          "token_efficiency": 3.0359379150696366,
+          "complexity_per_line": 0.022556390977443608,
+          "features_per_kb": 0.39443129918010233
+        },
+        "failure_simulation_results": [
+          "COMPLEXITY_OVERFLOW: Users will get lost in abstraction layers: 50.0% probability",
+          "DEPENDENCY_HELL: High failure probability from external services: 70.0% probability",
+          "TIMEOUT_RISK: Sequential thinking may cause timeouts: 50.0% probability"
+        ],
+        "comparison_baseline": {
+          "complexity_vs_baseline": 3.0,
+          "response_time_vs_baseline": 13.265,
+          "reusability_vs_baseline": 1.3333333333333333,
+          "tokens_vs_baseline": 0.8783666666666666
+        }
+      },
+      "verdict": {
+        "final_score": 46.6,
+        "grade": "F",
+        "strengths": [
+          "High reusability score (8/10)",
+          "Excellent template structure (9/10)",
+          "High innovation value (9/10)"
+        ],
+        "weaknesses": [
+          "Excessive complexity (15/15) violates simplicity principles",
+          "Slow response time (53.06s) - users will suffer",
+          "Dependency hell (29 MCP tools) - fragile",
+          "Multiple failure modes (3) - unreliable",
+          "Maintenance nightmare - will cause developer tears"
+        ],
+        "brutal_commentary": "\u26a0\ufe0f ultrathink-full-mcp scores 46.6/100 - Below average. Like a car that starts most of the time.",
+        "improvement_recommendations": [
+          "CRITICAL: Reduce complexity from 15 to <5 by eliminating unnecessary abstractions",
+          "PERFORMANCE: Optimize response time from 53.06s to <4s",
+          "RELIABILITY: Reduce MCP dependencies from 29 to \u22643",
+          "ROBUSTNESS: Address 3 failure modes for better reliability"
+        ],
+        "comparable_commands": [
+          "ultrathink-full-mcp",
+          "sequential-thinking-orchestrator"
+        ],
+        "roi_assessment": "NEGATIVE ROI (0.5x) - Costs exceed benefits"
+      }
+    },
+    {
+      "command": "ultrathink-hybrid-mcp",
+      "metrics": {
+        "name": "ultrathink-hybrid-mcp",
+        "file_size_bytes": 13431,
+        "line_count": 536,
+        "word_count": 1640,
+        "token_estimate": 2132.0,
+        "complexity_score": 15,
+        "mcp_dependencies": [
+          "basic-memory__search_notes",
+          "basic-memory__build_context",
+          "basic-memory__write_note",
+          "firecrawl__firecrawl_search",
+          "firecrawl__firecrawl_scrape",
+          "mcp-obsidian__read_notes",
+          "mcp-obsidian__search_notes",
+          "basic-memory__search_notes",
+          "basic-memory__build_context",
+          "basic-memory__build_context",
+          "basic-memory__search_notes",
+          "basic-memory__search_notes",
+          "firecrawl__firecrawl_search",
+          "mcp-obsidian__search_notes",
+          "basic-memory__write_note",
+          "basic-memory__write_note"
+        ],
+        "mcp_dependency_count": 16,
+        "xml_blocks": 31,
+        "thinking_blocks": 6,
+        "code_blocks": 30,
+        "template_quality": 10,
+        "reusability_score": 10,
+        "estimated_response_time": 30.13,
+        "performance_tier": "HEAVYWEIGHT_BEAST",
+        "failure_modes": [
+          "COMPLEXITY_OVERFLOW: Users will get lost in abstraction layers",
+          "DEPENDENCY_HELL: High failure probability from external services"
+        ],
+        "composition_compatibility": [
+          "testing-workflow",
+          "memory-persistent",
+          "reasoning-enhanced",
+          "deep-analysis",
+          "code-improvement",
+          "complex-reasoning"
+        ],
+        "maintenance_burden": "NIGHTMARE",
+        "innovation_score": 6
+      },
+      "evidence": {
+        "content_hash": "5fa07281e7a6ea84",
+        "creation_timestamp": "2025-08-22T00:09:57.672690",
+        "sample_content": [
+          "# ULTRATHINK Hybrid MCP - Balanced Performance & Capability",
+          "",
+          "<task>",
+          "...",
+          "- Thinking depth: Deep with patterns",
+          "- Pattern persistence: Permanent",
+          "- Quality score: 75-85%"
+        ],
+        "complexity_breakdown": {
+          "xml_blocks": 31,
+          "thinking_blocks": 6,
+          "code_blocks": 30,
+          "mcp_dependencies": 16,
+          "total_score": 15
+        },
+        "dependency_analysis": {
+          "mcp_tools": [
+            "basic-memory__search_notes",
+            "basic-memory__build_context",
+            "basic-memory__write_note",
+            "firecrawl__firecrawl_search",
+            "firecrawl__firecrawl_scrape",
+            "mcp-obsidian__read_notes",
+            "mcp-obsidian__search_notes",
+            "basic-memory__search_notes",
+            "basic-memory__build_context",
+            "basic-memory__build_context",
+            "basic-memory__search_notes",
+            "basic-memory__search_notes",
+            "firecrawl__firecrawl_search",
+            "mcp-obsidian__search_notes",
+            "basic-memory__write_note",
+            "basic-memory__write_note"
+          ],
+          "dependency_types": [
+            "firecrawl",
+            "mcp-obsidian",
+            "basic-memory"
+          ],
+          "external_dependency_count": 3
+        },
+        "performance_measurements": {
+          "estimated_response_time": 30.13,
+          "token_efficiency": 4.690431519699812,
+          "complexity_per_line": 0.027985074626865673,
+          "features_per_kb": 0.457449184721912
+        },
+        "failure_simulation_results": [
+          "COMPLEXITY_OVERFLOW: Users will get lost in abstraction layers: 50.0% probability",
+          "DEPENDENCY_HELL: High failure probability from external services: 70.0% probability"
+        ],
+        "comparison_baseline": {
+          "complexity_vs_baseline": 3.0,
+          "response_time_vs_baseline": 7.5325,
+          "reusability_vs_baseline": 1.6666666666666667,
+          "tokens_vs_baseline": 0.7106666666666667
+        }
+      },
+      "verdict": {
+        "final_score": 81.1,
+        "grade": "B",
+        "strengths": [
+          "High reusability score (10/10)",
+          "Excellent template structure (10/10)"
+        ],
+        "weaknesses": [
+          "Excessive complexity (15/15) violates simplicity principles",
+          "Slow response time (30.13s) - users will suffer",
+          "Dependency hell (16 MCP tools) - fragile",
+          "Maintenance nightmare - will cause developer tears"
+        ],
+        "brutal_commentary": "\ud83d\udc4d ultrathink-hybrid-mcp scores 81.1/100 - Adequate performance. Not embarrassing, which is surprisingly good for developer work.",
+        "improvement_recommendations": [
+          "CRITICAL: Reduce complexity from 15 to <5 by eliminating unnecessary abstractions",
+          "PERFORMANCE: Optimize response time from 30.13s to <4s",
+          "RELIABILITY: Reduce MCP dependencies from 16 to \u22643",
+          "ROBUSTNESS: Address 2 failure modes for better reliability"
+        ],
+        "comparable_commands": [
+          "ultrathink-full-mcp",
+          "sequential-thinking-orchestrator"
+        ],
+        "roi_assessment": "NEGATIVE ROI (0.7x) - Costs exceed benefits"
+      }
+    },
+    {
+      "command": "java-clean-code-generator",
+      "metrics": {
+        "name": "java-clean-code-generator",
+        "file_size_bytes": 25195,
+        "line_count": 819,
+        "word_count": 3102,
+        "token_estimate": 4032.6000000000004,
+        "complexity_score": 15,
+        "mcp_dependencies": [
+          "mcp-sequentialthinking-tools__sequentialthinking_tools",
+          "mcp-sequentialthinking-tools__sequentialthinking_tools"
+        ],
+        "mcp_dependency_count": 2,
+        "xml_blocks": 88,
+        "thinking_blocks": 37,
+        "code_blocks": 40,
+        "template_quality": 10,
+        "reusability_score": 10,
+        "estimated_response_time": 32.54,
+        "performance_tier": "HEAVYWEIGHT_BEAST",
+        "failure_modes": [
+          "COMPLEXITY_OVERFLOW: Users will get lost in abstraction layers",
+          "TOKEN_HEAVY: Approaching practical limits",
+          "TIMEOUT_RISK: Sequential thinking may cause timeouts"
+        ],
+        "composition_compatibility": [
+          "java-ecosystem",
+          "testing-workflow",
+          "reasoning-enhanced",
+          "code-improvement",
+          "complex-reasoning"
+        ],
+        "maintenance_burden": "NIGHTMARE",
+        "innovation_score": 9
+      },
+      "evidence": {
+        "content_hash": "120e4659e44d8fc8",
+        "creation_timestamp": "2025-08-22T00:09:57.671690",
+        "sample_content": [
+          "# Java Clean Code Generator - Production-Quality Java Implementation",
+          "",
+          "<task>",
+          "...",
+          "When complexity > 3: Engage mcp__mcp-sequentialthinking-tools__sequentialthinking_tools for systematic decision support",
+          "</thinking_foundation>",
+          "</critical_reminders>"
+        ],
+        "complexity_breakdown": {
+          "xml_blocks": 88,
+          "thinking_blocks": 37,
+          "code_blocks": 40,
+          "mcp_dependencies": 2,
+          "total_score": 15
+        },
+        "dependency_analysis": {
+          "mcp_tools": [
+            "mcp-sequentialthinking-tools__sequentialthinking_tools",
+            "mcp-sequentialthinking-tools__sequentialthinking_tools"
+          ],
+          "dependency_types": [
+            "mcp-sequentialthinking-tools"
+          ],
+          "external_dependency_count": 1
+        },
+        "performance_measurements": {
+          "estimated_response_time": 32.54,
+          "token_efficiency": 2.479789713832267,
+          "complexity_per_line": 0.018315018315018316,
+          "features_per_kb": 0.20321492359595159
+        },
+        "failure_simulation_results": [
+          "COMPLEXITY_OVERFLOW: Users will get lost in abstraction layers: 50.0% probability",
+          "TOKEN_HEAVY: Approaching practical limits: 10.0% probability",
+          "TIMEOUT_RISK: Sequential thinking may cause timeouts: 50.0% probability"
+        ],
+        "comparison_baseline": {
+          "complexity_vs_baseline": 3.0,
+          "response_time_vs_baseline": 8.135,
+          "reusability_vs_baseline": 1.6666666666666667,
+          "tokens_vs_baseline": 1.3442
+        }
+      },
+      "verdict": {
+        "final_score": 100,
+        "grade": "A",
+        "strengths": [
+          "High reusability score (10/10)",
+          "Excellent template structure (10/10)",
+          "High innovation value (9/10)"
+        ],
+        "weaknesses": [
+          "Excessive complexity (15/15) violates simplicity principles",
+          "Slow response time (32.54s) - users will suffer",
+          "Multiple failure modes (3) - unreliable",
+          "Maintenance nightmare - will cause developer tears"
+        ],
+        "brutal_commentary": "\ud83c\udfc6 java-clean-code-generator scores 100/100 - Actually competent! Complexity 15, response 32.54s. Rare to see engineering principles properly applied.",
+        "improvement_recommendations": [
+          "CRITICAL: Reduce complexity from 15 to <5 by eliminating unnecessary abstractions",
+          "PERFORMANCE: Optimize response time from 32.54s to <4s",
+          "EFFICIENCY: Reduce token usage from 4,032.6000000000004 to <4000",
+          "ROBUSTNESS: Address 3 failure modes for better reliability"
+        ],
+        "comparable_commands": [
+          "ultrathink-full-mcp",
+          "sequential-thinking-orchestrator"
+        ],
+        "roi_assessment": "NEGATIVE ROI (0.7x) - Costs exceed benefits"
+      }
+    }
+  ],
+  "rankings": [
+    {
+      "command": "reasoning-wrapper",
+      "metrics": {
+        "name": "reasoning-wrapper",
+        "file_size_bytes": 10182,
+        "line_count": 415,
+        "word_count": 1200,
+        "token_estimate": 1560.0,
+        "complexity_score": 15,
+        "mcp_dependencies": [
+          "mcp-sequentialthinking-tools__sequentialthinking_tools",
+          "tool__function\""
+        ],
+        "mcp_dependency_count": 2,
+        "xml_blocks": 34,
+        "thinking_blocks": 0,
+        "code_blocks": 20,
+        "template_quality": 10,
+        "reusability_score": 10,
+        "estimated_response_time": 19.35,
+        "performance_tier": "HEAVYWEIGHT_BEAST",
+        "failure_modes": [
+          "COMPLEXITY_OVERFLOW: Users will get lost in abstraction layers",
+          "TIMEOUT_RISK: Sequential thinking may cause timeouts"
+        ],
+        "composition_compatibility": [
+          "reasoning-enhanced",
+          "code-improvement",
+          "complex-reasoning",
+          "meta-command"
+        ],
+        "maintenance_burden": "NIGHTMARE",
+        "innovation_score": 10
+      },
+      "evidence": {
+        "content_hash": "e2b10a369aa2eaf4",
+        "creation_timestamp": "2025-08-22T00:09:57.671690",
+        "sample_content": [
+          "# Reasoning Wrapper - Add Explicit Reasoning to Any Command or Code",
+          "",
+          "<task>",
+          "...",
+          "# Creates command then adds reasoning",
+          "```",
+          "</integration_notes>"
+        ],
+        "complexity_breakdown": {
+          "xml_blocks": 34,
+          "thinking_blocks": 0,
+          "code_blocks": 20,
+          "mcp_dependencies": 2,
+          "total_score": 15
+        },
+        "dependency_analysis": {
+          "mcp_tools": [
+            "mcp-sequentialthinking-tools__sequentialthinking_tools",
+            "tool__function\""
+          ],
+          "dependency_types": [
+            "tool",
+            "mcp-sequentialthinking-tools"
+          ],
+          "external_dependency_count": 2
+        },
+        "performance_measurements": {
+          "estimated_response_time": 19.35,
+          "token_efficiency": 6.41025641025641,
+          "complexity_per_line": 0.03614457831325301,
+          "features_per_kb": 0.4022785307405225
+        },
+        "failure_simulation_results": [
+          "COMPLEXITY_OVERFLOW: Users will get lost in abstraction layers: 50.0% probability",
+          "TIMEOUT_RISK: Sequential thinking may cause timeouts: 46.8% probability"
+        ],
+        "comparison_baseline": {
+          "complexity_vs_baseline": 3.0,
+          "response_time_vs_baseline": 4.8375,
+          "reusability_vs_baseline": 1.6666666666666667,
+          "tokens_vs_baseline": 0.52
+        }
+      },
+      "verdict": {
+        "final_score": 100,
+        "grade": "A",
+        "strengths": [
+          "High reusability score (10/10)",
+          "Excellent template structure (10/10)",
+          "High innovation value (10/10)"
+        ],
+        "weaknesses": [
+          "Excessive complexity (15/15) violates simplicity principles",
+          "Slow response time (19.35s) - users will suffer",
+          "Maintenance nightmare - will cause developer tears"
+        ],
+        "brutal_commentary": "\ud83c\udfc6 reasoning-wrapper scores 100/100 - Actually competent! Complexity 15, response 19.35s. Rare to see engineering principles properly applied.",
+        "improvement_recommendations": [
+          "CRITICAL: Reduce complexity from 15 to <5 by eliminating unnecessary abstractions",
+          "PERFORMANCE: Optimize response time from 19.35s to <4s",
+          "ROBUSTNESS: Address 2 failure modes for better reliability"
+        ],
+        "comparable_commands": [
+          "ultrathink-full-mcp",
+          "sequential-thinking-orchestrator"
+        ],
+        "roi_assessment": "NEGATIVE ROI (0.9x) - Costs exceed benefits"
+      }
+    },
+    {
+      "command": "java-clean-code-generator",
+      "metrics": {
+        "name": "java-clean-code-generator",
+        "file_size_bytes": 25195,
+        "line_count": 819,
+        "word_count": 3102,
+        "token_estimate": 4032.6000000000004,
+        "complexity_score": 15,
+        "mcp_dependencies": [
+          "mcp-sequentialthinking-tools__sequentialthinking_tools",
+          "mcp-sequentialthinking-tools__sequentialthinking_tools"
+        ],
+        "mcp_dependency_count": 2,
+        "xml_blocks": 88,
+        "thinking_blocks": 37,
+        "code_blocks": 40,
+        "template_quality": 10,
+        "reusability_score": 10,
+        "estimated_response_time": 32.54,
+        "performance_tier": "HEAVYWEIGHT_BEAST",
+        "failure_modes": [
+          "COMPLEXITY_OVERFLOW: Users will get lost in abstraction layers",
+          "TOKEN_HEAVY: Approaching practical limits",
+          "TIMEOUT_RISK: Sequential thinking may cause timeouts"
+        ],
+        "composition_compatibility": [
+          "java-ecosystem",
+          "testing-workflow",
+          "reasoning-enhanced",
+          "code-improvement",
+          "complex-reasoning"
+        ],
+        "maintenance_burden": "NIGHTMARE",
+        "innovation_score": 9
+      },
+      "evidence": {
+        "content_hash": "120e4659e44d8fc8",
+        "creation_timestamp": "2025-08-22T00:09:57.671690",
+        "sample_content": [
+          "# Java Clean Code Generator - Production-Quality Java Implementation",
+          "",
+          "<task>",
+          "...",
+          "When complexity > 3: Engage mcp__mcp-sequentialthinking-tools__sequentialthinking_tools for systematic decision support",
+          "</thinking_foundation>",
+          "</critical_reminders>"
+        ],
+        "complexity_breakdown": {
+          "xml_blocks": 88,
+          "thinking_blocks": 37,
+          "code_blocks": 40,
+          "mcp_dependencies": 2,
+          "total_score": 15
+        },
+        "dependency_analysis": {
+          "mcp_tools": [
+            "mcp-sequentialthinking-tools__sequentialthinking_tools",
+            "mcp-sequentialthinking-tools__sequentialthinking_tools"
+          ],
+          "dependency_types": [
+            "mcp-sequentialthinking-tools"
+          ],
+          "external_dependency_count": 1
+        },
+        "performance_measurements": {
+          "estimated_response_time": 32.54,
+          "token_efficiency": 2.479789713832267,
+          "complexity_per_line": 0.018315018315018316,
+          "features_per_kb": 0.20321492359595159
+        },
+        "failure_simulation_results": [
+          "COMPLEXITY_OVERFLOW: Users will get lost in abstraction layers: 50.0% probability",
+          "TOKEN_HEAVY: Approaching practical limits: 10.0% probability",
+          "TIMEOUT_RISK: Sequential thinking may cause timeouts: 50.0% probability"
+        ],
+        "comparison_baseline": {
+          "complexity_vs_baseline": 3.0,
+          "response_time_vs_baseline": 8.135,
+          "reusability_vs_baseline": 1.6666666666666667,
+          "tokens_vs_baseline": 1.3442
+        }
+      },
+      "verdict": {
+        "final_score": 100,
+        "grade": "A",
+        "strengths": [
+          "High reusability score (10/10)",
+          "Excellent template structure (10/10)",
+          "High innovation value (9/10)"
+        ],
+        "weaknesses": [
+          "Excessive complexity (15/15) violates simplicity principles",
+          "Slow response time (32.54s) - users will suffer",
+          "Multiple failure modes (3) - unreliable",
+          "Maintenance nightmare - will cause developer tears"
+        ],
+        "brutal_commentary": "\ud83c\udfc6 java-clean-code-generator scores 100/100 - Actually competent! Complexity 15, response 32.54s. Rare to see engineering principles properly applied.",
+        "improvement_recommendations": [
+          "CRITICAL: Reduce complexity from 15 to <5 by eliminating unnecessary abstractions",
+          "PERFORMANCE: Optimize response time from 32.54s to <4s",
+          "EFFICIENCY: Reduce token usage from 4,032.6000000000004 to <4000",
+          "ROBUSTNESS: Address 3 failure modes for better reliability"
+        ],
+        "comparable_commands": [
+          "ultrathink-full-mcp",
+          "sequential-thinking-orchestrator"
+        ],
+        "roi_assessment": "NEGATIVE ROI (0.7x) - Costs exceed benefits"
+      }
+    },
+    {
+      "command": "adhd-context-switch",
+      "metrics": {
+        "name": "adhd-context-switch",
+        "file_size_bytes": 9972,
+        "line_count": 399,
+        "word_count": 1170,
+        "token_estimate": 1521.0,
+        "complexity_score": 15,
+        "mcp_dependencies": [
+          "basic-memory__write_note",
+          "basic-memory__write_note",
+          "basic-memory__search_notes",
+          "basic-memory__search_notes"
+        ],
+        "mcp_dependency_count": 4,
+        "xml_blocks": 14,
+        "thinking_blocks": 0,
+        "code_blocks": 26,
+        "template_quality": 8,
+        "reusability_score": 7,
+        "estimated_response_time": 13.34,
+        "performance_tier": "HEAVYWEIGHT_BEAST",
+        "failure_modes": [
+          "COMPLEXITY_OVERFLOW: Users will get lost in abstraction layers",
+          "DEPENDENCY_RISK: Multiple points of failure"
+        ],
+        "composition_compatibility": [
+          "java-ecosystem",
+          "memory-persistent",
+          "adhd-optimized"
+        ],
+        "maintenance_burden": "NIGHTMARE",
+        "innovation_score": 7
+      },
+      "evidence": {
+        "content_hash": "912967bcaa65ae26",
+        "creation_timestamp": "2025-08-22T00:09:57.669690",
+        "sample_content": [
+          "# ADHD Context Switch",
+          "",
+          "Seamless context switching that preserves mental state, reduces switching costs, and enables smooth task transitions without losing progress.",
+          "...",
+          "- Improved task completion rates",
+          "- Reduced anxiety about switching",
+          "- Better work-life boundaries"
+        ],
+        "complexity_breakdown": {
+          "xml_blocks": 14,
+          "thinking_blocks": 0,
+          "code_blocks": 26,
+          "mcp_dependencies": 4,
+          "total_score": 15
+        },
+        "dependency_analysis": {
+          "mcp_tools": [
+            "basic-memory__write_note",
+            "basic-memory__write_note",
+            "basic-memory__search_notes",
+            "basic-memory__search_notes"
+          ],
+          "dependency_types": [
+            "basic-memory"
+          ],
+          "external_dependency_count": 1
+        },
+        "performance_measurements": {
+          "estimated_response_time": 13.34,
+          "token_efficiency": 4.602235371466141,
+          "complexity_per_line": 0.03759398496240601,
+          "features_per_kb": 0.30806257521058966
+        },
+        "failure_simulation_results": [
+          "COMPLEXITY_OVERFLOW: Users will get lost in abstraction layers: 50.0% probability",
+          "DEPENDENCY_RISK: Multiple points of failure: 10.0% probability"
+        ],
+        "comparison_baseline": {
+          "complexity_vs_baseline": 3.0,
+          "response_time_vs_baseline": 3.335,
+          "reusability_vs_baseline": 1.1666666666666667,
+          "tokens_vs_baseline": 0.507
+        }
+      },
+      "verdict": {
+        "final_score": 94.3,
+        "grade": "A",
+        "strengths": [
+          "High reusability score (7/10)",
+          "Excellent template structure (8/10)",
+          "High innovation value (7/10)"
+        ],
+        "weaknesses": [
+          "Excessive complexity (15/15) violates simplicity principles",
+          "Slow response time (13.34s) - users will suffer",
+          "Maintenance nightmare - will cause developer tears"
+        ],
+        "brutal_commentary": "\ud83c\udfc6 adhd-context-switch scores 94.3/100 - Actually competent! Complexity 15, response 13.34s. Rare to see engineering principles properly applied.",
+        "improvement_recommendations": [
+          "CRITICAL: Reduce complexity from 15 to <5 by eliminating unnecessary abstractions",
+          "PERFORMANCE: Optimize response time from 13.34s to <4s",
+          "RELIABILITY: Reduce MCP dependencies from 4 to \u22643",
+          "ROBUSTNESS: Address 2 failure modes for better reliability"
+        ],
+        "comparable_commands": [
+          "ultrathink-full-mcp",
+          "sequential-thinking-orchestrator"
+        ],
+        "roi_assessment": "NEGATIVE ROI (0.7x) - Costs exceed benefits"
+      }
+    },
+    {
+      "command": "ultrathink-hybrid-mcp",
+      "metrics": {
+        "name": "ultrathink-hybrid-mcp",
+        "file_size_bytes": 13431,
+        "line_count": 536,
+        "word_count": 1640,
+        "token_estimate": 2132.0,
+        "complexity_score": 15,
+        "mcp_dependencies": [
+          "basic-memory__search_notes",
+          "basic-memory__build_context",
+          "basic-memory__write_note",
+          "firecrawl__firecrawl_search",
+          "firecrawl__firecrawl_scrape",
+          "mcp-obsidian__read_notes",
+          "mcp-obsidian__search_notes",
+          "basic-memory__search_notes",
+          "basic-memory__build_context",
+          "basic-memory__build_context",
+          "basic-memory__search_notes",
+          "basic-memory__search_notes",
+          "firecrawl__firecrawl_search",
+          "mcp-obsidian__search_notes",
+          "basic-memory__write_note",
+          "basic-memory__write_note"
+        ],
+        "mcp_dependency_count": 16,
+        "xml_blocks": 31,
+        "thinking_blocks": 6,
+        "code_blocks": 30,
+        "template_quality": 10,
+        "reusability_score": 10,
+        "estimated_response_time": 30.13,
+        "performance_tier": "HEAVYWEIGHT_BEAST",
+        "failure_modes": [
+          "COMPLEXITY_OVERFLOW: Users will get lost in abstraction layers",
+          "DEPENDENCY_HELL: High failure probability from external services"
+        ],
+        "composition_compatibility": [
+          "testing-workflow",
+          "memory-persistent",
+          "reasoning-enhanced",
+          "deep-analysis",
+          "code-improvement",
+          "complex-reasoning"
+        ],
+        "maintenance_burden": "NIGHTMARE",
+        "innovation_score": 6
+      },
+      "evidence": {
+        "content_hash": "5fa07281e7a6ea84",
+        "creation_timestamp": "2025-08-22T00:09:57.672690",
+        "sample_content": [
+          "# ULTRATHINK Hybrid MCP - Balanced Performance & Capability",
+          "",
+          "<task>",
+          "...",
+          "- Thinking depth: Deep with patterns",
+          "- Pattern persistence: Permanent",
+          "- Quality score: 75-85%"
+        ],
+        "complexity_breakdown": {
+          "xml_blocks": 31,
+          "thinking_blocks": 6,
+          "code_blocks": 30,
+          "mcp_dependencies": 16,
+          "total_score": 15
+        },
+        "dependency_analysis": {
+          "mcp_tools": [
+            "basic-memory__search_notes",
+            "basic-memory__build_context",
+            "basic-memory__write_note",
+            "firecrawl__firecrawl_search",
+            "firecrawl__firecrawl_scrape",
+            "mcp-obsidian__read_notes",
+            "mcp-obsidian__search_notes",
+            "basic-memory__search_notes",
+            "basic-memory__build_context",
+            "basic-memory__build_context",
+            "basic-memory__search_notes",
+            "basic-memory__search_notes",
+            "firecrawl__firecrawl_search",
+            "mcp-obsidian__search_notes",
+            "basic-memory__write_note",
+            "basic-memory__write_note"
+          ],
+          "dependency_types": [
+            "firecrawl",
+            "mcp-obsidian",
+            "basic-memory"
+          ],
+          "external_dependency_count": 3
+        },
+        "performance_measurements": {
+          "estimated_response_time": 30.13,
+          "token_efficiency": 4.690431519699812,
+          "complexity_per_line": 0.027985074626865673,
+          "features_per_kb": 0.457449184721912
+        },
+        "failure_simulation_results": [
+          "COMPLEXITY_OVERFLOW: Users will get lost in abstraction layers: 50.0% probability",
+          "DEPENDENCY_HELL: High failure probability from external services: 70.0% probability"
+        ],
+        "comparison_baseline": {
+          "complexity_vs_baseline": 3.0,
+          "response_time_vs_baseline": 7.5325,
+          "reusability_vs_baseline": 1.6666666666666667,
+          "tokens_vs_baseline": 0.7106666666666667
+        }
+      },
+      "verdict": {
+        "final_score": 81.1,
+        "grade": "B",
+        "strengths": [
+          "High reusability score (10/10)",
+          "Excellent template structure (10/10)"
+        ],
+        "weaknesses": [
+          "Excessive complexity (15/15) violates simplicity principles",
+          "Slow response time (30.13s) - users will suffer",
+          "Dependency hell (16 MCP tools) - fragile",
+          "Maintenance nightmare - will cause developer tears"
+        ],
+        "brutal_commentary": "\ud83d\udc4d ultrathink-hybrid-mcp scores 81.1/100 - Adequate performance. Not embarrassing, which is surprisingly good for developer work.",
+        "improvement_recommendations": [
+          "CRITICAL: Reduce complexity from 15 to <5 by eliminating unnecessary abstractions",
+          "PERFORMANCE: Optimize response time from 30.13s to <4s",
+          "RELIABILITY: Reduce MCP dependencies from 16 to \u22643",
+          "ROBUSTNESS: Address 2 failure modes for better reliability"
+        ],
+        "comparable_commands": [
+          "ultrathink-full-mcp",
+          "sequential-thinking-orchestrator"
+        ],
+        "roi_assessment": "NEGATIVE ROI (0.7x) - Costs exceed benefits"
+      }
+    },
+    {
+      "command": "ultrathink-full-mcp",
+      "metrics": {
+        "name": "ultrathink-full-mcp",
+        "file_size_bytes": 18173,
+        "line_count": 665,
+        "word_count": 2027,
+        "token_estimate": 2635.1,
+        "complexity_score": 15,
+        "mcp_dependencies": [
+          "mcp-sequentialthinking-tools__sequentialthinking_tools",
+          "basic-memory__search_notes",
+          "basic-memory__build_context",
+          "basic-memory__write_note",
+          "basic-memory__recent_activity",
+          "firecrawl__firecrawl_search",
+          "firecrawl__firecrawl_scrape",
+          "firecrawl__firecrawl_deep_research",
+          "mcp-obsidian__read_notes",
+          "mcp-obsidian__search_notes",
+          "basic-memory__recent_activity",
+          "basic-memory__search_notes",
+          "basic-memory__search_notes",
+          "basic-memory__search_notes",
+          "basic-memory__build_context",
+          "basic-memory__build_context",
+          "mcp-obsidian__search_notes",
+          "mcp-sequentialthinking-tools__sequentialthinking_tools",
+          "basic-memory__search_notes",
+          "basic-memory__build_context",
+          "firecrawl__firecrawl_deep_research",
+          "firecrawl__firecrawl_search",
+          "firecrawl__firecrawl_search",
+          "mcp-obsidian__search_notes",
+          "mcp-obsidian__read_notes",
+          "mcp-sequentialthinking-tools__sequentialthinking_tools",
+          "mcp-sequentialthinking-tools__sequentialthinking_tools",
+          "mcp-sequentialthinking-tools__sequentialthinking_tools",
+          "basic-memory__write_note"
+        ],
+        "mcp_dependency_count": 29,
+        "xml_blocks": 30,
+        "thinking_blocks": 3,
+        "code_blocks": 42,
+        "template_quality": 9,
+        "reusability_score": 8,
+        "estimated_response_time": 53.06,
+        "performance_tier": "HEAVYWEIGHT_BEAST",
+        "failure_modes": [
+          "COMPLEXITY_OVERFLOW: Users will get lost in abstraction layers",
+          "DEPENDENCY_HELL: High failure probability from external services",
+          "TIMEOUT_RISK: Sequential thinking may cause timeouts"
+        ],
+        "composition_compatibility": [
+          "java-ecosystem",
+          "testing-workflow",
+          "memory-persistent",
+          "reasoning-enhanced",
+          "agent-orchestration",
+          "deep-analysis",
+          "complex-reasoning"
+        ],
+        "maintenance_burden": "NIGHTMARE",
+        "innovation_score": 9
+      },
+      "evidence": {
+        "content_hash": "bc3f473a168a5646",
+        "creation_timestamp": "2025-08-22T00:09:57.672690",
+        "sample_content": [
+          "# ULTRATHINK Full MCP - Maximum Capability Deep Thinking",
+          "",
+          "<task>",
+          "...",
+          "- Pattern persistence: Enhanced permanent",
+          "- Quality score: 85-95%",
+          "- Completeness: Near 100%"
+        ],
+        "complexity_breakdown": {
+          "xml_blocks": 30,
+          "thinking_blocks": 3,
+          "code_blocks": 42,
+          "mcp_dependencies": 29,
+          "total_score": 15
+        },
+        "dependency_analysis": {
+          "mcp_tools": [
+            "mcp-sequentialthinking-tools__sequentialthinking_tools",
+            "basic-memory__search_notes",
+            "basic-memory__build_context",
+            "basic-memory__write_note",
+            "basic-memory__recent_activity",
+            "firecrawl__firecrawl_search",
+            "firecrawl__firecrawl_scrape",
+            "firecrawl__firecrawl_deep_research",
+            "mcp-obsidian__read_notes",
+            "mcp-obsidian__search_notes",
+            "basic-memory__recent_activity",
+            "basic-memory__search_notes",
+            "basic-memory__search_notes",
+            "basic-memory__search_notes",
+            "basic-memory__build_context",
+            "basic-memory__build_context",
+            "mcp-obsidian__search_notes",
+            "mcp-sequentialthinking-tools__sequentialthinking_tools",
+            "basic-memory__search_notes",
+            "basic-memory__build_context",
+            "firecrawl__firecrawl_deep_research",
+            "firecrawl__firecrawl_search",
+            "firecrawl__firecrawl_search",
+            "mcp-obsidian__search_notes",
+            "mcp-obsidian__read_notes",
+            "mcp-sequentialthinking-tools__sequentialthinking_tools",
+            "mcp-sequentialthinking-tools__sequentialthinking_tools",
+            "mcp-sequentialthinking-tools__sequentialthinking_tools",
+            "basic-memory__write_note"
+          ],
+          "dependency_types": [
+            "mcp-sequentialthinking-tools",
+            "firecrawl",
+            "mcp-obsidian",
+            "basic-memory"
+          ],
+          "external_dependency_count": 4
+        },
+        "performance_measurements": {
+          "estimated_response_time": 53.06,
+          "token_efficiency": 3.0359379150696366,
+          "complexity_per_line": 0.022556390977443608,
+          "features_per_kb": 0.39443129918010233
+        },
+        "failure_simulation_results": [
+          "COMPLEXITY_OVERFLOW: Users will get lost in abstraction layers: 50.0% probability",
+          "DEPENDENCY_HELL: High failure probability from external services: 70.0% probability",
+          "TIMEOUT_RISK: Sequential thinking may cause timeouts: 50.0% probability"
+        ],
+        "comparison_baseline": {
+          "complexity_vs_baseline": 3.0,
+          "response_time_vs_baseline": 13.265,
+          "reusability_vs_baseline": 1.3333333333333333,
+          "tokens_vs_baseline": 0.8783666666666666
+        }
+      },
+      "verdict": {
+        "final_score": 46.6,
+        "grade": "F",
+        "strengths": [
+          "High reusability score (8/10)",
+          "Excellent template structure (9/10)",
+          "High innovation value (9/10)"
+        ],
+        "weaknesses": [
+          "Excessive complexity (15/15) violates simplicity principles",
+          "Slow response time (53.06s) - users will suffer",
+          "Dependency hell (29 MCP tools) - fragile",
+          "Multiple failure modes (3) - unreliable",
+          "Maintenance nightmare - will cause developer tears"
+        ],
+        "brutal_commentary": "\u26a0\ufe0f ultrathink-full-mcp scores 46.6/100 - Below average. Like a car that starts most of the time.",
+        "improvement_recommendations": [
+          "CRITICAL: Reduce complexity from 15 to <5 by eliminating unnecessary abstractions",
+          "PERFORMANCE: Optimize response time from 53.06s to <4s",
+          "RELIABILITY: Reduce MCP dependencies from 29 to \u22643",
+          "ROBUSTNESS: Address 3 failure modes for better reliability"
+        ],
+        "comparable_commands": [
+          "ultrathink-full-mcp",
+          "sequential-thinking-orchestrator"
+        ],
+        "roi_assessment": "NEGATIVE ROI (0.5x) - Costs exceed benefits"
+      }
+    }
+  ],
+  "key_findings": [
+    "\ud83d\udea8 EXCESSIVE COMPLEXITY: Average 15.0/15 exceeds recommended threshold",
+    "\ud83d\udc0c PERFORMANCE POOR: Average 29.7s response time",
+    "\ud83d\udd78\ufe0f DEPENDENCY HELL: Average 10.6 MCP dependencies",
+    "\ud83d\ude80 HIGH INNOVATION: Average 8.2/10 innovation score"
+  ],
+  "strategic_recommendations": [
+    "\ud83c\udfaf SIMPLIFICATION PRIORITY: 5 commands need complexity reduction",
+    "\u26a1 PERFORMANCE OPTIMIZATION: 5 commands need speed improvements",
+    "\ud83d\udee1\ufe0f DEPENDENCY REDUCTION: 2 commands are too fragile",
+    "\u2705 QUALITY MAINTENANCE: Most commands are adequate - focus on optimization"
+  ]
+}
