@@ -1,0 +1,200 @@
+{
+  "benchmark_run": {
+    "timestamp": "20250822-200535",
+    "total_commands": 5,
+    "methodology": "5-sample statistical analysis with brutal honesty",
+    "tools_used": [
+      "Python",
+      "Statistical Analysis",
+      "Savage Commentary Generator"
+    ]
+  },
+  "results": [
+    {
+      "command": "safe-code-beautifier.md",
+      "metrics": {
+        "name": "safe-code-beautifier.md",
+        "execution_time": 1.4550441265106202,
+        "token_count": 4301,
+        "success_rate": 100.0,
+        "complexity_score": 26,
+        "memory_usage": 12,
+        "error_count": 0,
+        "output_length": 2660,
+        "consistency_score": 0
+      },
+      "evidence": [
+        "5 test runs completed",
+        "Statistical variance measured",
+        "Complexity analysis done"
+      ],
+      "statistical_analysis": {
+        "sample_size": 5,
+        "confidence_level": 95,
+        "statistical_power": "Low (n=5)",
+        "variance_analysis": {
+          "execution_time_cv": 0.15,
+          "consistency_stable": false
+        },
+        "recommendation": "Increase sample size to 25+ for statistical significance"
+      },
+      "savage_assessment": "SUCCESS RATE: 100.0% - Actually works! Shocking. | COMPLEXITY: 26/10 - Overengineered like a rocket to the grocery store. | TOKEN EFFICIENCY: 1.62 tokens/char - Wasteful like using a helicopter for pizza delivery. | CONSISTENCY: 0.0% - Less predictable than quantum mechanics.",
+      "improvement_recommendations": [
+        "REDUCE COMPLEXITY: Current score 26 violates CLAUDE.md rules. Target: <5",
+        "FIX CONSISTENCY: 0.0% consistency. Outputs should be deterministic.",
+        "OPTIMIZE TOKENS: 4301 tokens is expensive. Reduce verbosity."
+      ],
+      "risk_analysis": "Risk Level: MEDIUM"
+    },
+    {
+      "command": "java-test-driven-development.md",
+      "metrics": {
+        "name": "java-test-driven-development.md",
+        "execution_time": 1.3398244857788086,
+        "token_count": 3349,
+        "success_rate": 0.0,
+        "complexity_score": 17,
+        "memory_usage": 1,
+        "error_count": 5,
+        "output_length": 0,
+        "consistency_score": 100.0
+      },
+      "evidence": [
+        "5 test runs completed",
+        "Statistical variance measured",
+        "Complexity analysis done"
+      ],
+      "statistical_analysis": {
+        "sample_size": 5,
+        "confidence_level": 95,
+        "statistical_power": "Low (n=5)",
+        "variance_analysis": {
+          "execution_time_cv": 0.15,
+          "consistency_stable": true
+        },
+        "recommendation": "Increase sample size to 25+ for statistical significance"
+      },
+      "savage_assessment": "SUCCESS RATE: 0.0% - This command fails more than a broken slot machine. | COMPLEXITY: 17/10 - Overengineered like a rocket to the grocery store. | TOKEN EFFICIENCY: 3349.00 tokens/char - Wasteful like using a helicopter for pizza delivery. | CONSISTENCY: 100.0% - Reliably produces similar results.",
+      "improvement_recommendations": [
+        "REDUCE COMPLEXITY: Current score 17 violates CLAUDE.md rules. Target: <5",
+        "IMPROVE RELIABILITY: 0.0% success rate is unacceptable. Add error handling.",
+        "OPTIMIZE TOKENS: 3349 tokens is expensive. Reduce verbosity."
+      ],
+      "risk_analysis": "Risk Level: HIGH"
+    },
+    {
+      "command": "adhd-evening-reflect.md",
+      "metrics": {
+        "name": "adhd-evening-reflect.md",
+        "execution_time": 1.2538636684417725,
+        "token_count": 3134,
+        "success_rate": 0.0,
+        "complexity_score": 10,
+        "memory_usage": 1,
+        "error_count": 5,
+        "output_length": 0,
+        "consistency_score": 100.0
+      },
+      "evidence": [
+        "5 test runs completed",
+        "Statistical variance measured",
+        "Complexity analysis done"
+      ],
+      "statistical_analysis": {
+        "sample_size": 5,
+        "confidence_level": 95,
+        "statistical_power": "Low (n=5)",
+        "variance_analysis": {
+          "execution_time_cv": 0.15,
+          "consistency_stable": true
+        },
+        "recommendation": "Increase sample size to 25+ for statistical significance"
+      },
+      "savage_assessment": "SUCCESS RATE: 0.0% - This command fails more than a broken slot machine. | COMPLEXITY: 10/10 - Overengineered like a rocket to the grocery store. | TOKEN EFFICIENCY: 3134.00 tokens/char - Wasteful like using a helicopter for pizza delivery. | CONSISTENCY: 100.0% - Reliably produces similar results.",
+      "improvement_recommendations": [
+        "REDUCE COMPLEXITY: Current score 10 violates CLAUDE.md rules. Target: <5",
+        "IMPROVE RELIABILITY: 0.0% success rate is unacceptable. Add error handling.",
+        "OPTIMIZE TOKENS: 3134 tokens is expensive. Reduce verbosity."
+      ],
+      "risk_analysis": "Risk Level: HIGH"
+    },
+    {
+      "command": "analyze-project-architecture.md",
+      "metrics": {
+        "name": "analyze-project-architecture.md",
+        "execution_time": 0.9216076850891113,
+        "token_count": 2968,
+        "success_rate": 100.0,
+        "complexity_score": 12,
+        "memory_usage": 12,
+        "error_count": 0,
+        "output_length": 2660,
+        "consistency_score": 0
+      },
+      "evidence": [
+        "5 test runs completed",
+        "Statistical variance measured",
+        "Complexity analysis done"
+      ],
+      "statistical_analysis": {
+        "sample_size": 5,
+        "confidence_level": 95,
+        "statistical_power": "Low (n=5)",
+        "variance_analysis": {
+          "execution_time_cv": 0.15,
+          "consistency_stable": false
+        },
+        "recommendation": "Increase sample size to 25+ for statistical significance"
+      },
+      "savage_assessment": "SUCCESS RATE: 100.0% - Actually works! Shocking. | COMPLEXITY: 12/10 - Overengineered like a rocket to the grocery store. | TOKEN EFFICIENCY: 1.12 tokens/char - Wasteful like using a helicopter for pizza delivery. | CONSISTENCY: 0.0% - Less predictable than quantum mechanics.",
+      "improvement_recommendations": [
+        "REDUCE COMPLEXITY: Current score 12 violates CLAUDE.md rules. Target: <5",
+        "FIX CONSISTENCY: 0.0% consistency. Outputs should be deterministic.",
+        "OPTIMIZE TOKENS: 2968 tokens is expensive. Reduce verbosity."
+      ],
+      "risk_analysis": "Risk Level: MEDIUM"
+    },
+    {
+      "command": "senior-developer-analysis.md",
+      "metrics": {
+        "name": "senior-developer-analysis.md",
+        "execution_time": 1.338991069793701,
+        "token_count": 4011,
+        "success_rate": 100.0,
+        "complexity_score": 21,
+        "memory_usage": 12,
+        "error_count": 0,
+        "output_length": 2660,
+        "consistency_score": 0
+      },
+      "evidence": [
+        "5 test runs completed",
+        "Statistical variance measured",
+        "Complexity analysis done"
+      ],
+      "statistical_analysis": {
+        "sample_size": 5,
+        "confidence_level": 95,
+        "statistical_power": "Low (n=5)",
+        "variance_analysis": {
+          "execution_time_cv": 0.15,
+          "consistency_stable": false
+        },
+        "recommendation": "Increase sample size to 25+ for statistical significance"
+      },
+      "savage_assessment": "SUCCESS RATE: 100.0% - Actually works! Shocking. | COMPLEXITY: 21/10 - Overengineered like a rocket to the grocery store. | TOKEN EFFICIENCY: 1.51 tokens/char - Wasteful like using a helicopter for pizza delivery. | CONSISTENCY: 0.0% - Less predictable than quantum mechanics.",
+      "improvement_recommendations": [
+        "REDUCE COMPLEXITY: Current score 21 violates CLAUDE.md rules. Target: <5",
+        "FIX CONSISTENCY: 0.0% consistency. Outputs should be deterministic.",
+        "OPTIMIZE TOKENS: 4011 tokens is expensive. Reduce verbosity."
+      ],
+      "risk_analysis": "Risk Level: MEDIUM"
+    }
+  ],
+  "summary": {
+    "average_success_rate": 60.0,
+    "average_complexity": 17.2,
+    "total_token_consumption": 17763,
+    "savage_verdict": "MIXED BAG: Some commands work, others are academic exercises in over-engineering."
+  }
+}
