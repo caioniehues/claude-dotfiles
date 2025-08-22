@@ -1,0 +1,111 @@
+{
+  "ultrathink": {
+    "command": "ultrathink",
+    "args": "analyze database performance",
+    "iterations": 5,
+    "success_rate": 100.0,
+    "mean_execution_time": 0.10026736259460449,
+    "std_dev_execution_time": 4.4326752475525e-05,
+    "mean_token_usage": 17134,
+    "std_dev_token_usage": 1100.4480905522078,
+    "failure_patterns": [],
+    "confidence_interval_time": [
+      0.10021233248545296,
+      0.10032239270375602
+    ],
+    "confidence_interval_tokens": [
+      15767.832276070321,
+      18500.16772392968
+    ],
+    "complexity_score": 5.0,
+    "verdict": "\u2705 100.0% success rate. Actually functional - shocking! | \u26a1 0.1s execution. Surprisingly snappy! | \ud83d\udc8e 170883 tokens/sec. Actually efficient! | \ud83e\udd14 Claims to be 'ultra' thinking but finishes faster than my morning routine. Sus."
+  },
+  "git-backup-sync": {
+    "command": "git-backup-sync",
+    "args": "/home/runner/work/claude-dotfiles/claude-dotfiles",
+    "iterations": 5,
+    "success_rate": 100.0,
+    "mean_execution_time": 0.10030474662780761,
+    "std_dev_execution_time": 4.052295321267541e-05,
+    "mean_token_usage": 17769,
+    "std_dev_token_usage": 513.1948947524712,
+    "failure_patterns": [],
+    "confidence_interval_time": [
+      0.10025443880208391,
+      0.10035505445353131
+    ],
+    "confidence_interval_tokens": [
+      17131.886530209256,
+      18406.113469790744
+    ],
+    "complexity_score": 5.0,
+    "verdict": "\u2705 100.0% success rate. Actually functional - shocking! | \u26a1 0.1s execution. Surprisingly snappy! | \ud83d\udc8e 177150 tokens/sec. Actually efficient!"
+  },
+  "adaptive-complexity-router": {
+    "command": "adaptive-complexity-router",
+    "args": "refactor complex function",
+    "iterations": 5,
+    "success_rate": 100.0,
+    "mean_execution_time": 0.1002964973449707,
+    "std_dev_execution_time": 3.82016951734207e-05,
+    "mean_token_usage": 18939,
+    "std_dev_token_usage": 656.5382700193493,
+    "failure_patterns": [],
+    "confidence_interval_time": [
+      0.100249071279722,
+      0.1003439234102194
+    ],
+    "confidence_interval_tokens": [
+      18123.930755275356,
+      19754.069244724644
+    ],
+    "complexity_score": 5.0,
+    "verdict": "\u2705 100.0% success rate. Actually functional - shocking! | \u26a1 0.1s execution. Surprisingly snappy! | \ud83d\udc8e 188830 tokens/sec. Actually efficient!"
+  },
+  "ultrathink-full-mcp": {
+    "command": "ultrathink-full-mcp",
+    "args": "design microservices architecture",
+    "iterations": 5,
+    "success_rate": 80.0,
+    "mean_execution_time": 0.10033154487609863,
+    "std_dev_execution_time": 5.499533375781348e-05,
+    "mean_token_usage": 21102.75,
+    "std_dev_token_usage": 1528.086466794337,
+    "failure_patterns": [
+      "Command failed: parsing_error"
+    ],
+    "confidence_interval_time": [
+      0.1002552113528428,
+      0.10040787839935447
+    ],
+    "confidence_interval_tokens": [
+      18981.76598408946,
+      23223.73401591054
+    ],
+    "complexity_score": 5.0,
+    "verdict": "\u26a0\ufe0f 80.0% success rate. Better than a coin flip, but my coffee machine is more reliable. | \u26a1 0.1s execution. Surprisingly snappy! | \ud83d\udc8e 210330 tokens/sec. Actually efficient! | \ud83e\udd14 Claims to be 'ultra' thinking but finishes faster than my morning routine. Sus."
+  },
+  "generate-thinking-command": {
+    "command": "generate-thinking-command",
+    "args": "create api validator",
+    "iterations": 5,
+    "success_rate": 80.0,
+    "mean_execution_time": 0.10024380683898926,
+    "std_dev_execution_time": 4.9024255680709085e-05,
+    "mean_token_usage": 18213.75,
+    "std_dev_token_usage": 1155.3453668348122,
+    "failure_patterns": [
+      "Command failed: mcp_error"
+    ],
+    "confidence_interval_time": [
+      0.10017576117210443,
+      0.10031185250587409
+    ],
+    "confidence_interval_tokens": [
+      16610.130630833282,
+      19817.369369166718
+    ],
+    "complexity_score": 5.0,
+    "verdict": "\u26a0\ufe0f 80.0% success rate. Better than a coin flip, but my coffee machine is more reliable. | \u26a1 0.1s execution. Surprisingly snappy! | \ud83d\udc8e 181695 tokens/sec. Actually efficient!"
+  }
+}
