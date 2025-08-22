@@ -1,0 +1,237 @@
+{
+  "metadata": {
+    "timestamp": "20250822-160449",
+    "benchmarker_version": "1.0.0-savage",
+    "total_commands_available": 23,
+    "analyzed_commands": 3
+  },
+  "aggregate_statistics": {
+    "overall_scores": {
+      "mean": 61.41111111111111,
+      "std_dev": 1.114840961918055,
+      "confidence_interval_95": [
+        60.14954980135577,
+        62.672672420866455
+      ],
+      "outliers": [],
+      "variance": 1.2428703703703743,
+      "coefficient_variation": 1.8153733774674317
+    },
+    "complexity_scores": {
+      "mean": 3,
+      "std_dev": 1.7320508075688772,
+      "confidence_interval_95": [
+        1.04,
+        4.96
+      ],
+      "outliers": [],
+      "variance": 3,
+      "coefficient_variation": 57.735026918962575
+    },
+    "total_commands_analyzed": 3,
+    "commands_exceeding_complexity": 0,
+    "average_line_count": 548.6666666666666,
+    "mcp_integration_rate": 1.0
+  },
+  "summary_commentary": "\u26a0\ufe0f MEDIOCRITY EPIDEMIC \u26a0\ufe0f\n\nScore of 61.4/100 is the programming equivalent of vanilla ice cream\u2014technically food, but why would you choose it? 0/3 complexity violations suggest room for improvement.",
+  "individual_results": {
+    "ultrathink-interactive": {
+      "timestamp": "2025-08-22T16:04:49.340212+00:00",
+      "command_metrics": {
+        "command_name": "ultrathink-interactive",
+        "complexity_score": 1,
+        "line_count": 673,
+        "documentation_quality": 10.0,
+        "reusability_factor": 8.0,
+        "adhd_friendliness": 3.0,
+        "mcp_integration_count": 3,
+        "thinking_block_count": 0,
+        "error_handling_quality": 2.0
+      },
+      "performance_metrics": {
+        "execution_time_ms": [
+          67.04941103050209,
+          68.15287083794672,
+          64.69420420221533,
+          63.02744442443725,
+          68.77257675677282
+        ],
+        "memory_usage_mb": 6.73,
+        "token_consumption_estimate": 6730,
+        "success_rate": 1.0,
+        "failure_patterns": []
+      },
+      "statistical_analysis": {
+        "execution_time": {
+          "mean": 66.33930145037485,
+          "std_dev": 2.418101536960695,
+          "confidence_interval_95": [
+            64.21974200042364,
+            68.45886090032606
+          ],
+          "outliers": [],
+          "variance": 5.847215043051676,
+          "coefficient_variation": 3.6450512503053067
+        },
+        "complexity_trend": {
+          "mean": 1,
+          "std_dev": 0,
+          "confidence_interval_95": [
+            1,
+            1
+          ],
+          "outliers": [],
+          "variance": 0,
+          "coefficient_variation": 0.0
+        }
+      },
+      "savage_judgment": {
+        "overall_score": 60.449999999999996,
+        "roast_level": "medium",
+        "commentary": "\u26a0\ufe0f MEDIOCRE ALERT: 60.4/100 \u26a0\ufe0f\n\nThis command is the programming equivalent of lukewarm coffee\u2014not terrible enough to throw away, but not good enough to enjoy. Complexity score of 1 is acceptable, but the 673 lines suggest some optimization opportunities. Documentation quality at 10.0/10 is 'meh' tier.",
+        "improvement_recommendations": [
+          "\ud83d\udccf SIZE REDUCTION: 673 lines is excessive. Target: <300 lines. Break into smaller, focused commands.",
+          "\ud83e\udde0 ADHD OPTIMIZATION: Score 3.0/10. Add task chunking, energy level awareness, and pattern learning integration.",
+          "\ud83d\udee1\ufe0f ERROR HANDLING: Score 2.0/10. Add validation, fallback mechanisms, and graceful degradation."
+        ],
+        "comparable_commands": [],
+        "complexity_verdict": "\ud83c\udfc6 OPTIMAL: Direct solution, zero unnecessary complexity"
+      },
+      "evidence_files": [
+        ".github/benchmarks/data/ultrathink-interactive_analysis.json"
+      ]
+    },
+    "intelligent-code-enhancer": {
+      "timestamp": "2025-08-22T16:04:49.344512+00:00",
+      "command_metrics": {
+        "command_name": "intelligent-code-enhancer",
+        "complexity_score": 4,
+        "line_count": 442,
+        "documentation_quality": 10.0,
+        "reusability_factor": 9.0,
+        "adhd_friendliness": 0.0,
+        "mcp_integration_count": 1,
+        "thinking_block_count": 4,
+        "error_handling_quality": 9.0
+      },
+      "performance_metrics": {
+        "execution_time_ms": [
+          49.89576455362087,
+          45.03351693306139,
+          39.57441842508785,
+          41.95094724688433,
+          41.0126913051944
+        ],
+        "memory_usage_mb": 4.42,
+        "token_consumption_estimate": 4420,
+        "success_rate": 0.7,
+        "failure_patterns": []
+      },
+      "statistical_analysis": {
+        "execution_time": {
+          "mean": 43.49346769276977,
+          "std_dev": 4.100418415559289,
+          "confidence_interval_95": [
+            39.89929248192381,
+            47.08764290361573
+          ],
+          "outliers": [],
+          "variance": 16.813431182657745,
+          "coefficient_variation": 9.427664964596351
+        },
+        "complexity_trend": {
+          "mean": 4,
+          "std_dev": 0,
+          "confidence_interval_95": [
+            4,
+            4
+          ],
+          "outliers": [],
+          "variance": 0,
+          "coefficient_variation": 0.0
+        }
+      },
+      "savage_judgment": {
+        "overall_score": 62.63333333333333,
+        "roast_level": "medium",
+        "commentary": "\u26a0\ufe0f MEDIOCRE ALERT: 62.6/100 \u26a0\ufe0f\n\nThis command is the programming equivalent of lukewarm coffee\u2014not terrible enough to throw away, but not good enough to enjoy. Complexity score of 4 is acceptable, but the 442 lines suggest some optimization opportunities. Documentation quality at 10.0/10 is 'meh' tier.",
+        "improvement_recommendations": [
+          "\ud83e\udde0 ADHD OPTIMIZATION: Score 0.0/10. Add task chunking, energy level awareness, and pattern learning integration."
+        ],
+        "comparable_commands": [],
+        "complexity_verdict": "\u26a0\ufe0f WARNING: At complexity threshold, monitor carefully"
+      },
+      "evidence_files": [
+        ".github/benchmarks/data/intelligent-code-enhancer_analysis.json"
+      ]
+    },
+    "git-backup-sync": {
+      "timestamp": "2025-08-22T16:04:49.346763+00:00",
+      "command_metrics": {
+        "command_name": "git-backup-sync",
+        "complexity_score": 4,
+        "line_count": 531,
+        "documentation_quality": 9.0,
+        "reusability_factor": 8.0,
+        "adhd_friendliness": 1.0,
+        "mcp_integration_count": 2,
+        "thinking_block_count": 0,
+        "error_handling_quality": 10.0
+      },
+      "performance_metrics": {
+        "execution_time_ms": [
+          48.47109380889598,
+          52.37199213779499,
+          63.567036726231244,
+          45.82271201059582,
+          53.807392670515846
+        ],
+        "memory_usage_mb": 5.3100000000000005,
+        "token_consumption_estimate": 5310,
+        "success_rate": 0.7,
+        "failure_patterns": []
+      },
+      "statistical_analysis": {
+        "execution_time": {
+          "mean": 52.808045470806775,
+          "std_dev": 6.792436297772523,
+          "confidence_interval_95": [
+            46.85421254730148,
+            58.76187839431207
+          ],
+          "outliers": [],
+          "variance": 46.1371908592977,
+          "coefficient_variation": 12.862502744070506
+        },
+        "complexity_trend": {
+          "mean": 4,
+          "std_dev": 0,
+          "confidence_interval_95": [
+            4,
+            4
+          ],
+          "outliers": [],
+          "variance": 0,
+          "coefficient_variation": 0.0
+        }
+      },
+      "savage_judgment": {
+        "overall_score": 61.15,
+        "roast_level": "medium",
+        "commentary": "\u26a0\ufe0f MEDIOCRE ALERT: 61.1/100 \u26a0\ufe0f\n\nThis command is the programming equivalent of lukewarm coffee\u2014not terrible enough to throw away, but not good enough to enjoy. Complexity score of 4 is acceptable, but the 531 lines suggest some optimization opportunities. Documentation quality at 9.0/10 is 'meh' tier.",
+        "improvement_recommendations": [
+          "\ud83d\udccf SIZE REDUCTION: 531 lines is excessive. Target: <300 lines. Break into smaller, focused commands.",
+          "\ud83e\udde0 ADHD OPTIMIZATION: Score 1.0/10. Add task chunking, energy level awareness, and pattern learning integration."
+        ],
+        "comparable_commands": [],
+        "complexity_verdict": "\u26a0\ufe0f WARNING: At complexity threshold, monitor carefully"
+      },
+      "evidence_files": [
+        ".github/benchmarks/data/git-backup-sync_analysis.json"
+      ]
+    }
+  },
+  "recommendations": [
+    "\ud83d\udccf SIZE STANDARDIZATION: Average 549 lines per command suggests overly complex implementations. Set size limits."
+  ]
+}
