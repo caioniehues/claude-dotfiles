@@ -1,0 +1,15 @@
+{
+  "command_path": "commands/context-enhanced-executor.md",
+  "metrics": {
+    "command_name": "context-enhanced-executor",
+    "complexity_score": 4,
+    "line_count": 132,
+    "documentation_quality": 10.0,
+    "reusability_factor": 8.0,
+    "adhd_friendliness": 0.0,
+    "mcp_integration_count": 1,
+    "thinking_block_count": 0,
+    "error_handling_quality": 0.0
+  },
+  "content_sample": "# Context-Enhanced Executor - Execute Commands with Relevant Documentation\n\n<task>\nLoads relevant documentation and context before executing commands for informed decisions: $ARGUMENTS\n</task>\n\n<context>\nThis command automatically discovers and loads relevant documentation, best practices, and contextual information before executing any command, ensuring all decisions are informed by available knowledge.\n\nCore capabilities:\n- Automatic documentation discovery\n- Context injection into commands\n- ..."
+}

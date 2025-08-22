@@ -1,0 +1,238 @@
+{
+  "metadata": {
+    "timestamp": "20250822-203925",
+    "benchmarker_version": "1.0.0-savage",
+    "total_commands_available": 23,
+    "analyzed_commands": 3
+  },
+  "aggregate_statistics": {
+    "overall_scores": {
+      "mean": 64.4388888888889,
+      "std_dev": 11.0279610955936,
+      "confidence_interval_95": [
+        51.959576126867674,
+        76.91820165091012
+      ],
+      "outliers": [],
+      "variance": 121.61592592592602,
+      "coefficient_variation": 17.113828754261988
+    },
+    "complexity_scores": {
+      "mean": 3,
+      "std_dev": 3.4641016151377544,
+      "confidence_interval_95": [
+        -0.9199999999999999,
+        6.92
+      ],
+      "outliers": [],
+      "variance": 12,
+      "coefficient_variation": 115.47005383792515
+    },
+    "total_commands_analyzed": 3,
+    "commands_exceeding_complexity": 1,
+    "average_line_count": 367,
+    "mcp_integration_rate": 1.0
+  },
+  "summary_commentary": "\u26a0\ufe0f MEDIOCRITY EPIDEMIC \u26a0\ufe0f\n\nScore of 64.4/100 is the programming equivalent of vanilla ice cream\u2014technically food, but why would you choose it? 1/3 complexity violations suggest room for improvement.",
+  "individual_results": {
+    "adhd-morning-assistant": {
+      "timestamp": "2025-08-22T20:39:25.289702+00:00",
+      "command_metrics": {
+        "command_name": "adhd-morning-assistant",
+        "complexity_score": 1,
+        "line_count": 309,
+        "documentation_quality": 6.0,
+        "reusability_factor": 8.0,
+        "adhd_friendliness": 10.0,
+        "mcp_integration_count": 7,
+        "thinking_block_count": 0,
+        "error_handling_quality": 4.0
+      },
+      "performance_metrics": {
+        "execution_time_ms": [
+          34.74295104497257,
+          36.11213958599504,
+          36.81667393742018,
+          33.0568479359374,
+          31.280561917804754
+        ],
+        "memory_usage_mb": 3.09,
+        "token_consumption_estimate": 3090,
+        "success_rate": 1.0,
+        "failure_patterns": []
+      },
+      "statistical_analysis": {
+        "execution_time": {
+          "mean": 34.40183488442599,
+          "std_dev": 2.2596617491798567,
+          "confidence_interval_95": [
+            32.42115403171567,
+            36.3825157371363
+          ],
+          "outliers": [],
+          "variance": 5.10607122070657,
+          "coefficient_variation": 6.568433796543874
+        },
+        "complexity_trend": {
+          "mean": 1,
+          "std_dev": 0,
+          "confidence_interval_95": [
+            1,
+            1
+          ],
+          "outliers": [],
+          "variance": 0,
+          "coefficient_variation": 0.0
+        }
+      },
+      "savage_judgment": {
+        "overall_score": 74.85000000000001,
+        "roast_level": "mild",
+        "commentary": "\u2705 ACCEPTABLE QUALITY: 74.9/100 \u2705\n\nThis command passes the basic sanity check with a complexity score of 1 (within acceptable range). The 309 lines are reasonable, and documentation quality of 6.0/10 suggests someone actually cares about maintainability. Not bad, human.",
+        "improvement_recommendations": [
+          "\ud83d\udee1\ufe0f ERROR HANDLING: Score 4.0/10. Add validation, fallback mechanisms, and graceful degradation."
+        ],
+        "comparable_commands": [],
+        "complexity_verdict": "\ud83c\udfc6 OPTIMAL: Direct solution, zero unnecessary complexity"
+      },
+      "evidence_files": [
+        ".github/benchmarks/data/adhd-morning-assistant_analysis.json"
+      ]
+    },
+    "safe-code-beautifier": {
+      "timestamp": "2025-08-22T20:39:25.291986+00:00",
+      "command_metrics": {
+        "command_name": "safe-code-beautifier",
+        "complexity_score": 7,
+        "line_count": 427,
+        "documentation_quality": 9.0,
+        "reusability_factor": 8.0,
+        "adhd_friendliness": 2.0,
+        "mcp_integration_count": 1,
+        "thinking_block_count": 33,
+        "error_handling_quality": 7.0
+      },
+      "performance_metrics": {
+        "execution_time_ms": [
+          37.3213136369791,
+          38.418012707460704,
+          47.01044116198418,
+          49.46470855403916,
+          45.88298346948292
+        ],
+        "memory_usage_mb": 4.2700000000000005,
+        "token_consumption_estimate": 4270,
+        "success_rate": 0.5,
+        "failure_patterns": [
+          "complexity_timeout",
+          "memory_overflow"
+        ]
+      },
+      "statistical_analysis": {
+        "execution_time": {
+          "mean": 43.619491905989214,
+          "std_dev": 5.42012278316498,
+          "confidence_interval_95": [
+            38.868544814084736,
+            48.37043899789369
+          ],
+          "outliers": [],
+          "variance": 29.377730984584087,
+          "coefficient_variation": 12.425919116267297
+        },
+        "complexity_trend": {
+          "mean": 7,
+          "std_dev": 0,
+          "confidence_interval_95": [
+            7,
+            7
+          ],
+          "outliers": [],
+          "variance": 0,
+          "coefficient_variation": 0.0
+        }
+      },
+      "savage_judgment": {
+        "overall_score": 52.88333333333333,
+        "roast_level": "medium",
+        "commentary": "\u26a0\ufe0f MEDIOCRE ALERT: 52.9/100 \u26a0\ufe0f\n\nThis command is the programming equivalent of lukewarm coffee\u2014not terrible enough to throw away, but not good enough to enjoy. Complexity score of 7 is acceptable, but the 427 lines suggest some optimization opportunities. Documentation quality at 9.0/10 is 'meh' tier.",
+        "improvement_recommendations": [
+          "\ud83c\udfaf COMPLEXITY REDUCTION: Score is 7 (target: <5). Apply the 3-question rule: Can you use existing solutions? Can you solve with a simple method? Do you really need abstraction NOW?",
+          "\ud83e\udde0 ADHD OPTIMIZATION: Score 2.0/10. Add task chunking, energy level awareness, and pattern learning integration."
+        ],
+        "comparable_commands": [],
+        "complexity_verdict": "\ud83d\udea8 VIOLATION: Score 7 exceeds limit of 5. SIMPLIFY IMMEDIATELY!"
+      },
+      "evidence_files": [
+        ".github/benchmarks/data/safe-code-beautifier_analysis.json"
+      ]
+    },
+    "adhd-task-breakdown": {
+      "timestamp": "2025-08-22T20:39:25.294815+00:00",
+      "command_metrics": {
+        "command_name": "adhd-task-breakdown",
+        "complexity_score": 1,
+        "line_count": 365,
+        "documentation_quality": 6.0,
+        "reusability_factor": 7.0,
+        "adhd_friendliness": 10.0,
+        "mcp_integration_count": 3,
+        "thinking_block_count": 0,
+        "error_handling_quality": 0.0
+      },
+      "performance_metrics": {
+        "execution_time_ms": [
+          42.390299991519214,
+          34.339093998874155,
+          45.4623572389975,
+          40.368525656822456,
+          38.16672103615881
+        ],
+        "memory_usage_mb": 3.65,
+        "token_consumption_estimate": 3650,
+        "success_rate": 1.0,
+        "failure_patterns": []
+      },
+      "statistical_analysis": {
+        "execution_time": {
+          "mean": 40.145399584474426,
+          "std_dev": 4.212711571323157,
+          "confidence_interval_95": [
+            36.45279508278764,
+            43.83800408616121
+          ],
+          "outliers": [],
+          "variance": 17.746938783160022,
+          "coefficient_variation": 10.493634675272617
+        },
+        "complexity_trend": {
+          "mean": 1,
+          "std_dev": 0,
+          "confidence_interval_95": [
+            1,
+            1
+          ],
+          "outliers": [],
+          "variance": 0,
+          "coefficient_variation": 0.0
+        }
+      },
+      "savage_judgment": {
+        "overall_score": 65.58333333333333,
+        "roast_level": "medium",
+        "commentary": "\u26a0\ufe0f MEDIOCRE ALERT: 65.6/100 \u26a0\ufe0f\n\nThis command is the programming equivalent of lukewarm coffee\u2014not terrible enough to throw away, but not good enough to enjoy. Complexity score of 1 is acceptable, but the 365 lines suggest some optimization opportunities. Documentation quality at 6.0/10 is 'meh' tier.",
+        "improvement_recommendations": [
+          "\ud83d\udee1\ufe0f ERROR HANDLING: Score 0.0/10. Add validation, fallback mechanisms, and graceful degradation."
+        ],
+        "comparable_commands": [],
+        "complexity_verdict": "\ud83c\udfc6 OPTIMAL: Direct solution, zero unnecessary complexity"
+      },
+      "evidence_files": [
+        ".github/benchmarks/data/adhd-task-breakdown_analysis.json"
+      ]
+    }
+  },
+  "recommendations": [
+    "\ud83c\udfaf GLOBAL COMPLEXITY AUDIT: 1 commands exceed complexity limits. Implement mandatory complexity reviews."
+  ]
+}
