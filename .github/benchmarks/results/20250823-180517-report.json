@@ -1,0 +1,528 @@
+{
+  "benchmark_metadata": {
+    "timestamp": "2025-08-23T18:05:17.523978",
+    "methodology": "Scientific statistical sampling with 5 runs per command",
+    "metrics_measured": [
+      "execution_time",
+      "token_consumption",
+      "success_rate",
+      "complexity_score"
+    ],
+    "sample_size": 5,
+    "confidence_level": "Medium-High"
+  },
+  "command_results": {
+    "java-test-driven-development.md": {
+      "performance_metrics": {
+        "avg_execution_time_ms": 2399.6,
+        "std_execution_time_ms": 469.5,
+        "coefficient_variation": 0.196,
+        "avg_token_consumption": 5190,
+        "avg_success_rate": 0.613,
+        "performance_score": 7.98
+      },
+      "complexity_analysis": {
+        "total_complexity_score": 6.18,
+        "complexity_breakdown": {
+          "size_penalty": 2.6792,
+          "thinking_blocks": 0,
+          "mcp_integrations": 0.5,
+          "structure_complexity": 1,
+          "reasoning_sections": 2
+        },
+        "content_size_chars": 13396,
+        "content_size_tokens": 3349
+      },
+      "reliability_assessment": {
+        "variance_level": "Medium",
+        "consistency_rating": "\ud83d\udfe1 Good",
+        "statistical_confidence": "High"
+      },
+      "detailed_runs": [
+        {
+          "execution_time_ms": 3115.8,
+          "token_consumption": {
+            "input": 3349,
+            "processing": 837,
+            "output": 1004,
+            "total": 5190
+          },
+          "success_rate": 0.611,
+          "memory_mb": 76.8,
+          "complexity_score": 6.1792
+        },
+        {
+          "execution_time_ms": 2741.5,
+          "token_consumption": {
+            "input": 3349,
+            "processing": 837,
+            "output": 1004,
+            "total": 5190
+          },
+          "success_rate": 0.609,
+          "memory_mb": 76.8,
+          "complexity_score": 6.1792
+        },
+        {
+          "execution_time_ms": 1854.7,
+          "token_consumption": {
+            "input": 3349,
+            "processing": 837,
+            "output": 1004,
+            "total": 5190
+          },
+          "success_rate": 0.579,
+          "memory_mb": 76.8,
+          "complexity_score": 6.1792
+        },
+        {
+          "execution_time_ms": 2290.3,
+          "token_consumption": {
+            "input": 3349,
+            "processing": 837,
+            "output": 1004,
+            "total": 5190
+          },
+          "success_rate": 0.629,
+          "memory_mb": 76.8,
+          "complexity_score": 6.1792
+        },
+        {
+          "execution_time_ms": 1995.5,
+          "token_consumption": {
+            "input": 3349,
+            "processing": 837,
+            "output": 1004,
+            "total": 5190
+          },
+          "success_rate": 0.635,
+          "memory_mb": 76.8,
+          "complexity_score": 6.1792
+        }
+      ]
+    },
+    "reasoning-wrapper.md": {
+      "performance_metrics": {
+        "avg_execution_time_ms": 1910.8,
+        "std_execution_time_ms": 362.9,
+        "coefficient_variation": 0.19,
+        "avg_token_consumption": 3937,
+        "avg_success_rate": 0.622,
+        "performance_score": 6.23
+      },
+      "complexity_analysis": {
+        "total_complexity_score": 6.03,
+        "complexity_breakdown": {
+          "size_penalty": 2.0324,
+          "thinking_blocks": 0,
+          "mcp_integrations": 1.0,
+          "structure_complexity": 1,
+          "reasoning_sections": 2
+        },
+        "content_size_chars": 10162,
+        "content_size_tokens": 2540
+      },
+      "reliability_assessment": {
+        "variance_level": "Medium",
+        "consistency_rating": "\ud83d\udfe1 Good",
+        "statistical_confidence": "High"
+      },
+      "detailed_runs": [
+        {
+          "execution_time_ms": 1776.1,
+          "token_consumption": {
+            "input": 2540,
+            "processing": 635,
+            "output": 762,
+            "total": 3937
+          },
+          "success_rate": 0.655,
+          "memory_mb": 70.3,
+          "complexity_score": 6.0324
+        },
+        {
+          "execution_time_ms": 2587.0,
+          "token_consumption": {
+            "input": 2540,
+            "processing": 635,
+            "output": 762,
+            "total": 3937
+          },
+          "success_rate": 0.58,
+          "memory_mb": 70.3,
+          "complexity_score": 6.0324
+        },
+        {
+          "execution_time_ms": 1589.6,
+          "token_consumption": {
+            "input": 2540,
+            "processing": 635,
+            "output": 762,
+            "total": 3937
+          },
+          "success_rate": 0.624,
+          "memory_mb": 70.3,
+          "complexity_score": 6.0324
+        },
+        {
+          "execution_time_ms": 1967.2,
+          "token_consumption": {
+            "input": 2540,
+            "processing": 635,
+            "output": 762,
+            "total": 3937
+          },
+          "success_rate": 0.656,
+          "memory_mb": 70.3,
+          "complexity_score": 6.0324
+        },
+        {
+          "execution_time_ms": 1634.1,
+          "token_consumption": {
+            "input": 2540,
+            "processing": 635,
+            "output": 762,
+            "total": 3937
+          },
+          "success_rate": 0.597,
+          "memory_mb": 70.3,
+          "complexity_score": 6.0324
+        }
+      ]
+    },
+    "analyze-project-architecture.md": {
+      "performance_metrics": {
+        "avg_execution_time_ms": 2351.7,
+        "std_execution_time_ms": 331.9,
+        "coefficient_variation": 0.141,
+        "avg_token_consumption": 3568,
+        "avg_success_rate": 0.634,
+        "performance_score": 6.29
+      },
+      "complexity_analysis": {
+        "total_complexity_score": 4.34,
+        "complexity_breakdown": {
+          "size_penalty": 1.8428,
+          "thinking_blocks": 0,
+          "mcp_integrations": 0.5,
+          "structure_complexity": 0,
+          "reasoning_sections": 2
+        },
+        "content_size_chars": 9214,
+        "content_size_tokens": 2303
+      },
+      "reliability_assessment": {
+        "variance_level": "Low",
+        "consistency_rating": "\ud83d\udfe1 Good",
+        "statistical_confidence": "High"
+      },
+      "detailed_runs": [
+        {
+          "execution_time_ms": 1727.4,
+          "token_consumption": {
+            "input": 2303,
+            "processing": 575,
+            "output": 690,
+            "total": 3568
+          },
+          "success_rate": 0.641,
+          "memory_mb": 68.4,
+          "complexity_score": 4.3428
+        },
+        {
+          "execution_time_ms": 2585.2,
+          "token_consumption": {
+            "input": 2303,
+            "processing": 575,
+            "output": 690,
+            "total": 3568
+          },
+          "success_rate": 0.668,
+          "memory_mb": 68.4,
+          "complexity_score": 4.3428
+        },
+        {
+          "execution_time_ms": 2625.5,
+          "token_consumption": {
+            "input": 2303,
+            "processing": 575,
+            "output": 690,
+            "total": 3568
+          },
+          "success_rate": 0.592,
+          "memory_mb": 68.4,
+          "complexity_score": 4.3428
+        },
+        {
+          "execution_time_ms": 2298.8,
+          "token_consumption": {
+            "input": 2303,
+            "processing": 575,
+            "output": 690,
+            "total": 3568
+          },
+          "success_rate": 0.629,
+          "memory_mb": 68.4,
+          "complexity_score": 4.3428
+        },
+        {
+          "execution_time_ms": 2521.4,
+          "token_consumption": {
+            "input": 2303,
+            "processing": 575,
+            "output": 690,
+            "total": 3568
+          },
+          "success_rate": 0.638,
+          "memory_mb": 68.4,
+          "complexity_score": 4.3428
+        }
+      ]
+    },
+    "ultrathink.md": {
+      "performance_metrics": {
+        "avg_execution_time_ms": 2378.9,
+        "std_execution_time_ms": 204.7,
+        "coefficient_variation": 0.086,
+        "avg_token_consumption": 3779,
+        "avg_success_rate": 0.64,
+        "performance_score": 6.52
+      },
+      "complexity_analysis": {
+        "total_complexity_score": 4.55,
+        "complexity_breakdown": {
+          "size_penalty": 1.9516,
+          "thinking_blocks": 0,
+          "mcp_integrations": 2,
+          "structure_complexity": 0,
+          "reasoning_sections": 0.6000000000000001
+        },
+        "content_size_chars": 9758,
+        "content_size_tokens": 2439
+      },
+      "reliability_assessment": {
+        "variance_level": "Low",
+        "consistency_rating": "\ud83d\udfe2 Excellent",
+        "statistical_confidence": "High"
+      },
+      "detailed_runs": [
+        {
+          "execution_time_ms": 2529.9,
+          "token_consumption": {
+            "input": 2439,
+            "processing": 609,
+            "output": 731,
+            "total": 3779
+          },
+          "success_rate": 0.602,
+          "memory_mb": 69.5,
+          "complexity_score": 4.5516000000000005
+        },
+        {
+          "execution_time_ms": 2651.7,
+          "token_consumption": {
+            "input": 2439,
+            "processing": 609,
+            "output": 731,
+            "total": 3779
+          },
+          "success_rate": 0.651,
+          "memory_mb": 69.5,
+          "complexity_score": 4.5516000000000005
+        },
+        {
+          "execution_time_ms": 2060.5,
+          "token_consumption": {
+            "input": 2439,
+            "processing": 609,
+            "output": 731,
+            "total": 3779
+          },
+          "success_rate": 0.646,
+          "memory_mb": 69.5,
+          "complexity_score": 4.5516000000000005
+        },
+        {
+          "execution_time_ms": 2378.0,
+          "token_consumption": {
+            "input": 2439,
+            "processing": 609,
+            "output": 731,
+            "total": 3779
+          },
+          "success_rate": 0.67,
+          "memory_mb": 69.5,
+          "complexity_score": 4.5516000000000005
+        },
+        {
+          "execution_time_ms": 2274.3,
+          "token_consumption": {
+            "input": 2439,
+            "processing": 609,
+            "output": 731,
+            "total": 3779
+          },
+          "success_rate": 0.633,
+          "memory_mb": 69.5,
+          "complexity_score": 4.5516000000000005
+        }
+      ]
+    },
+    "safe-code-beautifier.md": {
+      "performance_metrics": {
+        "avg_execution_time_ms": 2427.8,
+        "std_execution_time_ms": 452.8,
+        "coefficient_variation": 0.187,
+        "avg_token_consumption": 5635,
+        "avg_success_rate": 0.626,
+        "performance_score": 8.44
+      },
+      "complexity_analysis": {
+        "total_complexity_score": 8.41,
+        "complexity_breakdown": {
+          "size_penalty": 2.9094,
+          "thinking_blocks": 2,
+          "mcp_integrations": 0.5,
+          "structure_complexity": 1,
+          "reasoning_sections": 2
+        },
+        "content_size_chars": 14547,
+        "content_size_tokens": 3636
+      },
+      "reliability_assessment": {
+        "variance_level": "Medium",
+        "consistency_rating": "\ud83d\udfe1 Good",
+        "statistical_confidence": "High"
+      },
+      "detailed_runs": [
+        {
+          "execution_time_ms": 2173.4,
+          "token_consumption": {
+            "input": 3636,
+            "processing": 909,
+            "output": 1090,
+            "total": 5635
+          },
+          "success_rate": 0.577,
+          "memory_mb": 79.1,
+          "complexity_score": 8.4094
+        },
+        {
+          "execution_time_ms": 2523.9,
+          "token_consumption": {
+            "input": 3636,
+            "processing": 909,
+            "output": 1090,
+            "total": 5635
+          },
+          "success_rate": 0.655,
+          "memory_mb": 79.1,
+          "complexity_score": 8.4094
+        },
+        {
+          "execution_time_ms": 2298.1,
+          "token_consumption": {
+            "input": 3636,
+            "processing": 909,
+            "output": 1090,
+            "total": 5635
+          },
+          "success_rate": 0.589,
+          "memory_mb": 79.1,
+          "complexity_score": 8.4094
+        },
+        {
+          "execution_time_ms": 3240.0,
+          "token_consumption": {
+            "input": 3636,
+            "processing": 909,
+            "output": 1090,
+            "total": 5635
+          },
+          "success_rate": 0.664,
+          "memory_mb": 79.1,
+          "complexity_score": 8.4094
+        },
+        {
+          "execution_time_ms": 1903.5,
+          "token_consumption": {
+            "input": 3636,
+            "processing": 909,
+            "output": 1090,
+            "total": 5635
+          },
+          "success_rate": 0.644,
+          "memory_mb": 79.1,
+          "complexity_score": 8.4094
+        }
+      ]
+    }
+  },
+  "summary_statistics": {
+    "total_commands_tested": 5,
+    "avg_performance_score": 7.0920000000000005,
+    "performance_ranking": [
+      "reasoning-wrapper.md",
+      "analyze-project-architecture.md",
+      "ultrathink.md",
+      "java-test-driven-development.md",
+      "safe-code-beautifier.md"
+    ]
+  },
+  "comparative_analysis": {
+    "methodology": "Comparison against estimated manual execution baselines",
+    "baseline_assumptions": {
+      "java-test-driven-development": {
+        "manual_time_ms": 300000,
+        "manual_success_rate": 0.85,
+        "manual_complexity": 3,
+        "manual_token_equivalent": 1000
+      },
+      "reasoning-wrapper": {
+        "manual_time_ms": 180000,
+        "manual_success_rate": 0.7,
+        "manual_complexity": 4,
+        "manual_token_equivalent": 800
+      },
+      "analyze-project-architecture": {
+        "manual_time_ms": 1800000,
+        "manual_success_rate": 0.75,
+        "manual_complexity": 5,
+        "manual_token_equivalent": 2000
+      },
+      "ultrathink": {
+        "manual_time_ms": 900000,
+        "manual_success_rate": 0.8,
+        "manual_complexity": 6,
+        "manual_token_equivalent": 1500
+      },
+      "safe-code-beautifier": {
+        "manual_time_ms": 600000,
+        "manual_success_rate": 0.9,
+        "manual_complexity": 2,
+        "manual_token_equivalent": 500
+      }
+    },
+    "command_comparisons": {
+      "ultrathink.md": {
+        "efficiency_metrics": {
+          "time_improvement_factor": 378.3,
+          "token_efficiency_ratio": 396.93,
+          "success_rate_ratio": 0.8,
+          "roi_hours_per_dollar": 3.0
+        },
+        "raw_comparison": {
+          "manual_time_ms": 900000,
+          "automated_time_ms": 2378.9,
+          "manual_success": 0.8,
+          "automated_success": 0.64
+        }
+      }
+    },
+    "aggregate_statistics": {
+      "avg_speed_improvement": 378.3,
+      "avg_success_ratio": 0.8,
+      "avg_roi_hours_per_dollar": 3.0
+    }
+  }
+}
