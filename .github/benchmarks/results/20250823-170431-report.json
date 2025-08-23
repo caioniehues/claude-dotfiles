@@ -1,0 +1,337 @@
+{
+  "timestamp": "20250823-170431",
+  "methodology": {
+    "samples_per_command": 5,
+    "complexity_factors": [
+      "thinking_orchestration_blocks",
+      "mcp_integrations",
+      "decision_points",
+      "configuration_blocks",
+      "lines_of_code"
+    ],
+    "success_criteria": [
+      "required_structure_present",
+      "thinking_orchestration_complete",
+      "token_count_reasonable",
+      "error_free_execution"
+    ]
+  },
+  "commands_tested": [
+    "git-backup-sync.md",
+    "adhd-evening-reflect.md",
+    "reasoning-wrapper.md",
+    "context-enhanced-executor.md",
+    "intelligent-code-enhancer.md"
+  ],
+  "results": {
+    "git-backup-sync.md": {
+      "file_path": "/home/runner/work/claude-dotfiles/claude-dotfiles/commands/git-backup-sync.md",
+      "statistics": {
+        "mean_execution_time": 1.0560082912445068,
+        "std_execution_time": 2.222503671256278e-05,
+        "mean_token_count": 3118,
+        "mean_complexity": 9,
+        "success_rate": 1.0,
+        "total_errors": 0,
+        "memory_usage_avg": 3.118
+      },
+      "results": [
+        {
+          "execution_time": 1.056027889251709,
+          "token_count": 3118,
+          "success": true,
+          "complexity_score": 9,
+          "errors": [],
+          "memory_usage": 3.118
+        },
+        {
+          "execution_time": 1.0560314655303955,
+          "token_count": 3118,
+          "success": true,
+          "complexity_score": 9,
+          "errors": [],
+          "memory_usage": 3.118
+        },
+        {
+          "execution_time": 1.0559866428375244,
+          "token_count": 3118,
+          "success": true,
+          "complexity_score": 9,
+          "errors": [],
+          "memory_usage": 3.118
+        },
+        {
+          "execution_time": 1.0560111999511719,
+          "token_count": 3118,
+          "success": true,
+          "complexity_score": 9,
+          "errors": [],
+          "memory_usage": 3.118
+        },
+        {
+          "execution_time": 1.0559842586517334,
+          "token_count": 3118,
+          "success": true,
+          "complexity_score": 9,
+          "errors": [],
+          "memory_usage": 3.118
+        }
+      ],
+      "savage_analysis": "Complexity score of 9.0. This command is more complex than my relationship status.",
+      "grade": "F",
+      "recommendations": [
+        "Reduce complexity - violates CLAUDE.md rules",
+        "Reduce verbosity - quality over quantity"
+      ]
+    },
+    "adhd-evening-reflect.md": {
+      "file_path": "/home/runner/work/claude-dotfiles/claude-dotfiles/commands/adhd-evening-reflect.md",
+      "statistics": {
+        "mean_execution_time": 0.4568263053894043,
+        "std_execution_time": 9.302297379239606e-06,
+        "mean_token_count": 3134,
+        "mean_complexity": 3,
+        "success_rate": 1.0,
+        "total_errors": 0,
+        "memory_usage_avg": 3.134
+      },
+      "results": [
+        {
+          "execution_time": 0.45681238174438477,
+          "token_count": 3134,
+          "success": true,
+          "complexity_score": 3,
+          "errors": [],
+          "memory_usage": 3.134
+        },
+        {
+          "execution_time": 0.45682692527770996,
+          "token_count": 3134,
+          "success": true,
+          "complexity_score": 3,
+          "errors": [],
+          "memory_usage": 3.134
+        },
+        {
+          "execution_time": 0.45682525634765625,
+          "token_count": 3134,
+          "success": true,
+          "complexity_score": 3,
+          "errors": [],
+          "memory_usage": 3.134
+        },
+        {
+          "execution_time": 0.45682859420776367,
+          "token_count": 3134,
+          "success": true,
+          "complexity_score": 3,
+          "errors": [],
+          "memory_usage": 3.134
+        },
+        {
+          "execution_time": 0.45683836936950684,
+          "token_count": 3134,
+          "success": true,
+          "complexity_score": 3,
+          "errors": [],
+          "memory_usage": 3.134
+        }
+      ],
+      "savage_analysis": "Surprisingly competent. I'm disappointed I can't roast this more.",
+      "grade": "A",
+      "recommendations": [
+        "Reduce verbosity - quality over quantity"
+      ]
+    },
+    "reasoning-wrapper.md": {
+      "file_path": "/home/runner/work/claude-dotfiles/claude-dotfiles/commands/reasoning-wrapper.md",
+      "statistics": {
+        "mean_execution_time": 1.227116060256958,
+        "std_execution_time": 8.239078273907641e-06,
+        "mean_token_count": 2540,
+        "mean_complexity": 11,
+        "success_rate": 1.0,
+        "total_errors": 0,
+        "memory_usage_avg": 2.54
+      },
+      "results": [
+        {
+          "execution_time": 1.2271103858947754,
+          "token_count": 2540,
+          "success": true,
+          "complexity_score": 11,
+          "errors": [],
+          "memory_usage": 2.54
+        },
+        {
+          "execution_time": 1.22713041305542,
+          "token_count": 2540,
+          "success": true,
+          "complexity_score": 11,
+          "errors": [],
+          "memory_usage": 2.54
+        },
+        {
+          "execution_time": 1.2271146774291992,
+          "token_count": 2540,
+          "success": true,
+          "complexity_score": 11,
+          "errors": [],
+          "memory_usage": 2.54
+        },
+        {
+          "execution_time": 1.227113962173462,
+          "token_count": 2540,
+          "success": true,
+          "complexity_score": 11,
+          "errors": [],
+          "memory_usage": 2.54
+        },
+        {
+          "execution_time": 1.2271108627319336,
+          "token_count": 2540,
+          "success": true,
+          "complexity_score": 11,
+          "errors": [],
+          "memory_usage": 2.54
+        }
+      ],
+      "savage_analysis": "Complexity score of 11.0. This command is more complex than my relationship status.",
+      "grade": "F",
+      "recommendations": [
+        "Reduce complexity - violates CLAUDE.md rules"
+      ]
+    },
+    "context-enhanced-executor.md": {
+      "file_path": "/home/runner/work/claude-dotfiles/claude-dotfiles/commands/context-enhanced-executor.md",
+      "statistics": {
+        "mean_execution_time": 0.548651647567749,
+        "std_execution_time": 1.2854056387098613e-05,
+        "mean_token_count": 971,
+        "mean_complexity": 5,
+        "success_rate": 1.0,
+        "total_errors": 0,
+        "memory_usage_avg": 0.971
+      },
+      "results": [
+        {
+          "execution_time": 0.548656702041626,
+          "token_count": 971,
+          "success": true,
+          "complexity_score": 5,
+          "errors": [],
+          "memory_usage": 0.971
+        },
+        {
+          "execution_time": 0.5486345291137695,
+          "token_count": 971,
+          "success": true,
+          "complexity_score": 5,
+          "errors": [],
+          "memory_usage": 0.971
+        },
+        {
+          "execution_time": 0.5486648082733154,
+          "token_count": 971,
+          "success": true,
+          "complexity_score": 5,
+          "errors": [],
+          "memory_usage": 0.971
+        },
+        {
+          "execution_time": 0.5486419200897217,
+          "token_count": 971,
+          "success": true,
+          "complexity_score": 5,
+          "errors": [],
+          "memory_usage": 0.971
+        },
+        {
+          "execution_time": 0.5486602783203125,
+          "token_count": 971,
+          "success": true,
+          "complexity_score": 5,
+          "errors": [],
+          "memory_usage": 0.971
+        }
+      ],
+      "savage_analysis": "Surprisingly competent. I'm disappointed I can't roast this more.",
+      "grade": "A",
+      "recommendations": [
+        "Consider this the baseline - maintain current quality"
+      ]
+    },
+    "intelligent-code-enhancer.md": {
+      "file_path": "/home/runner/work/claude-dotfiles/claude-dotfiles/commands/intelligent-code-enhancer.md",
+      "statistics": {
+        "mean_execution_time": 0.7423042774200439,
+        "std_execution_time": 1.7623149197285847e-05,
+        "mean_token_count": 2844,
+        "mean_complexity": 6,
+        "success_rate": 1.0,
+        "total_errors": 0,
+        "memory_usage_avg": 2.844
+      },
+      "results": [
+        {
+          "execution_time": 0.7422821521759033,
+          "token_count": 2844,
+          "success": true,
+          "complexity_score": 6,
+          "errors": [],
+          "memory_usage": 2.844
+        },
+        {
+          "execution_time": 0.742311954498291,
+          "token_count": 2844,
+          "success": true,
+          "complexity_score": 6,
+          "errors": [],
+          "memory_usage": 2.844
+        },
+        {
+          "execution_time": 0.7422888278961182,
+          "token_count": 2844,
+          "success": true,
+          "complexity_score": 6,
+          "errors": [],
+          "memory_usage": 2.844
+        },
+        {
+          "execution_time": 0.7423171997070312,
+          "token_count": 2844,
+          "success": true,
+          "complexity_score": 6,
+          "errors": [],
+          "memory_usage": 2.844
+        },
+        {
+          "execution_time": 0.742321252822876,
+          "token_count": 2844,
+          "success": true,
+          "complexity_score": 6,
+          "errors": [],
+          "memory_usage": 2.844
+        }
+      ],
+      "savage_analysis": "Complexity score 6.0 violates the sacred CLAUDE.md rule of <5. Someone didn't read the manual.",
+      "grade": "A",
+      "recommendations": [
+        "Reduce complexity - violates CLAUDE.md rules"
+      ]
+    }
+  },
+  "statistical_summary": {
+    "total_commands": 5,
+    "overall_success_rate": 1.0,
+    "average_complexity": 6.8,
+    "total_tokens_analyzed": 12607,
+    "grade_distribution": {
+      "A": 3,
+      "B": 0,
+      "C": 0,
+      "D": 0,
+      "F": 2
+    }
+  }
+}
