@@ -1,0 +1,182 @@
+{
+  "benchmark_metadata": {
+    "timestamp": "2025-08-23T04:40:00.031026",
+    "version": "2.0-savage",
+    "duration_seconds": 0.014826,
+    "commands_analyzed": 5
+  },
+  "results": [
+    {
+      "command_name": "intelligent-code-enhancer",
+      "metrics": {
+        "name": "intelligent-code-enhancer",
+        "file_size_bytes": 11411,
+        "line_count": 442,
+        "thinking_blocks": 40,
+        "complexity_score": 6.7,
+        "readability_score": 10.0,
+        "pattern_compliance": 10.0,
+        "mcp_integration": true,
+        "error_recovery": true,
+        "documentation_quality": 9.5,
+        "reusability_score": 5.800000000000001,
+        "token_estimate": 2844,
+        "performance_class": "STANDARD",
+        "savage_rating": "EXCELLENT",
+        "improvement_potential": 1.6666666666666607
+      },
+      "savage_commentary": "**EXCELLENT**: Solid work. Your future self won't hate you for writing this. \ud83d\udd25 **OVERCOMPLICATED**: 6.7/10 complexity. Simplicity died for your sins. \ud83d\udcb8 **TOKEN WASTE**: 2844 estimated tokens. Efficiency is apparently optional.",
+      "confidence_score": 82.89999999999999,
+      "recommendations": [
+        "Simplify. Apply the 3-Question Rule ruthlessly."
+      ]
+    },
+    {
+      "command_name": "ultrathink-hybrid-mcp",
+      "metrics": {
+        "name": "ultrathink-hybrid-mcp",
+        "file_size_bytes": 13431,
+        "line_count": 536,
+        "thinking_blocks": 12,
+        "complexity_score": 5.0,
+        "readability_score": 10.0,
+        "pattern_compliance": 5.5,
+        "mcp_integration": true,
+        "error_recovery": true,
+        "documentation_quality": 9.5,
+        "reusability_score": 6.0,
+        "token_estimate": 3334,
+        "performance_class": "STANDARD",
+        "savage_rating": "GOOD",
+        "improvement_potential": 16.66666666666666
+      },
+      "savage_commentary": "**GOOD**: Not terrible, but there's room for growth. Like a lot of room. \ud83d\udcb8 **TOKEN WASTE**: 3334 estimated tokens. Efficiency is apparently optional.",
+      "confidence_score": 72.25,
+      "recommendations": [
+        "Follow CLAUDE.md patterns. They exist for a reason."
+      ]
+    },
+    {
+      "command_name": "java-rapid-implementation",
+      "metrics": {
+        "name": "java-rapid-implementation",
+        "file_size_bytes": 8736,
+        "line_count": 250,
+        "thinking_blocks": 38,
+        "complexity_score": 4.7,
+        "readability_score": 8.5,
+        "pattern_compliance": 9.0,
+        "mcp_integration": true,
+        "error_recovery": true,
+        "documentation_quality": 6.0,
+        "reusability_score": 4.9,
+        "token_estimate": 2183,
+        "performance_class": "STANDARD",
+        "savage_rating": "GOOD",
+        "improvement_potential": 21.66666666666667
+      },
+      "savage_commentary": "**GOOD**: Not terrible, but there's room for growth. Like a lot of room. \ud83d\udcb8 **TOKEN WASTE**: 2183 estimated tokens. Efficiency is apparently optional.",
+      "confidence_score": 72.55,
+      "recommendations": []
+    },
+    {
+      "command_name": "ultrathink-interactive",
+      "metrics": {
+        "name": "ultrathink-interactive",
+        "file_size_bytes": 23852,
+        "line_count": 673,
+        "thinking_blocks": 0,
+        "complexity_score": 7.3,
+        "readability_score": 10.0,
+        "pattern_compliance": 5.5,
+        "mcp_integration": true,
+        "error_recovery": false,
+        "documentation_quality": 8.5,
+        "reusability_score": 6.0,
+        "token_estimate": 5093,
+        "performance_class": "BRAINDEAD",
+        "savage_rating": "GOOD",
+        "improvement_potential": 20.0
+      },
+      "savage_commentary": "**GOOD**: Not terrible, but there's room for growth. Like a lot of room. \ud83e\udde0 **BRAINDEAD**: Zero thinking blocks. This has the intelligence of a brick. \ud83d\udd25 **OVERCOMPLICATED**: 7.3/10 complexity. Simplicity died for your sins. \ud83d\udcb8 **TOKEN WASTE**: 5093 estimated tokens. Efficiency is apparently optional.",
+      "confidence_score": 67.30000000000001,
+      "recommendations": [
+        "Add more thinking blocks. Thinking-first is mandatory, not optional.",
+        "Follow CLAUDE.md patterns. They exist for a reason.",
+        "Simplify. Apply the 3-Question Rule ruthlessly."
+      ]
+    },
+    {
+      "command_name": "generate-thinking-command",
+      "metrics": {
+        "name": "generate-thinking-command",
+        "file_size_bytes": 3803,
+        "line_count": 137,
+        "thinking_blocks": 8,
+        "complexity_score": 6.4,
+        "readability_score": 10.0,
+        "pattern_compliance": 10.0,
+        "mcp_integration": true,
+        "error_recovery": true,
+        "documentation_quality": 9.5,
+        "reusability_score": 5.2,
+        "token_estimate": 950,
+        "performance_class": "STANDARD",
+        "savage_rating": "EXCELLENT",
+        "improvement_potential": 1.6666666666666607
+      },
+      "savage_commentary": "**EXCELLENT**: Solid work. Your future self won't hate you for writing this. \ud83d\udd25 **OVERCOMPLICATED**: 6.4/10 complexity. Simplicity died for your sins.",
+      "confidence_score": 82.44999999999999,
+      "recommendations": [
+        "Simplify. Apply the 3-Question Rule ruthlessly."
+      ]
+    }
+  ],
+  "aggregate_statistics": {
+    "complexity": {
+      "mean": 6.0200000000000005,
+      "stdev": 1.1211601134539169,
+      "median": 6.4
+    },
+    "confidence": {
+      "mean": 75.49,
+      "stdev": 6.884166616228858,
+      "median": 72.55
+    },
+    "thinking_blocks": {
+      "mean": 19.6,
+      "total": 98
+    }
+  },
+  "savage_summary": "\ud83c\udf89 DECENT: 75.5% average confidence. Surprisingly not terrible.",
+  "rankings": {
+    "best_overall": [
+      "intelligent-code-enhancer",
+      "generate-thinking-command",
+      "java-rapid-implementation",
+      "ultrathink-hybrid-mcp",
+      "ultrathink-interactive"
+    ],
+    "most_complex": [
+      "ultrathink-interactive",
+      "intelligent-code-enhancer",
+      "generate-thinking-command",
+      "ultrathink-hybrid-mcp",
+      "java-rapid-implementation"
+    ],
+    "most_compliant": [
+      "intelligent-code-enhancer",
+      "generate-thinking-command",
+      "java-rapid-implementation",
+      "ultrathink-hybrid-mcp",
+      "ultrathink-interactive"
+    ],
+    "best_documented": [
+      "intelligent-code-enhancer",
+      "ultrathink-hybrid-mcp",
+      "generate-thinking-command",
+      "ultrathink-interactive",
+      "java-rapid-implementation"
+    ]
+  }
+}
