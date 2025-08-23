@@ -1,0 +1,78 @@
+{
+  "benchmarking_framework": {
+    "version": "1.0",
+    "timestamp": "2025-08-23T23:02:44Z",
+    "savage_benchmarker_protocol": {
+      "objective_measurements": {
+        "token_consumption": {
+          "input_tokens": "measured",
+          "output_tokens": "measured", 
+          "total_cost_estimation": "calculated"
+        },
+        "execution_time": {
+          "start_to_first_output": "milliseconds",
+          "total_execution_time": "milliseconds",
+          "statistical_variance": "standard_deviation"
+        },
+        "success_rate": {
+          "definition": "command produces intended result without errors",
+          "sample_size": 5,
+          "success_percentage": "calculated"
+        },
+        "complexity_score": {
+          "based_on": "CLAUDE.md rules",
+          "max_acceptable": 5,
+          "scoring_criteria": {
+            "direct_solution": 1,
+            "new_class": 2,
+            "interface": 1,
+            "design_pattern": 3,
+            "config_file": 2
+          }
+        },
+        "composition_compatibility": {
+          "pipeline_ready": "boolean",
+          "chainable": "boolean",
+          "output_format_consistency": "rating_1_to_5"
+        },
+        "memory_usage": {
+          "peak_memory": "estimated_based_on_output_size",
+          "memory_efficiency": "rating_1_to_5"
+        },
+        "error_frequency": {
+          "syntax_errors": "count",
+          "logical_errors": "count", 
+          "runtime_failures": "count",
+          "error_types": "categorized_list"
+        }
+      },
+      "evidence_collection": {
+        "minimum_sample_runs": 5,
+        "screenshot_equivalent": "command_output_capture",
+        "failure_pattern_tracking": "detailed_logs",
+        "baseline_comparison": "manual_vs_command_execution",
+        "similar_command_comparison": "relative_performance"
+      },
+      "statistical_analysis": {
+        "standard_deviation": "calculated_for_time_and_success",
+        "outlier_identification": "z_score_analysis", 
+        "confidence_intervals": "95_percent_confidence",
+        "cost_benefit_ratio": "time_saved_vs_tokens_spent",
+        "roi_calculation": "efficiency_score"
+      },
+      "judgment_criteria": {
+        "data_driven": "all_claims_must_be_backed_by_measurements",
+        "comparative": "ranked_against_other_commands",
+        "honest_but_brutal": "no_sugar_coating_failures",
+        "improvement_focused": "specific_actionable_recommendations"
+      }
+    },
+    "selected_commands_for_analysis": [
+      "ultrathink.md",
+      "java-rapid-implementation.md", 
+      "adhd-morning-assistant.md",
+      "context-enhanced-executor.md",
+      "adaptive-complexity-router.md"
+    ]
+  }
+}
