@@ -1,0 +1,81 @@
+{
+  "benchmark_methodology": {
+    "timestamp": "2025-08-23T06:38:36Z",
+    "savage_benchmarker": "Claude Sonnet 4",
+    "objective": "Scientific measurement and brutal judgment of command performance",
+    
+    "measurement_framework": {
+      "token_efficiency": {
+        "metric": "output_tokens / input_tokens ratio",
+        "baseline": "Manual execution equivalent",
+        "threshold": {
+          "excellent": "> 2.0",
+          "good": "1.5 - 2.0", 
+          "acceptable": "1.0 - 1.5",
+          "trash": "< 1.0"
+        }
+      },
+      "execution_time": {
+        "metric": "end_to_end_seconds",
+        "measurement_runs": 5,
+        "variance_tracking": "standard_deviation",
+        "timeout_threshold": 30
+      },
+      "complexity_compliance": {
+        "based_on": "CLAUDE.md rules",
+        "max_score": 5,
+        "penalties": {
+          "wildcard_imports": "+2",
+          "functions_over_20_lines": "+3", 
+          "unnecessary_patterns": "+4",
+          "null_returns": "+2"
+        }
+      },
+      "success_rate": {
+        "definition": "Produces working, compilable, testable code",
+        "measurement": "successful_runs / total_runs",
+        "minimum_acceptable": 0.85
+      }
+    },
+
+    "evidence_collection": {
+      "sample_size": 5,
+      "test_scenarios": [
+        "simple_request",
+        "moderate_complexity", 
+        "edge_case",
+        "error_condition",
+        "integration_test"
+      ],
+      "failure_taxonomy": [
+        "syntax_errors",
+        "logic_failures", 
+        "timeout_exceeded",
+        "pattern_violations",
+        "over_engineering"
+      ]
+    },
+
+    "savage_criteria": {
+      "roast_triggers": {
+        "failure_rate_over_15_percent": "Vegas odds",
+        "avg_execution_over_10s": "Coffee break duration",
+        "complexity_score_over_5": "Over-engineered nightmare",
+        "token_efficiency_under_1": "Wasteful babbling"
+      },
+      "backhanded_compliments": {
+        "low_variance_but_slow": "Consistently mediocre",
+        "fast_but_error_prone": "Speed demon with accuracy issues", 
+        "over_engineered_but_works": "Solving tomorrow's problems today"
+      }
+    },
+
+    "selected_commands": [
+      "adhd-morning-assistant.md",
+      "intelligent-code-enhancer.md", 
+      "ultrathink-full-mcp.md",
+      "git-backup-sync.md",
+      "java-rapid-implementation.md"
+    ]
+  }
+}
