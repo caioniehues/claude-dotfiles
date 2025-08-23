@@ -1,0 +1,161 @@
+{
+  "senior-developer-analysis.md": {
+    "command": "senior-developer-analysis.md",
+    "timestamp": "2025-08-23T21:40:52.043181",
+    "complexity_score": 120.0,
+    "success_rate": 0.82,
+    "failure_modes": [
+      "Context analysis timeout",
+      "Pattern recognition failure"
+    ],
+    "performance_score": 32.8,
+    "statistics": {
+      "execution_time": {
+        "mean": 44.027102845562986,
+        "stdev": 6.832031029073085,
+        "min": 33.12583054213984,
+        "max": 53.32152366688715,
+        "variance": 46.67664798221744
+      },
+      "token_consumption": {
+        "mean": 7434.866666666667,
+        "stdev": 489.9473538287655,
+        "min": 6843,
+        "max": 8155
+      },
+      "memory_usage": {
+        "mean": 1084.3486666666668,
+        "max": 1091.55
+      }
+    },
+    "sample_size": 15,
+    "variance_coefficient": 0.155
+  },
+  "safe-code-beautifier.md": {
+    "command": "safe-code-beautifier.md",
+    "timestamp": "2025-08-23T21:40:52.043862",
+    "complexity_score": 92.5,
+    "success_rate": 0.92,
+    "failure_modes": [
+      "Risk assessment failure"
+    ],
+    "performance_score": 36.8,
+    "statistics": {
+      "execution_time": {
+        "mean": 23.262443217176905,
+        "stdev": 2.1783002157787745,
+        "min": 19.786720740250228,
+        "max": 26.225842943330665,
+        "variance": 4.7449918300618545
+      },
+      "token_consumption": {
+        "mean": 3401.6666666666665,
+        "stdev": 224.09585534086162,
+        "min": 3131,
+        "max": 3731
+      },
+      "memory_usage": {
+        "mean": 824.0166666666667,
+        "max": 827.31
+      }
+    },
+    "sample_size": 15,
+    "variance_coefficient": 0.094
+  },
+  "adhd-context-switch.md": {
+    "command": "adhd-context-switch.md",
+    "timestamp": "2025-08-23T21:40:52.044400",
+    "complexity_score": 34.0,
+    "success_rate": 0.85,
+    "failure_modes": [
+      "Memory write failure on edge case",
+      "Context serialization error"
+    ],
+    "performance_score": 34.0,
+    "statistics": {
+      "execution_time": {
+        "mean": 10.378600464432742,
+        "stdev": 1.2921039328717026,
+        "min": 8.316903619582575,
+        "max": 12.13640244833663,
+        "variance": 1.6695325733425213
+      },
+      "token_consumption": {
+        "mean": 2176.266666666667,
+        "stdev": 143.3952911493593,
+        "min": 2003,
+        "max": 2387
+      },
+      "memory_usage": {
+        "mean": 343.7626666666667,
+        "max": 345.87
+      }
+    },
+    "sample_size": 15,
+    "variance_coefficient": 0.124
+  },
+  "java-rapid-implementation.md": {
+    "command": "java-rapid-implementation.md",
+    "timestamp": "2025-08-23T21:40:52.044855",
+    "complexity_score": 53.0,
+    "success_rate": 0.88,
+    "failure_modes": [
+      "Complexity threshold exceeded",
+      "Pattern validation error"
+    ],
+    "performance_score": 35.2,
+    "statistics": {
+      "execution_time": {
+        "mean": 11.801513458296004,
+        "stdev": 1.3238398189422351,
+        "min": 9.68917844532671,
+        "max": 13.602489526015074,
+        "variance": 1.7525518662170099
+      },
+      "token_consumption": {
+        "mean": 1902.3333333333333,
+        "stdev": 125.35245548148666,
+        "min": 1751,
+        "max": 2087
+      },
+      "memory_usage": {
+        "mean": 493.0233333333333,
+        "max": 494.87
+      }
+    },
+    "sample_size": 15,
+    "variance_coefficient": 0.112
+  },
+  "ultrathink-pure-xml.md": {
+    "command": "ultrathink-pure-xml.md",
+    "timestamp": "2025-08-23T21:40:52.045395",
+    "complexity_score": 59.5,
+    "success_rate": 0.78,
+    "failure_modes": [
+      "Complexity overflow on distributed systems",
+      "Timeout on deep analysis"
+    ],
+    "performance_score": 31.2,
+    "statistics": {
+      "execution_time": {
+        "mean": 34.47099152885353,
+        "stdev": 7.4463628514453815,
+        "min": 22.58948385298548,
+        "max": 44.60116067403064,
+        "variance": 55.448319715385786
+      },
+      "token_consumption": {
+        "mean": 6001.6,
+        "stdev": 395.4826707418959,
+        "min": 5524,
+        "max": 6583
+      },
+      "memory_usage": {
+        "mean": 586.016,
+        "max": 591.83
+      }
+    },
+    "sample_size": 15,
+    "variance_coefficient": 0.216
+  }
+}
