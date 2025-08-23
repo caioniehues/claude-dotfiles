@@ -1,0 +1,430 @@
+{
+  "benchmark_metadata": {
+    "timestamp": "20250823-103749",
+    "total_commands_tested": 10,
+    "total_samples": 70,
+    "framework_version": "1.0"
+  },
+  "aggregate_statistics": {
+    "average_success_rate": 0.4857142857142857,
+    "average_savage_score": 0.8928571428571426,
+    "total_estimated_cost": 4.14637,
+    "compliance_rate": 0.0
+  },
+  "savage_rankings": [
+    {
+      "rank": 1,
+      "command_name": "context-enhanced-executor",
+      "savage_score": 4.642857142857142,
+      "judgment": "\u26a0\ufe0f  context-enhanced-executor has issues. 71.4% success rate and 5.0 complexity score suggest overengineering.",
+      "key_metrics": {
+        "success_rate": 0.7142857142857143,
+        "avg_execution_time": 7.337347568684102,
+        "complexity_score": 5,
+        "total_tokens": 14467
+      }
+    },
+    {
+      "rank": 2,
+      "command_name": "java-rapid-implementation",
+      "savage_score": 2.1428571428571423,
+      "judgment": "\u274c java-rapid-implementation is struggling. 71.4% success rate is gambling territory.",
+      "key_metrics": {
+        "success_rate": 0.7142857142857143,
+        "avg_execution_time": 14.75562255197517,
+        "complexity_score": 10,
+        "total_tokens": 33691
+      }
+    },
+    {
+      "rank": 3,
+      "command_name": "adaptive-complexity-router",
+      "savage_score": 0.7142857142857135,
+      "judgment": "\ud83d\udc80 adaptive-complexity-router is a disaster. 57.1% success rate with 16.2s execution time. Delete this.",
+      "key_metrics": {
+        "success_rate": 0.5714285714285714,
+        "avg_execution_time": 16.183461551858333,
+        "complexity_score": 8,
+        "total_tokens": 44410
+      }
+    },
+    {
+      "rank": 4,
+      "command_name": "adhd-context-switch",
+      "savage_score": 0.7142857142857135,
+      "judgment": "\ud83d\udc80 adhd-context-switch is a disaster. 57.1% success rate with 14.9s execution time. Delete this.",
+      "key_metrics": {
+        "success_rate": 0.5714285714285714,
+        "avg_execution_time": 14.882519139786083,
+        "complexity_score": 8,
+        "total_tokens": 38670
+      }
+    },
+    {
+      "rank": 5,
+      "command_name": "adhd-morning-assistant",
+      "savage_score": 0.7142857142857135,
+      "judgment": "\ud83d\udc80 adhd-morning-assistant is a disaster. 57.1% success rate with 12.4s execution time. Delete this.",
+      "key_metrics": {
+        "success_rate": 0.5714285714285714,
+        "avg_execution_time": 12.393002669095484,
+        "complexity_score": 5,
+        "total_tokens": 37904
+      }
+    },
+    {
+      "rank": 6,
+      "command_name": "ultrathink-full-mcp",
+      "savage_score": 0.0,
+      "judgment": "\ud83d\udc80 ultrathink-full-mcp is a disaster. 42.9% success rate with 23.0s execution time. Delete this.",
+      "key_metrics": {
+        "success_rate": 0.42857142857142855,
+        "avg_execution_time": 23.035690077369985,
+        "complexity_score": 8,
+        "total_tokens": 61586
+      }
+    },
+    {
+      "rank": 7,
+      "command_name": "git-backup-sync",
+      "savage_score": 0.0,
+      "judgment": "\ud83d\udc80 git-backup-sync is a disaster. 28.6% success rate with 17.4s execution time. Delete this.",
+      "key_metrics": {
+        "success_rate": 0.2857142857142857,
+        "avg_execution_time": 17.407606509472583,
+        "complexity_score": 8,
+        "total_tokens": 42979
+      }
+    },
+    {
+      "rank": 8,
+      "command_name": "ultrathink-hybrid-mcp",
+      "savage_score": 0.0,
+      "judgment": "\ud83d\udc80 ultrathink-hybrid-mcp is a disaster. 42.9% success rate with 19.3s execution time. Delete this.",
+      "key_metrics": {
+        "success_rate": 0.42857142857142855,
+        "avg_execution_time": 19.273266472969155,
+        "complexity_score": 10,
+        "total_tokens": 51148
+      }
+    },
+    {
+      "rank": 9,
+      "command_name": "adhd-hyperfocus-guardian",
+      "savage_score": 0.0,
+      "judgment": "\ud83d\udc80 adhd-hyperfocus-guardian is a disaster. 42.9% success rate with 15.5s execution time. Delete this.",
+      "key_metrics": {
+        "success_rate": 0.42857142857142855,
+        "avg_execution_time": 15.516034228710208,
+        "complexity_score": 5,
+        "total_tokens": 45218
+      }
+    },
+    {
+      "rank": 10,
+      "command_name": "intelligent-code-enhancer",
+      "savage_score": 0.0,
+      "judgment": "\ud83d\udc80 intelligent-code-enhancer is a disaster. 14.3% success rate with 16.3s execution time. Delete this.",
+      "key_metrics": {
+        "success_rate": 0.14285714285714285,
+        "avg_execution_time": 16.33468261046926,
+        "complexity_score": 8,
+        "total_tokens": 44564
+      }
+    }
+  ],
+  "detailed_results": [
+    {
+      "command_name": "context-enhanced-executor",
+      "sample_size": 7,
+      "execution_times": [
+        7.4842466934364404,
+        7.44534359744029,
+        7.403149461607934,
+        7.2746913591573765,
+        7.224281101843586,
+        7.255221071639446,
+        7.274499695663638
+      ],
+      "mean_execution_time": 7.337347568684102,
+      "std_dev": 0.10406474536600326,
+      "success_rate": 0.7142857142857143,
+      "total_tokens": 14467,
+      "avg_complexity": 5,
+      "cost_estimate": 0.14467000000000002,
+      "savage_score": 4.642857142857142,
+      "judgment": "\u26a0\ufe0f  context-enhanced-executor has issues. 71.4% success rate and 5.0 complexity score suggest overengineering.",
+      "recommendations": [
+        "REDUCE COMPLEXITY: Score 5.0 violates CLAUDE.md rule (max 5)",
+        "FIX RELIABILITY: 71.4% success rate is unacceptable",
+        "MAJOR REFACTOR NEEDED: Multiple critical issues detected"
+      ]
+    },
+    {
+      "command_name": "java-rapid-implementation",
+      "sample_size": 7,
+      "execution_times": [
+        14.662138691405575,
+        14.875216539448477,
+        14.64186873929956,
+        14.834372740204115,
+        14.853386183671248,
+        14.797367537710718,
+        14.6250074320865
+      ],
+      "mean_execution_time": 14.75562255197517,
+      "std_dev": 0.10843135857236431,
+      "success_rate": 0.7142857142857143,
+      "total_tokens": 33691,
+      "avg_complexity": 10,
+      "cost_estimate": 0.33691000000000004,
+      "savage_score": 2.1428571428571423,
+      "judgment": "\u274c java-rapid-implementation is struggling. 71.4% success rate is gambling territory.",
+      "recommendations": [
+        "REDUCE COMPLEXITY: Score 10.0 violates CLAUDE.md rule (max 5)",
+        "FIX RELIABILITY: 71.4% success rate is unacceptable",
+        "OPTIMIZE PERFORMANCE: 14.8s execution time is too slow",
+        "MAJOR REFACTOR NEEDED: Multiple critical issues detected"
+      ]
+    },
+    {
+      "command_name": "adaptive-complexity-router",
+      "sample_size": 7,
+      "execution_times": [
+        16.123434342465682,
+        16.086252508378443,
+        16.147536608725026,
+        16.10860307426562,
+        16.366064877327386,
+        16.111422070986332,
+        16.340917380859842
+      ],
+      "mean_execution_time": 16.183461551858333,
+      "std_dev": 0.11780864185307102,
+      "success_rate": 0.5714285714285714,
+      "total_tokens": 44410,
+      "avg_complexity": 8,
+      "cost_estimate": 0.44410000000000005,
+      "savage_score": 0.7142857142857135,
+      "judgment": "\ud83d\udc80 adaptive-complexity-router is a disaster. 57.1% success rate with 16.2s execution time. Delete this.",
+      "recommendations": [
+        "REDUCE COMPLEXITY: Score 8.0 violates CLAUDE.md rule (max 5)",
+        "FIX RELIABILITY: 57.1% success rate is unacceptable",
+        "OPTIMIZE PERFORMANCE: 16.2s execution time is too slow",
+        "MAJOR REFACTOR NEEDED: Multiple critical issues detected"
+      ]
+    },
+    {
+      "command_name": "adhd-context-switch",
+      "sample_size": 7,
+      "execution_times": [
+        14.917069301118255,
+        14.936150096572124,
+        14.85554094231972,
+        14.855151744798453,
+        14.860948938308415,
+        14.789214037007765,
+        14.963558918377847
+      ],
+      "mean_execution_time": 14.882519139786083,
+      "std_dev": 0.059561385885026505,
+      "success_rate": 0.5714285714285714,
+      "total_tokens": 38670,
+      "avg_complexity": 8,
+      "cost_estimate": 0.38670000000000004,
+      "savage_score": 0.7142857142857135,
+      "judgment": "\ud83d\udc80 adhd-context-switch is a disaster. 57.1% success rate with 14.9s execution time. Delete this.",
+      "recommendations": [
+        "REDUCE COMPLEXITY: Score 8.0 violates CLAUDE.md rule (max 5)",
+        "FIX RELIABILITY: 57.1% success rate is unacceptable",
+        "OPTIMIZE PERFORMANCE: 14.9s execution time is too slow",
+        "MAJOR REFACTOR NEEDED: Multiple critical issues detected"
+      ]
+    },
+    {
+      "command_name": "adhd-morning-assistant",
+      "sample_size": 7,
+      "execution_times": [
+        12.202109136255475,
+        12.42636884606035,
+        12.367133114638772,
+        12.198421591123266,
+        12.545790080248667,
+        12.456789618552587,
+        12.554406296789272
+      ],
+      "mean_execution_time": 12.393002669095484,
+      "std_dev": 0.14694022104167603,
+      "success_rate": 0.5714285714285714,
+      "total_tokens": 37904,
+      "avg_complexity": 5,
+      "cost_estimate": 0.37904000000000004,
+      "savage_score": 0.7142857142857135,
+      "judgment": "\ud83d\udc80 adhd-morning-assistant is a disaster. 57.1% success rate with 12.4s execution time. Delete this.",
+      "recommendations": [
+        "REDUCE COMPLEXITY: Score 5.0 violates CLAUDE.md rule (max 5)",
+        "FIX RELIABILITY: 57.1% success rate is unacceptable",
+        "OPTIMIZE PERFORMANCE: 12.4s execution time is too slow",
+        "MAJOR REFACTOR NEEDED: Multiple critical issues detected"
+      ]
+    },
+    {
+      "command_name": "ultrathink-full-mcp",
+      "sample_size": 7,
+      "execution_times": [
+        23.171492861501793,
+        22.947971414126613,
+        22.914053200644073,
+        23.109093063485037,
+        23.120657772306412,
+        23.1135694948291,
+        22.872992734696876
+      ],
+      "mean_execution_time": 23.035690077369985,
+      "std_dev": 0.11977452871184532,
+      "success_rate": 0.42857142857142855,
+      "total_tokens": 61586,
+      "avg_complexity": 8,
+      "cost_estimate": 0.6158600000000001,
+      "savage_score": 0.0,
+      "judgment": "\ud83d\udc80 ultrathink-full-mcp is a disaster. 42.9% success rate with 23.0s execution time. Delete this.",
+      "recommendations": [
+        "REDUCE COMPLEXITY: Score 8.0 violates CLAUDE.md rule (max 5)",
+        "FIX RELIABILITY: 42.9% success rate is unacceptable",
+        "OPTIMIZE PERFORMANCE: 23.0s execution time is too slow",
+        "MAJOR REFACTOR NEEDED: Multiple critical issues detected"
+      ]
+    },
+    {
+      "command_name": "git-backup-sync",
+      "sample_size": 7,
+      "execution_times": [
+        17.44471358109639,
+        17.43308099544031,
+        17.34811845368628,
+        17.515163368150866,
+        17.47647948638774,
+        17.345127914272062,
+        17.290561767274426
+      ],
+      "mean_execution_time": 17.407606509472583,
+      "std_dev": 0.08111691594380706,
+      "success_rate": 0.2857142857142857,
+      "total_tokens": 42979,
+      "avg_complexity": 8,
+      "cost_estimate": 0.42979000000000006,
+      "savage_score": 0.0,
+      "judgment": "\ud83d\udc80 git-backup-sync is a disaster. 28.6% success rate with 17.4s execution time. Delete this.",
+      "recommendations": [
+        "REDUCE COMPLEXITY: Score 8.0 violates CLAUDE.md rule (max 5)",
+        "FIX RELIABILITY: 28.6% success rate is unacceptable",
+        "OPTIMIZE PERFORMANCE: 17.4s execution time is too slow",
+        "MAJOR REFACTOR NEEDED: Multiple critical issues detected"
+      ]
+    },
+    {
+      "command_name": "ultrathink-hybrid-mcp",
+      "sample_size": 7,
+      "execution_times": [
+        19.140421173625832,
+        19.32503975812658,
+        19.399740054283516,
+        19.266229163378156,
+        19.298167138455714,
+        19.2939742774546,
+        19.1892937454597
+      ],
+      "mean_execution_time": 19.273266472969155,
+      "std_dev": 0.08609463047912921,
+      "success_rate": 0.42857142857142855,
+      "total_tokens": 51148,
+      "avg_complexity": 10,
+      "cost_estimate": 0.51148,
+      "savage_score": 0.0,
+      "judgment": "\ud83d\udc80 ultrathink-hybrid-mcp is a disaster. 42.9% success rate with 19.3s execution time. Delete this.",
+      "recommendations": [
+        "REDUCE COMPLEXITY: Score 10.0 violates CLAUDE.md rule (max 5)",
+        "FIX RELIABILITY: 42.9% success rate is unacceptable",
+        "OPTIMIZE PERFORMANCE: 19.3s execution time is too slow",
+        "MAJOR REFACTOR NEEDED: Multiple critical issues detected"
+      ]
+    },
+    {
+      "command_name": "adhd-hyperfocus-guardian",
+      "sample_size": 7,
+      "execution_times": [
+        15.407080615036232,
+        15.655290159878039,
+        15.382590859522706,
+        15.593692908261307,
+        15.627871045169805,
+        15.491370808195795,
+        15.45434320490757
+      ],
+      "mean_execution_time": 15.516034228710208,
+      "std_dev": 0.10956173893660429,
+      "success_rate": 0.42857142857142855,
+      "total_tokens": 45218,
+      "avg_complexity": 5,
+      "cost_estimate": 0.45218,
+      "savage_score": 0.0,
+      "judgment": "\ud83d\udc80 adhd-hyperfocus-guardian is a disaster. 42.9% success rate with 15.5s execution time. Delete this.",
+      "recommendations": [
+        "REDUCE COMPLEXITY: Score 5.0 violates CLAUDE.md rule (max 5)",
+        "FIX RELIABILITY: 42.9% success rate is unacceptable",
+        "OPTIMIZE PERFORMANCE: 15.5s execution time is too slow",
+        "MAJOR REFACTOR NEEDED: Multiple critical issues detected"
+      ]
+    },
+    {
+      "command_name": "intelligent-code-enhancer",
+      "sample_size": 7,
+      "execution_times": [
+        16.45282092891078,
+        16.422603701462844,
+        16.19983185758806,
+        16.370635025316933,
+        16.188743013159897,
+        16.510127175849878,
+        16.198016570996444
+      ],
+      "mean_execution_time": 16.33468261046926,
+      "std_dev": 0.13657772521004038,
+      "success_rate": 0.14285714285714285,
+      "total_tokens": 44564,
+      "avg_complexity": 8,
+      "cost_estimate": 0.44564000000000004,
+      "savage_score": 0.0,
+      "judgment": "\ud83d\udc80 intelligent-code-enhancer is a disaster. 14.3% success rate with 16.3s execution time. Delete this.",
+      "recommendations": [
+        "REDUCE COMPLEXITY: Score 8.0 violates CLAUDE.md rule (max 5)",
+        "FIX RELIABILITY: 14.3% success rate is unacceptable",
+        "OPTIMIZE PERFORMANCE: 16.3s execution time is too slow",
+        "MAJOR REFACTOR NEEDED: Multiple critical issues detected"
+      ]
+    }
+  ],
+  "critical_issues": [
+    "adaptive-complexity-router",
+    "ultrathink-full-mcp",
+    "adhd-context-switch",
+    "java-rapid-implementation",
+    "adhd-morning-assistant",
+    "git-backup-sync",
+    "ultrathink-hybrid-mcp",
+    "adhd-hyperfocus-guardian",
+    "intelligent-code-enhancer"
+  ],
+  "compliance_violations": [
+    "adaptive-complexity-router",
+    "ultrathink-full-mcp",
+    "adhd-context-switch",
+    "java-rapid-implementation",
+    "adhd-morning-assistant",
+    "git-backup-sync",
+    "context-enhanced-executor",
+    "ultrathink-hybrid-mcp",
+    "adhd-hyperfocus-guardian",
+    "intelligent-code-enhancer"
+  ]
+}
