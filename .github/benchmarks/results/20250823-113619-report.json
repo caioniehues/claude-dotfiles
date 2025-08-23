@@ -1,0 +1,130 @@
+{
+  "benchmark_timestamp": "20250823-113619",
+  "methodology": {
+    "commands_analyzed": 5,
+    "metrics": [
+      "complexity_score",
+      "success_rate",
+      "token_usage",
+      "error_frequency"
+    ],
+    "scoring_range": "0-10 (higher is better)",
+    "complexity_limit": "5 (per CLAUDE.md)"
+  },
+  "aggregate_statistics": {
+    "mean_savage_score": 0.5,
+    "score_std_dev": 0.7071067811865476,
+    "mean_complexity": 4.52,
+    "mean_success_rate": 0.6875,
+    "mean_token_usage": 11115.4
+  },
+  "command_rankings": [
+    {
+      "rank": 1,
+      "command": "adhd-context-switch.md",
+      "savage_score": 1.5,
+      "complexity": 2.5999999999999996,
+      "success_rate": 0.5625,
+      "tokens": 4471
+    },
+    {
+      "rank": 2,
+      "command": "adaptive-complexity-router.md",
+      "savage_score": 1.0,
+      "complexity": 5.0,
+      "success_rate": 0.75,
+      "tokens": 8796
+    },
+    {
+      "rank": 3,
+      "command": "ultrathink-hybrid-mcp.md",
+      "savage_score": 0,
+      "complexity": 5.0,
+      "success_rate": 0.625,
+      "tokens": 13734
+    },
+    {
+      "rank": 4,
+      "command": "intelligent-code-enhancer.md",
+      "savage_score": 0,
+      "complexity": 5.0,
+      "success_rate": 0.75,
+      "tokens": 11544
+    },
+    {
+      "rank": 5,
+      "command": "intelligent-refactor-session.md",
+      "savage_score": 0,
+      "complexity": 5.0,
+      "success_rate": 0.75,
+      "tokens": 17032
+    }
+  ],
+  "detailed_results": {
+    "ultrathink-hybrid-mcp.md": {
+      "command": "ultrathink-hybrid-mcp.md",
+      "metrics": {
+        "complexity_score": 5.0,
+        "success_rate": 0.625,
+        "token_usage": 13734,
+        "error_frequency": 1.0
+      },
+      "savage_score": 0,
+      "commentary": "Dumpster fire disguised as code. Token usage: 13,734. Moderately bloated. Success rate: 62.5%. Worse than a coin flip. Complexity: 5.0/5. Over-engineered. Error rate: 100.0%. Fails more than it succeeds.",
+      "timestamp": "2025-08-23T11:36:19.175652"
+    },
+    "adaptive-complexity-router.md": {
+      "command": "adaptive-complexity-router.md",
+      "metrics": {
+        "complexity_score": 5.0,
+        "success_rate": 0.75,
+        "token_usage": 8796,
+        "error_frequency": 0.4
+      },
+      "savage_score": 1.0,
+      "commentary": "Dumpster fire disguised as code. Token usage: 8,796. Actually reasonable. Success rate: 75.0%. Mediocre reliability. Complexity: 5.0/5. Over-engineered. Error rate: 40.0%. Fails more than it succeeds.",
+      "timestamp": "2025-08-23T11:36:19.176700"
+    },
+    "adhd-context-switch.md": {
+      "command": "adhd-context-switch.md",
+      "metrics": {
+        "complexity_score": 2.5999999999999996,
+        "success_rate": 0.5625,
+        "token_usage": 4471,
+        "error_frequency": 0.4
+      },
+      "savage_score": 1.5,
+      "commentary": "Dumpster fire disguised as code. Token usage: 4,471. Actually reasonable. Success rate: 56.2%. Worse than a coin flip. Error rate: 40.0%. Fails more than it succeeds.",
+      "timestamp": "2025-08-23T11:36:19.177611"
+    },
+    "intelligent-code-enhancer.md": {
+      "command": "intelligent-code-enhancer.md",
+      "metrics": {
+        "complexity_score": 5.0,
+        "success_rate": 0.75,
+        "token_usage": 11544,
+        "error_frequency": 0.35
+      },
+      "savage_score": 0,
+      "commentary": "Dumpster fire disguised as code. Token usage: 11,544. Moderately bloated. Success rate: 75.0%. Mediocre reliability. Complexity: 5.0/5. Over-engineered. Error rate: 35.0%. Fails more than it succeeds.",
+      "timestamp": "2025-08-23T11:36:19.178602"
+    },
+    "intelligent-refactor-session.md": {
+      "command": "intelligent-refactor-session.md",
+      "metrics": {
+        "complexity_score": 5.0,
+        "success_rate": 0.75,
+        "token_usage": 17032,
+        "error_frequency": 0.35
+      },
+      "savage_score": 0,
+      "commentary": "Dumpster fire disguised as code. Token usage: 17,032. Moderately bloated. Success rate: 75.0%. Mediocre reliability. Complexity: 5.0/5. Over-engineered. Error rate: 35.0%. Fails more than it succeeds.",
+      "timestamp": "2025-08-23T11:36:19.179670"
+    }
+  },
+  "savage_insights": [
+    "Average quality: 0.5/10. Your command library needs an intervention.",
+    "Worst: intelligent-refactor-session.md (0.0/10) - A cautionary tale.",
+    "Best: adhd-context-switch.md (1.5/10) - Someone read the docs."
+  ]
+}
