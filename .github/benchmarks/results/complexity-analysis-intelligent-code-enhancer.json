@@ -1,0 +1,35 @@
+{
+  "command_name": "intelligent-code-enhancer.md",
+  "analysis_date": "2025-08-23T06:05:10",
+  "complexity_analysis": {
+    "complexity_score": 16.42,
+    "details": [
+      "Base direct solution: 1 point",
+      "Thinking patterns (15): +7.5 points",
+      "Orchestration layers (1): +1 points",
+      "MCP integrations (1): +0.5 points",
+      "Excessive sections (20 over limit): +4.0 points",
+      "Excessive length (442 lines): +2.4 points"
+    ],
+    "passes_standard": false,
+    "line_count": 442,
+    "thinking_patterns": 15,
+    "mcp_integrations": 1,
+    "major_sections": 30
+  },
+  "maintainability_metrics": {
+    "average_line_length": 24.742081447963802,
+    "long_lines_count": 1,
+    "long_lines_percentage": 0.22624434389140274,
+    "documentation_ratio": 6.108597285067873,
+    "structure_quality_ratio": 45.45454545454545,
+    "total_lines": 442
+  },
+  "claude_md_compliance": {
+    "complexity_standard_met": false,
+    "violations": [
+      "Complexity score 16.4 exceeds maximum of 5.0",
+      "Line count 442 is excessive for a command"
+    ]
+  }
+}

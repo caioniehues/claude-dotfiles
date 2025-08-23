@@ -1,0 +1,279 @@
+{
+  "benchmark_metadata": {
+    "command_tested": "intelligent-code-enhancer.md",
+    "test_date": "2025-08-23T06:05:10.664280",
+    "benchmark_duration": 0.0011594295501708984,
+    "environment": "GitHub Actions - Linux"
+  },
+  "raw_data": [
+    {
+      "test_case": "simple_enhancement",
+      "execution_time": 10.682200000000002,
+      "success": true,
+      "token_estimate": 5132.200000000001,
+      "output_length": 2275.2000000000003,
+      "errors": [],
+      "timestamp": "2025-08-23T06:05:10.663218"
+    },
+    {
+      "test_case": "simple_enhancement",
+      "execution_time": 10.682200000000002,
+      "success": true,
+      "token_estimate": 5132.200000000001,
+      "output_length": 2275.2000000000003,
+      "errors": [],
+      "timestamp": "2025-08-23T06:05:10.663288"
+    },
+    {
+      "test_case": "simple_enhancement",
+      "execution_time": 10.682200000000002,
+      "success": true,
+      "token_estimate": 5132.200000000001,
+      "output_length": 2275.2000000000003,
+      "errors": [],
+      "timestamp": "2025-08-23T06:05:10.663326"
+    },
+    {
+      "test_case": "simple_enhancement",
+      "execution_time": 10.682200000000002,
+      "success": true,
+      "token_estimate": 5132.200000000001,
+      "output_length": 2275.2000000000003,
+      "errors": [],
+      "timestamp": "2025-08-23T06:05:10.663358"
+    },
+    {
+      "test_case": "simple_enhancement",
+      "execution_time": 10.682200000000002,
+      "success": false,
+      "token_estimate": 5132.200000000001,
+      "output_length": 100,
+      "errors": [
+        "Simulated complexity analysis failure"
+      ],
+      "timestamp": "2025-08-23T06:05:10.663390"
+    },
+    {
+      "test_case": "documentation_enhancement",
+      "execution_time": 10.6722,
+      "success": true,
+      "token_estimate": 5132.200000000001,
+      "output_length": 2275.2000000000003,
+      "errors": [],
+      "timestamp": "2025-08-23T06:05:10.663422"
+    },
+    {
+      "test_case": "documentation_enhancement",
+      "execution_time": 10.6722,
+      "success": true,
+      "token_estimate": 5132.200000000001,
+      "output_length": 2275.2000000000003,
+      "errors": [],
+      "timestamp": "2025-08-23T06:05:10.663449"
+    },
+    {
+      "test_case": "documentation_enhancement",
+      "execution_time": 10.6722,
+      "success": false,
+      "token_estimate": 5132.200000000001,
+      "output_length": 100,
+      "errors": [
+        "Simulated complexity analysis failure"
+      ],
+      "timestamp": "2025-08-23T06:05:10.663477"
+    },
+    {
+      "test_case": "documentation_enhancement",
+      "execution_time": 10.6722,
+      "success": false,
+      "token_estimate": 5132.200000000001,
+      "output_length": 100,
+      "errors": [
+        "Simulated complexity analysis failure"
+      ],
+      "timestamp": "2025-08-23T06:05:10.663504"
+    },
+    {
+      "test_case": "documentation_enhancement",
+      "execution_time": 10.6722,
+      "success": true,
+      "token_estimate": 5132.200000000001,
+      "output_length": 2275.2000000000003,
+      "errors": [],
+      "timestamp": "2025-08-23T06:05:10.663531"
+    },
+    {
+      "test_case": "performance_enhancement",
+      "execution_time": 10.5492,
+      "success": true,
+      "token_estimate": 5129.200000000001,
+      "output_length": 2275.2000000000003,
+      "errors": [],
+      "timestamp": "2025-08-23T06:05:10.663565"
+    },
+    {
+      "test_case": "performance_enhancement",
+      "execution_time": 10.5492,
+      "success": true,
+      "token_estimate": 5129.200000000001,
+      "output_length": 2275.2000000000003,
+      "errors": [],
+      "timestamp": "2025-08-23T06:05:10.663594"
+    },
+    {
+      "test_case": "performance_enhancement",
+      "execution_time": 10.5492,
+      "success": true,
+      "token_estimate": 5129.200000000001,
+      "output_length": 2275.2000000000003,
+      "errors": [],
+      "timestamp": "2025-08-23T06:05:10.663620"
+    },
+    {
+      "test_case": "performance_enhancement",
+      "execution_time": 10.5492,
+      "success": true,
+      "token_estimate": 5129.200000000001,
+      "output_length": 2275.2000000000003,
+      "errors": [],
+      "timestamp": "2025-08-23T06:05:10.663665"
+    },
+    {
+      "test_case": "performance_enhancement",
+      "execution_time": 10.5492,
+      "success": true,
+      "token_estimate": 5129.200000000001,
+      "output_length": 2275.2000000000003,
+      "errors": [],
+      "timestamp": "2025-08-23T06:05:10.663697"
+    },
+    {
+      "test_case": "architecture_enhancement",
+      "execution_time": 10.529200000000001,
+      "success": true,
+      "token_estimate": 5129.200000000001,
+      "output_length": 2275.2000000000003,
+      "errors": [],
+      "timestamp": "2025-08-23T06:05:10.663727"
+    },
+    {
+      "test_case": "architecture_enhancement",
+      "execution_time": 10.529200000000001,
+      "success": true,
+      "token_estimate": 5129.200000000001,
+      "output_length": 2275.2000000000003,
+      "errors": [],
+      "timestamp": "2025-08-23T06:05:10.663755"
+    },
+    {
+      "test_case": "architecture_enhancement",
+      "execution_time": 10.529200000000001,
+      "success": true,
+      "token_estimate": 5129.200000000001,
+      "output_length": 2275.2000000000003,
+      "errors": [],
+      "timestamp": "2025-08-23T06:05:10.663782"
+    },
+    {
+      "test_case": "architecture_enhancement",
+      "execution_time": 10.529200000000001,
+      "success": true,
+      "token_estimate": 5129.200000000001,
+      "output_length": 2275.2000000000003,
+      "errors": [],
+      "timestamp": "2025-08-23T06:05:10.663808"
+    },
+    {
+      "test_case": "architecture_enhancement",
+      "execution_time": 10.529200000000001,
+      "success": true,
+      "token_estimate": 5129.200000000001,
+      "output_length": 2275.2000000000003,
+      "errors": [],
+      "timestamp": "2025-08-23T06:05:10.663843"
+    },
+    {
+      "test_case": "complex_refactor",
+      "execution_time": 11.0822,
+      "success": false,
+      "token_estimate": 5142.200000000001,
+      "output_length": 100,
+      "errors": [
+        "Simulated complexity analysis failure"
+      ],
+      "timestamp": "2025-08-23T06:05:10.663870"
+    },
+    {
+      "test_case": "complex_refactor",
+      "execution_time": 11.0822,
+      "success": false,
+      "token_estimate": 5142.200000000001,
+      "output_length": 100,
+      "errors": [
+        "Simulated complexity analysis failure"
+      ],
+      "timestamp": "2025-08-23T06:05:10.663896"
+    },
+    {
+      "test_case": "complex_refactor",
+      "execution_time": 11.0822,
+      "success": true,
+      "token_estimate": 5142.200000000001,
+      "output_length": 2275.2000000000003,
+      "errors": [],
+      "timestamp": "2025-08-23T06:05:10.663921"
+    },
+    {
+      "test_case": "complex_refactor",
+      "execution_time": 11.0822,
+      "success": true,
+      "token_estimate": 5142.200000000001,
+      "output_length": 2275.2000000000003,
+      "errors": [],
+      "timestamp": "2025-08-23T06:05:10.663948"
+    },
+    {
+      "test_case": "complex_refactor",
+      "execution_time": 11.0822,
+      "success": true,
+      "token_estimate": 5142.200000000001,
+      "output_length": 2275.2000000000003,
+      "errors": [],
+      "timestamp": "2025-08-23T06:05:10.663973"
+    }
+  ],
+  "statistical_analysis": {
+    "total_runs": 25,
+    "success_rate": 0.8,
+    "success_rate_percentage": 80.0,
+    "execution_time": {
+      "mean": 10.703000000000001,
+      "median": 10.6722,
+      "stdev": 0.20363099796772893,
+      "min": 10.529200000000001,
+      "max": 11.0822
+    },
+    "token_usage": {
+      "mean": 5133.000000000001,
+      "median": 5132.200000000001,
+      "stdev": 4.890466917040404,
+      "total": 128325.00000000001
+    },
+    "output_length": {
+      "mean": 1840.1600000000003,
+      "median": 2275.2000000000003,
+      "stdev": 888.021681416995
+    }
+  },
+  "savage_judgment": {
+    "overall_rating": "C+ (78.0/100) - Mediocre performance",
+    "judgments": [
+      "\u26a0\ufe0f RELIABILITY CONCERN: 20.0% failure rate. Would you trust a surgeon with these odds?",
+      "\u26a1 SPEED: 10.7s average - Acceptable for an 'intelligent' command."
+    ],
+    "improvement_recommendations": [
+      "Add better error handling and input validation",
+      "Consider breaking this monolithic command into focused sub-commands"
+    ]
+  }
+}
