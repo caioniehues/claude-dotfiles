@@ -1,0 +1,43 @@
+{
+  "benchmark_metadata": {
+    "timestamp": "2025-08-24T13:35:36Z",
+    "framework_version": "1.0.0",
+    "benchmarker": "SAVAGE_COMMAND_BENCHMARKER_v1.0",
+    "claude_md_compliance": true,
+    "selection_method": "systematic_head_5"
+  },
+  "measurement_framework": {
+    "complexity_scoring": {
+      "description": "Based on CLAUDE.md complexity rules",
+      "criteria": {
+        "new_classes": 2,
+        "interfaces": 1,
+        "design_patterns": 3,
+        "config_files": 2,
+        "direct_solution": 1
+      },
+      "thresholds": {
+        "simple": "< 3",
+        "moderate": "3-4", 
+        "complex": ">= 5"
+      }
+    },
+    "token_analysis": {
+      "input_tokens": "Count of tokens in command file",
+      "estimated_output_tokens": "Based on command complexity and documentation",
+      "efficiency_ratio": "useful_functionality / total_tokens"
+    },
+    "execution_metrics": {
+      "thinking_blocks": "Count and depth of thinking sections",
+      "mcp_integrations": "Number of MCP tool calls",
+      "error_handling": "Quality of error recovery patterns",
+      "complexity_detection": "Presence of automatic complexity routing"
+    },
+    "maintainability_score": {
+      "documentation_quality": "0-10 scale",
+      "pattern_consistency": "Adherence to established patterns",
+      "reusability": "Component reuse potential",
+      "testability": "How easily can this be validated"
+    }
+  }
+}
