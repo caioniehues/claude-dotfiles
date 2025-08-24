@@ -1,0 +1,244 @@
+{
+  "benchmark_metadata": {
+    "timestamp": "2025-08-24T11:34:32.733535",
+    "commands_analyzed": 5,
+    "selection_method": "random",
+    "total_commands_available": 22,
+    "sample_size_percentage": 22.7,
+    "benchmarker_version": "1.0-SAVAGE",
+    "standards_reference": "CLAUDE.md complexity rules"
+  },
+  "individual_results": {
+    "adhd-context-switch": {
+      "analysis": {
+        "complexity_score": 10.4,
+        "metrics": {
+          "file_size_bytes": 9972,
+          "line_count": 399,
+          "thinking_blocks": 0,
+          "xml_tags": 14,
+          "code_blocks": 13,
+          "function_calls": 4,
+          "conditional_logic": 22,
+          "loops": 6,
+          "parameter_count": 131,
+          "abstraction_layers": 176,
+          "documentation_ratio": 0.22807017543859648
+        },
+        "readability_score": 100,
+        "maintainability_index": 77.60350877192982,
+        "claude_md_violations": {
+          "long_code_blocks": 5
+        },
+        "token_estimate": 2471
+      },
+      "performance": {
+        "analysis_time_seconds": 0.0038,
+        "processing_rate_kb_per_second": 2550.76
+      },
+      "savage_rating": {
+        "overall": 50,
+        "reason": "Complexity score 10.4 > 5 (CLAUDE.md violation) | Token bloat: 2471 tokens | 1 CLAUDE.md violations",
+        "grade": "D - Bad, but not the worst I've seen"
+      },
+      "brutal_assessment": "Reasonable size at 9.7KB. Complexity score of 10.4 violates CLAUDE.md rules (max 5). This is over-engineered garbage. Estimated 2471 tokens will cost ~$0.0247 per execution."
+    },
+    "java-rapid-implementation": {
+      "analysis": {
+        "complexity_score": 12.92,
+        "metrics": {
+          "file_size_bytes": 8736,
+          "line_count": 250,
+          "thinking_blocks": 42,
+          "xml_tags": 33,
+          "code_blocks": 0,
+          "function_calls": 0,
+          "conditional_logic": 7,
+          "loops": 14,
+          "parameter_count": 3,
+          "abstraction_layers": 141,
+          "documentation_ratio": 0.152
+        },
+        "readability_score": 100,
+        "maintainability_index": 49.550000000000004,
+        "claude_md_violations": {
+          "excessive_xml_tags": 64
+        },
+        "token_estimate": 2183
+      },
+      "performance": {
+        "analysis_time_seconds": 0.0009,
+        "processing_rate_kb_per_second": 9760.68
+      },
+      "savage_rating": {
+        "overall": 25,
+        "reason": "Complexity score 12.92 > 5 (CLAUDE.md violation) | Token bloat: 2183 tokens | Low maintainability: 49.550000000000004 | 1 CLAUDE.md violations",
+        "grade": "F-- - An insult to computers everywhere"
+      },
+      "brutal_assessment": "Reasonable size at 8.5KB. Complexity score of 12.92 violates CLAUDE.md rules (max 5). This is over-engineered garbage. 42 thinking blocks? Are we writing philosophy or code? Estimated 2183 tokens will cost ~$0.0218 per execution."
+    },
+    "git-backup-sync": {
+      "analysis": {
+        "complexity_score": 13.9,
+        "metrics": {
+          "file_size_bytes": 12564,
+          "line_count": 531,
+          "thinking_blocks": 35,
+          "xml_tags": 34,
+          "code_blocks": 18,
+          "function_calls": 0,
+          "conditional_logic": 12,
+          "loops": 13,
+          "parameter_count": 4,
+          "abstraction_layers": 115,
+          "documentation_ratio": 0.07721280602636535
+        },
+        "readability_score": 100,
+        "maintainability_index": 43.11064030131827,
+        "claude_md_violations": {
+          "excessive_xml_tags": 67,
+          "long_code_blocks": 3
+        },
+        "token_estimate": 3118
+      },
+      "performance": {
+        "analysis_time_seconds": 0.0013,
+        "processing_rate_kb_per_second": 9137.45
+      },
+      "savage_rating": {
+        "overall": 15,
+        "reason": "Complexity score 13.9 > 5 (CLAUDE.md violation) | Token bloat: 3118 tokens | Low maintainability: 43.11064030131827 | 2 CLAUDE.md violations",
+        "grade": "F-- - An insult to computers everywhere"
+      },
+      "brutal_assessment": "Reasonable size at 12.3KB. Complexity score of 13.9 violates CLAUDE.md rules (max 5). This is over-engineered garbage. 35 thinking blocks? Are we writing philosophy or code? Estimated 3118 tokens will cost ~$0.0312 per execution."
+    },
+    "intelligent-code-enhancer": {
+      "analysis": {
+        "complexity_score": 12.2,
+        "metrics": {
+          "file_size_bytes": 11411,
+          "line_count": 442,
+          "thinking_blocks": 43,
+          "xml_tags": 34,
+          "code_blocks": 1,
+          "function_calls": 0,
+          "conditional_logic": 4,
+          "loops": 8,
+          "parameter_count": 6,
+          "abstraction_layers": 214,
+          "documentation_ratio": 0.06108597285067873
+        },
+        "readability_score": 100,
+        "maintainability_index": 50.354298642533934,
+        "claude_md_violations": {
+          "excessive_xml_tags": 67
+        },
+        "token_estimate": 2844
+      },
+      "performance": {
+        "analysis_time_seconds": 0.0011,
+        "processing_rate_kb_per_second": 9974.28
+      },
+      "savage_rating": {
+        "overall": 50,
+        "reason": "Complexity score 12.2 > 5 (CLAUDE.md violation) | Token bloat: 2844 tokens | 1 CLAUDE.md violations",
+        "grade": "D - Bad, but not the worst I've seen"
+      },
+      "brutal_assessment": "Reasonable size at 11.1KB. Complexity score of 12.2 violates CLAUDE.md rules (max 5). This is over-engineered garbage. 43 thinking blocks? Are we writing philosophy or code? Estimated 2844 tokens will cost ~$0.0284 per execution."
+    },
+    "java-test-driven-development": {
+      "analysis": {
+        "complexity_score": 12.06,
+        "metrics": {
+          "file_size_bytes": 13414,
+          "line_count": 460,
+          "thinking_blocks": 28,
+          "xml_tags": 31,
+          "code_blocks": 12,
+          "function_calls": 0,
+          "conditional_logic": 6,
+          "loops": 4,
+          "parameter_count": 1,
+          "abstraction_layers": 113,
+          "documentation_ratio": 0.08695652173913043
+        },
+        "readability_score": 100,
+        "maintainability_index": 50.697826086956525,
+        "claude_md_violations": {
+          "excessive_xml_tags": 58,
+          "long_code_blocks": 2
+        },
+        "token_estimate": 3349
+      },
+      "performance": {
+        "analysis_time_seconds": 0.0014,
+        "processing_rate_kb_per_second": 9401.74
+      },
+      "savage_rating": {
+        "overall": 40,
+        "reason": "Complexity score 12.06 > 5 (CLAUDE.md violation) | Token bloat: 3349 tokens | 2 CLAUDE.md violations",
+        "grade": "F - Terrible, please refactor"
+      },
+      "brutal_assessment": "Reasonable size at 13.1KB. Complexity score of 12.06 violates CLAUDE.md rules (max 5). This is over-engineered garbage. 28 thinking blocks? Are we writing philosophy or code? Estimated 3349 tokens will cost ~$0.0335 per execution."
+    }
+  },
+  "statistical_summary": {
+    "savage_scores": {
+      "mean": 36,
+      "median": 40,
+      "stdev": 15.57,
+      "min": 15,
+      "max": 50,
+      "range": 35
+    },
+    "complexity_scores": {
+      "mean": 12.3,
+      "median": 12.2,
+      "stdev": 1.29,
+      "claude_md_violations": 5
+    },
+    "token_analysis": {
+      "mean": 2793,
+      "total": 13965,
+      "cost_estimate_per_run": 0.1397
+    },
+    "sample_size": 5,
+    "confidence_interval_95": {
+      "lower": 16.67,
+      "upper": 55.33,
+      "margin_of_error": 19.33
+    }
+  },
+  "savage_conclusions": [
+    "Average quality score of 36 is PATHETIC. These commands need serious help.",
+    "5 commands violate CLAUDE.md complexity rules. READ YOUR OWN STANDARDS!",
+    "$0.1397 per execution is expensive. These commands are token hogs."
+  ],
+  "recommendations": [
+    {
+      "command": "git-backup-sync",
+      "priority": "HIGH",
+      "issues": [
+        "excessive_xml_tags",
+        "long_code_blocks"
+      ],
+      "specific_actions": [
+        "Reduce complexity from 13.9 to <5",
+        "Improve maintainability from 43.11064030131827 to >70",
+        "Consider splitting into smaller commands"
+      ]
+    },
+    {
+      "command": "java-rapid-implementation",
+      "priority": "HIGH",
+      "issues": [
+        "excessive_xml_tags"
+      ],
+      "specific_actions": [
+        "Reduce complexity from 12.92 to <5",
+        "Improve maintainability from 49.550000000000004 to >70",
+        "Consider splitting into smaller commands"
+      ]
+    }
+  ]
+}
