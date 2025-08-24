@@ -1,0 +1,194 @@
+{
+  "benchmark_metadata": {
+    "timestamp": "20250824-110758",
+    "commands_tested": 5,
+    "iterations_per_command": 5,
+    "total_test_runs": 25
+  },
+  "statistical_summary": {
+    "overall_success_rate": 0.64,
+    "success_rate_variance": 0.068,
+    "average_complexity_score": 7,
+    "average_execution_time": 0.861,
+    "total_estimated_tokens": 12903,
+    "average_cost_benefit_ratio": 34282.4
+  },
+  "grade_distribution": {
+    "B": 1,
+    "D": 1,
+    "F": 3
+  },
+  "command_rankings": [
+    {
+      "rank": 1,
+      "command": "ultrathink.md",
+      "grade": "B",
+      "success_rate": 1.0,
+      "complexity_score": 3,
+      "avg_execution_time": 0.4058,
+      "savage_verdict": "\u2705 ultrathink.md actually follows CLAUDE.md principles: 100.0% success rate with complexity score 3. Rare competence detected."
+    },
+    {
+      "rank": 2,
+      "command": "adhd-evening-reflect.md",
+      "grade": "D",
+      "success_rate": 0.8,
+      "complexity_score": 6,
+      "avg_execution_time": 0.8251,
+      "savage_verdict": "\ud83d\udcc8 adhd-evening-reflect.md: 80.0% success rate, complexity 6. Mediocre but functional. The 'participation trophy' of commands."
+    },
+    {
+      "rank": 3,
+      "command": "intelligent-code-enhancer.md",
+      "grade": "F",
+      "success_rate": 0.6,
+      "complexity_score": 6,
+      "avg_execution_time": 0.7672,
+      "savage_verdict": "\ud83d\udcc8 intelligent-code-enhancer.md: 60.0% success rate, complexity 6. Mediocre but functional. The 'participation trophy' of commands."
+    },
+    {
+      "rank": 4,
+      "command": "java-rapid-implementation.md",
+      "grade": "F",
+      "success_rate": 0.4,
+      "complexity_score": 10,
+      "avg_execution_time": 1.1498,
+      "savage_verdict": "\ud83d\udeab java-rapid-implementation.md fails 60.0% of the time. That's not 'intelligent automation', that's a coin flip with worse odds. Complexity score of 10 suggests over-engineering without reliability."
+    },
+    {
+      "rank": 5,
+      "command": "analyze-project-architecture.md",
+      "grade": "F",
+      "success_rate": 0.4,
+      "complexity_score": 10,
+      "avg_execution_time": 1.157,
+      "savage_verdict": "\ud83d\udeab analyze-project-architecture.md fails 60.0% of the time. That's not 'intelligent automation', that's a coin flip with worse odds. Complexity score of 10 suggests over-engineering without reliability."
+    }
+  ],
+  "detailed_results": [
+    {
+      "command_name": "ultrathink.md",
+      "success_rate": 1.0,
+      "avg_execution_time": 0.4057659149169922,
+      "execution_time_stddev": 0.07996374620126728,
+      "token_consumption_estimate": 2439,
+      "complexity_score": 3,
+      "error_frequency": 0.0,
+      "error_types": [],
+      "sample_outputs": [
+        "Run 1: SUCCESS (0.354s)",
+        "Run 2: SUCCESS (0.388s)",
+        "Run 3: SUCCESS (0.546s)",
+        "Run 4: SUCCESS (0.382s)",
+        "Run 5: SUCCESS (0.358s)"
+      ],
+      "performance_grade": "B",
+      "savage_commentary": "\u2705 ultrathink.md actually follows CLAUDE.md principles: 100.0% success rate with complexity score 3. Rare competence detected.",
+      "statistical_confidence": 0.95,
+      "cost_benefit_ratio": 7317.0
+    },
+    {
+      "command_name": "adhd-evening-reflect.md",
+      "success_rate": 0.8,
+      "avg_execution_time": 0.825100326538086,
+      "execution_time_stddev": 0.07806999729972146,
+      "token_consumption_estimate": 3134,
+      "complexity_score": 6,
+      "error_frequency": 0.2,
+      "error_types": [
+        "TokenLimitExceeded"
+      ],
+      "sample_outputs": [
+        "Run 1: SUCCESS (0.856s)",
+        "Run 2: SUCCESS (0.702s)",
+        "Run 3: SUCCESS (0.876s)",
+        "Run 4: FAILED - TokenLimitExceeded",
+        "Run 5: SUCCESS (0.797s)"
+      ],
+      "performance_grade": "D",
+      "savage_commentary": "\ud83d\udcc8 adhd-evening-reflect.md: 80.0% success rate, complexity 6. Mediocre but functional. The 'participation trophy' of commands.",
+      "statistical_confidence": 0.821076241327577,
+      "cost_benefit_ratio": 23505.0
+    },
+    {
+      "command_name": "intelligent-code-enhancer.md",
+      "success_rate": 0.6,
+      "avg_execution_time": 0.7672390937805176,
+      "execution_time_stddev": 0.07950078038580338,
+      "token_consumption_estimate": 2844,
+      "complexity_score": 6,
+      "error_frequency": 0.4,
+      "error_types": [
+        "TimeoutError",
+        "InvalidSyntax"
+      ],
+      "sample_outputs": [
+        "Run 1: FAILED - InvalidSyntax",
+        "Run 2: FAILED - TimeoutError",
+        "Run 3: SUCCESS (0.760s)",
+        "Run 4: SUCCESS (0.693s)",
+        "Run 5: SUCCESS (0.782s)"
+      ],
+      "performance_grade": "F",
+      "savage_commentary": "\ud83d\udcc8 intelligent-code-enhancer.md: 60.0% success rate, complexity 6. Mediocre but functional. The 'participation trophy' of commands.",
+      "statistical_confidence": 0.6592761393338109,
+      "cost_benefit_ratio": 28440.0
+    },
+    {
+      "command_name": "java-rapid-implementation.md",
+      "success_rate": 0.4,
+      "avg_execution_time": 1.1497815132141114,
+      "execution_time_stddev": 0.08534593139271704,
+      "token_consumption_estimate": 2183,
+      "complexity_score": 10,
+      "error_frequency": 0.6,
+      "error_types": [
+        "ConfigurationError",
+        "TimeoutError",
+        "InvalidSyntax"
+      ],
+      "sample_outputs": [
+        "Run 1: FAILED - ConfigurationError",
+        "Run 2: FAILED - TimeoutError",
+        "Run 3: SUCCESS (1.072s)",
+        "Run 4: SUCCESS (1.095s)",
+        "Run 5: FAILED - InvalidSyntax"
+      ],
+      "performance_grade": "F",
+      "savage_commentary": "\ud83d\udeab java-rapid-implementation.md fails 60.0% of the time. That's not 'intelligent automation', that's a coin flip with worse odds. Complexity score of 10 suggests over-engineering without reliability.",
+      "statistical_confidence": 0.5051544088312675,
+      "cost_benefit_ratio": 54575.0
+    },
+    {
+      "command_name": "analyze-project-architecture.md",
+      "success_rate": 0.4,
+      "avg_execution_time": 1.1569542407989502,
+      "execution_time_stddev": 0.04603687542741041,
+      "token_consumption_estimate": 2303,
+      "complexity_score": 10,
+      "error_frequency": 0.6,
+      "error_types": [
+        "TokenLimitExceeded",
+        "ContextOverflow",
+        "InvalidSyntax"
+      ],
+      "sample_outputs": [
+        "Run 1: SUCCESS (1.172s)",
+        "Run 2: FAILED - ContextOverflow",
+        "Run 3: SUCCESS (1.104s)",
+        "Run 4: FAILED - InvalidSyntax",
+        "Run 5: FAILED - TokenLimitExceeded"
+      ],
+      "performance_grade": "F",
+      "savage_commentary": "\ud83d\udeab analyze-project-architecture.md fails 60.0% of the time. That's not 'intelligent automation', that's a coin flip with worse odds. Complexity score of 10 suggests over-engineering without reliability.",
+      "statistical_confidence": 0.5120417119702818,
+      "cost_benefit_ratio": 57575.0
+    }
+  ],
+  "scientific_analysis": {
+    "statistical_confidence": 0.69,
+    "performance_consistency": "HIGH",
+    "complexity_assessment": "EXCESSIVE",
+    "overall_verdict": "\ud83d\ude10 MEDIOCRE: Commands work sometimes. That's... something, I guess."
+  }
+}

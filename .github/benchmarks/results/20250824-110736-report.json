@@ -1,0 +1,191 @@
+{
+  "benchmark_metadata": {
+    "timestamp": "20250824-110736",
+    "commands_tested": 5,
+    "iterations_per_command": 5,
+    "total_test_runs": 25
+  },
+  "statistical_summary": {
+    "overall_success_rate": 0.64,
+    "success_rate_variance": 0.128,
+    "average_complexity_score": 7.4,
+    "average_execution_time": 0.9064,
+    "total_estimated_tokens": 13299,
+    "average_cost_benefit_ratio": 50310.8
+  },
+  "grade_distribution": {
+    "B": 1,
+    "C": 1,
+    "F": 3
+  },
+  "command_rankings": [
+    {
+      "rank": 1,
+      "command": "adhd-task-breakdown.md",
+      "grade": "B",
+      "success_rate": 1.0,
+      "complexity_score": 3,
+      "avg_execution_time": 0.4486,
+      "savage_verdict": "\u2705 adhd-task-breakdown.md actually follows CLAUDE.md principles: 100.0% success rate with complexity score 3. Rare competence detected."
+    },
+    {
+      "rank": 2,
+      "command": "adhd-context-switch.md",
+      "grade": "C",
+      "success_rate": 1.0,
+      "complexity_score": 6,
+      "avg_execution_time": 0.7894,
+      "savage_verdict": "\ud83d\udcc8 adhd-context-switch.md: 100.0% success rate, complexity 6. Mediocre but functional. The 'participation trophy' of commands."
+    },
+    {
+      "rank": 3,
+      "command": "adaptive-complexity-router.md",
+      "grade": "F",
+      "success_rate": 0.6,
+      "complexity_score": 10,
+      "avg_execution_time": 1.1886,
+      "savage_verdict": "\u26a0\ufe0f adaptive-complexity-router.md has complexity score 10/10. Following Martin Fowler's advice: 'Any fool can write complex code.' This command is that fool."
+    },
+    {
+      "rank": 4,
+      "command": "analyze-project-architecture.md",
+      "grade": "F",
+      "success_rate": 0.4,
+      "complexity_score": 10,
+      "avg_execution_time": 1.1646,
+      "savage_verdict": "\ud83d\udeab analyze-project-architecture.md fails 60.0% of the time. That's not 'intelligent automation', that's a coin flip with worse odds. Complexity score of 10 suggests over-engineering without reliability."
+    },
+    {
+      "rank": 5,
+      "command": "git-backup-sync.md",
+      "grade": "F",
+      "success_rate": 0.2,
+      "complexity_score": 8,
+      "avg_execution_time": 0.941,
+      "savage_verdict": "\ud83d\udeab git-backup-sync.md fails 80.0% of the time. That's not 'intelligent automation', that's a coin flip with worse odds. Complexity score of 8 suggests over-engineering without reliability."
+    }
+  ],
+  "detailed_results": [
+    {
+      "command_name": "adhd-task-breakdown.md",
+      "success_rate": 1.0,
+      "avg_execution_time": 0.44856882095336914,
+      "execution_time_stddev": 0.07999238304531495,
+      "token_consumption_estimate": 2611,
+      "complexity_score": 3,
+      "error_frequency": 0.0,
+      "error_types": [],
+      "sample_outputs": [
+        "Run 1: SUCCESS (0.366s)",
+        "Run 2: SUCCESS (0.566s)",
+        "Run 3: SUCCESS (0.472s)",
+        "Run 4: SUCCESS (0.383s)",
+        "Run 5: SUCCESS (0.456s)"
+      ],
+      "performance_grade": "B",
+      "savage_commentary": "\u2705 adhd-task-breakdown.md actually follows CLAUDE.md principles: 100.0% success rate with complexity score 3. Rare competence detected.",
+      "statistical_confidence": 0.95,
+      "cost_benefit_ratio": 7833.0
+    },
+    {
+      "command_name": "adhd-context-switch.md",
+      "success_rate": 1.0,
+      "avg_execution_time": 0.7894336700439453,
+      "execution_time_stddev": 0.07604396364383789,
+      "token_consumption_estimate": 2471,
+      "complexity_score": 6,
+      "error_frequency": 0.0,
+      "error_types": [],
+      "sample_outputs": [
+        "Run 1: SUCCESS (0.721s)",
+        "Run 2: SUCCESS (0.867s)",
+        "Run 3: SUCCESS (0.809s)",
+        "Run 4: SUCCESS (0.851s)",
+        "Run 5: SUCCESS (0.699s)"
+      ],
+      "performance_grade": "C",
+      "savage_commentary": "\ud83d\udcc8 adhd-context-switch.md: 100.0% success rate, complexity 6. Mediocre but functional. The 'participation trophy' of commands.",
+      "statistical_confidence": 0.95,
+      "cost_benefit_ratio": 14826.0
+    },
+    {
+      "command_name": "adaptive-complexity-router.md",
+      "success_rate": 0.6,
+      "avg_execution_time": 1.1886276721954345,
+      "execution_time_stddev": 0.02775670412734922,
+      "token_consumption_estimate": 2796,
+      "complexity_score": 10,
+      "error_frequency": 0.4,
+      "error_types": [
+        "ContextOverflow",
+        "TokenLimitExceeded"
+      ],
+      "sample_outputs": [
+        "Run 1: FAILED - TokenLimitExceeded",
+        "Run 2: SUCCESS (1.222s)",
+        "Run 3: SUCCESS (1.151s)",
+        "Run 4: SUCCESS (1.206s)",
+        "Run 5: FAILED - ContextOverflow"
+      ],
+      "performance_grade": "F",
+      "savage_commentary": "\u26a0\ufe0f adaptive-complexity-router.md has complexity score 10/10. Following Martin Fowler's advice: 'Any fool can write complex code.' This command is that fool.",
+      "statistical_confidence": 0.6753296217517666,
+      "cost_benefit_ratio": 46600.0
+    },
+    {
+      "command_name": "analyze-project-architecture.md",
+      "success_rate": 0.4,
+      "avg_execution_time": 1.164566946029663,
+      "execution_time_stddev": 0.07708320042463904,
+      "token_consumption_estimate": 2303,
+      "complexity_score": 10,
+      "error_frequency": 0.6,
+      "error_types": [
+        "InvalidSyntax",
+        "TimeoutError"
+      ],
+      "sample_outputs": [
+        "Run 1: FAILED - InvalidSyntax",
+        "Run 2: FAILED - InvalidSyntax",
+        "Run 3: FAILED - TimeoutError",
+        "Run 4: SUCCESS (1.256s)",
+        "Run 5: SUCCESS (1.191s)"
+      ],
+      "performance_grade": "F",
+      "savage_commentary": "\ud83d\udeab analyze-project-architecture.md fails 60.0% of the time. That's not 'intelligent automation', that's a coin flip with worse odds. Complexity score of 10 suggests over-engineering without reliability.",
+      "statistical_confidence": 0.5067619116810009,
+      "cost_benefit_ratio": 57575.0
+    },
+    {
+      "command_name": "git-backup-sync.md",
+      "success_rate": 0.2,
+      "avg_execution_time": 0.9409553527832031,
+      "execution_time_stddev": 0.05152087807095371,
+      "token_consumption_estimate": 3118,
+      "complexity_score": 8,
+      "error_frequency": 0.8,
+      "error_types": [
+        "ContextOverflow",
+        "UnresolvedReference",
+        "ConfigurationError"
+      ],
+      "sample_outputs": [
+        "Run 1: FAILED - UnresolvedReference",
+        "Run 2: SUCCESS (0.891s)",
+        "Run 3: FAILED - ConfigurationError",
+        "Run 4: FAILED - ConfigurationError",
+        "Run 5: FAILED - ContextOverflow"
+      ],
+      "performance_grade": "F",
+      "savage_commentary": "\ud83d\udeab git-backup-sync.md fails 80.0% of the time. That's not 'intelligent automation', that's a coin flip with worse odds. Complexity score of 8 suggests over-engineering without reliability.",
+      "statistical_confidence": 0.34904924066406284,
+      "cost_benefit_ratio": 124720.0
+    }
+  ],
+  "scientific_analysis": {
+    "statistical_confidence": 0.686,
+    "performance_consistency": "MEDIUM",
+    "complexity_assessment": "EXCESSIVE",
+    "overall_verdict": "\ud83d\ude10 MEDIOCRE: Commands work sometimes. That's... something, I guess."
+  }
+}

@@ -1,0 +1,193 @@
+{
+  "benchmark_metadata": {
+    "timestamp": "20250824-110713",
+    "commands_tested": 5,
+    "iterations_per_command": 5,
+    "total_test_runs": 25
+  },
+  "statistical_summary": {
+    "overall_success_rate": 0.72,
+    "success_rate_variance": 0.092,
+    "average_complexity_score": 5.4,
+    "average_execution_time": 0.7098,
+    "total_estimated_tokens": 12898,
+    "average_cost_benefit_ratio": 34017.9
+  },
+  "grade_distribution": {
+    "B": 1,
+    "C": 1,
+    "D": 2,
+    "F": 1
+  },
+  "command_rankings": [
+    {
+      "rank": 1,
+      "command": "ultrathink.md",
+      "grade": "B",
+      "success_rate": 1.0,
+      "complexity_score": 3,
+      "avg_execution_time": 0.4378,
+      "savage_verdict": "\u2705 ultrathink.md actually follows CLAUDE.md principles: 100.0% success rate with complexity score 3. Rare competence detected."
+    },
+    {
+      "rank": 2,
+      "command": "adhd-task-breakdown.md",
+      "grade": "C",
+      "success_rate": 0.8,
+      "complexity_score": 3,
+      "avg_execution_time": 0.4687,
+      "savage_verdict": "\ud83d\udcc8 adhd-task-breakdown.md: 80.0% success rate, complexity 3. Mediocre but functional. The 'participation trophy' of commands."
+    },
+    {
+      "rank": 3,
+      "command": "adhd-hyperfocus-guardian.md",
+      "grade": "D",
+      "success_rate": 0.8,
+      "complexity_score": 5,
+      "avg_execution_time": 0.6834,
+      "savage_verdict": "\ud83d\udcc8 adhd-hyperfocus-guardian.md: 80.0% success rate, complexity 5. Mediocre but functional. The 'participation trophy' of commands."
+    },
+    {
+      "rank": 4,
+      "command": "reasoning-wrapper.md",
+      "grade": "D",
+      "success_rate": 0.8,
+      "complexity_score": 6,
+      "avg_execution_time": 0.7993,
+      "savage_verdict": "\ud83d\udcc8 reasoning-wrapper.md: 80.0% success rate, complexity 6. Mediocre but functional. The 'participation trophy' of commands."
+    },
+    {
+      "rank": 5,
+      "command": "analyze-project-architecture.md",
+      "grade": "F",
+      "success_rate": 0.2,
+      "complexity_score": 10,
+      "avg_execution_time": 1.1596,
+      "savage_verdict": "\ud83d\udeab analyze-project-architecture.md fails 80.0% of the time. That's not 'intelligent automation', that's a coin flip with worse odds. Complexity score of 10 suggests over-engineering without reliability."
+    }
+  ],
+  "detailed_results": [
+    {
+      "command_name": "ultrathink.md",
+      "success_rate": 1.0,
+      "avg_execution_time": 0.4378401279449463,
+      "execution_time_stddev": 0.07662786575248026,
+      "token_consumption_estimate": 2439,
+      "complexity_score": 3,
+      "error_frequency": 0.0,
+      "error_types": [],
+      "sample_outputs": [
+        "Run 1: SUCCESS (0.369s)",
+        "Run 2: SUCCESS (0.393s)",
+        "Run 3: SUCCESS (0.559s)",
+        "Run 4: SUCCESS (0.402s)",
+        "Run 5: SUCCESS (0.467s)"
+      ],
+      "performance_grade": "B",
+      "savage_commentary": "\u2705 ultrathink.md actually follows CLAUDE.md principles: 100.0% success rate with complexity score 3. Rare competence detected.",
+      "statistical_confidence": 0.95,
+      "cost_benefit_ratio": 7317.0
+    },
+    {
+      "command_name": "adhd-task-breakdown.md",
+      "success_rate": 0.8,
+      "avg_execution_time": 0.46869144439697263,
+      "execution_time_stddev": 0.06487662345355888,
+      "token_consumption_estimate": 2611,
+      "complexity_score": 3,
+      "error_frequency": 0.2,
+      "error_types": [
+        "ContextOverflow"
+      ],
+      "sample_outputs": [
+        "Run 1: SUCCESS (0.561s)",
+        "Run 2: SUCCESS (0.386s)",
+        "Run 3: FAILED - ContextOverflow",
+        "Run 4: SUCCESS (0.494s)",
+        "Run 5: SUCCESS (0.439s)"
+      ],
+      "performance_grade": "C",
+      "savage_commentary": "\ud83d\udcc8 adhd-task-breakdown.md: 80.0% success rate, complexity 3. Mediocre but functional. The 'participation trophy' of commands.",
+      "statistical_confidence": 0.8123158490605562,
+      "cost_benefit_ratio": 9791.25
+    },
+    {
+      "command_name": "adhd-hyperfocus-guardian.md",
+      "success_rate": 0.8,
+      "avg_execution_time": 0.683422327041626,
+      "execution_time_stddev": 0.06314944072749648,
+      "token_consumption_estimate": 3005,
+      "complexity_score": 5,
+      "error_frequency": 0.2,
+      "error_types": [
+        "ContextOverflow"
+      ],
+      "sample_outputs": [
+        "Run 1: SUCCESS (0.672s)",
+        "Run 2: SUCCESS (0.597s)",
+        "Run 3: SUCCESS (0.667s)",
+        "Run 4: SUCCESS (0.713s)",
+        "Run 5: FAILED - ContextOverflow"
+      ],
+      "performance_grade": "D",
+      "savage_commentary": "\ud83d\udcc8 adhd-hyperfocus-guardian.md: 80.0% success rate, complexity 5. Mediocre but functional. The 'participation trophy' of commands.",
+      "statistical_confidence": 0.8215196436438198,
+      "cost_benefit_ratio": 18781.25
+    },
+    {
+      "command_name": "reasoning-wrapper.md",
+      "success_rate": 0.8,
+      "avg_execution_time": 0.7992802619934082,
+      "execution_time_stddev": 0.0657885328015903,
+      "token_consumption_estimate": 2540,
+      "complexity_score": 6,
+      "error_frequency": 0.2,
+      "error_types": [
+        "InvalidSyntax"
+      ],
+      "sample_outputs": [
+        "Run 1: FAILED - InvalidSyntax",
+        "Run 2: SUCCESS (0.818s)",
+        "Run 3: SUCCESS (0.886s)",
+        "Run 4: SUCCESS (0.704s)",
+        "Run 5: SUCCESS (0.782s)"
+      ],
+      "performance_grade": "D",
+      "savage_commentary": "\ud83d\udcc8 reasoning-wrapper.md: 80.0% success rate, complexity 6. Mediocre but functional. The 'participation trophy' of commands.",
+      "statistical_confidence": 0.8235380564415509,
+      "cost_benefit_ratio": 19050.0
+    },
+    {
+      "command_name": "analyze-project-architecture.md",
+      "success_rate": 0.2,
+      "avg_execution_time": 1.1595642566680908,
+      "execution_time_stddev": 0.06937251290674983,
+      "token_consumption_estimate": 2303,
+      "complexity_score": 10,
+      "error_frequency": 0.8,
+      "error_types": [
+        "TimeoutError",
+        "InvalidSyntax",
+        "UnresolvedReference",
+        "ContextOverflow"
+      ],
+      "sample_outputs": [
+        "Run 1: FAILED - TimeoutError",
+        "Run 2: SUCCESS (1.205s)",
+        "Run 3: FAILED - ContextOverflow",
+        "Run 4: FAILED - InvalidSyntax",
+        "Run 5: FAILED - UnresolvedReference"
+      ],
+      "performance_grade": "F",
+      "savage_commentary": "\ud83d\udeab analyze-project-architecture.md fails 80.0% of the time. That's not 'intelligent automation', that's a coin flip with worse odds. Complexity score of 10 suggests over-engineering without reliability.",
+      "statistical_confidence": 0.3480347272679678,
+      "cost_benefit_ratio": 115150.0
+    }
+  ],
+  "scientific_analysis": {
+    "statistical_confidence": 0.751,
+    "performance_consistency": "HIGH",
+    "complexity_assessment": "ACCEPTABLE",
+    "overall_verdict": "\ud83d\ude10 MEDIOCRE: Commands work sometimes. That's... something, I guess."
+  }
+}

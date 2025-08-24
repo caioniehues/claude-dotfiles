@@ -1,0 +1,192 @@
+{
+  "benchmark_metadata": {
+    "timestamp": "20250824-110623",
+    "commands_tested": 5,
+    "iterations_per_command": 5,
+    "total_test_runs": 25
+  },
+  "statistical_summary": {
+    "overall_success_rate": 0.52,
+    "success_rate_variance": 0.152,
+    "average_complexity_score": 7,
+    "average_execution_time": 0.889,
+    "total_estimated_tokens": 14957,
+    "average_cost_benefit_ratio": 144379.4
+  },
+  "grade_distribution": {
+    "B": 1,
+    "F": 4
+  },
+  "command_rankings": [
+    {
+      "rank": 1,
+      "command": "ultrathink.md",
+      "grade": "B",
+      "success_rate": 1.0,
+      "complexity_score": 3,
+      "avg_execution_time": 0.5109,
+      "savage_verdict": "\u2705 ultrathink.md actually follows CLAUDE.md principles: 100.0% success rate with complexity score 3. Rare competence detected."
+    },
+    {
+      "rank": 2,
+      "command": "adaptive-complexity-router.md",
+      "grade": "F",
+      "success_rate": 0.8,
+      "complexity_score": 10,
+      "avg_execution_time": 1.2161,
+      "savage_verdict": "\u26a0\ufe0f adaptive-complexity-router.md has complexity score 10/10. Following Martin Fowler's advice: 'Any fool can write complex code.' This command is that fool."
+    },
+    {
+      "rank": 3,
+      "command": "context-enhanced-executor.md",
+      "grade": "F",
+      "success_rate": 0.4,
+      "complexity_score": 6,
+      "avg_execution_time": 0.7395,
+      "savage_verdict": "\ud83d\udeab context-enhanced-executor.md fails 60.0% of the time. That's not 'intelligent automation', that's a coin flip with worse odds. Complexity score of 6 suggests over-engineering without reliability."
+    },
+    {
+      "rank": 4,
+      "command": "adhd-context-switch.md",
+      "grade": "F",
+      "success_rate": 0.4,
+      "complexity_score": 6,
+      "avg_execution_time": 0.7982,
+      "savage_verdict": "\ud83d\udeab adhd-context-switch.md fails 60.0% of the time. That's not 'intelligent automation', that's a coin flip with worse odds. Complexity score of 6 suggests over-engineering without reliability."
+    },
+    {
+      "rank": 5,
+      "command": "java-clean-code-generator.md",
+      "grade": "F",
+      "success_rate": 0.0,
+      "complexity_score": 10,
+      "avg_execution_time": 1.1805,
+      "savage_verdict": "\ud83d\udeab java-clean-code-generator.md fails 100.0% of the time. That's not 'intelligent automation', that's a coin flip with worse odds. Complexity score of 10 suggests over-engineering without reliability."
+    }
+  ],
+  "detailed_results": [
+    {
+      "command_name": "ultrathink.md",
+      "success_rate": 1.0,
+      "avg_execution_time": 0.510906171798706,
+      "execution_time_stddev": 0.07225711757277162,
+      "token_consumption_estimate": 2439,
+      "complexity_score": 3,
+      "error_frequency": 0.0,
+      "error_types": [],
+      "sample_outputs": [
+        "Run 1: SUCCESS (0.410s)",
+        "Run 2: SUCCESS (0.532s)",
+        "Run 3: SUCCESS (0.471s)",
+        "Run 4: SUCCESS (0.543s)",
+        "Run 5: SUCCESS (0.598s)"
+      ],
+      "performance_grade": "B",
+      "savage_commentary": "\u2705 ultrathink.md actually follows CLAUDE.md principles: 100.0% success rate with complexity score 3. Rare competence detected.",
+      "statistical_confidence": 0.95,
+      "cost_benefit_ratio": 7317.0
+    },
+    {
+      "command_name": "adaptive-complexity-router.md",
+      "success_rate": 0.8,
+      "avg_execution_time": 1.2160577774047852,
+      "execution_time_stddev": 0.07092900660528081,
+      "token_consumption_estimate": 2796,
+      "complexity_score": 10,
+      "error_frequency": 0.2,
+      "error_types": [
+        "ConfigurationError"
+      ],
+      "sample_outputs": [
+        "Run 1: SUCCESS (1.154s)",
+        "Run 2: SUCCESS (1.236s)",
+        "Run 3: SUCCESS (1.265s)",
+        "Run 4: SUCCESS (1.295s)",
+        "Run 5: FAILED - ConfigurationError"
+      ],
+      "performance_grade": "F",
+      "savage_commentary": "\u26a0\ufe0f adaptive-complexity-router.md has complexity score 10/10. Following Martin Fowler's advice: 'Any fool can write complex code.' This command is that fool.",
+      "statistical_confidence": 0.8283345992397415,
+      "cost_benefit_ratio": 34950.0
+    },
+    {
+      "command_name": "context-enhanced-executor.md",
+      "success_rate": 0.4,
+      "avg_execution_time": 0.739537525177002,
+      "execution_time_stddev": 0.08477424155740725,
+      "token_consumption_estimate": 971,
+      "complexity_score": 6,
+      "error_frequency": 0.6,
+      "error_types": [
+        "DependencyMissing",
+        "ConfigurationError",
+        "UnresolvedReference"
+      ],
+      "sample_outputs": [
+        "Run 1: FAILED - UnresolvedReference",
+        "Run 2: FAILED - ConfigurationError",
+        "Run 3: FAILED - DependencyMissing",
+        "Run 4: SUCCESS (0.866s)",
+        "Run 5: SUCCESS (0.766s)"
+      ],
+      "performance_grade": "F",
+      "savage_commentary": "\ud83d\udeab context-enhanced-executor.md fails 60.0% of the time. That's not 'intelligent automation', that's a coin flip with worse odds. Complexity score of 6 suggests over-engineering without reliability.",
+      "statistical_confidence": 0.4970737146740142,
+      "cost_benefit_ratio": 14565.0
+    },
+    {
+      "command_name": "adhd-context-switch.md",
+      "success_rate": 0.4,
+      "avg_execution_time": 0.7981922149658203,
+      "execution_time_stddev": 0.04340950278889036,
+      "token_consumption_estimate": 2471,
+      "complexity_score": 6,
+      "error_frequency": 0.6,
+      "error_types": [
+        "InvalidSyntax",
+        "TokenLimitExceeded"
+      ],
+      "sample_outputs": [
+        "Run 1: SUCCESS (0.799s)",
+        "Run 2: FAILED - TokenLimitExceeded",
+        "Run 3: FAILED - InvalidSyntax",
+        "Run 4: SUCCESS (0.736s)",
+        "Run 5: FAILED - InvalidSyntax"
+      ],
+      "performance_grade": "F",
+      "savage_commentary": "\ud83d\udeab adhd-context-switch.md fails 60.0% of the time. That's not 'intelligent automation', that's a coin flip with worse odds. Complexity score of 6 suggests over-engineering without reliability.",
+      "statistical_confidence": 0.5091230453078902,
+      "cost_benefit_ratio": 37065.0
+    },
+    {
+      "command_name": "java-clean-code-generator.md",
+      "success_rate": 0.0,
+      "avg_execution_time": 1.1804734706878661,
+      "execution_time_stddev": 0.10016026132196998,
+      "token_consumption_estimate": 6280,
+      "complexity_score": 10,
+      "error_frequency": 1.0,
+      "error_types": [
+        "InvalidSyntax",
+        "UnresolvedReference"
+      ],
+      "sample_outputs": [
+        "Run 1: FAILED - UnresolvedReference",
+        "Run 2: FAILED - UnresolvedReference",
+        "Run 3: FAILED - UnresolvedReference",
+        "Run 4: FAILED - InvalidSyntax",
+        "Run 5: FAILED - InvalidSyntax"
+      ],
+      "performance_grade": "F",
+      "savage_commentary": "\ud83d\udeab java-clean-code-generator.md fails 100.0% of the time. That's not 'intelligent automation', that's a coin flip with worse odds. Complexity score of 10 suggests over-engineering without reliability.",
+      "statistical_confidence": 0.183030493474181,
+      "cost_benefit_ratio": 628000.0
+    }
+  ],
+  "scientific_analysis": {
+    "statistical_confidence": 0.594,
+    "performance_consistency": "MEDIUM",
+    "complexity_assessment": "EXCESSIVE",
+    "overall_verdict": "\ud83d\udc80 SYSTEMATIC FAILURE: Low success rates indicate fundamental issues. Recommend complete refactoring."
+  }
+}
