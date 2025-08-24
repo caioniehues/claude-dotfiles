@@ -1,0 +1,189 @@
+{
+  "benchmark_metadata": {
+    "timestamp": "20250824-141012",
+    "commands_tested": 5,
+    "iterations_per_command": 5,
+    "total_test_runs": 25
+  },
+  "statistical_summary": {
+    "overall_success_rate": 0.84,
+    "success_rate_variance": 0.028,
+    "average_complexity_score": 6,
+    "average_execution_time": 0.7535,
+    "total_estimated_tokens": 19368,
+    "average_cost_benefit_ratio": 36180.18
+  },
+  "grade_distribution": {
+    "B": 1,
+    "C": 1,
+    "D": 2,
+    "F": 1
+  },
+  "command_rankings": [
+    {
+      "rank": 1,
+      "command": "adhd-task-breakdown.md",
+      "grade": "B",
+      "success_rate": 1.0,
+      "complexity_score": 3,
+      "avg_execution_time": 0.4636,
+      "savage_verdict": "\u2705 adhd-task-breakdown.md actually follows CLAUDE.md principles: 100.0% success rate with complexity score 3. Rare competence detected."
+    },
+    {
+      "rank": 2,
+      "command": "reasoning-wrapper.md",
+      "grade": "C",
+      "success_rate": 1.0,
+      "complexity_score": 6,
+      "avg_execution_time": 0.7525,
+      "savage_verdict": "\ud83d\udcc8 reasoning-wrapper.md: 100.0% success rate, complexity 6. Mediocre but functional. The 'participation trophy' of commands."
+    },
+    {
+      "rank": 3,
+      "command": "ultrathink-interactive.md",
+      "grade": "D",
+      "success_rate": 0.8,
+      "complexity_score": 5,
+      "avg_execution_time": 0.6504,
+      "savage_verdict": "\ud83d\udcc8 ultrathink-interactive.md: 80.0% success rate, complexity 5. Mediocre but functional. The 'participation trophy' of commands."
+    },
+    {
+      "rank": 4,
+      "command": "intelligent-code-enhancer.md",
+      "grade": "D",
+      "success_rate": 0.8,
+      "complexity_score": 6,
+      "avg_execution_time": 0.7718,
+      "savage_verdict": "\ud83d\udcc8 intelligent-code-enhancer.md: 80.0% success rate, complexity 6. Mediocre but functional. The 'participation trophy' of commands."
+    },
+    {
+      "rank": 5,
+      "command": "java-clean-code-generator.md",
+      "grade": "F",
+      "success_rate": 0.6,
+      "complexity_score": 10,
+      "avg_execution_time": 1.1294,
+      "savage_verdict": "\u26a0\ufe0f java-clean-code-generator.md has complexity score 10/10. Following Martin Fowler's advice: 'Any fool can write complex code.' This command is that fool."
+    }
+  ],
+  "detailed_results": [
+    {
+      "command_name": "adhd-task-breakdown.md",
+      "success_rate": 1.0,
+      "avg_execution_time": 0.46357016563415526,
+      "execution_time_stddev": 0.06615216446137889,
+      "token_consumption_estimate": 2611,
+      "complexity_score": 3,
+      "error_frequency": 0.0,
+      "error_types": [],
+      "sample_outputs": [
+        "Run 1: SUCCESS (0.447s)",
+        "Run 2: SUCCESS (0.570s)",
+        "Run 3: SUCCESS (0.466s)",
+        "Run 4: SUCCESS (0.389s)",
+        "Run 5: SUCCESS (0.445s)"
+      ],
+      "performance_grade": "B",
+      "savage_commentary": "\u2705 adhd-task-breakdown.md actually follows CLAUDE.md principles: 100.0% success rate with complexity score 3. Rare competence detected.",
+      "statistical_confidence": 0.95,
+      "cost_benefit_ratio": 7833.0
+    },
+    {
+      "command_name": "reasoning-wrapper.md",
+      "success_rate": 1.0,
+      "avg_execution_time": 0.7524815559387207,
+      "execution_time_stddev": 0.08351610936899478,
+      "token_consumption_estimate": 2540,
+      "complexity_score": 6,
+      "error_frequency": 0.0,
+      "error_types": [],
+      "sample_outputs": [
+        "Run 1: SUCCESS (0.807s)",
+        "Run 2: SUCCESS (0.864s)",
+        "Run 3: SUCCESS (0.674s)",
+        "Run 4: SUCCESS (0.672s)",
+        "Run 5: SUCCESS (0.746s)"
+      ],
+      "performance_grade": "C",
+      "savage_commentary": "\ud83d\udcc8 reasoning-wrapper.md: 100.0% success rate, complexity 6. Mediocre but functional. The 'participation trophy' of commands.",
+      "statistical_confidence": 0.95,
+      "cost_benefit_ratio": 15240.0
+    },
+    {
+      "command_name": "ultrathink-interactive.md",
+      "success_rate": 0.8,
+      "avg_execution_time": 0.650430965423584,
+      "execution_time_stddev": 0.08729518739501332,
+      "token_consumption_estimate": 5093,
+      "complexity_score": 5,
+      "error_frequency": 0.2,
+      "error_types": [
+        "ConfigurationError"
+      ],
+      "sample_outputs": [
+        "Run 1: SUCCESS (0.773s)",
+        "Run 2: SUCCESS (0.577s)",
+        "Run 3: SUCCESS (0.601s)",
+        "Run 4: SUCCESS (0.588s)",
+        "Run 5: FAILED - ConfigurationError"
+      ],
+      "performance_grade": "D",
+      "savage_commentary": "\ud83d\udcc8 ultrathink-interactive.md: 80.0% success rate, complexity 5. Mediocre but functional. The 'participation trophy' of commands.",
+      "statistical_confidence": 0.8131577393957057,
+      "cost_benefit_ratio": 31831.25
+    },
+    {
+      "command_name": "intelligent-code-enhancer.md",
+      "success_rate": 0.8,
+      "avg_execution_time": 0.7717641830444336,
+      "execution_time_stddev": 0.08226461822122143,
+      "token_consumption_estimate": 2844,
+      "complexity_score": 6,
+      "error_frequency": 0.2,
+      "error_types": [
+        "DependencyMissing"
+      ],
+      "sample_outputs": [
+        "Run 1: FAILED - DependencyMissing",
+        "Run 2: SUCCESS (0.890s)",
+        "Run 3: SUCCESS (0.806s)",
+        "Run 4: SUCCESS (0.716s)",
+        "Run 5: SUCCESS (0.678s)"
+      ],
+      "performance_grade": "D",
+      "savage_commentary": "\ud83d\udcc8 intelligent-code-enhancer.md: 80.0% success rate, complexity 6. Mediocre but functional. The 'participation trophy' of commands.",
+      "statistical_confidence": 0.8186814107136442,
+      "cost_benefit_ratio": 21330.0
+    },
+    {
+      "command_name": "java-clean-code-generator.md",
+      "success_rate": 0.6,
+      "avg_execution_time": 1.1294042110443114,
+      "execution_time_stddev": 0.041964856070356056,
+      "token_consumption_estimate": 6280,
+      "complexity_score": 10,
+      "error_frequency": 0.4,
+      "error_types": [
+        "InvalidSyntax",
+        "ConfigurationError"
+      ],
+      "sample_outputs": [
+        "Run 1: SUCCESS (1.094s)",
+        "Run 2: FAILED - ConfigurationError",
+        "Run 3: SUCCESS (1.169s)",
+        "Run 4: SUCCESS (1.119s)",
+        "Run 5: FAILED - InvalidSyntax"
+      ],
+      "performance_grade": "F",
+      "savage_commentary": "\u26a0\ufe0f java-clean-code-generator.md has complexity score 10/10. Following Martin Fowler's advice: 'Any fool can write complex code.' This command is that fool.",
+      "statistical_confidence": 0.6725686737024731,
+      "cost_benefit_ratio": 104666.66666666667
+    }
+  ],
+  "scientific_analysis": {
+    "statistical_confidence": 0.841,
+    "performance_consistency": "HIGH",
+    "complexity_assessment": "ACCEPTABLE",
+    "overall_verdict": "\ud83d\udc4d ADEQUATE: Not embarrassing. Commands work most of the time without excessive complexity."
+  }
+}
