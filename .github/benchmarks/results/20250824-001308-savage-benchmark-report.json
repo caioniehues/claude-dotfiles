@@ -1,0 +1,127 @@
+{
+  "benchmark_info": {
+    "timestamp": "2025-08-24T00:13:08.328880",
+    "total_commands_tested": 5,
+    "benchmarker_version": "1.0",
+    "methodology": "Scientific measurement with savage commentary"
+  },
+  "overall_statistics": {
+    "mean": 0.2555117130279541,
+    "std_dev": 0.4167342715343551,
+    "confidence_interval": [
+      -0.10977198157627793,
+      0.6207954076321862
+    ],
+    "outliers": [],
+    "success_rate": 0.8
+  },
+  "command_results": {
+    "adhd-evening-reflect": {
+      "metrics": {
+        "command_name": "adhd-evening-reflect",
+        "execution_time": 0.04144024848937988,
+        "token_estimate": 3134,
+        "success": true,
+        "complexity_score": 4,
+        "error_messages": [],
+        "output_quality": 10.0,
+        "memory_usage": 12536,
+        "file_changes": 0,
+        "lines_of_code": 438
+      },
+      "savage_commentary": "\u2705 SURPRISINGLY DECENT: Against all odds, this actually works.",
+      "timestamp": "2025-08-24T00:13:02.140081"
+    },
+    "java-clean-code-generator": {
+      "metrics": {
+        "command_name": "java-clean-code-generator",
+        "execution_time": 0.9826912879943848,
+        "token_estimate": 6280,
+        "success": false,
+        "complexity_score": 98,
+        "error_messages": [
+          "Wildcard imports detected",
+          "Null returns found",
+          "Factory madness detected"
+        ],
+        "output_quality": 1.5,
+        "memory_usage": 25120,
+        "file_changes": 0,
+        "lines_of_code": 819
+      },
+      "savage_commentary": "\ud83d\udd25 COMPLEXITY VIOLATION: Score 98/5. This isn't 'enterprise-grade', it's enterprise-bloat. | \ud83d\udc80 SUCCESS RATE: 0.0%. That's not 'intelligent automation', that's gambling with worse odds than a casino. | \ud83d\uddd1\ufe0f QUALITY ISSUES: 3 violations found. Code reviews exist for a reason, and this is it.",
+      "timestamp": "2025-08-24T00:13:07.056985"
+    },
+    "ultrathink": {
+      "metrics": {
+        "command_name": "ultrathink",
+        "execution_time": 0.011167573928833007,
+        "token_estimate": 2439,
+        "success": true,
+        "complexity_score": 1,
+        "error_messages": [],
+        "output_quality": 10.0,
+        "memory_usage": 9756,
+        "file_changes": 0,
+        "lines_of_code": 357
+      },
+      "savage_commentary": "\u2705 SURPRISINGLY DECENT: Against all odds, this actually works.",
+      "timestamp": "2025-08-24T00:13:07.114377"
+    },
+    "adhd-morning-assistant": {
+      "metrics": {
+        "command_name": "adhd-morning-assistant",
+        "execution_time": 0.011057043075561523,
+        "token_estimate": 2223,
+        "success": true,
+        "complexity_score": 1,
+        "error_messages": [],
+        "output_quality": 10.0,
+        "memory_usage": 8892,
+        "file_changes": 0,
+        "lines_of_code": 309
+      },
+      "savage_commentary": "\u2705 SURPRISINGLY DECENT: Against all odds, this actually works.",
+      "timestamp": "2025-08-24T00:13:07.171170"
+    },
+    "java-rapid-implementation": {
+      "metrics": {
+        "command_name": "java-rapid-implementation",
+        "execution_time": 0.23120241165161132,
+        "token_estimate": 2183,
+        "success": true,
+        "complexity_score": 23,
+        "error_messages": [],
+        "output_quality": 10.0,
+        "memory_usage": 8732,
+        "file_changes": 0,
+        "lines_of_code": 250
+      },
+      "savage_commentary": "\ud83d\udd25 COMPLEXITY VIOLATION: Score 23/5. This isn't 'enterprise-grade', it's enterprise-bloat.",
+      "timestamp": "2025-08-24T00:13:08.328762"
+    }
+  },
+  "rankings": {
+    "fastest": [
+      "adhd-morning-assistant",
+      "ultrathink",
+      "adhd-evening-reflect"
+    ],
+    "slowest": [
+      "java-clean-code-generator",
+      "java-rapid-implementation",
+      "adhd-evening-reflect"
+    ],
+    "most_complex": [
+      "java-clean-code-generator",
+      "java-rapid-implementation",
+      "adhd-evening-reflect"
+    ],
+    "highest_quality": [
+      "adhd-evening-reflect",
+      "ultrathink",
+      "adhd-morning-assistant"
+    ]
+  },
+  "savage_summary": "\ud83c\udf93 PhD-LEVEL SCIENTIFIC ROAST RESULTS:\n\n\ud83d\udcc8 STATISTICAL FACTS:\n- Success Rate: 80.0% (Below 90% = Professional Embarrassment)\n- Average Complexity: 25.4/5.0 (Above 5 = Enterprise Bloat Syndrome)\n- Performance Variance: \u03c3=0.417s (163.1% CV)\n- Confidence Interval: -0.110s - 0.621s\n\n\ud83d\udd25 BRUTAL TRUTH:\n1/5 commands failed basic quality standards.\nThat's a 20.0% failure rate.\n\n\ud83c\udfc6 VERDICT: SURPRISINGLY FUNCTIONAL"
+}
