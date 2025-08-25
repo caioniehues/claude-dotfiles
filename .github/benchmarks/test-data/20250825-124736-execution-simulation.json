@@ -1,0 +1,337 @@
+{
+  "adhd-task-breakdown": [
+    {
+      "scenario": "simple_task",
+      "success": true,
+      "execution_time_s": 12.447,
+      "failure_reason": null,
+      "complexity_factors": {
+        "has_initialization": true,
+        "has_thinking_blocks": false,
+        "has_mcp_calls": true,
+        "has_user_interaction": false,
+        "has_error_handling": false
+      }
+    },
+    {
+      "scenario": "complex_task",
+      "success": true,
+      "execution_time_s": 31.118,
+      "failure_reason": null,
+      "complexity_factors": {
+        "has_initialization": true,
+        "has_thinking_blocks": false,
+        "has_mcp_calls": true,
+        "has_user_interaction": false,
+        "has_error_handling": false
+      }
+    },
+    {
+      "scenario": "offline_mode",
+      "success": false,
+      "execution_time_s": 18.671,
+      "failure_reason": null,
+      "complexity_factors": {
+        "has_initialization": true,
+        "has_thinking_blocks": false,
+        "has_mcp_calls": true,
+        "has_user_interaction": false,
+        "has_error_handling": false
+      }
+    },
+    {
+      "scenario": "batch_execution",
+      "success": true,
+      "execution_time_s": 16.181,
+      "failure_reason": null,
+      "complexity_factors": {
+        "has_initialization": true,
+        "has_thinking_blocks": false,
+        "has_mcp_calls": true,
+        "has_user_interaction": false,
+        "has_error_handling": false
+      }
+    },
+    {
+      "scenario": "error_scenario",
+      "success": false,
+      "execution_time_s": 37.341,
+      "failure_reason": "dependency_missing",
+      "complexity_factors": {
+        "has_initialization": true,
+        "has_thinking_blocks": false,
+        "has_mcp_calls": true,
+        "has_user_interaction": false,
+        "has_error_handling": false
+      }
+    }
+  ],
+  "ultrathink-hybrid-mcp": [
+    {
+      "scenario": "simple_task",
+      "success": true,
+      "execution_time_s": 40.345,
+      "failure_reason": null,
+      "complexity_factors": {
+        "has_initialization": false,
+        "has_thinking_blocks": true,
+        "has_mcp_calls": true,
+        "has_user_interaction": true,
+        "has_error_handling": false
+      }
+    },
+    {
+      "scenario": "complex_task",
+      "success": true,
+      "execution_time_s": 100.862,
+      "failure_reason": null,
+      "complexity_factors": {
+        "has_initialization": false,
+        "has_thinking_blocks": true,
+        "has_mcp_calls": true,
+        "has_user_interaction": true,
+        "has_error_handling": false
+      }
+    },
+    {
+      "scenario": "offline_mode",
+      "success": false,
+      "execution_time_s": 60.517,
+      "failure_reason": null,
+      "complexity_factors": {
+        "has_initialization": false,
+        "has_thinking_blocks": true,
+        "has_mcp_calls": true,
+        "has_user_interaction": true,
+        "has_error_handling": false
+      }
+    },
+    {
+      "scenario": "batch_execution",
+      "success": false,
+      "execution_time_s": 52.449,
+      "failure_reason": null,
+      "complexity_factors": {
+        "has_initialization": false,
+        "has_thinking_blocks": true,
+        "has_mcp_calls": true,
+        "has_user_interaction": true,
+        "has_error_handling": false
+      }
+    },
+    {
+      "scenario": "error_scenario",
+      "success": false,
+      "execution_time_s": 121.035,
+      "failure_reason": "dependency_missing",
+      "complexity_factors": {
+        "has_initialization": false,
+        "has_thinking_blocks": true,
+        "has_mcp_calls": true,
+        "has_user_interaction": true,
+        "has_error_handling": false
+      }
+    }
+  ],
+  "git-backup-sync": [
+    {
+      "scenario": "simple_task",
+      "success": true,
+      "execution_time_s": 19.474,
+      "failure_reason": null,
+      "complexity_factors": {
+        "has_initialization": false,
+        "has_thinking_blocks": false,
+        "has_mcp_calls": true,
+        "has_user_interaction": true,
+        "has_error_handling": true
+      }
+    },
+    {
+      "scenario": "complex_task",
+      "success": true,
+      "execution_time_s": 48.685,
+      "failure_reason": null,
+      "complexity_factors": {
+        "has_initialization": false,
+        "has_thinking_blocks": false,
+        "has_mcp_calls": true,
+        "has_user_interaction": true,
+        "has_error_handling": true
+      }
+    },
+    {
+      "scenario": "offline_mode",
+      "success": false,
+      "execution_time_s": 29.211,
+      "failure_reason": null,
+      "complexity_factors": {
+        "has_initialization": false,
+        "has_thinking_blocks": false,
+        "has_mcp_calls": true,
+        "has_user_interaction": true,
+        "has_error_handling": true
+      }
+    },
+    {
+      "scenario": "batch_execution",
+      "success": false,
+      "execution_time_s": 25.316,
+      "failure_reason": null,
+      "complexity_factors": {
+        "has_initialization": false,
+        "has_thinking_blocks": false,
+        "has_mcp_calls": true,
+        "has_user_interaction": true,
+        "has_error_handling": true
+      }
+    },
+    {
+      "scenario": "error_scenario",
+      "success": true,
+      "execution_time_s": 58.422,
+      "failure_reason": null,
+      "complexity_factors": {
+        "has_initialization": false,
+        "has_thinking_blocks": false,
+        "has_mcp_calls": true,
+        "has_user_interaction": true,
+        "has_error_handling": true
+      }
+    }
+  ],
+  "ultrathink-interactive": [
+    {
+      "scenario": "simple_task",
+      "success": true,
+      "execution_time_s": 27.374,
+      "failure_reason": null,
+      "complexity_factors": {
+        "has_initialization": true,
+        "has_thinking_blocks": false,
+        "has_mcp_calls": true,
+        "has_user_interaction": true,
+        "has_error_handling": false
+      }
+    },
+    {
+      "scenario": "complex_task",
+      "success": true,
+      "execution_time_s": 68.435,
+      "failure_reason": null,
+      "complexity_factors": {
+        "has_initialization": true,
+        "has_thinking_blocks": false,
+        "has_mcp_calls": true,
+        "has_user_interaction": true,
+        "has_error_handling": false
+      }
+    },
+    {
+      "scenario": "offline_mode",
+      "success": false,
+      "execution_time_s": 41.061,
+      "failure_reason": null,
+      "complexity_factors": {
+        "has_initialization": true,
+        "has_thinking_blocks": false,
+        "has_mcp_calls": true,
+        "has_user_interaction": true,
+        "has_error_handling": false
+      }
+    },
+    {
+      "scenario": "batch_execution",
+      "success": false,
+      "execution_time_s": 35.586,
+      "failure_reason": null,
+      "complexity_factors": {
+        "has_initialization": true,
+        "has_thinking_blocks": false,
+        "has_mcp_calls": true,
+        "has_user_interaction": true,
+        "has_error_handling": false
+      }
+    },
+    {
+      "scenario": "error_scenario",
+      "success": false,
+      "execution_time_s": 82.122,
+      "failure_reason": "dependency_missing",
+      "complexity_factors": {
+        "has_initialization": true,
+        "has_thinking_blocks": false,
+        "has_mcp_calls": true,
+        "has_user_interaction": true,
+        "has_error_handling": false
+      }
+    }
+  ],
+  "analyze-project-architecture": [
+    {
+      "scenario": "simple_task",
+      "success": true,
+      "execution_time_s": 16.214,
+      "failure_reason": null,
+      "complexity_factors": {
+        "has_initialization": false,
+        "has_thinking_blocks": false,
+        "has_mcp_calls": true,
+        "has_user_interaction": true,
+        "has_error_handling": true
+      }
+    },
+    {
+      "scenario": "complex_task",
+      "success": true,
+      "execution_time_s": 40.535,
+      "failure_reason": null,
+      "complexity_factors": {
+        "has_initialization": false,
+        "has_thinking_blocks": false,
+        "has_mcp_calls": true,
+        "has_user_interaction": true,
+        "has_error_handling": true
+      }
+    },
+    {
+      "scenario": "offline_mode",
+      "success": false,
+      "execution_time_s": 24.321,
+      "failure_reason": null,
+      "complexity_factors": {
+        "has_initialization": false,
+        "has_thinking_blocks": false,
+        "has_mcp_calls": true,
+        "has_user_interaction": true,
+        "has_error_handling": true
+      }
+    },
+    {
+      "scenario": "batch_execution",
+      "success": false,
+      "execution_time_s": 21.078,
+      "failure_reason": null,
+      "complexity_factors": {
+        "has_initialization": false,
+        "has_thinking_blocks": false,
+        "has_mcp_calls": true,
+        "has_user_interaction": true,
+        "has_error_handling": true
+      }
+    },
+    {
+      "scenario": "error_scenario",
+      "success": true,
+      "execution_time_s": 48.642,
+      "failure_reason": null,
+      "complexity_factors": {
+        "has_initialization": false,
+        "has_thinking_blocks": false,
+        "has_mcp_calls": true,
+        "has_user_interaction": true,
+        "has_error_handling": true
+      }
+    }
+  ]
+}

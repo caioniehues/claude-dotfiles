@@ -1,0 +1,92 @@
+{
+  "adhd-task-breakdown": {
+    "complexity_score": 5.5,
+    "success_rate": 0.6,
+    "success_rate_ci": [
+      0.045925420182445165,
+      1.154074579817555
+    ],
+    "avg_execution_time": 23.1516,
+    "execution_time_ci": [
+      12.445191703793327,
+      33.85800829620667
+    ],
+    "maintainability": 8.9,
+    "quality_score": 74.46666666666667,
+    "file_size_kb": 10.416015625,
+    "claude_compliance": "FAIL",
+    "performance_rating": "GOOD"
+  },
+  "ultrathink-hybrid-mcp": {
+    "complexity_score": 12.0,
+    "success_rate": 0.4,
+    "success_rate_ci": [
+      -0.1540745798175548,
+      0.9540745798175548
+    ],
+    "avg_execution_time": 75.0416,
+    "execution_time_ci": [
+      40.33876913432184,
+      109.74443086567817
+    ],
+    "maintainability": 7.6,
+    "quality_score": 55.2,
+    "file_size_kb": 13.1162109375,
+    "claude_compliance": "FAIL",
+    "performance_rating": "POOR"
+  },
+  "git-backup-sync": {
+    "complexity_score": 40.0,
+    "success_rate": 0.6,
+    "success_rate_ci": [
+      0.045925420182445165,
+      1.154074579817555
+    ],
+    "avg_execution_time": 36.2216,
+    "execution_time_ci": [
+      19.470907104502807,
+      52.9722928954972
+    ],
+    "maintainability": 2.0,
+    "quality_score": 28.0,
+    "file_size_kb": 12.26953125,
+    "claude_compliance": "FAIL",
+    "performance_rating": "POOR"
+  },
+  "ultrathink-interactive": {
+    "complexity_score": 11.9,
+    "success_rate": 0.4,
+    "success_rate_ci": [
+      -0.1540745798175548,
+      0.9540745798175548
+    ],
+    "avg_execution_time": 50.9156,
+    "execution_time_ci": [
+      27.36968215280654,
+      74.46151784719345
+    ],
+    "maintainability": 7.62,
+    "quality_score": 55.37333333333334,
+    "file_size_kb": 23.29296875,
+    "claude_compliance": "FAIL",
+    "performance_rating": "POOR"
+  },
+  "analyze-project-architecture": {
+    "complexity_score": 6.5,
+    "success_rate": 0.6,
+    "success_rate_ci": [
+      0.045925420182445165,
+      1.154074579817555
+    ],
+    "avg_execution_time": 30.158,
+    "execution_time_ci": [
+      16.21141259088167,
+      44.10458740911833
+    ],
+    "maintainability": 8.7,
+    "quality_score": 72.73333333333332,
+    "file_size_kb": 9.07421875,
+    "claude_compliance": "FAIL",
+    "performance_rating": "POOR"
+  }
+}

@@ -1,0 +1,148 @@
+{
+  "adhd-task-breakdown": {
+    "file_size_bytes": 10666,
+    "line_count": 365,
+    "char_count": 10447,
+    "word_count": 1264,
+    "code_blocks": {
+      "javascript": 2,
+      "bash": 0,
+      "yaml": 0,
+      "xml_elements": 26
+    },
+    "complexity_indicators": {
+      "mcp_calls": 3,
+      "conditional_logic": 0,
+      "loops": 0,
+      "async_calls": 3,
+      "pattern_complexity": 27,
+      "integration_points": 7,
+      "thinking_blocks": 0,
+      "sequential_thinking": 0,
+      "user_interaction": 0,
+      "error_handling": 0
+    },
+    "claude_complexity_score": 5.5,
+    "claude_violations": [],
+    "maintainability_score": 8.9,
+    "estimated_execution_time_ms": 8223.5
+  },
+  "ultrathink-hybrid-mcp": {
+    "file_size_bytes": 13431,
+    "line_count": 536,
+    "char_count": 13338,
+    "word_count": 1640,
+    "code_blocks": {
+      "javascript": 0,
+      "bash": 8,
+      "yaml": 3,
+      "xml_elements": 56
+    },
+    "complexity_indicators": {
+      "mcp_calls": 16,
+      "conditional_logic": 0,
+      "loops": 0,
+      "async_calls": 0,
+      "pattern_complexity": 117,
+      "integration_points": 14,
+      "thinking_blocks": 6,
+      "sequential_thinking": 0,
+      "user_interaction": 5,
+      "error_handling": 0
+    },
+    "claude_complexity_score": 12.0,
+    "claude_violations": [
+      "Large file size (consider breaking down)"
+    ],
+    "maintainability_score": 7.6,
+    "estimated_execution_time_ms": 22669.0
+  },
+  "git-backup-sync": {
+    "file_size_bytes": 12564,
+    "line_count": 531,
+    "char_count": 12474,
+    "word_count": 1461,
+    "code_blocks": {
+      "javascript": 0,
+      "bash": 15,
+      "yaml": 1,
+      "xml_elements": 66
+    },
+    "complexity_indicators": {
+      "mcp_calls": 2,
+      "conditional_logic": 0,
+      "loops": 0,
+      "async_calls": 0,
+      "pattern_complexity": 43,
+      "integration_points": 21,
+      "thinking_blocks": 0,
+      "sequential_thinking": 2,
+      "user_interaction": 13,
+      "error_handling": 6
+    },
+    "claude_complexity_score": 40.0,
+    "claude_violations": [
+      "Large file size (consider breaking down)"
+    ],
+    "maintainability_score": 2.0,
+    "estimated_execution_time_ms": 8237.0
+  },
+  "ultrathink-interactive": {
+    "file_size_bytes": 23852,
+    "line_count": 673,
+    "char_count": 20374,
+    "word_count": 1952,
+    "code_blocks": {
+      "javascript": 12,
+      "bash": 3,
+      "yaml": 0,
+      "xml_elements": 33
+    },
+    "complexity_indicators": {
+      "mcp_calls": 3,
+      "conditional_logic": 11,
+      "loops": 7,
+      "async_calls": 21,
+      "pattern_complexity": 24,
+      "integration_points": 3,
+      "thinking_blocks": 0,
+      "sequential_thinking": 0,
+      "user_interaction": 24,
+      "error_handling": 1
+    },
+    "claude_complexity_score": 11.9,
+    "claude_violations": [
+      "Large file size (consider breaking down)"
+    ],
+    "maintainability_score": 7.62,
+    "estimated_execution_time_ms": 13187.0
+  },
+  "analyze-project-architecture": {
+    "file_size_bytes": 9292,
+    "line_count": 274,
+    "char_count": 9214,
+    "word_count": 1198,
+    "code_blocks": {
+      "javascript": 0,
+      "bash": 0,
+      "yaml": 0,
+      "xml_elements": 34
+    },
+    "complexity_indicators": {
+      "mcp_calls": 1,
+      "conditional_logic": 0,
+      "loops": 0,
+      "async_calls": 0,
+      "pattern_complexity": 43,
+      "integration_points": 17,
+      "thinking_blocks": 0,
+      "sequential_thinking": 2,
+      "user_interaction": 3,
+      "error_handling": 11
+    },
+    "claude_complexity_score": 6.5,
+    "claude_violations": [],
+    "maintainability_score": 8.7,
+    "estimated_execution_time_ms": 5607.0
+  }
+}
