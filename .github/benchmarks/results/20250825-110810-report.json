@@ -1,0 +1,98 @@
+{
+  "timestamp": "20250825-110810",
+  "commands_analyzed": 5,
+  "statistical_summary": {
+    "avg_complexity": 63.8,
+    "std_complexity": 45.190707009295615,
+    "total_tokens": 38669,
+    "total_wtf_moments": 7,
+    "violations": 5
+  },
+  "rankings": {
+    "best_command": "adhd-morning-assistant",
+    "worst_command": "java-clean-code-generator",
+    "most_tokens": "java-clean-code-generator",
+    "least_tokens": "adhd-morning-assistant"
+  },
+  "detailed_results": [
+    {
+      "name": "adaptive-complexity-router",
+      "complexity_score": 52,
+      "lines_of_code": 377,
+      "abstraction_layers": 92,
+      "mcp_integrations": 2,
+      "thinking_blocks": 1,
+      "token_consumption": 6709,
+      "wtf_moments": [
+        "\ud83e\udd2f Complexity Score 52 - Are you solving world hunger?"
+      ],
+      "code_smells": [],
+      "violates_rules": true
+    },
+    {
+      "name": "java-test-driven-development",
+      "complexity_score": 68,
+      "lines_of_code": 361,
+      "abstraction_layers": 82,
+      "mcp_integrations": 1,
+      "thinking_blocks": 0,
+      "token_consumption": 7032,
+      "wtf_moments": [
+        "\ud83e\udd2f Complexity Score 68 - Are you solving world hunger?",
+        "\ud83d\udccf Filename length 31 - Writing a novel?"
+      ],
+      "code_smells": [],
+      "violates_rules": true
+    },
+    {
+      "name": "adhd-context-switch",
+      "complexity_score": 36,
+      "lines_of_code": 251,
+      "abstraction_layers": 55,
+      "mcp_integrations": 4,
+      "thinking_blocks": 0,
+      "token_consumption": 5188,
+      "wtf_moments": [
+        "\ud83e\udd2f Complexity Score 36 - Are you solving world hunger?"
+      ],
+      "code_smells": [
+        "\ud83d\udd27 Template Variable Explosion - Variable soup"
+      ],
+      "violates_rules": true
+    },
+    {
+      "name": "adhd-morning-assistant",
+      "complexity_score": 24,
+      "lines_of_code": 200,
+      "abstraction_layers": 37,
+      "mcp_integrations": 7,
+      "thinking_blocks": 0,
+      "token_consumption": 4668,
+      "wtf_moments": [
+        "\ud83e\udd2f Complexity Score 24 - Are you solving world hunger?"
+      ],
+      "code_smells": [
+        "\ud83d\udd27 Template Variable Explosion - Variable soup"
+      ],
+      "violates_rules": true
+    },
+    {
+      "name": "java-clean-code-generator",
+      "complexity_score": 139,
+      "lines_of_code": 628,
+      "abstraction_layers": 204,
+      "mcp_integrations": 2,
+      "thinking_blocks": 37,
+      "token_consumption": 15072,
+      "wtf_moments": [
+        "\ud83e\udd2f Complexity Score 139 - Are you solving world hunger?",
+        "\ud83e\udde0 37 thinking blocks - Overthinking much?"
+      ],
+      "code_smells": [
+        "\ud83c\udfed Factory Obsession - Probably over-engineered",
+        "\ud83d\udcda Monolithic Monster - 819 lines is not 'simple'"
+      ],
+      "violates_rules": true
+    }
+  ]
+}
