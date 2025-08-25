@@ -1,0 +1,72 @@
+{
+  "timestamp": "2025-08-25T23:05:27.291625",
+  "methodology": "20250825-230341-methodology.md",
+  "commands_analyzed": 5,
+  "results": {
+    "ultrathink-interactive.md": {
+      "complexity_score": 4,
+      "dependencies": 4,
+      "total_lines": 673,
+      "signal_noise_ratio": 0.7444279346210996,
+      "maintenance_risk": 7,
+      "ux_score": 4,
+      "final_score": 85,
+      "grade": "A",
+      "file_size_bytes": 20374,
+      "is_over_engineered": false,
+      "savage_verdict": "Acceptable Complexity"
+    },
+    "java-rapid-implementation.md": {
+      "complexity_score": 11,
+      "dependencies": 4,
+      "total_lines": 250,
+      "signal_noise_ratio": 0.796,
+      "maintenance_risk": 3,
+      "ux_score": 8,
+      "final_score": 80,
+      "grade": "A",
+      "file_size_bytes": 8732,
+      "is_over_engineered": true,
+      "savage_verdict": "OVER-ENGINEERED TRASH"
+    },
+    "adhd-morning-assistant.md": {
+      "complexity_score": 7,
+      "dependencies": 2,
+      "total_lines": 309,
+      "signal_noise_ratio": 0.6472491909385113,
+      "maintenance_risk": 6,
+      "ux_score": 6,
+      "final_score": 65,
+      "grade": "C",
+      "file_size_bytes": 8893,
+      "is_over_engineered": true,
+      "savage_verdict": "OVER-ENGINEERED TRASH"
+    },
+    "adhd-hyperfocus-guardian.md": {
+      "complexity_score": 4,
+      "dependencies": 5,
+      "total_lines": 457,
+      "signal_noise_ratio": 0.6695842450765864,
+      "maintenance_risk": 5,
+      "ux_score": 6,
+      "final_score": 100,
+      "grade": "A+",
+      "file_size_bytes": 12021,
+      "is_over_engineered": false,
+      "savage_verdict": "Acceptable Complexity"
+    },
+    "ultrathink-hybrid-mcp.md": {
+      "complexity_score": 4,
+      "dependencies": 11,
+      "total_lines": 536,
+      "signal_noise_ratio": 0.710820895522388,
+      "maintenance_risk": 8,
+      "ux_score": 10,
+      "final_score": 70,
+      "grade": "B",
+      "file_size_bytes": 13338,
+      "is_over_engineered": false,
+      "savage_verdict": "Acceptable Complexity"
+    }
+  }
+}
