@@ -1,0 +1,518 @@
+{
+  "adhd-evening-reflect": {
+    "command": "adhd-evening-reflect",
+    "benchmark_timestamp": "2025-08-25T05:38:01.979560",
+    "test_runs": 5,
+    "raw_results": [
+      {
+        "execution_time": 14.800782680511475,
+        "success": true,
+        "tokens": {
+          "input": 1700,
+          "output": 3200,
+          "total": 4900
+        },
+        "complexity_score": 6,
+        "violations": [
+          "Massive file size (>10k chars)",
+          "No thinking blocks (violates CLAUDE.md standards)"
+        ],
+        "timestamp": "2025-08-25T05:38:01.477873"
+      },
+      {
+        "execution_time": 15.703099250793457,
+        "success": true,
+        "tokens": {
+          "input": 1700,
+          "output": 3200,
+          "total": 4900
+        },
+        "complexity_score": 6,
+        "violations": [
+          "Massive file size (>10k chars)",
+          "No thinking blocks (violates CLAUDE.md standards)"
+        ],
+        "timestamp": "2025-08-25T05:38:01.578128"
+      },
+      {
+        "execution_time": 16.605855703353882,
+        "success": true,
+        "tokens": {
+          "input": 1700,
+          "output": 3200,
+          "total": 4900
+        },
+        "complexity_score": 6,
+        "violations": [
+          "Massive file size (>10k chars)",
+          "No thinking blocks (violates CLAUDE.md standards)"
+        ],
+        "timestamp": "2025-08-25T05:38:01.678434"
+      },
+      {
+        "execution_time": 17.508936166763306,
+        "success": true,
+        "tokens": {
+          "input": 1700,
+          "output": 3200,
+          "total": 4900
+        },
+        "complexity_score": 6,
+        "violations": [
+          "Massive file size (>10k chars)",
+          "No thinking blocks (violates CLAUDE.md standards)"
+        ],
+        "timestamp": "2025-08-25T05:38:01.778777"
+      },
+      {
+        "execution_time": 18.412280559539795,
+        "success": true,
+        "tokens": {
+          "input": 1700,
+          "output": 3200,
+          "total": 4900
+        },
+        "complexity_score": 6,
+        "violations": [
+          "Massive file size (>10k chars)",
+          "No thinking blocks (violates CLAUDE.md standards)"
+        ],
+        "timestamp": "2025-08-25T05:38:01.879148"
+      }
+    ],
+    "statistical_analysis": {
+      "execution_stats": {
+        "mean": 16.606190872192382,
+        "std_dev": 1.4275838288153373,
+        "min": 14.800782680511475,
+        "max": 18.412280559539795,
+        "p95": 18.412280559539795,
+        "coefficient_of_variation": 0.08596696495918722
+      },
+      "success_rate": 100.0,
+      "token_stats": {
+        "mean": 4900,
+        "variance": 0,
+        "cost_estimate_usd": 0.0735
+      },
+      "reliability_score": 91.40330350408128
+    },
+    "complexity_analysis": {
+      "score": 6,
+      "violations": [
+        "Massive file size (>10k chars)",
+        "No thinking blocks (violates CLAUDE.md standards)"
+      ]
+    },
+    "savage_commentary": "  \u23f0 16.6s - actually reasonable for once\n  \u2705 100.0% success rate - surprisingly competent\n  \ud83d\udcb8 ~$0.073 per run - your wallet is crying\n  \ud83e\udde0 Complexity score 6/10 - violates CLAUDE.md simplicity rules\n  \ud83c\udfaf Reliability 91.4% - actually dependable",
+    "verdict": "\u2705 GOOD - Works most of the time, could be worse"
+  },
+  "git-backup-sync": {
+    "command": "git-backup-sync",
+    "benchmark_timestamp": "2025-08-25T05:38:02.481698",
+    "test_runs": 5,
+    "raw_results": [
+      {
+        "execution_time": 16.098294258117676,
+        "success": true,
+        "tokens": {
+          "input": 1500,
+          "output": 2800,
+          "total": 4300
+        },
+        "complexity_score": 5,
+        "violations": [
+          "Massive file size (>10k chars)",
+          "High thinking block count (may indicate over-engineering)",
+          "Heavy XML structure"
+        ],
+        "timestamp": "2025-08-25T05:38:01.979776"
+      },
+      {
+        "execution_time": 9.351376295089722,
+        "success": false,
+        "tokens": {
+          "input": 1500,
+          "output": 2800,
+          "total": 4300
+        },
+        "complexity_score": 5,
+        "violations": [
+          "Massive file size (>10k chars)",
+          "High thinking block count (may indicate over-engineering)",
+          "Heavy XML structure"
+        ],
+        "timestamp": "2025-08-25T05:38:02.080191"
+      },
+      {
+        "execution_time": 10.10446548461914,
+        "success": false,
+        "tokens": {
+          "input": 1500,
+          "output": 2800,
+          "total": 4300
+        },
+        "complexity_score": 5,
+        "violations": [
+          "Massive file size (>10k chars)",
+          "High thinking block count (may indicate over-engineering)",
+          "Heavy XML structure"
+        ],
+        "timestamp": "2025-08-25T05:38:02.180602"
+      },
+      {
+        "execution_time": 10.857155919075012,
+        "success": true,
+        "tokens": {
+          "input": 1500,
+          "output": 2800,
+          "total": 4300
+        },
+        "complexity_score": 5,
+        "violations": [
+          "Massive file size (>10k chars)",
+          "High thinking block count (may indicate over-engineering)",
+          "Heavy XML structure"
+        ],
+        "timestamp": "2025-08-25T05:38:02.280960"
+      },
+      {
+        "execution_time": 11.609771251678467,
+        "success": true,
+        "tokens": {
+          "input": 1500,
+          "output": 2800,
+          "total": 4300
+        },
+        "complexity_score": 5,
+        "violations": [
+          "Massive file size (>10k chars)",
+          "High thinking block count (may indicate over-engineering)",
+          "Heavy XML structure"
+        ],
+        "timestamp": "2025-08-25T05:38:02.381309"
+      }
+    ],
+    "statistical_analysis": {
+      "execution_stats": {
+        "mean": 11.604212641716003,
+        "std_dev": 2.6495003000456454,
+        "min": 9.351376295089722,
+        "max": 16.098294258117676,
+        "p95": 16.098294258117676,
+        "coefficient_of_variation": 0.2283222810413653
+      },
+      "success_rate": 60.0,
+      "token_stats": {
+        "mean": 4300,
+        "variance": 0,
+        "cost_estimate_usd": 0.0645
+      },
+      "reliability_score": 46.30066313751808
+    },
+    "complexity_analysis": {
+      "score": 5,
+      "violations": [
+        "Massive file size (>10k chars)",
+        "High thinking block count (may indicate over-engineering)",
+        "Heavy XML structure"
+      ]
+    },
+    "savage_commentary": "  \u23f0 11.6s - actually reasonable for once\n  \ud83d\udca5 60.0% success rate - Russian roulette has better odds\n  \ud83d\udcb8 ~$0.065 per run - your wallet is crying\n  \ud83e\udde0 Complexity score 5/10 - actually follows the rules\n  \ud83c\udfaf Reliability 46.3% - more unpredictable than weather",
+    "verdict": "\ud83d\udca9 POOR - More problems than solutions"
+  },
+  "context-enhanced-executor": {
+    "command": "context-enhanced-executor",
+    "benchmark_timestamp": "2025-08-25T05:38:02.983459",
+    "test_runs": 5,
+    "raw_results": [
+      {
+        "execution_time": 2.472796678543091,
+        "success": true,
+        "tokens": {
+          "input": 700,
+          "output": 1200,
+          "total": 1900
+        },
+        "complexity_score": 1,
+        "violations": [],
+        "timestamp": "2025-08-25T05:38:02.481868"
+      },
+      {
+        "execution_time": 2.6232171058654785,
+        "success": true,
+        "tokens": {
+          "input": 700,
+          "output": 1200,
+          "total": 1900
+        },
+        "complexity_score": 1,
+        "violations": [],
+        "timestamp": "2025-08-25T05:38:02.582151"
+      },
+      {
+        "execution_time": 2.773687243461609,
+        "success": true,
+        "tokens": {
+          "input": 700,
+          "output": 1200,
+          "total": 1900
+        },
+        "complexity_score": 1,
+        "violations": [],
+        "timestamp": "2025-08-25T05:38:02.682464"
+      },
+      {
+        "execution_time": 2.924114465713501,
+        "success": true,
+        "tokens": {
+          "input": 700,
+          "output": 1200,
+          "total": 1900
+        },
+        "complexity_score": 1,
+        "violations": [],
+        "timestamp": "2025-08-25T05:38:02.782749"
+      },
+      {
+        "execution_time": 3.0746164321899414,
+        "success": true,
+        "tokens": {
+          "input": 700,
+          "output": 1200,
+          "total": 1900
+        },
+        "complexity_score": 1,
+        "violations": [],
+        "timestamp": "2025-08-25T05:38:02.883084"
+      }
+    ],
+    "statistical_analysis": {
+      "execution_stats": {
+        "mean": 2.773686385154724,
+        "std_dev": 0.23788816709990662,
+        "min": 2.472796678543091,
+        "max": 3.0746164321899414,
+        "p95": 3.0746164321899414,
+        "coefficient_of_variation": 0.08576606510856004
+      },
+      "success_rate": 100.0,
+      "token_stats": {
+        "mean": 1900,
+        "variance": 0,
+        "cost_estimate_usd": 0.0285
+      },
+      "reliability_score": 91.423393489144
+    },
+    "complexity_analysis": {
+      "score": 1,
+      "violations": []
+    },
+    "savage_commentary": "  \u23f0 2.8s - actually reasonable for once\n  \u2705 100.0% success rate - surprisingly competent\n  \ud83d\udcb8 ~$0.029 per run - moderate financial damage\n  \ud83e\udde0 Complexity score 1/10 - actually follows the rules\n  \ud83c\udfaf Reliability 91.4% - actually dependable",
+    "verdict": "\ud83c\udfc6 EXCELLENT - Actually useful and well-designed"
+  },
+  "generate-thinking-command": {
+    "command": "generate-thinking-command",
+    "benchmark_timestamp": "2025-08-25T05:38:03.485033",
+    "test_runs": 5,
+    "raw_results": [
+      {
+        "execution_time": 3.2254509925842285,
+        "success": true,
+        "tokens": {
+          "input": 700,
+          "output": 1200,
+          "total": 1900
+        },
+        "complexity_score": 1,
+        "violations": [],
+        "timestamp": "2025-08-25T05:38:02.983637"
+      },
+      {
+        "execution_time": 1.8758220672607422,
+        "success": true,
+        "tokens": {
+          "input": 700,
+          "output": 1200,
+          "total": 1900
+        },
+        "complexity_score": 1,
+        "violations": [],
+        "timestamp": "2025-08-25T05:38:03.083888"
+      },
+      {
+        "execution_time": 2.0262317657470703,
+        "success": true,
+        "tokens": {
+          "input": 700,
+          "output": 1200,
+          "total": 1900
+        },
+        "complexity_score": 1,
+        "violations": [],
+        "timestamp": "2025-08-25T05:38:03.184161"
+      },
+      {
+        "execution_time": 2.1766096353530884,
+        "success": true,
+        "tokens": {
+          "input": 700,
+          "output": 1200,
+          "total": 1900
+        },
+        "complexity_score": 1,
+        "violations": [],
+        "timestamp": "2025-08-25T05:38:03.284413"
+      },
+      {
+        "execution_time": 2.327018618583679,
+        "success": true,
+        "tokens": {
+          "input": 700,
+          "output": 1200,
+          "total": 1900
+        },
+        "complexity_score": 1,
+        "violations": [],
+        "timestamp": "2025-08-25T05:38:03.384685"
+      }
+    ],
+    "statistical_analysis": {
+      "execution_stats": {
+        "mean": 2.3262266159057616,
+        "std_dev": 0.5300593163299221,
+        "min": 1.8758220672607422,
+        "max": 3.2254509925842285,
+        "p95": 3.2254509925842285,
+        "coefficient_of_variation": 0.22786228680628057
+      },
+      "success_rate": 100.0,
+      "token_stats": {
+        "mean": 1900,
+        "variance": 0,
+        "cost_estimate_usd": 0.0285
+      },
+      "reliability_score": 77.21377131937194
+    },
+    "complexity_analysis": {
+      "score": 1,
+      "violations": []
+    },
+    "savage_commentary": "  \u23f0 2.3s - actually reasonable for once\n  \u2705 100.0% success rate - surprisingly competent\n  \ud83d\udcb8 ~$0.029 per run - moderate financial damage\n  \ud83e\udde0 Complexity score 1/10 - actually follows the rules\n  \ud83c\udfaf Reliability 77.2% - mediocre consistency",
+    "verdict": "\u2705 GOOD - Works most of the time, could be worse"
+  },
+  "safe-code-beautifier": {
+    "command": "safe-code-beautifier",
+    "benchmark_timestamp": "2025-08-25T05:38:03.987431",
+    "test_runs": 5,
+    "raw_results": [
+      {
+        "execution_time": 12.390156388282776,
+        "success": true,
+        "tokens": {
+          "input": 1500,
+          "output": 2800,
+          "total": 4300
+        },
+        "complexity_score": 5,
+        "violations": [
+          "Massive file size (>10k chars)",
+          "High thinking block count (may indicate over-engineering)",
+          "Heavy XML structure"
+        ],
+        "timestamp": "2025-08-25T05:38:03.485358"
+      },
+      {
+        "execution_time": 13.143317103385925,
+        "success": true,
+        "tokens": {
+          "input": 1500,
+          "output": 2800,
+          "total": 4300
+        },
+        "complexity_score": 5,
+        "violations": [
+          "Massive file size (>10k chars)",
+          "High thinking block count (may indicate over-engineering)",
+          "Heavy XML structure"
+        ],
+        "timestamp": "2025-08-25T05:38:03.585782"
+      },
+      {
+        "execution_time": 13.896998167037964,
+        "success": true,
+        "tokens": {
+          "input": 1500,
+          "output": 2800,
+          "total": 4300
+        },
+        "complexity_score": 5,
+        "violations": [
+          "Massive file size (>10k chars)",
+          "High thinking block count (may indicate over-engineering)",
+          "Heavy XML structure"
+        ],
+        "timestamp": "2025-08-25T05:38:03.686272"
+      },
+      {
+        "execution_time": 14.649849534034729,
+        "success": true,
+        "tokens": {
+          "input": 1500,
+          "output": 2800,
+          "total": 4300
+        },
+        "complexity_score": 5,
+        "violations": [
+          "Massive file size (>10k chars)",
+          "High thinking block count (may indicate over-engineering)",
+          "Heavy XML structure"
+        ],
+        "timestamp": "2025-08-25T05:38:03.786651"
+      },
+      {
+        "execution_time": 15.403221249580383,
+        "success": true,
+        "tokens": {
+          "input": 1500,
+          "output": 2800,
+          "total": 4300
+        },
+        "complexity_score": 5,
+        "violations": [
+          "Massive file size (>10k chars)",
+          "High thinking block count (may indicate over-engineering)",
+          "Heavy XML structure"
+        ],
+        "timestamp": "2025-08-25T05:38:03.887102"
+      }
+    ],
+    "statistical_analysis": {
+      "execution_stats": {
+        "mean": 13.896708488464355,
+        "std_dev": 1.1910184746167745,
+        "min": 12.390156388282776,
+        "max": 15.403221249580383,
+        "p95": 15.403221249580383,
+        "coefficient_of_variation": 0.0857050772566351
+      },
+      "success_rate": 100.0,
+      "token_stats": {
+        "mean": 4300,
+        "variance": 0,
+        "cost_estimate_usd": 0.0645
+      },
+      "reliability_score": 91.42949227433648
+    },
+    "complexity_analysis": {
+      "score": 5,
+      "violations": [
+        "Massive file size (>10k chars)",
+        "High thinking block count (may indicate over-engineering)",
+        "Heavy XML structure"
+      ]
+    },
+    "savage_commentary": "  \u23f0 13.9s - actually reasonable for once\n  \u2705 100.0% success rate - surprisingly competent\n  \ud83d\udcb8 ~$0.065 per run - your wallet is crying\n  \ud83e\udde0 Complexity score 5/10 - actually follows the rules\n  \ud83c\udfaf Reliability 91.4% - actually dependable",
+    "verdict": "\ud83c\udfc6 EXCELLENT - Actually useful and well-designed"
+  }
+}
