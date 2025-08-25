@@ -1,0 +1,79 @@
+{
+  "benchmark_info": {
+    "timestamp": "2025-08-25T21:07:50.241920",
+    "commands_analyzed": 5
+  },
+  "results": {
+    "ultrathink-hybrid-mcp.md": {
+      "metrics": {
+        "lines": 536,
+        "complexity": 3,
+        "structure_pct": 100.0,
+        "tokens": 4934,
+        "exec_time": 11.5
+      },
+      "grade": "F",
+      "score": 58.6,
+      "issues": 0,
+      "problems": []
+    },
+    "ultrathink-pure-xml.md": {
+      "metrics": {
+        "lines": 472,
+        "complexity": 7,
+        "structure_pct": 80.0,
+        "tokens": 2831,
+        "exec_time": 5.5
+      },
+      "grade": "D",
+      "score": 64.4,
+      "issues": 1,
+      "problems": [
+        "COMPLEXITY_FAILURE"
+      ]
+    },
+    "adaptive-complexity-router.md": {
+      "metrics": {
+        "lines": 499,
+        "complexity": 5,
+        "structure_pct": 100.0,
+        "tokens": 2996,
+        "exec_time": 5.5
+      },
+      "grade": "C",
+      "score": 72.0,
+      "issues": 1,
+      "problems": [
+        "COMPLEXITY_FAILURE"
+      ]
+    },
+    "adhd-evening-reflect.md": {
+      "metrics": {
+        "lines": 438,
+        "complexity": 3,
+        "structure_pct": 20.0,
+        "tokens": 3434,
+        "exec_time": 5.0
+      },
+      "grade": "F",
+      "score": 49.6,
+      "issues": 1,
+      "problems": [
+        "STRUCTURE_FAILURE"
+      ]
+    },
+    "generate-thinking-command.md": {
+      "metrics": {
+        "lines": 137,
+        "complexity": 1,
+        "structure_pct": 100.0,
+        "tokens": 1050,
+        "exec_time": 3.0
+      },
+      "grade": "C",
+      "score": 75.2,
+      "issues": 0,
+      "problems": []
+    }
+  }
+}
