@@ -1,0 +1,61 @@
+{
+  "benchmark_framework": {
+    "version": "1.0.0",
+    "methodology": "SAVAGE_SCIENTIFIC",
+    "objective": "Measure and brutally judge command effectiveness with statistical evidence",
+    
+    "measurement_categories": {
+      "token_efficiency": {
+        "input_tokens": "Count of tokens in command file",
+        "complexity_ratio": "Tokens per functional unit",
+        "bloat_factor": "Unnecessary verbosity measurement",
+        "theoretical_minimum": "Minimum tokens needed for equivalent functionality"
+      },
+      
+      "cognitive_load": {
+        "lines_of_text": "Total line count",
+        "nesting_depth": "Maximum XML/block nesting levels", 
+        "decision_points": "Number of if/when conditions",
+        "complexity_score": "Based on CLAUDE.md rules (must be <5)",
+        "readability_score": "Flesch-Kincaid grade level"
+      },
+      
+      "practical_utility": {
+        "testable_assertions": "Verifiable claims made",
+        "concrete_outputs": "Measurable deliverables", 
+        "success_criteria": "Defined completion states",
+        "error_handling": "Failure mode coverage"
+      },
+      
+      "composition_compatibility": {
+        "mcp_integration": "Basic Memory tool usage",
+        "tool_dependencies": "External tool requirements",
+        "state_management": "Context preservation methods",
+        "chainability": "Can output feed into other commands"
+      },
+      
+      "adhd_optimization": {
+        "time_awareness": "Task duration estimation",
+        "energy_matching": "Energy level considerations", 
+        "context_preservation": "State capture mechanisms",
+        "interruption_handling": "Break/resume capabilities"
+      }
+    },
+    
+    "statistical_methods": {
+      "sample_size": 5,
+      "confidence_interval": 0.95,
+      "significance_threshold": 0.05,
+      "variance_calculation": "standard_deviation",
+      "outlier_detection": "z_score > 2.0"
+    },
+    
+    "scoring_rubric": {
+      "excellent": ">= 8.0/10",
+      "good": "6.0-7.9/10", 
+      "mediocre": "4.0-5.9/10",
+      "poor": "2.0-3.9/10",
+      "abysmal": "< 2.0/10"
+    }
+  }
+}
