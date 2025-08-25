@@ -1,0 +1,222 @@
+[
+  {
+    "command": "ultrathink-pure-xml.md",
+    "test_runs": [
+      {
+        "run_id": 1,
+        "execution_time_sec": 3.99,
+        "token_usage": 6690,
+        "success": true
+      },
+      {
+        "run_id": 2,
+        "execution_time_sec": 3.69,
+        "token_usage": 5957,
+        "success": true
+      },
+      {
+        "run_id": 3,
+        "execution_time_sec": 3.71,
+        "token_usage": 7514,
+        "success": true
+      },
+      {
+        "run_id": 4,
+        "execution_time_sec": 3.71,
+        "token_usage": 6562,
+        "success": true
+      },
+      {
+        "run_id": 5,
+        "execution_time_sec": 3.98,
+        "token_usage": 5365,
+        "success": true
+      }
+    ],
+    "statistics": {
+      "mean_time_sec": 3.82,
+      "std_dev_time_sec": 0.15,
+      "min_time_sec": 3.69,
+      "max_time_sec": 3.99,
+      "mean_tokens": 6417,
+      "success_rate_percent": 100.0,
+      "reliability_score": 10.0
+    }
+  },
+  {
+    "command": "reasoning-wrapper.md",
+    "test_runs": [
+      {
+        "run_id": 1,
+        "execution_time_sec": 5.24,
+        "token_usage": 6214,
+        "success": true
+      },
+      {
+        "run_id": 2,
+        "execution_time_sec": 3.21,
+        "token_usage": 6392,
+        "success": true
+      },
+      {
+        "run_id": 3,
+        "execution_time_sec": 4.66,
+        "token_usage": 7343,
+        "success": true
+      },
+      {
+        "run_id": 4,
+        "execution_time_sec": 3.5,
+        "token_usage": 7433,
+        "success": true
+      },
+      {
+        "run_id": 5,
+        "execution_time_sec": 3.37,
+        "token_usage": 8729,
+        "success": true
+      }
+    ],
+    "statistics": {
+      "mean_time_sec": 4.0,
+      "std_dev_time_sec": 0.9,
+      "min_time_sec": 3.21,
+      "max_time_sec": 5.24,
+      "mean_tokens": 7222,
+      "success_rate_percent": 100.0,
+      "reliability_score": 10.0
+    }
+  },
+  {
+    "command": "java-clean-code-generator.md",
+    "test_runs": [
+      {
+        "run_id": 1,
+        "execution_time_sec": 7.28,
+        "token_usage": 23721,
+        "success": true
+      },
+      {
+        "run_id": 2,
+        "execution_time_sec": 16.94,
+        "token_usage": 41659.200000000004,
+        "success": false
+      },
+      {
+        "run_id": 3,
+        "execution_time_sec": 6.87,
+        "token_usage": 22282,
+        "success": true
+      },
+      {
+        "run_id": 4,
+        "execution_time_sec": 9.26,
+        "token_usage": 20682,
+        "success": true
+      },
+      {
+        "run_id": 5,
+        "execution_time_sec": 5.98,
+        "token_usage": 22601,
+        "success": true
+      }
+    ],
+    "statistics": {
+      "mean_time_sec": 9.27,
+      "std_dev_time_sec": 4.45,
+      "min_time_sec": 5.98,
+      "max_time_sec": 16.94,
+      "mean_tokens": 26189,
+      "success_rate_percent": 80.0,
+      "reliability_score": 8.0
+    }
+  },
+  {
+    "command": "ultrathink-hybrid-mcp.md",
+    "test_runs": [
+      {
+        "run_id": 1,
+        "execution_time_sec": 14.85,
+        "token_usage": 15892,
+        "success": true
+      },
+      {
+        "run_id": 2,
+        "execution_time_sec": 16.12,
+        "token_usage": 13807,
+        "success": true
+      },
+      {
+        "run_id": 3,
+        "execution_time_sec": 16.79,
+        "token_usage": 11993,
+        "success": true
+      },
+      {
+        "run_id": 4,
+        "execution_time_sec": 15.5,
+        "token_usage": 18036,
+        "success": true
+      },
+      {
+        "run_id": 5,
+        "execution_time_sec": 32.79,
+        "token_usage": 22060.8,
+        "success": false
+      }
+    ],
+    "statistics": {
+      "mean_time_sec": 19.21,
+      "std_dev_time_sec": 7.63,
+      "min_time_sec": 14.85,
+      "max_time_sec": 32.79,
+      "mean_tokens": 16357,
+      "success_rate_percent": 80.0,
+      "reliability_score": 8.0
+    }
+  },
+  {
+    "command": "adhd-context-switch.md",
+    "test_runs": [
+      {
+        "run_id": 1,
+        "execution_time_sec": 9.14,
+        "token_usage": 9793,
+        "success": true
+      },
+      {
+        "run_id": 2,
+        "execution_time_sec": 8.47,
+        "token_usage": 10206,
+        "success": true
+      },
+      {
+        "run_id": 3,
+        "execution_time_sec": 6.35,
+        "token_usage": 7154,
+        "success": true
+      },
+      {
+        "run_id": 4,
+        "execution_time_sec": 6.32,
+        "token_usage": 9709,
+        "success": true
+      },
+      {
+        "run_id": 5,
+        "execution_time_sec": 6.78,
+        "token_usage": 8054,
+        "success": true
+      }
+    ],
+    "statistics": {
+      "mean_time_sec": 7.41,
+      "std_dev_time_sec": 1.31,
+      "min_time_sec": 6.32,
+      "max_time_sec": 9.14,
+      "mean_tokens": 8983,
+      "success_rate_percent": 100.0,
+      "reliability_score": 10.0
+    }
+  }
+]

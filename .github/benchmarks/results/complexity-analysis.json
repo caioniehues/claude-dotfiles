@@ -1,58 +1,72 @@
-{
-  "timestamp": "2025-08-19T06:05:44.829917",
-  "analysis_method": "CLAUDE_MD_COMPLEXITY_SCORING",
-  "violation_threshold": 5,
-  "results": {
-    "git-backup-sync.md": {
-      "abstractions": 8,
-      "patterns": 5,
-      "config_files": 3,
-      "integrations": 4,
-      "total_score": 41,
-      "violation_score": 36,
-      "simplicity_rating": "CATASTROPHIC"
-    },
-    "adhd-morning-assistant.md": {
-      "abstractions": 6,
-      "patterns": 3,
-      "config_files": 1,
-      "integrations": 3,
-      "total_score": 26,
-      "violation_score": 21,
-      "simplicity_rating": "SEVERE"
-    },
-    "adhd-context-switch.md": {
-      "abstractions": 7,
-      "patterns": 2,
-      "config_files": 1,
-      "integrations": 4,
-      "total_score": 26,
-      "violation_score": 21,
-      "simplicity_rating": "SEVERE"
-    },
-    "context-enhanced-executor.md": {
-      "abstractions": 3,
-      "patterns": 1,
-      "config_files": 0,
-      "integrations": 2,
-      "total_score": 11,
-      "violation_score": 6,
-      "simplicity_rating": "ACCEPTABLE"
-    },
-    "generate-thinking-command.md": {
-      "abstractions": 4,
-      "patterns": 2,
-      "config_files": 0,
-      "integrations": 1,
-      "total_score": 15,
-      "violation_score": 10,
-      "simplicity_rating": "ACCEPTABLE"
-    }
+[
+  {
+    "command": "ultrathink-pure-xml.md",
+    "line_count": 472,
+    "estimated_input_tokens": 5900,
+    "xml_blocks": 45,
+    "thinking_blocks": 9,
+    "mcp_dependencies": 0,
+    "template_variables": 35,
+    "max_nesting_depth": 4,
+    "complexity_score": 6,
+    "estimated_response_time_sec": 5.800000000000001,
+    "maintainability_score": 4,
+    "reusability_factor": 0.65
   },
-  "summary": {
-    "total_commands": 5,
-    "catastrophic_violations": 1,
-    "severe_violations": 2,
-    "acceptable_commands": 2
+  {
+    "command": "reasoning-wrapper.md",
+    "line_count": 415,
+    "estimated_input_tokens": 5187,
+    "xml_blocks": 38,
+    "thinking_blocks": 7,
+    "mcp_dependencies": 2,
+    "template_variables": 28,
+    "max_nesting_depth": 5,
+    "complexity_score": 6,
+    "estimated_response_time_sec": 9.8,
+    "maintainability_score": 4,
+    "reusability_factor": 0.72
+  },
+  {
+    "command": "java-clean-code-generator.md",
+    "line_count": 818,
+    "estimated_input_tokens": 10225,
+    "xml_blocks": 52,
+    "thinking_blocks": 10,
+    "mcp_dependencies": 1,
+    "template_variables": 42,
+    "max_nesting_depth": 6,
+    "complexity_score": 8,
+    "estimated_response_time_sec": 9.4,
+    "maintainability_score": 2,
+    "reusability_factor": 0.5800000000000001
+  },
+  {
+    "command": "ultrathink-hybrid-mcp.md",
+    "line_count": 535,
+    "estimated_input_tokens": 6687,
+    "xml_blocks": 41,
+    "thinking_blocks": 8,
+    "mcp_dependencies": 8,
+    "template_variables": 38,
+    "max_nesting_depth": 5,
+    "complexity_score": 9,
+    "estimated_response_time_sec": 24.2,
+    "maintainability_score": 1,
+    "reusability_factor": 0.62
+  },
+  {
+    "command": "adhd-context-switch.md",
+    "line_count": 399,
+    "estimated_input_tokens": 4987,
+    "xml_blocks": 25,
+    "thinking_blocks": 5,
+    "mcp_dependencies": 3,
+    "template_variables": 65,
+    "max_nesting_depth": 4,
+    "complexity_score": 6,
+    "estimated_response_time_sec": 11.8,
+    "maintainability_score": 4,
+    "reusability_factor": 0.35
   }
-}
+]
