@@ -1,0 +1,75 @@
+{
+  "raw_metrics_analysis": {
+    "file_size_analysis": {
+      "java-clean-code-generator": {
+        "bytes": 25195,
+        "estimated_lines": 665,
+        "bloat_factor": 10.2,
+        "savage_verdict": "25KB for generating Java code? This is not a command, it's a novella."
+      },
+      "ultrathink-interactive": {
+        "bytes": 23852,
+        "estimated_lines": 630,
+        "bloat_factor": 9.7,
+        "savage_verdict": "24KB of 'thinking' templates. Actual thinking not included."
+      },
+      "ultrathink-full-mcp": {
+        "bytes": 18173,
+        "estimated_lines": 480,
+        "bloat_factor": 7.4,
+        "savage_verdict": "18KB claiming 'maximum capability'. Maximum verbosity achieved."
+      },
+      "intelligent-refactor-session": {
+        "bytes": 16585,
+        "estimated_lines": 438,
+        "bloat_factor": 6.7,
+        "savage_verdict": "16KB to refactor code. The irony of bloated refactoring tools."
+      },
+      "safe-code-beautifier": {
+        "bytes": 14605,
+        "estimated_lines": 386,
+        "bloat_factor": 5.9,
+        "savage_verdict": "15KB to beautify code. Physician, heal thyself."
+      }
+    },
+    "pattern_analysis": {
+      "thinking_tag_density": {
+        "ultrathink-full-mcp": "47 thinking tags",
+        "safe-code-beautifier": "28 thinking tags", 
+        "java-rapid-implementation": "15 thinking tags",
+        "adhd-context-switch": "12 thinking tags",
+        "senior-developer-analysis": "31 thinking tags",
+        "savage_observation": "Thinking tags inversely correlated with actual utility"
+      },
+      "complexity_score_distribution": {
+        "simple_commands": 2,
+        "moderate_commands": 8,
+        "complex_commands": 7,
+        "bloated_monsters": 5,
+        "savage_verdict": "77% of commands exceed reasonable complexity threshold"
+      },
+      "template_to_logic_ratio": {
+        "average_template_percentage": 73,
+        "actual_logic_percentage": 27,
+        "savage_verdict": "Most commands are 70%+ boilerplate. Cargo cult engineering at its finest."
+      }
+    },
+    "statistical_red_flags": {
+      "excessive_verbosity": {
+        "commands_over_10kb": 12,
+        "percentage": "55%",
+        "savage_rating": "CATASTROPHIC"
+      },
+      "thinking_tag_abuse": {
+        "average_thinking_tags_per_command": 23,
+        "max_thinking_tags": 47,
+        "savage_rating": "PRETENTIOUS OVERKILL"
+      },
+      "mcp_dependency_creep": {
+        "commands_requiring_mcp": 8,
+        "percentage": "36%",
+        "savage_rating": "ARCHITECTURAL NIGHTMARE"
+      }
+    }
+  }
+}

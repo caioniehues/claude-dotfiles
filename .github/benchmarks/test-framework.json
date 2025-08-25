@@ -1,0 +1,70 @@
+{
+  "benchmark_framework": {
+    "version": "1.0.0",
+    "timestamp": "2025-08-25T17:33:55Z",
+    "test_methodology": {
+      "sample_size": 5,
+      "test_scenarios": [
+        "simple_request",
+        "moderate_complexity", 
+        "high_complexity",
+        "edge_case",
+        "error_condition"
+      ],
+      "metrics_collected": [
+        "token_consumption",
+        "execution_time_seconds",
+        "success_rate_percent",
+        "complexity_score",
+        "memory_usage_patterns",
+        "error_frequency",
+        "user_satisfaction_proxy"
+      ],
+      "statistical_analysis": [
+        "mean",
+        "standard_deviation",
+        "confidence_interval",
+        "outlier_detection"
+      ]
+    },
+    "selected_commands": [
+      {
+        "name": "ultrathink-full-mcp",
+        "complexity_estimate": 9,
+        "expected_token_usage": "very_high",
+        "rationale": "Maximum complexity command with full MCP integration"
+      },
+      {
+        "name": "adhd-context-switch",
+        "complexity_estimate": 6,
+        "expected_token_usage": "high",
+        "rationale": "Workflow automation with state management"
+      },
+      {
+        "name": "safe-code-beautifier",
+        "complexity_estimate": 5,
+        "expected_token_usage": "medium",
+        "rationale": "Code transformation with safety validation"
+      },
+      {
+        "name": "java-rapid-implementation",
+        "complexity_estimate": 4,
+        "expected_token_usage": "medium",
+        "rationale": "Rapid development with complexity routing"
+      },
+      {
+        "name": "senior-developer-analysis",
+        "complexity_estimate": 7,
+        "expected_token_usage": "high",
+        "rationale": "Deep technical analysis and mentoring"
+      }
+    ],
+    "test_cases_per_command": {
+      "simple": "Basic usage with minimal parameters",
+      "moderate": "Realistic usage with standard complexity",
+      "complex": "Advanced usage pushing command limits",
+      "edge_case": "Unusual inputs or error conditions", 
+      "stress_test": "Maximum complexity within bounds"
+    }
+  }
+}
