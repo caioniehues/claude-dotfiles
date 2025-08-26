@@ -1,0 +1,33 @@
+[2025-08-26 16:03:19] FAILURE: adhd-evening-reflect.md
+ERROR: Template variable ${today} not defined in execution context
+CAUSE: JavaScript code embedded in XML embedded in Markdown - what could go wrong?
+USER_FEEDBACK: "I just wanted to write down how my day went. This is insane."
+
+[2025-08-26 16:03:47] FAILURE: git-backup-sync.md  
+ERROR: Adaptive strategy selector entered infinite loop choosing between 5 strategies
+CAUSE: Over-engineered decision trees for simple git operations
+USER_FEEDBACK: "git push works fine. Why does this take 5 minutes to fail?"
+
+[2025-08-26 16:04:12] FAILURE: safe-code-beautifier.md
+ERROR: Safety analysis concluded that changing variable name 'x' to 'userInputValue' is too risky
+CAUSE: Risk assessment paralysis - everything is dangerous when you think about it enough
+USER_FEEDBACK: "Prettier took 0.3 seconds. This took 4 minutes to tell me it's scared of formatting."
+
+[2025-08-26 16:04:23] SUCCESS: context-enhanced-executor.md
+SUCCESS: Actually found relevant documentation
+NOTE: Only successful because it's the least insane command
+USER_FEEDBACK: "This one... this one almost makes sense."
+
+[2025-08-26 16:04:45] FAILURE: generate-thinking-command.md
+ERROR: Generated command with 17 thinking blocks that think about thinking
+CAUSE: Recursive meta-programming nightmare
+USER_FEEDBACK: "I asked for a simple command. You gave me Inception."
+
+[2025-08-26 16:05:00] PATTERN DETECTED: User Abandonment Cascade
+OBSERVATION: 4 out of 5 users quit after the second thinking block starts "thinking"
+ROOT_CAUSE: Commands optimized for philosophical contemplation, not actual work
+
+[2025-08-26 16:05:15] STATISTICAL ANALYSIS COMPLETE
+VERDICT: These commands fail more consistently than they succeed
+RELIABILITY: Lower than Windows ME on a bad day
+RECOMMENDATION: Immediate intervention required
