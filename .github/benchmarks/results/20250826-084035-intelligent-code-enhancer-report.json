@@ -1,0 +1,175 @@
+{
+  "command": "intelligent-code-enhancer.md",
+  "timestamp": "2025-08-26T08:40:33.176923",
+  "test_scenarios": [
+    {
+      "name": "simple-enhancement",
+      "task": "improve variable naming in Calculator class",
+      "expected_complexity": 1,
+      "timing": {
+        "mean": 0.10008107219999829,
+        "std_dev": 1.179887984804709e-05,
+        "min": 0.1000691119999999,
+        "max": 0.10009559299999182,
+        "raw_times": [
+          0.10007478199999298,
+          0.1000691119999999,
+          0.10007409300000347,
+          0.10009178100000327,
+          0.10009559299999182
+        ]
+      },
+      "complexity_analysis": {
+        "total_lines": 442,
+        "thinking_blocks": 4,
+        "mcp_integrations": 1,
+        "phases": 4,
+        "complexity_score": 8.0,
+        "readable_structure": true
+      },
+      "token_estimation": {
+        "estimated_input_tokens": 2855,
+        "estimated_output_tokens": 856.5,
+        "total_estimated": 3711.5
+      },
+      "success_probability": 0.85
+    },
+    {
+      "name": "complex-refactor",
+      "task": "refactor UserService with better architecture",
+      "expected_complexity": 3,
+      "timing": {
+        "mean": 0.10009486239999887,
+        "std_dev": 1.4342685563052008e-06,
+        "min": 0.10009351600000116,
+        "max": 0.1000969479999867,
+        "raw_times": [
+          0.10009443299999532,
+          0.1000937499999992,
+          0.10009351600000116,
+          0.1000969479999867,
+          0.10009566500001199
+        ]
+      },
+      "complexity_analysis": {
+        "total_lines": 442,
+        "thinking_blocks": 4,
+        "mcp_integrations": 1,
+        "phases": 4,
+        "complexity_score": 8.0,
+        "readable_structure": true
+      },
+      "token_estimation": {
+        "estimated_input_tokens": 2855,
+        "estimated_output_tokens": 856.5,
+        "total_estimated": 3711.5
+      },
+      "success_probability": 0.85
+    },
+    {
+      "name": "documentation",
+      "task": "enhance API documentation",
+      "expected_complexity": 2,
+      "timing": {
+        "mean": 0.10009728859999711,
+        "std_dev": 2.930102693256241e-06,
+        "min": 0.10009485599999834,
+        "max": 0.1001021259999959,
+        "raw_times": [
+          0.10009511399999838,
+          0.1000968069999999,
+          0.10009753999999305,
+          0.1001021259999959,
+          0.10009485599999834
+        ]
+      },
+      "complexity_analysis": {
+        "total_lines": 442,
+        "thinking_blocks": 4,
+        "mcp_integrations": 1,
+        "phases": 4,
+        "complexity_score": 8.0,
+        "readable_structure": true
+      },
+      "token_estimation": {
+        "estimated_input_tokens": 2850,
+        "estimated_output_tokens": 855.0,
+        "total_estimated": 3705.0
+      },
+      "success_probability": 0.85
+    },
+    {
+      "name": "performance",
+      "task": "optimize database queries",
+      "expected_complexity": 3,
+      "timing": {
+        "mean": 0.10009448259999658,
+        "std_dev": 1.1827989233558772e-05,
+        "min": 0.10007468599999925,
+        "max": 0.10010590400000297,
+        "raw_times": [
+          0.10007468599999925,
+          0.10010031299999866,
+          0.10009565499998985,
+          0.10010590400000297,
+          0.10009585499999218
+        ]
+      },
+      "complexity_analysis": {
+        "total_lines": 442,
+        "thinking_blocks": 4,
+        "mcp_integrations": 1,
+        "phases": 4,
+        "complexity_score": 8.0,
+        "readable_structure": true
+      },
+      "token_estimation": {
+        "estimated_input_tokens": 2850,
+        "estimated_output_tokens": 855.0,
+        "total_estimated": 3705.0
+      },
+      "success_probability": 0.85
+    },
+    {
+      "name": "architecture",
+      "task": "redesign microservice communication",
+      "expected_complexity": 4,
+      "timing": {
+        "mean": 0.10009756720000099,
+        "std_dev": 2.939106106292593e-06,
+        "min": 0.10009458300000063,
+        "max": 0.10010054200000695,
+        "raw_times": [
+          0.10009769900000265,
+          0.10010040199999537,
+          0.10010054200000695,
+          0.1000946099999993,
+          0.10009458300000063
+        ]
+      },
+      "complexity_analysis": {
+        "total_lines": 442,
+        "thinking_blocks": 4,
+        "mcp_integrations": 1,
+        "phases": 4,
+        "complexity_score": 8.0,
+        "readable_structure": true
+      },
+      "token_estimation": {
+        "estimated_input_tokens": 2853,
+        "estimated_output_tokens": 855.9,
+        "total_estimated": 3708.9
+      },
+      "success_probability": 0.85
+    }
+  ],
+  "statistical_summary": {
+    "avg_execution_time": 0.10009305459999837,
+    "execution_time_std": 9.41953028270693e-06,
+    "avg_complexity_score": 8.0,
+    "avg_token_consumption": 3708.38,
+    "consistency_score": 990.6683692953029,
+    "total_test_scenarios": 5
+  },
+  "savage_judgment": {}
+}
