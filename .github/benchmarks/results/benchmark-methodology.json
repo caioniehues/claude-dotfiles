@@ -1,0 +1,62 @@
+{
+  "methodology": {
+    "version": "1.0",
+    "author": "SAVAGE_COMMAND_BENCHMARKER_PhD",
+    "date": "2025-08-26",
+    "objective": "Scientific measurement and brutal evaluation of command efficiency",
+    "statistical_approach": "Rigorous data collection with confidence intervals"
+  },
+  "metrics": {
+    "primary": {
+      "token_consumption": {
+        "input_tokens": "measure prompt length",
+        "output_tokens": "measure response length",
+        "total_cost": "calculated at GPT-4 rates"
+      },
+      "execution_time": {
+        "measurement": "wall_clock_time",
+        "samples": 5,
+        "statistical_analysis": "mean, std_dev, confidence_interval"
+      },
+      "success_rate": {
+        "definition": "command executes without errors and produces expected output",
+        "measurement": "percentage over 10 attempts",
+        "threshold": "≥90% considered reliable"
+      },
+      "complexity_score": {
+        "based_on": "CLAUDE.md complexity rules",
+        "factors": ["classes", "interfaces", "patterns", "config_files"],
+        "threshold": "< 5 per CLAUDE.md standards"
+      }
+    },
+    "secondary": {
+      "readability": {
+        "measurement": "flesch_kincaid_grade_level",
+        "target": "< 12th grade"
+      },
+      "maintainability": {
+        "lines_of_code": "count",
+        "cognitive_complexity": "calculated",
+        "dependency_count": "measured"
+      },
+      "composition_compatibility": {
+        "pipe_friendly": "boolean",
+        "state_dependent": "boolean",
+        "side_effects": "list"
+      }
+    }
+  },
+  "testing_protocol": {
+    "sample_size": 5,
+    "confidence_level": 0.95,
+    "statistical_tests": ["t_test", "anova", "chi_square"],
+    "baseline_comparison": "manual execution where applicable"
+  },
+  "judgment_criteria": {
+    "excellent": "All metrics in top quartile, complexity < 3",
+    "good": "Most metrics above average, complexity < 5",
+    "mediocre": "Average performance, some red flags",
+    "problematic": "Multiple failures, high complexity, poor ROI",
+    "trash": "Failure rate > 30%, complexity > 7, negative ROI"
+  }
+}
