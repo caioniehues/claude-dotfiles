@@ -1,0 +1,281 @@
+{
+  "timestamp": "2025-08-26T00:48:24.499216",
+  "commands": {
+    "git-backup-sync.md": {
+      "lines": 531,
+      "thinking_blocks": 15,
+      "mcp_dependencies": [
+        "basic-memory",
+        "sequential-thinking"
+      ],
+      "complexity_indicators": [
+        "multi-phase",
+        "error-recovery",
+        "automation-integration"
+      ],
+      "file_path": "/home/runner/work/claude-dotfiles/claude-dotfiles/commands/git-backup-sync.md",
+      "complexity_score": 13.0,
+      "patterns": {
+        "thinking_tags": 0,
+        "xml_blocks": 33,
+        "mcp_calls": 2,
+        "bash_commands": 15,
+        "code_examples": 36,
+        "if_complexity": 1,
+        "todo_usage": 0,
+        "nested_structure_depth": 2,
+        "placeholder_count": 17,
+        "markdown_headers": 37
+      },
+      "estimated_tokens": 3118,
+      "maintainability_issues": {
+        "excessive_placeholders": false,
+        "deep_nesting": false,
+        "xml_overuse": true,
+        "complexity_branching": false,
+        "token_bloat": true
+      },
+      "issue_count": 2
+    },
+    "adhd-task-breakdown.md": {
+      "lines": 365,
+      "thinking_blocks": 8,
+      "mcp_dependencies": [
+        "basic-memory"
+      ],
+      "complexity_indicators": [
+        "pattern-learning",
+        "personalization",
+        "xml-structure"
+      ],
+      "file_path": "/home/runner/work/claude-dotfiles/claude-dotfiles/commands/adhd-task-breakdown.md",
+      "complexity_score": 7.6,
+      "patterns": {
+        "thinking_tags": 0,
+        "xml_blocks": 13,
+        "mcp_calls": 3,
+        "bash_commands": 0,
+        "code_examples": 10,
+        "if_complexity": 0,
+        "todo_usage": 0,
+        "nested_structure_depth": 1,
+        "placeholder_count": 0,
+        "markdown_headers": 44
+      },
+      "estimated_tokens": 2611,
+      "maintainability_issues": {
+        "excessive_placeholders": false,
+        "deep_nesting": false,
+        "xml_overuse": false,
+        "complexity_branching": false,
+        "token_bloat": false
+      },
+      "issue_count": 0
+    },
+    "ultrathink-pure-xml.md": {
+      "lines": 472,
+      "thinking_blocks": 12,
+      "mcp_dependencies": [],
+      "complexity_indicators": [
+        "three-phase",
+        "confidence-tracking",
+        "metacognitive"
+      ],
+      "file_path": "/home/runner/work/claude-dotfiles/claude-dotfiles/commands/ultrathink-pure-xml.md",
+      "complexity_score": 8.4,
+      "patterns": {
+        "thinking_tags": 3,
+        "xml_blocks": 23,
+        "mcp_calls": 0,
+        "bash_commands": 3,
+        "code_examples": 14,
+        "if_complexity": 0,
+        "todo_usage": 0,
+        "nested_structure_depth": 2,
+        "placeholder_count": 32,
+        "markdown_headers": 33
+      },
+      "estimated_tokens": 2831,
+      "maintainability_issues": {
+        "excessive_placeholders": false,
+        "deep_nesting": false,
+        "xml_overuse": false,
+        "complexity_branching": false,
+        "token_bloat": false
+      },
+      "issue_count": 0
+    },
+    "analyze-project-architecture.md": {
+      "lines": 274,
+      "thinking_blocks": 9,
+      "mcp_dependencies": [
+        "sequential-thinking"
+      ],
+      "complexity_indicators": [
+        "discovery-strategy",
+        "pattern-recognition",
+        "synthesis"
+      ],
+      "file_path": "/home/runner/work/claude-dotfiles/claude-dotfiles/commands/analyze-project-architecture.md",
+      "complexity_score": 7.8,
+      "patterns": {
+        "thinking_tags": 0,
+        "xml_blocks": 17,
+        "mcp_calls": 1,
+        "bash_commands": 0,
+        "code_examples": 2,
+        "if_complexity": 1,
+        "todo_usage": 1,
+        "nested_structure_depth": 2,
+        "placeholder_count": 12,
+        "markdown_headers": 9
+      },
+      "estimated_tokens": 2303,
+      "maintainability_issues": {
+        "excessive_placeholders": false,
+        "deep_nesting": false,
+        "xml_overuse": false,
+        "complexity_branching": false,
+        "token_bloat": false
+      },
+      "issue_count": 0
+    },
+    "safe-code-beautifier.md": {
+      "lines": 427,
+      "thinking_blocks": 11,
+      "mcp_dependencies": [
+        "sequential-thinking"
+      ],
+      "complexity_indicators": [
+        "risk-assessment",
+        "multi-phase",
+        "validation"
+      ],
+      "file_path": "/home/runner/work/claude-dotfiles/claude-dotfiles/commands/safe-code-beautifier.md",
+      "complexity_score": 10.2,
+      "patterns": {
+        "thinking_tags": 33,
+        "xml_blocks": 65,
+        "mcp_calls": 1,
+        "bash_commands": 0,
+        "code_examples": 8,
+        "if_complexity": 1,
+        "todo_usage": 0,
+        "nested_structure_depth": 1,
+        "placeholder_count": 13,
+        "markdown_headers": 26
+      },
+      "estimated_tokens": 3636,
+      "maintainability_issues": {
+        "excessive_placeholders": false,
+        "deep_nesting": false,
+        "xml_overuse": true,
+        "complexity_branching": false,
+        "token_bloat": true
+      },
+      "issue_count": 2
+    }
+  },
+  "summary": {
+    "total_commands": 5,
+    "total_lines": 2069,
+    "avg_lines": 413.8,
+    "total_thinking_blocks": 55,
+    "high_complexity_count": 5
+  },
+  "bloat_metrics": {
+    "total_tokens": 14499,
+    "avg_tokens": 2899.8,
+    "bloated_count": 2,
+    "bloat_factor": 1.4499
+  },
+  "composition_testing": {
+    "timestamp": "2025-08-26T00:50:23.421712",
+    "composition_compatibility": {
+      "git-backup-sync.md": {
+        "git-backup-sync.md": 1.0,
+        "adhd-task-breakdown.md": 0.7999999999999999,
+        "ultrathink-pure-xml.md": 0.6,
+        "analyze-project-architecture.md": 0.8999999999999999,
+        "safe-code-beautifier.md": 0.49999999999999994
+      },
+      "adhd-task-breakdown.md": {
+        "git-backup-sync.md": 0.7999999999999999,
+        "adhd-task-breakdown.md": 1.0,
+        "ultrathink-pure-xml.md": 0.7,
+        "analyze-project-architecture.md": 0.6,
+        "safe-code-beautifier.md": 0.3
+      },
+      "ultrathink-pure-xml.md": {
+        "git-backup-sync.md": 0.6,
+        "adhd-task-breakdown.md": 0.6,
+        "ultrathink-pure-xml.md": 1.0,
+        "analyze-project-architecture.md": 0.6,
+        "safe-code-beautifier.md": 0.3
+      },
+      "analyze-project-architecture.md": {
+        "git-backup-sync.md": 0.7999999999999999,
+        "adhd-task-breakdown.md": 0.6,
+        "ultrathink-pure-xml.md": 0.6,
+        "analyze-project-architecture.md": 1.0,
+        "safe-code-beautifier.md": 0.7999999999999999
+      },
+      "safe-code-beautifier.md": {
+        "git-backup-sync.md": 0.49999999999999994,
+        "adhd-task-breakdown.md": 0.3,
+        "ultrathink-pure-xml.md": 0.3,
+        "analyze-project-architecture.md": 0.7999999999999999,
+        "safe-code-beautifier.md": 1.0
+      }
+    },
+    "success_rates": {
+      "git-backup-sync.md": 47.8,
+      "adhd-task-breakdown.md": 73.7,
+      "ultrathink-pure-xml.md": 74.9,
+      "analyze-project-architecture.md": 76.4,
+      "safe-code-beautifier.md": 50.2
+    },
+    "performance_stats": {
+      "git-backup-sync.md": {
+        "avg_execution_time": 8.72,
+        "min_time": 6.57,
+        "max_time": 10.53,
+        "std_deviation": 1.07,
+        "consistency_score": 87.7
+      },
+      "adhd-task-breakdown.md": {
+        "avg_execution_time": 4.27,
+        "min_time": 3.18,
+        "max_time": 5.14,
+        "std_deviation": 0.57,
+        "consistency_score": 86.6
+      },
+      "ultrathink-pure-xml.md": {
+        "avg_execution_time": 5.3,
+        "min_time": 4.13,
+        "max_time": 6.46,
+        "std_deviation": 0.69,
+        "consistency_score": 87.0
+      },
+      "analyze-project-architecture.md": {
+        "avg_execution_time": 3.83,
+        "min_time": 2.93,
+        "max_time": 4.67,
+        "std_deviation": 0.5,
+        "consistency_score": 87.0
+      },
+      "safe-code-beautifier.md": {
+        "avg_execution_time": 10.96,
+        "min_time": 9.24,
+        "max_time": 12.91,
+        "std_deviation": 1.11,
+        "consistency_score": 89.9
+      }
+    },
+    "repository_health": {
+      "avg_compatibility": 0.68,
+      "avg_success_rate": 64.6,
+      "avg_consistency": 87.6
+    }
+  }
+}
