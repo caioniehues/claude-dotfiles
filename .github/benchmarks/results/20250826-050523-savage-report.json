@@ -1,0 +1,367 @@
+{
+  "metadata": {
+    "timestamp": "2025-08-26T05:05:23.835624",
+    "benchmarker_version": "1.0.0",
+    "sample_commands": 7,
+    "analysis_date": "2025-08-26"
+  },
+  "raw_results": {
+    "ultrathink-interactive.md": {
+      "metrics": {
+        "file_size_kb": 19.896484375,
+        "line_count": 673,
+        "word_count": 1952,
+        "char_count": 20374,
+        "estimated_tokens": 5093.5,
+        "complexity_score": 6.0,
+        "execution_complexity": {
+          "nested_xml_blocks": 16,
+          "conditional_logic": 11,
+          "loops": 1,
+          "function_calls": 65,
+          "variables": 26,
+          "thinking_depth": 0
+        }
+      },
+      "composition": {
+        "xml_blocks": 14,
+        "markdown_sections": 37,
+        "code_blocks": 15,
+        "thinking_blocks": 1,
+        "mcp_integrations": 3,
+        "interactive_elements": 57
+      },
+      "quality": {
+        "documentation_ratio": 0.031203566121842496,
+        "comment_density": 0.12035661218424963,
+        "example_count": 5,
+        "error_handling": 1,
+        "validation_checks": 7
+      },
+      "savage_score": {
+        "score": 7,
+        "max_score": 10,
+        "issues": [
+          "Complexity score 6.0/10 - This is not \"simple\"",
+          "5094 tokens - Token consumption is astronomical",
+          "673 lines - War and Peace of commands"
+        ],
+        "rating": "SAVAGE"
+      },
+      "timestamp": "2025-08-26T05:05:23.819235"
+    },
+    "adaptive-complexity-router.md": {
+      "metrics": {
+        "file_size_kb": 10.923828125,
+        "line_count": 499,
+        "word_count": 1347,
+        "char_count": 11186,
+        "estimated_tokens": 2796.5,
+        "complexity_score": 10,
+        "execution_complexity": {
+          "nested_xml_blocks": 35,
+          "conditional_logic": 0,
+          "loops": 1,
+          "function_calls": 0,
+          "variables": 3,
+          "thinking_depth": 12
+        }
+      },
+      "composition": {
+        "xml_blocks": 22,
+        "markdown_sections": 37,
+        "code_blocks": 10,
+        "thinking_blocks": 25,
+        "mcp_integrations": 2,
+        "interactive_elements": 0
+      },
+      "quality": {
+        "documentation_ratio": 0.07414829659318638,
+        "comment_density": 0.17034068136272545,
+        "example_count": 8,
+        "error_handling": 12,
+        "validation_checks": 6
+      },
+      "savage_score": {
+        "score": 5,
+        "max_score": 10,
+        "issues": [
+          "Complexity score 10/10 - This is not \"simple\"",
+          "25 thinking blocks - Thinking overkill detected"
+        ],
+        "rating": "CIVILIZED"
+      },
+      "timestamp": "2025-08-26T05:05:23.822612"
+    },
+    "adhd-context-switch.md": {
+      "metrics": {
+        "file_size_kb": 9.6533203125,
+        "line_count": 399,
+        "word_count": 1170,
+        "char_count": 9885,
+        "estimated_tokens": 2471.25,
+        "complexity_score": 10.0,
+        "execution_complexity": {
+          "nested_xml_blocks": 14,
+          "conditional_logic": 0,
+          "loops": 0,
+          "function_calls": 8,
+          "variables": 131,
+          "thinking_depth": 0
+        }
+      },
+      "composition": {
+        "xml_blocks": 13,
+        "markdown_sections": 67,
+        "code_blocks": 13,
+        "thinking_blocks": 0,
+        "mcp_integrations": 4,
+        "interactive_elements": 6
+      },
+      "quality": {
+        "documentation_ratio": 0.08521303258145363,
+        "comment_density": 0.40100250626566414,
+        "example_count": 1,
+        "error_handling": 0,
+        "validation_checks": 0
+      },
+      "savage_score": {
+        "score": 3,
+        "max_score": 10,
+        "issues": [
+          "Complexity score 10.0/10 - This is not \"simple\""
+        ],
+        "rating": "CIVILIZED"
+      },
+      "timestamp": "2025-08-26T05:05:23.825771"
+    },
+    "intelligent-refactor-session.md": {
+      "metrics": {
+        "file_size_kb": 16.1435546875,
+        "line_count": 534,
+        "word_count": 2048,
+        "char_count": 16531,
+        "estimated_tokens": 4132.75,
+        "complexity_score": 10,
+        "execution_complexity": {
+          "nested_xml_blocks": 34,
+          "conditional_logic": 0,
+          "loops": 1,
+          "function_calls": 1,
+          "variables": 7,
+          "thinking_depth": 31
+        }
+      },
+      "composition": {
+        "xml_blocks": 24,
+        "markdown_sections": 25,
+        "code_blocks": 8,
+        "thinking_blocks": 62,
+        "mcp_integrations": 1,
+        "interactive_elements": 1
+      },
+      "quality": {
+        "documentation_ratio": 0.06741573033707865,
+        "comment_density": 0.1104868913857678,
+        "example_count": 5,
+        "error_handling": 8,
+        "validation_checks": 40
+      },
+      "savage_score": {
+        "score": 7,
+        "max_score": 10,
+        "issues": [
+          "Complexity score 10/10 - This is not \"simple\"",
+          "62 thinking blocks - Thinking overkill detected",
+          "534 lines - War and Peace of commands"
+        ],
+        "rating": "SAVAGE"
+      },
+      "timestamp": "2025-08-26T05:05:23.830572"
+    },
+    "context-enhanced-executor.md": {
+      "metrics": {
+        "file_size_kb": 3.794921875,
+        "line_count": 132,
+        "word_count": 424,
+        "char_count": 3886,
+        "estimated_tokens": 971.5,
+        "complexity_score": 7.5,
+        "execution_complexity": {
+          "nested_xml_blocks": 8,
+          "conditional_logic": 0,
+          "loops": 1,
+          "function_calls": 0,
+          "variables": 3,
+          "thinking_depth": 2
+        }
+      },
+      "composition": {
+        "xml_blocks": 7,
+        "markdown_sections": 19,
+        "code_blocks": 5,
+        "thinking_blocks": 4,
+        "mcp_integrations": 1,
+        "interactive_elements": 0
+      },
+      "quality": {
+        "documentation_ratio": 0.14393939393939395,
+        "comment_density": 0.30303030303030304,
+        "example_count": 8,
+        "error_handling": 0,
+        "validation_checks": 0
+      },
+      "savage_score": {
+        "score": 3,
+        "max_score": 10,
+        "issues": [
+          "Complexity score 7.5/10 - This is not \"simple\""
+        ],
+        "rating": "CIVILIZED"
+      },
+      "timestamp": "2025-08-26T05:05:23.831526"
+    },
+    "generate-thinking-command.md": {
+      "metrics": {
+        "file_size_kb": 3.7138671875,
+        "line_count": 137,
+        "word_count": 415,
+        "char_count": 3803,
+        "estimated_tokens": 950.75,
+        "complexity_score": 7.0,
+        "execution_complexity": {
+          "nested_xml_blocks": 13,
+          "conditional_logic": 0,
+          "loops": 0,
+          "function_calls": 0,
+          "variables": 4,
+          "thinking_depth": 4
+        }
+      },
+      "composition": {
+        "xml_blocks": 11,
+        "markdown_sections": 17,
+        "code_blocks": 5,
+        "thinking_blocks": 9,
+        "mcp_integrations": 1,
+        "interactive_elements": 0
+      },
+      "quality": {
+        "documentation_ratio": 0.11678832116788321,
+        "comment_density": 0.23357664233576642,
+        "example_count": 5,
+        "error_handling": 1,
+        "validation_checks": 6
+      },
+      "savage_score": {
+        "score": 3,
+        "max_score": 10,
+        "issues": [
+          "Complexity score 7.0/10 - This is not \"simple\""
+        ],
+        "rating": "CIVILIZED"
+      },
+      "timestamp": "2025-08-26T05:05:23.832453"
+    },
+    "analyze-project-architecture.md": {
+      "metrics": {
+        "file_size_kb": 8.998046875,
+        "line_count": 274,
+        "word_count": 1198,
+        "char_count": 9214,
+        "estimated_tokens": 2303.5,
+        "complexity_score": 10,
+        "execution_complexity": {
+          "nested_xml_blocks": 17,
+          "conditional_logic": 0,
+          "loops": 3,
+          "function_calls": 0,
+          "variables": 1,
+          "thinking_depth": 12
+        }
+      },
+      "composition": {
+        "xml_blocks": 14,
+        "markdown_sections": 9,
+        "code_blocks": 1,
+        "thinking_blocks": 25,
+        "mcp_integrations": 1,
+        "interactive_elements": 1
+      },
+      "quality": {
+        "documentation_ratio": 0.032846715328467155,
+        "comment_density": 0.072992700729927,
+        "example_count": 3,
+        "error_handling": 7,
+        "validation_checks": 0
+      },
+      "savage_score": {
+        "score": 5,
+        "max_score": 10,
+        "issues": [
+          "Complexity score 10/10 - This is not \"simple\"",
+          "25 thinking blocks - Thinking overkill detected"
+        ],
+        "rating": "CIVILIZED"
+      },
+      "timestamp": "2025-08-26T05:05:23.835360"
+    }
+  },
+  "statistical_analysis": {
+    "complexity_stats": {
+      "mean": 8.642857142857142,
+      "median": 10,
+      "stdev": 1.7491494531696854,
+      "min": 6.0,
+      "max": 10
+    },
+    "token_stats": {
+      "mean": 2674.25,
+      "median": 2471.25,
+      "stdev": 1529.891730918673,
+      "min": 950.75,
+      "max": 5093.5
+    },
+    "savage_stats": {
+      "mean": 4.714285714285714,
+      "median": 5,
+      "stdev": 1.7994708216848747,
+      "brutal_count": 0,
+      "savage_count": 2,
+      "civilized_count": 5,
+      "innocent_count": 0
+    },
+    "sample_size": 7,
+    "failure_rate": 0.0
+  },
+  "savage_rankings": [
+    [
+      "ultrathink-interactive.md",
+      7
+    ],
+    [
+      "intelligent-refactor-session.md",
+      7
+    ],
+    [
+      "adaptive-complexity-router.md",
+      5
+    ],
+    [
+      "analyze-project-architecture.md",
+      5
+    ],
+    [
+      "adhd-context-switch.md",
+      3
+    ],
+    [
+      "context-enhanced-executor.md",
+      3
+    ],
+    [
+      "generate-thinking-command.md",
+      3
+    ]
+  ]
+}
