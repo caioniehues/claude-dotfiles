@@ -1,0 +1,196 @@
+{
+  "benchmark_metadata": {
+    "timestamp": "20250828-110517",
+    "commands_tested": 5,
+    "iterations_per_command": 5,
+    "total_test_runs": 25
+  },
+  "statistical_summary": {
+    "overall_success_rate": 0.48,
+    "success_rate_variance": 0.052,
+    "average_complexity_score": 7.8,
+    "average_execution_time": 0.9599,
+    "total_estimated_tokens": 19992,
+    "average_cost_benefit_ratio": 103870.58
+  },
+  "grade_distribution": {
+    "D": 1,
+    "F": 4
+  },
+  "command_rankings": [
+    {
+      "rank": 1,
+      "command": "adhd-hyperfocus-guardian.md",
+      "grade": "D",
+      "success_rate": 0.8,
+      "complexity_score": 5,
+      "avg_execution_time": 0.6963,
+      "savage_verdict": "\ud83d\udcc8 adhd-hyperfocus-guardian.md: 80.0% success rate, complexity 5. Mediocre but functional. The 'participation trophy' of commands."
+    },
+    {
+      "rank": 2,
+      "command": "ultrathink-full-mcp.md",
+      "grade": "F",
+      "success_rate": 0.6,
+      "complexity_score": 8,
+      "avg_execution_time": 0.9873,
+      "savage_verdict": "\u26a0\ufe0f ultrathink-full-mcp.md has complexity score 8/10. Following Martin Fowler's advice: 'Any fool can write complex code.' This command is that fool."
+    },
+    {
+      "rank": 3,
+      "command": "intelligent-code-enhancer.md",
+      "grade": "F",
+      "success_rate": 0.4,
+      "complexity_score": 6,
+      "avg_execution_time": 0.7425,
+      "savage_verdict": "\ud83d\udeab intelligent-code-enhancer.md fails 60.0% of the time. That's not 'intelligent automation', that's a coin flip with worse odds. Complexity score of 6 suggests over-engineering without reliability."
+    },
+    {
+      "rank": 4,
+      "command": "java-test-driven-development.md",
+      "grade": "F",
+      "success_rate": 0.4,
+      "complexity_score": 10,
+      "avg_execution_time": 1.1826,
+      "savage_verdict": "\ud83d\udeab java-test-driven-development.md fails 60.0% of the time. That's not 'intelligent automation', that's a coin flip with worse odds. Complexity score of 10 suggests over-engineering without reliability."
+    },
+    {
+      "rank": 5,
+      "command": "java-clean-code-generator.md",
+      "grade": "F",
+      "success_rate": 0.2,
+      "complexity_score": 10,
+      "avg_execution_time": 1.1907,
+      "savage_verdict": "\ud83d\udeab java-clean-code-generator.md fails 80.0% of the time. That's not 'intelligent automation', that's a coin flip with worse odds. Complexity score of 10 suggests over-engineering without reliability."
+    }
+  ],
+  "detailed_results": [
+    {
+      "command_name": "adhd-hyperfocus-guardian.md",
+      "success_rate": 0.8,
+      "avg_execution_time": 0.6962954998016357,
+      "execution_time_stddev": 0.05772991396586721,
+      "token_consumption_estimate": 3005,
+      "complexity_score": 5,
+      "error_frequency": 0.2,
+      "error_types": [
+        "TokenLimitExceeded"
+      ],
+      "sample_outputs": [
+        "Run 1: SUCCESS (0.617s)",
+        "Run 2: SUCCESS (0.773s)",
+        "Run 3: SUCCESS (0.682s)",
+        "Run 4: SUCCESS (0.725s)",
+        "Run 5: FAILED - TokenLimitExceeded"
+      ],
+      "performance_grade": "D",
+      "savage_commentary": "\ud83d\udcc8 adhd-hyperfocus-guardian.md: 80.0% success rate, complexity 5. Mediocre but functional. The 'participation trophy' of commands.",
+      "statistical_confidence": 0.823417984467137,
+      "cost_benefit_ratio": 18781.25
+    },
+    {
+      "command_name": "ultrathink-full-mcp.md",
+      "success_rate": 0.6,
+      "avg_execution_time": 0.9873422145843506,
+      "execution_time_stddev": 0.05462429471202096,
+      "token_consumption_estimate": 4514,
+      "complexity_score": 8,
+      "error_frequency": 0.4,
+      "error_types": [
+        "ConfigurationError",
+        "ContextOverflow"
+      ],
+      "sample_outputs": [
+        "Run 1: SUCCESS (0.956s)",
+        "Run 2: SUCCESS (0.949s)",
+        "Run 3: SUCCESS (0.993s)",
+        "Run 4: FAILED - ContextOverflow",
+        "Run 5: FAILED - ConfigurationError"
+      ],
+      "performance_grade": "F",
+      "savage_commentary": "\u26a0\ufe0f ultrathink-full-mcp.md has complexity score 8/10. Following Martin Fowler's advice: 'Any fool can write complex code.' This command is that fool.",
+      "statistical_confidence": 0.668935083721703,
+      "cost_benefit_ratio": 60186.66666666667
+    },
+    {
+      "command_name": "intelligent-code-enhancer.md",
+      "success_rate": 0.4,
+      "avg_execution_time": 0.7424592971801758,
+      "execution_time_stddev": 0.06302003159039585,
+      "token_consumption_estimate": 2844,
+      "complexity_score": 6,
+      "error_frequency": 0.6,
+      "error_types": [
+        "DependencyMissing",
+        "TimeoutError"
+      ],
+      "sample_outputs": [
+        "Run 1: FAILED - TimeoutError",
+        "Run 2: SUCCESS (0.737s)",
+        "Run 3: SUCCESS (0.685s)",
+        "Run 4: FAILED - DependencyMissing",
+        "Run 5: FAILED - DependencyMissing"
+      ],
+      "performance_grade": "F",
+      "savage_commentary": "\ud83d\udeab intelligent-code-enhancer.md fails 60.0% of the time. That's not 'intelligent automation', that's a coin flip with worse odds. Complexity score of 6 suggests over-engineering without reliability.",
+      "statistical_confidence": 0.503023976713675,
+      "cost_benefit_ratio": 42660.0
+    },
+    {
+      "command_name": "java-test-driven-development.md",
+      "success_rate": 0.4,
+      "avg_execution_time": 1.1826218128204347,
+      "execution_time_stddev": 0.07617621714397502,
+      "token_consumption_estimate": 3349,
+      "complexity_score": 10,
+      "error_frequency": 0.6,
+      "error_types": [
+        "ConfigurationError",
+        "DependencyMissing",
+        "ContextOverflow"
+      ],
+      "sample_outputs": [
+        "Run 1: SUCCESS (1.127s)",
+        "Run 2: FAILED - ContextOverflow",
+        "Run 3: FAILED - DependencyMissing",
+        "Run 4: SUCCESS (1.280s)",
+        "Run 5: FAILED - ConfigurationError"
+      ],
+      "performance_grade": "F",
+      "savage_commentary": "\ud83d\udeab java-test-driven-development.md fails 60.0% of the time. That's not 'intelligent automation', that's a coin flip with worse odds. Complexity score of 10 suggests over-engineering without reliability.",
+      "statistical_confidence": 0.5071174002849986,
+      "cost_benefit_ratio": 83725.0
+    },
+    {
+      "command_name": "java-clean-code-generator.md",
+      "success_rate": 0.2,
+      "avg_execution_time": 1.1906879425048829,
+      "execution_time_stddev": 0.08673818905517687,
+      "token_consumption_estimate": 6280,
+      "complexity_score": 10,
+      "error_frequency": 0.8,
+      "error_types": [
+        "TimeoutError",
+        "UnresolvedReference",
+        "ContextOverflow"
+      ],
+      "sample_outputs": [
+        "Run 1: SUCCESS (1.060s)",
+        "Run 2: FAILED - UnresolvedReference",
+        "Run 3: FAILED - TimeoutError",
+        "Run 4: FAILED - ContextOverflow",
+        "Run 5: FAILED - ContextOverflow"
+      ],
+      "performance_grade": "F",
+      "savage_commentary": "\ud83d\udeab java-clean-code-generator.md fails 80.0% of the time. That's not 'intelligent automation', that's a coin flip with worse odds. Complexity score of 10 suggests over-engineering without reliability.",
+      "statistical_confidence": 0.3454305757270535,
+      "cost_benefit_ratio": 314000.0
+    }
+  ],
+  "scientific_analysis": {
+    "statistical_confidence": 0.57,
+    "performance_consistency": "HIGH",
+    "complexity_assessment": "EXCESSIVE",
+    "overall_verdict": "\ud83d\udc80 SYSTEMATIC FAILURE: Low success rates indicate fundamental issues. Recommend complete refactoring."
+  }
+}
