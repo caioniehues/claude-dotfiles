@@ -1,0 +1,164 @@
+{
+  "benchmark_metadata": {
+    "timestamp": "20250828-103849",
+    "total_commands_analyzed": 5,
+    "benchmarker_version": "1.0.0-SAVAGE",
+    "methodology": "Statistical analysis with savage commentary"
+  },
+  "aggregate_metrics": {
+    "average_complexity_score": 14.2,
+    "average_success_rate": 1.0,
+    "average_roi_score": 0.8127149280082894,
+    "average_execution_time_ms": 258.3434267600069,
+    "total_commands_over_complexity_limit": 5,
+    "total_unreliable_commands": 0
+  },
+  "individual_results": [
+    {
+      "command_name": "java-rapid-implementation",
+      "file_path": "commands/java-rapid-implementation.md",
+      "execution_time_ms": 200.9899278000148,
+      "token_consumption_estimate": 2183,
+      "success_rate": 1.0,
+      "complexity_score": 17,
+      "error_count": 0,
+      "error_types": [],
+      "memory_usage_kb": 8.53125,
+      "composition_compatibility": 3.4,
+      "sample_outputs": [
+        "Sample output 0",
+        "Sample output 1",
+        "Sample output 2"
+      ],
+      "failure_patterns": [],
+      "statistical_variance": 0.18211550332276064,
+      "confidence_interval": [
+        200.8302965231018,
+        201.14955907692783
+      ],
+      "roi_score": 0.1513573402062269
+    },
+    {
+      "command_name": "adhd-morning-assistant",
+      "file_path": "commands/adhd-morning-assistant.md",
+      "execution_time_ms": 202.07313979999526,
+      "token_consumption_estimate": 2223,
+      "success_rate": 1.0,
+      "complexity_score": 5,
+      "error_count": 0,
+      "error_types": [],
+      "memory_usage_kb": 8.771484375,
+      "composition_compatibility": 10,
+      "sample_outputs": [
+        "Sample output 0",
+        "Sample output 1",
+        "Sample output 2"
+      ],
+      "failure_patterns": [],
+      "statistical_variance": 0.1716380847357759,
+      "confidence_interval": [
+        201.9226923853964,
+        202.22358721459412
+      ],
+      "roi_score": 2.1030148021468333
+    },
+    {
+      "command_name": "analyze-project-architecture",
+      "file_path": "commands/analyze-project-architecture.md",
+      "execution_time_ms": 226.07223780000822,
+      "token_consumption_estimate": 2303,
+      "success_rate": 1.0,
+      "complexity_score": 21,
+      "error_count": 0,
+      "error_types": [],
+      "memory_usage_kb": 9.07421875,
+      "composition_compatibility": 4.6,
+      "sample_outputs": [
+        "Sample output 0",
+        "Sample output 1",
+        "Sample output 2"
+      ],
+      "failure_patterns": [],
+      "statistical_variance": 0.18568433423221326,
+      "confidence_interval": [
+        225.9094783048778,
+        226.23499729513864
+      ],
+      "roi_score": 0.03650843466416564
+    },
+    {
+      "command_name": "intelligent-refactor-session",
+      "file_path": "commands/intelligent-refactor-session.md",
+      "execution_time_ms": 402.35518800001273,
+      "token_consumption_estimate": 4132,
+      "success_rate": 1.0,
+      "complexity_score": 23,
+      "error_count": 0,
+      "error_types": [],
+      "memory_usage_kb": 16.1962890625,
+      "composition_compatibility": 8.4,
+      "sample_outputs": [
+        "Sample output 0",
+        "Sample output 1",
+        "Sample output 2"
+      ],
+      "failure_patterns": [],
+      "statistical_variance": 0.21166821090963242,
+      "confidence_interval": [
+        402.16965263277103,
+        402.54072336725443
+      ],
+      "roi_score": 0.09500180723805456
+    },
+    {
+      "command_name": "ultrathink",
+      "file_path": "commands/ultrathink.md",
+      "execution_time_ms": 260.22664040000336,
+      "token_consumption_estimate": 2439,
+      "success_rate": 1.0,
+      "complexity_score": 5,
+      "error_count": 0,
+      "error_types": [],
+      "memory_usage_kb": 9.537109375,
+      "composition_compatibility": 7.2,
+      "sample_outputs": [
+        "Sample output 0",
+        "Sample output 1",
+        "Sample output 2"
+      ],
+      "failure_patterns": [],
+      "statistical_variance": 0.218563429409515,
+      "confidence_interval": [
+        260.03506110726573,
+        260.418219692741
+      ],
+      "roi_score": 1.6776922557861667
+    }
+  ],
+  "savage_commentary": [
+    "\ud83d\udd25 ROAST: java-rapid-implementation has complexity score 17/10. That's not 'enterprise-grade', that's enterprise-rage inducing!",
+    "\ud83d\udd25 ROAST: java-rapid-implementation has ROI of 0.15. You'd get better returns investing in cryptocurrency from 2023.",
+    "\ud83d\udd25 ROAST: adhd-morning-assistant has complexity score 5/10. That's not 'enterprise-grade', that's enterprise-rage inducing!",
+    "\ud83d\udd25 ROAST: analyze-project-architecture has complexity score 21/10. That's not 'enterprise-grade', that's enterprise-rage inducing!",
+    "\ud83d\udd25 ROAST: analyze-project-architecture has ROI of 0.04. You'd get better returns investing in cryptocurrency from 2023.",
+    "\ud83d\udd25 ROAST: intelligent-refactor-session has complexity score 23/10. That's not 'enterprise-grade', that's enterprise-rage inducing!",
+    "\ud83d\udd25 ROAST: intelligent-refactor-session has ROI of 0.10. You'd get better returns investing in cryptocurrency from 2023.",
+    "\ud83d\udd25 ROAST: ultrathink has complexity score 5/10. That's not 'enterprise-grade', that's enterprise-rage inducing!",
+    "\ud83d\udd25 ROAST: HALL OF SHAME - Complexity: intelligent-refactor-session (23). This command has more layers than a lasagna.",
+    "\ud83d\udd25 ROAST: HALL OF SHAME - ROI: analyze-project-architecture (0.04). This delivers less value than a broken vending machine."
+  ],
+  "recommendations": [
+    "\ud83d\udea8 5 commands exceed complexity limit. Simplify these before they achieve sentience and rebel against you.",
+    "\ud83d\udcb8 3 commands have negative ROI. You'd save more time by writing the code manually with your feet."
+  ],
+  "statistical_analysis": {
+    "complexity_distribution": {
+      "mean": 14.2,
+      "std_dev": 8.67179335547152
+    },
+    "performance_distribution": {
+      "mean_ms": 258.3434267600069,
+      "std_dev_ms": 84.02400333159288
+    }
+  }
+}
