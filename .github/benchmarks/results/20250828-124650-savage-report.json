@@ -1,0 +1,222 @@
+{
+  "benchmark_metadata": {
+    "timestamp": 1756385210.643302,
+    "date_human": "2025-08-28 12:46:50 UTC",
+    "benchmarker_version": "1.0.0-savage",
+    "methodology": "Scientific roasting with statistical backing",
+    "commands_tested": 4
+  },
+  "individual_results": [
+    {
+      "command_name": "java-test-driven-development",
+      "file_size_bytes": 13414,
+      "file_size_lines": 460,
+      "content_hash": "7ab591a2",
+      "complexity": {
+        "score": 5,
+        "max_score": 5,
+        "commentary": "Complexity 5/5: Ultra-Complex (pray to your IDE gods) - 24 thinking blocks (someone's overthinking), Sequential thinking (the nuclear option), 13396 chars (novel-length commands), MAXIMUM COMPLEXITY ACHIEVED"
+      },
+      "token_usage": {
+        "input_estimated": 3349,
+        "output_estimated": 6698,
+        "total_estimated": 10047
+      },
+      "quality_assessment": {
+        "score": 10,
+        "max_score": 10,
+        "percentage": 100.0,
+        "assessment": "Actually decent engineering",
+        "good_patterns": [
+          "Structured thinking blocks",
+          "Complexity assessment",
+          "MCP integration",
+          "Error recovery",
+          "12 code examples",
+          "Validation patterns",
+          "Context-aware design"
+        ],
+        "issues": []
+      },
+      "compatibility_score": 2,
+      "risk_factors": [
+        "High complexity",
+        "Deep thinking dependency"
+      ],
+      "estimated_execution_time_seconds": 150,
+      "maintainability_score": 5,
+      "last_analyzed": 1756385210.640216
+    },
+    {
+      "command_name": "ultrathink",
+      "file_size_bytes": 9766,
+      "file_size_lines": 357,
+      "content_hash": "70afcd86",
+      "complexity": {
+        "score": 5,
+        "max_score": 5,
+        "commentary": "Complexity 5/5: Ultra-Complex (pray to your IDE gods) - 6 MCP calls (dependency hell much?), Sequential thinking (the nuclear option), MAXIMUM COMPLEXITY ACHIEVED"
+      },
+      "token_usage": {
+        "input_estimated": 2439,
+        "output_estimated": 7317,
+        "total_estimated": 9756
+      },
+      "quality_assessment": {
+        "score": 9,
+        "max_score": 10,
+        "percentage": 90.0,
+        "assessment": "Actually decent engineering",
+        "good_patterns": [
+          "Structured thinking blocks",
+          "Complexity assessment",
+          "MCP integration",
+          "6 code examples",
+          "Validation patterns",
+          "Context-aware design"
+        ],
+        "issues": [
+          "No error recovery patterns"
+        ]
+      },
+      "compatibility_score": 2,
+      "risk_factors": [
+        "High complexity",
+        "Deep thinking dependency"
+      ],
+      "estimated_execution_time_seconds": 150,
+      "maintainability_score": 5,
+      "last_analyzed": 1756385210.6408484
+    },
+    {
+      "command_name": "intelligent-code-enhancer",
+      "file_size_bytes": 11411,
+      "file_size_lines": 442,
+      "content_hash": "e98d8c05",
+      "complexity": {
+        "score": 5,
+        "max_score": 5,
+        "commentary": "Complexity 5/5: Ultra-Complex (pray to your IDE gods) - 30 thinking blocks (someone's overthinking), Sequential thinking (the nuclear option), 11377 chars (novel-length commands), MAXIMUM COMPLEXITY ACHIEVED"
+      },
+      "token_usage": {
+        "input_estimated": 2844,
+        "output_estimated": 11376,
+        "total_estimated": 14220
+      },
+      "quality_assessment": {
+        "score": 9,
+        "max_score": 10,
+        "percentage": 90.0,
+        "assessment": "Actually decent engineering",
+        "good_patterns": [
+          "Structured thinking blocks",
+          "Complexity assessment",
+          "MCP integration",
+          "Error recovery",
+          "Some examples (1)",
+          "Validation patterns",
+          "Context-aware design"
+        ],
+        "issues": []
+      },
+      "compatibility_score": 2,
+      "risk_factors": [
+        "High complexity",
+        "Deep thinking dependency"
+      ],
+      "estimated_execution_time_seconds": 150,
+      "maintainability_score": 5,
+      "last_analyzed": 1756385210.6417956
+    },
+    {
+      "command_name": "intelligent-refactor-session",
+      "file_size_bytes": 16585,
+      "file_size_lines": 534,
+      "content_hash": "8798faf5",
+      "complexity": {
+        "score": 5,
+        "max_score": 5,
+        "commentary": "Complexity 5/5: Ultra-Complex (pray to your IDE gods) - 54 thinking blocks (someone's overthinking), Sequential thinking (the nuclear option), 16531 chars (novel-length commands), MAXIMUM COMPLEXITY ACHIEVED"
+      },
+      "token_usage": {
+        "input_estimated": 4132,
+        "output_estimated": 16528,
+        "total_estimated": 20660
+      },
+      "quality_assessment": {
+        "score": 10,
+        "max_score": 10,
+        "percentage": 100.0,
+        "assessment": "Actually decent engineering",
+        "good_patterns": [
+          "Structured thinking blocks",
+          "Complexity assessment",
+          "MCP integration",
+          "Error recovery",
+          "8 code examples",
+          "Validation patterns",
+          "Context-aware design"
+        ],
+        "issues": []
+      },
+      "compatibility_score": 2,
+      "risk_factors": [
+        "High complexity",
+        "Code modification risk",
+        "Deep thinking dependency",
+        "Maintenance nightmare length"
+      ],
+      "estimated_execution_time_seconds": 150,
+      "maintainability_score": 5,
+      "last_analyzed": 1756385210.6431315
+    }
+  ],
+  "savage_summary": {
+    "summary_statistics": {
+      "total_commands_analyzed": 4,
+      "avg_complexity": 5,
+      "complexity_std_dev": 0.0,
+      "avg_quality_percentage": 95.0,
+      "avg_compatibility": 2,
+      "total_estimated_tokens": 54683,
+      "avg_tokens_per_command": 13671
+    },
+    "worst_offenders": {
+      "most_complex": {
+        "command": "java-test-driven-development",
+        "score": 5,
+        "commentary": "Complexity 5/5: Ultra-Complex (pray to your IDE gods) - 24 thinking blocks (someone's overthinking), Sequential thinking (the nuclear option), 13396 chars (novel-length commands), MAXIMUM COMPLEXITY ACHIEVED"
+      },
+      "lowest_quality": {
+        "command": "ultrathink",
+        "percentage": 90.0,
+        "issues": [
+          "No error recovery patterns"
+        ]
+      },
+      "token_monster": {
+        "command": "intelligent-refactor-session",
+        "estimated_tokens": 20660
+      },
+      "least_compatible": {
+        "command": "java-test-driven-development",
+        "compatibility_score": 2
+      }
+    },
+    "roi_analysis": {
+      "score": 19.0,
+      "assessment": "Questionable but acceptable"
+    },
+    "savage_insights": [
+      "Your commands are more complex than quantum physics. Einstein would weep at this overengineering.",
+      "'intelligent-refactor-session' uses ~20660 tokens. That's not a command, that's a novella with commitment issues.",
+      "'java-test-driven-development' plays well with others like a toddler with anger issues. Composition? More like decomposition."
+    ],
+    "recommendations": [
+      "Consider if that complexity is actually solving a real problem",
+      "More examples, fewer philosophy dissertations",
+      "Test your commands before declaring them 'intelligent'",
+      "Remember: users want solutions, not architectural monuments"
+    ]
+  }
+}
