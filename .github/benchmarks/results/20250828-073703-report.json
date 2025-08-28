@@ -1,0 +1,80 @@
+{
+  "timestamp": "20250828-073703",
+  "commands": [
+    {
+      "name": "ultrathink",
+      "tokens": 1215,
+      "lines": 357,
+      "complexity_score": 1,
+      "thinking_overhead": 82.9,
+      "utility_score": 6,
+      "action_ratio": 0.0,
+      "xml_tags": 28,
+      "thinking_blocks": 8,
+      "savage_judgment": "PSEUDO-INTELLECTUAL BLOAT: 83% thinking theater"
+    },
+    {
+      "name": "safe-code-beautifier",
+      "tokens": 1670,
+      "lines": 427,
+      "complexity_score": 61,
+      "thinking_overhead": 62.5,
+      "utility_score": 10,
+      "action_ratio": 0.706,
+      "xml_tags": 130,
+      "thinking_blocks": 98,
+      "savage_judgment": "COMPLEXITY VIOLATION: 61/5 exceeds CLAUDE.md threshold"
+    },
+    {
+      "name": "intelligent-refactor-session",
+      "tokens": 2048,
+      "lines": 534,
+      "complexity_score": 32,
+      "thinking_overhead": 83.9,
+      "utility_score": 10,
+      "action_ratio": 0.808,
+      "xml_tags": 68,
+      "thinking_blocks": 62,
+      "savage_judgment": "COMPLEXITY VIOLATION: 32/5 exceeds CLAUDE.md threshold"
+    },
+    {
+      "name": "java-clean-code-generator",
+      "tokens": 3102,
+      "lines": 819,
+      "complexity_score": 107,
+      "thinking_overhead": 84.1,
+      "utility_score": 10,
+      "action_ratio": 0.789,
+      "xml_tags": 152,
+      "thinking_blocks": 106,
+      "savage_judgment": "COMPLEXITY VIOLATION: 107/5 exceeds CLAUDE.md threshold"
+    },
+    {
+      "name": "adhd-morning-assistant",
+      "tokens": 1157,
+      "lines": 309,
+      "complexity_score": 1,
+      "thinking_overhead": 0.0,
+      "utility_score": 7,
+      "action_ratio": 0.909,
+      "xml_tags": 24,
+      "thinking_blocks": 0,
+      "savage_judgment": "MEDIOCRE: complexity 1, thinking 0%, utility 7/10"
+    }
+  ],
+  "statistics": {
+    "complexity": {
+      "mean": 40.4,
+      "violation_rate": 0.6
+    },
+    "thinking": {
+      "mean": 62.68,
+      "bloat_rate": 0.8
+    },
+    "utility": {
+      "mean": 8.6,
+      "failure_rate": 0.0
+    }
+  },
+  "overall_judgment": "THINKING EPIDEMIC: 80% pseudo-intellectual bloat"
+}
