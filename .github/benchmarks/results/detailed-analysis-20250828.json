@@ -1,0 +1,627 @@
+{
+  "summary": {
+    "total_commands": 23,
+    "total_words": 33137,
+    "total_estimated_tokens": 24846,
+    "average_words_per_command": 1440.7391304347825,
+    "average_complexity_score": 7.565217391304348,
+    "claude_md_compliance_rate": 4.3478260869565215,
+    "worst_offenders_by_words": [
+      {
+        "file": "java-clean-code-generator.md",
+        "words": 3102,
+        "complexity": 10
+      },
+      {
+        "file": "intelligent-refactor-session.md",
+        "words": 2048,
+        "complexity": 10
+      },
+      {
+        "file": "ultrathink-full-mcp.md",
+        "words": 2027,
+        "complexity": 10
+      },
+      {
+        "file": "ultrathink-interactive.md",
+        "words": 1952,
+        "complexity": 6
+      },
+      {
+        "file": "safe-code-beautifier.md",
+        "words": 1670,
+        "complexity": 9
+      }
+    ],
+    "worst_offenders_by_complexity": [
+      {
+        "file": "ultrathink-full-mcp.md",
+        "complexity": 10,
+        "words": 2027
+      },
+      {
+        "file": "java-clean-code-generator.md",
+        "complexity": 10,
+        "words": 3102
+      },
+      {
+        "file": "intelligent-refactor-session.md",
+        "complexity": 10,
+        "words": 2048
+      },
+      {
+        "file": "analyze-project-architecture.md",
+        "complexity": 9,
+        "words": 1198
+      },
+      {
+        "file": "ultrathink.md",
+        "complexity": 9,
+        "words": 1215
+      }
+    ]
+  },
+  "detailed_results": [
+    {
+      "filepath": "commands/analyze-project-architecture.md",
+      "filename": "analyze-project-architecture.md",
+      "metrics": {
+        "words": 1198,
+        "lines": 274,
+        "characters": 9214,
+        "estimated_tokens": 898,
+        "complexity_score": 9
+      },
+      "complexity_indicators": {
+        "xml_blocks": 18,
+        "thinking_blocks": 12,
+        "mcp_calls": 1,
+        "orchestration_layers": 13,
+        "decision_points": 4,
+        "nested_levels": 3
+      },
+      "violations": [
+        "Complexity score 9/5 exceeds limit",
+        "Excessive verbosity: 1198 words",
+        "Over-engineered thinking: 12 thinking blocks"
+      ],
+      "claude_md_compliance": false
+    },
+    {
+      "filepath": "commands/adhd-context-switch.md",
+      "filename": "adhd-context-switch.md",
+      "metrics": {
+        "words": 1170,
+        "lines": 399,
+        "characters": 9885,
+        "estimated_tokens": 877,
+        "complexity_score": 4
+      },
+      "complexity_indicators": {
+        "xml_blocks": 14,
+        "thinking_blocks": 0,
+        "mcp_calls": 4,
+        "orchestration_layers": 0,
+        "decision_points": 3,
+        "nested_levels": 40
+      },
+      "violations": [
+        "Excessive verbosity: 1170 words",
+        "High external dependency: 4 MCP calls"
+      ],
+      "claude_md_compliance": false
+    },
+    {
+      "filepath": "commands/ultrathink.md",
+      "filename": "ultrathink.md",
+      "metrics": {
+        "words": 1215,
+        "lines": 357,
+        "characters": 9758,
+        "estimated_tokens": 911,
+        "complexity_score": 9
+      },
+      "complexity_indicators": {
+        "xml_blocks": 14,
+        "thinking_blocks": 4,
+        "mcp_calls": 6,
+        "orchestration_layers": 16,
+        "decision_points": 5,
+        "nested_levels": 13
+      },
+      "violations": [
+        "Complexity score 9/5 exceeds limit",
+        "Excessive verbosity: 1215 words",
+        "High external dependency: 6 MCP calls"
+      ],
+      "claude_md_compliance": false
+    },
+    {
+      "filepath": "commands/adhd-evening-reflect.md",
+      "filename": "adhd-evening-reflect.md",
+      "metrics": {
+        "words": 1363,
+        "lines": 438,
+        "characters": 12536,
+        "estimated_tokens": 1022,
+        "complexity_score": 4
+      },
+      "complexity_indicators": {
+        "xml_blocks": 14,
+        "thinking_blocks": 0,
+        "mcp_calls": 3,
+        "orchestration_layers": 0,
+        "decision_points": 1,
+        "nested_levels": 34
+      },
+      "violations": [
+        "Excessive verbosity: 1363 words"
+      ],
+      "claude_md_compliance": false
+    },
+    {
+      "filepath": "commands/senior-developer-analysis.md",
+      "filename": "senior-developer-analysis.md",
+      "metrics": {
+        "words": 1571,
+        "lines": 390,
+        "characters": 13387,
+        "estimated_tokens": 1178,
+        "complexity_score": 9
+      },
+      "complexity_indicators": {
+        "xml_blocks": 58,
+        "thinking_blocks": 44,
+        "mcp_calls": 1,
+        "orchestration_layers": 21,
+        "decision_points": 10,
+        "nested_levels": 13
+      },
+      "violations": [
+        "Complexity score 9/5 exceeds limit",
+        "Excessive verbosity: 1571 words",
+        "Over-engineered thinking: 44 thinking blocks"
+      ],
+      "claude_md_compliance": false
+    },
+    {
+      "filepath": "commands/adaptive-complexity-router.md",
+      "filename": "adaptive-complexity-router.md",
+      "metrics": {
+        "words": 1347,
+        "lines": 499,
+        "characters": 11186,
+        "estimated_tokens": 1010,
+        "complexity_score": 9
+      },
+      "complexity_indicators": {
+        "xml_blocks": 37,
+        "thinking_blocks": 12,
+        "mcp_calls": 2,
+        "orchestration_layers": 87,
+        "decision_points": 20,
+        "nested_levels": 17
+      },
+      "violations": [
+        "Complexity score 9/5 exceeds limit",
+        "Excessive verbosity: 1347 words",
+        "Over-engineered thinking: 12 thinking blocks"
+      ],
+      "claude_md_compliance": false
+    },
+    {
+      "filepath": "commands/adhd-task-breakdown.md",
+      "filename": "adhd-task-breakdown.md",
+      "metrics": {
+        "words": 1264,
+        "lines": 365,
+        "characters": 10447,
+        "estimated_tokens": 948,
+        "complexity_score": 4
+      },
+      "complexity_indicators": {
+        "xml_blocks": 13,
+        "thinking_blocks": 0,
+        "mcp_calls": 3,
+        "orchestration_layers": 2,
+        "decision_points": 4,
+        "nested_levels": 29
+      },
+      "violations": [
+        "Excessive verbosity: 1264 words"
+      ],
+      "claude_md_compliance": false
+    },
+    {
+      "filepath": "commands/context-enhanced-executor.md",
+      "filename": "context-enhanced-executor.md",
+      "metrics": {
+        "words": 424,
+        "lines": 132,
+        "characters": 3886,
+        "estimated_tokens": 318,
+        "complexity_score": 4
+      },
+      "complexity_indicators": {
+        "xml_blocks": 8,
+        "thinking_blocks": 2,
+        "mcp_calls": 1,
+        "orchestration_layers": 9,
+        "decision_points": 1,
+        "nested_levels": 8
+      },
+      "violations": [],
+      "claude_md_compliance": true
+    },
+    {
+      "filepath": "commands/ultrathink-interactive.md",
+      "filename": "ultrathink-interactive.md",
+      "metrics": {
+        "words": 1952,
+        "lines": 673,
+        "characters": 20374,
+        "estimated_tokens": 1464,
+        "complexity_score": 6
+      },
+      "complexity_indicators": {
+        "xml_blocks": 19,
+        "thinking_blocks": 0,
+        "mcp_calls": 3,
+        "orchestration_layers": 16,
+        "decision_points": 31,
+        "nested_levels": 12
+      },
+      "violations": [
+        "Complexity score 6/5 exceeds limit",
+        "Excessive verbosity: 1952 words"
+      ],
+      "claude_md_compliance": false
+    },
+    {
+      "filepath": "commands/generate-thinking-command.md",
+      "filename": "generate-thinking-command.md",
+      "metrics": {
+        "words": 415,
+        "lines": 137,
+        "characters": 3803,
+        "estimated_tokens": 311,
+        "complexity_score": 9
+      },
+      "complexity_indicators": {
+        "xml_blocks": 14,
+        "thinking_blocks": 4,
+        "mcp_calls": 1,
+        "orchestration_layers": 24,
+        "decision_points": 3,
+        "nested_levels": 4
+      },
+      "violations": [
+        "Complexity score 9/5 exceeds limit"
+      ],
+      "claude_md_compliance": false
+    },
+    {
+      "filepath": "commands/java-rapid-implementation.md",
+      "filename": "java-rapid-implementation.md",
+      "metrics": {
+        "words": 1032,
+        "lines": 250,
+        "characters": 8732,
+        "estimated_tokens": 774,
+        "complexity_score": 9
+      },
+      "complexity_indicators": {
+        "xml_blocks": 33,
+        "thinking_blocks": 19,
+        "mcp_calls": 2,
+        "orchestration_layers": 37,
+        "decision_points": 13,
+        "nested_levels": 4
+      },
+      "violations": [
+        "Complexity score 9/5 exceeds limit",
+        "Excessive verbosity: 1032 words",
+        "Over-engineered thinking: 19 thinking blocks"
+      ],
+      "claude_md_compliance": false
+    },
+    {
+      "filepath": "commands/reasoning-wrapper.md",
+      "filename": "reasoning-wrapper.md",
+      "metrics": {
+        "words": 1200,
+        "lines": 415,
+        "characters": 10162,
+        "estimated_tokens": 900,
+        "complexity_score": 9
+      },
+      "complexity_indicators": {
+        "xml_blocks": 34,
+        "thinking_blocks": 18,
+        "mcp_calls": 2,
+        "orchestration_layers": 28,
+        "decision_points": 18,
+        "nested_levels": 16
+      },
+      "violations": [
+        "Complexity score 9/5 exceeds limit",
+        "Excessive verbosity: 1200 words",
+        "Over-engineered thinking: 18 thinking blocks"
+      ],
+      "claude_md_compliance": false
+    },
+    {
+      "filepath": "commands/ultrathink-pure-xml.md",
+      "filename": "ultrathink-pure-xml.md",
+      "metrics": {
+        "words": 1514,
+        "lines": 472,
+        "characters": 11326,
+        "estimated_tokens": 1135,
+        "complexity_score": 6
+      },
+      "complexity_indicators": {
+        "xml_blocks": 26,
+        "thinking_blocks": 4,
+        "mcp_calls": 0,
+        "orchestration_layers": 5,
+        "decision_points": 14,
+        "nested_levels": 22
+      },
+      "violations": [
+        "Complexity score 6/5 exceeds limit",
+        "Excessive verbosity: 1514 words"
+      ],
+      "claude_md_compliance": false
+    },
+    {
+      "filepath": "commands/safe-code-beautifier.md",
+      "filename": "safe-code-beautifier.md",
+      "metrics": {
+        "words": 1670,
+        "lines": 427,
+        "characters": 14547,
+        "estimated_tokens": 1252,
+        "complexity_score": 9
+      },
+      "complexity_indicators": {
+        "xml_blocks": 66,
+        "thinking_blocks": 49,
+        "mcp_calls": 1,
+        "orchestration_layers": 33,
+        "decision_points": 8,
+        "nested_levels": 18
+      },
+      "violations": [
+        "Complexity score 9/5 exceeds limit",
+        "Excessive verbosity: 1670 words",
+        "Over-engineered thinking: 49 thinking blocks"
+      ],
+      "claude_md_compliance": false
+    },
+    {
+      "filepath": "commands/ultrathink-full-mcp.md",
+      "filename": "ultrathink-full-mcp.md",
+      "metrics": {
+        "words": 2027,
+        "lines": 665,
+        "characters": 18058,
+        "estimated_tokens": 1520,
+        "complexity_score": 10
+      },
+      "complexity_indicators": {
+        "xml_blocks": 30,
+        "thinking_blocks": 4,
+        "mcp_calls": 29,
+        "orchestration_layers": 42,
+        "decision_points": 20,
+        "nested_levels": 31
+      },
+      "violations": [
+        "Complexity score 10/5 exceeds limit",
+        "Excessive verbosity: 2027 words",
+        "High external dependency: 29 MCP calls"
+      ],
+      "claude_md_compliance": false
+    },
+    {
+      "filepath": "commands/adhd-hyperfocus-guardian.md",
+      "filename": "adhd-hyperfocus-guardian.md",
+      "metrics": {
+        "words": 1525,
+        "lines": 457,
+        "characters": 12021,
+        "estimated_tokens": 1143,
+        "complexity_score": 4
+      },
+      "complexity_indicators": {
+        "xml_blocks": 14,
+        "thinking_blocks": 0,
+        "mcp_calls": 5,
+        "orchestration_layers": 0,
+        "decision_points": 9,
+        "nested_levels": 36
+      },
+      "violations": [
+        "Excessive verbosity: 1525 words",
+        "High external dependency: 5 MCP calls"
+      ],
+      "claude_md_compliance": false
+    },
+    {
+      "filepath": "commands/git-backup-sync.md",
+      "filename": "git-backup-sync.md",
+      "metrics": {
+        "words": 1461,
+        "lines": 531,
+        "characters": 12474,
+        "estimated_tokens": 1095,
+        "complexity_score": 9
+      },
+      "complexity_indicators": {
+        "xml_blocks": 34,
+        "thinking_blocks": 17,
+        "mcp_calls": 2,
+        "orchestration_layers": 22,
+        "decision_points": 16,
+        "nested_levels": 12
+      },
+      "violations": [
+        "Complexity score 9/5 exceeds limit",
+        "Excessive verbosity: 1461 words",
+        "Over-engineered thinking: 17 thinking blocks"
+      ],
+      "claude_md_compliance": false
+    },
+    {
+      "filepath": "commands/java-test-driven-development.md",
+      "filename": "java-test-driven-development.md",
+      "metrics": {
+        "words": 1587,
+        "lines": 460,
+        "characters": 13396,
+        "estimated_tokens": 1190,
+        "complexity_score": 9
+      },
+      "complexity_indicators": {
+        "xml_blocks": 31,
+        "thinking_blocks": 13,
+        "mcp_calls": 1,
+        "orchestration_layers": 19,
+        "decision_points": 14,
+        "nested_levels": 19
+      },
+      "violations": [
+        "Complexity score 9/5 exceeds limit",
+        "Excessive verbosity: 1587 words",
+        "Over-engineered thinking: 13 thinking blocks"
+      ],
+      "claude_md_compliance": false
+    },
+    {
+      "filepath": "commands/java-clean-code-generator.md",
+      "filename": "java-clean-code-generator.md",
+      "metrics": {
+        "words": 3102,
+        "lines": 819,
+        "characters": 25123,
+        "estimated_tokens": 2326,
+        "complexity_score": 10
+      },
+      "complexity_indicators": {
+        "xml_blocks": 88,
+        "thinking_blocks": 53,
+        "mcp_calls": 2,
+        "orchestration_layers": 50,
+        "decision_points": 31,
+        "nested_levels": 41
+      },
+      "violations": [
+        "Complexity score 10/5 exceeds limit",
+        "Excessive verbosity: 3102 words",
+        "Over-engineered thinking: 53 thinking blocks"
+      ],
+      "claude_md_compliance": false
+    },
+    {
+      "filepath": "commands/intelligent-code-enhancer.md",
+      "filename": "intelligent-code-enhancer.md",
+      "metrics": {
+        "words": 1255,
+        "lines": 442,
+        "characters": 11377,
+        "estimated_tokens": 941,
+        "complexity_score": 9
+      },
+      "complexity_indicators": {
+        "xml_blocks": 34,
+        "thinking_blocks": 20,
+        "mcp_calls": 1,
+        "orchestration_layers": 16,
+        "decision_points": 13,
+        "nested_levels": 8
+      },
+      "violations": [
+        "Complexity score 9/5 exceeds limit",
+        "Excessive verbosity: 1255 words",
+        "Over-engineered thinking: 20 thinking blocks"
+      ],
+      "claude_md_compliance": false
+    },
+    {
+      "filepath": "commands/adhd-morning-assistant.md",
+      "filename": "adhd-morning-assistant.md",
+      "metrics": {
+        "words": 1157,
+        "lines": 309,
+        "characters": 8893,
+        "estimated_tokens": 867,
+        "complexity_score": 4
+      },
+      "complexity_indicators": {
+        "xml_blocks": 12,
+        "thinking_blocks": 0,
+        "mcp_calls": 7,
+        "orchestration_layers": 2,
+        "decision_points": 3,
+        "nested_levels": 32
+      },
+      "violations": [
+        "Excessive verbosity: 1157 words",
+        "High external dependency: 7 MCP calls"
+      ],
+      "claude_md_compliance": false
+    },
+    {
+      "filepath": "commands/intelligent-refactor-session.md",
+      "filename": "intelligent-refactor-session.md",
+      "metrics": {
+        "words": 2048,
+        "lines": 534,
+        "characters": 16531,
+        "estimated_tokens": 1536,
+        "complexity_score": 10
+      },
+      "complexity_indicators": {
+        "xml_blocks": 35,
+        "thinking_blocks": 31,
+        "mcp_calls": 1,
+        "orchestration_layers": 22,
+        "decision_points": 21,
+        "nested_levels": 2
+      },
+      "violations": [
+        "Complexity score 10/5 exceeds limit",
+        "Excessive verbosity: 2048 words",
+        "Over-engineered thinking: 31 thinking blocks"
+      ],
+      "claude_md_compliance": false
+    },
+    {
+      "filepath": "commands/ultrathink-hybrid-mcp.md",
+      "filename": "ultrathink-hybrid-mcp.md",
+      "metrics": {
+        "words": 1640,
+        "lines": 536,
+        "characters": 13338,
+        "estimated_tokens": 1230,
+        "complexity_score": 9
+      },
+      "complexity_indicators": {
+        "xml_blocks": 31,
+        "thinking_blocks": 6,
+        "mcp_calls": 16,
+        "orchestration_layers": 6,
+        "decision_points": 9,
+        "nested_levels": 28
+      },
+      "violations": [
+        "Complexity score 9/5 exceeds limit",
+        "Excessive verbosity: 1640 words",
+        "Over-engineered thinking: 6 thinking blocks",
+        "High external dependency: 16 MCP calls"
+      ],
+      "claude_md_compliance": false
+    }
+  ]
+}
