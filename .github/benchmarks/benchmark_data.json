@@ -1,0 +1,79 @@
+{
+  "timestamp": "2025-08-29T07:04:58.270830",
+  "selected_commands": [
+    "commands/ultrathink.md",
+    "commands/adhd-hyperfocus-guardian.md",
+    "commands/ultrathink-interactive.md",
+    "commands/reasoning-wrapper.md",
+    "commands/ultrathink-full-mcp.md"
+  ],
+  "metrics": {
+    "commands/ultrathink.md": {
+      "lines": 357,
+      "chars": 9758,
+      "words": 1215,
+      "estimated_tokens": 2440,
+      "mcp_calls": 5,
+      "thinking_blocks": 1,
+      "code_blocks": 6,
+      "bash_commands": 6,
+      "js_commands": 0,
+      "xml_blocks": 11,
+      "complexity_score": 16.1
+    },
+    "commands/adhd-hyperfocus-guardian.md": {
+      "lines": 457,
+      "chars": 12021,
+      "words": 1525,
+      "estimated_tokens": 3005,
+      "mcp_calls": 5,
+      "thinking_blocks": 0,
+      "code_blocks": 12,
+      "bash_commands": 1,
+      "js_commands": 4,
+      "xml_blocks": 13,
+      "complexity_score": 18.3
+    },
+    "commands/ultrathink-interactive.md": {
+      "lines": 673,
+      "chars": 20374,
+      "words": 1952,
+      "estimated_tokens": 5094,
+      "mcp_calls": 3,
+      "thinking_blocks": 0,
+      "code_blocks": 15,
+      "bash_commands": 3,
+      "js_commands": 12,
+      "xml_blocks": 15,
+      "complexity_score": 16.0
+    },
+    "commands/reasoning-wrapper.md": {
+      "lines": 415,
+      "chars": 10162,
+      "words": 1200,
+      "estimated_tokens": 2540,
+      "mcp_calls": 2,
+      "thinking_blocks": 3,
+      "code_blocks": 10,
+      "bash_commands": 6,
+      "js_commands": 0,
+      "xml_blocks": 34,
+      "complexity_score": 16.4
+    },
+    "commands/ultrathink-full-mcp.md": {
+      "lines": 665,
+      "chars": 18058,
+      "words": 2027,
+      "estimated_tokens": 4514,
+      "mcp_calls": 29,
+      "thinking_blocks": 3,
+      "code_blocks": 21,
+      "bash_commands": 14,
+      "js_commands": 0,
+      "xml_blocks": 24,
+      "complexity_score": 74.9
+    }
+  },
+  "analysis_type": "scientific_benchmark",
+  "methodology": "CLAUDE.md complexity scoring + token estimation"
+}

@@ -1,0 +1,207 @@
+{
+  "timestamp": "2025-08-29T07:07:19.996842",
+  "efficiency_data": {
+    "ultrathink": {
+      "complexity_score": 16.1,
+      "mcp_calls": 5,
+      "lines": 357,
+      "estimated_tokens": 2447.0,
+      "success_rate": 100.0,
+      "tokens_per_line": 6.85,
+      "complexity_per_mcp": 3.22,
+      "efficiency_score": 145.89,
+      "risk_score": 6.83
+    },
+    "adhd-hyperfocus-guardian": {
+      "complexity_score": 18.3,
+      "mcp_calls": 5,
+      "lines": 457,
+      "estimated_tokens": 3010.0,
+      "success_rate": 100.0,
+      "tokens_per_line": 6.59,
+      "complexity_per_mcp": 3.66,
+      "efficiency_score": 151.83,
+      "risk_score": 7.49
+    },
+    "ultrathink-interactive": {
+      "complexity_score": 16.0,
+      "mcp_calls": 3,
+      "lines": 673,
+      "estimated_tokens": 5100.0,
+      "success_rate": 100.0,
+      "tokens_per_line": 7.58,
+      "complexity_per_mcp": 5.33,
+      "efficiency_score": 131.96,
+      "risk_score": 6.3
+    },
+    "reasoning-wrapper": {
+      "complexity_score": 16.4,
+      "mcp_calls": 2,
+      "lines": 415,
+      "estimated_tokens": 2546.0,
+      "success_rate": 100.0,
+      "tokens_per_line": 6.13,
+      "complexity_per_mcp": 8.2,
+      "efficiency_score": 163.0,
+      "risk_score": 5.72
+    },
+    "ultrathink-full-mcp": {
+      "complexity_score": 74.9,
+      "mcp_calls": 29,
+      "lines": 665,
+      "estimated_tokens": 4524.0,
+      "success_rate": 100.0,
+      "tokens_per_line": 6.8,
+      "complexity_per_mcp": 2.58,
+      "efficiency_score": 146.99,
+      "risk_score": 34.37
+    }
+  },
+  "statistical_analysis": {
+    "statistical_summary": {
+      "complexity_stats": {
+        "mean": 28.34,
+        "median": 16.4,
+        "std_dev": 26.04463476418896,
+        "variance": 678.3230000000001,
+        "min": 16.0,
+        "max": 74.9,
+        "range": 58.900000000000006
+      },
+      "token_stats": {
+        "mean": 3525.4,
+        "median": 3010.0,
+        "std_dev": 1210.8236039985345,
+        "variance": 1466093.8,
+        "min": 2447.0,
+        "max": 5100.0,
+        "range": 2653.0
+      },
+      "efficiency_stats": {
+        "mean": 147.934,
+        "median": 146.99,
+        "std_dev": 11.207150842207843,
+        "variance": 125.60022999999997,
+        "min": 131.96,
+        "max": 163.0,
+        "range": 31.039999999999992
+      }
+    },
+    "outliers": {},
+    "rankings": {
+      "by_complexity": [
+        [
+          "ultrathink-full-mcp",
+          74.9
+        ],
+        [
+          "adhd-hyperfocus-guardian",
+          18.3
+        ],
+        [
+          "reasoning-wrapper",
+          16.4
+        ],
+        [
+          "ultrathink",
+          16.1
+        ],
+        [
+          "ultrathink-interactive",
+          16.0
+        ]
+      ],
+      "by_efficiency": [
+        [
+          "reasoning-wrapper",
+          163.0
+        ],
+        [
+          "adhd-hyperfocus-guardian",
+          151.83
+        ],
+        [
+          "ultrathink-full-mcp",
+          146.99
+        ],
+        [
+          "ultrathink",
+          145.89
+        ],
+        [
+          "ultrathink-interactive",
+          131.96
+        ]
+      ],
+      "by_risk": [
+        [
+          "ultrathink-full-mcp",
+          34.37
+        ],
+        [
+          "adhd-hyperfocus-guardian",
+          7.49
+        ],
+        [
+          "ultrathink",
+          6.83
+        ],
+        [
+          "ultrathink-interactive",
+          6.3
+        ],
+        [
+          "reasoning-wrapper",
+          5.72
+        ]
+      ]
+    },
+    "scientific_observations": {
+      "highest_complexity": [
+        "ultrathink-full-mcp",
+        {
+          "complexity_score": 74.9,
+          "mcp_calls": 29,
+          "lines": 665,
+          "estimated_tokens": 4524.0,
+          "success_rate": 100.0,
+          "tokens_per_line": 6.8,
+          "complexity_per_mcp": 2.58,
+          "efficiency_score": 146.99,
+          "risk_score": 34.37
+        }
+      ],
+      "most_efficient": [
+        "reasoning-wrapper",
+        {
+          "complexity_score": 16.4,
+          "mcp_calls": 2,
+          "lines": 415,
+          "estimated_tokens": 2546.0,
+          "success_rate": 100.0,
+          "tokens_per_line": 6.13,
+          "complexity_per_mcp": 8.2,
+          "efficiency_score": 163.0,
+          "risk_score": 5.72
+        }
+      ],
+      "highest_risk": [
+        "ultrathink-full-mcp",
+        {
+          "complexity_score": 74.9,
+          "mcp_calls": 29,
+          "lines": 665,
+          "estimated_tokens": 4524.0,
+          "success_rate": 100.0,
+          "tokens_per_line": 6.8,
+          "complexity_per_mcp": 2.58,
+          "efficiency_score": 146.99,
+          "risk_score": 34.37
+        }
+      ],
+      "token_variance": 1466093.8,
+      "complexity_variance": 678.3230000000001
+    }
+  },
+  "methodology": "Scientific benchmarking with statistical analysis"
+}

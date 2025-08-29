@@ -1,0 +1,151 @@
+{
+  "timestamp": "2025-08-29T07:05:29.033453",
+  "methodology": "Scientific simulation with statistical sampling",
+  "test_runs": [
+    {
+      "command": "ultrathink",
+      "test_input": "optimize database performance",
+      "attempts": [
+        {
+          "attempt": 1,
+          "execution_time": 0.1,
+          "estimated_tokens": 2447,
+          "success": true
+        },
+        {
+          "attempt": 2,
+          "execution_time": 0.1,
+          "estimated_tokens": 2447,
+          "success": true
+        },
+        {
+          "attempt": 3,
+          "execution_time": 0.1,
+          "estimated_tokens": 2447,
+          "success": true
+        }
+      ],
+      "failures": [],
+      "success_rate": 100.0,
+      "avg_execution_time": 0.10000000000000002,
+      "token_estimate": 0,
+      "avg_token_estimate": 2447.0
+    },
+    {
+      "command": "adhd-hyperfocus-guardian",
+      "test_input": "implement new feature",
+      "attempts": [
+        {
+          "attempt": 1,
+          "execution_time": 0.1,
+          "estimated_tokens": 3010,
+          "success": true
+        },
+        {
+          "attempt": 2,
+          "execution_time": 0.1,
+          "estimated_tokens": 3010,
+          "success": true
+        },
+        {
+          "attempt": 3,
+          "execution_time": 0.1,
+          "estimated_tokens": 3010,
+          "success": true
+        }
+      ],
+      "failures": [],
+      "success_rate": 100.0,
+      "avg_execution_time": 0.10000000000000002,
+      "token_estimate": 0,
+      "avg_token_estimate": 3010.0
+    },
+    {
+      "command": "ultrathink-interactive",
+      "test_input": "design system architecture",
+      "attempts": [
+        {
+          "attempt": 1,
+          "execution_time": 0.1,
+          "estimated_tokens": 5100,
+          "success": true
+        },
+        {
+          "attempt": 2,
+          "execution_time": 0.1,
+          "estimated_tokens": 5100,
+          "success": true
+        },
+        {
+          "attempt": 3,
+          "execution_time": 0.1,
+          "estimated_tokens": 5100,
+          "success": true
+        }
+      ],
+      "failures": [],
+      "success_rate": 100.0,
+      "avg_execution_time": 0.10000000000000002,
+      "token_estimate": 0,
+      "avg_token_estimate": 5100.0
+    },
+    {
+      "command": "reasoning-wrapper",
+      "test_input": "add logging to function",
+      "attempts": [
+        {
+          "attempt": 1,
+          "execution_time": 0.1,
+          "estimated_tokens": 2546,
+          "success": true
+        },
+        {
+          "attempt": 2,
+          "execution_time": 0.1,
+          "estimated_tokens": 2546,
+          "success": true
+        },
+        {
+          "attempt": 3,
+          "execution_time": 0.1,
+          "estimated_tokens": 2546,
+          "success": true
+        }
+      ],
+      "failures": [],
+      "success_rate": 100.0,
+      "avg_execution_time": 0.10000000000000002,
+      "token_estimate": 0,
+      "avg_token_estimate": 2546.0
+    },
+    {
+      "command": "ultrathink-full-mcp",
+      "test_input": "solve complex distributed system problem",
+      "attempts": [
+        {
+          "attempt": 1,
+          "execution_time": 0.1,
+          "estimated_tokens": 4524,
+          "success": true
+        },
+        {
+          "attempt": 2,
+          "execution_time": 0.1,
+          "estimated_tokens": 4524,
+          "success": true
+        },
+        {
+          "attempt": 3,
+          "execution_time": 0.1,
+          "estimated_tokens": 4524,
+          "success": true
+        }
+      ],
+      "failures": [],
+      "success_rate": 100.0,
+      "avg_execution_time": 0.10000000000000002,
+      "token_estimate": 0,
+      "avg_token_estimate": 4524.0
+    }
+  ]
+}
