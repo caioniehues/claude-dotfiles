@@ -1,0 +1,59 @@
+{
+  "timestamp": "2025-08-29T06:03:32Z",
+  "analysis_type": "savage_benchmarking",
+  "commands_analyzed": 5,
+  "aggregate_stats": {
+    "total_words": 9806,
+    "word_stats": {
+      "mean": 1961.2,
+      "stdev": 720.3358244596752
+    },
+    "char_stats": {
+      "mean": 17147.6,
+      "stdev": 6122.216208204346
+    },
+    "mcp_stats": {
+      "mean": 8.2,
+      "stdev": 11.691877522451216
+    }
+  },
+  "individual_commands": {
+    "ultrathink-interactive.md": {
+      "words": 1952,
+      "chars": 20374,
+      "mcp_deps": 3
+    },
+    "ultrathink-full-mcp.md": {
+      "words": 2027,
+      "chars": 18058,
+      "mcp_deps": 29
+    },
+    "reasoning-wrapper.md": {
+      "words": 1200,
+      "chars": 10162,
+      "mcp_deps": 2
+    },
+    "adhd-hyperfocus-guardian.md": {
+      "words": 1525,
+      "chars": 12021,
+      "mcp_deps": 5
+    },
+    "java-clean-code-generator.md": {
+      "words": 3102,
+      "chars": 25123,
+      "mcp_deps": 2
+    }
+  },
+  "efficiency_scores": {
+    "ultrathink-interactive.md": 650.6666666666666,
+    "ultrathink-full-mcp.md": 69.89655172413794,
+    "reasoning-wrapper.md": 600.0,
+    "adhd-hyperfocus-guardian.md": 305.0,
+    "java-clean-code-generator.md": 1551.0
+  },
+  "hall_of_shame": {
+    "most_bloated": "java-clean-code-generator.md",
+    "dependency_king": "ultrathink-full-mcp.md",
+    "most_efficient": "ultrathink-full-mcp.md"
+  }
+}
