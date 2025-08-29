@@ -1,0 +1,348 @@
+{
+  "metadata": {
+    "timestamp": "20250829-025534",
+    "benchmarker_version": "2.0-SAVAGE",
+    "total_commands_analyzed": 5,
+    "statistical_confidence": 0.95,
+    "minimum_samples": 5,
+    "analysis_seed": 42
+  },
+  "commands": {
+    "ultrathink-interactive.md": {
+      "file_size_bytes": 23852,
+      "line_count": 673,
+      "token_count_approx": 2537,
+      "complexity_score": 2.0,
+      "has_thinking_blocks": false,
+      "has_mcp_integration": true,
+      "mean_execution_time_ms": 16646.00457763672,
+      "std_dev_execution_time_ms": 274.2807723301235,
+      "coefficient_of_variation": 0.016477273633494577,
+      "success_rate_percent": 100.0,
+      "claude_compliance_score": 90.0,
+      "execution_samples": [
+        {
+          "success": true,
+          "execution_time_ms": 16500.00810623169,
+          "token_usage_estimated": 8620,
+          "operations_performed": 26,
+          "error_message": null,
+          "quality_score": 7.5
+        },
+        {
+          "success": true,
+          "execution_time_ms": 16780.005960464478,
+          "token_usage_estimated": 8620,
+          "operations_performed": 26,
+          "error_message": null,
+          "quality_score": 8.3
+        },
+        {
+          "success": true,
+          "execution_time_ms": 16610.00333786011,
+          "token_usage_estimated": 8620,
+          "operations_performed": 26,
+          "error_message": null,
+          "quality_score": 8.6
+        },
+        {
+          "success": true,
+          "execution_time_ms": 16310.002384185793,
+          "token_usage_estimated": 8620,
+          "operations_performed": 26,
+          "error_message": null,
+          "quality_score": 7.6
+        },
+        {
+          "success": true,
+          "execution_time_ms": 17030.00309944153,
+          "token_usage_estimated": 8620,
+          "operations_performed": 26,
+          "error_message": null,
+          "quality_score": 8.8
+        }
+      ],
+      "error_patterns": []
+    },
+    "adhd-hyperfocus-guardian.md": {
+      "file_size_bytes": 12111,
+      "line_count": 457,
+      "token_count_approx": 1982,
+      "complexity_score": 1.0,
+      "has_thinking_blocks": false,
+      "has_mcp_integration": true,
+      "mean_execution_time_ms": 4346.0035762786865,
+      "std_dev_execution_time_ms": 274.28037812009717,
+      "coefficient_of_variation": 0.06311094165158344,
+      "success_rate_percent": 100.0,
+      "claude_compliance_score": 90.0,
+      "execution_samples": [
+        {
+          "success": true,
+          "execution_time_ms": 4200.006437301636,
+          "token_usage_estimated": 1320,
+          "operations_performed": 9,
+          "error_message": null,
+          "quality_score": 6.8
+        },
+        {
+          "success": true,
+          "execution_time_ms": 4480.004053115845,
+          "token_usage_estimated": 1320,
+          "operations_performed": 9,
+          "error_message": null,
+          "quality_score": 7.6
+        },
+        {
+          "success": true,
+          "execution_time_ms": 4310.002622604371,
+          "token_usage_estimated": 1320,
+          "operations_performed": 9,
+          "error_message": null,
+          "quality_score": 7.8999999999999995
+        },
+        {
+          "success": true,
+          "execution_time_ms": 4010.0026226043706,
+          "token_usage_estimated": 1320,
+          "operations_performed": 9,
+          "error_message": null,
+          "quality_score": 6.8999999999999995
+        },
+        {
+          "success": true,
+          "execution_time_ms": 4730.002145767212,
+          "token_usage_estimated": 1320,
+          "operations_performed": 9,
+          "error_message": null,
+          "quality_score": 8.1
+        }
+      ],
+      "error_patterns": []
+    },
+    "adaptive-complexity-router.md": {
+      "file_size_bytes": 11274,
+      "line_count": 499,
+      "token_count_approx": 1751,
+      "complexity_score": 0.5,
+      "has_thinking_blocks": true,
+      "has_mcp_integration": true,
+      "mean_execution_time_ms": 5246.003957748412,
+      "std_dev_execution_time_ms": 274.2805610959664,
+      "coefficient_of_variation": 0.052283712194088346,
+      "success_rate_percent": 100.0,
+      "claude_compliance_score": 100.0,
+      "execution_samples": [
+        {
+          "success": true,
+          "execution_time_ms": 5100.006437301636,
+          "token_usage_estimated": 2220,
+          "operations_performed": 13,
+          "error_message": null,
+          "quality_score": 7.300000000000001
+        },
+        {
+          "success": true,
+          "execution_time_ms": 5380.004291534423,
+          "token_usage_estimated": 2220,
+          "operations_performed": 13,
+          "error_message": null,
+          "quality_score": 8.100000000000001
+        },
+        {
+          "success": true,
+          "execution_time_ms": 5210.0033378601065,
+          "token_usage_estimated": 2220,
+          "operations_performed": 13,
+          "error_message": null,
+          "quality_score": 8.4
+        },
+        {
+          "success": true,
+          "execution_time_ms": 4910.002861022948,
+          "token_usage_estimated": 2220,
+          "operations_performed": 13,
+          "error_message": null,
+          "quality_score": 7.4
+        },
+        {
+          "success": true,
+          "execution_time_ms": 5630.002861022948,
+          "token_usage_estimated": 2220,
+          "operations_performed": 13,
+          "error_message": null,
+          "quality_score": 8.600000000000001
+        }
+      ],
+      "error_patterns": []
+    },
+    "generate-thinking-command.md": {
+      "file_size_bytes": 3803,
+      "line_count": 137,
+      "token_count_approx": 539,
+      "complexity_score": 1.0,
+      "has_thinking_blocks": true,
+      "has_mcp_integration": true,
+      "mean_execution_time_ms": 13446.003290176392,
+      "std_dev_execution_time_ms": 274.28045113535296,
+      "coefficient_of_variation": 0.020398660123468915,
+      "success_rate_percent": 100.0,
+      "claude_compliance_score": 90.0,
+      "execution_samples": [
+        {
+          "success": true,
+          "execution_time_ms": 13300.005722045898,
+          "token_usage_estimated": 6920,
+          "operations_performed": 21,
+          "error_message": null,
+          "quality_score": 6.2
+        },
+        {
+          "success": true,
+          "execution_time_ms": 13580.003337860107,
+          "token_usage_estimated": 6920,
+          "operations_performed": 21,
+          "error_message": null,
+          "quality_score": 7.0
+        },
+        {
+          "success": true,
+          "execution_time_ms": 13410.00286102295,
+          "token_usage_estimated": 6920,
+          "operations_performed": 21,
+          "error_message": null,
+          "quality_score": 7.3
+        },
+        {
+          "success": true,
+          "execution_time_ms": 13110.002384185793,
+          "token_usage_estimated": 6920,
+          "operations_performed": 21,
+          "error_message": null,
+          "quality_score": 6.3
+        },
+        {
+          "success": true,
+          "execution_time_ms": 13830.002145767212,
+          "token_usage_estimated": 6920,
+          "operations_performed": 21,
+          "error_message": null,
+          "quality_score": 7.5
+        }
+      ],
+      "error_patterns": []
+    },
+    "context-enhanced-executor.md": {
+      "file_size_bytes": 3886,
+      "line_count": 132,
+      "token_count_approx": 551,
+      "complexity_score": 1.0,
+      "has_thinking_blocks": true,
+      "has_mcp_integration": true,
+      "mean_execution_time_ms": 5246.003290176391,
+      "std_dev_execution_time_ms": 274.28051850131965,
+      "coefficient_of_variation": 0.05228371072792394,
+      "success_rate_percent": 100.0,
+      "claude_compliance_score": 90.0,
+      "execution_samples": [
+        {
+          "success": true,
+          "execution_time_ms": 5100.005483627319,
+          "token_usage_estimated": 2220,
+          "operations_performed": 13,
+          "error_message": null,
+          "quality_score": 7.300000000000001
+        },
+        {
+          "success": true,
+          "execution_time_ms": 5380.002861022948,
+          "token_usage_estimated": 2220,
+          "operations_performed": 13,
+          "error_message": null,
+          "quality_score": 8.100000000000001
+        },
+        {
+          "success": true,
+          "execution_time_ms": 5210.002861022948,
+          "token_usage_estimated": 2220,
+          "operations_performed": 13,
+          "error_message": null,
+          "quality_score": 8.4
+        },
+        {
+          "success": true,
+          "execution_time_ms": 4910.002622604369,
+          "token_usage_estimated": 2220,
+          "operations_performed": 13,
+          "error_message": null,
+          "quality_score": 7.4
+        },
+        {
+          "success": true,
+          "execution_time_ms": 5630.002622604369,
+          "token_usage_estimated": 2220,
+          "operations_performed": 13,
+          "error_message": null,
+          "quality_score": 8.600000000000001
+        }
+      ],
+      "error_patterns": []
+    }
+  },
+  "statistical_summary": {
+    "execution_time_stats": {
+      "mean_ms": 8986.00373840332,
+      "median_ms": 5246.003957748412,
+      "std_dev_ms": 5658.445282836651,
+      "min_ms": 4346.0035762786865,
+      "max_ms": 16646.00457763672,
+      "coefficient_of_variation": 0.6296954071646172
+    },
+    "success_rate_stats": {
+      "mean_percent": 100.0,
+      "median_percent": 100.0,
+      "std_dev_percent": 0.0,
+      "worst_performer": 100.0,
+      "best_performer": 100.0
+    },
+    "complexity_stats": {
+      "mean_score": 1.1,
+      "median_score": 1.0,
+      "std_dev_score": 0.5477225575051661,
+      "highest_complexity": 2.0,
+      "lowest_complexity": 0.5
+    },
+    "claude_compliance_stats": {
+      "mean_compliance": 92.0,
+      "median_compliance": 90.0,
+      "std_dev_compliance": 4.47213595499958,
+      "best_compliance": 100.0,
+      "worst_compliance": 90.0
+    }
+  },
+  "savage_commentary": {
+    "overall_verdict": "SURPRISINGLY COMPETENT: 100.0% success rate. Someone actually knows what they're doing.",
+    "individual_roasts": {
+      "ultrathink-interactive.md": [
+        "No thinking blocks detected. How very thoughtless of you.",
+        "673 lines. Because brevity is for amateurs, right?"
+      ],
+      "adhd-hyperfocus-guardian.md": [
+        "No thinking blocks detected. How very thoughtless of you."
+      ],
+      "adaptive-complexity-router.md": [
+        "Actually functional. Miracles do happen."
+      ],
+      "generate-thinking-command.md": [
+        "Actually functional. Miracles do happen."
+      ],
+      "context-enhanced-executor.md": [
+        "Actually functional. Miracles do happen."
+      ]
+    },
+    "statistical_insights": [
+      "Execution time coefficient of variation: 0.630. Performance is all over the place."
+    ],
+    "improvement_recommendations": []
+  }
+}
