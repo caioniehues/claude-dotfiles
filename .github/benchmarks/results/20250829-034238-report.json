@@ -1,0 +1,137 @@
+{
+  "analysis_timestamp": "2025-08-29T03:42:38.332837",
+  "total_commands": 4,
+  "statistical_summary": {
+    "average_complexity": 7.5,
+    "complexity_std_dev": 2.52,
+    "total_token_burn": 29290,
+    "average_tokens_per_command": 7322,
+    "total_cost_per_benchmark": 0.0878,
+    "commands_exceeding_complexity_limit": 4
+  },
+  "savage_rankings": {
+    "most_complex": {
+      "command": "analyze-project-architecture",
+      "complexity_score": 10,
+      "claude_md_violations": [
+        "Design patterns detected (1)",
+        "Configuration complexity (1)",
+        "Meta-thinking complexity",
+        "External MCP dependencies"
+      ],
+      "input_tokens": 2303,
+      "output_tokens": 6303,
+      "total_tokens": 8606,
+      "estimated_execution_seconds": 9.73,
+      "success_probability_percent": 0,
+      "cost_per_run_usd": 0.0258,
+      "file_size_bytes": 9214,
+      "lines_of_code": 274
+    },
+    "most_expensive": {
+      "command": "analyze-project-architecture",
+      "complexity_score": 10,
+      "claude_md_violations": [
+        "Design patterns detected (1)",
+        "Configuration complexity (1)",
+        "Meta-thinking complexity",
+        "External MCP dependencies"
+      ],
+      "input_tokens": 2303,
+      "output_tokens": 6303,
+      "total_tokens": 8606,
+      "estimated_execution_seconds": 9.73,
+      "success_probability_percent": 0,
+      "cost_per_run_usd": 0.0258,
+      "file_size_bytes": 9214,
+      "lines_of_code": 274
+    },
+    "least_reliable": {
+      "command": "reasoning-wrapper",
+      "complexity_score": 8,
+      "claude_md_violations": [
+        "Design patterns detected (1)",
+        "Meta-thinking complexity",
+        "External MCP dependencies"
+      ],
+      "input_tokens": 2540,
+      "output_tokens": 5740,
+      "total_tokens": 8280,
+      "estimated_execution_seconds": 8.15,
+      "success_probability_percent": 0,
+      "cost_per_run_usd": 0.0248,
+      "file_size_bytes": 10162,
+      "lines_of_code": 415
+    }
+  },
+  "detailed_results": [
+    {
+      "command": "reasoning-wrapper",
+      "complexity_score": 8,
+      "claude_md_violations": [
+        "Design patterns detected (1)",
+        "Meta-thinking complexity",
+        "External MCP dependencies"
+      ],
+      "input_tokens": 2540,
+      "output_tokens": 5740,
+      "total_tokens": 8280,
+      "estimated_execution_seconds": 8.15,
+      "success_probability_percent": 0,
+      "cost_per_run_usd": 0.0248,
+      "file_size_bytes": 10162,
+      "lines_of_code": 415
+    },
+    {
+      "command": "ultrathink-pure-xml",
+      "complexity_score": 4,
+      "claude_md_violations": [
+        "Design patterns detected (1)"
+      ],
+      "input_tokens": 2831,
+      "output_tokens": 4431,
+      "total_tokens": 7262,
+      "estimated_execution_seconds": 4.98,
+      "success_probability_percent": 80,
+      "cost_per_run_usd": 0.0218,
+      "file_size_bytes": 11326,
+      "lines_of_code": 472
+    },
+    {
+      "command": "analyze-project-architecture",
+      "complexity_score": 10,
+      "claude_md_violations": [
+        "Design patterns detected (1)",
+        "Configuration complexity (1)",
+        "Meta-thinking complexity",
+        "External MCP dependencies"
+      ],
+      "input_tokens": 2303,
+      "output_tokens": 6303,
+      "total_tokens": 8606,
+      "estimated_execution_seconds": 9.73,
+      "success_probability_percent": 0,
+      "cost_per_run_usd": 0.0258,
+      "file_size_bytes": 9214,
+      "lines_of_code": 274
+    },
+    {
+      "command": "context-enhanced-executor",
+      "complexity_score": 8,
+      "claude_md_violations": [
+        "Design patterns detected (1)",
+        "Meta-thinking complexity",
+        "External MCP dependencies"
+      ],
+      "input_tokens": 971,
+      "output_tokens": 4171,
+      "total_tokens": 5142,
+      "estimated_execution_seconds": 8.0,
+      "success_probability_percent": 0,
+      "cost_per_run_usd": 0.0154,
+      "file_size_bytes": 3886,
+      "lines_of_code": 132
+    }
+  ],
+  "savage_verdict": "Average complexity of 7.5 violates CLAUDE.md standards. This isn't clean code, this is digital spaghetti. Found 11 CLAUDE.md violations across 4 commands. That's a 2:1 violation-to-command ratio - impressive incompetence. These 4 commands cost $0.0878 per benchmark. Running this daily would cost $32.05 annually. Expensive mediocrity."
+}
