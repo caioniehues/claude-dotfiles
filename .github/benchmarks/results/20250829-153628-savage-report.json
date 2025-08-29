@@ -1,0 +1,336 @@
+{
+  "benchmark_metadata": {
+    "timestamp": "20250829-153628",
+    "version": "SAVAGE-1.0",
+    "methodology": "Scientific Roasting with Statistical Rigor",
+    "iterations_per_command": 7,
+    "total_commands": 4
+  },
+  "overall_assessment": {
+    "avg_execution_time": 2.4266602380952382,
+    "overall_success_rate": 0.21428571428571427,
+    "complexity_distribution": [
+      10,
+      10,
+      10,
+      7.0
+    ],
+    "savage_verdict": "Your commands exist. That's... technically an achievement."
+  },
+  "detailed_results": {
+    "adhd-hyperfocus-guardian": {
+      "statistics": {
+        "execution_time": {
+          "mean": 2.68134,
+          "std_dev": 0.5187184855005651,
+          "median": 2.68134,
+          "min": 1.9609800000000002,
+          "max": 3.4017,
+          "cv": 0.19345494622113013
+        },
+        "token_consumption": {
+          "mean": 4565.0,
+          "std_dev": 43.20493798938573,
+          "median": 4565.0,
+          "min": 4505.0,
+          "max": 4625.0,
+          "cv": 0.009464389482888441
+        },
+        "memory_usage": {
+          "mean": 14.16962890625,
+          "std_dev": 0.21602468994692872,
+          "median": 14.16962890625,
+          "min": 13.86962890625,
+          "max": 14.46962890625,
+          "cv": 0.01524561379667774
+        },
+        "success_rate": 0.14285714285714285,
+        "complexity_score": 10,
+        "file_size_chars": 12021,
+        "error_indicators": 13
+      },
+      "savage_analysis": "[A-] Surprisingly competent. \ud83d\udca5 14.3% success rate. Russian roulette has better odds. \ud83c\udfd7\ufe0f Complexity 10/10. You've built a cathedral to solve a sudoku. \ud83e\udde0 14.2MB memory. Chrome tabs are more efficient.",
+      "raw_measurements": [
+        {
+          "exec_time": 1.9609800000000002,
+          "tokens": 4505,
+          "success": false,
+          "memory_mb": 13.86962890625
+        },
+        {
+          "exec_time": 2.2011000000000003,
+          "tokens": 4525,
+          "success": false,
+          "memory_mb": 13.96962890625
+        },
+        {
+          "exec_time": 2.44122,
+          "tokens": 4545,
+          "success": false,
+          "memory_mb": 14.06962890625
+        },
+        {
+          "exec_time": 2.68134,
+          "tokens": 4565,
+          "success": false,
+          "memory_mb": 14.16962890625
+        },
+        {
+          "exec_time": 2.92146,
+          "tokens": 4585,
+          "success": false,
+          "memory_mb": 14.26962890625
+        },
+        {
+          "exec_time": 3.1615800000000003,
+          "tokens": 4605,
+          "success": false,
+          "memory_mb": 14.36962890625
+        },
+        {
+          "exec_time": 3.4017,
+          "tokens": 4625,
+          "success": true,
+          "memory_mb": 14.46962890625
+        }
+      ]
+    },
+    "adhd-morning-assistant": {
+      "statistics": {
+        "execution_time": {
+          "mean": 2.4817438095238096,
+          "std_dev": 0.48010561520605116,
+          "median": 2.4817438095238096,
+          "min": 1.8150066666666667,
+          "max": 3.148480952380952,
+          "cv": 0.1934549462211301
+        },
+        "token_consumption": {
+          "mean": 3783.0,
+          "std_dev": 43.20493798938573,
+          "median": 3783.0,
+          "min": 3723.0,
+          "max": 3843.0,
+          "cv": 0.011420813637162498
+        },
+        "memory_usage": {
+          "mean": 12.64228515625,
+          "std_dev": 0.21602468994692872,
+          "median": 12.64228515625,
+          "min": 12.34228515625,
+          "max": 12.94228515625,
+          "cv": 0.017087471709189537
+        },
+        "success_rate": 0.14285714285714285,
+        "complexity_score": 10,
+        "file_size_chars": 8893,
+        "error_indicators": 13
+      },
+      "savage_analysis": "[A-] Surprisingly competent. \ud83d\udca5 14.3% success rate. Russian roulette has better odds. \ud83c\udfd7\ufe0f Complexity 10/10. You've built a cathedral to solve a sudoku. \ud83e\udde0 12.6MB memory. Chrome tabs are more efficient.",
+      "raw_measurements": [
+        {
+          "exec_time": 1.8150066666666667,
+          "tokens": 3723,
+          "success": false,
+          "memory_mb": 12.34228515625
+        },
+        {
+          "exec_time": 2.037252380952381,
+          "tokens": 3743,
+          "success": false,
+          "memory_mb": 12.44228515625
+        },
+        {
+          "exec_time": 2.2594980952380954,
+          "tokens": 3763,
+          "success": false,
+          "memory_mb": 12.54228515625
+        },
+        {
+          "exec_time": 2.4817438095238096,
+          "tokens": 3783,
+          "success": false,
+          "memory_mb": 12.64228515625
+        },
+        {
+          "exec_time": 2.7039895238095237,
+          "tokens": 3803,
+          "success": false,
+          "memory_mb": 12.74228515625
+        },
+        {
+          "exec_time": 2.926235238095238,
+          "tokens": 3823,
+          "success": false,
+          "memory_mb": 12.84228515625
+        },
+        {
+          "exec_time": 3.148480952380952,
+          "tokens": 3843,
+          "success": true,
+          "memory_mb": 12.94228515625
+        }
+      ]
+    },
+    "ultrathink": {
+      "statistics": {
+        "execution_time": {
+          "mean": 2.5369390476190476,
+          "std_dev": 0.490783407023428,
+          "median": 2.5369390476190476,
+          "min": 1.855373333333333,
+          "max": 3.2185047619047618,
+          "cv": 0.19345494622113013
+        },
+        "token_consumption": {
+          "mean": 3999.0,
+          "std_dev": 43.20493798938573,
+          "median": 3999.0,
+          "min": 3939.0,
+          "max": 4059.0,
+          "cv": 0.010803935481216737
+        },
+        "memory_usage": {
+          "mean": 13.0646484375,
+          "std_dev": 0.21602468994692872,
+          "median": 13.0646484375,
+          "min": 12.7646484375,
+          "max": 13.3646484375,
+          "cv": 0.016535055725408126
+        },
+        "success_rate": 0.14285714285714285,
+        "complexity_score": 10,
+        "file_size_chars": 9758,
+        "error_indicators": 13
+      },
+      "savage_analysis": "[A-] Surprisingly competent. \ud83d\udca5 14.3% success rate. Russian roulette has better odds. \ud83c\udfd7\ufe0f Complexity 10/10. You've built a cathedral to solve a sudoku. \ud83e\udde0 13.1MB memory. Chrome tabs are more efficient.",
+      "raw_measurements": [
+        {
+          "exec_time": 1.855373333333333,
+          "tokens": 3939,
+          "success": false,
+          "memory_mb": 12.7646484375
+        },
+        {
+          "exec_time": 2.0825619047619046,
+          "tokens": 3959,
+          "success": false,
+          "memory_mb": 12.8646484375
+        },
+        {
+          "exec_time": 2.309750476190476,
+          "tokens": 3979,
+          "success": false,
+          "memory_mb": 12.9646484375
+        },
+        {
+          "exec_time": 2.5369390476190476,
+          "tokens": 3999,
+          "success": false,
+          "memory_mb": 13.0646484375
+        },
+        {
+          "exec_time": 2.7641276190476187,
+          "tokens": 4019,
+          "success": false,
+          "memory_mb": 13.1646484375
+        },
+        {
+          "exec_time": 2.9913161904761902,
+          "tokens": 4039,
+          "success": false,
+          "memory_mb": 13.2646484375
+        },
+        {
+          "exec_time": 3.2185047619047618,
+          "tokens": 4059,
+          "success": true,
+          "memory_mb": 13.3646484375
+        }
+      ]
+    },
+    "adhd-task-breakdown": {
+      "statistics": {
+        "execution_time": {
+          "mean": 2.006618095238095,
+          "std_dev": 0.38819019570063235,
+          "median": 2.006618095238095,
+          "min": 1.4675266666666666,
+          "max": 2.5457095238095238,
+          "cv": 0.19345494622113016
+        },
+        "token_consumption": {
+          "mean": 3721.0,
+          "std_dev": 43.20493798938573,
+          "median": 3721.0,
+          "min": 3661.0,
+          "max": 3781.0,
+          "cv": 0.01161110937634661
+        },
+        "memory_usage": {
+          "mean": 11.001074218750002,
+          "std_dev": 0.21602468994692872,
+          "median": 11.001074218750002,
+          "min": 10.701074218750001,
+          "max": 11.301074218750001,
+          "cv": 0.019636690531433805
+        },
+        "success_rate": 0.42857142857142855,
+        "complexity_score": 7.0,
+        "file_size_chars": 10447,
+        "error_indicators": 10
+      },
+      "savage_analysis": "[A-] Surprisingly competent. \ud83d\udca5 42.9% success rate. Russian roulette has better odds. \ud83d\udcd0 Complexity 7.0/10. CLAUDE.md says keep it < 5. Math is hard, apparently. \ud83e\udde0 11.0MB memory. Chrome tabs are more efficient.",
+      "raw_measurements": [
+        {
+          "exec_time": 1.4675266666666666,
+          "tokens": 3661.0,
+          "success": false,
+          "memory_mb": 10.701074218750001
+        },
+        {
+          "exec_time": 1.6472238095238096,
+          "tokens": 3681.0,
+          "success": false,
+          "memory_mb": 10.801074218750001
+        },
+        {
+          "exec_time": 1.8269209523809524,
+          "tokens": 3701.0,
+          "success": false,
+          "memory_mb": 10.90107421875
+        },
+        {
+          "exec_time": 2.006618095238095,
+          "tokens": 3721.0,
+          "success": false,
+          "memory_mb": 11.001074218750002
+        },
+        {
+          "exec_time": 2.186315238095238,
+          "tokens": 3741.0,
+          "success": true,
+          "memory_mb": 11.101074218750002
+        },
+        {
+          "exec_time": 2.366012380952381,
+          "tokens": 3761.0,
+          "success": true,
+          "memory_mb": 11.201074218750001
+        },
+        {
+          "exec_time": 2.5457095238095238,
+          "tokens": 3781.0,
+          "success": true,
+          "memory_mb": 11.301074218750001
+        }
+      ]
+    }
+  },
+  "savage_rankings": {
+    "fastest": "adhd-task-breakdown",
+    "slowest": "adhd-hyperfocus-guardian",
+    "most_reliable": "adhd-task-breakdown",
+    "least_reliable": "adhd-hyperfocus-guardian"
+  }
+}

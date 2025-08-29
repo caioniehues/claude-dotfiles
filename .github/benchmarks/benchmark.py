@@ -113,27 +113,66 @@ class SavageCommandBenchmarker:
         success_rate = sum(1 for r in results if r.success) / len(results)
         avg_complexity = results[0].complexity_score
         exec_stats = self.calculate_stats(exec_times)
+        token_stats = self.calculate_stats([r.token_count_estimate for r in results])
+        memory_stats = self.calculate_stats([r.memory_usage_mb for r in results])
         
         roasts = []
-        if exec_stats['mean'] > 3.0:
-            roasts.append(f"🐌 Takes {exec_stats['mean']:.2f}s on average. That's enough time to reconsider your entire tech stack.")
-        elif exec_stats['cv'] > 0.5:
-            roasts.append(f"🎲 CV={exec_stats['cv']:.2f}. This isn't 'adaptive intelligence', it's random number generation.")
         
-        if success_rate < 0.7:
-            roasts.append(f"💥 {success_rate:.1%} success rate. A coin flip has better reliability.")
-        elif success_rate < 0.9:
-            roasts.append(f"⚠️ {success_rate:.1%} success rate. 'Works most of the time' is not a feature.")
+        # Performance roasting with statistical backing
+        if exec_stats['mean'] > 4.0:
+            roasts.append(f"🐌 {exec_stats['mean']:.2f}s execution (σ={exec_stats['std_dev']:.2f}). Loading a webpage is faster.")
+        elif exec_stats['cv'] > 0.6:
+            roasts.append(f"🎲 Coefficient of variation: {exec_stats['cv']:.2f}. This isn't intelligence, it's dice rolling.")
         
-        if avg_complexity > 8:
-            roasts.append(f"🧠 Complexity score {avg_complexity}/10. This is over-engineering disguised as intelligence.")
-        elif avg_complexity < 3:
-            roasts.append(f"🧸 Complexity score {avg_complexity}/10. A shell script could do this job.")
+        # Reliability roasting
+        if success_rate < 0.6:
+            roasts.append(f"💥 {success_rate:.1%} success rate. Russian roulette has better odds.")
+        elif success_rate < 0.8:
+            roasts.append(f"⚠️ {success_rate:.1%} success rate. 'Usually works' isn't a selling point.")
         
-        if exec_stats['std_dev'] > exec_stats['mean']:
-            roasts.append(f"📊 σ > μ. Your variance exceeds your mean. That's not intelligence, that's chaos.")
+        # Complexity roasting based on CLAUDE.md rules
+        if avg_complexity > 7:
+            roasts.append(f"🏗️ Complexity {avg_complexity}/10. You've built a cathedral to solve a sudoku.")
+        elif avg_complexity > 5:
+            roasts.append(f"📐 Complexity {avg_complexity}/10. CLAUDE.md says keep it < 5. Math is hard, apparently.")
+        elif avg_complexity < 2:
+            roasts.append(f"🧸 Complexity {avg_complexity}/10. My calculator has more features.")
         
-        return " ".join(roasts) if roasts else "😐 Surprisingly unremarkable. Mediocrity achieved with scientific precision."
+        # Token efficiency roasting
+        if token_stats['mean'] > 5000:
+            roasts.append(f"💸 {token_stats['mean']:.0f} tokens on average. Writing a novel would be more efficient.")
+        elif token_stats['cv'] > 0.4:
+            roasts.append(f"📊 Token variance {token_stats['cv']:.2f}. Consistent bloat is still bloat.")
+        
+        # Memory usage roasting
+        if memory_stats['mean'] > 10:
+            roasts.append(f"🧠 {memory_stats['mean']:.1f}MB memory. Chrome tabs are more efficient.")
+        
+        # Statistical chaos detection
+        if exec_stats['std_dev'] > exec_stats['mean'] * 0.8:
+            roasts.append(f"📊 σ/μ = {exec_stats['cv']:.2f}. This has the statistical consistency of weather forecasting.")
+        
+        # Grade assignment
+        overall_score = (success_rate * 40) + (max(0, 10-avg_complexity) * 10) + (max(0, 100-exec_stats['mean']) * 5) + (max(0, 50-exec_stats['cv']*100) * 2)
+        
+        if overall_score >= 80:
+            grade = "A-" if roasts else "A"
+            verdict = "Surprisingly competent" if roasts else "Actually good (shocking)"
+        elif overall_score >= 70:
+            grade = "B"
+            verdict = "Functional mediocrity"
+        elif overall_score >= 60:
+            grade = "C"
+            verdict = "Barely acceptable"
+        elif overall_score >= 50:
+            grade = "D"
+            verdict = "Needs intensive therapy"
+        else:
+            grade = "F"
+            verdict = "Delete and start over"
+            
+        full_analysis = f"[{grade}] {verdict}. " + " ".join(roasts) if roasts else f"[{grade}] {verdict}."
+        return full_analysis
 
 def main():
     print("🔬 SAVAGE COMMAND BENCHMARKER v1.0")
@@ -143,11 +182,10 @@ def main():
     benchmarker = SavageCommandBenchmarker()
     
     commands = [
-        "/home/runner/work/claude-dotfiles/claude-dotfiles/commands/adhd-evening-reflect.md",
-        "/home/runner/work/claude-dotfiles/claude-dotfiles/commands/git-backup-sync.md",
-        "/home/runner/work/claude-dotfiles/claude-dotfiles/commands/context-enhanced-executor.md", 
-        "/home/runner/work/claude-dotfiles/claude-dotfiles/commands/generate-thinking-command.md",
-        "/home/runner/work/claude-dotfiles/claude-dotfiles/commands/safe-code-beautifier.md"
+        "/home/runner/work/claude-dotfiles/claude-dotfiles/commands/adhd-hyperfocus-guardian.md",
+        "/home/runner/work/claude-dotfiles/claude-dotfiles/commands/adhd-morning-assistant.md",
+        "/home/runner/work/claude-dotfiles/claude-dotfiles/commands/ultrathink.md",
+        "/home/runner/work/claude-dotfiles/claude-dotfiles/commands/adhd-task-breakdown.md"
     ]
     
     all_results = {}
