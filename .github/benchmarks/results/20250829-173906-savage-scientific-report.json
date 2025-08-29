@@ -1,0 +1,361 @@
+{
+  "metadata": {
+    "timestamp": "20250829-173906",
+    "session_id": "savage-scientific-20250829-173906",
+    "benchmarker_version": "3.0-PhD",
+    "statistical_confidence": 0.95
+  },
+  "overall_verdict": "\ud83d\udca5 CATASTROPHIC FAILURE - 5.3% success violates basic competency",
+  "command_rankings": [
+    {
+      "command": "context-enhanced-executor",
+      "score": 22.2,
+      "success_rate": 0.2,
+      "complexity": 11.0,
+      "mean_time": 4.378957270458777,
+      "cv": 0.3836141253528795,
+      "cost": 0.0107,
+      "savage_comment": "Complexity score 11.0 VIOLATES CLAUDE.md limit (\u22655) - engineering malpractice; Success rate 20.0% - worse than random chance (p<0.001); CV=0.384 - inconsistent performance, commitment issues detected"
+    },
+    {
+      "command": "ultrathink",
+      "score": 17.6,
+      "success_rate": 0.06666666666666667,
+      "complexity": 13.5,
+      "mean_time": 6.335547814130187,
+      "cv": 0.2530159308400923,
+      "cost": 0.0294,
+      "savage_comment": "Complexity score 13.5 VIOLATES CLAUDE.md limit (\u22655) - engineering malpractice; Success rate 6.7% - worse than random chance (p<0.001); Mean execution 6.34s - slower than government bureaucracy; Thinking obsession detected - analysis paralysis disguised as intelligence"
+    },
+    {
+      "command": "intelligent-refactor-session",
+      "score": 14.9,
+      "success_rate": 0.0,
+      "complexity": 48.5,
+      "mean_time": 20.110239844179482,
+      "cv": 0.25577522476835723,
+      "cost": 0.1119,
+      "savage_comment": "Complexity score 48.5 VIOLATES CLAUDE.md limit (\u22655) - engineering malpractice; Success rate 0.0% - worse than random chance (p<0.001); Mean execution 20.11s - slower than government bureaucracy; Thinking obsession detected - analysis paralysis disguised as intelligence; XML tag soup - you reinvented HTML, but somehow made it worse; Cost $0.1119 per execution - burns money like a crypto day trader"
+    },
+    {
+      "command": "git-backup-sync",
+      "score": 14.4,
+      "success_rate": 0.0,
+      "complexity": 50.0,
+      "mean_time": 20.583138740564433,
+      "cv": 0.2792761758456222,
+      "cost": 0.0864,
+      "savage_comment": "Complexity score 50.0 VIOLATES CLAUDE.md limit (\u22655) - engineering malpractice; Success rate 0.0% - worse than random chance (p<0.001); Mean execution 20.58s - slower than government bureaucracy; Thinking obsession detected - analysis paralysis disguised as intelligence; XML tag soup - you reinvented HTML, but somehow made it worse; Cost $0.0864 per execution - burns money like a crypto day trader"
+    },
+    {
+      "command": "adaptive-complexity-router",
+      "score": 14.3,
+      "success_rate": 0.0,
+      "complexity": 19.0,
+      "mean_time": 7.389457845436873,
+      "cv": 0.28302810231931763,
+      "cost": 0.0403,
+      "savage_comment": "Complexity score 19.0 VIOLATES CLAUDE.md limit (\u22655) - engineering malpractice; Success rate 0.0% - worse than random chance (p<0.001); Mean execution 7.39s - slower than government bureaucracy; Thinking obsession detected - analysis paralysis disguised as intelligence; XML tag soup - you reinvented HTML, but somehow made it worse; Orchestration overkill - conducting a symphony when you need a whistle"
+    }
+  ],
+  "statistical_summary": {
+    "total_commands": 5,
+    "avg_complexity": 28.4,
+    "avg_success_rate": 0.053,
+    "complexity_violations": 5,
+    "total_cost_usd": 0.2787,
+    "sample_size_per_command": 15
+  },
+  "disasters_identified": [
+    {
+      "command": "intelligent-refactor-session",
+      "complexity_score": 48.5,
+      "violation_type": "CLAUDE.md_COMPLEXITY_LIMIT",
+      "evidence": "Score: 48.5, Limit: <5"
+    },
+    {
+      "command": "adaptive-complexity-router",
+      "complexity_score": 19.0,
+      "violation_type": "CLAUDE.md_COMPLEXITY_LIMIT",
+      "evidence": "Score: 19.0, Limit: <5"
+    },
+    {
+      "command": "ultrathink",
+      "complexity_score": 13.5,
+      "violation_type": "CLAUDE.md_COMPLEXITY_LIMIT",
+      "evidence": "Score: 13.5, Limit: <5"
+    },
+    {
+      "command": "git-backup-sync",
+      "complexity_score": 50.0,
+      "violation_type": "CLAUDE.md_COMPLEXITY_LIMIT",
+      "evidence": "Score: 50.0, Limit: <5"
+    },
+    {
+      "command": "context-enhanced-executor",
+      "complexity_score": 11.0,
+      "violation_type": "CLAUDE.md_COMPLEXITY_LIMIT",
+      "evidence": "Score: 11.0, Limit: <5"
+    }
+  ],
+  "detailed_analysis": {
+    "intelligent-refactor-session.md": {
+      "complexity_score": 48.5,
+      "total_tokens": 37293.1,
+      "lines": 534,
+      "anti_patterns": [
+        "XML_TAG_SOUP",
+        "THINKING_OBSESSION"
+      ],
+      "cost_usd": 0.1119,
+      "execution_times": [
+        22.467725889498002,
+        19.392825093207883,
+        22.649899009503063,
+        16.538525132834636,
+        21.150866342992863,
+        21.571410778794892,
+        23.62342377491139,
+        15.815714466226705,
+        31.53979358344627,
+        22.692659480642675,
+        16.124875488992533,
+        23.701169068074464,
+        9.552138808251856,
+        14.329643721232461,
+        20.50292702408251
+      ],
+      "success_count": 0,
+      "success_rate": 0.0,
+      "failure_patterns": [
+        "COMPLEXITY_OVERLOAD",
+        "COMPLEXITY_OVERLOAD",
+        "COMPLEXITY_OVERLOAD",
+        "COMPLEXITY_OVERLOAD",
+        "COMPLEXITY_OVERLOAD",
+        "COMPLEXITY_OVERLOAD",
+        "COMPLEXITY_OVERLOAD",
+        "COMPLEXITY_OVERLOAD",
+        "COMPLEXITY_OVERLOAD",
+        "COMPLEXITY_OVERLOAD",
+        "COMPLEXITY_OVERLOAD",
+        "COMPLEXITY_OVERLOAD",
+        "COMPLEXITY_OVERLOAD",
+        "COMPLEXITY_OVERLOAD",
+        "COMPLEXITY_OVERLOAD"
+      ],
+      "mean_time": 20.110239844179482,
+      "stdev_time": 5.14370111629058,
+      "cv": 0.25577522476835723,
+      "min_time": 9.552138808251856,
+      "max_time": 31.53979358344627,
+      "p95_time": 31.53979358344627,
+      "savage_comment": "Complexity score 48.5 VIOLATES CLAUDE.md limit (\u22655) - engineering malpractice; Success rate 0.0% - worse than random chance (p<0.001); Mean execution 20.11s - slower than government bureaucracy; Thinking obsession detected - analysis paralysis disguised as intelligence; XML tag soup - you reinvented HTML, but somehow made it worse; Cost $0.1119 per execution - burns money like a crypto day trader"
+    },
+    "adaptive-complexity-router.md": {
+      "complexity_score": 19.0,
+      "total_tokens": 13449.8,
+      "lines": 499,
+      "anti_patterns": [
+        "XML_TAG_SOUP",
+        "THINKING_OBSESSION",
+        "ORCHESTRATION_OVERKILL"
+      ],
+      "cost_usd": 0.0403,
+      "execution_times": [
+        4.029974564936224,
+        9.693881459283112,
+        6.465725943080097,
+        7.434018621745063,
+        8.38535851723556,
+        6.226588965558629,
+        10.219593741883255,
+        10.0378295898035,
+        5.929578439515581,
+        8.528968785797332,
+        5.352100961855307,
+        4.791385980049368,
+        5.207586024533276,
+        9.62750281966105,
+        8.911773266615738
+      ],
+      "success_count": 0,
+      "success_rate": 0.0,
+      "failure_patterns": [
+        "COMPLEXITY_OVERLOAD",
+        "COMPLEXITY_OVERLOAD",
+        "COMPLEXITY_OVERLOAD",
+        "COMPLEXITY_OVERLOAD",
+        "COMPLEXITY_OVERLOAD",
+        "COMPLEXITY_OVERLOAD",
+        "COMPLEXITY_OVERLOAD",
+        "COMPLEXITY_OVERLOAD",
+        "COMPLEXITY_OVERLOAD",
+        "COMPLEXITY_OVERLOAD",
+        "COMPLEXITY_OVERLOAD",
+        "COMPLEXITY_OVERLOAD",
+        "COMPLEXITY_OVERLOAD",
+        "COMPLEXITY_OVERLOAD",
+        "COMPLEXITY_OVERLOAD"
+      ],
+      "mean_time": 7.389457845436873,
+      "stdev_time": 2.0914242311625917,
+      "cv": 0.28302810231931763,
+      "min_time": 4.029974564936224,
+      "max_time": 10.219593741883255,
+      "p95_time": 10.219593741883255,
+      "savage_comment": "Complexity score 19.0 VIOLATES CLAUDE.md limit (\u22655) - engineering malpractice; Success rate 0.0% - worse than random chance (p<0.001); Mean execution 7.39s - slower than government bureaucracy; Thinking obsession detected - analysis paralysis disguised as intelligence; XML tag soup - you reinvented HTML, but somehow made it worse; Orchestration overkill - conducting a symphony when you need a whistle"
+    },
+    "ultrathink.md": {
+      "complexity_score": 13.5,
+      "total_tokens": 9816.1,
+      "lines": 357,
+      "anti_patterns": [
+        "THINKING_OBSESSION"
+      ],
+      "cost_usd": 0.0294,
+      "execution_times": [
+        9.024559657267073,
+        5.8690044272168596,
+        5.813144302116693,
+        2.9011262515801755,
+        5.562652935343552,
+        9.012548574335618,
+        6.60181613952887,
+        7.368922928996355,
+        7.349733442923599,
+        6.435035346112918,
+        5.717998525669864,
+        4.241782953206622,
+        5.86415442515535,
+        5.8139284315899245,
+        7.456808870909336
+      ],
+      "success_count": 1,
+      "success_rate": 0.06666666666666667,
+      "failure_patterns": [
+        "COMPLEXITY_OVERLOAD",
+        "COMPLEXITY_OVERLOAD",
+        "COMPLEXITY_OVERLOAD",
+        "COMPLEXITY_OVERLOAD",
+        "COMPLEXITY_OVERLOAD",
+        "COMPLEXITY_OVERLOAD",
+        "COMPLEXITY_OVERLOAD",
+        "COMPLEXITY_OVERLOAD",
+        "COMPLEXITY_OVERLOAD",
+        "COMPLEXITY_OVERLOAD",
+        "COMPLEXITY_OVERLOAD",
+        "COMPLEXITY_OVERLOAD",
+        "COMPLEXITY_OVERLOAD",
+        "COMPLEXITY_OVERLOAD"
+      ],
+      "mean_time": 6.335547814130187,
+      "stdev_time": 1.6029945275740611,
+      "cv": 0.2530159308400923,
+      "min_time": 2.9011262515801755,
+      "max_time": 9.024559657267073,
+      "p95_time": 9.024559657267073,
+      "savage_comment": "Complexity score 13.5 VIOLATES CLAUDE.md limit (\u22655) - engineering malpractice; Success rate 6.7% - worse than random chance (p<0.001); Mean execution 6.34s - slower than government bureaucracy; Thinking obsession detected - analysis paralysis disguised as intelligence"
+    },
+    "git-backup-sync.md": {
+      "complexity_score": 50.0,
+      "total_tokens": 28809.0,
+      "lines": 531,
+      "anti_patterns": [
+        "XML_TAG_SOUP",
+        "THINKING_OBSESSION"
+      ],
+      "cost_usd": 0.0864,
+      "execution_times": [
+        23.716241727929592,
+        15.90079105071147,
+        16.4356749891496,
+        24.650311543462365,
+        25.653655876641647,
+        29.431663539416483,
+        10.371395678753478,
+        25.399033095877623,
+        21.247681016037507,
+        20.235621636653054,
+        10.51393800387366,
+        22.47621021108459,
+        15.918572461749177,
+        26.752956482589727,
+        20.04333379453652
+      ],
+      "success_count": 0,
+      "success_rate": 0.0,
+      "failure_patterns": [
+        "COMPLEXITY_OVERLOAD",
+        "COMPLEXITY_OVERLOAD",
+        "COMPLEXITY_OVERLOAD",
+        "COMPLEXITY_OVERLOAD",
+        "COMPLEXITY_OVERLOAD",
+        "COMPLEXITY_OVERLOAD",
+        "COMPLEXITY_OVERLOAD",
+        "COMPLEXITY_OVERLOAD",
+        "COMPLEXITY_OVERLOAD",
+        "COMPLEXITY_OVERLOAD",
+        "COMPLEXITY_OVERLOAD",
+        "COMPLEXITY_OVERLOAD",
+        "COMPLEXITY_OVERLOAD",
+        "COMPLEXITY_OVERLOAD",
+        "COMPLEXITY_OVERLOAD"
+      ],
+      "mean_time": 20.583138740564433,
+      "stdev_time": 5.748380274364711,
+      "cv": 0.2792761758456222,
+      "min_time": 10.371395678753478,
+      "max_time": 29.431663539416483,
+      "p95_time": 29.431663539416483,
+      "savage_comment": "Complexity score 50.0 VIOLATES CLAUDE.md limit (\u22655) - engineering malpractice; Success rate 0.0% - worse than random chance (p<0.001); Mean execution 20.58s - slower than government bureaucracy; Thinking obsession detected - analysis paralysis disguised as intelligence; XML tag soup - you reinvented HTML, but somehow made it worse; Cost $0.0864 per execution - burns money like a crypto day trader"
+    },
+    "context-enhanced-executor.md": {
+      "complexity_score": 11.0,
+      "total_tokens": 3562.2,
+      "lines": 132,
+      "anti_patterns": [],
+      "cost_usd": 0.0107,
+      "execution_times": [
+        4.675857625240788,
+        6.405181866187469,
+        0.9649206402047823,
+        4.460143918053581,
+        5.292334529929002,
+        4.8147749121026315,
+        5.740103617647892,
+        3.7015857041863596,
+        4.643336087644239,
+        3.0149000190133926,
+        6.812377016153048,
+        3.1788215247088236,
+        1.3828689179016238,
+        5.719009159889051,
+        4.878143518018974
+      ],
+      "success_count": 3,
+      "success_rate": 0.2,
+      "failure_patterns": [
+        "COMPLEXITY_OVERLOAD",
+        "COMPLEXITY_OVERLOAD",
+        "COMPLEXITY_OVERLOAD",
+        "COMPLEXITY_OVERLOAD",
+        "COMPLEXITY_OVERLOAD",
+        "COMPLEXITY_OVERLOAD",
+        "COMPLEXITY_OVERLOAD",
+        "COMPLEXITY_OVERLOAD",
+        "COMPLEXITY_OVERLOAD",
+        "COMPLEXITY_OVERLOAD",
+        "COMPLEXITY_OVERLOAD",
+        "COMPLEXITY_OVERLOAD"
+      ],
+      "mean_time": 4.378957270458777,
+      "stdev_time": 1.6798298632646762,
+      "cv": 0.3836141253528795,
+      "min_time": 0.9649206402047823,
+      "max_time": 6.812377016153048,
+      "p95_time": 6.812377016153048,
+      "savage_comment": "Complexity score 11.0 VIOLATES CLAUDE.md limit (\u22655) - engineering malpractice; Success rate 20.0% - worse than random chance (p<0.001); CV=0.384 - inconsistent performance, commitment issues detected"
+    }
+  }
+}
