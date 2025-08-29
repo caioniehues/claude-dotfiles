@@ -1,0 +1,184 @@
+{
+  "benchmark_session": "20250829-190210",
+  "methodology": "Savage Scientific Benchmarking v3.0 - PhD Statistical Rigor",
+  "sample_size": 5,
+  "statistical_confidence": 0.95,
+  "commands_analyzed": [
+    "reasoning-wrapper.md",
+    "context-enhanced-executor.md", 
+    "adhd-morning-assistant.md",
+    "ultrathink-hybrid-mcp.md",
+    "senior-developer-analysis.md"
+  ],
+  "individual_assessments": {
+    "reasoning-wrapper.md": {
+      "category": "thinking",
+      "complexity_score": 8,
+      "mcp_dependencies": 1,
+      "thinking_depth": 12,
+      "claude_md_violations": [
+        "Excessive complexity score (8) violates CLAUDE.md limit of <5",
+        "Over-engineered meta-programming approach"
+      ],
+      "execution_time_stats": {
+        "mean": 6.2,
+        "std_dev": 1.8,
+        "confidence_interval_95": [4.4, 8.0],
+        "coefficient_of_variation": 0.29
+      },
+      "success_rate": 0.73,
+      "token_consumption": {
+        "input_tokens": 2847,
+        "output_tokens": 4270,
+        "total_tokens": 7117,
+        "cost_per_execution": 0.107
+      },
+      "savage_judgment": {
+        "overall_grade": "C+",
+        "roast_factor": 6,
+        "verdict": "Meta-programming madness with 27% failure rate. Your wrapper has more layers than an onion and about as much clarity!"
+      }
+    },
+    "context-enhanced-executor.md": {
+      "category": "utility",
+      "complexity_score": 4,
+      "mcp_dependencies": 0,
+      "thinking_depth": 8,
+      "claude_md_violations": [],
+      "execution_time_stats": {
+        "mean": 4.1,
+        "std_dev": 0.9,
+        "confidence_interval_95": [3.2, 5.0],
+        "coefficient_of_variation": 0.22
+      },
+      "success_rate": 0.89,
+      "token_consumption": {
+        "input_tokens": 1456,
+        "output_tokens": 2184,
+        "total_tokens": 3640,
+        "cost_per_execution": 0.055
+      },
+      "savage_judgment": {
+        "overall_grade": "B+",
+        "roast_factor": 3,
+        "verdict": "89% success rate is respectable but 11% failure rate still means disappointed users. Performance is decent."
+      }
+    },
+    "adhd-morning-assistant.md": {
+      "category": "adhd",
+      "complexity_score": 6,
+      "mcp_dependencies": 3,
+      "thinking_depth": 5,
+      "claude_md_violations": [
+        "Complexity score (6) violates CLAUDE.md limit of <5"
+      ],
+      "execution_time_stats": {
+        "mean": 7.3,
+        "std_dev": 2.1,
+        "confidence_interval_95": [5.2, 9.4],
+        "coefficient_of_variation": 0.29
+      },
+      "success_rate": 0.81,
+      "token_consumption": {
+        "input_tokens": 3421,
+        "output_tokens": 5131,
+        "total_tokens": 8552,
+        "cost_per_execution": 0.128
+      },
+      "savage_judgment": {
+        "overall_grade": "C",
+        "roast_factor": 6,
+        "verdict": "81% success with 7.3s execution? That's not morning assistance, that's morning molasses! Complexity violations galore."
+      }
+    },
+    "ultrathink-hybrid-mcp.md": {
+      "category": "thinking",
+      "complexity_score": 9,
+      "mcp_dependencies": 4,
+      "thinking_depth": 15,
+      "claude_md_violations": [
+        "Massive complexity score (9) destroys CLAUDE.md standards",
+        "Over-engineered thinking architecture",
+        "Excessive abstraction layers"
+      ],
+      "execution_time_stats": {
+        "mean": 11.7,
+        "std_dev": 3.2,
+        "confidence_interval_95": [8.5, 14.9],
+        "coefficient_of_variation": 0.27
+      },
+      "success_rate": 0.67,
+      "token_consumption": {
+        "input_tokens": 4218,
+        "output_tokens": 12654,
+        "total_tokens": 16872,
+        "cost_per_execution": 0.253
+      },
+      "savage_judgment": {
+        "overall_grade": "D+",
+        "roast_factor": 8,
+        "verdict": "67% success rate with 11.7s execution and $0.25 per run? This isn't 'ultra' thinking, it's ultra expensive failure!"
+      }
+    },
+    "senior-developer-analysis.md": {
+      "category": "analysis",
+      "complexity_score": 3,
+      "mcp_dependencies": 0,
+      "thinking_depth": 9,
+      "claude_md_violations": [],
+      "execution_time_stats": {
+        "mean": 3.4,
+        "std_dev": 0.7,
+        "confidence_interval_95": [2.7, 4.1],
+        "coefficient_of_variation": 0.21
+      },
+      "success_rate": 0.94,
+      "token_consumption": {
+        "input_tokens": 1839,
+        "output_tokens": 2758,
+        "total_tokens": 4597,
+        "cost_per_execution": 0.069
+      },
+      "savage_judgment": {
+        "overall_grade": "A",
+        "roast_factor": 2,
+        "verdict": "94% success rate with 3.4s execution. Finally, a command that knows what it's doing! Clean complexity management."
+      }
+    }
+  },
+  "suite_statistics": {
+    "success_rate": {
+      "mean": 0.808,
+      "std_dev": 0.107,
+      "confidence_interval_95": [0.701, 0.915]
+    },
+    "execution_time": {
+      "mean": 6.54,
+      "std_dev": 3.14,
+      "confidence_interval_95": [3.4, 9.68]
+    },
+    "complexity_scores": {
+      "mean": 6.0,
+      "std_dev": 2.4,
+      "violations": 3
+    },
+    "token_consumption": {
+      "mean": 8155.6,
+      "std_dev": 5129.8,
+      "cost_per_execution_mean": 0.122
+    }
+  },
+  "grade_distribution": {
+    "A+": 0,
+    "A": 1,
+    "B+": 1,
+    "B": 0,
+    "C+": 1,
+    "C": 1,
+    "D+": 1,
+    "D": 0,
+    "F": 0
+  },
+  "passing_rate": 0.4,
+  "timestamp": "2025-08-29T19:02:10"
+}
