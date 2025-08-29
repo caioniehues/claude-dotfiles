@@ -1,0 +1,112 @@
+{
+  "timestamp": "20250829-080544",
+  "benchmarks": {
+    "adhd-context-switch": {
+      "name": "adhd-context-switch",
+      "metrics": {
+        "total_lines": 399,
+        "thinking_blocks": 0,
+        "code_blocks": 13,
+        "mcp_calls": 4,
+        "xml_tags": 14,
+        "complexity_score": 3,
+        "char_count": 9885,
+        "estimated_tokens": 2471
+      },
+      "savage_score": 0,
+      "grade": "A",
+      "roasts": []
+    },
+    "intelligent-refactor-session": {
+      "name": "intelligent-refactor-session",
+      "metrics": {
+        "total_lines": 534,
+        "thinking_blocks": 31,
+        "code_blocks": 8,
+        "mcp_calls": 1,
+        "xml_tags": 35,
+        "complexity_score": 7,
+        "char_count": 16531,
+        "estimated_tokens": 4132
+      },
+      "savage_score": 6,
+      "grade": "F",
+      "roasts": [
+        "Complexity 7 - CLAUDE.md violation detected!",
+        "534 lines - Tolstoy would be proud!",
+        "Thinking ratio 3.9 - less philosophy, more engineering!"
+      ]
+    },
+    "git-backup-sync": {
+      "name": "git-backup-sync",
+      "metrics": {
+        "total_lines": 531,
+        "thinking_blocks": 17,
+        "code_blocks": 18,
+        "mcp_calls": 2,
+        "xml_tags": 34,
+        "complexity_score": 6,
+        "char_count": 12474,
+        "estimated_tokens": 3118
+      },
+      "savage_score": 5,
+      "grade": "F",
+      "roasts": [
+        "Complexity 6 - CLAUDE.md violation detected!",
+        "531 lines - Tolstoy would be proud!"
+      ]
+    },
+    "analyze-project-architecture": {
+      "name": "analyze-project-architecture",
+      "metrics": {
+        "total_lines": 274,
+        "thinking_blocks": 12,
+        "code_blocks": 1,
+        "mcp_calls": 1,
+        "xml_tags": 18,
+        "complexity_score": 7,
+        "char_count": 9214,
+        "estimated_tokens": 2303
+      },
+      "savage_score": 4,
+      "grade": "C",
+      "roasts": [
+        "Complexity 7 - CLAUDE.md violation detected!",
+        "Thinking ratio 12.0 - less philosophy, more engineering!"
+      ]
+    },
+    "adhd-hyperfocus-guardian": {
+      "name": "adhd-hyperfocus-guardian",
+      "metrics": {
+        "total_lines": 457,
+        "thinking_blocks": 0,
+        "code_blocks": 12,
+        "mcp_calls": 5,
+        "xml_tags": 14,
+        "complexity_score": 3,
+        "char_count": 12021,
+        "estimated_tokens": 3005
+      },
+      "savage_score": 0,
+      "grade": "A",
+      "roasts": []
+    }
+  },
+  "statistics": {
+    "complexity_mean": 5.2,
+    "complexity_stdev": 2.04939015319192,
+    "lines_mean": 439,
+    "claude_md_violations": 3,
+    "total_commands": 5,
+    "violation_rate": 60.0
+  },
+  "leaderboard": {
+    "hall_of_shame": "intelligent-refactor-session",
+    "hall_of_fame": "adhd-context-switch",
+    "grade_distribution": {
+      "C": 1,
+      "A": 2,
+      "F": 2
+    }
+  }
+}
