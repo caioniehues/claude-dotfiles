@@ -1,72 +1,83 @@
-[
-  {
-    "command": "ultrathink-pure-xml.md",
-    "line_count": 472,
-    "estimated_input_tokens": 5900,
-    "xml_blocks": 45,
-    "thinking_blocks": 9,
-    "mcp_dependencies": 0,
-    "template_variables": 35,
-    "max_nesting_depth": 4,
-    "complexity_score": 6,
-    "estimated_response_time_sec": 5.800000000000001,
-    "maintainability_score": 4,
-    "reusability_factor": 0.65
+{
+  "timestamp": "2025-08-29T16:40:55.238859",
+  "analysis": {
+    "adhd-hyperfocus-guardian.md": {
+      "structural_complexity": {
+        "thinking_blocks": 7,
+        "xml_sections": 8,
+        "code_blocks": 12,
+        "mcp_integrations": 5,
+        "nested_levels": 4
+      },
+      "cognitive_load": 9,
+      "maintenance_burden": 8,
+      "abstraction_penalty": 6,
+      "coupling_score": 7,
+      "total_complexity": 37
+    },
+    "analyze-project-architecture.md": {
+      "structural_complexity": {
+        "thinking_blocks": 6,
+        "xml_sections": 5,
+        "code_blocks": 4,
+        "mcp_integrations": 1,
+        "nested_levels": 3
+      },
+      "cognitive_load": 6,
+      "maintenance_burden": 5,
+      "abstraction_penalty": 4,
+      "coupling_score": 3,
+      "total_complexity": 23
+    },
+    "java-test-driven-development.md": {
+      "structural_complexity": {
+        "thinking_blocks": 8,
+        "xml_sections": 6,
+        "code_blocks": 15,
+        "mcp_integrations": 1,
+        "nested_levels": 3
+      },
+      "cognitive_load": 7,
+      "maintenance_burden": 6,
+      "abstraction_penalty": 3,
+      "coupling_score": 4,
+      "total_complexity": 26
+    },
+    "java-clean-code-generator.md": {
+      "structural_complexity": {
+        "thinking_blocks": 12,
+        "xml_sections": 9,
+        "code_blocks": 20,
+        "mcp_integrations": 2,
+        "nested_levels": 5
+      },
+      "cognitive_load": 10,
+      "maintenance_burden": 9,
+      "abstraction_penalty": 5,
+      "coupling_score": 6,
+      "total_complexity": 48
+    },
+    "generate-thinking-command.md": {
+      "structural_complexity": {
+        "thinking_blocks": 3,
+        "xml_sections": 4,
+        "code_blocks": 3,
+        "mcp_integrations": 1,
+        "nested_levels": 2
+      },
+      "cognitive_load": 4,
+      "maintenance_burden": 3,
+      "abstraction_penalty": 2,
+      "coupling_score": 2,
+      "total_complexity": 13
+    }
   },
-  {
-    "command": "reasoning-wrapper.md",
-    "line_count": 415,
-    "estimated_input_tokens": 5187,
-    "xml_blocks": 38,
-    "thinking_blocks": 7,
-    "mcp_dependencies": 2,
-    "template_variables": 28,
-    "max_nesting_depth": 5,
-    "complexity_score": 6,
-    "estimated_response_time_sec": 9.8,
-    "maintainability_score": 4,
-    "reusability_factor": 0.72
-  },
-  {
-    "command": "java-clean-code-generator.md",
-    "line_count": 818,
-    "estimated_input_tokens": 10225,
-    "xml_blocks": 52,
-    "thinking_blocks": 10,
-    "mcp_dependencies": 1,
-    "template_variables": 42,
-    "max_nesting_depth": 6,
-    "complexity_score": 8,
-    "estimated_response_time_sec": 9.4,
-    "maintainability_score": 2,
-    "reusability_factor": 0.5800000000000001
-  },
-  {
-    "command": "ultrathink-hybrid-mcp.md",
-    "line_count": 535,
-    "estimated_input_tokens": 6687,
-    "xml_blocks": 41,
-    "thinking_blocks": 8,
-    "mcp_dependencies": 8,
-    "template_variables": 38,
-    "max_nesting_depth": 5,
-    "complexity_score": 9,
-    "estimated_response_time_sec": 24.2,
-    "maintainability_score": 1,
-    "reusability_factor": 0.62
-  },
-  {
-    "command": "adhd-context-switch.md",
-    "line_count": 399,
-    "estimated_input_tokens": 4987,
-    "xml_blocks": 25,
-    "thinking_blocks": 5,
-    "mcp_dependencies": 3,
-    "template_variables": 65,
-    "max_nesting_depth": 4,
-    "complexity_score": 6,
-    "estimated_response_time_sec": 11.8,
-    "maintainability_score": 4,
-    "reusability_factor": 0.35
+  "statistics": {
+    "mean_complexity": 29.4,
+    "stdev_complexity": 12.043255373859678,
+    "complexity_range": [
+      13,
+      48
+    ]
   }
-]
+}

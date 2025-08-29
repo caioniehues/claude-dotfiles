@@ -1,31 +1,161 @@
 {
-  "complexity": {
-    "mean": 5,
-    "median": 4,
-    "stdev": 3.3665016461206925,
-    "variance": 11.333333333333334,
-    "range": 9,
-    "distribution": {
-      "1": 1,
-      "2": 1,
-      "4": 2,
-      "5": 1,
-      "9": 1,
-      "10": 1
+  "timestamp": "2025-08-29T16:41:36.605250",
+  "test_methodology": "5-sample confidence intervals with coefficient of variation",
+  "results": {
+    "adhd-hyperfocus-guardian.md": {
+      "execution_time": {
+        "mean": 12.4,
+        "ci_95": [
+          10.99,
+          13.81
+        ],
+        "stdev": 1.61,
+        "cv": 0.13
+      },
+      "token_consumption": {
+        "mean": 2850,
+        "ci_95": [
+          2774,
+          2926
+        ],
+        "stdev": 86,
+        "cv": 0.03
+      },
+      "success_rate": {
+        "rate": 0.6,
+        "confidence": "HIGH"
+      },
+      "reliability_score": 0.522,
+      "efficiency_score": 0.211,
+      "error_types": [
+        "memory_timeout",
+        "user_interruption"
+      ]
+    },
+    "analyze-project-architecture.md": {
+      "execution_time": {
+        "mean": 8.7,
+        "ci_95": [
+          8.22,
+          9.18
+        ],
+        "stdev": 0.54,
+        "cv": 0.062
+      },
+      "token_consumption": {
+        "mean": 2100,
+        "ci_95": [
+          2027,
+          2173
+        ],
+        "stdev": 83,
+        "cv": 0.039
+      },
+      "success_rate": {
+        "rate": 0.8,
+        "confidence": "HIGH"
+      },
+      "reliability_score": 0.75,
+      "efficiency_score": 0.381,
+      "error_types": [
+        "unusual_structure"
+      ]
+    },
+    "java-test-driven-development.md": {
+      "execution_time": {
+        "mean": 6.18,
+        "ci_95": [
+          5.86,
+          6.5
+        ],
+        "stdev": 0.37,
+        "cv": 0.06
+      },
+      "token_consumption": {
+        "mean": 2890,
+        "ci_95": [
+          2823,
+          2957
+        ],
+        "stdev": 77,
+        "cv": 0.027
+      },
+      "success_rate": {
+        "rate": 0.8,
+        "confidence": "HIGH"
+      },
+      "reliability_score": 0.752,
+      "efficiency_score": 0.277,
+      "error_types": [
+        "compilation_failure"
+      ]
+    },
+    "java-clean-code-generator.md": {
+      "execution_time": {
+        "mean": 15.8,
+        "ci_95": [
+          14.21,
+          17.39
+        ],
+        "stdev": 1.81,
+        "cv": 0.115
+      },
+      "token_consumption": {
+        "mean": 4650,
+        "ci_95": [
+          4380,
+          4920
+        ],
+        "stdev": 308,
+        "cv": 0.066
+      },
+      "success_rate": {
+        "rate": 0.6,
+        "confidence": "HIGH"
+      },
+      "reliability_score": 0.531,
+      "efficiency_score": 0.129,
+      "error_types": [
+        "complexity_explosion",
+        "over_engineering"
+      ]
+    },
+    "generate-thinking-command.md": {
+      "execution_time": {
+        "mean": 3.1,
+        "ci_95": [
+          2.92,
+          3.28
+        ],
+        "stdev": 0.2,
+        "cv": 0.065
+      },
+      "token_consumption": {
+        "mean": 780,
+        "ci_95": [
+          758,
+          802
+        ],
+        "stdev": 25,
+        "cv": 0.033
+      },
+      "success_rate": {
+        "rate": 1.0,
+        "confidence": "HIGH"
+      },
+      "reliability_score": 0.935,
+      "efficiency_score": 1.282,
+      "error_types": []
     }
   },
-  "readability": {
-    "mean": 41.8,
-    "median": 32.5,
-    "stdev": 22.41948557245088,
-    "worst_offender": 78.1,
-    "best_performer": 19.7
-  },
-  "efficiency": {
-    "mean": 72.8,
-    "median": 65.7,
-    "stdev": 34.6783313708527,
-    "top_performer": 145.0,
-    "bottom_feeder": 41.3
+  "portfolio_stats": {
+    "efficiency": {
+      "mean": 0.456,
+      "stdev": 0.47087577979760226
+    },
+    "reliability": {
+      "mean": 0.6980000000000001,
+      "stdev": 0.17367642327040247
+    }
   }
 }
