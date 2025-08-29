@@ -1,0 +1,104 @@
+{
+  "timestamp": "2025-08-29T10:04:33.512629",
+  "analysis_results": {
+    "adaptive-complexity-router.md": {
+      "complexity_score": 10,
+      "readability_penalty": 78.1,
+      "efficiency_score": 41.3,
+      "verdict": "GARBAGE",
+      "raw_data": {
+        "lines": 499,
+        "tokens_estimated": 3000,
+        "xml_blocks": 15,
+        "thinking_blocks": 12,
+        "mcp_calls": 3,
+        "orchestration_mentions": 8
+      }
+    },
+    "java-rapid-implementation.md": {
+      "complexity_score": 2,
+      "readability_penalty": 68.2,
+      "efficiency_score": 81.2,
+      "verdict": "ACCEPTABLE",
+      "raw_data": {
+        "lines": 249,
+        "tokens_estimated": 1600,
+        "xml_blocks": 8,
+        "thinking_blocks": 15,
+        "mcp_calls": 2,
+        "orchestration_mentions": 2
+      }
+    },
+    "git-backup-sync.md": {
+      "complexity_score": 9,
+      "readability_penalty": 38.2,
+      "efficiency_score": 61.2,
+      "verdict": "GARBAGE",
+      "raw_data": {
+        "lines": 531,
+        "tokens_estimated": 3200,
+        "xml_blocks": 6,
+        "thinking_blocks": 18,
+        "mcp_calls": 4,
+        "orchestration_mentions": 6
+      }
+    },
+    "java-test-driven-development.md": {
+      "complexity_score": 4,
+      "readability_penalty": 24.1,
+      "efficiency_score": 65.7,
+      "verdict": "TOLERABLE",
+      "raw_data": {
+        "lines": 459,
+        "tokens_estimated": 2800,
+        "xml_blocks": 4,
+        "thinking_blocks": 12,
+        "mcp_calls": 1,
+        "orchestration_mentions": 1
+      }
+    },
+    "adhd-task-breakdown.md": {
+      "complexity_score": 5,
+      "readability_penalty": 19.7,
+      "efficiency_score": 45.5,
+      "verdict": "TOLERABLE",
+      "raw_data": {
+        "lines": 365,
+        "tokens_estimated": 2200,
+        "xml_blocks": 3,
+        "thinking_blocks": 0,
+        "mcp_calls": 8,
+        "orchestration_mentions": 0
+      }
+    },
+    "senior-developer-analysis.md": {
+      "complexity_score": 4,
+      "readability_penalty": 32.5,
+      "efficiency_score": 69.7,
+      "verdict": "TOLERABLE",
+      "raw_data": {
+        "lines": 389,
+        "tokens_estimated": 2400,
+        "xml_blocks": 5,
+        "thinking_blocks": 14,
+        "mcp_calls": 1,
+        "orchestration_mentions": 2
+      }
+    },
+    "context-enhanced-executor.md": {
+      "complexity_score": 1,
+      "readability_penalty": 31.8,
+      "efficiency_score": 145.0,
+      "verdict": "ACCEPTABLE",
+      "raw_data": {
+        "lines": 132,
+        "tokens_estimated": 800,
+        "xml_blocks": 2,
+        "thinking_blocks": 4,
+        "mcp_calls": 1,
+        "orchestration_mentions": 1
+      }
+    }
+  },
+  "methodology": "savage-scientific-benchmarking-v1"
+}

@@ -1,0 +1,63 @@
+{
+  "timestamp": "2025-08-29T10:05:28.696898",
+  "total_violations": 14,
+  "average_compliance": 6.0,
+  "commands": {
+    "adaptive-complexity-router.md": {
+      "violations": [
+        "\ud83d\udea8 CRITICAL: Complexity 10/10 violates < 5 rule",
+        "\ud83d\udccf BLOATED: 499 lines (Simple should be < 200)",
+        "\ud83c\udfad OVER-ORCHESTRATED: 8 orchestration mentions",
+        "\ud83d\udcb8 TOKEN WASTE: 3000 estimated tokens",
+        "\ud83d\udd27 XML HELL: 15 XML blocks"
+      ],
+      "violation_count": 5,
+      "compliance_score": 0
+    },
+    "java-rapid-implementation.md": {
+      "violations": [],
+      "violation_count": 0,
+      "compliance_score": 10
+    },
+    "git-backup-sync.md": {
+      "violations": [
+        "\ud83d\udea8 CRITICAL: Complexity 9/10 violates < 5 rule",
+        "\ud83d\udccf BLOATED: 531 lines (Simple should be < 200)",
+        "\ud83c\udfad OVER-ORCHESTRATED: 6 orchestration mentions",
+        "\ud83d\udcb8 TOKEN WASTE: 3200 estimated tokens"
+      ],
+      "violation_count": 4,
+      "compliance_score": 2
+    },
+    "java-test-driven-development.md": {
+      "violations": [
+        "\ud83d\udccf BLOATED: 459 lines (Simple should be < 200)",
+        "\ud83d\udcb8 TOKEN WASTE: 2800 estimated tokens"
+      ],
+      "violation_count": 2,
+      "compliance_score": 6
+    },
+    "adhd-task-breakdown.md": {
+      "violations": [
+        "\ud83d\udea8 CRITICAL: Complexity 5/10 violates < 5 rule",
+        "\ud83d\udccf BLOATED: 365 lines (Simple should be < 200)"
+      ],
+      "violation_count": 2,
+      "compliance_score": 6
+    },
+    "senior-developer-analysis.md": {
+      "violations": [
+        "\ud83d\udccf BLOATED: 389 lines (Simple should be < 200)"
+      ],
+      "violation_count": 1,
+      "compliance_score": 8
+    },
+    "context-enhanced-executor.md": {
+      "violations": [],
+      "violation_count": 0,
+      "compliance_score": 10
+    }
+  },
+  "worst_offender": "adaptive-complexity-router.md",
+  "best_performer": "java-rapid-implementation.md"
+}
