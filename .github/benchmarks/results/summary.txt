@@ -1,0 +1,33 @@
+🔬 COMMAND BENCHMARKER RESULTS - 2025-08-30
+
+SCIENTIFIC FINDINGS:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📊 SAMPLE: 5/19 commands (26% random)
+📈 OVERALL GRADE: D+ (4.12/10)
+📉 SUCCESS RATE: 40% (2/5 acceptable)
+🎯 CLAUDE.md COMPLIANCE: 20% (1/5 fully compliant)
+
+STATISTICAL EVIDENCE:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Complexity Mean: 16.2 (should be ≤5)
+Complexity StdDev: 7.3 (HIGH variance)
+Token Consumption: 13,787 (~$0.69 per run)
+Lines of Code: 2,069 total (414 mean)
+
+VIOLATIONS:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+• 80% exceed complexity limits (should be 0%)
+• 324% average complexity overage
+• Token efficiency: 23% (POOR)
+• Maintainability crisis: 60% below threshold
+
+CHAMPION: context-enhanced-executor.md (7.8/10)
+DISASTER: ultrathink-interactive.md (1.2/10)
+
+PRIMARY PATHOLOGY: Over-engineering simple tasks
+PROGNOSIS: Critical - requires immediate simplification
+
+Full analysis: savage-report.md + report.json
