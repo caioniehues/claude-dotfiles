@@ -1,0 +1,295 @@
+{
+  "benchmark_metadata": {
+    "timestamp": "20250830-130818",
+    "total_commands_tested": 7,
+    "total_samples": 35,
+    "framework_version": "1.0"
+  },
+  "aggregate_statistics": {
+    "average_success_rate": 0.37142857142857144,
+    "average_savage_score": 0.2857142857142855,
+    "total_estimated_cost": 2.36191,
+    "compliance_rate": 0.0
+  },
+  "savage_rankings": [
+    {
+      "rank": 1,
+      "command_name": "reasoning-wrapper",
+      "savage_score": 0.9999999999999991,
+      "judgment": "\ud83d\udc80 reasoning-wrapper is a disaster. 60.0% success rate with 15.0s execution time. Delete this.",
+      "key_metrics": {
+        "success_rate": 0.6,
+        "avg_execution_time": 15.043692189627329,
+        "complexity_score": 8,
+        "total_tokens": 26707
+      }
+    },
+    {
+      "rank": 2,
+      "command_name": "adhd-hyperfocus-guardian",
+      "savage_score": 0.9999999999999991,
+      "judgment": "\ud83d\udc80 adhd-hyperfocus-guardian is a disaster. 60.0% success rate with 15.5s execution time. Delete this.",
+      "key_metrics": {
+        "success_rate": 0.6,
+        "avg_execution_time": 15.522415777697992,
+        "complexity_score": 5,
+        "total_tokens": 33945
+      }
+    },
+    {
+      "rank": 3,
+      "command_name": "adaptive-complexity-router",
+      "savage_score": 0.0,
+      "judgment": "\ud83d\udc80 adaptive-complexity-router is a disaster. 20.0% success rate with 16.3s execution time. Delete this.",
+      "key_metrics": {
+        "success_rate": 0.2,
+        "avg_execution_time": 16.25950808030584,
+        "complexity_score": 8,
+        "total_tokens": 26021
+      }
+    },
+    {
+      "rank": 4,
+      "command_name": "adhd-task-breakdown",
+      "savage_score": 0.0,
+      "judgment": "\ud83d\udc80 adhd-task-breakdown is a disaster. 40.0% success rate with 13.9s execution time. Delete this.",
+      "key_metrics": {
+        "success_rate": 0.4,
+        "avg_execution_time": 13.878158634694001,
+        "complexity_score": 5,
+        "total_tokens": 29848
+      }
+    },
+    {
+      "rank": 5,
+      "command_name": "analyze-project-architecture",
+      "savage_score": 0.0,
+      "judgment": "\ud83d\udc80 analyze-project-architecture is a disaster. 0.0% success rate with 14.3s execution time. Delete this.",
+      "key_metrics": {
+        "success_rate": 0.0,
+        "avg_execution_time": 14.293056711294684,
+        "complexity_score": 8,
+        "total_tokens": 24592
+      }
+    },
+    {
+      "rank": 6,
+      "command_name": "ultrathink-interactive",
+      "savage_score": 0.0,
+      "judgment": "\ud83d\udc80 ultrathink-interactive is a disaster. 40.0% success rate with 24.0s execution time. Delete this.",
+      "key_metrics": {
+        "success_rate": 0.4,
+        "avg_execution_time": 23.95132168192443,
+        "complexity_score": 5,
+        "total_tokens": 61596
+      }
+    },
+    {
+      "rank": 7,
+      "command_name": "intelligent-code-enhancer",
+      "savage_score": 0.0,
+      "judgment": "\ud83d\udc80 intelligent-code-enhancer is a disaster. 40.0% success rate with 16.4s execution time. Delete this.",
+      "key_metrics": {
+        "success_rate": 0.4,
+        "avg_execution_time": 16.369868397916047,
+        "complexity_score": 8,
+        "total_tokens": 33482
+      }
+    }
+  ],
+  "detailed_results": [
+    {
+      "command_name": "reasoning-wrapper",
+      "sample_size": 5,
+      "execution_times": [
+        15.00068971592446,
+        14.966415306465342,
+        15.039539234862996,
+        15.055221520425686,
+        15.15659517045816
+      ],
+      "mean_execution_time": 15.043692189627329,
+      "std_dev": 0.07196906453160457,
+      "success_rate": 0.6,
+      "total_tokens": 26707,
+      "avg_complexity": 8,
+      "cost_estimate": 0.26707000000000003,
+      "savage_score": 0.9999999999999991,
+      "judgment": "\ud83d\udc80 reasoning-wrapper is a disaster. 60.0% success rate with 15.0s execution time. Delete this.",
+      "recommendations": [
+        "REDUCE COMPLEXITY: Score 8.0 violates CLAUDE.md rule (max 5)",
+        "FIX RELIABILITY: 60.0% success rate is unacceptable",
+        "OPTIMIZE PERFORMANCE: 15.0s execution time is too slow",
+        "MAJOR REFACTOR NEEDED: Multiple critical issues detected"
+      ]
+    },
+    {
+      "command_name": "adhd-hyperfocus-guardian",
+      "sample_size": 5,
+      "execution_times": [
+        15.453777208866041,
+        15.68483501262737,
+        15.431016833561356,
+        15.491308247377336,
+        15.551141586057858
+      ],
+      "mean_execution_time": 15.522415777697992,
+      "std_dev": 0.10153555843177947,
+      "success_rate": 0.6,
+      "total_tokens": 33945,
+      "avg_complexity": 5,
+      "cost_estimate": 0.33945000000000003,
+      "savage_score": 0.9999999999999991,
+      "judgment": "\ud83d\udc80 adhd-hyperfocus-guardian is a disaster. 60.0% success rate with 15.5s execution time. Delete this.",
+      "recommendations": [
+        "REDUCE COMPLEXITY: Score 5.0 violates CLAUDE.md rule (max 5)",
+        "FIX RELIABILITY: 60.0% success rate is unacceptable",
+        "OPTIMIZE PERFORMANCE: 15.5s execution time is too slow",
+        "MAJOR REFACTOR NEEDED: Multiple critical issues detected"
+      ]
+    },
+    {
+      "command_name": "adaptive-complexity-router",
+      "sample_size": 5,
+      "execution_times": [
+        16.294635789763603,
+        16.21441490877212,
+        16.22994492255759,
+        16.28734040015217,
+        16.271204380283706
+      ],
+      "mean_execution_time": 16.25950808030584,
+      "std_dev": 0.0355414259982882,
+      "success_rate": 0.2,
+      "total_tokens": 26021,
+      "avg_complexity": 8,
+      "cost_estimate": 0.26021,
+      "savage_score": 0.0,
+      "judgment": "\ud83d\udc80 adaptive-complexity-router is a disaster. 20.0% success rate with 16.3s execution time. Delete this.",
+      "recommendations": [
+        "REDUCE COMPLEXITY: Score 8.0 violates CLAUDE.md rule (max 5)",
+        "FIX RELIABILITY: 20.0% success rate is unacceptable",
+        "OPTIMIZE PERFORMANCE: 16.3s execution time is too slow",
+        "MAJOR REFACTOR NEEDED: Multiple critical issues detected"
+      ]
+    },
+    {
+      "command_name": "adhd-task-breakdown",
+      "sample_size": 5,
+      "execution_times": [
+        13.771135888928594,
+        13.820622060034328,
+        13.78384186099651,
+        14.022986931209857,
+        13.99220643230072
+      ],
+      "mean_execution_time": 13.878158634694001,
+      "std_dev": 0.12004386171944242,
+      "success_rate": 0.4,
+      "total_tokens": 29848,
+      "avg_complexity": 5,
+      "cost_estimate": 0.29848,
+      "savage_score": 0.0,
+      "judgment": "\ud83d\udc80 adhd-task-breakdown is a disaster. 40.0% success rate with 13.9s execution time. Delete this.",
+      "recommendations": [
+        "REDUCE COMPLEXITY: Score 5.0 violates CLAUDE.md rule (max 5)",
+        "FIX RELIABILITY: 40.0% success rate is unacceptable",
+        "OPTIMIZE PERFORMANCE: 13.9s execution time is too slow",
+        "MAJOR REFACTOR NEEDED: Multiple critical issues detected"
+      ]
+    },
+    {
+      "command_name": "analyze-project-architecture",
+      "sample_size": 5,
+      "execution_times": [
+        14.301942305746955,
+        14.227815216844022,
+        14.30885777164107,
+        14.277832311684048,
+        14.348835950557323
+      ],
+      "mean_execution_time": 14.293056711294684,
+      "std_dev": 0.044520180174891684,
+      "success_rate": 0.0,
+      "total_tokens": 24592,
+      "avg_complexity": 8,
+      "cost_estimate": 0.24592000000000003,
+      "savage_score": 0.0,
+      "judgment": "\ud83d\udc80 analyze-project-architecture is a disaster. 0.0% success rate with 14.3s execution time. Delete this.",
+      "recommendations": [
+        "REDUCE COMPLEXITY: Score 8.0 violates CLAUDE.md rule (max 5)",
+        "FIX RELIABILITY: 0.0% success rate is unacceptable",
+        "OPTIMIZE PERFORMANCE: 14.3s execution time is too slow",
+        "MAJOR REFACTOR NEEDED: Multiple critical issues detected"
+      ]
+    },
+    {
+      "command_name": "ultrathink-interactive",
+      "sample_size": 5,
+      "execution_times": [
+        24.06145721625258,
+        23.97043118251851,
+        23.675564792645442,
+        24.071360914867533,
+        23.977794303338083
+      ],
+      "mean_execution_time": 23.95132168192443,
+      "std_dev": 0.16097133910234268,
+      "success_rate": 0.4,
+      "total_tokens": 61596,
+      "avg_complexity": 5,
+      "cost_estimate": 0.6159600000000001,
+      "savage_score": 0.0,
+      "judgment": "\ud83d\udc80 ultrathink-interactive is a disaster. 40.0% success rate with 24.0s execution time. Delete this.",
+      "recommendations": [
+        "REDUCE COMPLEXITY: Score 5.0 violates CLAUDE.md rule (max 5)",
+        "FIX RELIABILITY: 40.0% success rate is unacceptable",
+        "OPTIMIZE PERFORMANCE: 24.0s execution time is too slow",
+        "MAJOR REFACTOR NEEDED: Multiple critical issues detected"
+      ]
+    },
+    {
+      "command_name": "intelligent-code-enhancer",
+      "sample_size": 5,
+      "execution_times": [
+        16.22672826323808,
+        16.448445875064515,
+        16.22578448043603,
+        16.54013855562326,
+        16.40824481521836
+      ],
+      "mean_execution_time": 16.369868397916047,
+      "std_dev": 0.13954243920545542,
+      "success_rate": 0.4,
+      "total_tokens": 33482,
+      "avg_complexity": 8,
+      "cost_estimate": 0.33482,
+      "savage_score": 0.0,
+      "judgment": "\ud83d\udc80 intelligent-code-enhancer is a disaster. 40.0% success rate with 16.4s execution time. Delete this.",
+      "recommendations": [
+        "REDUCE COMPLEXITY: Score 8.0 violates CLAUDE.md rule (max 5)",
+        "FIX RELIABILITY: 40.0% success rate is unacceptable",
+        "OPTIMIZE PERFORMANCE: 16.4s execution time is too slow",
+        "MAJOR REFACTOR NEEDED: Multiple critical issues detected"
+      ]
+    }
+  ],
+  "critical_issues": [
+    "adaptive-complexity-router",
+    "adhd-task-breakdown",
+    "reasoning-wrapper",
+    "analyze-project-architecture",
+    "ultrathink-interactive",
+    "intelligent-code-enhancer",
+    "adhd-hyperfocus-guardian"
+  ],
+  "compliance_violations": [
+    "adaptive-complexity-router",
+    "adhd-task-breakdown",
+    "reasoning-wrapper",
+    "analyze-project-architecture",
+    "ultrathink-interactive",
+    "intelligent-code-enhancer",
+    "adhd-hyperfocus-guardian"
+  ]
+}
