@@ -1,0 +1,429 @@
+{
+  "metadata": {
+    "timestamp": "2025-08-30T16:37:23.240320",
+    "total_commands": 24,
+    "sampled_commands": 8,
+    "sample_size": 8,
+    "selection_method": "random_with_seed"
+  },
+  "benchmarks": [
+    {
+      "metrics": {
+        "command_name": "senior-developer-analysis.md",
+        "execution_time_ms": [
+          0.22791299997493297,
+          0.18644700000436387,
+          0.17046699997536052,
+          0.14831499998990694,
+          0.17092799998863484
+        ],
+        "token_consumption": {
+          "estimated_input": 2042,
+          "estimated_output": 1429
+        },
+        "success_rate": 0.1,
+        "complexity_score": 34,
+        "error_patterns": [
+          "Complexity overload - score exceeds Vegas odds",
+          "Wall of text - TL;DR syndrome"
+        ],
+        "memory_usage_kb": 14,
+        "composition_compatibility": {
+          "can_chain": true,
+          "has_input_params": true,
+          "is_stateless": false,
+          "follows_conventions": true,
+          "has_error_handling": true,
+          "memory_safe": true
+        },
+        "variance_statistics": {
+          "mean": 0.181,
+          "std_dev": 0.03,
+          "variance": 0.001,
+          "cv": 16.39,
+          "min": 0.14831499998990694,
+          "max": 0.22791299997493297,
+          "median": 0.17092799998863484
+        }
+      },
+      "savage_judgment": "Execution time CV 16.39% - inconsistent like your git commits | Complexity score 34 - this isn't enterprise architecture, it's command suicide | Success rate 10.0% - worse reliability than Windows ME | Composition compatibility 83.3% - team player detected",
+      "recommendations": [
+        "SIMPLIFY: Reduce complexity score below 5 per CLAUDE.md rules",
+        "RELIABILITY: Add error handling and validation",
+        "EFFICIENCY: Reduce token consumption for better performance"
+      ]
+    },
+    {
+      "metrics": {
+        "command_name": "java-clean-code-generator.md",
+        "execution_time_ms": [
+          0.26022400001579626,
+          0.2618860000040968,
+          0.25353200001632104,
+          0.26075499999933527,
+          0.2489529999820661
+        ],
+        "token_consumption": {
+          "estimated_input": 4032,
+          "estimated_output": 2822
+        },
+        "success_rate": 0.1,
+        "complexity_score": 153,
+        "error_patterns": [
+          "Complexity overload - score exceeds Vegas odds",
+          "Wall of text - TL;DR syndrome"
+        ],
+        "memory_usage_kb": 25,
+        "composition_compatibility": {
+          "can_chain": true,
+          "has_input_params": false,
+          "is_stateless": false,
+          "follows_conventions": true,
+          "has_error_handling": true,
+          "memory_safe": true
+        },
+        "variance_statistics": {
+          "mean": 0.257,
+          "std_dev": 0.006,
+          "variance": 0.0,
+          "cv": 2.18,
+          "min": 0.2489529999820661,
+          "max": 0.2618860000040968,
+          "median": 0.26022400001579626
+        }
+      },
+      "savage_judgment": "Execution time CV 2.18% - surprisingly stable | Complexity score 153 - this isn't enterprise architecture, it's command suicide | Success rate 10.0% - worse reliability than Windows ME | Composition compatibility 66.7% - somewhat social, needs improvement",
+      "recommendations": [
+        "SIMPLIFY: Reduce complexity score below 5 per CLAUDE.md rules",
+        "RELIABILITY: Add error handling and validation",
+        "EFFICIENCY: Reduce token consumption for better performance"
+      ]
+    },
+    {
+      "metrics": {
+        "command_name": "adhd-hyperfocus-guardian.md",
+        "execution_time_ms": [
+          0.15017900000202644,
+          0.14790399998787507,
+          0.14210400001957169,
+          0.13646400000766334,
+          0.13299699998015058
+        ],
+        "token_consumption": {
+          "estimated_input": 1982,
+          "estimated_output": 1387
+        },
+        "success_rate": 0.3,
+        "complexity_score": 13,
+        "error_patterns": [
+          "Complexity overload - score exceeds Vegas odds",
+          "No error handling - fails silently like a ninja",
+          "Wall of text - TL;DR syndrome"
+        ],
+        "memory_usage_kb": 12,
+        "composition_compatibility": {
+          "can_chain": true,
+          "has_input_params": true,
+          "is_stateless": false,
+          "follows_conventions": true,
+          "has_error_handling": false,
+          "memory_safe": true
+        },
+        "variance_statistics": {
+          "mean": 0.142,
+          "std_dev": 0.007,
+          "variance": 0.0,
+          "cv": 5.15,
+          "min": 0.13299699998015058,
+          "max": 0.15017900000202644,
+          "median": 0.14210400001957169
+        }
+      },
+      "savage_judgment": "Execution time CV 5.15% - surprisingly stable | Complexity score 13 - this isn't enterprise architecture, it's command suicide | Success rate 30.0% - worse reliability than Windows ME | Composition compatibility 66.7% - somewhat social, needs improvement",
+      "recommendations": [
+        "SIMPLIFY: Reduce complexity score below 5 per CLAUDE.md rules",
+        "RELIABILITY: Add error handling and validation"
+      ]
+    },
+    {
+      "metrics": {
+        "command_name": "intelligent-refactor-session.md",
+        "execution_time_ms": [
+          0.17305199997963427,
+          0.1743239999996149,
+          0.16588900001579532,
+          0.18039499997257735,
+          0.1630729999817504
+        ],
+        "token_consumption": {
+          "estimated_input": 2662,
+          "estimated_output": 1863
+        },
+        "success_rate": 0.1,
+        "complexity_score": 32,
+        "error_patterns": [
+          "Complexity overload - score exceeds Vegas odds",
+          "Wall of text - TL;DR syndrome"
+        ],
+        "memory_usage_kb": 17,
+        "composition_compatibility": {
+          "can_chain": true,
+          "has_input_params": true,
+          "is_stateless": false,
+          "follows_conventions": true,
+          "has_error_handling": true,
+          "memory_safe": false
+        },
+        "variance_statistics": {
+          "mean": 0.171,
+          "std_dev": 0.007,
+          "variance": 0.0,
+          "cv": 4.04,
+          "min": 0.1630729999817504,
+          "max": 0.18039499997257735,
+          "median": 0.17305199997963427
+        }
+      },
+      "savage_judgment": "Execution time CV 4.04% - surprisingly stable | Complexity score 32 - this isn't enterprise architecture, it's command suicide | Success rate 10.0% - worse reliability than Windows ME | Composition compatibility 66.7% - somewhat social, needs improvement",
+      "recommendations": [
+        "SIMPLIFY: Reduce complexity score below 5 per CLAUDE.md rules",
+        "RELIABILITY: Add error handling and validation",
+        "EFFICIENCY: Reduce token consumption for better performance"
+      ]
+    },
+    {
+      "metrics": {
+        "command_name": "analyze-project-architecture.md",
+        "execution_time_ms": [
+          0.11086599999998725,
+          0.10183900002402879,
+          0.09921400001644542,
+          0.09338299997807553,
+          0.09377499998208805
+        ],
+        "token_consumption": {
+          "estimated_input": 1557,
+          "estimated_output": 1090
+        },
+        "success_rate": 0.1,
+        "complexity_score": 34,
+        "error_patterns": [
+          "Complexity overload - score exceeds Vegas odds",
+          "Wall of text - TL;DR syndrome"
+        ],
+        "memory_usage_kb": 9,
+        "composition_compatibility": {
+          "can_chain": true,
+          "has_input_params": false,
+          "is_stateless": false,
+          "follows_conventions": true,
+          "has_error_handling": true,
+          "memory_safe": true
+        },
+        "variance_statistics": {
+          "mean": 0.1,
+          "std_dev": 0.007,
+          "variance": 0.0,
+          "cv": 7.16,
+          "min": 0.09338299997807553,
+          "max": 0.11086599999998725,
+          "median": 0.09921400001644542
+        }
+      },
+      "savage_judgment": "Execution time CV 7.16% - surprisingly stable | Complexity score 34 - this isn't enterprise architecture, it's command suicide | Success rate 10.0% - worse reliability than Windows ME | Composition compatibility 66.7% - somewhat social, needs improvement",
+      "recommendations": [
+        "SIMPLIFY: Reduce complexity score below 5 per CLAUDE.md rules",
+        "RELIABILITY: Add error handling and validation"
+      ]
+    },
+    {
+      "metrics": {
+        "command_name": "git-backup-sync.md",
+        "execution_time_ms": [
+          0.14874699999722907,
+          0.16626899997618239,
+          0.14568099999223705,
+          0.14241400000969406,
+          0.13664400000834576
+        ],
+        "token_consumption": {
+          "estimated_input": 1899,
+          "estimated_output": 1329
+        },
+        "success_rate": 0.1,
+        "complexity_score": 57,
+        "error_patterns": [
+          "Complexity overload - score exceeds Vegas odds",
+          "Wall of text - TL;DR syndrome"
+        ],
+        "memory_usage_kb": 13,
+        "composition_compatibility": {
+          "can_chain": true,
+          "has_input_params": true,
+          "is_stateless": false,
+          "follows_conventions": true,
+          "has_error_handling": true,
+          "memory_safe": true
+        },
+        "variance_statistics": {
+          "mean": 0.148,
+          "std_dev": 0.011,
+          "variance": 0.0,
+          "cv": 7.56,
+          "min": 0.13664400000834576,
+          "max": 0.16626899997618239,
+          "median": 0.14568099999223705
+        }
+      },
+      "savage_judgment": "Execution time CV 7.56% - surprisingly stable | Complexity score 57 - this isn't enterprise architecture, it's command suicide | Success rate 10.0% - worse reliability than Windows ME | Composition compatibility 83.3% - team player detected",
+      "recommendations": [
+        "SIMPLIFY: Reduce complexity score below 5 per CLAUDE.md rules",
+        "RELIABILITY: Add error handling and validation"
+      ]
+    },
+    {
+      "metrics": {
+        "command_name": "adhd-task-breakdown.md",
+        "execution_time_ms": [
+          0.1455200000179957,
+          0.12518200000499746,
+          0.13112400000636626,
+          0.11249799999291099,
+          0.11291000001278917
+        ],
+        "token_consumption": {
+          "estimated_input": 1643,
+          "estimated_output": 1150
+        },
+        "success_rate": 0.8,
+        "complexity_score": 3,
+        "error_patterns": [
+          "Wall of text - TL;DR syndrome"
+        ],
+        "memory_usage_kb": 11,
+        "composition_compatibility": {
+          "can_chain": true,
+          "has_input_params": true,
+          "is_stateless": false,
+          "follows_conventions": true,
+          "has_error_handling": true,
+          "memory_safe": true
+        },
+        "variance_statistics": {
+          "mean": 0.125,
+          "std_dev": 0.014,
+          "variance": 0.0,
+          "cv": 10.99,
+          "min": 0.11249799999291099,
+          "max": 0.1455200000179957,
+          "median": 0.12518200000499746
+        }
+      },
+      "savage_judgment": "Execution time CV 10.99% - surprisingly stable | Complexity score 3 - finally, someone who read the manual | Success rate 80.0% - mediocre like most code reviews | Composition compatibility 83.3% - team player detected",
+      "recommendations": []
+    },
+    {
+      "metrics": {
+        "command_name": "ultrathink-hybrid-mcp.md",
+        "execution_time_ms": [
+          0.1929580000137321,
+          0.18556499998112486,
+          0.15964699997539356,
+          0.16371399999570713,
+          0.17743999998742765
+        ],
+        "token_consumption": {
+          "estimated_input": 2132,
+          "estimated_output": 1492
+        },
+        "success_rate": 0.15,
+        "complexity_score": 16,
+        "error_patterns": [
+          "Complexity overload - score exceeds Vegas odds",
+          "Wall of text - TL;DR syndrome"
+        ],
+        "memory_usage_kb": 14,
+        "composition_compatibility": {
+          "can_chain": true,
+          "has_input_params": false,
+          "is_stateless": false,
+          "follows_conventions": true,
+          "has_error_handling": true,
+          "memory_safe": true
+        },
+        "variance_statistics": {
+          "mean": 0.176,
+          "std_dev": 0.014,
+          "variance": 0.0,
+          "cv": 8.04,
+          "min": 0.15964699997539356,
+          "max": 0.1929580000137321,
+          "median": 0.17743999998742765
+        }
+      },
+      "savage_judgment": "Execution time CV 8.04% - surprisingly stable | Complexity score 16 - this isn't enterprise architecture, it's command suicide | Success rate 15.0% - worse reliability than Windows ME | Composition compatibility 66.7% - somewhat social, needs improvement",
+      "recommendations": [
+        "SIMPLIFY: Reduce complexity score below 5 per CLAUDE.md rules",
+        "RELIABILITY: Add error handling and validation",
+        "EFFICIENCY: Reduce token consumption for better performance"
+      ]
+    }
+  ],
+  "summary_statistics": {
+    "complexity": {
+      "mean": 42.75,
+      "median": 33.0,
+      "max": 153,
+      "violations": 7
+    },
+    "performance": {
+      "mean_execution_time": 0.1625,
+      "fastest": 0.1,
+      "slowest": 0.257
+    },
+    "reliability": {
+      "mean_success_rate": 0.21875,
+      "failures": 7
+    }
+  },
+  "savage_rankings": {
+    "best_performers": [
+      [
+        "adhd-task-breakdown.md",
+        9.932333333333334
+      ],
+      [
+        "adhd-hyperfocus-guardian.md",
+        35.181666666666665
+      ],
+      [
+        "ultrathink-hybrid-mcp.md",
+        42.970666666666666
+      ]
+    ],
+    "worst_performers": [
+      [
+        "senior-developer-analysis.md",
+        79.47233333333332
+      ],
+      [
+        "git-backup-sync.md",
+        124.58933333333333
+      ],
+      [
+        "java-clean-code-generator.md",
+        316.8846666666667
+      ]
+    ],
+    "hall_of_shame": [
+      "adhd-hyperfocus-guardian.md",
+      "ultrathink-hybrid-mcp.md",
+      "intelligent-refactor-session.md",
+      "analyze-project-architecture.md",
+      "senior-developer-analysis.md",
+      "git-backup-sync.md",
+      "java-clean-code-generator.md"
+    ],
+    "hall_of_fame": []
+  }
+}
