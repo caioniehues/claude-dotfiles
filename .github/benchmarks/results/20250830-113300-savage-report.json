@@ -1,0 +1,171 @@
+{
+  "metadata": {
+    "timestamp": "2025-08-30T11:33:00.756633",
+    "analysis_duration": 0.05,
+    "framework_version": "2.0-savage"
+  },
+  "summary": {
+    "total_commands": 5,
+    "avg_success_rate": 66.7,
+    "success_std_dev": 23.6,
+    "avg_complexity": 22.1,
+    "complexity_violations": 5,
+    "avg_readability": 10.0,
+    "avg_compliance": 75.0,
+    "quality_failures": 0
+  },
+  "rankings": {
+    "most_reliable": [
+      "adhd-context-switch",
+      "intelligent-code-enhancer",
+      "ultrathink-full-mcp"
+    ],
+    "least_reliable": [
+      "ultrathink-full-mcp",
+      "ultrathink-interactive",
+      "java-test-driven-development"
+    ],
+    "simplest": [
+      "ultrathink-interactive",
+      "adhd-context-switch",
+      "ultrathink-full-mcp"
+    ],
+    "most_complex": [
+      "ultrathink-full-mcp",
+      "java-test-driven-development",
+      "intelligent-code-enhancer"
+    ]
+  },
+  "detailed_results": [
+    {
+      "command": "intelligent-code-enhancer",
+      "metadata": {
+        "size_bytes": 11411,
+        "line_count": 442,
+        "complexity_score": 37.41
+      },
+      "performance": {
+        "mean_time": 1.9367,
+        "std_dev": 0.3263,
+        "success_rate": 66.7,
+        "execution_times": [
+          1.5618736444860033,
+          2.091245091562787,
+          2.1570561847743805
+        ]
+      },
+      "quality": {
+        "readability_score": 10.0,
+        "maintainability_score": 10.0,
+        "compliance_score": 75.0
+      },
+      "savage_judgment": "'intelligent-code-enhancer' succeeds 66.7% of the time (\u03c3=0.326s). That's not reliable, that's random. Complexity score 37.41 violates CLAUDE.md's sacred <5 rule. This isn't architecture, it's architectural bankruptcy."
+    },
+    {
+      "command": "ultrathink-full-mcp",
+      "metadata": {
+        "size_bytes": 18173,
+        "line_count": 665,
+        "complexity_score": 24.64
+      },
+      "performance": {
+        "mean_time": 1.4714,
+        "std_dev": 0.236,
+        "success_rate": 66.7,
+        "execution_times": [
+          1.4193242405245414,
+          1.265829443175372,
+          1.7291410239580622
+        ]
+      },
+      "quality": {
+        "readability_score": 10.0,
+        "maintainability_score": 10.0,
+        "compliance_score": 75.0
+      },
+      "savage_judgment": "'ultrathink-full-mcp' succeeds 66.7% of the time (\u03c3=0.236s). That's not reliable, that's random. Complexity score 24.64 violates CLAUDE.md's sacred <5 rule. This isn't architecture, it's architectural bankruptcy."
+    },
+    {
+      "command": "ultrathink-interactive",
+      "metadata": {
+        "size_bytes": 23852,
+        "line_count": 673,
+        "complexity_score": 6.72
+      },
+      "performance": {
+        "mean_time": 0.4405,
+        "std_dev": 0.0987,
+        "success_rate": 66.7,
+        "execution_times": [
+          0.3342068245124996,
+          0.5293983301606076,
+          0.4578261773997274
+        ]
+      },
+      "quality": {
+        "readability_score": 10.0,
+        "maintainability_score": 4.0,
+        "compliance_score": 75.0
+      },
+      "savage_judgment": "'ultrathink-interactive' succeeds 66.7% of the time (\u03c3=0.099s). That's not reliable, that's random. Complexity score 6.72 violates CLAUDE.md's sacred <5 rule. This isn't architecture, it's architectural bankruptcy."
+    },
+    {
+      "command": "java-test-driven-development",
+      "metadata": {
+        "size_bytes": 13414,
+        "line_count": 460,
+        "complexity_score": 31.59
+      },
+      "performance": {
+        "mean_time": 1.674,
+        "std_dev": 0.0881,
+        "success_rate": 33.3,
+        "execution_times": [
+          1.6475253898237319,
+          1.7723692032003135,
+          1.6022029404764275
+        ]
+      },
+      "quality": {
+        "readability_score": 10.0,
+        "maintainability_score": 8.0,
+        "compliance_score": 75.0
+      },
+      "savage_judgment": "'java-test-driven-development' succeeds 33.3% of the time (\u03c3=0.088s). That's not reliable, that's random. Complexity score 31.59 violates CLAUDE.md's sacred <5 rule. This isn't architecture, it's architectural bankruptcy."
+    },
+    {
+      "command": "adhd-context-switch",
+      "metadata": {
+        "size_bytes": 9972,
+        "line_count": 399,
+        "complexity_score": 9.98
+      },
+      "performance": {
+        "mean_time": 0.5475,
+        "std_dev": 0.0967,
+        "success_rate": 100.0,
+        "execution_times": [
+          0.4908776994125699,
+          0.6592457438662296,
+          0.4924834458926591
+        ]
+      },
+      "quality": {
+        "readability_score": 10.0,
+        "maintainability_score": 10.0,
+        "compliance_score": 75.0
+      },
+      "savage_judgment": "'adhd-context-switch' actually works 100.0% of the time. Surprisingly competent. Complexity score 9.98 violates CLAUDE.md's sacred <5 rule. This isn't architecture, it's architectural bankruptcy."
+    }
+  ],
+  "savage_conclusions": [
+    "Average 66.7% success rate means your commands are less reliable than a weather forecast.",
+    "5 commands violate complexity<5 rule. Someone needs to re-read CLAUDE.md with comprehension this time.",
+    "Success rate \u03c3=23.6% indicates wildly inconsistent performance. That's not variance, that's chaos."
+  ],
+  "recommendations": [
+    "PRIORITY 1: Simplify 5 overcomplicated commands. Complexity<5 is law.",
+    "PRIORITY 2: Fix 4 unreliable commands before they waste more tokens.",
+    "PRIORITY 3: Improve CLAUDE.md compliance across the board. Standards exist for a reason."
+  ]
+}
