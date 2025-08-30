@@ -1,0 +1,113 @@
+{
+  "meta": {
+    "timestamp": "20250830-133854",
+    "commands_tested": 5,
+    "successful_tests": 5,
+    "framework": "Simple Savage Benchmarker v1.0"
+  },
+  "aggregate": {
+    "average_complexity": 124.1,
+    "average_success_rate": 0.384,
+    "grade_distribution": {
+      "F": 5
+    },
+    "overall_roast": "\ud83d\udc80 STATISTICAL DISASTER: These commands fail more than they succeed."
+  },
+  "detailed_results": {
+    "java-clean-code-generator.md": {
+      "grade": "F",
+      "complexity_score": 212.5,
+      "success_rate": 0.4,
+      "violations": [
+        "Excessive length",
+        "Thinking overload"
+      ],
+      "time_stats": {
+        "mean": 65841.847099949,
+        "median": 65747.21643419644,
+        "std_dev": 588.2233202068052,
+        "cv": 0.008933882418484898,
+        "min": 64945.314803715875,
+        "max": 67321.6867780621
+      },
+      "savage_roast": "Success rate 40.0% - Fails more often than a politician keeps promises. Complexity 212.5/5 - You've built a monument to over-engineering. Performance variance 0.9% - Consistent performance. CLAUDE.md violations: 2 - Can't follow own rules.",
+      "token_estimate": 6280,
+      "thinking_blocks": 39,
+      "mcp_calls": 2
+    },
+    "adaptive-complexity-router.md": {
+      "grade": "F",
+      "complexity_score": 103.0,
+      "success_rate": 0.32,
+      "violations": [],
+      "time_stats": {
+        "mean": 32931.58327854318,
+        "median": 32951.92065383548,
+        "std_dev": 437.119857792289,
+        "cv": 0.013273575524596709,
+        "min": 31898.819627988552,
+        "max": 33757.12036974215
+      },
+      "savage_roast": "Success rate 32.0% - Fails more often than a politician keeps promises. Complexity 103.0/5 - You've built a monument to over-engineering. Performance variance 1.3% - Consistent performance.",
+      "token_estimate": 2796,
+      "thinking_blocks": 2,
+      "mcp_calls": 2
+    },
+    "analyze-project-architecture.md": {
+      "grade": "F",
+      "complexity_score": 117.5,
+      "success_rate": 0.28,
+      "violations": [],
+      "time_stats": {
+        "mean": 37241.59340070764,
+        "median": 37271.41641761582,
+        "std_dev": 454.20537142441935,
+        "cv": 0.012196185231316896,
+        "min": 35952.39706274657,
+        "max": 37973.56111872904
+      },
+      "savage_roast": "Success rate 28.0% - Fails more often than a politician keeps promises. Complexity 117.5/5 - You've built a monument to over-engineering. Performance variance 1.2% - Consistent performance.",
+      "token_estimate": 2303,
+      "thinking_blocks": 1,
+      "mcp_calls": 1
+    },
+    "safe-code-beautifier.md": {
+      "grade": "F",
+      "complexity_score": 101.0,
+      "success_rate": 0.52,
+      "violations": [
+        "Thinking overload"
+      ],
+      "time_stats": {
+        "mean": 32478.512970619722,
+        "median": 32509.552244537106,
+        "std_dev": 363.606524695061,
+        "cv": 0.011195294717587036,
+        "min": 31787.427417401712,
+        "max": 33303.28613985498
+      },
+      "savage_roast": "Success rate 52.0% - Fails more often than a politician keeps promises. Complexity 101.0/5 - You've built a monument to over-engineering. Performance variance 1.1% - Consistent performance. CLAUDE.md violations: 1 - Can't follow own rules.",
+      "token_estimate": 3636,
+      "thinking_blocks": 34,
+      "mcp_calls": 1
+    },
+    "adhd-task-breakdown.md": {
+      "grade": "F",
+      "complexity_score": 86.5,
+      "success_rate": 0.4,
+      "violations": [],
+      "time_stats": {
+        "mean": 27798.37569154619,
+        "median": 27734.23963777611,
+        "std_dev": 413.91918166907715,
+        "cv": 0.014890049197908884,
+        "min": 27028.711853502296,
+        "max": 28605.82553024643
+      },
+      "savage_roast": "Success rate 40.0% - Fails more often than a politician keeps promises. Complexity 86.5/5 - You've built a monument to over-engineering. Performance variance 1.5% - Consistent performance.",
+      "token_estimate": 2611,
+      "thinking_blocks": 0,
+      "mcp_calls": 3
+    }
+  }
+}
